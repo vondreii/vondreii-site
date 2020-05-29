@@ -1,5 +1,5 @@
 /* ****************************** NAVIGATION BAR ****************************** */
-/* Both top and bottom parts of navbar */    
+/* Both top and bottom parts of navbar */    /* Testing */ 
 .navigation {position:fixed;width:100%;z-index:99}
 .navigation a {color:white;padding:15px;font-family:Helvetica,sans-serif;font-size:14pt}
 .navigation a:hover {border-radius:5px;transition:0.7s ease;color:#272727;background-color:rgb(177, 177, 177);text-decoration:none;} 
