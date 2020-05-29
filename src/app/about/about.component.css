@@ -1,0 +1,18 @@
+/* ****************************** COMMON EFFECTS ****************************** */
+/* Parallax effect */
+.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
+
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+
+/* ******************************* COLUMN LAYOUT ******************************* */
+.rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
+.column-4 { flex: 25%; max-width: 25%; padding: 0 4px; }
+.column-4 img { margin-top: 8px; vertical-align: middle; width: 100%; }
+@media screen and (max-width: 1200px) and (min-width: 681px) {.column-4 { flex: 50%; max-width: 50%; }}
+@media screen and (max-width: 680px) {.column-4 { flex: 100%; max-width: 100%; }}
+
+/* ******************************* ABOUT ******************************* */
+.about-content { transition: .5s ease; color: rgba(0,0,0,0.6); background-color: rgb(221, 219, 219); font-size: 13px; text-align: center; padding: 10px 25px 40px 25px;}
+.about-description {text-align:center}

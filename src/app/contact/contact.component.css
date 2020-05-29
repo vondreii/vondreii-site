@@ -1,3 +1,11 @@
+/* ****************************** COMMON EFFECTS ****************************** */
+/* Parallax effect */
+.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
+
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+
 /* ******************************* CONTACT ******************************* */
 /* Contact form design */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);

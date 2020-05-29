@@ -1,0 +1,36 @@
+/* ****************************** COMMON EFFECTS ****************************** */
+/* Parallax effect */
+.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
+
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+
+/* ******************************* COLUMN LAYOUT ******************************* */
+.rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
+.column-3 { flex: 33%; max-width: 33%; padding: 0 4px; }
+.column-3 img { margin-top: 8px; vertical-align: middle; width: 100%; }
+@media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}
+
+/* Card effects for links or previews */
+.card {background-color: white;}
+.card p, .card h3 {padding:20px;}
+
+/* ******************************* PHOTOGRAPHY ******************************* */
+.imageTextCollage { padding: 150px 20px; color:white }
+/* Images for photography list in photography-main */
+.photography-list {text-align:center}
+.photography-list-image { background-size: cover; background-repeat: no-repeat; background-position: center; width: 90%; display: inline-block; }
+.destination-text { color: white; text-align: center; font-size: 10px; background-color: rgba(0,0,0,0.5); font-size: 40px; padding: 100px 42px;}
+/* View more */
+.read-more-container { margin-bottom: 40px; text-align: center}
+.read-more-button { background-color: rgb(39, 60, 80); }
+.read-more-button:hover { background-color: rgb(21, 32, 43); text-decoration: none; color: white;}
+.read-more-button:active { text-decoration: none; color: white; box-shadow: 0 5px rgb(180, 180, 180); transform: translateY(4px); }
+.read-more-button:visited { color: white; text-decoration: none }
+.button {
+    text-decoration: none; display: inline-block; padding: 5px 25px; outline: none; 
+    color: #fff; border: none; border-radius: 5px; box-shadow: 0 5px rgb(180, 180, 180);
+  }
+/* More like this section */
+.more-like-this { height: 750px; background-color:lightgrey; color:grey; font-size:36px }
