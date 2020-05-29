@@ -1,0 +1,48 @@
+/* ****************************** NAVIGATION BAR ****************************** */
+/* Both top and bottom parts of navbar */    
+.navigation {position:fixed;width:100%;z-index:99}
+.navigation a {color:white;padding:15px;font-family:Helvetica,sans-serif;font-size:14pt}
+.navigation a:hover {border-radius:5px;transition:0.7s ease;color:#272727;background-color:rgb(177, 177, 177);text-decoration:none;} 
+
+/* The dark thick top-border */
+#header {overflow:hidden;background-color:#333;opacity:1;border-bottom:1px solid black; top:0;margin-top:-12px}
+
+/* The actual navigation with links */
+#navbar {overflow:hidden;opacity:1;}
+.navbar-toggle {background-color: #272727;}
+#navbarCollapse {text-align:center}
+
+/* Github, linkedIn and contact pages */
+.social-links {margin-top:14px}
+.social-links a {padding:25px;}
+
+/* Adjust links on navbar based on screen size */
+@media screen and (max-width:765px) {
+  .separator-vertical {display:none}
+  .separator-horizontal {display:block}
+  .blog-link {display:none}
+  .navigation a {padding:8px}
+  .social-links a {padding:25px}
+} 
+@media screen and (min-width:766px) {
+  .separator-vertical {display:block}
+  .separator-horizontal {display:none}
+} 
+@media screen and (min-width:766px) and (max-width:1400px) {
+  .separator-vertical {display:none}
+  .hide-links {display:none}
+  .blog-link {display:block}
+} 
+@media screen and (min-width:1401px) {
+  .hide-links {display:block}
+  .blog-link {display:none}
+} 
+
+/* Adjust social links on navbar based on screen size */
+@media screen and (min-width:771px) and (max-width:950px) {
+  .social-links {display:none}
+} 
+@media screen and (max-width:770px) {
+  .social-links {margin-top:20px}
+} 
+
