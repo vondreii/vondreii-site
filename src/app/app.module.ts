@@ -10,6 +10,24 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { PhotographyMainComponent } from './photography/photography-main/photography-main.component';
 import { BlueMountainsComponent } from './photography/blue-mountains/blue-mountains.component';
+import { CentralCoastComponent } from './photography/central-coast/central-coast.component';
+import { HunterValleyComponent } from './photography/hunter-valley/hunter-valley.component';
+import { HobartComponent } from './photography/hobart/hobart.component';
+import { MelbourneComponent } from './photography/melbourne/melbourne.component';
+import { NewcastleComponent } from './photography/newcastle/newcastle.component';
+import { SydneyComponent } from './photography/sydney/sydney.component';
+import { ManilaComponent } from './photography/manila/manila.component';
+import { RuralPhilippinesComponent } from './photography/rural-philippines/rural-philippines.component';
+import { ProjectsMainComponent } from './projects/projects-main/projects-main.component';
+import { CyanXComponent } from './projects/cyan-x/cyan-x.component';
+import { StreetRacingGameComponent } from './projects/street-racing-game/street-racing-game.component';
+import { IceCapadesComponent } from './projects/ice-capades/ice-capades.component';
+import { MinimalismComponent } from './blog/minimalism/minimalism.component';
+import { OrganisationComponent } from './blog/organisation/organisation.component';
+import { UniComponent } from './blog/uni/uni.component';
+import { WellbeingComponent } from './blog/wellbeing/wellbeing.component';
+import { WebsiteComponent } from './blog/website/website.component';
+import { BlogMainComponent } from './blog/blog-main/blog-main.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +38,25 @@ import { BlueMountainsComponent } from './photography/blue-mountains/blue-mounta
     ContactComponent,
     AboutComponent,
     PhotographyMainComponent,
-    BlueMountainsComponent
+    BlueMountainsComponent,
+    CentralCoastComponent,
+    HunterValleyComponent,
+    HobartComponent,
+    MelbourneComponent,
+    NewcastleComponent,
+    SydneyComponent,
+    ManilaComponent,
+    RuralPhilippinesComponent,
+    ProjectsMainComponent,
+    CyanXComponent,
+    StreetRacingGameComponent,
+    IceCapadesComponent,
+    MinimalismComponent,
+    OrganisationComponent,
+    UniComponent,
+    WellbeingComponent,
+    WebsiteComponent,
+    BlogMainComponent
   ],
   imports: [
     BrowserModule,

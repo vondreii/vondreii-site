@@ -1,0 +1,67 @@
+/* ****************************** COMMON EFFECTS ****************************** */
+/* Parallax effect */
+.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
+
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:14pt;color:rgb(100, 100, 100);line-height:30px}
+h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
+
+/* ****************************** BLOG COLUMN LAYOUTS ****************************** */
+/* Columns on the front page */
+.leftcolumn {float:left;width:75%;}
+.rightcolumn {float:left;width:25%;padding-left:20px;}
+@media screen and (max-width: 1000px) {.leftcolumn, .rightcolumn {width: 100%;padding: 0;} }
+.blog-layout:after {content:"";display: table;clear: both;}
+
+@media screen and (min-width: 1001px) {
+    #sticky-right-col {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: -1;
+      padding: 60px 10px;
+      font-size: 20px;
+    } 
+  }
+
+/* ****************************** CATAGORIES ****************************** */
+.category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
+.categories-list {color: lightgrey; margin-top: 20px; background-color: #404040; padding: 0;border-radius:10px }
+.card-blog-category {text-decoration:none;color:darkgrey;margin-bottom: 15px; background-color:rgb(241, 241, 241); box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); transition: 0.3s; padding: 0px;}
+.card-blog-category h4 {margin: -5px;text-decoration:none;color:rgb(160, 160, 160)}
+@media screen and (max-width: 1200px) {.card-blog-category { margin: 10px; }}
+.card-blog-category:hover {background-color: #4e4e4e;text-decoration:none;}
+#active-blog-category {background-color: #272727;}
+
+/* ****************************** CARD EFFECTS ****************************** */
+.card {background-color: rgb(250, 250, 250);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
+.card p, .card h3 {padding:20px;}
+/* Card within a card */
+.card-container { padding: 2px 16px; }
+
+/* ****************************** SEARCH BAR ****************************** */
+.search-container {text-align: center }
+#myInput {background-repeat: no-repeat;width: 80%;text-align:center;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #ddd;margin-bottom: 12px;}
+@media screen and (max-width: 1200px) {#myInput { width: 90%; }}
+#myUL {text-align:center;list-style-type: none;padding: 0;margin: 0;}
+#myUL li {text-align: center;}
+
+/* ****************************** BLOG ARTICLE PREVIEWS ****************************** */
+.blog-item {padding:0px;text-align: center;border: 1px solid #ddd;margin-top: -1px;margin: 10px 0px;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);display: block;border:none}
+.blog-item h2 {padding:10px}
+.article-preview-image {width: 100%;padding: 20px;}
+@media screen and (max-width: 1500px) {.blog-item { margin: 5px 5px;}}
+.date {font-size: 14px; color: rgb(133, 133, 133)}
+.blog-description {font-size: 14px; color: rgb(85, 85, 85); padding: 20px 200px;text-align:center}
+@media screen and (max-width: 900px) {.blog-description { padding: 20px;}}
+.blog-post-preview {width:100%;height:100%}
+@media screen and (max-width: 900px) {.blog-post-preview {width:100%;height:100%}}
+
+.fadedText {color:rgb(100, 100, 100)}
+.sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px}
+
+/* ******************************* LINKS ******************************* */
+a {text-decoration: none;}
+a:hover {text-decoration: none;}

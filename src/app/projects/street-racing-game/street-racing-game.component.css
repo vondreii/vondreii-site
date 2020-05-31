@@ -1,0 +1,46 @@
+/* ****************************** COMMON EFFECTS ****************************** */
+/* Parallax effect */
+.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
+
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
+h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:17pt;color:rgb(100, 100, 100);line-height:30px}
+
+/* ******************************* COLUMN LAYOUT ******************************* */
+.rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
+.column-2 { flex: 50%; max-width: 50%; padding: 0 4px; }
+.column-2 img { margin-top: 8px; vertical-align: middle; width: 100%; }
+@media screen and (max-width: 900px) {.column-2 { flex: 100%; max-width: 100%; }}
+.column-3 { flex: 33%; max-width: 33%; padding: 0 4px; }
+.column-3 img { margin-top: 8px; vertical-align: middle; width: 100%; }
+@media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}
+
+/* ****************************** WRITTEN CONTENT ****************************** */
+.subheading {font-size:22pt;text-align:left;font-style:bold;line-height:40px}
+.subsubheading {font-size:19pt;text-align:left;font-style:bold;line-height:40px;color:rgb(80, 80, 80)}
+
+.written-content-container { text-align: center; }
+.written-content { width: 70%; display: inline-block; text-align: justify; color: rgb(54, 54, 54); }
+@media screen and (max-width: 920px) {.written-content { width: 90%; }}
+
+p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-height:30px}
+p, blockquote {text-align:justify}
+ul, ol {text-align:left}
+table {font-size:15pt;line-height:20px} 
+td {padding:10px} 
+tr:nth-child(even) {background-color:whitesmoke;}
+th {padding:10px}
+
+
+/* ****************************** DOWNLOAD LINKS ****************************** */
+.center-download-container { text-align: center}
+.download {margin-top:20px;background-color: darkgrey; color: whitesmoke; display: inline-block; border-radius: 10px; text-align: center; padding: 30px 20px 20px 20px; width: 70%;}
+.download p {font-size: 20px;text-align:center}
+@media screen and (max-width: 720px) {.download { width: 90%; }}
+.download a:hover, .download a:active { opacity: 0.5; text-decoration: none; }
+.download a:visited, .download a:link { text-decoration: none; }
+
+.cyanX-download a {color : rgb(115, 230, 230)}
+.street-racing-game-download a {color : rgb(221, 0, 0)}
+.ice-capades-download a {color : rgba(199, 228, 255, 0.952)}
