@@ -18,12 +18,12 @@ import { ProjectsMainComponent } from './projects/projects-main/projects-main.co
 import { CyanXComponent } from './projects/cyan-x/cyan-x.component';
 import { StreetRacingGameComponent } from './projects/street-racing-game/street-racing-game.component';
 import { IceCapadesComponent } from './projects/ice-capades/ice-capades.component';
-import { MinimalismComponent } from './blog/minimalism/minimalism.component';
-import { OrganisationComponent } from './blog/organisation/organisation.component';
-import { UniComponent } from './blog/uni/uni.component';
-import { WebsiteComponent } from './blog/website/website.component';
-import { WellbeingComponent } from './blog/wellbeing/wellbeing.component';
 import { BlogMainComponent } from './blog/blog-main/blog-main.component';
+import { MinimalismMainComponent } from './blog/minimalism/minimalism-main/minimalism-main.component';
+import { OrganisationMainComponent } from './blog/organisation/organisation-main/organisation-main.component';
+import { UniMainComponent } from './blog/uni/uni-main/uni-main.component';
+import { WebsiteMainComponent } from './blog/website/website-main/website-main.component';
+import { WellbeingMainComponent } from './blog/wellbeing/wellbeing-main/wellbeing-main.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -50,11 +50,11 @@ const routes: Routes = [
 
   // Blog 
   { path: 'blog/main', component: BlogMainComponent },
-  { path: 'blog/minimalism', component: MinimalismComponent },
-  { path: 'blog/organisation', component: OrganisationComponent },
-  { path: 'blog/uni', component: UniComponent },
-  { path: 'blog/websites', component: WebsiteComponent },
-  { path: 'blog/wellbeing', component: WellbeingComponent },
+  { path: 'blog/minimalism/main', component: MinimalismMainComponent },
+  { path: 'blog/organisation/main', component: OrganisationMainComponent },
+  { path: 'blog/uni/main', component: UniMainComponent },
+  { path: 'blog/website/main', component: WebsiteMainComponent },
+  { path: 'blog/wellbeing/main', component: WellbeingMainComponent },
 ]
 
 @NgModule({

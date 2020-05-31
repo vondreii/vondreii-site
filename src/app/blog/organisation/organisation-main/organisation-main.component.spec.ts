@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UniComponent } from './uni.component';
+import { OrganisationMainComponent } from './organisation-main.component';
 
-describe('UniComponent', () => {
-  let component: UniComponent;
-  let fixture: ComponentFixture<UniComponent>;
+describe('OrganisationMainComponent', () => {
+  let component: OrganisationMainComponent;
+  let fixture: ComponentFixture<OrganisationMainComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ UniComponent ]
+      declarations: [ OrganisationMainComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UniComponent);
+    fixture = TestBed.createComponent(OrganisationMainComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

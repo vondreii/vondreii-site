@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebsiteComponent } from './website.component';
+import { MinimalismMainComponent } from './minimalism-main.component';
 
-describe('WebsiteComponent', () => {
-  let component: WebsiteComponent;
-  let fixture: ComponentFixture<WebsiteComponent>;
+describe('MinimalismMainComponent', () => {
+  let component: MinimalismMainComponent;
+  let fixture: ComponentFixture<MinimalismMainComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WebsiteComponent ]
+      declarations: [ MinimalismMainComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WebsiteComponent);
+    fixture = TestBed.createComponent(MinimalismMainComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

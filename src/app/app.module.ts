@@ -22,12 +22,12 @@ import { ProjectsMainComponent } from './projects/projects-main/projects-main.co
 import { CyanXComponent } from './projects/cyan-x/cyan-x.component';
 import { StreetRacingGameComponent } from './projects/street-racing-game/street-racing-game.component';
 import { IceCapadesComponent } from './projects/ice-capades/ice-capades.component';
-import { MinimalismComponent } from './blog/minimalism/minimalism.component';
-import { OrganisationComponent } from './blog/organisation/organisation.component';
-import { UniComponent } from './blog/uni/uni.component';
-import { WellbeingComponent } from './blog/wellbeing/wellbeing.component';
-import { WebsiteComponent } from './blog/website/website.component';
 import { BlogMainComponent } from './blog/blog-main/blog-main.component';
+import { MinimalismMainComponent } from './blog/minimalism/minimalism-main/minimalism-main.component';
+import { OrganisationMainComponent } from './blog/organisation/organisation-main/organisation-main.component';
+import { UniMainComponent } from './blog/uni/uni-main/uni-main.component';
+import { WebsiteMainComponent } from './blog/website/website-main/website-main.component';
+import { WellbeingMainComponent } from './blog/wellbeing/wellbeing-main/wellbeing-main.component';
 
 @NgModule({
   declarations: [
@@ -51,12 +51,12 @@ import { BlogMainComponent } from './blog/blog-main/blog-main.component';
     CyanXComponent,
     StreetRacingGameComponent,
     IceCapadesComponent,
-    MinimalismComponent,
-    OrganisationComponent,
-    UniComponent,
-    WellbeingComponent,
-    WebsiteComponent,
-    BlogMainComponent
+    BlogMainComponent,
+    MinimalismMainComponent,
+    OrganisationMainComponent,
+    UniMainComponent,
+    WebsiteMainComponent,
+    WellbeingMainComponent,
   ],
   imports: [
     BrowserModule,
