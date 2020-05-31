@@ -28,6 +28,7 @@ import { OrganisationMainComponent } from './blog/organisation/organisation-main
 import { UniMainComponent } from './blog/uni/uni-main/uni-main.component';
 import { WebsiteMainComponent } from './blog/website/website-main/website-main.component';
 import { WellbeingMainComponent } from './blog/wellbeing/wellbeing-main/wellbeing-main.component';
+import { ThingsYouCanDeclutterRightNowComponent } from './blog/minimalism/2020/things-you-can-declutter-right-now/things-you-can-declutter-right-now.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { WellbeingMainComponent } from './blog/wellbeing/wellbeing-main/wellbein
     UniMainComponent,
     WebsiteMainComponent,
     WellbeingMainComponent,
+    ThingsYouCanDeclutterRightNowComponent,
   ],
   imports: [
     BrowserModule,

@@ -16,15 +16,15 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 .blog-layout:after {content:"";display: table;clear: both;}
 
 @media screen and (min-width: 1001px) {
-    #sticky-right-col {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-      z-index: -1;
-      padding: 60px 10px;
-      font-size: 20px;
-    } 
-  }
+  #sticky-right-col {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    padding: 60px 10px;
+    font-size: 20px;
+  } 
+}
 
 /* ****************************** CATAGORIES ****************************** */
 .category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
@@ -60,7 +60,7 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 @media screen and (max-width: 900px) {.blog-post-preview {width:100%;height:100%}}
 
 .fadedText {color:rgb(100, 100, 100)}
-.sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px}
+.sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
 
 /* ******************************* LINKS ******************************* */
 a {text-decoration: none;}

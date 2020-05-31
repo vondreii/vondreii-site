@@ -24,6 +24,7 @@ import { OrganisationMainComponent } from './blog/organisation/organisation-main
 import { UniMainComponent } from './blog/uni/uni-main/uni-main.component';
 import { WebsiteMainComponent } from './blog/website/website-main/website-main.component';
 import { WellbeingMainComponent } from './blog/wellbeing/wellbeing-main/wellbeing-main.component';
+import { ThingsYouCanDeclutterRightNowComponent } from './blog/minimalism/2020/things-you-can-declutter-right-now/things-you-can-declutter-right-now.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -55,6 +56,9 @@ const routes: Routes = [
   { path: 'blog/uni/main', component: UniMainComponent },
   { path: 'blog/website/main', component: WebsiteMainComponent },
   { path: 'blog/wellbeing/main', component: WellbeingMainComponent },
+
+  // Blog - Minimalism
+  { path: 'blog/minimalism/things-you-can-declutter-right-now', component: ThingsYouCanDeclutterRightNowComponent },
 ]
 
 @NgModule({
