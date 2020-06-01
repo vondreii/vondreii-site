@@ -25,6 +25,10 @@ import { UniMainComponent } from './blog/uni/uni-main/uni-main.component';
 import { WebsiteMainComponent } from './blog/website/website-main/website-main.component';
 import { WellbeingMainComponent } from './blog/wellbeing/wellbeing-main/wellbeing-main.component';
 import { ThingsYouCanDeclutterRightNowComponent } from './blog/minimalism/2020/things-you-can-declutter-right-now/things-you-can-declutter-right-now.component';
+import { HowToOrganiseYourWebBrowsingComponent } from './blog/organisation/2020/how-to-organise-your-web-browsing/how-to-organise-your-web-browsing.component';
+import { TipsToAvoidProcrastinatingComponent } from './blog/organisation/2020/tips-to-avoid-procrastinating/tips-to-avoid-procrastinating.component';
+import { TipsToBetterOrganiseYourComputerComponent } from './blog/organisation/2020/tips-to-better-organise-your-computer/tips-to-better-organise-your-computer.component';
+import { WaysToBeMoreOrganisedComponent } from './blog/organisation/2020/ways-to-be-more-organised/ways-to-be-more-organised.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -59,6 +63,12 @@ const routes: Routes = [
 
   // Blog - Minimalism
   { path: 'blog/minimalism/things-you-can-declutter-right-now', component: ThingsYouCanDeclutterRightNowComponent },
+
+  // Blog - Organisation
+  { path: 'blog/organisation/how-to-organise-your-web-browsing', component: HowToOrganiseYourWebBrowsingComponent },
+  { path: 'blog/organisation/tips-to-avoid-procrastinating', component: TipsToAvoidProcrastinatingComponent },
+  { path: 'blog/organisation/tips-to-better-organise-your-computer', component: TipsToBetterOrganiseYourComputerComponent },
+  { path: 'blog/organisation/ways-to-be-more-organised', component: WaysToBeMoreOrganisedComponent },
 ]
 
 @NgModule({
