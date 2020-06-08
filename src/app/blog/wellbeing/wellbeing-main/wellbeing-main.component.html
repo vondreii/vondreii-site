@@ -10,19 +10,24 @@
     </div>
     <div class="leftcolumn">
         <!-- #region Search Posts -->
-        <div class="card">
+        <div class="post-list">
           <br><br>
           <div class="search-container">
-            <!-- <input type="text" id="myInput" onkeyup="searchbar()" placeholder="Search Posts (by title, date, year..)" title="SearchBar"><br><br> -->
+            <input type="text" id="myInput" (keyup)=searchbar() placeholder="Search Posts (by title, date, year..)" title="SearchBar"><br><br>
             <div id="myUL">
+              <div id="no-results">
+                <br>
+                <h2><strong>There are no matching results</strong></h2>
+                <h4>We apologise! Please try searching something else.</h4>
+              </div>
               <!-- #region Jobs For Introverts That Don't Need Much Communication -->
               <section><div class="blog-item">
                 <h2><strong>Jobs For Introverts That Don't Need Much Communication</strong></h2><h4>Coming Soon!</h4><br>
                 <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/wellbeing/jobs-for-introverts/cropped.jpg');background-size:cover"></div><br>
                 <!-- <p>Having a well organised computer can improve your overall workflow and efficiency. If your computer has too many files, it can clutter your vision and distract you by making it difficult to find what you are looking for. Here are a... </p> -->
                 <p><a routerLink="/blog/wellbeing/jobs-for-introverts-that-dont-need-much-communication">Read More >></a></p>
+                <br>
               </div></section>
-              <br>
               <!-- #endregion -->
               <!-- #region Making Life Goals -->
               <section><div class="blog-item">
@@ -30,6 +35,7 @@
                 <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/wellbeing/making-life-goals/cropped.jpg');background-size:cover"></div><div class="spacing"></div><br>
                 <!-- <p>Having a well organised computer can improve your overall workflow and efficiency. If your computer has too many files, it can clutter your vision and distract you by making it difficult to find what you are looking for. Here are a... </p> -->
                 <p><a routerLink="/blog/wellbeing/making-life-goals">Read More >></a></p>
+                <br>
               </div></section>
               <div class="spacing"></div>
               <!-- #endregion -->
@@ -43,14 +49,14 @@
     <!-- Ad -->
         <!-- #region Follow Me -->
         <div class="card">
-            <br><h3 class="sidebar-bottom-headings">FOLLOW ME</h3><h5 class="fadedText">__________________</h5><br>
-            <div style="text-align:center">
-            <a href="https://www.instagram.com/vondreii"><img src="../../assets/social/instagram.png" alt="image"/></a><span style="padding:10px"></span>
-            <a href="https://www.linkedin.com/in/sharlene-von-drehnen"><img src="../../assets/social/linkedin.png" alt="image"/></a><span style="padding:10px"></span>
-            <a href="https://github.com/vondreii"><img src="../../assets/social/github.png" alt="image"/></a><span style="padding:10px"></span>
-            </div>
-            <br><br>
-            <div style="height:300px;background-image:url('../../assets/about/designer.jpg');background-size:cover;"></div><br><br>
+          <div style="height:300px;background-image:url('../../assets/about/designer.jpg');background-size:cover;"></div><br><br>
+          <br><h3 class="sidebar-bottom-headings">FOLLOW ME</h3><h5 class="fadedText">__________________</h5><br>
+          <div style="text-align:center">
+          <a href="https://www.instagram.com/vondreii"><img src="../../assets/social/instagram.png" alt="image"/></a><span style="padding:10px"></span>
+          <a href="https://www.linkedin.com/in/sharlene-von-drehnen"><img src="../../assets/social/linkedin.png" alt="image"/></a><span style="padding:10px"></span>
+          <a href="https://github.com/vondreii"><img src="../../assets/social/github.png" alt="image"/></a><span style="padding:10px"></span>
+          </div>
+          <br><br>
         </div>
         <!-- #endregion -->
     <!-- Ad -->
