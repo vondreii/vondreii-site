@@ -60,12 +60,12 @@ h6 {font-family:Helvetica,sans-serif;text-align:center;letter-spacing:2px}
 .sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
 
 .written-content-container { text-align: center; }
-.written-content { width: 70%; display: inline-block; text-align: justify; color: rgb(54, 54, 54); }
+.written-content { width: 55%; display: inline-block; text-align: justify; color: rgb(54, 54, 54); }
 @media screen and (max-width: 920px) {.written-content { width: 90%; }}
 
 .blog-date {color: rgb(136, 136, 136)}
 .fadedText {color:rgb(100, 100, 100)}
-p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-height:30px}
+p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:14pt;line-height:30px}
 p, blockquote {text-align:justify}
 ul, ol {text-align:left}
 table {font-size:15pt;line-height:20px} 

@@ -1,81 +1,86 @@
 <app-navbar></app-navbar>
 
-<!-- #region 1st Parallax image-->
 <div class="parallax" style="height: 350px; background-image: url('../../assets/blog/organisation/header.jpg');">
-    <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com/@huntersrace" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Taylor Smith"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Hunters Race</span></a></div>
+  <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com/@huntersrace" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Taylor Smith"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Hunters Race</span></a></div>
 </div>
-<div class="blog-layout">
-    <div class="category-card">
-      <br><h1><strong>Organisation</strong></h1><br>
-    </div>
-    <div class="leftcolumn">
-        <!-- #region Search Posts -->
-        <div class="post-list">
+<div class="category-card">
+  <br><h1><strong>Organisation</strong></h1><br>
+</div>
+<div class="post-list">
+  <br><br>
+  <div class="search-container">
+    <input type="text" id="myInput" (keyup)=searchbar() placeholder="Search Posts (by title, date, year..)" title="SearchBar"><br><br>
+    <div id="myUL">
+      <div id="no-results">
+        <br>
+        <h2><strong>There are no matching results</strong></h2>
+        <h4>We apologise! Please try searching something else.</h4>
+        <br><br>
+      </div>
+      <!-- How To Organise Your Web Browsing -->
+      <section>
+        <div class="blog-item">
+          <h2><strong>How To Organise Your Web Browsing</strong></h2><h4>25 May 2020</h4><br>
+          <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/organise-web-browsing/cropped.jpg');background-size:cover"></div><br>
+          <p class="description">These days, many people spend most of their time surfing the web or conducting important business online. It makes sense to have your accounts, passwords, general online activities and frequently used websites organised in... </p>
           <br><br>
-          <div class="search-container">
-            <input type="text" id="myInput" (keyup)=searchbar() placeholder="Search Posts (by title, date, year..)" title="SearchBar"><br><br>
-            <div id="myUL">
-              <div id="no-results">
-                <br>
-                <h2><strong>There are no matching results</strong></h2>
-                <h4>We apologise! Please try searching something else.</h4>
-              </div>
-              <!-- #region How To Organise Your Web Browsing -->
-              <section><div class="blog-item">
-                <h2><strong>How To Organise Your Web Browsing</strong></h2><h4>19 May 2020</h4><br>
-                <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/organise-web-browsing/cropped.jpg');background-size:cover"></div><br>
-                <!-- <p>Having a well organised computer can improve your overall workflow and efficiency. If your computer has too many files, it can clutter your vision and distract you by making it difficult to find what you are looking for. Here are a... </p> -->
-                <p><a routerLink="/blog/organisation/how-to-organise-your-web-browsing">Read More >></a></p>
-                <br>
-              </div></section>
-              <!-- #endregion -->
-              <!-- #region Post 24 Ways To Be More Organised -->
-              <section><div class="blog-item">
-                <h2><strong>24 Ways To Be More Organised</strong></h2><h4>19 May 2020</h4><br>
-                <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/how-to-be-better-organised/cropped.jpg');background-size:cover"></div><br>
-                <p>There's a lot of people who admit that they would like to be more organised. Unfortunately, being fully organised in most aspects of life is a habit that takes time to build (it doesn't happen overnight!). That being said - it is...
-                <br><br><a routerLink="/blog/organisation/ways-to-be-more-organised">Read More >></a></p>
-                <br>
-              </div></section>
-              <!-- #endregion -->
-              <!-- #region Post 10 Tips To Better Organise Your Computer -->
-              <section><div class="blog-item">
-                <h2><strong>10 Tips To Better Organise Your Computer</strong></h2><h4>16 May 2020</h4><br>
-                <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/better-organise-your-files/cropped.jpg');background-size:cover"></div><br>
-                <p>Having a well organised computer can improve your overall workflow and efficiency. If your computer has too many files, it can clutter your vision and distract you by making it difficult to find what you are looking for. Here are a...
-                <br><br><a routerLink="/blog/organisation/tips-to-better-organise-your-computer">Read More >></a></p>
-                <br>
-              </div></section>
-              <!-- #endregion -->
-              <!-- #region How to avoid Procrastinating -->
-              <section><div class="blog-item">
-                <h2><strong>How To Avoid Procrastinating</strong></h2><h4>Coming Soon!</h4><br>
-                <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/avoid-procrastination/cropped.jpg');background-size:cover"></div><br>
-                <!-- <p>Having a well organised computer can improve your overall workflow and efficiency. If your computer has too many files, it can clutter your vision and distract you by making it difficult to find what you are looking for. Here are a... </p> -->
-                <p><a routerLink="/blog/organisation/tips-to-avoid-procrastinating">Read More >></a></p>
-                <br>
-              </div></section>
-              <!-- #endregion -->
-            </div>
+          <div class="read-more-project-button-container">
+            <a routerLink="/blog/organisation/how-to-organise-your-web-browsing" class="button read-more-button second-button">Read More >></a>
           </div>
           <br><br>
         </div>
-        <!-- #endregion  -->
-    </div>
-    <div class="rightcolumn">
-    <!-- Ad -->
-        <!-- #region Follow Me -->
-        <div class="card">
-          <div style="height:300px;background-image:url('../../assets/about/designer.jpg');background-size:cover;"></div><br><br>
-          <br><h3 class="sidebar-bottom-headings">FOLLOW ME</h3><h5 class="fadedText">__________________</h5><br>
-          <div style="text-align:center">
-          <a href="https://www.instagram.com/vondreii"><img src="../../assets/social/instagram.png" alt="image"/></a><span style="padding:10px"></span>
-          <a href="https://www.linkedin.com/in/sharlene-von-drehnen"><img src="../../assets/social/linkedin.png" alt="image"/></a><span style="padding:10px"></span>
-          <a href="https://github.com/vondreii"><img src="../../assets/social/github.png" alt="image"/></a><span style="padding:10px"></span>
+      </section>
+      <!-- 24 Ways To Be More Organised -->
+      <section>
+        <div class="blog-item second">
+          <br><br>
+          <h2><strong>24 Ways To Be More Organised</strong></h2><h4>19 May 2020</h4><br>
+          <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/how-to-be-better-organised/cropped.jpg');background-size:cover"></div><br>
+          <p class="description">There's a lot of people who admit that they would like to be more organised. Unfortunately, being fully organised in most aspects of life is a habit that takes time to build (it doesn't happen overnight!). That being said - it is... </p>
+          <br><br>
+          <div class="read-more-project-button-container">
+            <a routerLink="/blog/organisation/ways-to-be-more-organised" class="button read-more-button first-button">Read More >></a>
           </div>
           <br><br>
-      </div>
-        <!-- #endregion -->
-    <!-- Ad -->
+        </div>
+      </section>
+      <!-- 10 Tips To Better Organise Your Computer -->
+      <section>
+        <div class="blog-item first">
+          <br><br>
+          <h2><strong>10 Tips To Better Organise Your Computer</strong></h2><h4>16 May 2020</h4><br>
+          <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/better-organise-your-files/cropped.jpg');background-size:cover"></div><br>
+          <p class="description">Having a well organised computer can improve your overall workflow and efficiency. If your computer has too many files, it can clutter your vision and distract you by making it difficult to find what you are looking for. Here are a... </p>
+          <br><br>
+          <div class="read-more-project-button-container">
+            <a routerLink="/blog/organisation/tips-to-better-organise-your-computer" class="button read-more-button second-button">Read More >></a>
+          </div>
+          <br><br>
+        </div>
+      </section>
+      <!-- How to avoid Procrastinating -->
+      <section>
+        <div class="blog-item second">
+          <br><br>
+          <h2><strong>How To Avoid Procrastinating</strong></h2><h4>Coming Soon!</h4><br>
+          <div class="article-preview-image" style="height:300px;background-image:url('../../assets/blog/organisation/avoid-procrastination/cropped.jpg');background-size:cover"></div><br>
+          <!-- <p class="description">These days, many people spend most of their time surfing the web or conducting important business online. It makes sense to have your accounts, passwords, general online activities and frequently used websites organised in... </p> -->
+          <br><br>
+          <div class="read-more-project-button-container">
+            <a routerLink="/blog/organisation/tips-to-avoid-procrastinating" class="button read-more-button first-button">Read More >></a>
+          </div>
+          <br><br>
+        </div>
+      </section>
     </div>
+  </div>
+</div>
+<div class="card">
+  <br><h2 class="sidebar-bottom-headings">FOLLOW ME</h2><h5 class="fadedText">__________________</h5><br>
+  <div style="text-align:center">
+  <a href="https://www.instagram.com/vondreii"><img src="../../assets/social/instagram.png" alt="image"/></a><span style="padding:10px"></span>
+  <a href="https://www.linkedin.com/in/sharlene-von-drehnen"><img src="../../assets/social/linkedin.png" alt="image"/></a><span style="padding:10px"></span>
+  <a href="https://github.com/vondreii"><img src="../../assets/social/github.png" alt="image"/></a><span style="padding:10px"></span>
+  </div>
+  <br><br>
 </div>

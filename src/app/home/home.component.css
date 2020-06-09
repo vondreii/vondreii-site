@@ -14,16 +14,8 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
   h2, h3 {font-size:20pt}
 }
 
-/* ****************************** CATAGORIES ****************************** */
-.category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
-.categories-list {color: lightgrey; margin-top: 20px; background-color: #404040; padding: 0;border-radius:10px }
-.card-blog-category {text-decoration:none;color:darkgrey;margin-bottom: 15px; background-color:rgb(241, 241, 241); box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2); transition: 0.3s; padding: 0px;}
-.card-blog-category h4 {margin: -5px;text-decoration:none;color:rgb(160, 160, 160)}
-@media screen and (max-width: 1200px) {.card-blog-category { margin: 10px; }}
-.card-blog-category:hover {background-color: #4e4e4e;text-decoration:none;}
-#active-blog-category {background-color: #272727;}
-
 /* ****************************** CARD EFFECTS ****************************** */
+.category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
 .card {background-color: rgb(250, 250, 250);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
 .card p, .card h3 {padding:20px;}
 /* Card within a card */
@@ -37,7 +29,7 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 .second {background: whitesmoke}
 
 .fadedText {color:rgb(100, 100, 100)}
-.sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
+.sidebar-bottom-headings {font-size:16pt;font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
 
 .description {padding:0px 280px}
 @media screen and (max-width: 900px) 
