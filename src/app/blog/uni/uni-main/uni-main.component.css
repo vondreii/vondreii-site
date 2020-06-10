@@ -3,16 +3,23 @@
 .parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
 .photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
 
-h1 {font-family:Helvetica;text-align:center;line-height:50px;font-size:28pt}
-h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:24pt}
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:24pt}
+h2, h3 {padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:20pt}
 h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:14pt;color:rgb(100, 100, 100);line-height:30px}
 h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 
 @media screen and (max-width: 900px) 
 {
-  h1 {font-size: 24pt}
-  h2, h3 {font-size:20pt}
+  h1 {font-size: 22pt}
+  h2, h3 {font-size:18pt}
+  h4 {font-size:12pt}
 }
+
+/* ****************************** GRID COLUMN LAYOUTS ****************************** */
+.rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
+.column-3 { flex: 33%; max-width: 33%; padding: 0 4px; }
+.column-3 img { margin-top: 8px; vertical-align: middle; width: 100%; }
+@media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}
 
 /* ****************************** CARD EFFECTS ****************************** */
 .category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
@@ -21,30 +28,36 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 /* Card within a card */
 .card-container { padding: 2px 16px; }
 
-/* ****************************** SEARCH BAR ****************************** */
-.search-container {text-align: center }
-#myInput {background-repeat: no-repeat;width: 80%;text-align:center;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #ddd;margin-bottom: 12px;}
-@media screen and (max-width: 1200px) {#myInput { width: 90%; }}
-#myUL {text-align:center;list-style-type: none;padding: 0;margin: 0;}
-#myUL li {text-align: center;}
-
-#no-results {display: none}
-
-/* ****************************** BLOG ARTICLE PREVIEWS ****************************** */
-.blog-item {padding:0px;text-align: center;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
-.blog-item h2 {padding:10px}
-/* .blog-item:nth-child(even) {background: #CCC} */
-.first {background: white}
-.second {background: whitesmoke}
+/* ****************************** WRITTEN CONTENT ****************************** */
+.blog-item {padding:20px 350px;text-align:justify;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
+@media screen and (min-width: 801px) and (max-width: 1100px) 
+{
+  .blog-item {padding:20px 120px}
+}
+@media screen and (max-width: 800px) 
+{
+  .blog-item {padding:20px 30px}
+}
 
 .fadedText {color:rgb(100, 100, 100)}
 .sidebar-bottom-headings {font-size:16pt;font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
 
-.description {padding:0px 280px}
-@media screen and (max-width: 900px) 
-{
-  .description {padding:0px 20px}
-}
+/* ****************************** TAGS ****************************** */
+.tags {margin-bottom:20px}
+.tags p {font-size:10pt;background-color:lightgrey;color:rgb(97, 97, 97);padding:2px 10px;border-radius:20px;margin-bottom:-5px;}
+.tag {margin:10px 5px;display:inline-block;}
+
+/* ****************************** IMAGES AND GIFS ****************************** */
+.blog-image {width:50%;height:50%}
+.blog-image-container {text-align:center;padding:10px}
+@media screen and (max-width: 900px) {.blog-image {width:100%;height:100%}}
+.content-photo-credit p {padding:5px;font-size:10pt;text-align:center;color:grey}
+#gif-image {width:360px;height:339px}
+@media screen and (max-width: 900px) {.gif-image {width:288px;height:271px}}
+
+/* ****************************** MORE LIKE THIS ****************************** */
+.first {background: white}
+.second {background: whitesmoke}
 
 /* ****************************** BUTTONS ****************************** */
 .button {
@@ -55,11 +68,9 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 
 .first-button {background-color: white}
 .second-button {background-color: whitesmoke}
-/* /* .read-more-button { background-color: whitesmoke; } */
 .read-more-button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}
-.read-more-button:visited { text-decoration: none } */
+.read-more-button:visited { text-decoration: none } 
 
 /* ******************************* LINKS ******************************* */
 a {text-decoration: none;}
 a:hover {text-decoration: none;}
-

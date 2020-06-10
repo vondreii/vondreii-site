@@ -55,9 +55,8 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 
 .first-button {background-color: white}
 .second-button {background-color: whitesmoke}
-/* /* .read-more-button { background-color: whitesmoke; } */
 .read-more-button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}
-.read-more-button:visited { text-decoration: none } */
+.read-more-button:visited { text-decoration: none } 
 
 /* ******************************* LINKS ******************************* */
 a {text-decoration: none;}

@@ -3,11 +3,17 @@
 .parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
 .photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
 
-h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
-h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
-h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:17pt;color:rgb(100, 100, 100);line-height:30px}
+h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:24pt}
+h2, h3 {padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:20pt}
+h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:14pt;color:rgb(100, 100, 100);line-height:30px}
 h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
-h6 {font-family:Helvetica,sans-serif;text-align:center;letter-spacing:2px}
+
+@media screen and (max-width: 900px) 
+{
+  h1 {font-size: 22pt}
+  h2, h3 {font-size:18pt}
+  h4 {font-size:12pt}
+}
 
 /* ****************************** GRID COLUMN LAYOUTS ****************************** */
 .rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
@@ -15,32 +21,26 @@ h6 {font-family:Helvetica,sans-serif;text-align:center;letter-spacing:2px}
 .column-3 img { margin-top: 8px; vertical-align: middle; width: 100%; }
 @media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}
 
-/* ****************************** BLOG COLUMN LAYOUTS ****************************** */
-/* Columns on the front page */
-.leftcolumn {float:left;width:75%;}
-.rightcolumn {float:left;width:25%;padding-left:20px;}
-@media screen and (max-width: 1000px) {.leftcolumn, .rightcolumn {width: 100%;padding: 0;} }
-.blog-layout:after {content:"";display: table;clear: both;}
-
-@media screen and (min-width: 1001px) {
-  #sticky-right-col {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: -1;
-    padding: 60px 10px;
-    font-size: 20px;
-  } 
-}
-
 /* ****************************** CARD EFFECTS ****************************** */
+.category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
 .card {background-color: rgb(250, 250, 250);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
 .card p, .card h3 {padding:20px;}
 /* Card within a card */
 .card-container { padding: 2px 16px; }
-.mini-card { box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s; width: 100%; margin-bottom: 20px; text-align: justify; }
-.mini-card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
-.mini-card-container { padding: 2px 16px; }
+
+/* ****************************** WRITTEN CONTENT ****************************** */
+.blog-item {padding:20px 350px;text-align:justify;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
+@media screen and (min-width: 801px) and (max-width: 1100px) 
+{
+  .blog-item {padding:20px 120px}
+}
+@media screen and (max-width: 800px) 
+{
+  .blog-item {padding:20px 30px}
+}
+
+.fadedText {color:rgb(100, 100, 100)}
+.sidebar-bottom-headings {font-size:16pt;font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
 
 /* ****************************** TAGS ****************************** */
 .tags {margin-bottom:20px}
@@ -49,26 +49,28 @@ h6 {font-family:Helvetica,sans-serif;text-align:center;letter-spacing:2px}
 
 /* ****************************** IMAGES AND GIFS ****************************** */
 .blog-image {width:50%;height:50%}
+.blog-image-container {text-align:center;padding:10px}
 @media screen and (max-width: 900px) {.blog-image {width:100%;height:100%}}
-.content-photo-credit p {font-size:10pt;text-align:center;color:grey}
+.content-photo-credit p {padding:5px;font-size:10pt;text-align:center;color:grey}
 #gif-image {width:360px;height:339px}
 @media screen and (max-width: 900px) {.gif-image {width:288px;height:271px}}
 
-/* ****************************** WRITTEN CONTENT ****************************** */
-.subheading {font-size:22pt;text-align:left;font-style:bold;line-height:40px}
-.subsubheading {font-size:19pt;text-align:left;font-style:bold;line-height:40px;color:rgb(80, 80, 80)}
-.sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
+/* ****************************** MORE LIKE THIS ****************************** */
+.first {background: white}
+.second {background: whitesmoke}
 
-.written-content-container { text-align: center; }
-.written-content { width: 70%; display: inline-block; text-align: justify; color: rgb(54, 54, 54); }
-@media screen and (max-width: 920px) {.written-content { width: 90%; }}
+/* ****************************** BUTTONS ****************************** */
+.button {
+  text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;
+  border:none;border-radius:5px;box-shadow:0 4px 8px 0 lightgrey;color:rgb(59, 59, 59)
+}
+.read-more-project-button-container { margin-bottom: 20px; text-align: center}
 
-.blog-date {color: rgb(136, 136, 136)}
-.fadedText {color:rgb(100, 100, 100)}
-p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-height:30px}
-p, blockquote {text-align:justify}
-ul, ol {text-align:left}
-table {font-size:15pt;line-height:20px} 
-td {padding:10px} 
-tr:nth-child(even) {background-color:whitesmoke;}
-th {padding:10px}
+.first-button {background-color: white}
+.second-button {background-color: whitesmoke}
+.read-more-button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}
+.read-more-button:visited { text-decoration: none } 
+
+/* ******************************* LINKS ******************************* */
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
