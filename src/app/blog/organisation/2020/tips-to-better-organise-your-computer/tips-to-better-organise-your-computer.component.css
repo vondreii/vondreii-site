@@ -4,18 +4,20 @@
 .photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
 
 h1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:24pt}
-h2, h3 {padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:20pt}
+h2 {padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:20pt}
+h3 {padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:18pt}
 h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:14pt;color:rgb(100, 100, 100);line-height:30px}
 h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 
 @media screen and (max-width: 900px) 
 {
   h1 {font-size: 22pt}
-  h2, h3 {font-size:18pt}
+  h2 {font-size:18pt}
+  h3 {font-size:17pt}
   h4 {font-size:12pt}
 }
 
-/* ****************************** GRID COLUMN LAYOUTS ****************************** */
+/* ******************************* COLUMN LAYOUT ******************************* */
 .rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
 .column-2 { flex: 50%; max-width: 50%; padding: 0 4px; }
 .column-2 img { margin-top: 8px; vertical-align: middle; width: 100%; }
@@ -32,16 +34,29 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 /* Card within a card */
 .card-container { padding: 2px 16px; }
 
+/* ****************************** HEADING ****************************** */
+.heading {padding:0px 350px;}
+@media screen and (min-width: 701px) and (max-width: 1100px) 
+{
+  .heading {padding:0px 120px}
+}
+@media screen and (max-width: 700px) 
+{
+  .heading {padding:0px 20px}
+}
+
 /* ****************************** WRITTEN CONTENT ****************************** */
 .blog-item {padding:20px 350px;text-align:justify;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
-@media screen and (min-width: 801px) and (max-width: 1100px) 
+@media screen and (min-width: 701px) and (max-width: 1100px) 
 {
   .blog-item {padding:20px 120px}
 }
-@media screen and (max-width: 800px) 
+@media screen and (max-width: 700px) 
 {
-  .blog-item {padding:20px 30px}
+  .blog-item {padding:20px 20px}
 }
+
+.blog-item li {text-align:left;}
 
 .fadedText {color:rgb(100, 100, 100)}
 .sidebar-bottom-headings {font-size:16pt;font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
@@ -53,11 +68,18 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 
 /* ****************************** IMAGES AND GIFS ****************************** */
 .blog-image {width:50%;height:50%}
-.blog-image-container {text-align:center;padding-top:10px;padding-bottom:20px}
-@media screen and (max-width: 900px) {.blog-image {width:100%;height:100%}}
-.content-photo-credit p {padding:5px;font-size:10pt;text-align:center;color:grey}
+.blog-image-container {text-align:center;padding-top:5px;padding-bottom:25px}
+@media screen and (max-width: 900px) 
+{
+  .blog-image {width:100%;height:100%}
+}
+.content-photo-credit p {padding-top:5px;font-size:10pt;text-align:center;color:grey}
+
 #gif-image {width:360px;height:339px}
-@media screen and (max-width: 900px) {.gif-image {width:288px;height:271px}}
+@media screen and (max-width: 900px) 
+{
+  #gif-image {width:280px;height:280px;border:none}
+}
 
 /* ****************************** MORE LIKE THIS ****************************** */
 .first {background: white}
