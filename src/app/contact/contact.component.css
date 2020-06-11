@@ -13,7 +13,7 @@ form { max-width:420px; margin:50px auto; padding: 20px }
 .feedback-input:focus { border:2px solid #303030; background: #f3f3f3; }
 textarea { height: 150px; line-height: 150%; resize:vertical; }
 textarea:hover, .feedback-input:hover {background-color: #f3f1f3;}
-.form .paragraph-center {text-align: center; font-size: 13pt; padding: 20px }
+.form .paragraph-center {text-align: center; font-size: 16pt; padding: 20px }
 /* Contact form inputs */
 .feedback-input {
   color:black; font-family: Helvetica, Arial, sans-serif; font-weight:500; font-size: 18px;

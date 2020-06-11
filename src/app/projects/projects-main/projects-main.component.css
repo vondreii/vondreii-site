@@ -8,35 +8,27 @@ h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}
 h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:17pt;color:rgb(100, 100, 100);line-height:30px}
 
 p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-height:30px}
-p, blockquote {text-align:justify}
 
 /* ******************************* COLUMN LAYOUT ******************************* */
 .rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
-.column-3 { flex: 33%; max-width: 33%; padding: 0 4px; }
-.column-3 img { margin-top: 8px; vertical-align: middle; width: 100%; }
+.column-3 { flex: 33%; max-width: 33%; padding: 0 4px;}
+.column-3 img {vertical-align: middle; width: 100%; }
 @media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}
 
-/* Card effects for links or previews */
-.card {background-color: white;}
-.card p, .card h3 {padding:20px;}
-/* Card within a card */
-.card-container { padding: 2px 16px; }
+.blog-item {padding:0px;text-align:center;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
+.blog-item h2 {padding:10px}
 
-/* ******************************* BUTTONS ******************************* */
+/* Card within a card */
+.card-container { padding: 2px 50px;background-color: whitesmoke; }
+
+/* ****************************** BUTTONS ****************************** */
 .button {
-    text-decoration: none; display: inline-block; padding: 5px 25px; outline: none; 
-    color: #fff; border: none; border-radius: 5px; box-shadow: 0 5px rgb(180, 180, 180);
+    text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;
+    border:none;border-radius:5px;box-shadow:0 4px 8px 0 lightgrey;color:rgb(59, 59, 59)
 }
-/* containers for read me and download containers */
 .read-more-project-button-container { margin-bottom: 20px; text-align: center}
-.download-project-button-container { margin-bottom: 40px; text-align: center}
-/* Specific styling for read more button */
-.read-more-button { background-color: rgb(39, 60, 80); }
-.read-more-button:hover { background-color: rgb(21, 32, 43); text-decoration: none; color: white;}
-.read-more-button:active { text-decoration: none; color: white; box-shadow: 0 5px rgb(180, 180, 180); transform: translateY(4px); }
-.read-more-button:visited { color: white; text-decoration: none }
-/* Specific styling for download button */
-.download-button { background-color: darkred}
-.download-button:hover { background-color: rgb(87, 0, 0); text-decoration: none; color: white;}
-.download-button:active { text-decoration: none; color: white; box-shadow: 0 5px rgb(180, 180, 180); transform: translateY(4px); }
-.download-button:visited { color: white; text-decoration: none }
+
+.first-button {background-color: white}
+.second-button {background-color: whitesmoke}
+.read-more-button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}
+.read-more-button:visited { text-decoration: none } 
