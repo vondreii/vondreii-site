@@ -11,15 +11,15 @@ p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-heig
 
 /* ******************************* COLUMN LAYOUT ******************************* */
 .rows { display: flex; flex-wrap: wrap; padding: 0 4px; }
-.column-3 { flex: 33%; max-width: 33%; padding: 0 4px;}
+.column-3 { flex: 33%; max-width: 33%; padding: 0 2px;}
 .column-3 img {vertical-align: middle; width: 100%; }
 @media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}
 
-.blog-item {padding:0px;text-align:center;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
+.blog-item {padding:0px;text-align:center;text-decoration: none;font-size:18px;color: rgb(85, 85, 85);border:none;}
 .blog-item h2 {padding:10px}
 
 /* Card within a card */
-.card-container { padding: 2px 50px;background-color: whitesmoke; }
+.card-container { padding: 2px 50px;background-color: whitesmoke;}
 
 /* ****************************** BUTTONS ****************************** */
 .button {

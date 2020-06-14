@@ -103,8 +103,6 @@ th {padding:10px}
     .button-container {margin:10px 10px 10px 10px;}
     .download-container {padding:10px}
 }
-/* .button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}
-.button:visited { text-decoration: none }  */
 
 .download-button {background-color:rgb(180, 248, 180)}
 .download-button:hover, .download-button:active {background-color:rgb(3, 110, 3);text-decoration:none;color:white;}

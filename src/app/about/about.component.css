@@ -16,5 +16,5 @@ p, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-heig
 @media screen and (max-width: 680px) {.column-4 { flex: 100%; max-width: 100%; }}
 
 /* ******************************* ABOUT ******************************* */
-.about-content { transition: .5s ease; color: rgba(0,0,0,0.6); background-color: rgb(221, 219, 219); font-size: 16px; text-align: center; padding: 30px 25px 40px 25px;}
+.about-content { transition:.5s ease;color:rgb(85, 85, 85); background-color:whitesmoke; font-size: 16px; text-align: center; padding: 30px 25px 40px 25px;}
 .about-description {text-align:center}
