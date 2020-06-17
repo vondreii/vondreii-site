@@ -4,15 +4,16 @@
 <div class="parallax" style="height: 350px; background-image: url('../../assets/photography/blue-mountains/blue-mountains-header-cropped2.png');">
   <div class="imageTextCollage">
     <br><br>
-    <h3 class="sidebar-bottom-headings"><b>BLUE MOUNTAINS</b></h3><h3><b>▼</b></h3>
+    <h3 class="sidebar-bottom-headings"><b>{{loc}}</b></h3><h3><b>▼</b></h3>
   </div>
-</div>
+</div> <p></p>
 <br>
 <!-- <ul>
-  <li *ngFor="let column of location | async"  role="listitem">
-    <img src="{{column.col1[0]}}" alt="image">
+  <li *ngFor="let location of collection | async"  role="listitem">
+    <p> {{loc}}</p>
   </li>
 </ul> -->
+<p></p>
 <div class="rows">
   <div class="column-4">
     <img *ngFor="let img of col1" src="{{img}}" alt="image">

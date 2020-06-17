@@ -7,26 +7,27 @@ import { AngularFirestore } from '@angular/fire/firestore';
   styleUrls: ['./blue-mountains.component.css']
 })
 export class BlueMountainsComponent implements OnInit {
-  photography: any;
+  collection: any;
 
   col1: [];
   col2: [];
   col3: [];
   col4: [];
 
+  loc: string;
+
   constructor(private db: AngularFirestore) { }
 
   ngOnInit() {
-    this.photography = this.db.collection('photography').valueChanges({ idField: 'id' });
-    this.photography.forEach(location => {
-      location.forEach(column => {
-        this.col1 = column.col1;
-        this.col2 = column.col2;
-        this.col3 = column.col3;
-        this.col4 = column.col4;
-        // console.log(column.col2)
-        // console.log(column.col3)
-        // console.log(column.col4)
+    this.collection = this.db.collection('photography').valueChanges({ idField: 'id' });
+    this.collection.forEach(photography => {
+      photography.forEach(location => {
+        this.col1 = location.col1;
+        this.col2 = location.col2;
+        this.col3 = location.col3;
+        this.col4 = location.col4;
+        this.loc = location.location;
+        console.log(location.location);
       });
     });
   }
