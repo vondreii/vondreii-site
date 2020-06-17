@@ -8,23 +8,23 @@
   </div>
 </div>
 <br>
-<div class="rows"> 
+<!-- <ul>
+  <li *ngFor="let column of location | async"  role="listitem">
+    <img src="{{column.col1[0]}}" alt="image">
+  </li>
+</ul> -->
+<div class="rows">
   <div class="column-4">
-    <img src="../../assets/photography/blue-mountains/katoomba-station2.jpg" alt="image">
-    <img src="../../assets/photography/blue-mountains/lithgow-station.jpg" alt="image">
+    <img *ngFor="let img of col1" src="{{img}}" alt="image">
   </div>
   <div class="column-4">
-    <img src="../../assets/photography/blue-mountains/path-2.jpg" alt="image">
-    <img src="../../assets/photography/blue-mountains/mountain-lookout.jpg" alt="image">
+    <img *ngFor="let img of col2" src="{{img}}" alt="image">
   </div>
   <div class="column-4">
-    <img src="../../assets/photography/blue-mountains/three-sisters-lookout.JPG" alt="image">
-    <img src="../../assets/photography/blue-mountains/records.jpg" alt="image">
-    <img src="../../assets/photography/blue-mountains/path.jpg" alt="image">
+    <img *ngFor="let img of col3" src="{{img}}" alt="image">
   </div>
   <div class="column-4">
-    <img src="../../assets/photography/blue-mountains/three-sisters.jpg" alt="image">
-    <img src="../../assets/photography/blue-mountains/leura-falls.JPG" alt="image">
+    <img *ngFor="let img of col4" src="{{img}}" alt="image">
   </div>
 </div>
 <br><br>
