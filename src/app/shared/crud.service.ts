@@ -10,6 +10,9 @@ export class CrudService {
   postsRef: AngularFireList<any>;    // Reference to list of posts
   postRef: AngularFireObject<any>;   // Reference to single post object
   
+  postList: Array<Posts>;
+  post: Posts;
+
   constructor(private db: AngularFireDatabase) { }
 
   // Create Post
@@ -25,4 +28,9 @@ export class CrudService {
     this.postRef = this.db.object('minimalism/2020-things-to-declutter');
     return this.postRef;
   }
+
+  GetTitle(id: string) {
+    return this.postList[id].title;
+  }
+  
 }
