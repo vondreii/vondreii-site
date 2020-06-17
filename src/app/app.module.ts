@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/Forms';
 
-// Firebase
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
-import { AngularFireStorageModule } from '@angular/fire/storage';
-import { AngularFireAuthModule } from '@angular/fire/auth';
-import { environment } from '../environments/environment';
+// Angular Fire Modules
+import { AngularFireModule } from "@angular/fire";
+import { AngularFireAnalyticsModule } from "@angular/fire/analytics";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { AngularFireStorageModule } from "@angular/fire/storage";
+
+// Environment Files
+import { environment } from "../environments/environment"; 
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -90,9 +92,9 @@ import { JobsForIntrovertsThatDontNeedMuchCommunicationComponent } from './compo
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFirestoreModule, // Only required for database features
-    AngularFireAuthModule, // Only required for auth features,
-    AngularFireStorageModule // Only required for storage features
+    AngularFireAnalyticsModule,
+    AngularFirestoreModule,
+    AngularFireStorageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
