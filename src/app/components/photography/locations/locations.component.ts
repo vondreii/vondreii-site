@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/firestore';
 
 @Component({
-  selector: 'app-blue-mountains',
-  templateUrl: './blue-mountains.component.html',
-  styleUrls: ['./blue-mountains.component.css']
+  selector: 'app-locations',
+  templateUrl: './locations.component.html',
+  styleUrls: ['./locations.component.css']
 })
-export class BlueMountainsComponent implements OnInit {
+export class LocationsComponent implements OnInit {
   collection: any;
 
   href: string;
@@ -23,6 +23,7 @@ export class BlueMountainsComponent implements OnInit {
   constructor(private db: AngularFirestore) { }
 
   ngOnInit() {
+    
     this.href = window.location.href;
     this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
 

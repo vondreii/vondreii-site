@@ -34,6 +34,7 @@ import { CreatingANewThemeInHugoComponent } from './components/blog/website/2020
 import { MakingASimpleStaticWebsiteWithHtmlAndCssComponent } from './components/blog/website/2020/making-a-simple-static-website-with-html-and-css/making-a-simple-static-website-with-html-and-css.component';
 import { JobsForIntrovertsThatDontNeedMuchCommunicationComponent } from './components/blog/wellbeing/2020/jobs-for-introverts-that-dont-need-much-communication/jobs-for-introverts-that-dont-need-much-communication.component';
 import { MakingLifeGoalsComponent } from './components/blog/wellbeing/2020/making-life-goals/making-life-goals.component';
+import { LocationsComponent } from './components/photography/locations/locations.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -42,15 +43,15 @@ const routes: Routes = [
 
   // Photography pages
   { path: 'photography/main', component: PhotographyMainComponent },
-  { path: 'photography/blue-mountains', component: BlueMountainsComponent },
-  { path: 'photography/central-coast', component: CentralCoastComponent },
-  { path: 'photography/hobart', component: HobartComponent },
-  { path: 'photography/hunter-valley', component: HunterValleyComponent },
-  { path: 'photography/manila', component: ManilaComponent },
-  { path: 'photography/melbourne', component: MelbourneComponent },
-  { path: 'photography/newcastle', component: NewcastleComponent },
-  { path: 'photography/rural-philippines', component: RuralPhilippinesComponent },
-  { path: 'photography/sydney', component: SydneyComponent },
+  { path: 'photography/blue-mountains', component: LocationsComponent },
+  { path: 'photography/central-coast', component: LocationsComponent },
+  { path: 'photography/hobart', component: LocationsComponent },
+  { path: 'photography/hunter-valley', component: LocationsComponent },
+  { path: 'photography/manila', component: LocationsComponent },
+  { path: 'photography/melbourne', component: LocationsComponent },
+  { path: 'photography/newcastle', component: LocationsComponent },
+  { path: 'photography/rural-philippines', component: LocationsComponent },
+  { path: 'photography/sydney', component: LocationsComponent },
 
   // Projects
   { path: 'projects/main', component: ProjectsMainComponent },

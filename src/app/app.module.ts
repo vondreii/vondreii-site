@@ -48,6 +48,7 @@ import { MakingASimpleStaticWebsiteWithHtmlAndCssComponent } from './components/
 import { CreatingANewThemeInHugoComponent } from './components/blog/website/2020/creating-a-new-theme-in-hugo/creating-a-new-theme-in-hugo.component';
 import { MakingLifeGoalsComponent } from './components/blog/wellbeing/2020/making-life-goals/making-life-goals.component';
 import { JobsForIntrovertsThatDontNeedMuchCommunicationComponent } from './components/blog/wellbeing/2020/jobs-for-introverts-that-dont-need-much-communication/jobs-for-introverts-that-dont-need-much-communication.component';
+import { LocationsComponent } from './components/photography/locations/locations.component';
 
 @NgModule({
   declarations: [
@@ -87,6 +88,7 @@ import { JobsForIntrovertsThatDontNeedMuchCommunicationComponent } from './compo
     CreatingANewThemeInHugoComponent,
     MakingLifeGoalsComponent,
     JobsForIntrovertsThatDontNeedMuchCommunicationComponent,
+    LocationsComponent,
   ],
   imports: [
     BrowserModule,
