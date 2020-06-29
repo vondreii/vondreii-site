@@ -318,7 +318,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n\n<!-- #region 1st Parallax image-->\n<div class=\"parallax\" style=\"height: 350px; background-image: url('../../assets/photography/blue-mountains/blue-mountains-header-cropped2.png');\">\n  <div class=\"imageTextCollage\">\n    <br><br>\n    <h3 class=\"sidebar-bottom-headings\"><b>{{loc}}</b></h3><h3><b>▼</b></h3>\n  </div>\n</div> <p></p>\n<br>\n<!-- <ul>\n  <li *ngFor=\"let location of collection | async\"  role=\"listitem\">\n    <p> {{loc}}</p>\n  </li>\n</ul> -->\n<p></p>\n<div class=\"rows\">\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col1\" src=\"{{img}}\" alt=\"image\">\n  </div>\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col2\" src=\"{{img}}\" alt=\"image\">\n  </div>\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col3\" src=\"{{img}}\" alt=\"image\">\n  </div>\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col4\" src=\"{{img}}\" alt=\"image\">\n  </div>\n</div>\n<br><br>\n<!-- #endregion -->\n<div class=\"more-like-this\">\n  <br><h3 class=\"sidebar-bottom-headings\">MORE LIKE THIS</h3><br>\n  <div class=\"photography-list\">\n    <a routerLink=\"/photography/central-coast\">\n      <div class=\"photography-list-image\" style=\"background-image: url('../../assets/photography/central-coast/long-jetty-cropped.jpg')\"><div class=\"destination-text\">Central Coast</div></div>\n    </a>\n    <div class=\"spacing\"></div>\n    <a routerLink=\"/photography/hobart\">\n      <div class=\"photography-list-image\" style=\"background-image: url('../../assets/photography/hobart/hobart-street.jpg')\"><div class=\"destination-text\">Hobart</div></div>\n    </a>\n    <div class=\"spacing\"></div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n\n<!-- #region 1st Parallax image-->\n<div class=\"parallax\" style=\"height: 350px; background-image: url('../../assets/photography/blue-mountains/blue-mountains-header-cropped2.png');\">\n  <div class=\"imageTextCollage\">\n    <br><br>\n    <h3 class=\"sidebar-bottom-headings\"><b>{{loc}}</b></h3><h3><b>▼</b></h3>\n  </div>\n</div> <p></p>\n<br>\n<!-- <ul>\n  <li *ngFor=\"let location of collection | async\"  role=\"listitem\">\n    <p> {{loc}}</p>\n  </li>\n</ul> -->\n<p></p>\n<div class=\"rows\">\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col1\" src=\"{{img}}\" alt=\"image\">\n  </div>\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col2\" src=\"{{img}}\" alt=\"image\">\n  </div>\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col3\" src=\"{{img}}\" alt=\"image\">\n  </div>\n  <div class=\"column-4\">\n    <img *ngFor=\"let img of col4\" src=\"{{img}}\" alt=\"image\">\n  </div>\n</div>\n<br><br>\n<!-- #endregion -->\n<div class=\"more-like-this\">\n  <br><h3 class=\"sidebar-bottom-headings\">MORE LIKE THIS</h3><br>\n  <div class=\"photography-list\">\n    <a routerLink={{moreLikeThis1RouterLink}}>\n      <div class=\"photography-list-image\" [ngStyle]=\"{'background-image': 'url('+moreLikeThis1Background+')'}\"><div class=\"destination-text\">{{moreLikeThis1Location}}</div></div>\n    </a>\n    <div class=\"spacing\"></div>\n    <a routerLink={{moreLikeThis2RouterLink}}>\n      <div class=\"photography-list-image\" [ngStyle]=\"{'background-image': 'url('+moreLikeThis2Background+')'}\"><div class=\"destination-text\">{{moreLikeThis2Location}}</div></div>\n      <!-- <div class=\"photography-list-image\" style=\"background-image: url('../../assets/photography/hobart/hobart-street.jpg')\"><div class=\"destination-text\">Testing</div></div> -->\n    </a>\n    <div class=\"spacing\"></div>\n  </div>\n</div>");
 
 /***/ }),
 
@@ -2047,11 +2047,13 @@ let LocationsComponent = class LocationsComponent {
         this.db = db;
     }
     ngOnInit() {
+        // Gets the hyperlink in the browser window, eg "vondreii/photography/blue-mountains" and gets the id, eg 'blue-mountains'
         this.href = window.location.href;
         this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
-        console.log("Something:" + this.hrefId);
-        this.collection = this.db.collection('photography').valueChanges({ idField: 'id' });
-        this.collection.forEach(photography => {
+        // Reads from the 'photography' collection in the Firebase Database
+        this.collectionPhotos = this.db.collection('photography').valueChanges({ idField: 'id' });
+        this.collectionPhotos.forEach(photography => {
+            // For each location, save the images/info of the matching location
             photography.forEach(location => {
                 if (location.id == this.hrefId) {
                     this.col1 = location.col1;
@@ -2059,9 +2061,29 @@ let LocationsComponent = class LocationsComponent {
                     this.col3 = location.col3;
                     this.col4 = location.col4;
                     this.loc = location.location;
+                    this.moreLikeThis1 = location.moreLikeThis1;
+                    this.moreLikeThis2 = location.moreLikeThis2;
+                    // console.log(location.moreLikeThis1);
+                    // console.log(location.moreLikeThis2);
                 }
-                console.log(location.location);
-                console.log(window.location.href);
+                // console.log(location.location);
+                // console.log(window.location.href);
+            });
+        });
+        this.collectionMoreLikeThis = this.db.collection("photography-more-like-this").valueChanges({ idField: 'id' });
+        this.collectionMoreLikeThis.forEach(location => {
+            location.forEach(link => {
+                if (link.id == this.moreLikeThis1) {
+                    this.moreLikeThis1Location = link.location;
+                    this.moreLikeThis1Background = link.background;
+                    this.moreLikeThis1RouterLink = link.routerLink;
+                    console.log("It matches");
+                }
+                else if (link.id == this.moreLikeThis2) {
+                    this.moreLikeThis2Location = link.location;
+                    this.moreLikeThis2Background = link.background;
+                    this.moreLikeThis2RouterLink = link.routerLink;
+                }
             });
         });
     }

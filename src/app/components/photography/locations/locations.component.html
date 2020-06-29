@@ -33,12 +33,13 @@
 <div class="more-like-this">
   <br><h3 class="sidebar-bottom-headings">MORE LIKE THIS</h3><br>
   <div class="photography-list">
-    <a routerLink="/photography/central-coast">
-      <div class="photography-list-image" style="background-image: url('../../assets/photography/central-coast/long-jetty-cropped.jpg')"><div class="destination-text">Central Coast</div></div>
+    <a routerLink={{moreLikeThis1RouterLink}}>
+      <div class="photography-list-image" [ngStyle]="{'background-image': 'url('+moreLikeThis1Background+')'}"><div class="destination-text">{{moreLikeThis1Location}}</div></div>
     </a>
     <div class="spacing"></div>
-    <a routerLink="/photography/hobart">
-      <div class="photography-list-image" style="background-image: url('../../assets/photography/hobart/hobart-street.jpg')"><div class="destination-text">Hobart</div></div>
+    <a routerLink={{moreLikeThis2RouterLink}}>
+      <div class="photography-list-image" [ngStyle]="{'background-image': 'url('+moreLikeThis2Background+')'}"><div class="destination-text">{{moreLikeThis2Location}}</div></div>
+      <!-- <div class="photography-list-image" style="background-image: url('../../assets/photography/hobart/hobart-street.jpg')"><div class="destination-text">Testing</div></div> -->
     </a>
     <div class="spacing"></div>
   </div>
