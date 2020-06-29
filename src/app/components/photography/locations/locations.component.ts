@@ -13,6 +13,9 @@ export class LocationsComponent implements OnInit {
   href: string;
   hrefId: string;
 
+  allPhotos: [];
+  photosLength: any;
+  avgColumnLength: any;
   col1: [];
   col2: [];
   col3: [];
@@ -45,6 +48,10 @@ export class LocationsComponent implements OnInit {
       photography.forEach(location => {
         if(location.id == this.hrefId)
         {
+          // this.allPhotos = location.photos;
+          // this.photosLength = location.photos.length;
+          // console.log("photosLengthFromFirebase: "+location.photos.length);
+          // console.log("photosLengthFromVariable: "+this.photosLength);
           this.col1 = location.col1;
           this.col2 = location.col2;
           this.col3 = location.col3;
@@ -60,15 +67,21 @@ export class LocationsComponent implements OnInit {
       });
     });
 
+    console.log("photosLengthFromVariable: "+this.photosLength);
+    // console.log("photosLength: "+this.photosLength);
+    // console.log("avgColumnLength: "+this.avgColumnLength);
+
+    // Reads from the 'photography-more-like-this' collection in the Firebase Database
     this.collectionMoreLikeThis = this.db.collection("photography-more-like-this").valueChanges({ idField: 'id' });
+    // each location has a display title, background image and router link to its corresponding page 
     this.collectionMoreLikeThis.forEach(location => {
       location.forEach(link => {
+        // Saves the 2 more like this links that are associated with the current page
         if(link.id == this.moreLikeThis1)
         {
           this.moreLikeThis1Location = link.location;
           this.moreLikeThis1Background = link.background;
           this.moreLikeThis1RouterLink = link.routerLink;
-          console.log("It matches");
         }
         else if(link.id == this.moreLikeThis2)
         {
