@@ -19,15 +19,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { PhotographyMainComponent } from './components/photography/photography-main/photography-main.component';
-import { BlueMountainsComponent } from './components/photography/blue-mountains/blue-mountains.component';
-import { CentralCoastComponent } from './components/photography/central-coast/central-coast.component';
-import { HunterValleyComponent } from './components/photography/hunter-valley/hunter-valley.component';
-import { HobartComponent } from './components/photography/hobart/hobart.component';
-import { MelbourneComponent } from './components/photography/melbourne/melbourne.component';
-import { NewcastleComponent } from './components/photography/newcastle/newcastle.component';
-import { SydneyComponent } from './components/photography/sydney/sydney.component';
-import { ManilaComponent } from './components/photography/manila/manila.component';
-import { RuralPhilippinesComponent } from './components/photography/rural-philippines/rural-philippines.component';
 import { ProjectsMainComponent } from './components/projects/projects-main/projects-main.component';
 import { CyanXComponent } from './components/projects/cyan-x/cyan-x.component';
 import { StreetRacingGameComponent } from './components/projects/street-racing-game/street-racing-game.component';
@@ -59,15 +50,6 @@ import { LocationsComponent } from './components/photography/locations/locations
     ContactComponent,
     AboutComponent,
     PhotographyMainComponent,
-    BlueMountainsComponent,
-    CentralCoastComponent,
-    HunterValleyComponent,
-    HobartComponent,
-    MelbourneComponent,
-    NewcastleComponent,
-    SydneyComponent,
-    ManilaComponent,
-    RuralPhilippinesComponent,
     ProjectsMainComponent,
     CyanXComponent,
     StreetRacingGameComponent,
