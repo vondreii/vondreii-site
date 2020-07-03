@@ -27,12 +27,16 @@
             "styles": [
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/font-awesome/css/font-awesome.css"
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/prismjs/themes/prism-okaidia.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js", 
               "./node_modules/popper.js/dist/umd/popper.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/prismjs/prism.js",
+              "./node_modules/prismjs/components/prism-csharp.min.js",
+              "./node_modules/prismjs/components/prism-css.min.js"
             ]
           },
           "configurations": {
@@ -99,12 +103,16 @@
             "styles": [
               "src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/font-awesome/css/font-awesome.css"
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/prismjs/themes/prism-okaidia.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js", 
               "./node_modules/popper.js/dist/umd/popper.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.js"
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/prismjs/prism.js",
+              "./node_modules/prismjs/components/prism-csharp.min.js",
+              "./node_modules/prismjs/components/prism-css.min.js"
             ]
           }
         },
