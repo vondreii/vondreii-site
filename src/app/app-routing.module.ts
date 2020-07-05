@@ -8,6 +8,7 @@ import { PhotographyMainComponent } from './components/photography/photography-m
 import { LocationsComponent } from './components/photography/locations/locations.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,10 +23,14 @@ const routes: Routes = [
   { path: 'blog/websites', component: BlogComponent },
 
   // Blog Posts
+  { path: 'blog/post/:article' , component: BlogPostComponent},
   { path: 'blog/organisation/post/:article' , component: BlogPostComponent},
   { path: 'blog/resumes/post/:article' , component: BlogPostComponent},
   { path: 'blog/uni/post/:article' , component: BlogPostComponent},
   { path: 'blog/websites/post/:article' , component: BlogPostComponent},
+
+  // Projects
+  { path: 'projects', component: ProjectsComponent },
 
   // Photography pages
   { path: 'photography/main', component: PhotographyMainComponent },

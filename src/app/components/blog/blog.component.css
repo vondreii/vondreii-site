@@ -1,1 +1,62 @@
-h1{color:red}
+/* ****************************** COMMON EFFECTS ****************************** */
+/* Parallax effect */
+.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
+.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
+
+h1 {font-family:Helvetica;text-align:center;line-height:50px;font-size:28pt}
+h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:24pt}
+h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:14pt;color:rgb(100, 100, 100);line-height:30px}
+h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
+
+@media screen and (max-width: 900px) 
+{
+  h1 {font-size: 24pt}
+  h2, h3 {font-size:20pt}
+}
+
+/* ****************************** CARD EFFECTS ****************************** */
+.category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
+.card {background-color: rgb(250, 250, 250);box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);}
+.card p, .card h3 {padding:20px;}
+/* Card within a card */
+.card-container { padding: 2px 16px; }
+
+/* ****************************** SEARCH BAR ****************************** */
+.search-container {text-align: center }
+#myInput {background-repeat: no-repeat;width: 80%;text-align:center;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #ddd;margin-bottom: 12px;}
+@media screen and (max-width: 1200px) {#myInput { width: 90%; }}
+#myUL {text-align:center;list-style-type: none;padding: 0;margin: 0;}
+#myUL li {text-align: center;}
+
+/* ****************************** BLOG ARTICLE PREVIEWS ****************************** */
+.blog-item {padding:0px;text-align: center;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;}
+.blog-item h2 {padding:10px}
+/* .blog-item:nth-child(even) {background: #CCC} */
+.first {background: white}
+.second {background: whitesmoke}
+
+.fadedText {color:rgb(100, 100, 100)}
+.sidebar-bottom-headings {font-size:16pt;font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px;color:rgb(100, 100, 100)}
+
+.description {padding:0px 280px}
+@media screen and (max-width: 900px) 
+{
+  .description {padding:0px 20px}
+}
+
+/* ****************************** BUTTONS ****************************** */
+.button {
+  text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;
+  border:none;border-radius:5px;box-shadow:0 4px 8px 0 lightgrey;color:rgb(59, 59, 59)
+}
+.read-more-project-button-container { margin-bottom: 20px; text-align: center}
+
+.first-button {background-color: white}
+.second-button {background-color: whitesmoke}
+.read-more-button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}
+.read-more-button:visited { text-decoration: none } 
+
+/* ******************************* LINKS ******************************* */
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+

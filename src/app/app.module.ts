@@ -26,6 +26,7 @@ import { PhotographyMainComponent } from './components/photography/photography-m
 import { LocationsComponent } from './components/photography/locations/locations.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { BlogPostComponent } from './components/blog/blog-post/blog-post.compone
     PhotographyMainComponent,
     LocationsComponent,
     BlogComponent,
-    BlogPostComponent
+    BlogPostComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

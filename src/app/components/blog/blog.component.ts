@@ -19,10 +19,23 @@ export class BlogComponent implements OnInit {
     this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
     console.log(this.hrefId);
     
-    this.loadCategory("organisation", "Organisation", "organisationDiv");
-    this.loadCategory("resumes", "Resumes", "resumesDiv");
-    this.loadCategory("uni", "Uni", "uniDiv");
-    this.loadCategory("websites", "Websites", "websitesDiv");
+    document.getElementById('category').style.fontWeight = "bold";
+
+    if(this.hrefId == "blog")
+    {
+      document.getElementById('category').innerHTML = "All Posts";
+      document.getElementById("organisationDiv").style.display = "block";
+      document.getElementById("resumesDiv").style.display = "block";
+      document.getElementById("uniDiv").style.display = "block";
+      document.getElementById("websitesDiv").style.display = "block";
+    }
+    else
+    {
+      this.loadCategory("organisation", "Organisation", "organisationDiv");
+      this.loadCategory("resumes", "Resumes", "resumesDiv");
+      this.loadCategory("uni", "Uni", "uniDiv");
+      this.loadCategory("websites", "Websites", "websitesDiv");
+    }
   }
 
   loadCategory(hrefSelector: string, h2: string, div: string)
@@ -37,5 +50,6 @@ export class BlogComponent implements OnInit {
       document.getElementById(div).style.display = "none";
     }
   }
+
 
 }
