@@ -11,11 +11,21 @@ import { BlogPostComponent } from './components/blog/blog-post/blog-post.compone
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  // { path: 'blog', loadChildren: () => import('./components/blog/blog.module').then(m => m.BlogModule) },
-  { path: 'blog', component: BlogComponent },
-  { path: 'blog/post/:article' , component: BlogPostComponent},
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
+
+  // Blog Categories
+  { path: 'blog', component: BlogComponent },
+  { path: 'blog/organisation', component: BlogComponent },
+  { path: 'blog/resumes', component: BlogComponent },
+  { path: 'blog/uni', component: BlogComponent },
+  { path: 'blog/websites', component: BlogComponent },
+
+  // Blog Posts
+  { path: 'blog/organisation/post/:article' , component: BlogPostComponent},
+  { path: 'blog/resumes/post/:article' , component: BlogPostComponent},
+  { path: 'blog/uni/post/:article' , component: BlogPostComponent},
+  { path: 'blog/websites/post/:article' , component: BlogPostComponent},
 
   // Photography pages
   { path: 'photography/main', component: PhotographyMainComponent },
