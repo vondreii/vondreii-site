@@ -24,6 +24,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { PhotographyMainComponent } from './components/photography/photography-main/photography-main.component';
 import { LocationsComponent } from './components/photography/locations/locations.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { LocationsComponent } from './components/photography/locations/locations
     AboutComponent,
     PhotographyMainComponent,
     LocationsComponent,
+    BlogComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +50,7 @@ import { LocationsComponent } from './components/photography/locations/locations
     HttpClientModule,
     MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE })
   ],
+  exports: [NavbarComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

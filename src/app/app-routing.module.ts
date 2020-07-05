@@ -6,10 +6,14 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { PhotographyMainComponent } from './components/photography/photography-main/photography-main.component';
 import { LocationsComponent } from './components/photography/locations/locations.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'blog', loadChildren: () => import('./components/blog/blog.module').then(m => m.BlogModule) },
+  // { path: 'blog', loadChildren: () => import('./components/blog/blog.module').then(m => m.BlogModule) },
+  { path: 'blog', component: BlogComponent },
+  { path: 'blog/post/:article' , component: BlogPostComponent},
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
 
