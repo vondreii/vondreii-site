@@ -27,6 +27,7 @@ import { LocationsComponent } from './components/photography/locations/locations
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     LocationsComponent,
     BlogComponent,
     BlogPostComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ProjectPostComponent
   ],
   imports: [
     BrowserModule,

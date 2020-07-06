@@ -9,6 +9,7 @@ import { LocationsComponent } from './components/photography/locations/locations
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -31,6 +32,9 @@ const routes: Routes = [
 
   // Projects
   { path: 'projects', component: ProjectsComponent },
+
+  // Projects Posts
+  { path: 'projects/post/:article', component: ProjectPostComponent },
 
   // Photography pages
   { path: 'photography/main', component: PhotographyMainComponent },

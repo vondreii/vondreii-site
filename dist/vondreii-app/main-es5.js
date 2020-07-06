@@ -236,6 +236,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/project-post/project-post.component.html":
+  /*!********************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/project-post/project-post.component.html ***!
+    \********************************************************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppComponentsProjectsProjectPostProjectPostComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<app-navbar></app-navbar>\n\n<div markdown [src]=\"post\"></div>\n\n<div class=\"card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html":
   /*!***************************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html ***!
@@ -251,7 +271,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-navbar></app-navbar>\n\n\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n<p>projects works!</p>\n";
+    __webpack_exports__["default"] = "<app-navbar></app-navbar>\n\n<!-- #region 1st Parallax image-->\n<div class=\"parallax\" style=\"height: 350px; background-image: url('../../assets/projects/header.jpg');\">\n  <div class=\"imageTextCollage\"><a style=\"float:right;margin-top:300px;background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px\" href=\"https://unsplash.com/@marcojodoin\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Joel Filipe\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">Marc-Olivier Jodoin</span></a></div>\n</div>\n<br><h1><strong>Projects</strong></h1><br>\n<div class=\"rows\"> \n    <!-- CyanX -->\n    <div class=\"column-3\">\n        <div class=\"blog-item\">\n            <img src=\"../../assets/projects/cyanX/preview.png\" alt=\"image\" style=\"width:100%\">\n            <div class=\"card-container\">\n                <br>\n                <h2><strong>Cyan X</strong></h2>\n                <p>A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals.</p><br>\n                <div class=\"read-more-project-button-container\">\n                    <a routerLink=\"post/cyanX\" class=\"button read-more-button first-button\">Read More >></a>\n                </div>\n                <div class=\"download-project-button-container\">\n                    <a href=\"../../assets/downloads/CyanX.zip\" class=\"button read-more-button first-button\">Download >></a>\n                </div>\n                <br>\n                <br>\n            </div>\n        </div>\n    </div>\n    <br><br>\n    <!-- Street Racing Game -->\n    <div class=\"column-3\">\n        <div class=\"blog-item\">\n            <img src=\"../../assets/projects/racing-game/gameplay.PNG\" alt=\"image\" style=\"width:100%\">\n            <div class=\"card-container\">\n                <br>\n                <h2><strong>3D Street Racing Game</strong></h2>\n                <p>A modified version of the racing game sourced from Microsoft's Imagine Repository. Race down the road while avoiding obstacles.</p><br>\n                <div class=\"read-more-project-button-container\">\n                    <a routerLink=\"post/streetRacingGame\" class=\"button read-more-button first-button\">Read More >></a>\n                </div>\n                <div class=\"download-project-button-container\">\n                    <a href=\"https://github.com/vondreii/Modified-Street-Racing-Game\" class=\"button read-more-button first-button\">Download >></a>\n                </div>\n                <br>\n                <br>\n            </div>\n        </div>\n    </div>\n    <!-- Ice Capades -->\n    <div class=\"column-3\">\n        <div class=\"blog-item\">\n            <img src=\"../../assets/projects/ice-capades/preview.jpg\" alt=\"image\" style=\"width:100%\">\n            <div class=\"card-container\">\n                <br>\n                <h2><strong>Ice Capades</strong></h2>\n                <p>A 2D Top-down Educational Adventure Game. Make your way to the oil rig that is causing the ice in your village to melt in order to shut it down.</p> <br>\n                <div class=\"read-more-project-button-container\">\n                    <a routerLink=\"post/iceCapades\" class=\"button read-more-button first-button\">Read More >></a>\n                </div>\n                <div class=\"download-project-button-container\">\n                    <a href=\"../../assets/downloads/IceCapades.zip\" class=\"button read-more-button first-button\">Download >></a>\n                </div>\n                <br>\n                <br>\n            </div>\n        </div>\n    </div>\n</div>\n<br>\n<div class=\"rows\"> \n    <div class=\"column-3\"></div>\n    <!-- Calculator -->\n    <div class=\"column-3\">\n        <div class=\"blog-item\">\n            <img src=\"../../assets/projects/calculator-converter/calculator.PNG\" alt=\"image\" style=\"width:100%\">\n            <div class=\"card-container\">\n                <br>\n                <h2><strong>Offline Calculator And Converter</strong></h2>\n                <p>An offline all-in-one calculator and converter. Includes conversions for area, digital storage, energy, frequence, length, mass, pressure, speed, temperature, time and volume.</p> <br>\n                <div class=\"read-more-project-button-container\">\n                    <a class=\"button read-more-button first-button\">Coming Soon!</a>\n                </div>\n                <br>\n                <br>\n            </div>\n        </div>\n    </div>\n</div>\n<br>\n<br>";
     /***/
   },
 
@@ -950,6 +970,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./components/projects/projects.component */
     "./src/app/components/projects/projects.component.ts");
+    /* harmony import */
+
+
+    var _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ./components/projects/project-post/project-post.component */
+    "./src/app/components/projects/project-post/project-post.component.ts");
 
     var routes = [{
       path: '',
@@ -996,6 +1022,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     {
       path: 'projects',
       component: _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_11__["ProjectsComponent"]
+    }, // Projects Posts
+    {
+      path: 'projects/post/:article',
+      component: _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_12__["ProjectPostComponent"]
     }, // Photography pages
     {
       path: 'photography/main',
@@ -1263,7 +1293,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./components/projects/projects.component */
-    "./src/app/components/projects/projects.component.ts"); // Markdown Files
+    "./src/app/components/projects/projects.component.ts");
+    /* harmony import */
+
+
+    var _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    /*! ./components/projects/project-post/project-post.component */
+    "./src/app/components/projects/project-post/project-post.component.ts"); // Markdown Files
     // Angular Fire Modules
     // Environment Files
     // App Files
@@ -1274,7 +1310,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_15__["ContactComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_16__["AboutComponent"], _components_photography_photography_main_photography_main_component__WEBPACK_IMPORTED_MODULE_17__["PhotographyMainComponent"], _components_photography_locations_locations_component__WEBPACK_IMPORTED_MODULE_18__["LocationsComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_19__["BlogComponent"], _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_20__["BlogPostComponent"], _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_21__["ProjectsComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_15__["ContactComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_16__["AboutComponent"], _components_photography_photography_main_photography_main_component__WEBPACK_IMPORTED_MODULE_17__["PhotographyMainComponent"], _components_photography_locations_locations_component__WEBPACK_IMPORTED_MODULE_18__["LocationsComponent"], _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_19__["BlogComponent"], _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_20__["BlogPostComponent"], _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_21__["ProjectsComponent"], _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_22__["ProjectPostComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_5__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_9__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_6__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_7__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_8__["AngularFireStorageModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"].forRoot({
         loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
         sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_2__["SecurityContext"].NONE
@@ -2111,6 +2147,100 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/components/projects/project-post/project-post.component.css":
+  /*!*****************************************************************************!*\
+    !*** ./src/app/components/projects/project-post/project-post.component.css ***!
+    \*****************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppComponentsProjectsProjectPostProjectPostComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdHMvcHJvamVjdC1wb3N0L3Byb2plY3QtcG9zdC5jb21wb25lbnQuY3NzIn0= */";
+    /***/
+  },
+
+  /***/
+  "./src/app/components/projects/project-post/project-post.component.ts":
+  /*!****************************************************************************!*\
+    !*** ./src/app/components/projects/project-post/project-post.component.ts ***!
+    \****************************************************************************/
+
+  /*! exports provided: ProjectPostComponent */
+
+  /***/
+  function srcAppComponentsProjectsProjectPostProjectPostComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ProjectPostComponent", function () {
+      return ProjectPostComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+
+    var ProjectPostComponent = /*#__PURE__*/function () {
+      function ProjectPostComponent(route) {
+        _classCallCheck(this, ProjectPostComponent);
+
+        this.route = route;
+      }
+
+      _createClass(ProjectPostComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          var articleName = this.route.snapshot.paramMap.get('article');
+          this.post = './assets/project-posts/' + articleName + '.md';
+        }
+      }]);
+
+      return ProjectPostComponent;
+    }();
+
+    ProjectPostComponent.ctorParameters = function () {
+      return [{
+        type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
+      }];
+    };
+
+    ProjectPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-project-post',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./project-post.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/project-post/project-post.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./project-post.component.css */
+      "./src/app/components/projects/project-post/project-post.component.css"))["default"]]
+    })], ProjectPostComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/components/projects/projects.component.css":
   /*!************************************************************!*\
     !*** ./src/app/components/projects/projects.component.css ***!
@@ -2126,7 +2256,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJ9 */";
+    __webpack_exports__["default"] = "/* ****************************** COMMON EFFECTS ****************************** */\r\n/* Parallax effect */\r\n.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}\r\n.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}\r\nh1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}\r\nh2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}\r\nh4 {font-family:Helvetica,sans-serif;text-align:center;font-size:17pt;color:rgb(100, 100, 100);line-height:30px}\r\np, ul, ol, blockquote {font-family:Helvetica,sans-serif;font-size:16pt;line-height:30px}\r\n/* ******************************* COLUMN LAYOUT ******************************* */\r\n.rows { display: flex; flex-wrap: wrap; padding: 0 4px; }\r\n.column-3 { flex: 33%; max-width: 33%; padding: 0 2px;}\r\n.column-3 img {vertical-align: middle; width: 100%; }\r\n@media screen and (max-width: 1200px) {.column-3 { flex: 100%; max-width: 100%; }}\r\n.blog-item {padding:0px;text-align:center;text-decoration: none;font-size:18px;color: rgb(85, 85, 85);border:none;}\r\n.blog-item h2 {padding:10px}\r\n/* Card within a card */\r\n.card-container { padding: 2px 50px;background-color: whitesmoke;}\r\n/* ****************************** BUTTONS ****************************** */\r\n.button {\r\n    text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;\r\n    border:none;border-radius:5px;box-shadow:0 4px 8px 0 lightgrey;color:rgb(59, 59, 59)\r\n}\r\n.read-more-project-button-container { margin-bottom: 20px; text-align: center}\r\n.first-button {background-color: white}\r\n.second-button {background-color: whitesmoke}\r\n.read-more-button:hover, .read-more-button:active { background-color: rgb(54,58,64); text-decoration: none; color: white;}\r\n.read-more-button:visited { text-decoration: none } \r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGlGQUFpRjtBQUNqRixvQkFBb0I7QUFDcEIsV0FBVywyQkFBMkIsQ0FBQywwQkFBMEIsQ0FBQywyQkFBMkIsQ0FBQyxxQkFBcUI7QUFDbkgsWUFBWSxzQkFBc0IsQ0FBQyxXQUFXLENBQUMsb0JBQW9CLENBQUMsZUFBZSxDQUFDLGNBQWMsQ0FBQyxnQkFBZ0IsQ0FBQyxlQUFlLENBQUMsb0JBQW9CLENBQUMsaUJBQWlCO0FBRTFLLElBQUksZ0NBQWdDLENBQUMsaUJBQWlCLENBQUMsZ0JBQWdCO0FBQ3ZFLFFBQVEsZ0NBQWdDLENBQUMsaUJBQWlCLENBQUMsZ0JBQWdCO0FBQzNFLElBQUksZ0NBQWdDLENBQUMsaUJBQWlCLENBQUMsY0FBYyxDQUFDLHdCQUF3QixDQUFDLGdCQUFnQjtBQUUvRyx1QkFBdUIsZ0NBQWdDLENBQUMsY0FBYyxDQUFDLGdCQUFnQjtBQUV2RixrRkFBa0Y7QUFDbEYsUUFBUSxhQUFhLEVBQUUsZUFBZSxFQUFFLGNBQWMsRUFBRTtBQUN4RCxZQUFZLFNBQVMsRUFBRSxjQUFjLEVBQUUsY0FBYyxDQUFDO0FBQ3RELGVBQWUsc0JBQXNCLEVBQUUsV0FBVyxFQUFFO0FBQ3BELHVDQUF1QyxZQUFZLFVBQVUsRUFBRSxlQUFlLEVBQUUsQ0FBQztBQUVqRixZQUFZLFdBQVcsQ0FBQyxpQkFBaUIsQ0FBQyxxQkFBcUIsQ0FBQyxjQUFjLENBQUMsc0JBQXNCLENBQUMsV0FBVyxDQUFDO0FBQ2xILGVBQWUsWUFBWTtBQUUzQix1QkFBdUI7QUFDdkIsa0JBQWtCLGlCQUFpQixDQUFDLDRCQUE0QixDQUFDO0FBRWpFLDBFQUEwRTtBQUMxRTtJQUNJLG9CQUFvQixDQUFDLG9CQUFvQixDQUFDLGlCQUFpQixDQUFDLFlBQVksQ0FBQyxvQkFBb0I7SUFDN0YsV0FBVyxDQUFDLGlCQUFpQixDQUFDLGdDQUFnQyxDQUFDO0FBQ25FO0FBQ0Esc0NBQXNDLG1CQUFtQixFQUFFLGtCQUFrQjtBQUU3RSxlQUFlLHVCQUF1QjtBQUN0QyxnQkFBZ0IsNEJBQTRCO0FBQzVDLG9EQUFvRCwrQkFBK0IsRUFBRSxxQkFBcUIsRUFBRSxZQUFZLENBQUM7QUFDekgsNEJBQTRCLHNCQUFzQiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBDT01NT04gRUZGRUNUUyAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLyogUGFyYWxsYXggZWZmZWN0ICovXHJcbi5wYXJhbGxheCB7YmFja2dyb3VuZC1hdHRhY2htZW50OmZpeGVkO2JhY2tncm91bmQtcG9zaXRpb246Y2VudGVyO2JhY2tncm91bmQtcmVwZWF0Om5vLXJlcGVhdDtiYWNrZ3JvdW5kLXNpemU6Y292ZXJ9XHJcbi5waG90b0NyZWQge2JhY2tncm91bmQtY29sb3I6YmxhY2s7Y29sb3I6d2hpdGU7dGV4dC1kZWNvcmF0aW9uOm5vbmU7cGFkZGluZzo0cHggNnB4O2ZvbnQtc2l6ZToxMnB4O2ZvbnQtd2VpZ2h0OmJvbGQ7bGluZS1oZWlnaHQ6MS4yO2Rpc3BsYXk6aW5saW5lLWJsb2NrO2JvcmRlci1yYWRpdXM6M3B4fVxyXG5cclxuaDEge2ZvbnQtZmFtaWx5OkhlbHZldGljYSxzYW5zLXNlcmlmO3RleHQtYWxpZ246Y2VudGVyO2xpbmUtaGVpZ2h0OjUwcHh9XHJcbmgyLCBoMyB7Zm9udC1mYW1pbHk6SGVsdmV0aWNhLHNhbnMtc2VyaWY7dGV4dC1hbGlnbjpjZW50ZXI7bGluZS1oZWlnaHQ6NTBweH1cclxuaDQge2ZvbnQtZmFtaWx5OkhlbHZldGljYSxzYW5zLXNlcmlmO3RleHQtYWxpZ246Y2VudGVyO2ZvbnQtc2l6ZToxN3B0O2NvbG9yOnJnYigxMDAsIDEwMCwgMTAwKTtsaW5lLWhlaWdodDozMHB4fVxyXG5cclxucCwgdWwsIG9sLCBibG9ja3F1b3RlIHtmb250LWZhbWlseTpIZWx2ZXRpY2Esc2Fucy1zZXJpZjtmb250LXNpemU6MTZwdDtsaW5lLWhlaWdodDozMHB4fVxyXG5cclxuLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBDT0xVTU4gTEFZT1VUICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLnJvd3MgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LXdyYXA6IHdyYXA7IHBhZGRpbmc6IDAgNHB4OyB9XHJcbi5jb2x1bW4tMyB7IGZsZXg6IDMzJTsgbWF4LXdpZHRoOiAzMyU7IHBhZGRpbmc6IDAgMnB4O31cclxuLmNvbHVtbi0zIGltZyB7dmVydGljYWwtYWxpZ246IG1pZGRsZTsgd2lkdGg6IDEwMCU7IH1cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTIwMHB4KSB7LmNvbHVtbi0zIHsgZmxleDogMTAwJTsgbWF4LXdpZHRoOiAxMDAlOyB9fVxyXG5cclxuLmJsb2ctaXRlbSB7cGFkZGluZzowcHg7dGV4dC1hbGlnbjpjZW50ZXI7dGV4dC1kZWNvcmF0aW9uOiBub25lO2ZvbnQtc2l6ZToxOHB4O2NvbG9yOiByZ2IoODUsIDg1LCA4NSk7Ym9yZGVyOm5vbmU7fVxyXG4uYmxvZy1pdGVtIGgyIHtwYWRkaW5nOjEwcHh9XHJcblxyXG4vKiBDYXJkIHdpdGhpbiBhIGNhcmQgKi9cclxuLmNhcmQtY29udGFpbmVyIHsgcGFkZGluZzogMnB4IDUwcHg7YmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZTt9XHJcblxyXG4vKiAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogQlVUVE9OUyAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogKi9cclxuLmJ1dHRvbiB7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246bm9uZTtkaXNwbGF5OmlubGluZS1ibG9jaztwYWRkaW5nOjEwcHggMjVweDtvdXRsaW5lOm5vbmU7dHJhbnNpdGlvbjplYXNlIDAuNXM7XHJcbiAgICBib3JkZXI6bm9uZTtib3JkZXItcmFkaXVzOjVweDtib3gtc2hhZG93OjAgNHB4IDhweCAwIGxpZ2h0Z3JleTtjb2xvcjpyZ2IoNTksIDU5LCA1OSlcclxufVxyXG4ucmVhZC1tb3JlLXByb2plY3QtYnV0dG9uLWNvbnRhaW5lciB7IG1hcmdpbi1ib3R0b206IDIwcHg7IHRleHQtYWxpZ246IGNlbnRlcn1cclxuXHJcbi5maXJzdC1idXR0b24ge2JhY2tncm91bmQtY29sb3I6IHdoaXRlfVxyXG4uc2Vjb25kLWJ1dHRvbiB7YmFja2dyb3VuZC1jb2xvcjogd2hpdGVzbW9rZX1cclxuLnJlYWQtbW9yZS1idXR0b246aG92ZXIsIC5yZWFkLW1vcmUtYnV0dG9uOmFjdGl2ZSB7IGJhY2tncm91bmQtY29sb3I6IHJnYig1NCw1OCw2NCk7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsgY29sb3I6IHdoaXRlO31cclxuLnJlYWQtbW9yZS1idXR0b246dmlzaXRlZCB7IHRleHQtZGVjb3JhdGlvbjogbm9uZSB9IFxyXG4iXX0= */";
     /***/
   },
 
