@@ -25,7 +25,7 @@ export class BlogComponent implements OnInit {
     {
       document.getElementById('category').innerHTML = "All Posts";
       document.getElementById("organisationDiv").style.display = "block";
-      document.getElementById("resumesDiv").style.display = "block";
+      document.getElementById("resumesDiv").style.display = "none";
       document.getElementById("uniDiv").style.display = "block";
       document.getElementById("websitesDiv").style.display = "block";
     }
