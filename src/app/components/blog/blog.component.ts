@@ -23,7 +23,7 @@ export class BlogComponent implements OnInit {
 
     if(this.hrefId == "blog")
     {
-      document.getElementById('category').innerHTML = "All Posts";
+      document.getElementById('category').innerHTML = "ALL POSTS";
       document.getElementById("organisationDiv").style.display = "block";
       document.getElementById("resumesDiv").style.display = "none";
       document.getElementById("uniDiv").style.display = "block";
@@ -42,7 +42,7 @@ export class BlogComponent implements OnInit {
   {
     if(this.hrefId == hrefSelector)
     {
-      document.getElementById('category').innerHTML = h2;
+      document.getElementById('category').innerHTML = h2.toUpperCase();
       document.getElementById(div).style.display = "block";
     }
     else

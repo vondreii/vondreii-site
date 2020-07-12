@@ -1,7 +1,7 @@
 /* ****************************** NAVIGATION BAR ****************************** */
 /* Both top and bottom parts of navbar */
 .navigation {position:fixed;width:100%;z-index:99;border-bottom:1px solid lightgrey}
-.navigation a {color:#727272; padding:20px 15px;font-family:Helvetica,sans-serif;font-size:13pt}
+.navigation a {color:#727272; padding:12px 15px;font-family:Helvetica,sans-serif;font-size:12pt}
 .navigation a:hover {transition:0.7s ease;color:#272727;color:#272727;text-decoration:none} 
 
 /* The dark thick top-border */
@@ -10,7 +10,7 @@
 /* The actual navigation with links */
 #navbar {overflow:hidden;opacity:1;}
 .navbar-toggle {background-color: #272727;}
-#navbarCollapse {text-align:center;padding-left:380px;}
+#navbarCollapse {text-align:center;padding-left:280px;}
 
 /* Github, linkedIn and contact pages */
 .social-links {margin-top:25px}
@@ -33,14 +33,14 @@
   .separator-vertical {display:none}
   .hide-links {display:none}
   .blog-link {display:block}
-  #navbarCollapse {text-align:center;padding-left:200px;}
+  #navbarCollapse {text-align:center;padding-left:150px;}
 } 
 /* Only medium devices, eg ipads but not desktops #3 */
 @media screen and (min-width:767px) and (max-width:900px) {
   .separator-vertical {display:none}
   .hide-links {display:none}
   .blog-link {display:block}
-  #navbarCollapse {text-align:center;padding-left:100px;}
+  #navbarCollapse {text-align:center;padding-left:20px;}
 } 
 /* Everything after smaller screen, eg ipad, desktop */
 @media screen and (min-width:767px) {
