@@ -1,6 +1,7 @@
 <app-navbar></app-navbar>
 
 <div style="background-color:whitesmoke">
+  <!-- Parallax and main heading -->
   <div class="parallax" style="height: 500px;background-image: url('../../../assets/header.jpg');">
     <div class="imageTextCollage"><a class="photoCred" style="margin-top: 450px; float: right; position:relative" href="https://unsplash.com/@gregda" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Taylor Smith"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Gregory DALLEAU</span></a></div>
     <h2 class="main-heading"><span class="heading-border">VONDREII</span></h2>
@@ -8,73 +9,90 @@
   <div class="category-card"><br></div>
   <br>
   <div class="rows"> 
-    <!-- Something here -->
-    <div class="column-4">
-      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover card-properties">
-        <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="img" class="d-block w-full">
-        <div class="px-2 py-2">
-          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Travel</p>
-          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">Planning your final summer trip</h1>
-          <p class="mb-1">Summer is coming to a close just around the corner. But it's not too late to squeeze in another weekend trip &hellip;</p>
-        </div>
-        <a href="#0" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+    <!-- #region Post 5 -->
+    <div class="column-3-flex"><div class="item-container blue-hover card-properties">
+      <!-- Image -->
+      <img src="https://images.pexels.com/photos/442559/pexels-photo-442559.jpeg?auto=compress&cs=tinysrgb" alt="img" class="item-image">
+      <!-- Title, description -->
+      <div class="item-content">
+        <p class="item-categoryTag">Travel</p>
+        <h1 class="item-heading">Planning your final summer trip</h1>
+        <p class="item-description">Summer is coming to a close just around the corner. But it's not too late to squeeze in another weekend trip &hellip;</p>
       </div>
-    </div>
-    <div class="column-4">
-      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover card-properties">
-        <img src="../../assets/blog/uni-life/1st-year-uni/mini-preview.jpg" alt="img" class="d-block w-full">
-        <div class="px-2 py-2">
-          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Uni</p>
-          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">How To Make The Most Out Of Your First Year At Uni</h1>
-          <p class="mb-1">There are some things I wish I knew when I first started uni, which would have definitely &hellip;</p>
-        </div>
-        <a routerLink="blog/post/howToMakeTheMostOutOfYourFirstYearUni" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      <!-- Link -->
+      <a href="#0" class="item-link styled-link">Read More</a>
+    </div></div>
+    <!-- #endregion -->
+    <!-- #region Post 4 -->
+    <div class="column-3-flex"><div class="item-container blue-hover card-properties">
+      <!-- Image -->
+      <img src="../../assets/blog/uni-life/1st-year-uni/mini-preview.jpg" alt="img" class="item-image">
+      <!-- Title, description -->
+      <div class="item-content">
+        <p class="item-categoryTag">Uni</p>
+        <h1 class="item-heading">How To Make The Most Out Of Your First Year At Uni</h1>
+        <p class="item-description">There are some things I wish I knew when I first started uni, which would have definitely &hellip;</p>
       </div>
-    </div>
-    <div class="column-4">
-      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover card-properties">
-        <img src="../../assets/blog/organisation/organise-web-browsing/mini-preview.jpg" alt="img" class="d-block w-full">
-        <div class="px-2 py-2">
-          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Organisation</p>
-          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25">How To Organise Your Web Browsing</h1>
-          <p class="mb-1">These days, many people spend most of their time surfing the web or conducting important business online &hellip;</p>
-        </div>
-        <a routerLink="blog/post/howToOrganiseYourWebBrowsing" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      <!-- Link -->
+      <a routerLink="blog/post/howToMakeTheMostOutOfYourFirstYearUni" class="item-link styled-link">Read More</a>
+    </div></div>
+    <!-- #endregion -->
+    <!-- #region Post 3 -->
+    <div class="column-3-flex"><div class="item-container blue-hover card-properties">
+      <!-- Image -->
+      <img src="../../assets/blog/organisation/organise-web-browsing/mini-preview.jpg" alt="img" class="item-image">
+      <!-- Title, description -->
+      <div class="item-content">
+        <p class="item-categoryTag">Organisation</p>
+        <h1 class="item-heading">How To Organise Your Web Browsing</h1>
+        <p class="item-description">These days, many people spend most of their time surfing the web or conducting important business online &hellip;</p>
       </div>
-    </div>
-    <div class="column-4">
-      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover card-properties">
-        <img src="../../assets/blog/organisation/how-to-be-better-organised/mini-preview.jpg" alt="img" class="d-block w-full">
-        <div class="px-2 py-2">
-          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Organisation</p>
-          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">24 Ways To Be More Organised</h1>
-          <p class="mb-1">There's a lot of people who admit that they would like to be more organised. Unfortunately, being fully &hellip;</p>
-        </div>
-        <a routerLink="blog/post/waysToBeMoreOrganised" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      <!-- Link -->
+      <a routerLink="blog/post/howToOrganiseYourWebBrowsing" class="item-link styled-link">Read More</a>
+    </div></div>
+    <!-- #region Post 3 -->
+    <!-- #endregion -->
+    <div class="column-3-flex"><div class="item-container blue-hover card-properties">
+      <!-- Image -->
+      <img src="../../assets/blog/organisation/how-to-be-better-organised/mini-preview.jpg" alt="img" class="item-image">
+      <!-- Title, description -->
+      <div class="item-content">
+        <p class="item-categoryTag">Organisation</p>
+        <h1 class="item-heading">24 Ways To Be More Organised</h1>
+        <p class="item-description">There's a lot of people who admit that they would like to be more organised. Unfortunately, being fully &hellip;</p>
       </div>
-    </div>
-    <div class="column-4">
-      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover card-properties">
-        <img src="../../assets/blog/organisation/better-organise-your-files/mini-preview.jpg" alt="img" class="d-block w-full">
-        <div class="px-2 py-2">
-          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Organisation</p>
-          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">10 Tips To Better Organise Your Computer</h1>
-          <p class="mb-1">Having a well organised computer can improve your overall workflow and efficiency. If your computer has &hellip;</p>
-        </div>
-        <a routerLink="blog/post/tipsToBetterOrganiseYourComputer" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      <!-- Link -->
+      <a routerLink="blog/post/waysToBeMoreOrganised" class="item-link styled-link">Read More</a>
+    </div></div>
+    <!-- #endregion -->
+    <!-- #region Post 2 -->
+    <div class="column-3-flex"><div class="item-container blue-hover card-properties">
+      <!-- Image -->
+      <img src="../../assets/blog/organisation/better-organise-your-files/mini-preview.jpg" alt="img" class="item-image">
+      <!-- Title, description -->
+      <div class="item-content">
+        <p class="item-categoryTag">Organisation</p>
+        <h1 class="item-heading">10 Tips To Better Organise Your Computer</h1>
+        <p class="item-description">Having a well organised computer can improve your overall workflow and efficiency. If your computer has &hellip;</p>
       </div>
-    </div>
-    <div class="column-4">
-      <div class="my-2 mx-auto p-relative bg-white shadow-1 blue-hover card-properties">
-        <img src="../../assets/blog/minimalism/things-you-can-declutter/mini-preview.jpg" alt="img" class="d-block w-full">
-        <div class="px-2 py-2">
-          <p class="mb-0 small font-weight-medium text-uppercase mb-1 text-muted lts-2px">Organisation</p>
-          <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">60+ Things You Can Declutter Right Now</h1>
-          <p class="mb-1">Decluttering helps us organise the things around us and can also help improve our overall wellbeing. Everyone can benefit &hellip;</p>
-        </div>
-        <a routerLink="blog/post/sixtyPlusThingsToDeclutter" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">Read More</a>
+      <!-- Link -->
+      <a routerLink="blog/post/tipsToBetterOrganiseYourComputer" class="item-link styled-link">Read More</a>
+    </div></div>
+    <!-- #endregion -->
+    <!-- #region Post 1 -->
+    <div class="column-3-flex"><div class="item-container blue-hover card-properties">
+      <!-- Image -->
+      <img src="../../assets/blog/minimalism/things-you-can-declutter/mini-preview.jpg" alt="img" class="item-image">
+      <!-- Title, description -->
+      <div class="item-content">
+        <p class="item-categoryTag">Organisation</p>
+        <h1 class="item-heading">60+ Things You Can Declutter Right Now</h1>
+        <p class="item-description">Decluttering helps us organise the things around us and can also help improve our overall wellbeing. Everyone can benefit &hellip;</p>
       </div>
-    </div>
+      <!-- Link -->
+      <a routerLink="blog/post/sixtyPlusThingsToDeclutter" class="item-link styled-link">Read More</a>
+    </div></div>
+    <!-- #endregion -->
   </div>
   <br><br>
 </div>

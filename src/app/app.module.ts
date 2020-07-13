@@ -22,12 +22,12 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
-import { PhotographyMainComponent } from './components/photography/photography-main/photography-main.component';
-import { LocationsComponent } from './components/photography/locations/locations.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
+import { PhotographyComponent } from './components/photography/photography.component';
+import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
 
 @NgModule({
   declarations: [
@@ -37,12 +37,12 @@ import { ProjectPostComponent } from './components/projects/project-post/project
     FooterComponent,
     ContactComponent,
     AboutComponent,
-    PhotographyMainComponent,
-    LocationsComponent,
     BlogComponent,
     BlogPostComponent,
     ProjectsComponent,
-    ProjectPostComponent
+    ProjectPostComponent,
+    PhotographyComponent,
+    PhotographyLocationComponent
   ],
   imports: [
     BrowserModule,

@@ -4,12 +4,12 @@ import { Routes, RouterModule, Router } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
-import { PhotographyMainComponent } from './components/photography/photography-main/photography-main.component';
-import { LocationsComponent } from './components/photography/locations/locations.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
+import { PhotographyComponent } from './components/photography/photography.component';
+import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -37,16 +37,16 @@ const routes: Routes = [
   { path: 'projects/post/:article', component: ProjectPostComponent },
 
   // Photography pages
-  { path: 'photography/main', component: PhotographyMainComponent },
-  { path: 'photography/blue-mountains', component: LocationsComponent },
-  { path: 'photography/central-coast', component: LocationsComponent },
-  { path: 'photography/hobart', component: LocationsComponent },
-  { path: 'photography/hunter-valley', component: LocationsComponent },
-  { path: 'photography/manila', component: LocationsComponent },
-  { path: 'photography/melbourne', component: LocationsComponent },
-  { path: 'photography/newcastle', component: LocationsComponent },
-  { path: 'photography/rural-philippines', component: LocationsComponent },
-  { path: 'photography/sydney', component: LocationsComponent },
+  { path: 'photography/main', component: PhotographyComponent },
+  { path: 'photography/blue-mountains', component: PhotographyLocationComponent },
+  { path: 'photography/central-coast', component: PhotographyLocationComponent },
+  { path: 'photography/hobart', component: PhotographyLocationComponent },
+  { path: 'photography/hunter-valley', component: PhotographyLocationComponent },
+  { path: 'photography/manila', component: PhotographyLocationComponent },
+  { path: 'photography/melbourne', component: PhotographyLocationComponent },
+  { path: 'photography/newcastle', component: PhotographyLocationComponent },
+  { path: 'photography/rural-philippines', component: PhotographyLocationComponent },
+  { path: 'photography/sydney', component: PhotographyLocationComponent },
 ]
 
 @NgModule({
