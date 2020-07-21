@@ -13,18 +13,19 @@
   </li>
 </ul> -->
 <p></p>
+
 <div class="rows">
   <div class="column-4">
-    <img *ngFor="let img of col1" src="{{img}}" alt="image">
+    <img *ngFor="let img of col1" src="{{img}}" alt="">
   </div>
   <div class="column-4">
-    <img *ngFor="let img of col2" src="{{img}}" alt="image">
+    <img *ngFor="let img of col2" src="{{img}}" alt="">
   </div>
   <div class="column-4">
-    <img *ngFor="let img of col3" src="{{img}}" alt="image">
+    <img *ngFor="let img of col3" src="{{img}}" alt="">
   </div>
   <div class="column-4">
-    <img *ngFor="let img of col4" src="{{img}}" alt="image">
+    <img *ngFor="let img of col4" src="{{img}}" alt="">
   </div>
 </div>
 <br><br>
@@ -36,7 +37,7 @@
     <div class="column-2 blog-image-container">
       <div class="image-container">
           <a routerLink={{moreLikeThis1RouterLink}}>
-          <img src={{moreLikeThis1Background}} alt="image" class="image">
+          <img src={{moreLikeThis1Background}} alt="" class="image">
           <div class="centered">{{moreLikeThis1Location}}</div>
         </a>
       </div>
@@ -44,7 +45,7 @@
     <div class="column-2 blog-image-container">
       <div class="image-container">
           <a routerLink={{moreLikeThis2RouterLink}}>
-          <img src={{moreLikeThis2Background}} alt="image" class="image">
+          <img src={{moreLikeThis2Background}} alt="" class="image">
           <div class="centered">{{moreLikeThis2Location}}</div>
         </a>
       </div>
@@ -52,8 +53,6 @@
   </div>
   <br>
 </div>
-
-
 
 <!-- <div *ngFor="let photos of collectionPhotos | async">
   {{photos.photos.length}}

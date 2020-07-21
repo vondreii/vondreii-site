@@ -93,6 +93,9 @@ th {
 @media screen and (max-width: 900px){
   #gif-image {width:280px;height:280px;border:none}
 }
+.loading-image {
+  background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+}
 
 /* ******************************* COLUMN LAYOUT ******************************* */
 
@@ -161,8 +164,7 @@ th {
 
 /* ****************************** DOWNLOAD BUTTONS ****************************** */
 .download-container h2, .download-container {
-  border-top:1px solid black;border-bottom:1px solid black;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  text-align:center;background-color:rgb(54,58,64);
+  padding:20px;text-align:center;background-color:white;
 }
 .download-button {
   background-color:rgb(180, 248, 180)

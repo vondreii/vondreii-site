@@ -1,12 +1,4 @@
 <div class="parallax" style="height: 350px; background-image: url('../../assets/projects/cyanX/header.png');"></div>
-<div class="download-container">
-    <div class="button-container">
-        <a href="../../assets/downloads/CyanX.zip" class="button download-button">↓ Download Game Here ↓</a>
-    </div>
-    <div class="button-container">
-        <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
-    </div>
-</div>
 <br>
 <div class="writtenContent">
 
@@ -16,6 +8,14 @@ ___
 ###### 2D Game | Game | Side Scroller | Puzzle
 ___
 
+<div class="download-container">
+    <div class="button-container">
+        <a href="../../assets/downloads/CyanX.zip" class="button download-button">↓ Download Game Here ↓</a>
+    </div>
+    <div class="button-container">
+        <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
+    </div>
+</div>
 
 ### About the Game
 
@@ -233,6 +233,13 @@ Level 3 contains platforms that are ice-themed, as the level design is situated 
 </div>
 <!-- ----------------------------- -->
 
-<br><br>
+<div class="download-container">
+    <div class="button-container">
+        <a href="../../assets/downloads/CyanX.zip" class="button download-button">↓ Download Game Here ↓</a>
+    </div>
+    <div class="button-container">
+        <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
+    </div>
+</div>
 
 </div>
