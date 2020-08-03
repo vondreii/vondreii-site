@@ -1,4 +1,4 @@
-<div class="parallax" style="height: 350px; background-image: url('../../../assets/blog/organisation/organise-web-browsing/header.jpg');">
+<div class="parallax" style="height: 350px; background-image: url('../../../assets/blog/organise-web-browsing/header.jpg');">
   <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Igor Miske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Unknown</span></a></div>
 </div>
 <br>
@@ -19,17 +19,17 @@ Have a look at the cluttered inbox below:
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-    <img src="../../../assets/blog/organisation/organise-web-browsing/email-cluttered.PNG" alt="image" class="blog-image"/>
+    <img src="../../../assets/blog/organise-web-browsing/email-cluttered.PNG" alt="image" class="blog-image"/>
 	<div class="content-photo-credit"><p>A very cluttered inbox</p></div>
 </div>
 <!-- ----------------------------- -->
 
-This doesn't make me feel like reading anything. I don't understand most of the things that's there and feel very disorganised just by looking at it. 
-If I am ever in a situation where I need to backtrack any records, then so help me God - luckily, I've decluttered my inbox not too long ago, so here is what it looks like now:
+This doesn't make me feel like reading anything. I feel very disorganised just by looking at it, and it's clear that backtracking may be difficult.
+Luckily, I've decluttered my inbox not too long ago, so here is what it looks like now:
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-	<img src="../../../assets/blog/organisation/organise-web-browsing/email-folder2.PNG" alt="image" class="blog-image"/>
+	<img src="../../../assets/blog/organise-web-browsing/email-folder2.PNG" alt="image" class="blog-image"/>
 	<div class="content-photo-credit"><p>Much better</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -40,12 +40,12 @@ The gaming folder is nested under the 'Online Accounts' folder. This is what all
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-	<img src="../../../assets/blog/organisation/organise-web-browsing/email-folder1.PNG" alt="image" class="blog-image"/>
+	<img src="../../../assets/blog/organise-web-browsing/email-folder1.PNG" alt="image" class="blog-image"/>
 	<div class="content-photo-credit"><p>Root folder structure</p></div>
 </div>
 <!-- ----------------------------- -->
 
-I also have deleted and unsubscribed to a lot of things that I might have 'accidentally' signed up for just by visiting their website. This prevents spam emails from getting into your inbox in the first place.    
+I also have **deleted** and **unsubscribed** to a lot of things that I might have 'accidentally' signed up for just by visiting their website. This prevents spam emails from getting into your inbox in the first place.    
 
 ### 2. Utilize The Bookmarks Bar to Organise Frequently Used Websites
 
@@ -53,7 +53,7 @@ When you use the web, it can be a lot easier to just click on an icon to open a 
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/bookmarks.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/bookmarks.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Use bookmarks to organise your web browsing</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -62,7 +62,7 @@ First, make sure the bookmarks bar is enabled. Depending on the web browser you 
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/bookmarks-4.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/bookmarks-4.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Use bookmarks to organise your web browsing</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -71,7 +71,7 @@ All you have to do is visit the website you want to save, and click on the star 
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/bookmarks-2.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/bookmarks-2.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Add to bookmarks option in Google Chrome</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -80,7 +80,7 @@ And here it is in Firefox:
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/bookmarks-3.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/bookmarks-3.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Add to bookmarks option in Firefox</p></div>  
 </div>
 <!-- ----------------------------- -->
@@ -100,21 +100,21 @@ You can have secure passwords for all your accounts such as <i>'UDHAKF73FKVE'</i
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/keepass-1.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/keepass-1.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p><a href="https://keepass.info/">KeePass</a> password manager login</p></div>
 </div>
 <!-- ----------------------------- -->
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/keepass-2.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/keepass-2.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Inside <a href="https://keepass.info/">KeePass</a> password manager</p></div>
 </div>
 <!-- ----------------------------- -->
 
 ### 4. Organise your online finance accounts
 
-If you do online shopping, you want to make sure you organise other online accounts that involve payments, such as such as <a href="https://www.paypal.com/">PayPal</a>.
+If you do online shopping, you want to make sure you organise other online accounts that involve payments, such as <a href="https://www.paypal.com/">PayPal</a>.
 This makes your transactions both faster and more secure. Take advantage of online banking apps - you can contact your bank to enquire how they do their online banking.
 Many banks offer the choice of logging into your account through their website, or by downloading a secure app on your phone.
 If you make or recieve payments online you can easily look at your bank balance without having to leave your computer.
@@ -125,7 +125,7 @@ Utilize extensions to help you keep track of how you spend your time on the comp
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/leechblock.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/leechblock.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p><a href="https://chrome.google.com/webstore/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok">LeechBlock</a> time manager</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -142,7 +142,7 @@ This can help you limit how many minutes or hours you spend a day on sites like 
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/rescueTime.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/rescueTime.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p><a href="https://chrome.google.com/webstore/detail/rescuetime-for-chrome-and/bdakmnplckeopfghnlpocafcepegjeap">Rescue Time</a> time manager</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -161,18 +161,16 @@ By using a social media post manager, you can also manage all your posts, activi
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/organise-web-browsing/buffer.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/organise-web-browsing/buffer.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p><a href="https://chrome.google.com/webstore/detail/buffer/noojglkidnpfjbincgijbaiedldjfbhh">Buffer</a>, social media/time wasting apps blocker</p></div>
 </div>
 <!-- ----------------------------- -->
 	
 ### Conclusion
 
-As you can see, there are so many possible things you could consider decluttering in your home. It can be very difficult to do this in one go, so doing it in sections definitely helps.
-It is useful to have three piles: **'definitely keeping'**, **'maybe'** and **'definitely do not need.'**<br><br>
-**Definitely Keeping:** Keep! <br>
-**Maybe:** Keep them in a bag and go through them in a few weeks and decide again. <br>
-**Definitely Do Not Need:** These items can be put in bags and given to charity organisations (like the Salvation Army), sold for extra cash, or put on the side of the road for council collection. 
+Utilising apps or resources such as time trackers or website blockers can help improve organisation and productivity. 
+Organising your online accounts, passwords, or other aspects of your life such as  online banking accounts can also make things overal more easy to access. Hopefully some of the resources mentioned in this post are helpful.
+
 
 <br><br>
 

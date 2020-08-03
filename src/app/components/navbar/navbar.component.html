@@ -1,16 +1,22 @@
 <div class="navigation">
   <nav id="navbar" class="navbar navbar-expand-md navbar-light bg-lignt" style="background-color:white">
-    <a routerLink="" class="navbar-brand">VONDREII</a>
+    <a routerLink="/blog" class="navbar-brand">VONDREII</a>
     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav" style="text-align:center;">
-            <!-- Blog Links -->
-            <div class="blog-link">
-              <a routerLink="/blog" class="nav-item nav-link active">BLOG</a>
+            <div class="separator-vertical">
+              <a href="#" class="nav-item nav-link disabled" style="color:grey">|</a>
             </div>
-            <div class="hide-links">
+            <!-- Blog Links -->
+            <!-- <div class="blog-link">
+              <a routerLink="/blog" class="nav-item nav-link active">BLOG</a>
+            </div> -->
+            <div class="blog-links">
+              <a routerLink="/blog" class="nav-item nav-link">BLOG</a>
+            </div>
+            <!-- <div class="hide-links">
               <a routerLink="/blog/organisation" class="nav-item nav-link">ORGANISATION</a>
             </div>
             <div class="hide-links">
@@ -21,27 +27,27 @@
             </div>
             <div class="hide-links">
               <a routerLink="/blog/websites" class="nav-item nav-link something">WEBSITES</a>
-            </div>
+            </div> -->
             <!-- Separaters -->
-            <div class="separator-vertical">
+            <!-- <div class="separator-vertical">
               <a href="#" class="nav-item nav-link disabled" style="color:grey">|</a>
             </div>
             <div class="separator-horizontal">
               <a href="#" class="nav-item nav-link disabled" style="color:grey">__________________</a>
-            </div>
+            </div> -->
             <!-- Photography and Projects -->
             <a routerLink="/projects" class="nav-item nav-link">PROJECTS</a>
-            <a routerLink="/photography/main" class="nav-item nav-link">PHOTOGRAPHY</a>
+            <a routerLink="/photography" class="nav-item nav-link">PHOTOGRAPHY</a>
             <!-- Separaters -->
-            <div class="separator-vertical">
+            <!-- <div class="separator-vertical">
               <a href="#" class="nav-item nav-link disabled" style="color:grey">|</a>
             </div>
             <div class="separator-horizontal">
               <a href="#" class="nav-item nav-link disabled" style="color:grey">__________________</a>
-            </div>
+            </div> -->
             <!-- About and Contact -->
             <a routerLink="/about" class="nav-item nav-link">ABOUT</a>
-            <a routerLink="/contact">CONTACT</a>
+            <a routerLink="/contact" class="nav-item nav-link">CONTACT</a>
         </div>
     </div>
   </nav>

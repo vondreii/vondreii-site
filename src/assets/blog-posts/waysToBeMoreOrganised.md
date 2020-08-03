@@ -1,17 +1,19 @@
-<div class="parallax" style="height: 350px; background-image: url('../../../assets/blog/organisation/how-to-be-better-organised/header.jpg');">
+<div class="parallax" style="height: 350px; background-image: url('../../../assets/blog/how-to-be-better-organised/header.jpg');">
   <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com/@epicantus" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Igor Miske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Daria Nepriakhina</span></a></div>
 </div>
 <br>
 <div class="writtenContent">
 
-## 24 Ways To Be More Organised
+## Ways To Be More Organised
 ___
 
 ###### 19 May 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
 
-That being said - it is definitely possible, and once you get the hang of things you will find yourself getting to places on time, living in a clearer environment, and knowing where to find things.
+There's a lot of people who admit that they would like to be more organised. However, it usually isn't something that happens overnight. That being said - it is definitely possible, and once you get the hang of things you will find yourself getting to places on time, living in a clearer environment, and knowing where to find things.
+
+___
 
 ### Organise Where You Keep Your Items
 ___
@@ -43,26 +45,28 @@ There are lots of other products you could use to organise your cables such as <
 	
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-	<img src="../../../assets/blog/organisation/how-to-be-better-organised/clear-desk.jpg" alt="image" class="blog-image"/>
+	<img src="../../../assets/blog/how-to-be-better-organised/clear-desk.jpg" alt="image" class="blog-image"/>
 	<div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@lucabockmann">Luca Bockmann </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
 When you finish charging something, roll it up straight away and keep your main chargers in the same place (this could also be in a dedicated desk drawer, or any other place that works for you).
 
+___
+
 ### Prioritize Your Tasks
 ___
 
 ### 3. Write Everything Down
    
-Don't say, *"I don't need to write this down, I'll remember it"* - because for most people, there's a chance you won't. Have a single place where you can write down things you need to remember.
+Don't say, _"I don't need to write this down, I'll remember it"_ - because for most people, there's a chance they won't. Have a single place where you can write down things you need to remember.
 There are so many ways you could do this and what works for you might not necessarily work for someone else. For example, I like to use a physical planner (where each page contains a week) 
 whereas tracking tasks using a phone works better for <a href="https://sora-web-dev.web.app/">Sora Khan</a>. If you have mini-projects you are working on, an actual platform like <a href="https://trello.com/">Trello</a> might be more useful.
 If you don't need something that intense, simply having a notepad stuck to the fridge can do the trick. Or, you might find to-do apps and notifications more efficient...
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-	<img src="../../../assets/blog/organisation/how-to-be-better-organised/trello.PNG" alt="image" class="blog-image"/>
+	<img src="../../../assets/blog/how-to-be-better-organised/trello.PNG" alt="image" class="blog-image"/>
 	<div class="content-photo-credit"><p>Trello Board used while creating Vondreii</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -85,10 +89,12 @@ In the case of the job interview, you could separate these into <em>prepare for 
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/subtasks.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/subtasks.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>An example of breaking down tasks into smaller tasks</p></div>
 </div>
 <!-- ----------------------------- -->
+
+___
 
 ### Clean Your House Regularly and Declutter
 ___
@@ -100,7 +106,7 @@ When you get into the habit of cleaning regularly, you will find that cleaning m
   
 ### 8. Throw Away Things You Don't Need
 
-Alternatively, you can recycle, sell or donate them. A lot of people have things lying around that they don't need or use, and decluttering them can help improve your overall environment and wellbeing. See <a href="/blog/minimalism/things-you-can-declutter-right-now">60+ Things You Can Declutter Right Now</a> for more tips on how to declutter your home.
+Alternatively, you can recycle, sell or donate them. A lot of people have things lying around that they don't need or use, and decluttering them can help improve your overall environment and wellbeing. See [Decluttering Your Home](/blog/post/declutteringYourHome) for more tips on how to declutter your home.
 Also, if you have less stuff, it'll be a lot easier to find the things that you do have (making you feel more organised!).
     
 ### 9. Have A Clear Space To Do Your Work
@@ -117,11 +123,13 @@ This will also help you when you get to the tasks you have on your cleaning sche
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/dishes.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/dishes.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@andreamaraldg">Andre A. Xavier </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
-	
+
+___
+
 ### Organise Your Computer
 ___
 
@@ -129,11 +137,11 @@ ___
 
 This includes organising your emails, online accounts and saving important websites (including the use of bookmarks). 
 Sort your emails into folders and unsubscribe to things that you do not want to follow to prevent yourself from getting spam.
-Having a password manager is also very useful and also more secure. You can read <a href="/blog/organisation/how-to-organise-your-web-browsing">How To Organise Your Web Browsing</a> for a more comprehensive list.
+Having a password manager is also very useful and also more secure. You can read [How to Organise Your Web Browsing](/blog/post/howToOrganiseYourWebBrowsing) for a more comprehensive list.
 
 <!-- ----------- Image ----------- -->    
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/email-cluttered.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/email-cluttered.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>A very cluttered inbox</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -144,20 +152,22 @@ Clean up your computer by deleting duplicate files and files that you no longer 
 
 <!-- ----------- Image ----------- -->    
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/hierarchy-cluttered.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/hierarchy-cluttered.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Too many unorganised files!</p></div>
 </div>
 <!-- ----------------------------- -->
 
 This doesn't just apply to your documents. This also applies to files you've downloaded and installed, as well as photos, videos and music files. Rename all your files informatively so you don't need to open 'doc1-final' to see what it's all about.
-You can also check out <a href="/blog/organisation/tips-to-better-organise-your-computer">10 Tips To Better Organise Your Computer</a> if you want to know about how to organise your computer in more detail!
+You can also check out [Organising Your Computer To Increase Productivity](/blog/post/organisingYourComputerToIncreaseProductivity) if you want to know about how to organise your computer in more detail!
     
 ### 13. Regularly Backup Your Files
 
 Also don't forget to backup everything you have on your computer in case it breaks. I once lost all my work the day before an assignment was due! And because I didn't have a backup, I had to re-do everything
 overnight. Saying this was stressful is an understatement. So, to save yourself the trouble, have a hard drive or usb ready and regularly back up your files and any recent changes you may have made.
 You can also something like <a href="https://www.dropbox.com/login">Dropbox</a> or <a href="https://drive.google.com">Google Drive</a>.
-    
+   
+___
+   
 ### Organise Your Finances
 ___
 
@@ -169,7 +179,7 @@ You also want to make sure you organise other online accounts that involve payme
 
 <!-- ----------- Image ----------- -->    
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/paywave.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/paywave.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@ultralinx">Oliur </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -193,21 +203,23 @@ You're either going to lose track of how much you owe who, or be so confused wit
 
 It's okay to buy things you like every now and then. However if you have a habit of buying too many clothes knowing full well that you don't use half of what you already have, you are going to contribute a lot of clutter to your home.
 Implement a rule where you will not buy a desired item for at least a month. If you still want it after a month, then sure, why not. Many of the things we buy are done on impulse. We love it at that exact moment, so 
-we therefore decide to just buy it, not realising that we could get by without it. This ties perfectly into keeping your house decluttered, which I mentioned above in Step 8.
+we therefore decide to just buy it, not realising that we could get by without it. This ties perfectly into keeping your house decluttered.
 
 <!-- ----------- Image ----------- -->    
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/clothes.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/clothes.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@beccamchaffie">Becca McHaffie </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
-	
+
+___
+
 ### Organise Your Kitchen And Meal Plans
 ___
 
 ### 18. Keep An Inventory
 
-If you have too much food at home and don't track what you have, you're likely going to have a few things sitting there longer than it should be. Don't mindlessly buy groceries - finish the things you already have first.
+If you have too much food at home and don't track what you have, you're likely going to have a few things sitting there longer than it should be. Don't mindlessly buy groceries.
 Keep a list of items that you need to stock up on when supplies get low. While we're on the subject, make sure you also throw away any expired goods. Shop with a list of things you <u>know</u> you'll need.
 	 
 ### 19. Prepare What You Will Cook In Advance
@@ -225,10 +237,12 @@ On occassions where you don't feel like cooking or you might be too busy, have s
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/cooking.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/cooking.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@kate5oh3">Katie Smith </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
+
+___
 
 ### Organise Aspects Of Your Life
 ___
@@ -246,7 +260,7 @@ This is an example of mine:
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/vision-board.PNG" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/vision-board.PNG" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>My Vision Board</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -258,12 +272,15 @@ buying a first-hand new car, and finishing my degree. Even if you don't tick off
 ### 24. Do Something Productive First Thing In The Morning
 
 Do something productive when you wake up. This can be as simple as making the bed, as stated by <a href="https://www.youtube.com/watch?v=pxBQLFLei70&feature=youtu.be">Admiral William H. McRaven</a>:
-<blockquote>If you make your bed every morning, you will have accomplished the first task of the day. It will give you a small sense of pride and it will encourage you to do another task and another and another. </blockquote> In essence, making your bed can turn into a snowball effect which can then influence your overall day. You can also start the morning by reading, doing some exercise or by meditating.
+
+_"If you make your bed every morning, you will have accomplished the first task of the day. It will give you a small sense of pride and it will encourage you to do another task and another and another."_
+
+In essence, making your bed can turn into a snowball effect which can then influence your overall day. You can also start the morning by reading, doing some exercise or by meditating.
 
 <br><br>
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-  <img src="../../../assets/blog/organisation/how-to-be-better-organised/bed.jpg" alt="image" class="blog-image"/>
+  <img src="../../../assets/blog/how-to-be-better-organised/bed.jpg" alt="image" class="blog-image"/>
   <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@awcreativeut">Aw Creative </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -271,7 +288,7 @@ Do something productive when you wake up. This can be as simple as making the be
 ### Conclusion
 
 Being more organised isn't just about getting to places on time. It also involves organising your living spaces and other aspects of you like (such as your computer, your cooking and your finances).
-Don't stress about not having all of these down. Life is way too complicated for things like this to be easy. However with a bit of habit forming and discipline, you should be able to get a few of these under control.
+Don't stress about not having all of these down. Life is way too complicated for things like this to be easy. However with a bit of habit forming and discipline, you might be able to get some of these and hopefully feel a bit more organised.
 
 <br><br>
 

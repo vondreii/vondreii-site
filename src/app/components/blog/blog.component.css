@@ -1,18 +1,4 @@
 /* ****************************** COMMON EFFECTS ****************************** */
-/* Parallax effect */
-.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
-.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}
-
-h1 {font-family:Helvetica;text-align:center;line-height:50px;font-size:28pt}
-h2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:24pt}
-h4 {font-family:Helvetica,sans-serif;text-align:center;font-size:14pt;color:rgb(100, 100, 100);line-height:30px}
-h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
-
-@media screen and (max-width: 900px) 
-{
-  h1 {font-size: 24pt}
-  h2, h3 {font-size:20pt}
-}
 
 /* ****************************** CARD EFFECTS ****************************** */
 .category-card {background-color:white;box-shadow: 0 4px 8px 0 lightgrey}
@@ -59,21 +45,3 @@ h5 {font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px}
 /* ******************************* LINKS ******************************* */
 a {text-decoration: none;}
 a:hover {text-decoration: none;}
-
-.main-heading {
-  position: absolute; 
-  text-align:center;
-  top: 280px; 
-  left: 0; 
-  width: 100%; 
-  color: whitesmoke;
-  font-size:40pt;
-  letter-spacing: 5px;
-  font-weight:1000;
-}
-
-.heading-border {
-  width: 70%;
-  padding: 20px;
-  border: 10px solid white;
-}

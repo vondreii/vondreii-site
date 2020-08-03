@@ -37,7 +37,7 @@ const routes: Routes = [
   { path: 'projects/post/:article', component: ProjectPostComponent },
 
   // Photography pages
-  { path: 'photography/main', component: PhotographyComponent },
+  { path: 'photography', component: PhotographyComponent },
   { path: 'photography/blue-mountains', component: PhotographyLocationComponent },
   { path: 'photography/central-coast', component: PhotographyLocationComponent },
   { path: 'photography/hobart', component: PhotographyLocationComponent },

@@ -23,18 +23,21 @@ ________________________________________________________________________________
 
 /* ************************************ HEADINGS ************************************ */
 .main-heading {
-  font-size:40pt;font-weight:600;letter-spacing: 5px;text-align:center;
-  position: absolute;top: 280px;left: 0;width: 100%; 
+  font-size:35pt;font-weight:600;letter-spacing:4px;text-align:center;
+  position: absolute;top: 150px;left: 0;width: 100%; 
   color: whitesmoke;
 }
 .heading-border {
-  width: 70%;padding: 20px;border: 10px solid white;
+  width: 70%;padding: 20px;border-bottom: 2px solid white;
 }
 .category-card {
   background-color:white;box-shadow: 0 4px 8px 0 lightgrey
 }
 h1, h2 {
-  font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:18pt;padding: 0;
+  font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:18pt;padding:0;
+}
+@media screen and (min-width:767px) {
+  h1, h2 {font-size:10pt}
 }
 h3 {
   padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:18pt
@@ -58,9 +61,12 @@ h5,h6 {
 @media screen and (max-width: 700px) {
   .writtenContent {padding:30px 30px}
 }
-ul {
-  text-align:left
+ul, ol {
+  text-align:left;
 }
+/* li:first-child {
+  padding-top:5px;
+} */
 table {
   line-height:20px;text-align:left
 } 

@@ -10,7 +10,7 @@
 /* The actual navigation with links */
 #navbar {overflow:hidden;opacity:1;}
 .navbar-toggle {background-color: #272727;}
-#navbarCollapse {text-align:center;padding-left:280px;}
+/* #navbarCollapse {text-align:center;padding-left:280px;} */
 
 /* Github, linkedIn and contact pages */
 .social-links {margin-top:25px}
@@ -18,30 +18,30 @@
 
 /* Screen sizes - from biggest to smallest */
 /* Bigger screens */
-@media screen and (min-width:1401px) {
+@media screen and (min-width:767px) {
   .hide-links {display:block}
   .blog-link {display:none}
 } 
 /* Only medium devices, eg ipads but not desktops #1 */
-@media screen and (min-width:1101px) and (max-width:1400px) {
+/* @media screen and (min-width:1101px) and (max-width:1400px) {
   .separator-vertical {display:block}
   .hide-links {display:none}
   .blog-link {display:block}
-} 
+}  */
 /* Only medium devices, eg ipads but not desktops #2 */
-@media screen and (min-width:901px) and (max-width:1100px) {
+/* @media screen and (min-width:901px) and (max-width:1100px) {
   .separator-vertical {display:none}
   .hide-links {display:none}
   .blog-link {display:block}
   #navbarCollapse {text-align:center;padding-left:150px;}
-} 
+}  */
 /* Only medium devices, eg ipads but not desktops #3 */
-@media screen and (min-width:767px) and (max-width:900px) {
+/* @media screen and (min-width:767px) and (max-width:900px) {
   .separator-vertical {display:none}
   .hide-links {display:none}
   .blog-link {display:block}
   #navbarCollapse {text-align:center;padding-left:20px;}
-} 
+}  */
 /* Everything after smaller screen, eg ipad, desktop */
 @media screen and (min-width:767px) {
   .separator-vertical {display:block}
