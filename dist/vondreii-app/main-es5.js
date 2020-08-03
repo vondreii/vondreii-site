@@ -111,7 +111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-navbar></app-navbar>\n\n<div style=\"background-color:whitesmoke\">\n  <!-- Parallax and main heading -->\n  <div class=\"parallax\" style=\"height: 300px;background-image: url('../../../assets/blog/header.jpg');\">\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 250px; float: right;\" href=\"https://unsplash.com/@rezanamdari\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">Reza Namdari</span></a></div>\n    <h2 class=\"main-heading\"><span class=\"heading-border\">BLOG</span></h2>\n  </div>\n  <div class=\"category-card\"><br></div>\n  <br>\n  <div class=\"rows\"> \n    <!-- #region Post 4 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/uni-life/1st-year-uni/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Uni</p>\n        <h1 class=\"item-heading\">Tips on Making The Most Out Of Your First Year At Uni</h1>\n        <p class=\"item-description\">There are some things I wish I knew when I first started uni, which would have definitely &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/tipsOnMakingTheMostOutOfYourFirstYearUni\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n    <!-- #region Post 3 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/organisation/organise-web-browsing/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">How To Organise Your Web Browsing</h1>\n        <p class=\"item-description\">These days, many people spend most of their time surfing the web or conducting important business online &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/howToOrganiseYourWebBrowsing\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #region Post 3 -->\n    <!-- #endregion -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/organisation/how-to-be-better-organised/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">Ways To Be More Organised</h1>\n        <p class=\"item-description\">There's a lot of people who admit that they would like to be more organised. Unfortunately, being fully &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/waysToBeMoreOrganised\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n    <!-- #region Post 2 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/organise-computer-increase-productivity/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">Organising Your Computer To Increase Productivity</h1>\n        <p class=\"item-description\">Having a well organised computer can improve your overall workflow and efficiency. If your computer is &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/organisingYourComputerToIncreaseProductivity\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n    <!-- #region Post 1 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/things-you-can-declutter/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">Decluttering Your Home</h1>\n        <p class=\"item-description\">Decluttering helps us organise the things around us and can also help improve our overall wellbeing. Having a home or &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/declutteringYourHome\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n  </div>\n  <br><br>\n</div>\n<div class=\"card\">\n  <br><br>\n  <div style=\"text-align:center\">\n      <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n      <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n      <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n  </div>\n  <br><br>\n</div>\n\n";
+    __webpack_exports__["default"] = "<app-navbar></app-navbar>\n\n<div style=\"background-color:whitesmoke\">\n  <!-- Parallax and main heading -->\n  <div class=\"parallax\" style=\"height: 300px;background-image: url('../../../assets/blog/header.jpg');\">\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 250px; float: right;\" href=\"https://unsplash.com/@rezanamdari\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">Reza Namdari</span></a></div>\n    <h2 class=\"main-heading\"><span class=\"heading-border\">BLOG</span></h2>\n  </div>\n  <div class=\"category-card\"><br></div>\n  <br>\n  <div class=\"rows\"> \n    <!-- #region Post 4 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/tips-on-making-the-most-out-of-1st-year-uni/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Uni</p>\n        <h1 class=\"item-heading\">Tips on Making The Most Out Of Your First Year At Uni</h1>\n        <p class=\"item-description\">There are some things I wish I knew when I first started uni, which would have definitely &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/tipsOnMakingTheMostOutOfYourFirstYearUni\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n    <!-- #region Post 3 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/organise-web-browsing/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">How To Organise Your Web Browsing</h1>\n        <p class=\"item-description\">These days, many people spend most of their time surfing the web or conducting important business online &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/howToOrganiseYourWebBrowsing\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #region Post 3 -->\n    <!-- #endregion -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/how-to-be-better-organised/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">Ways To Be More Organised</h1>\n        <p class=\"item-description\">There's a lot of people who admit that they would like to be more organised. Unfortunately, being fully &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/waysToBeMoreOrganised\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n    <!-- #region Post 2 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/organise-computer-increase-productivity/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">Organising Your Computer To Increase Productivity</h1>\n        <p class=\"item-description\">Having a well organised computer can improve your overall workflow and efficiency. If your computer is &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/organisingYourComputerToIncreaseProductivity\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n    <!-- #region Post 1 -->\n    <div class=\"column-3-flex\"><div class=\"item-container blue-hover card-properties\">\n      <img src=\"../../assets/blog/things-you-can-declutter/mini-preview.jpg\" alt=\"img\" class=\"item-image\">\n      <div class=\"item-content\">\n        <p class=\"item-categoryTag\">Organisation</p>\n        <h1 class=\"item-heading\">Decluttering Your Home</h1>\n        <p class=\"item-description\">Decluttering helps us organise the things around us and can also help improve our overall wellbeing. Having a home or &hellip;</p>\n      </div>\n      <a routerLink=\"/blog/post/declutteringYourHome\" class=\"item-link styled-link\">Read More</a>\n    </div></div>\n    <!-- #endregion -->\n  </div>\n  <br><br>\n</div>\n<div class=\"card\">\n  <br><br>\n  <div style=\"text-align:center\">\n      <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n      <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n      <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n  </div>\n  <br><br>\n</div>\n\n";
     /***/
   },
 
@@ -925,138 +925,132 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./components/home/home.component */
-    "./src/app/components/home/home.component.ts");
-    /* harmony import */
-
-
-    var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./components/contact/contact.component */
     "./src/app/components/contact/contact.component.ts");
     /* harmony import */
 
 
-    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./components/about/about.component */
     "./src/app/components/about/about.component.ts");
     /* harmony import */
 
 
-    var _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/blog/blog.component */
     "./src/app/components/blog/blog.component.ts");
     /* harmony import */
 
 
-    var _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./components/blog/blog-post/blog-post.component */
     "./src/app/components/blog/blog-post/blog-post.component.ts");
     /* harmony import */
 
 
-    var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./components/projects/projects.component */
     "./src/app/components/projects/projects.component.ts");
     /* harmony import */
 
 
-    var _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./components/projects/project-post/project-post.component */
     "./src/app/components/projects/project-post/project-post.component.ts");
     /* harmony import */
 
 
-    var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./components/photography/photography.component */
     "./src/app/components/photography/photography.component.ts");
     /* harmony import */
 
 
-    var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./components/photography/photography-location/photography-location.component */
     "./src/app/components/photography/photography-location/photography-location.component.ts");
 
     var routes = [{
       path: '',
-      component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"]
+      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
     }, {
       path: 'contact',
-      component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"]
+      component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"]
     }, {
       path: 'about',
-      component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_6__["AboutComponent"]
+      component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"]
     }, // Blog Categories
     {
       path: 'blog',
-      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__["BlogComponent"]
+      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
     }, {
       path: 'blog/organisation',
-      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__["BlogComponent"]
+      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
     }, {
       path: 'blog/resumes',
-      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__["BlogComponent"]
+      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
     }, {
       path: 'blog/uni',
-      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__["BlogComponent"]
+      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
     }, {
       path: 'blog/websites',
-      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_7__["BlogComponent"]
+      component: _components_blog_blog_component__WEBPACK_IMPORTED_MODULE_6__["BlogComponent"]
     }, // Blog Posts
     {
       path: 'blog/post/:article',
-      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_8__["BlogPostComponent"]
+      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_7__["BlogPostComponent"]
     }, {
       path: 'blog/organisation/post/:article',
-      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_8__["BlogPostComponent"]
+      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_7__["BlogPostComponent"]
     }, {
       path: 'blog/resumes/post/:article',
-      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_8__["BlogPostComponent"]
+      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_7__["BlogPostComponent"]
     }, {
       path: 'blog/uni/post/:article',
-      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_8__["BlogPostComponent"]
+      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_7__["BlogPostComponent"]
     }, {
       path: 'blog/websites/post/:article',
-      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_8__["BlogPostComponent"]
+      component: _components_blog_blog_post_blog_post_component__WEBPACK_IMPORTED_MODULE_7__["BlogPostComponent"]
     }, // Projects
     {
       path: 'projects',
-      component: _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_9__["ProjectsComponent"]
+      component: _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_8__["ProjectsComponent"]
     }, // Projects Posts
     {
       path: 'projects/post/:article',
-      component: _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_10__["ProjectPostComponent"]
+      component: _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_9__["ProjectPostComponent"]
     }, // Photography pages
     {
       path: 'photography',
-      component: _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyComponent"]
+      component: _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_10__["PhotographyComponent"]
     }, {
       path: 'photography/blue-mountains',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/central-coast',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/hobart',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/hunter-valley',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/manila',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/melbourne',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/newcastle',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/rural-philippines',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }, {
       path: 'photography/sydney',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_12__["PhotographyLocationComponent"]
+      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_11__["PhotographyLocationComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {

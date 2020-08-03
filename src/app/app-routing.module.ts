@@ -12,7 +12,7 @@ import { PhotographyComponent } from './components/photography/photography.compo
 import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: BlogComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'about', component: AboutComponent },
 
