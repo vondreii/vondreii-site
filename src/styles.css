@@ -27,6 +27,9 @@ ________________________________________________________________________________
   position: absolute;top: 150px;left: 0;width: 100%; 
   color: whitesmoke;
 }
+@media screen and (max-width:767px) {
+  .main-heading {font-size:25pt}
+}
 .heading-border {
   width: 70%;padding: 20px;border-bottom: 2px solid white;
 }
@@ -34,10 +37,7 @@ ________________________________________________________________________________
   background-color:white;box-shadow: 0 4px 8px 0 lightgrey
 }
 h1, h2 {
-  font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:18pt;padding:0;
-}
-@media screen and (min-width:767px) {
-  h1, h2 {font-size:10pt}
+  font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:10pt;padding:0;
 }
 h3 {
   padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:18pt
