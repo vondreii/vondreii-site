@@ -80,13 +80,6 @@ Decluttering helps us organise the things around us and can also help improve ou
 
 ### Room 5: Bedroom
 
-<!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/blog/things-you-can-declutter/old-shoes.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens </a>on Unsplash</p></div>
-</div>
-<!-- ----------------------------- -->
-	
 39. Old/unused **clothes**.
 40. Old/unused **shoes**.
 41. Old/unused **handbags**.
@@ -100,6 +93,12 @@ Decluttering helps us organise the things around us and can also help improve ou
 49. Old/unused **luggages**.
 50. **Boxes** that have been kept from previous things you bought.
 
+<!-- ----------- Image ----------- -->
+<div class="blog-image-container">
+  <img src="../../../assets/blog/things-you-can-declutter/old-shoes.jpg" alt="image" class="blog-image"/>
+  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens </a>on Unsplash</p></div>
+</div>
+<!-- ----------------------------- -->
 	
 ### Room 6: Spare Bedroom
 

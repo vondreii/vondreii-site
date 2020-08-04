@@ -28,7 +28,6 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
 import { PhotographyComponent } from './components/photography/photography.component';
 import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
-
 @NgModule({
   declarations: [
     AppComponent,

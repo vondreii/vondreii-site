@@ -53,7 +53,7 @@ ng new test-angular-app --routing=true --style=css
 
 You can change this based on your needs:
 * The `--routing` parameter adds Angular routing (either `true` or `false`)
-* The `--style` parameter allows you to choose which stylesheet format you would like to use (can be `CSS`, `SCSS`, `Sass`, `Less`, or `Stylus`)
+* The `--style` parameter allows you to choose which stylesheet format you would like to use (can be `CSS`, `SCSS`, `Sass`, `Less`, or `Stylus`). For this tutorial we are using CSS.
 
 Now you have the framework to develop an Angular App. If you open the folder of the source code it should look similar to this:
 <!-- ----------- Image ----------- -->
@@ -81,40 +81,94 @@ Run the command `ng serve --open`. A web browser should open with your webpage r
 </div>
 <!-- ----------------------------- -->
 
----------------- Making changes to the web application:
+We will now make two basic pages, the `Home` page and the `About` page, for the sake of having minimal navigation.
 
-To open the source code you can open the whole folder in `Visual Studio Code` if you have it [installed](https://code.visualstudio.com/download):
+To open the source code you can open the whole folder in `Visual Studio Code` if you have it [installed](https://code.visualstudio.com/download). Otherwise you can manually edit the files.
+In the root of the app's directory, run the following commands one after another in the command window: 
+* `ng g c home`
+* `ng g c about`
+
+Two components/folders will be created: `src/app/about` and `src/app/home`.
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
-	<img src="../../../assets/blog/creating-and-deploying-ann-angular-app-on-netlify/open-with-code.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Opening the project in Visual Studio Code</p></div>
+	<img src="../../../assets/blog/creating-and-deploying-ann-angular-app-on-netlify/app-structure.PNG" alt="image" class="blog-image"/>
+	<div class="content-photo-credit"><p>New app structure</p></div>
 </div>
 <!-- ----------------------------- -->
 
+In `src/app/home/home.component.html` replace the existing code with:
+```Html
+<p> HomePage Works! </p>
+<p> Go to the About Page: </p>
+<button class="button" routerLink="about"> About </button>
+```
 
-```html
+In `src/app/home/about.component.html` replace the existing code with:
+```Html
+<p> About page works! </p>
+<p> Go back to the Home Page: </p>
+<button class="button" routerLink=""> Back to Home </button>
+```
 
-<ul>
-	<li>ID Documents</li>
-	<li>Medical records (where you put prescriptions, X-ray scans or hospital letters)</li>
-	<li>Any printed employment related documents</li>
-	<li>Car documents related to insurance, ownership or registration</li>
-	<li>Receipts or warranties that you need to keep</li>
-	<li>Any important tax or government letters</li>
-	<li>Bank Statements</li>
-</ul>
+In `src/styles.css` replace the existing code with:
+```CSS
+.button {
+    background-color: #e7e7e7; /* Gray */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+```  
+  
+Now we have to set up the routing so the links on the pages will work. In `src/app/home/app.component.html` replace the existing code with:
+```Html
+<router-outlet></router-outlet>
+```
+
+Go to `src/app/app-routing-module.ts` and make the following modifications:
+
+```Javascript
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+
+import { CommonModule } from '@angular/common'; // add this
+import { AboutComponent } from './about/about.component'; // add this
+import { HomeComponent } from './home/home.component'; // add this
+
+// add paths for about and home inside the Routes array, like this:
+const routes: Routes = [
+	{ path: '', component: HomeComponent },
+	{ path: 'about', component: AboutComponent }
+];
+
+@NgModule({
+	imports: [
+		CommonModule // add this
+		RouterModule.forRoot(routes)],
+	exports: [RouterModule]
+})
+export class AppRoutingModule { }
 
 ```
 
-### Second one
+Now run `ng serve --open` again to see the basic two webpages you have created.
 
-Words
 
-### Conclusion
 
-Being more organised isn't just about getting to places on time. It also involves organising your living spaces and other aspects of you like (such as your computer, your cooking and your finances).
-Don't stress about not having all of these down. Life is way too complicated for things like this to be easy. However with a bit of habit forming and discipline, you might be able to get some of these and hopefully feel a bit more organised.
+### To be continued
+
 
 <br><br>
 
