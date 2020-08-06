@@ -7,49 +7,52 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
-  // href: string;
-  // hrefId: string;
-  // organisationDiv: any;
+  postArray: number[];
+
+  titles: string[][] = [
+      ["Creating A Simple Angular Web Application"],
+      ["Tips on Making The Most Out Of Your First Year At Uni"],
+      ["Decluttering Your Home"],
+      ["How To Organise Your Web Browsing"],
+      ["Organising Your Computer To Increase Productivity"],
+      ["Ways To Be More Organised"]
+  ];
+  images: string[][] = [
+      ["../../assets/blog/creating-a-simple-angular-web-application/header.jpg"],
+      ["../../assets/blog/tips-on-making-the-most-out-of-1st-year-uni/header.jpg"],
+      ["../../assets/blog/things-you-can-declutter/header.jpg"],
+      ["../../assets/blog/organise-web-browsing/header.jpg"],
+      ["../../assets/blog/organise-computer-increase-productivity/header.jpg"],
+      ["../../assets/blog/how-to-be-better-organised/mini-preview.jpg"]
+  ];
+  dates: string[][] = [
+      ["04 Aug 2020"],
+      ["8 June 2020"],
+      ["12 May 2020"],
+      ["25 May 2020"],
+      ["16 May 2020"],
+      ["19 May 2020"]
+  ];
+  links: string[][] = [
+      ["/blog/post/creatingASimpleAngularWebApplication"],
+      ["/blog/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
+      ["/blog/post/declutteringYourHome"],
+      ["/blog/post/howToOrganiseYourWebBrowsing"],
+      ["/blog/post/organisingYourComputerToIncreaseProductivity"],
+      ["/blog/post/waysToBeMoreOrganised"]
+  ];
+  tags: string[][] = [
+    ["Web Development"],
+    ["Uni"],
+    ["Organisation"],
+    ["Organisation"],
+    ["Organisation"],
+    ["Organisation"]
+  ];
 
   constructor() { }
 
   ngOnInit() {
-    // Gets the hyperlink in the browser window, eg "vondreii/photography/blue-mountains" and gets the id, eg 'blue-mountains'
-    // this.href = window.location.href;
-    // this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
-    // console.log(this.hrefId);
-    
-    // document.getElementById('category').style.fontWeight = "bold";
-
-    // if(this.hrefId == "blog")
-    // {
-    //   document.getElementById('category').innerHTML = "ALL POSTS";
-    //   document.getElementById("organisationDiv").style.display = "block";
-    //   document.getElementById("resumesDiv").style.display = "none";
-    //   document.getElementById("uniDiv").style.display = "block";
-    //   document.getElementById("websitesDiv").style.display = "block";
-    // }
-    // else
-    // {
-    //   this.loadCategory("organisation", "Organisation", "organisationDiv");
-    //   this.loadCategory("resumes", "Resumes", "resumesDiv");
-    //   this.loadCategory("uni", "Uni", "uniDiv");
-    //   this.loadCategory("websites", "Websites", "websitesDiv");
-    // }
+    this.postArray = [0,1,2,3,4,5];
   }
-
-  // loadCategory(hrefSelector: string, h2: string, div: string)
-  // {
-  //   if(this.hrefId == hrefSelector)
-  //   {
-  //     document.getElementById('category').innerHTML = h2.toUpperCase();
-  //     document.getElementById(div).style.display = "block";
-  //   }
-  //   else
-  //   {
-  //     document.getElementById(div).style.display = "none";
-  //   }
-  // }
-
-
 }
