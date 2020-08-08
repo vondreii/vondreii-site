@@ -66,7 +66,7 @@ Navigate to the `test-angular-app` folder in the command line and run the comman
 ng serve --open
 ```
 
-A web browser should open with your webpage running locally - if the default angular app home page is shown, then you are on the right track:
+Wait for the program to compile. When it finishes, a web browser should open with your webpage running locally - if the default angular app home page is shown, then you are on the right track:
 
 <!-- ----------- Image ----------- -->
 <div class="blog-image-container">
@@ -198,7 +198,7 @@ const routes: Routes = [
 
 @NgModule({
 	imports: [
-		CommonModule // add this
+		CommonModule, // add this
 		RouterModule.forRoot(routes)],
 	exports: [RouterModule]
 })
@@ -208,8 +208,8 @@ export class AppRoutingModule { }
 
 In `src/app/home/app.component.html` replace the existing code with:
 ```Html
-<app-navbar></app-navbar> // add this
-<router-outlet></router-outlet> // add this
+<app-navbar></app-navbar> <!-- add this -->
+<router-outlet></router-outlet> <!-- add this -->
 
 ```
 
