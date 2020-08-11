@@ -10,6 +10,7 @@ export class BlogComponent implements OnInit {
   postArray: number[];
 
   titles: string[][] = [
+      ["Adding Photos To Instagram Using A Desktop Computer"],
       ["Creating A Simple Angular Web Application"],
       ["Tips on Making The Most Out Of Your First Year At Uni"],
       ["Decluttering Your Home"],
@@ -18,6 +19,7 @@ export class BlogComponent implements OnInit {
       ["Ways To Be More Organised"]
   ];
   images: string[][] = [
+      ["../../assets/blog/upload-to-instagram-via-desktop/header.jpg"],
       ["../../assets/blog/creating-a-simple-angular-web-application/header.jpg"],
       ["../../assets/blog/tips-on-making-the-most-out-of-1st-year-uni/header.jpg"],
       ["../../assets/blog/things-you-can-declutter/header.jpg"],
@@ -26,6 +28,7 @@ export class BlogComponent implements OnInit {
       ["../../assets/blog/how-to-be-better-organised/mini-preview.jpg"]
   ];
   dates: string[][] = [
+      ["11 Aug 2020"],
       ["04 Aug 2020"],
       ["8 June 2020"],
       ["12 May 2020"],
@@ -34,6 +37,7 @@ export class BlogComponent implements OnInit {
       ["19 May 2020"]
   ];
   links: string[][] = [
+      ["/blog/post/uploadImageToInstagramViaDesktop"],
       ["/blog/post/creatingASimpleAngularWebApplication"],
       ["/blog/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
       ["/blog/post/declutteringYourHome"],
@@ -42,6 +46,7 @@ export class BlogComponent implements OnInit {
       ["/blog/post/waysToBeMoreOrganised"]
   ];
   tags: string[][] = [
+    ["Design - Social Media"],
     ["Web Development"],
     ["Uni"],
     ["Organisation"],
@@ -53,6 +58,6 @@ export class BlogComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.postArray = [0,1,2,3,4,5];
+    this.postArray = [0,1,2,3,4,5,6];
   }
 }
