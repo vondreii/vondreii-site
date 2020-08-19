@@ -4,6 +4,8 @@
 <br>
 <div class="writtenContent">
 
+<body> 
+
 ## Adding Photos To Instagram Using A Desktop Computer
 ___
 

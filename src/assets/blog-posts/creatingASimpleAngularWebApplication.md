@@ -226,6 +226,8 @@ If you have left the default content on the html pages, you will only see a simp
 
 You now have a very basic foundation of a simple Angular Application. 
 
+You can view the completed source code for this [here](https://github.com/vondreii/Example-Angular-Project-Tutorial).
+
 ### Key Points
 * You can add more components using the `ng g c` command (for example, `ng g c login`, or `ng g c our-products`. 
 * You can use the master stylesheet, `src/styles.css` to add styling for all pages.
