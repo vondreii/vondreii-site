@@ -12,6 +12,7 @@ export class BlogComponent implements OnInit {
   // ToDo: transfer these into the firebase database and just retrieve them. 
   titles: string[][] = [
       ["Hosting an Angular Application using Netlify"],
+      ["Setting Up A Github Repository and Creating A Local Copy"],
       ["Adding Photos To Instagram Using A Desktop Computer"],
       ["Creating A Simple Angular Web Application"],
       ["Tips on Making The Most Out Of Your First Year At Uni"],
@@ -22,6 +23,7 @@ export class BlogComponent implements OnInit {
   ];
   images: string[][] = [
       ["../../assets/blog/hosting-angular-application-using-netlify/header.jpg"],
+      ["../../assets/blog/setting-up-remote-and-local-github-repo/header.jpg"],
       ["../../assets/blog/upload-to-instagram-via-desktop/header.jpg"],
       ["../../assets/blog/creating-a-simple-angular-web-application/header.jpg"],
       ["../../assets/blog/tips-on-making-the-most-out-of-1st-year-uni/header.jpg"],
@@ -31,7 +33,8 @@ export class BlogComponent implements OnInit {
       ["../../assets/blog/how-to-be-better-organised/mini-preview.jpg"]
   ];
   dates: string[][] = [
-      ["19 Aug 2020"],
+      ["Coming Soon"],
+      ["22 Aug 2020"],
       ["11 Aug 2020"],
       ["04 Aug 2020"],
       ["8 June 2020"],
@@ -41,7 +44,9 @@ export class BlogComponent implements OnInit {
       ["19 May 2020"]
   ];
   links: string[][] = [
-      ["/blog/post/hostingAngularApplicationUsingNetlify"],
+      //["/blog/post/hostingAngularApplicationUsingNetlify"],
+      ["/blog"],
+      ["/blog/post/settingUpASimpleGithubRemoteAndLocalRepository"],
       ["/blog/post/uploadImageToInstagramViaDesktop"],
       ["/blog/post/creatingASimpleAngularWebApplication"],
       ["/blog/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
@@ -52,7 +57,8 @@ export class BlogComponent implements OnInit {
   ];
   tags: string[][] = [
     ["Web Development"],
-    ["Design - Social Media"],
+    ["Software Development"],
+    ["Design & Social Media"],
     ["Web Development"],
     ["Uni"],
     ["Organisation"],
@@ -64,6 +70,6 @@ export class BlogComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.postArray = [0,1,2,3,4,5,6,7];
+    this.postArray = [0,1,2,3,4,5,6,7,8];
   }
 }
