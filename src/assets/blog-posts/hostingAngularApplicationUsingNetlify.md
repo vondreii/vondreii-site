@@ -12,83 +12,28 @@ ___
 
 Everything here is just a draft at the moment.
 
-For this tutorial, it is assumed that you already have a working Angular App ready to host. If you don't, you can follow the steps on [this page](/blog/post/creatingASimpleAngularWebApplication) to make one.
+For this tutorial, you will need a working Angular App ready to host, and a GitHub Account already set up.
+
+If you don't have an Angular App, you can follow the steps in this tutorial: [Creating A Simple Angular Web Application](/blog/post/creatingASimpleAngularWebApplication) to make one.
 Otherwise, you can download the source code of a working simple Angular App from [here](https://github.com/vondreii/Example-Angular-Project-Tutorial).
 
+If you don't have a Github repository, you can follow the steps in this tutorial: [Setting Up A Github Repository and Creating A Local Copy](/blog/post/settingUpASimpleGithubRemoteAndLocalRepository).
 
 ### GitHub with Netlify
 
 Netlify is a free hosting platform where you can host your website live using a customisable domain name provided with a .app extension at the end. 
-In this tutorial we will go through how to host an Angular web application using Netlify in 5 steps:
+One way Netlify does this is by connecting to an existing repository and hosting your website code stored there.
 
-* Creating a Github account
-* Creating a Github repository and adding your application's code
+In this tutorial we will go through how to host an Angular web application using Netlify in 4 steps:
+
+* Adding your Angular code to your repository
 * Creating a Netlify account 
 * Linking Netlify to your Github repository
 * Changing any additional configurations to host the website successfully
 
-### Using GitHub
+### 1. Adding your Angular code to your repository
 
-First, you need a Github repository. A repository is basically just a folder where you can store your project. 
-When we create a Github repository, we are creating a place online where we can store our code files for the website remotely (in a similar way where you would use Google Drive or Dropbox to store a backup of your files remotely).
-
-### 1. Creating a GitHub Account 
-
-If you already have a Github Account, you can skip to step 2. Otherwise, go to [Github](https://github.com/) and navigate to the sign up page to create a new account.
-
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/github-home.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Sign up on Github</p></div>
-</div>
-
-Follow the prompts in order to create your Github account. 
- 
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/verifyAccount.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Verify that you are not a robot</p></div>
-</div>
-
-You will also have to verify the email that you use. Github will send an email to the email address used to create the Github account.
-Once verified, you will be taken to another page to complete the sign up process.
-
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/Email-was-verified.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Verified email</p></div>
-</div>
-
-Once the setup is complete, you will be taken to the main Github dashboard page, which will have nothing in it yet.
-
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/main-github-dashboard.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Github dashboard</p></div>
-</div>
-
-### 2. Creating a Github repository and adding your application's code
-
-Now that you already have an account, you can now create a repository to store your code in.
-You can do this by selecting **Start project** on the main page, or **New** on the repository page.
-
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/create-repo.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Create repository</p></div>
-</div>
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/create-repo-2.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Create repository</p></div>
-</div>
-
-Name your project and change any other configurations, as shown below.
-
-<div class="blog-image-container">
-    <img src="../../../assets/blog/hosting-angular-application-using-netlify/create-repo-settings.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Repository settings</p></div>
-</div>
-
-Then select **Create Repository**. You will be taken to the repository page (it is going to look empty, since there is no code stored here yet).
-
-We have now successfully set up a remote repository! Now we want to set up a local copy of the repository (that is, a folder stored locally on our own computer, that is linked to this remote repository).
-
-
+If you do not yet have a local copy of the Github repository, navigate to your repository on GiHub.
 Click on the **Code** link, and make a note of the link under **Clone with HTTPS**.
 
 <div class="blog-image-container">
@@ -96,7 +41,6 @@ Click on the **Code** link, and make a note of the link under **Clone with HTTPS
 	<div class="content-photo-credit"><p>Repository settings</p></div>
 </div>
 
-We will now create a folder, locally on your computer where you will store a local version of the repository.
 Open your command prompt. Navigate to any location, for example, the **Desktop**:
 
 ```Bash
@@ -116,29 +60,62 @@ For example:
 	<div class="content-photo-credit"><p>Running this command will create a new folder</p></div>
 </div>
 
-This should automatically create a new folder. This new folder is an exact copy/clone of the repository you just made on Github. 
+This should automatically create a new folder locally on your computer, which will be linked to your online repository.
 In this example, my repository is called `My-Angular-App-Netlify`, so the new folder that was created in my Desktop was also called `My-Angular-App-Netlify`.
-You can save your code locally in this folder.
 
+You want to add the code to your Angular Wepsite into this folder, insuring that the root of the angular application contains your `e2e`, `node_modules` and `src` folders, as well as other root level files, as shown below:
 
-// ToDo: Screenshots of creating a repository
-// ToDo: Screenshots of cloning the repo to the desktop
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/root-application.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Running this command will create a new folder</p></div>
+</div>
 
-This will create a folder... blah
+Now run the following commands to push the code to your remote repository:
 
-You can add your code to this folder. If you downloaded the sample code from [here](https://github.com/vondreii/Example-Angular-Project-Tutorial), it would look like this:
+```Bash
+git add .
+```
 
-// ToDo: Screenshots of the source code root folder and how to copy it into the github repo properly.
+```Bash
+git commit -m "Added Angular Code"
+```
 
-// ToDo: Screenshots of committing and pushing the code
-// ToDo: Screenshots of what the GitHub repository looks like on the GitHub repo page once it's pushed
+```Bash
+git push
+```
 
+If you already have a repository that stores your Angular code, just ensure that the correct folders and files make up the root folder as shown in the previous image. 
+
+Once you have pushed your code, go to your repository on your Github page. You should be able to see that your repository has now updated with the code to your Angular website.
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/angular-code-pushed-to-github.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Angular code in remote repository</p></div>
+</div>
 
 ### 3. Creating a Netlify Account 
 	
 Now that we have a Github repository storing the code online, we can create a Netlify Account. This will be used to host the actual website.
 
-// ToDo: Screenshots of creating a Netlify Account
+Go to Netlify's [home page](https://www.netlify.com/) and click on Sign up.
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/netlify-sign-up.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>[https://www.netlify.com/](https://www.netlify.com/)</p></div>
+</div>
+
+You will be given a few different options to choose from of where you want to link Netlify to. Since we are going to be using Gihub, select Github and follow the prompts to sign in.
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/welcome-to-netlify.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>[https://www.netlify.com/](https://www.netlify.com/)</p></div>
+</div>
+
+Put in your username/email and password for your Github account.
+
+SignUpToGithubViaNetlify.PNG
+
+autho.PNG
 
 ### 4. Linking a Netlify Project to your Github repository
 
@@ -146,14 +123,93 @@ Once way that Netlify hosts your website is by connecting to a Github repository
 All we have to do now is link that Github repository with Netlify, so Netlify will be able to host it.
 That way your website can display using a domain like http://angular-project.web-app.com.
 
-// ToDo: Screenshots of creating a project
-// ToDo: Screenshots of logging into the Github account through Netlify, etc.
-	
+Once you have signed up:
+
+Select 'New Site From Git'
+
+newSiteFromGit.PNG
+
+newSiteFromGit2.PNG
+
+newSiteFromGit3.PNG
+newSiteFromGit4.PNG
+newSiteFromGit5.PNG (put ng build, leave the app dir empty for now, we will fill it in later)
+
+Now you have linked your github repository to your Netlify account! However your code will not deploy yet and will still be errors if you try to deploy at this stage.
+You will need to still complete some extra configurations in order for this to work.  
+
 ### 5. Changing any additional configurations to host the site successfully
+
+Copy the _redirects file into your `AngularApp > src` folder.
+
+Create a new file called `_redirects` which has the following code:
+
+```Bash
+/*    /index.html    200
+```
+
+Remove /dist from the gitignore file (this way it can be uploaded to github and read when compiling over Netlify)
+
+
+To build the angular project, run the command: 
+
+```Bash
+ng build
+```
+
+This will create a dist folder in the root of your application dir. 
+
+distFolderCreated.PNG
+
+Then, we want to push the changes to the github repository.
+
+```Bash
+git add .
+```
+
+```Bash
+git commit -m "Added redirects, updated gitignore and built project"
+```
+
+```Bash
+git push
+```
 	
-// ToDo: Address any possible errors that may happen.
-	
-// ToDo: Screenshots of things.
+If you go to your remote repo you will see that your dist/{project-name} is now stored:
+
+distFolderInRepo.PNG
+
+Finally, go into the settings of Netlify and fill in the info:
+
+DeploySettings.PNG (or similar)
+
+BuildAndDeploySettings1.PNG
+
+BuildAndDeploySettings2.PNG
+
+Build command: ng build (sometimes ng build --prod)
+
+Output dir: dist/{application name} 
+
+(copy exactly the dist path in the application's directory. For example, in the image above, the path is dist/test-angular-app, so here you would write dist/test-angular-app). 
+
+It should now work!
+
+
+And if you want to you can modify your url: Domain Management > 
+nd fill in the info:
+
+
+Deploy Settings.PNG
+
+And change it to another domain:
+
+anotherDomain.PNG
+
+
+And now you can access it with your new domain
+
+final.PNG
 	 
 ### Conclusion
 
