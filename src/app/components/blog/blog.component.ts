@@ -44,7 +44,7 @@ export class BlogComponent implements OnInit {
       ["19 May 2020"]
   ];
   links: string[][] = [
-      ["/blog/post/hostingAngularApplicationUsingNetlify"],
+      //["/blog/post/hostingAngularApplicationUsingNetlify"],
       ["/blog"],
       ["/blog/post/settingUpASimpleGithubRemoteAndLocalRepository"],
       ["/blog/post/uploadImageToInstagramViaDesktop"],
