@@ -1,29 +1,54 @@
 <app-navbar></app-navbar>
 <div style="background-color:whitesmoke">
-  <!-- Parallax and main heading -->
-  <div class="parallax" style="height: 350px;background-image: url('../../../assets/blog/header.jpg');">
-    <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com/@mischievous_penguins" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Taylor Smith"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Casey Horner</span></a></div>
-  </div>
-  <div class="parallax" style="height: 150px;">
-    <h2 class="main-heading"><span class="heading-border">Blog Posts</span></h2>
+  <div class="logos">
+    <img src="../../../assets/logos/web.png"/>
+    <img src="../../../assets/logos/angular.png"/>
+    <img src="../../../assets/logos/html-css-js.png"/>
+    <img src="../../../assets/logos/hugo-netlify.png"/>
   </div>
   <div class="container">
-    <div class="container">
-      <div class="card-columns">
-        <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->
-        <div class="card" *ngFor="let i of postArray">
-          <img class="card-img-top" src={{images[i]}} alt="img">
-          <div class="card-body">
-            <h5 class="card-title">{{titles[i]}}</h5>
-            <p class="card-text"><small class="text-muted">{{dates[i]}} <b>|</b> {{tags[i]}}</small></p>
-            <div class="read-more-project-button-container">
-              <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
+    <div class="search-container">
+      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Web Development Posts (by title, language, year..)" title="SearchBar"><br><br>
+      <div id="myUL">
+        <article *ngFor="let i of postArray">
+          <section class="card" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}">
+            <div class="padding">
+              <div class="tags">
+                <div class="tag">{{tags[i]}}</div>
+              </div>
+              <h1>{{titles[i]}}</h1>
+              <div class="date">{{dates[i]}}</div>
+              <p>Something something something…</p>
+              <div class="read-more-project-button-container">
+                <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
+              </div>
             </div>
-          </div>
-        </div>
-        <!-- #endregion -->
+          </section>
+        </article>
       </div>
     </div>
+    <br><br>
+    <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->
+    <!-- <div class="card-columns" style="color:black">
+      <div class="card" *ngFor="let i of postArray">
+        <h1>HTML Syntax</h1>
+        <img class="card-img-top" src={{images[i]}} alt="img">
+        <h1>HTML Syntax</h1>
+        <div class="padding">
+          <div class="tags">
+            <div class="tag">{{tags[i]}}</div>
+          </div>
+          <h1>{{titles[i]}}</h1>
+          <div class="date">{{dates[i]}}</div>
+          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+          <div class="read-more-project-button-container">
+            <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
   </div>
   <br><br>
 </div>
+
+<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->

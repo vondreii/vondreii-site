@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BlogComponent implements OnInit {
 
+  something: string = "../../assets/blog/hosting-angular-application-using-netlify/header.jpg";
+
   postArray: number[];
 
   // ToDo: transfer these into the firebase database and just retrieve them. 
@@ -22,18 +24,18 @@ export class BlogComponent implements OnInit {
       ["Ways To Be More Organised"]
   ];
   images: string[][] = [
-      ["../../assets/blog/hosting-angular-application-using-netlify/header.jpg"],
-      ["../../assets/blog/setting-up-remote-and-local-github-repo/header.jpg"],
-      ["../../assets/blog/upload-to-instagram-via-desktop/header.jpg"],
-      ["../../assets/blog/creating-a-simple-angular-web-application/header.jpg"],
-      ["../../assets/blog/tips-on-making-the-most-out-of-1st-year-uni/header.jpg"],
-      ["../../assets/blog/things-you-can-declutter/header.jpg"],
-      ["../../assets/blog/organise-web-browsing/header.jpg"],
-      ["../../assets/blog/organise-computer-increase-productivity/header.jpg"],
-      ["../../assets/blog/how-to-be-better-organised/mini-preview.jpg"]
+      ["../../assets/blog/hosting-angular-application-using-netlify/header-dark.jpg"],
+      ["../../assets/blog/setting-up-remote-and-local-github-repo/header-dark.jpg"],
+      ["../../assets/blog/upload-to-instagram-via-desktop/header-dark.jpg"],
+      ["../../assets/blog/creating-a-simple-angular-web-application/header-dark.jpg"],
+      ["../../assets/blog/tips-on-making-the-most-out-of-1st-year-uni/header-dark.jpg"],
+      ["../../assets/blog/things-you-can-declutter/header-dark.jpg"],
+      ["../../assets/blog/organise-web-browsing/header-dark.jpg"],
+      ["../../assets/blog/organise-computer-increase-productivity/header-dark.jpg"],
+      ["../../assets/blog/how-to-be-better-organised/header-dark.jpg"]
   ];
   dates: string[][] = [
-      ["Coming Soon"],
+      ["30 Aug 2020"],
       ["22 Aug 2020"],
       ["11 Aug 2020"],
       ["04 Aug 2020"],
@@ -44,8 +46,7 @@ export class BlogComponent implements OnInit {
       ["19 May 2020"]
   ];
   links: string[][] = [
-      //["/blog/post/hostingAngularApplicationUsingNetlify"],
-      ["/blog"],
+      ["/blog/post/hostingAngularApplicationUsingNetlify"],
       ["/blog/post/settingUpASimpleGithubRemoteAndLocalRepository"],
       ["/blog/post/uploadImageToInstagramViaDesktop"],
       ["/blog/post/creatingASimpleAngularWebApplication"],
@@ -71,5 +72,26 @@ export class BlogComponent implements OnInit {
 
   ngOnInit() {
     this.postArray = [0,1,2,3,4,5,6,7,8];
+  }
+
+  getURL(i) {
+    return this.images[i];
+  }
+
+  searchbar() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("section");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("div")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
   }
 }

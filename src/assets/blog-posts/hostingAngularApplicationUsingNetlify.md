@@ -7,7 +7,7 @@
 ## Hosting An Angular Application Using Github And Netlify
 ___
 
-###### 19 Aug 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
+###### 30 Aug 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
 For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up.
@@ -211,84 +211,163 @@ You will need to still complete some extra configurations in order for hosting t
 
 ### 5. Changing any additional configurations to host the site successfully
 
-Copy the _redirects file into your `AngularApp > src` folder.
+#### Adding the _redirects file
 
-Create a new file called `_redirects` which has the following code:
+Go back to your application's directory (the local repository where your code is stored on your computer).
+
+First you will need to add a _redirects file. Without it, you will get a screen showing an error if you try to navigate or refresh your pages.
+
+<!-- ToDo: Add an image of the error page that happens without _redirects -->
+
+If you want, you can download a completed _redirects file from <a href="../../assets/downloads/redirects.zip"> here </a>.
+Unzip the folder and copy the _redirects file into your `AngularApp > src` folder so it looks like this:
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/redirectsFile.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>_redirects folder</p></div>
+</div>
+
+Otherwise, you can create the file manually. 
+Create a new file called `_redirects` (without an extension) in `AngularApp > src` (as shown above). 
+
+Add the following code into the file: 
 
 ```Bash
 /*    /index.html    200
 ```
 
-Remove /dist from the gitignore file (this way it can be uploaded to github and read when compiling over Netlify)
+#### Build/Compile your project
 
-
-To build the angular project, run the command: 
+You need to build/compile your angular project. Run the following command in your `AngularApp` directory. 
 
 ```Bash
 ng build
 ```
 
-This will create a dist folder in the root of your application dir. 
+Once the code finishes building, a dist folder will be created as shown in the image below:
 
-distFolderCreated.PNG
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/distFolderCreated.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>dist folder created</p></div>
+</div>
 
-Then, we want to push the changes to the github repository.
+Now open the `.gitignore` file:
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/gitignore.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>.gitignore file</p></div>
+</div>
+
+The top part of the file should look like this: 
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/gitignore2.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>.gitignore code</p></div>
+</div>
+
+Completely delete the line `/dist` (the line highlighted in the image above). 
+
+This is because when you push your changes to the remote repository, git will be ignoring your `/dist` folder and will therefore not include it.
+
+Now we can push the changes we made to the github repository.
 
 ```Bash
 git add .
 ```
 
 ```Bash
-git commit -m "Added redirects, updated gitignore and built project"
+git commit -m "Added redirects, updated gitignore and compiled the project"
 ```
 
 ```Bash
 git push
 ```
 	
-If you go to your remote repo you will see that your dist/{project-name} is now stored:
+If you go to your remote repository you will see that your `dist/{project-name}` is now stored:
 
-distFolderInRepo.PNG
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/distFolderInRepo.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>dist/{project-name} stored remotely on Github</p></div>
+</div>
 
-Finally, go into the settings of Netlify and fill in the info:
+It is important that you have your `dist/{project-name}` folder here because Netlify will use this to host your website.
+Here, you can see that mine is `dist/test-angular-app`.
 
-DeploySettings.PNG (or similar)
+#### Configure your Build settings
 
-BuildAndDeploySettings1.PNG
+Finally, go back to your site's page on Netlify and click on the **Deploy settings** for your site.
 
-BuildAndDeploySettings2.PNG
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/deploySettings.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>dist/{project-name} stored remotely on Github</p></div>
+</div>
 
-Build command: ng build (sometimes ng build --prod)
+Click on **Build and Deploy**, then **Edit Settings:**
 
-Output dir: dist/{application name} 
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/BuildAndDeploySettings1.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Deploy Settings</p></div>
+</div>
 
-(copy exactly the dist path in the application's directory. For example, in the image above, the path is dist/test-angular-app, so here you would write dist/test-angular-app). 
+Edit the **Publish directory** field, which we left blank previously. Here, this is where you put your `dist/{project-name}` from before. (This is the dist folder that shows in your Github remote repository).
+For example, mine was `dist/test-angular-app`:
 
-It should now work!
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/BuildAndDeploySettings2.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Change the Publish Directory</p></div>
+</div>
+
+Press save.
+
+#### Change your domain name
+
+If you want to change the domain name to something that is not automaticaly generated, go back to the **Deploy settings.**
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/deploySettings.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Deploy settings</p></div>
+</div>
+
+Click on **Domain Management** and **options**:
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/editDomains.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Domain Management tab</p></div>
+</div>
+
+Type in your new domain.
+
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/anotherDomain.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Enter your new domain name</p></div>
+</div>
+
+Because this will be a free domain, Netlify will add a `.netlify.app` extension at the end. If you do not want this you will need to purchase or acquire another domain and add this to Netlify to use instead.
 
 
-And if you want to you can modify your url: Domain Management > 
-nd fill in the info:
+#### Run, Test and Deploy your website
 
+Go back to your site's page on Netlify. Netlify should automatically attempt to deploy your site again. If not, you can select the **Trigger Deploy** option.
 
-Deploy Settings.PNG
+Wait for a while until your site finishes deploying.
 
-And change it to another domain:
+Go into the search bar and type your new domain name, for example http://another-domain.netlify.app, and you should now be able to see your website up and running:
 
-anotherDomain.PNG
+<div class="blog-image-container">
+    <img src="../../../assets/blog/hosting-angular-application-using-netlify/final.PNG" alt="image" class="blog-image-full"/>
+	<div class="content-photo-credit"><p>Run your new site</p></div>
+</div>
+ 
+### Key Points
+If you want to make changes to your website, all you have to do is edit your Angular app code in your local repository, and run `git add .`, `git commit -m "type message here"`, and `git push` to save it to your remote Github repository.
+Everytime you `git push`, Netlify will automatically trigger an attempt to re-deploy your code including the new changes.
 
+<!-- ToDo add some images to show this somehow. -->
 
-And now you can access it with your new domain
+### Resources
 
-final.PNG
-	 
-### Conclusion
-
-
-Netlify is easy and free to use since it automatically updates the website as you push changes to your code into your associated Github repository.
-
-Something else things.
-
+* [First Steps Using Netlify & Angular](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/)
+* [Deploying an Angular App to Netlify](https://scotch.io/tutorials/deploying-an-angular-app-to-netlify)
 
 <br><br>
 
