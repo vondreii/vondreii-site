@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 /* ******************************************************************************
 _________________________________________________________________________________
   PARALLAX EFFECT 
@@ -315,9 +316,6 @@ body, .text-light-black {
   text-align:center
 }
 
-.card {
-  margin-bottom: 25px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s; border: none;
-}
 
 /* ******************************* LINKS ******************************* */
 a {text-decoration: none;}
@@ -577,6 +575,115 @@ a:hover {text-decoration: none;}
 .pb-3 {
   padding-bottom: 3rem;
 }
+
+/* Gotta clean this shit up */
+
+
+.padding {
+    padding: 1em;
+}
+
+.card {
+  margin-bottom: 25px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s; border: none;
+  font-family: 'Heebo' !important;
+  height: 250px;
+  width: 100%;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  transition: all, var(--transition-time);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card h1 {
+  margin: 0;
+  padding-top:10px;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
+.card p {
+  font-size: 0.75em;
+  margin-top: 0.5em;
+  line-height: 2em;
+}
+
+.card .tags {
+  display: flex;
+}
+
+.card .tags .tag {
+  font-size: 0.75em;
+  background: rgba(255,255,255,0.5);
+  border-radius: 0.3rem;
+  padding: 0 0.5em;
+  margin-right: 0.5em;
+  line-height: 1.5em;
+}
+
+
+
+.card .date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.75em;
+  padding: 1em;
+  line-height: 1em;
+  opacity: .8;
+}
+
+.card:before, .card:after {
+  content: '';
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+}
+
+.card:before {
+  background: #ddd;
+  width: 250%;
+  height: 250%;
+} 
+
+.card:after {
+  background: white;
+  width: 200%;
+  height: 200%;
+}
+
+
+.info {
+  font-size: 1.2em;
+  display: flex;
+  padding: 1em 3em;
+  height: 3em;
+}
+
+.info img {
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+.info h1 {
+  font-size: 1em;
+  font-weight: normal;
+}
+
+
+
+.project-card {
+  margin-bottom: 40px; padding-bottom:50px; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1); border: none;
+}
+
 
 
 

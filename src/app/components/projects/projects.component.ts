@@ -16,10 +16,10 @@ export class ProjectsComponent implements OnInit {
       // ["Offline Calculator And Converter"]
   ];
   images: string[][] = [
-      ["../../assets/projects/cyanX/preview.png"],
-      ["../../assets/projects/racing-game/gameplay.PNG"],
-      ["../../assets/projects/ice-capades/preview.jpg"],
-      // ["../../assets/projects/calculator-converter/calculator.PNG"]
+      ["../../assets/articles/projects-images/cyanX/preview.png"],
+      ["../../assets/articles/projects-images/racingGame/gameplay.PNG"],
+      ["../../assets/articles/projects-images/iceCapades/preview.jpg"],
+      //["../../assets/articles/projects-images/calculatorConverter/preview.jpg"],
   ];
   descriptions: string[][] = [
       ["A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."],

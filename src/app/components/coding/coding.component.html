@@ -1,0 +1,33 @@
+<app-navbar></app-navbar>
+<div style="background-color:whitesmoke">
+  <div class="logos">
+    <img src="../../../assets/logos/web.png"/>
+    <img src="../../../assets/logos/angular.png"/>
+    <img src="../../../assets/logos/html-css-js.png"/>
+    <img src="../../../assets/logos/hugo-netlify.png"/>
+  </div>
+  <div class="container">
+    <div class="search-container">
+      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Coding Posts (by title, language, year..)" title="SearchBar"><br><br>
+      <div id="myUL">
+        <article *ngFor="let i of postArray">
+          <section class="card" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}">
+            <div class="padding">
+              <div class="tags">
+                <div class="tag">{{tags[i]}}</div>
+              </div>
+              <h1>{{titles[i]}}</h1>
+              <div class="date">{{dates[i]}}</div>
+              <p>Something something something…</p>
+              <div class="read-more-project-button-container">
+                <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </div>
+    <br><br>
+  </div>
+  <br><br>
+</div>

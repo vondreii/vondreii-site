@@ -14,7 +14,7 @@ export class ProjectPostComponent implements OnInit {
 
   ngOnInit() {
     let articleName = this.route.snapshot.paramMap.get('article');
-    this.post = './assets/project-posts/' +  articleName + '.md';
+    this.post = './assets/articles/projects-posts/' +  articleName + '.md';
   }
 
 }

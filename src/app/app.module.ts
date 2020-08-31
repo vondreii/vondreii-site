@@ -22,12 +22,17 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
-import { BlogComponent } from './components/blog/blog.component';
-import { BlogPostComponent } from './components/blog/blog-post/blog-post.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
 import { PhotographyComponent } from './components/photography/photography.component';
 import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
+import { WebdevComponent } from './components/webdev/webdev.component';
+import { WebdevPostComponent } from './components/webdev/webdev-post/webdev-post.component';
+import { CodingComponent } from './components/coding/coding.component';
+import { CodingPostComponent } from './components/coding/coding-post/coding-post.component';
+import { StudentsComponent } from './components/students/students.component';
+import { StudentsPostComponent } from './components/students/students-post/students-post.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,12 +41,16 @@ import { PhotographyLocationComponent } from './components/photography/photograp
     FooterComponent,
     ContactComponent,
     AboutComponent,
-    BlogComponent,
-    BlogPostComponent,
     ProjectsComponent,
     ProjectPostComponent,
     PhotographyComponent,
-    PhotographyLocationComponent
+    PhotographyLocationComponent,
+    WebdevComponent,
+    WebdevPostComponent,
+    CodingComponent,
+    CodingPostComponent,
+    StudentsComponent,
+    StudentsPostComponent
   ],
   imports: [
     BrowserModule,
