@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+
 /* ******************************************************************************
 _________________________________________________________________________________
   PARALLAX EFFECT 
-  .parallax       | .photoCred      |
+  .parallax       
+  .photoCred
+_________________________________________________________________________________
+  LOGOS 
+  .logos                             @media (max-width:1100px) - .logos
+  .logos img                         @media (min-width:1101px) - .logos
+  .logos img:not(:first-of-type)
+_________________________________________________________________________________
+  SEARCH BAR
+  .search-container                  @media (max-width:1100px) - .search-container
+  #myInput
+  #myUL
+  #myUL li
 _________________________________________________________________________________
   HEADINGS
   .main-heading   | .heading-border | h1-h6
@@ -17,23 +30,13 @@ ________________________________________________________________________________
   background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover
 }
 .photoCred {
+  padding:4px 6px;display:inline-block;border-radius:3px;background-color:black;color:white;
   font-size:12px;font-weight:bold;line-height:1.2;text-decoration:none;
-  padding:4px 6px;display:inline-block;border-radius:3px;
-  background-color:black;color:white;
 }
 
-/* Search bar */
-.search-container {text-align: center }
-#myInput {background-repeat: no-repeat;width: 80%;text-align:center;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #ddd;margin-bottom: 12px;}
-@media screen and (max-width: 1200px) {#myInput { width: 90%; }}
-#myUL {text-align:center;list-style-type: none;padding: 0;margin: 0;}
-#myUL li {text-align: center;}
-
-/* ************************************ HEADINGS ************************************ */
+/* ************************************ LOGOS ************************************ */
 .logos {
-  padding-top:100px;
-  padding-bottom:50px;
-  text-align:center;
+  padding-top:100px; padding-bottom:50px; text-align:center;
 }
 .logos img {
   width:250px;
@@ -41,6 +44,35 @@ ________________________________________________________________________________
 .logos img:not(:first-of-type) {
   padding-left:100px;
 }
+
+/* @media for logos */
+@media screen and (max-width:1100px) {
+  .logos {display: none}
+}
+@media screen and (min-width:1101px) {
+  .logos {display: block}
+}
+
+/* ********************************** SEARCH BAR *********************************** */
+.search-container {
+  text-align: center 
+}
+#myInput {
+  background-repeat: no-repeat;width: 80%;text-align:center;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #ddd;margin-bottom: 12px;
+}
+#myUL {
+  text-align:center;list-style-type: none;padding: 0;margin: 0;
+}
+#myUL li {
+  text-align: center;
+}
+
+/* @media for search bar */
+@media screen and (max-width:1100px) {
+  .search-container {margin-top: 100px}
+}
+
+/* ************************************ HEADINGS ************************************ */
 .main-heading {
   font-size:30pt;font-weight:300;letter-spacing:2px;text-align:center;
   position: absolute;top: 400px;left: 0;width: 100%; 
@@ -68,7 +100,7 @@ h5,h6 {
   font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px;color:rgb(134, 134, 134)
 }
 
-/* p, h1 {margin: 0; padding: 0;} */
+
 
 /* ****************************** WRITTEN CONTENT ****************************** */
 .writtenContent {
