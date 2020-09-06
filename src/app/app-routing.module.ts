@@ -3,16 +3,16 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule, Router } from '@angular/router';
 import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
+import { ProjectsComponent } from './components/articles/projects/projects.component';
+import { ProjectPostComponent } from './components/articles/projects/project-post/project-post.component';
 import { PhotographyComponent } from './components/photography/photography.component';
 import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
-import { WebdevComponent } from './components/webdev/webdev.component';
-import { WebdevPostComponent } from './components/webdev/webdev-post/webdev-post.component';
-import { CodingComponent } from './components/coding/coding.component';
-import { CodingPostComponent } from './components/coding/coding-post/coding-post.component';
-import { StudentsComponent } from './components/students/students.component';
-import { StudentsPostComponent } from './components/students/students-post/students-post.component';
+import { WebdevComponent } from './components/articles/webdev/webdev.component';
+import { WebdevPostComponent } from './components/articles/webdev/webdev-post/webdev-post.component';
+import { CodingComponent } from './components/articles/coding/coding.component';
+import { CodingPostComponent } from './components/articles/coding/coding-post/coding-post.component';
+import { StudentsComponent } from './components/articles/students/students.component';
+import { StudentsPostComponent } from './components/articles/students/students-post/students-post.component';
 
 const routes: Routes = [
   { path: '', component: WebdevComponent },

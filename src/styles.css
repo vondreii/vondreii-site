@@ -25,6 +25,10 @@ ________________________________________________________________________________
 _________________________________________________________________________________ 
 ****************************************************************************** */
 
+.bg-color {
+  background-color:whitesmoke;
+}
+
 /* ****************************** PARALLAX EFFECT ****************************** */
 .parallax {
   background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover
@@ -36,14 +40,16 @@ ________________________________________________________________________________
 
 /* ************************************ LOGOS ************************************ */
 .logos {
-  padding-top:100px; padding-bottom:50px; text-align:center;
+  /* background-color:rgb(201, 201, 201); */
+  padding-top:10px; padding-bottom:50px; text-align:center; border-radius:10px;
 }
 .logos img {
-  width:250px;
+  width:160px;
+  padding:5px 20px;
 }
-.logos img:not(:first-of-type) {
+/* .logos img:not(:first-of-type) {
   padding-left:100px;
-}
+} */
 
 /* @media for logos */
 @media screen and (max-width:1100px) {
@@ -55,7 +61,7 @@ ________________________________________________________________________________
 
 /* ********************************** SEARCH BAR *********************************** */
 .search-container {
-  text-align: center 
+  text-align: center;
 }
 #myInput {
   background-repeat: no-repeat;width: 80%;text-align:center;font-size: 16px;padding: 12px 20px 12px 40px;border: 1px solid #ddd;margin-bottom: 12px;
@@ -68,9 +74,9 @@ ________________________________________________________________________________
 }
 
 /* @media for search bar */
-@media screen and (max-width:1100px) {
+/* @media screen and (max-width:1100px) {
   .search-container {margin-top: 100px}
-}
+} */
 
 /* ************************************ HEADINGS ************************************ */
 .main-heading {
@@ -107,10 +113,10 @@ h5,h6 {
   padding:20px 350px;text-align:justify;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;
 }
 @media screen and (min-width: 701px) and (max-width: 1100px) {
-  .writtenContent {padding:30px 120px}
+  .writtenContent {margin-top:20px;padding:30px 120px}
 }
 @media screen and (max-width: 700px) {
-  .writtenContent {padding:30px 30px}
+  .writtenContent {margin-top:40px;padding:30px 30px}
 }
 ul, ol {
   text-align:left;
@@ -714,6 +720,26 @@ a:hover {text-decoration: none;}
 
 .project-card {
   margin-bottom: 40px; padding-bottom:50px; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1); border: none;
+}
+
+/* Search bar on article pages */
+.searchbar {
+  background-image: url('assets/articles/header-original.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 0px;
+  height: 15vh;
+}
+
+@media screen and (max-width:900px) {
+  .searchbar {padding-top: 100px;height: 30vh;}
+  .show-header {display:none;}
+  .show-navbar {display:block;}
+}
+@media screen and (min-width:901px) {
+  .show-header {display:block;}
+  .show-navbar {display:none;}
 }
 
 

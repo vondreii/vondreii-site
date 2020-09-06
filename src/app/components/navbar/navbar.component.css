@@ -1,47 +1,25 @@
-/* ****************************** NAVIGATION BAR ****************************** */
-/* Both top and bottom parts of navbar */
-.navigation {position:fixed;width:100%;z-index:99;border-bottom:1px solid lightgrey}
-.navigation a {color:#727272; padding:12px 15px;font-family:Helvetica,sans-serif;font-size:12pt}
-.navigation a:hover {transition:0.7s ease;color:#272727;color:#272727;text-decoration:none} 
-
-/* The dark thick top-border */
-#header {overflow:hidden;background-color:#333;opacity:1;border-bottom:1px solid black; top:0;margin-top:-12px}
-
-/* The actual navigation with links */
-#navbar {overflow:hidden;opacity:1;}
-.navbar-toggle {background-color: #272727;}
-/* #navbarCollapse {text-align:center;padding-left:280px;} */
-
-/* Github, linkedIn and contact pages */
-.social-links {margin-top:25px}
-.social-links a {padding:25px;}
-
-/* Screen sizes - from biggest to smallest */
+/* Navbar */
+nav {
+  position:fixed;width:100%;z-index:99;border-bottom:1px solid lightgrey;
+}
+nav a {
+  color:#727272; padding:12px 20px;font-family:Helvetica,sans-serif;font-size:11pt;
+}
+nav a:hover {
+  transition:0.7s ease;color:#272727;color:#272727;text-decoration:none
+} 
 /* Bigger screens */
 @media screen and (min-width:767px) {
-  .hide-links {display:block}
-  .blog-link {display:none}
 } 
 /* Only medium devices, eg ipads but not desktops #1 */
-/* @media screen and (min-width:1101px) and (max-width:1400px) {
-  .separator-vertical {display:block}
-  .hide-links {display:none}
-  .blog-link {display:block}
-}  */
+@media screen and (min-width:1101px) and (max-width:1400px) {
+} 
 /* Only medium devices, eg ipads but not desktops #2 */
-/* @media screen and (min-width:901px) and (max-width:1100px) {
-  .separator-vertical {display:none}
-  .hide-links {display:none}
-  .blog-link {display:block}
-  #navbarCollapse {text-align:center;padding-left:150px;}
-}  */
+@media screen and (min-width:901px) and (max-width:1100px) {
+} 
 /* Only medium devices, eg ipads but not desktops #3 */
-/* @media screen and (min-width:767px) and (max-width:900px) {
-  .separator-vertical {display:none}
-  .hide-links {display:none}
-  .blog-link {display:block}
-  #navbarCollapse {text-align:center;padding-left:20px;}
-}  */
+@media screen and (min-width:767px) and (max-width:900px) {
+} 
 /* Everything after smaller screen, eg ipad, desktop */
 @media screen and (min-width:767px) {
   .separator-vertical {display:block}
@@ -52,8 +30,6 @@
   .separator-vertical {display:none}
   .separator-horizontal {display:block}
   .blog-link {display:none}
-  .navigation a {padding:8px}
-  .social-links a {padding:25px}
-  #navbarCollapse {text-align:center;padding-left:0px;}
+  nav a {padding:8px}
 } 
 
