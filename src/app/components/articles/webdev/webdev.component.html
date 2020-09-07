@@ -9,11 +9,11 @@
 <section class="bg-color">
   <div class="search-container">
     <!-- Search input box -->
-    <div class="searchbar hero-text-box">
-      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Web Dev posts (by title, language, year..)" title="SearchBar"><br><br>
-    </div>
     <div class="container">
       <br><br>
+      <div>
+        <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Web Dev posts (by title, language, year..)" title="SearchBar"><br><br>
+      </div>
       <div id="myUL">
         <!-- For each post -->
         <article *ngFor="let i of postArray">
