@@ -41,7 +41,8 @@ nav a:active {
   .separator-vertical {display:none}
   .separator-horizontal {display:block}
   .blog-link {display:none}
-  nav {height: auto}
+  nav {height: auto;
+    position:fixed;width:100%;z-index:99;padding-bottom:10px}
   nav a {padding:8px;margin-bottom:2px;border-bottom: none;}
   nav a:link, nav a:visited {border-bottom: none;}
   nav a:hover, nav a:active {border-bottom: none; color:lightgrey}

@@ -45,33 +45,111 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\r\n<div style=\"background-color:whitesmoke\">\r\n  <!-- Parallax and main heading -->\r\n  <div class=\"parallax\" style=\"height: 350px;background-image: url('../../../assets/about/header.jpg');\">\r\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 300px; float: right; position:relative\" href=\"https://unsplash.com/@sorakhan\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">Sora Khan</span></a></div>\r\n  </div>\r\n  <div class=\"parallax\" style=\"height: 150px;\">\r\n    <h2 class=\"main-heading\"><span class=\"heading-border\">About</span></h2>\r\n  </div>\r\n  <div class=\"rows\"> \r\n    <!-- #region Designer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Designer</h2><br><p class=\"about-description\">I love experimenting with different designs before implementing websites.</p>\r\n        </div>\r\n        <img src=\"../../assets/about/designer.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- #endregion -->\r\n    <!-- #region Software Developer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Software Developer</h2><br><p class=\"about-description\">I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <img src=\"../../assets/about/developer.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- #endregion -->\r\n    <!-- #region Photographer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Photographer</h2><br><p class=\"about-description\">I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <img src=\"../../assets/about/photography.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- #endregion -->\r\n    <!-- #region Traveller -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2><br><p class=\"about-description\">Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <img src=\"../../assets/about/traveller.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- #endregion -->\r\n  </div>\r\n  <br><br>\r\n</div>\r\n<div class=\"contact-card\">\r\n  <br><br>\r\n  <div style=\"text-align:center\">\r\n      <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n      <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n      <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n  </div>\r\n  <br><br>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<div class=\"bg-color\">\r\n  <!-- ToDo make this page more modern -->\r\n  <div class=\"rows\"> \r\n    <!-- Designer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Designer</h2><br><p class=\"about-description\">I love experimenting with different designs before implementing websites.</p>\r\n        </div>\r\n        <img src=\"../../assets/about/designer.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- Software Developer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Software Developer</h2><br><p class=\"about-description\">I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <img src=\"../../assets/about/developer.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- Photographer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Photographer</h2><br><p class=\"about-description\">I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <img src=\"../../assets/about/photography.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n    <!-- Traveller -->\r\n    <div class=\"column-4\">\r\n      <div class=\"item-container card-properties\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2><br><p class=\"about-description\">Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <img src=\"../../assets/about/traveller.jpg\" alt=\"img\" class=\"d-block w-full\">\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br><br>\r\n</div>\r\n<div class=\"contact-card\">\r\n  <br><br>\r\n  <div style=\"text-align:center\">\r\n      <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n      <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n      <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n  </div>\r\n  <br><br>\r\n</div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/coding/coding-post/coding-post.component.html":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/coding/coding-post/coding-post.component.html ***!
-  \****************************************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/coding/coding-post/coding-post.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/coding/coding-post/coding-post.component.html ***!
+  \*************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n\n<div markdown [src]=\"post\"></div>\n\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<!-- Display markdown file -->\n<div markdown [src]=\"post\"></div>\n<!-- Contact links -->\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/coding/coding.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/coding/coding.component.html ***!
-  \***********************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/coding/coding.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/coding/coding.component.html ***!
+  \********************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n<div style=\"background-color:whitesmoke\">\n  <div class=\"logos\">\n    <img src=\"../../../assets/logos/web.png\"/>\n    <img src=\"../../../assets/logos/angular.png\"/>\n    <img src=\"../../../assets/logos/html-css-js.png\"/>\n    <img src=\"../../../assets/logos/hugo-netlify.png\"/>\n  </div>\n  <div class=\"container\">\n    <div class=\"search-container\">\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search Coding Posts (by title, language, year..)\" title=\"SearchBar\"><br><br>\n      <div id=\"myUL\">\n        <article *ngFor=\"let i of postArray\">\n          <section class=\"card\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\">\n            <div class=\"padding\">\n              <div class=\"tags\">\n                <div class=\"tag\">{{tags[i]}}</div>\n              </div>\n              <h1>{{titles[i]}}</h1>\n              <div class=\"date\">{{dates[i]}}</div>\n              <p>Something something something…</p>\n              <div class=\"read-more-project-button-container\">\n                <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n              </div>\n            </div>\n          </section>\n        </article>\n      </div>\n    </div>\n    <br><br>\n  </div>\n  <br><br>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<section class=\"bg-color\">\n  <div class=\"search-container\">\n    <!-- Search input box -->\n    <div class=\"container\">\n      <br><br>\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search Coding Posts (by title, language, year..)\" title=\"SearchBar\">\n      <br><br>\n      <div id=\"myUL\">\n        <!-- For each post -->\n        <article *ngFor=\"let i of postArray\">\n          <!-- Display it, if it is the correct category -->\n          <section class=\"card\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\">\n            <div class=\"padding\">\n              <!-- Tags on the top-right corner -->\n              <div class=\"tags\">\n                <div class=\"tag\">{{tags[i]}}</div>\n              </div>\n              <!-- Article information -->\n              <h1>{{titles[i]}}</h1>\n              <div class=\"date\">{{dates[i]}}</div>\n              <p>Something something something…</p>\n              <div class=\"read-more-project-button-container\">\n                <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n              </div>\n            </div>\n          </section>\n        </article>\n      </div>\n    </div>\n    <br><br>\n  </div>\n  <br><br>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/projects/project-post/project-post.component.html":
+/*!*****************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/projects/project-post/project-post.component.html ***!
+  \*****************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<!-- Display markdown file -->\n<div markdown [src]=\"post\"></div>\n<!-- Contact links -->\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/projects/projects.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/projects/projects.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<section class=\"bg-color\">\n  <div class=\"container\">\n    <br><br>\n    <div class=\"card-columns\">\n      <!-- Loop of projects -->\n      <div class=\"project-card\" *ngFor=\"let i of postArray\">\n        <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">{{titles[i]}}</h5>\n          <p><small class=\"text-muted\">{{descriptions[i]}}</small></p>\n          <div class=\"read-more-project-button-container\">\n            <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n          </div>\n        </div>\n      </div>\n      <br><br>\n    </div>\n  </div>\n  <br><br>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students-post/students-post.component.html":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students-post/students-post.component.html ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<!-- Display markdown file -->\n<div markdown [src]=\"post\"></div>\n<!-- Contact links -->\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students.component.html":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students.component.html ***!
+  \************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<section class=\"bg-color\">\n  <div class=\"search-container\">\n    <!-- Search input box -->\n    <div class=\"container\">\n      <br><br>\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search Posts for Students (by title, topic, year..)\" title=\"SearchBar\">\n      <br><br>\n      <div id=\"myUL\">\n        <!-- For each post -->\n        <article *ngFor=\"let i of postArray\">\n          <!-- Display it, if it is the correct category -->\n          <section class=\"card\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\">\n            <div class=\"padding\">\n              <!-- Tags on the top-right corner -->\n              <div class=\"tags\">\n                <div class=\"tag\">{{tags[i]}}</div>\n              </div>\n              <!-- Article information -->\n              <h1>{{titles[i]}}</h1>\n              <div class=\"date\">{{dates[i]}}</div>\n              <p>Something something something…</p>\n              <div class=\"read-more-project-button-container\">\n                <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n              </div>\n            </div>\n          </section>\n        </article>\n      </div>\n    </div>\n    <br><br>\n  </div>\n  <br><br>\n</section>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/webdev/webdev-post/webdev-post.component.html":
+/*!*************************************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/webdev/webdev-post/webdev-post.component.html ***!
+  \*************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<!-- Display markdown file -->\n<div markdown [src]=\"post\"></div>\n<!-- Contact links -->\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/webdev/webdev.component.html":
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/webdev/webdev.component.html ***!
+  \********************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- If the screen is smaller, show the collapsable navbar -->\n<div class=\"show-navbar\">\n  <app-navbar></app-navbar>\n</div>\n<!-- If the screen is bigger, show the header -->\n<div class=\"show-header\">\n  <app-header></app-header>\n</div>\n<section class=\"bg-color\">\n  <div class=\"search-container\">\n    <!-- Search input box -->\n    <div class=\"container\">\n      <br><br>\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search Web Dev posts (by title, language, year..)\" title=\"SearchBar\">\n      <br><br>\n      <div id=\"myUL\">\n        <!-- For each post -->\n        <article *ngFor=\"let i of postArray\">\n          <!-- Display it, if it is the correct category -->\n          <section class=\"card\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\">\n            <div class=\"padding\">\n              <!-- Tags on the top-right corner -->\n              <div class=\"tags\">\n                <div class=\"tag\">{{tags[i]}}</div>\n              </div>\n              <!-- Article information -->\n              <h1>{{titles[i]}}</h1>\n              <div class=\"date\">{{dates[i]}}</div>\n              <p>Something something something…</p>\n              <div class=\"read-more-project-button-container\">\n                <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n              </div>\n            </div>\n          </section>\n        </article>\n      </div>\n    </div>\n    <br><br>\n    <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->\n    <!-- <div class=\"card-columns\" style=\"color:black\">\n      <div class=\"card\" *ngFor=\"let i of postArray\">\n        <h1>HTML Syntax</h1>\n        <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\n        <h1>HTML Syntax</h1>\n        <div class=\"padding\">\n          <div class=\"tags\">\n            <div class=\"tag\">{{tags[i]}}</div>\n          </div>\n          <h1>{{titles[i]}}</h1>\n          <div class=\"date\">{{dates[i]}}</div>\n          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>\n          <div class=\"read-more-project-button-container\">\n            <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n          </div>\n        </div>\n      </div>\n    </div> -->\n  </div>\n  <br><br>\n</section>\n\n<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->");
 
 /***/ }),
 
@@ -101,16 +179,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/home/home.component.html":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/home/home.component.html ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html":
+/*!***********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html ***!
+  \***********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\r\n\r\n<!-- Separate Home Component -->");
+/* harmony default export */ __webpack_exports__["default"] = ("<header>\n    <nav>\n        <div class=\"maxwidth\">\n            <!-- Temporary logo until you make Vondreii into a see through PNG -->\n            <!-- <img src=\"../../../assets/logos/angular.png\" alt=\"Omnifood logo\" class=\"logo\"> -->\n            <!-- Links -->\n            <ul class=\"main-nav js--main-nav\">\n                <li><a routerLink=\"/webdev\">Web Development</a></li>\n                <li><a routerLink=\"/coding\">Coding</a></li>\n                <li><a routerLink=\"/students\">For Students</a></li>\n                <li><a routerLink=\"/projects\">Projects</a></li>\n                <li><a routerLink=\"/about\">About</a></li>\n            </ul>\n        </div>\n    </nav>\n</header>");
 
 /***/ }),
 
@@ -123,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"navigation\">\r\n  <nav id=\"navbar\" class=\"navbar navbar-expand-md navbar-light bg-lignt\" style=\"background-color:white\">\r\n    <a routerLink=\"/webdev\" class=\"navbar-brand\">VONDREII</a>\r\n    <button type=\"button\" class=\"navbar-toggler\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\">\r\n        <span class=\"navbar-toggler-icon\"></span>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\r\n        <div class=\"navbar-nav\" style=\"text-align:center;\">\r\n            <div class=\"separator-vertical\">\r\n              <a href=\"#\" class=\"nav-item nav-link disabled\" style=\"color:grey\">|</a>\r\n            </div>\r\n            <a routerLink=\"/webdev\" class=\"nav-item nav-link\">WEB DEV</a>\r\n            <a routerLink=\"/coding\" class=\"nav-item nav-link\">CODING</a>\r\n            <a routerLink=\"/students\" class=\"nav-item nav-link\">STUDENTS</a>\r\n            <a routerLink=\"/projects\" class=\"nav-item nav-link\">PROJECTS</a>\r\n            <a routerLink=\"/about\" class=\"nav-item nav-link\">ABOUT</a>\r\n        </div>\r\n    </div>\r\n  </nav>\r\n</div>\r\n\r\n\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav>\r\n  <div class=\"navbar navbar-expand-md navbar-light\">\r\n  <!-- <div class=\"navbar navbar-expand-md navbar-light bg-light\" style=\"background-color:white\"> -->\r\n    <!-- Main Vondreii Logo -->\r\n    <a routerLink=\"/webdev\">VONDREII</a>\r\n    <!-- Hamburger menu for when navbar is collapsed -->\r\n    <button type=\"button\" class=\"navbar-toggler hamburger\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\">\r\n        <span class=\"navbar-toggler-icon hamburger\"></span>\r\n    </button>\r\n    <!-- Content within the navbar -->\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\r\n        <div class=\"navbar-nav\" style=\"text-align:center;\">\r\n            <!-- The ' | ' line -->\r\n            <div class=\"separator-vertical\">\r\n              <a href=\"#\" class=\"nav-item nav-link disabled\" style=\"color:grey\">|</a>\r\n            </div>\r\n            <!-- Links -->\r\n            <a routerLink=\"/webdev\">WEB DEV</a>\r\n            <a routerLink=\"/coding\">CODING</a>\r\n            <a routerLink=\"/students\">FOR STUDENTS</a>\r\n            <a routerLink=\"/projects\">PROJECTS</a>\r\n            <a routerLink=\"/about\">ABOUT</a>\r\n        </div>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n\r\n");
 
 /***/ }),
 
@@ -150,84 +228,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n<div style=\"background-color:whitesmoke\">\n  <!-- Parallax and main heading -->\n  <div class=\"parallax\" style=\"height: 350px;background-image: url('../../../assets/photography/header.jpg');\">\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 300px; float: right; position:relative\" href=\"https://unsplash.com/@vondreii\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">Vondreii</span></a></div>\n  </div>\n  <div class=\"parallax\" style=\"height: 150px;\">\n    <h2 class=\"main-heading\"><span class=\"heading-border\">Photography</span></h2>\n  </div>\n  <div class=\"container\">\n    <div class=\"container\">\n      <div class=\"card-columns\">\n        <!-- Loop of projects -->\n        <div class=\"card\" *ngFor=\"let i of postArray\">\n          <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\n          <div class=\"card-body\">\n            <h5 class=\"card-title\">{{titles[i]}}</h5>\n            <p><small class=\"text-muted\">{{descriptions[i]}}</small></p>\n            <div class=\"read-more-project-button-container\">\n              <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n            </div>\n          </div>\n        </div>\n        <!-- #endregion -->\n      </div>\n    </div>\n  </div>\n  <br><br>\n</div>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/project-post/project-post.component.html":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/project-post/project-post.component.html ***!
-  \********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n\n<div markdown [src]=\"post\"></div>\n\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n<div style=\"background-color:whitesmoke\">\n  <!-- Parallax and main heading -->\n  <div class=\"parallax\" style=\"height: 350px;background-image: url('../../../assets/articles/projects-images/header.jpg');\">\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 300px; float: right; position:relative\" href=\"https://unsplash.com/@heytowner\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">John Towner</span></a></div>\n  </div>\n  <div class=\"parallax\" style=\"height: 150px;\">\n    <h2 class=\"main-heading\"><span class=\"heading-border\">Projects</span></h2>\n  </div>\n  <div class=\"container\">\n    <div class=\"card-columns\">\n      <!-- Loop of projects -->\n      <div class=\"project-card\" *ngFor=\"let i of postArray\">\n        <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\n        <div class=\"card-body\">\n          <h5 class=\"card-title\">{{titles[i]}}</h5>\n          <p><small class=\"text-muted\">{{descriptions[i]}}</small></p>\n          <div class=\"read-more-project-button-container\">\n            <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n          </div>\n        </div>\n      </div>\n      <br><br>\n    </div>\n  </div>\n  <br><br>\n</div>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/students/students-post/students-post.component.html":
-/*!**********************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/students/students-post/students-post.component.html ***!
-  \**********************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n\n<div markdown [src]=\"post\"></div>\n\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/students/students.component.html":
-/*!***************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/students/students.component.html ***!
-  \***************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n<div style=\"background-color:whitesmoke\">\n  <div class=\"logos\">\n    <img src=\"../../../assets/logos/web.png\"/>\n    <img src=\"../../../assets/logos/angular.png\"/>\n    <img src=\"../../../assets/logos/html-css-js.png\"/>\n    <img src=\"../../../assets/logos/hugo-netlify.png\"/>\n  </div>\n  <div class=\"container\">\n    <div class=\"search-container\">\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search Posts for Students (by title, topic, year..)\" title=\"SearchBar\"><br><br>\n      <div id=\"myUL\">\n        <article *ngFor=\"let i of postArray\">\n          <section class=\"card\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\">\n            <div class=\"padding\">\n              <div class=\"tags\">\n                <div class=\"tag\">{{tags[i]}}</div>\n              </div>\n              <h1>{{titles[i]}}</h1>\n              <div class=\"date\">{{dates[i]}}</div>\n              <p>Something something something…</p>\n              <div class=\"read-more-project-button-container\">\n                <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n              </div>\n            </div>\n          </section>\n        </article>\n      </div>\n    </div>\n    <br><br>\n  </div>\n  <br><br>\n</div>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/webdev/webdev-post/webdev-post.component.html":
-/*!****************************************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/webdev/webdev-post/webdev-post.component.html ***!
-  \****************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n\n<div markdown [src]=\"post\"></div>\n\n<div class=\"contact-card\">\n    <br>\n    <div style=\"text-align:center\">\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\n    </div>\n    <br><br>\n</div>");
-
-/***/ }),
-
-/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/webdev/webdev.component.html":
-/*!***********************************************************************************************!*\
-  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/webdev/webdev.component.html ***!
-  \***********************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<app-navbar></app-navbar>\n<div style=\"background-color:whitesmoke\">\n  <div class=\"logos\">\n    <img src=\"../../../assets/logos/web.png\"/>\n    <img src=\"../../../assets/logos/angular.png\"/>\n    <img src=\"../../../assets/logos/html-css-js.png\"/>\n    <img src=\"../../../assets/logos/hugo-netlify.png\"/>\n  </div>\n  <div class=\"container\">\n    <div class=\"search-container\">\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search Web Development Posts (by title, language, year..)\" title=\"SearchBar\"><br><br>\n      <div id=\"myUL\">\n        <article *ngFor=\"let i of postArray\">\n          <section class=\"card\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\">\n            <div class=\"padding\">\n              <div class=\"tags\">\n                <div class=\"tag\">{{tags[i]}}</div>\n              </div>\n              <h1>{{titles[i]}}</h1>\n              <div class=\"date\">{{dates[i]}}</div>\n              <p>Something something something…</p>\n              <div class=\"read-more-project-button-container\">\n                <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n              </div>\n            </div>\n          </section>\n        </article>\n      </div>\n    </div>\n    <br><br>\n    <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->\n    <!-- <div class=\"card-columns\" style=\"color:black\">\n      <div class=\"card\" *ngFor=\"let i of postArray\">\n        <h1>HTML Syntax</h1>\n        <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\n        <h1>HTML Syntax</h1>\n        <div class=\"padding\">\n          <div class=\"tags\">\n            <div class=\"tag\">{{tags[i]}}</div>\n          </div>\n          <h1>{{titles[i]}}</h1>\n          <div class=\"date\">{{dates[i]}}</div>\n          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>\n          <div class=\"read-more-project-button-container\">\n            <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\n          </div>\n        </div>\n      </div>\n    </div> -->\n  </div>\n  <br><br>\n</div>\n\n<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->");
 
 /***/ }),
 
@@ -501,16 +501,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
 /* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
-/* harmony import */ var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/projects/projects.component */ "./src/app/components/projects/projects.component.ts");
-/* harmony import */ var _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/projects/project-post/project-post.component */ "./src/app/components/projects/project-post/project-post.component.ts");
+/* harmony import */ var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/articles/projects/projects.component */ "./src/app/components/articles/projects/projects.component.ts");
+/* harmony import */ var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/articles/projects/project-post/project-post.component */ "./src/app/components/articles/projects/project-post/project-post.component.ts");
 /* harmony import */ var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/photography/photography.component */ "./src/app/components/photography/photography.component.ts");
 /* harmony import */ var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/photography/photography-location/photography-location.component */ "./src/app/components/photography/photography-location/photography-location.component.ts");
-/* harmony import */ var _components_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/webdev/webdev.component */ "./src/app/components/webdev/webdev.component.ts");
-/* harmony import */ var _components_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/webdev/webdev-post/webdev-post.component */ "./src/app/components/webdev/webdev-post/webdev-post.component.ts");
-/* harmony import */ var _components_coding_coding_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/coding/coding.component */ "./src/app/components/coding/coding.component.ts");
-/* harmony import */ var _components_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/coding/coding-post/coding-post.component */ "./src/app/components/coding/coding-post/coding-post.component.ts");
-/* harmony import */ var _components_students_students_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/students/students.component */ "./src/app/components/students/students.component.ts");
-/* harmony import */ var _components_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/students/students-post/students-post.component */ "./src/app/components/students/students-post/students-post.component.ts");
+/* harmony import */ var _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/articles/webdev/webdev.component */ "./src/app/components/articles/webdev/webdev.component.ts");
+/* harmony import */ var _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/articles/webdev/webdev-post/webdev-post.component */ "./src/app/components/articles/webdev/webdev-post/webdev-post.component.ts");
+/* harmony import */ var _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/articles/coding/coding.component */ "./src/app/components/articles/coding/coding.component.ts");
+/* harmony import */ var _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/articles/coding/coding-post/coding-post.component */ "./src/app/components/articles/coding/coding-post/coding-post.component.ts");
+/* harmony import */ var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/articles/students/students.component */ "./src/app/components/articles/students/students.component.ts");
+/* harmony import */ var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/articles/students/students-post/students-post.component */ "./src/app/components/articles/students/students-post/students-post.component.ts");
 
 
 
@@ -528,21 +528,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', component: _components_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__["WebdevComponent"] },
+    { path: '', component: _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__["WebdevComponent"] },
     { path: 'contact', component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] },
     { path: 'about', component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"] },
     // Webdev posts
-    { path: 'webdev', component: _components_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__["WebdevComponent"] },
-    { path: 'webdev/post/:article', component: _components_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_11__["WebdevPostComponent"] },
+    { path: 'webdev', component: _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__["WebdevComponent"] },
+    { path: 'webdev/post/:article', component: _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_11__["WebdevPostComponent"] },
     // Coding posts
-    { path: 'coding', component: _components_coding_coding_component__WEBPACK_IMPORTED_MODULE_12__["CodingComponent"] },
-    { path: 'coding/post/:article', component: _components_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_13__["CodingPostComponent"] },
+    { path: 'coding', component: _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_12__["CodingComponent"] },
+    { path: 'coding/post/:article', component: _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_13__["CodingPostComponent"] },
     // Students posts
-    { path: 'students', component: _components_students_students_component__WEBPACK_IMPORTED_MODULE_14__["StudentsComponent"] },
-    { path: 'students/post/:article', component: _components_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_15__["StudentsPostComponent"] },
+    { path: 'students', component: _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_14__["StudentsComponent"] },
+    { path: 'students/post/:article', component: _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_15__["StudentsPostComponent"] },
     // Projects
-    { path: 'projects', component: _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"] },
-    { path: 'projects/post/:article', component: _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_7__["ProjectPostComponent"] },
+    { path: 'projects', component: _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"] },
+    { path: 'projects/post/:article', component: _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_7__["ProjectPostComponent"] },
     // Photography pages
     { path: 'photography', component: _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_8__["PhotographyComponent"] },
     { path: 'photography/blue-mountains', component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"] },
@@ -638,21 +638,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _components_home_home_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/home/home.component */ "./src/app/components/home/home.component.ts");
-/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
-/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
-/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
-/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
-/* harmony import */ var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/projects/projects.component */ "./src/app/components/projects/projects.component.ts");
-/* harmony import */ var _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/projects/project-post/project-post.component */ "./src/app/components/projects/project-post/project-post.component.ts");
-/* harmony import */ var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/photography/photography.component */ "./src/app/components/photography/photography.component.ts");
-/* harmony import */ var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/photography/photography-location/photography-location.component */ "./src/app/components/photography/photography-location/photography-location.component.ts");
-/* harmony import */ var _components_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/webdev/webdev.component */ "./src/app/components/webdev/webdev.component.ts");
-/* harmony import */ var _components_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/webdev/webdev-post/webdev-post.component */ "./src/app/components/webdev/webdev-post/webdev-post.component.ts");
-/* harmony import */ var _components_coding_coding_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/coding/coding.component */ "./src/app/components/coding/coding.component.ts");
-/* harmony import */ var _components_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/coding/coding-post/coding-post.component */ "./src/app/components/coding/coding-post/coding-post.component.ts");
-/* harmony import */ var _components_students_students_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/students/students.component */ "./src/app/components/students/students.component.ts");
-/* harmony import */ var _components_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/students/students-post/students-post.component */ "./src/app/components/students/students-post/students-post.component.ts");
+/* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
+/* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
+/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
+/* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
+/* harmony import */ var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/articles/projects/projects.component */ "./src/app/components/articles/projects/projects.component.ts");
+/* harmony import */ var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/articles/projects/project-post/project-post.component */ "./src/app/components/articles/projects/project-post/project-post.component.ts");
+/* harmony import */ var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/photography/photography.component */ "./src/app/components/photography/photography.component.ts");
+/* harmony import */ var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/photography/photography-location/photography-location.component */ "./src/app/components/photography/photography-location/photography-location.component.ts");
+/* harmony import */ var _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/articles/webdev/webdev.component */ "./src/app/components/articles/webdev/webdev.component.ts");
+/* harmony import */ var _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/articles/webdev/webdev-post/webdev-post.component */ "./src/app/components/articles/webdev/webdev-post/webdev-post.component.ts");
+/* harmony import */ var _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/articles/coding/coding.component */ "./src/app/components/articles/coding/coding.component.ts");
+/* harmony import */ var _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/articles/coding/coding-post/coding-post.component */ "./src/app/components/articles/coding/coding-post/coding-post.component.ts");
+/* harmony import */ var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/articles/students/students.component */ "./src/app/components/articles/students/students.component.ts");
+/* harmony import */ var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/articles/students/students-post/students-post.component */ "./src/app/components/articles/students/students-post/students-post.component.ts");
+/* harmony import */ var _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/header/header.component */ "./src/app/components/header/header.component.ts");
 
 
 
@@ -690,21 +690,21 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
-            _components_home_home_component__WEBPACK_IMPORTED_MODULE_12__["HomeComponent"],
-            _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"],
-            _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_14__["FooterComponent"],
-            _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_15__["ContactComponent"],
-            _components_about_about_component__WEBPACK_IMPORTED_MODULE_16__["AboutComponent"],
-            _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_17__["ProjectsComponent"],
-            _components_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_18__["ProjectPostComponent"],
-            _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_19__["PhotographyComponent"],
-            _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_20__["PhotographyLocationComponent"],
-            _components_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_21__["WebdevComponent"],
-            _components_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_22__["WebdevPostComponent"],
-            _components_coding_coding_component__WEBPACK_IMPORTED_MODULE_23__["CodingComponent"],
-            _components_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_24__["CodingPostComponent"],
-            _components_students_students_component__WEBPACK_IMPORTED_MODULE_25__["StudentsComponent"],
-            _components_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_26__["StudentsPostComponent"]
+            _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"],
+            _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
+            _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_14__["ContactComponent"],
+            _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__["AboutComponent"],
+            _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_16__["ProjectsComponent"],
+            _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_17__["ProjectPostComponent"],
+            _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_18__["PhotographyComponent"],
+            _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_19__["PhotographyLocationComponent"],
+            _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_20__["WebdevComponent"],
+            _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_21__["WebdevPostComponent"],
+            _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_22__["CodingComponent"],
+            _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_23__["CodingPostComponent"],
+            _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_24__["StudentsComponent"],
+            _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_25__["StudentsPostComponent"],
+            _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__["HeaderComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -716,7 +716,7 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"],
             ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"].forRoot({ loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"], sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_2__["SecurityContext"].NONE })
         ],
-        exports: [_components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_13__["NavbarComponent"]],
+        exports: [_components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"]],
         providers: [],
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
     })
@@ -770,23 +770,23 @@ AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/components/coding/coding-post/coding-post.component.css":
-/*!*************************************************************************!*\
-  !*** ./src/app/components/coding/coding-post/coding-post.component.css ***!
-  \*************************************************************************/
+/***/ "./src/app/components/articles/coding/coding-post/coding-post.component.css":
+/*!**********************************************************************************!*\
+  !*** ./src/app/components/articles/coding/coding-post/coding-post.component.css ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29kaW5nL2NvZGluZy1wb3N0L2NvZGluZy1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvY29kaW5nL2NvZGluZy1wb3N0L2NvZGluZy1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
 
 /***/ }),
 
-/***/ "./src/app/components/coding/coding-post/coding-post.component.ts":
-/*!************************************************************************!*\
-  !*** ./src/app/components/coding/coding-post/coding-post.component.ts ***!
-  \************************************************************************/
+/***/ "./src/app/components/articles/coding/coding-post/coding-post.component.ts":
+/*!*********************************************************************************!*\
+  !*** ./src/app/components/articles/coding/coding-post/coding-post.component.ts ***!
+  \*********************************************************************************/
 /*! exports provided: CodingPostComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -814,8 +814,8 @@ CodingPostComponent.ctorParameters = () => [
 CodingPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-coding-post',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./coding-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/coding/coding-post/coding-post.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./coding-post.component.css */ "./src/app/components/coding/coding-post/coding-post.component.css")).default]
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./coding-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/coding/coding-post/coding-post.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./coding-post.component.css */ "./src/app/components/articles/coding/coding-post/coding-post.component.css")).default]
     })
 ], CodingPostComponent);
 
@@ -823,23 +823,23 @@ CodingPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/components/coding/coding.component.css":
-/*!********************************************************!*\
-  !*** ./src/app/components/coding/coding.component.css ***!
-  \********************************************************/
+/***/ "./src/app/components/articles/coding/coding.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/articles/coding/coding.component.css ***!
+  \*****************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY29kaW5nL2NvZGluZy5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvY29kaW5nL2NvZGluZy5jb21wb25lbnQuY3NzIn0= */");
 
 /***/ }),
 
-/***/ "./src/app/components/coding/coding.component.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/components/coding/coding.component.ts ***!
-  \*******************************************************/
+/***/ "./src/app/components/articles/coding/coding.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/components/articles/coding/coding.component.ts ***!
+  \****************************************************************/
 /*! exports provided: CodingComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -895,10 +895,443 @@ let CodingComponent = class CodingComponent {
 CodingComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
         selector: 'app-coding',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./coding.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/coding/coding.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./coding.component.css */ "./src/app/components/coding/coding.component.css")).default]
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./coding.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/coding/coding.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./coding.component.css */ "./src/app/components/articles/coding/coding.component.css")).default]
     })
 ], CodingComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/articles/projects/project-post/project-post.component.css":
+/*!**************************************************************************************!*\
+  !*** ./src/app/components/articles/projects/project-post/project-post.component.css ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvcHJvamVjdHMvcHJvamVjdC1wb3N0L3Byb2plY3QtcG9zdC5jb21wb25lbnQuY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/articles/projects/project-post/project-post.component.ts":
+/*!*************************************************************************************!*\
+  !*** ./src/app/components/articles/projects/project-post/project-post.component.ts ***!
+  \*************************************************************************************/
+/*! exports provided: ProjectPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectPostComponent", function() { return ProjectPostComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+let ProjectPostComponent = class ProjectPostComponent {
+    constructor(route) {
+        this.route = route;
+    }
+    ngOnInit() {
+        let articleName = this.route.snapshot.paramMap.get('article');
+        this.post = './assets/articles/projects-posts/' + articleName + '.md';
+    }
+};
+ProjectPostComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
+];
+ProjectPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-project-post',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./project-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/projects/project-post/project-post.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./project-post.component.css */ "./src/app/components/articles/projects/project-post/project-post.component.css")).default]
+    })
+], ProjectPostComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/articles/projects/projects.component.css":
+/*!*********************************************************************!*\
+  !*** ./src/app/components/articles/projects/projects.component.css ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/components/articles/projects/projects.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/components/articles/projects/projects.component.ts ***!
+  \********************************************************************/
+/*! exports provided: ProjectsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ProjectsComponent = class ProjectsComponent {
+    constructor() {
+        this.titles = [
+            ["Cyan X"],
+            ["3D Street Racing Game"],
+            ["Ice Capades"],
+        ];
+        this.images = [
+            ["../../assets/articles/projects-images/cyanX/preview.png"],
+            ["../../assets/articles/projects-images/racingGame/gameplay.PNG"],
+            ["../../assets/articles/projects-images/iceCapades/preview.jpg"],
+        ];
+        this.descriptions = [
+            ["A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."],
+            ["This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road..."],
+            ["Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles..."],
+        ];
+        this.links = [
+            ["/projects/post/cyanX"],
+            ["/projects/post/streetRacingGame"],
+            ["/projects/post/iceCapades"],
+        ];
+    }
+    ngOnInit() {
+        this.postArray = [0, 1, 2];
+    }
+};
+ProjectsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-projects',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./projects.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/projects/projects.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./projects.component.css */ "./src/app/components/articles/projects/projects.component.css")).default]
+    })
+], ProjectsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/articles/students/students-post/students-post.component.css":
+/*!****************************************************************************************!*\
+  !*** ./src/app/components/articles/students/students-post/students-post.component.css ***!
+  \****************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvc3R1ZGVudHMvc3R1ZGVudHMtcG9zdC9zdHVkZW50cy1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/components/articles/students/students-post/students-post.component.ts":
+/*!***************************************************************************************!*\
+  !*** ./src/app/components/articles/students/students-post/students-post.component.ts ***!
+  \***************************************************************************************/
+/*! exports provided: StudentsPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentsPostComponent", function() { return StudentsPostComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+let StudentsPostComponent = class StudentsPostComponent {
+    constructor(route) {
+        this.route = route;
+    }
+    ngOnInit() {
+        let articleName = this.route.snapshot.paramMap.get('article');
+        this.post = './assets/articles/students-posts/' + articleName + '.md';
+    }
+};
+StudentsPostComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
+];
+StudentsPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-students-post',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./students-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students-post/students-post.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./students-post.component.css */ "./src/app/components/articles/students/students-post/students-post.component.css")).default]
+    })
+], StudentsPostComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/articles/students/students.component.css":
+/*!*********************************************************************!*\
+  !*** ./src/app/components/articles/students/students.component.css ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvc3R1ZGVudHMvc3R1ZGVudHMuY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/components/articles/students/students.component.ts":
+/*!********************************************************************!*\
+  !*** ./src/app/components/articles/students/students.component.ts ***!
+  \********************************************************************/
+/*! exports provided: StudentsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentsComponent", function() { return StudentsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let StudentsComponent = class StudentsComponent {
+    constructor() {
+        this.titles = [
+            ["Adding Photos To Instagram Using A Desktop Computer"],
+            ["Tips on Making The Most Out Of Your First Year At Uni"],
+            ["Decluttering Your Home"],
+            ["How To Organise Your Web Browsing"],
+            ["Organising Your Computer To Increase Productivity"],
+            ["Ways To Be More Organised"]
+        ];
+        this.images = [
+            ["../../assets/articles/students-images/uploadImageToInstagramViaDesktop/header-dark.jpg"],
+            ["../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/header-dark.jpg"],
+            ["../../assets/articles/students-images/declutteringYourHome/header-dark.jpg"],
+            ["../../assets/articles/students-images/howToOrganiseYourWebBrowsing/header-dark.jpg"],
+            ["../../assets/articles/students-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg"],
+            ["../../assets/articles/students-images/waysToBeMoreOrganised/header-dark.jpg"]
+        ];
+        this.dates = [
+            ["11 Aug 2020"],
+            ["8 June 2020"],
+            ["12 May 2020"],
+            ["25 May 2020"],
+            ["16 May 2020"],
+            ["19 May 2020"]
+        ];
+        this.links = [
+            ["/students/post/uploadImageToInstagramViaDesktop"],
+            ["/students/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
+            ["/students/post/declutteringYourHome"],
+            ["/students/post/howToOrganiseYourWebBrowsing"],
+            ["/students/post/organisingYourComputerToIncreaseProductivity"],
+            ["/students/post/waysToBeMoreOrganised"]
+        ];
+        this.tags = [
+            ["Design & Social Media"],
+            ["Uni"],
+            ["Organisation"],
+            ["Organisation"],
+            ["Organisation"],
+            ["Organisation"]
+        ];
+    }
+    ngOnInit() {
+        this.postArray = [0, 1, 2, 3, 4, 5];
+    }
+    getURL(i) {
+        return this.images[i];
+    }
+    searchbar() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("section");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("div")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            }
+            else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+};
+StudentsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-students',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./students.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./students.component.css */ "./src/app/components/articles/students/students.component.css")).default]
+    })
+], StudentsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/articles/webdev/webdev-post/webdev-post.component.css":
+/*!**********************************************************************************!*\
+  !*** ./src/app/components/articles/webdev/webdev-post/webdev-post.component.css ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvd2ViZGV2L3dlYmRldi1wb3N0L3dlYmRldi1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/components/articles/webdev/webdev-post/webdev-post.component.ts":
+/*!*********************************************************************************!*\
+  !*** ./src/app/components/articles/webdev/webdev-post/webdev-post.component.ts ***!
+  \*********************************************************************************/
+/*! exports provided: WebdevPostComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebdevPostComponent", function() { return WebdevPostComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+let WebdevPostComponent = class WebdevPostComponent {
+    constructor(route) {
+        this.route = route;
+    }
+    ngOnInit() {
+        let articleName = this.route.snapshot.paramMap.get('article');
+        this.href = window.location.href;
+        this.post = './assets/articles/web-dev-posts/' + articleName + '.md';
+    }
+};
+WebdevPostComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
+];
+WebdevPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-webdev-post',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./webdev-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/webdev/webdev-post/webdev-post.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./webdev-post.component.css */ "./src/app/components/articles/webdev/webdev-post/webdev-post.component.css")).default]
+    })
+], WebdevPostComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/articles/webdev/webdev.component.css":
+/*!*****************************************************************!*\
+  !*** ./src/app/components/articles/webdev/webdev.component.css ***!
+  \*****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".searchbar {\r\n    background-image: url('header-original.jpg');\r\n    background-size: cover;\r\n    background-position: center;\r\n    background-attachment: fixed;\r\n    padding-top: 0px;\r\n    height: 15vh;\r\n}\r\n\r\n@media screen and (max-width:900px) {\r\n    .searchbar {padding-top: 100px;height: 30vh;}\r\n    .show-header {display:none;}\r\n    .show-navbar {display:block;}\r\n}\r\n\r\n@media screen and (min-width:901px) {\r\n    .show-header {display:block;}\r\n    .show-navbar {display:none;}\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hcnRpY2xlcy93ZWJkZXYvd2ViZGV2LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSw0Q0FBd0U7SUFDeEUsc0JBQXNCO0lBQ3RCLDJCQUEyQjtJQUMzQiw0QkFBNEI7SUFDNUIsZ0JBQWdCO0lBQ2hCLFlBQVk7QUFDaEI7O0FBRUE7SUFDSSxZQUFZLGtCQUFrQixDQUFDLFlBQVksQ0FBQztJQUM1QyxjQUFjLFlBQVksQ0FBQztJQUMzQixjQUFjLGFBQWEsQ0FBQztBQUNoQzs7QUFDQTtJQUNJLGNBQWMsYUFBYSxDQUFDO0lBQzVCLGNBQWMsWUFBWSxDQUFDO0FBQy9CIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9hcnRpY2xlcy93ZWJkZXYvd2ViZGV2LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuc2VhcmNoYmFyIHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vLi4vLi4vYXNzZXRzL2FydGljbGVzL2hlYWRlci1vcmlnaW5hbC5qcGcnKTtcclxuICAgIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xyXG4gICAgcGFkZGluZy10b3A6IDBweDtcclxuICAgIGhlaWdodDogMTV2aDtcclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDo5MDBweCkge1xyXG4gICAgLnNlYXJjaGJhciB7cGFkZGluZy10b3A6IDEwMHB4O2hlaWdodDogMzB2aDt9XHJcbiAgICAuc2hvdy1oZWFkZXIge2Rpc3BsYXk6bm9uZTt9XHJcbiAgICAuc2hvdy1uYXZiYXIge2Rpc3BsYXk6YmxvY2s7fVxyXG59XHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6OTAxcHgpIHtcclxuICAgIC5zaG93LWhlYWRlciB7ZGlzcGxheTpibG9jazt9XHJcbiAgICAuc2hvdy1uYXZiYXIge2Rpc3BsYXk6bm9uZTt9XHJcbn1cclxuIl19 */");
+
+/***/ }),
+
+/***/ "./src/app/components/articles/webdev/webdev.component.ts":
+/*!****************************************************************!*\
+  !*** ./src/app/components/articles/webdev/webdev.component.ts ***!
+  \****************************************************************/
+/*! exports provided: WebdevComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebdevComponent", function() { return WebdevComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let WebdevComponent = class WebdevComponent {
+    constructor() {
+        this.titles = [
+            // Webdev
+            ["Hosting an Angular Application using Netlify"],
+            ["Creating A Simple Angular Web Application"],
+        ];
+        this.images = [
+            // Webdev
+            ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
+            ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
+        ];
+        this.dates = [
+            // Webdev
+            ["30 Aug 2020"],
+            ["04 Aug 2020"],
+        ];
+        this.links = [
+            // Webdev
+            ["/webdev/post/hostingAngularApplicationUsingNetlify"],
+            ["/webdev/post/creatingASimpleAngularWebApplication"],
+        ];
+        this.tags = [
+            // Webdev
+            ["Angular, Netlify, Hosting"],
+            ["Angular"],
+        ];
+        this.category = [
+            // Webdev
+            ["webdev"],
+            ["webdev"],
+        ];
+    }
+    ngOnInit() {
+        this.postArray = [0, 1];
+        this.href = window.location.href;
+        this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
+    }
+    isCategory(i) {
+        return this.hrefId === this.category[i].toString();
+    }
+    getURL(i) {
+        return this.images[i];
+    }
+    searchbar() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName("section");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("div")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            }
+            else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+};
+WebdevComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-webdev',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./webdev.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/webdev/webdev.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./webdev.component.css */ "./src/app/components/articles/webdev/webdev.component.css")).default]
+    })
+], WebdevComponent);
 
 
 
@@ -1000,45 +1433,45 @@ FooterComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/components/home/home.component.css":
-/*!****************************************************!*\
-  !*** ./src/app/components/home/home.component.css ***!
-  \****************************************************/
+/***/ "./src/app/components/header/header.component.css":
+/*!********************************************************!*\
+  !*** ./src/app/components/header/header.component.css ***!
+  \********************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\r\n.card-heading {\r\n  font-size:23pt;\r\n  padding:10px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7RUFDRSxjQUFjO0VBQ2QsWUFBWTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4uY2FyZC1oZWFkaW5nIHtcclxuICBmb250LXNpemU6MjNwdDtcclxuICBwYWRkaW5nOjEwcHg7XHJcbn1cclxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("/* Header */\r\nheader {\r\n    background-image: url('header-original.jpg');\r\n    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/articles/header.jpg'); */\r\n    background-size: cover;background-position: center;height: 20vh;background-attachment: fixed;\r\n}\r\n.maxwidth {\r\n    max-width: 1250px;margin: 0 auto;\r\n}\r\n.maxwidth img {\r\n    margin-left: 20px;\r\n}\r\n.logo {\r\n    height: 100px;width: auto;float: left;margin-top: 20px;\r\n}\r\n/* Main navi */\r\n.main-nav {\r\n    float: right;list-style: none;margin-top: 55px;margin-right: 30px;\r\n}\r\n/* Navbar links */\r\n.main-nav li {\r\n    display: inline-block;margin-left: 40px;\r\n}\r\n.main-nav li a:link,\r\n.main-nav li a:visited {\r\n    padding: 8px 0;color: #fff;transition: border-bottom 0.2s;\r\n    text-decoration: none;text-transform: uppercase;font-size: 90%;\r\n    border-bottom: 2px solid transparent;-webkit-transition: border-bottom 0.2s;\r\n}\r\n.main-nav li a:hover,\r\n.main-nav li a:active {\r\n    border-bottom: 2px solid #40bedd;\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsV0FBVztBQUNYO0lBQ0ksNENBQXFFO0lBQ3JFLDJIQUEySDtJQUMzSCxzQkFBc0IsQ0FBQywyQkFBMkIsQ0FBQyxZQUFZLENBQUMsNEJBQTRCO0FBQ2hHO0FBQ0E7SUFDSSxpQkFBaUIsQ0FBQyxjQUFjO0FBQ3BDO0FBQ0E7SUFDSSxpQkFBaUI7QUFDckI7QUFDQTtJQUNJLGFBQWEsQ0FBQyxXQUFXLENBQUMsV0FBVyxDQUFDLGdCQUFnQjtBQUMxRDtBQUNBLGNBQWM7QUFDZDtJQUNJLFlBQVksQ0FBQyxnQkFBZ0IsQ0FBQyxnQkFBZ0IsQ0FBQyxrQkFBa0I7QUFDckU7QUFDQSxpQkFBaUI7QUFDakI7SUFDSSxxQkFBcUIsQ0FBQyxpQkFBaUI7QUFDM0M7QUFDQTs7SUFFSSxjQUFjLENBQUMsV0FBVyxDQUFDLDhCQUE4QjtJQUN6RCxxQkFBcUIsQ0FBQyx5QkFBeUIsQ0FBQyxjQUFjO0lBQzlELG9DQUFvQyxDQUFDLHNDQUFzQztBQUMvRTtBQUNBOztJQUVJLGdDQUFnQztBQUNwQyIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogSGVhZGVyICovXHJcbmhlYWRlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uLy4uL2Fzc2V0cy9hcnRpY2xlcy9oZWFkZXItb3JpZ2luYWwuanBnJyk7XHJcbiAgICAvKiBiYWNrZ3JvdW5kLWltYWdlOiBsaW5lYXItZ3JhZGllbnQocmdiYSgwLCAwLCAwLCAwLjcpLCByZ2JhKDAsIDAsIDAsIDAuNykpLCB1cmwoJy4uLy4uLy4uL2Fzc2V0cy9hcnRpY2xlcy9oZWFkZXIuanBnJyk7ICovXHJcbiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO2JhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtoZWlnaHQ6IDIwdmg7YmFja2dyb3VuZC1hdHRhY2htZW50OiBmaXhlZDtcclxufVxyXG4ubWF4d2lkdGgge1xyXG4gICAgbWF4LXdpZHRoOiAxMjUwcHg7bWFyZ2luOiAwIGF1dG87XHJcbn1cclxuLm1heHdpZHRoIGltZyB7XHJcbiAgICBtYXJnaW4tbGVmdDogMjBweDtcclxufVxyXG4ubG9nbyB7XHJcbiAgICBoZWlnaHQ6IDEwMHB4O3dpZHRoOiBhdXRvO2Zsb2F0OiBsZWZ0O21hcmdpbi10b3A6IDIwcHg7XHJcbn1cclxuLyogTWFpbiBuYXZpICovXHJcbi5tYWluLW5hdiB7XHJcbiAgICBmbG9hdDogcmlnaHQ7bGlzdC1zdHlsZTogbm9uZTttYXJnaW4tdG9wOiA1NXB4O21hcmdpbi1yaWdodDogMzBweDtcclxufVxyXG4vKiBOYXZiYXIgbGlua3MgKi9cclxuLm1haW4tbmF2IGxpIHtcclxuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazttYXJnaW4tbGVmdDogNDBweDtcclxufVxyXG4ubWFpbi1uYXYgbGkgYTpsaW5rLFxyXG4ubWFpbi1uYXYgbGkgYTp2aXNpdGVkIHtcclxuICAgIHBhZGRpbmc6IDhweCAwO2NvbG9yOiAjZmZmO3RyYW5zaXRpb246IGJvcmRlci1ib3R0b20gMC4ycztcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTt0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO2ZvbnQtc2l6ZTogOTAlO1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkIHRyYW5zcGFyZW50Oy13ZWJraXQtdHJhbnNpdGlvbjogYm9yZGVyLWJvdHRvbSAwLjJzO1xyXG59XHJcbi5tYWluLW5hdiBsaSBhOmhvdmVyLFxyXG4ubWFpbi1uYXYgbGkgYTphY3RpdmUge1xyXG4gICAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICM0MGJlZGQ7XHJcbn1cclxuXHJcbiJdfQ== */");
 
 /***/ }),
 
-/***/ "./src/app/components/home/home.component.ts":
-/*!***************************************************!*\
-  !*** ./src/app/components/home/home.component.ts ***!
-  \***************************************************/
-/*! exports provided: HomeComponent */
+/***/ "./src/app/components/header/header.component.ts":
+/*!*******************************************************!*\
+  !*** ./src/app/components/header/header.component.ts ***!
+  \*******************************************************/
+/*! exports provided: HeaderComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HeaderComponent", function() { return HeaderComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 
 
-let HomeComponent = class HomeComponent {
+let HeaderComponent = class HeaderComponent {
     constructor() { }
     ngOnInit() {
     }
 };
-HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-home',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./home.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/home/home.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./home.component.css */ "./src/app/components/home/home.component.css")).default]
+        selector: 'app-header',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./header.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./header.component.css */ "./src/app/components/header/header.component.css")).default]
     })
-], HomeComponent);
+], HeaderComponent);
 
 
 
@@ -1053,7 +1486,7 @@ HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("/* ****************************** NAVIGATION BAR ****************************** */\r\n/* Both top and bottom parts of navbar */\r\n.navigation {position:fixed;width:100%;z-index:99;border-bottom:1px solid lightgrey}\r\n.navigation a {color:#727272; padding:12px 15px;font-family:Helvetica,sans-serif;font-size:12pt}\r\n.navigation a:hover {transition:0.7s ease;color:#272727;color:#272727;text-decoration:none}\r\n/* The dark thick top-border */\r\n#header {overflow:hidden;background-color:#333;opacity:1;border-bottom:1px solid black; top:0;margin-top:-12px}\r\n/* The actual navigation with links */\r\n#navbar {overflow:hidden;opacity:1;}\r\n.navbar-toggle {background-color: #272727;}\r\n/* #navbarCollapse {text-align:center;padding-left:280px;} */\r\n/* Github, linkedIn and contact pages */\r\n.social-links {margin-top:25px}\r\n.social-links a {padding:25px;}\r\n/* Screen sizes - from biggest to smallest */\r\n/* Bigger screens */\r\n@media screen and (min-width:767px) {\r\n  .hide-links {display:block}\r\n  .blog-link {display:none}\r\n}\r\n/* Only medium devices, eg ipads but not desktops #1 */\r\n/* @media screen and (min-width:1101px) and (max-width:1400px) {\r\n  .separator-vertical {display:block}\r\n  .hide-links {display:none}\r\n  .blog-link {display:block}\r\n}  */\r\n/* Only medium devices, eg ipads but not desktops #2 */\r\n/* @media screen and (min-width:901px) and (max-width:1100px) {\r\n  .separator-vertical {display:none}\r\n  .hide-links {display:none}\r\n  .blog-link {display:block}\r\n  #navbarCollapse {text-align:center;padding-left:150px;}\r\n}  */\r\n/* Only medium devices, eg ipads but not desktops #3 */\r\n/* @media screen and (min-width:767px) and (max-width:900px) {\r\n  .separator-vertical {display:none}\r\n  .hide-links {display:none}\r\n  .blog-link {display:block}\r\n  #navbarCollapse {text-align:center;padding-left:20px;}\r\n}  */\r\n/* Everything after smaller screen, eg ipad, desktop */\r\n@media screen and (min-width:767px) {\r\n  .separator-vertical {display:block}\r\n  .separator-horizontal {display:none}\r\n}\r\n/* Smallest screen, eg, phone */\r\n@media screen and (max-width:767px) {\r\n  .separator-vertical {display:none}\r\n  .separator-horizontal {display:block}\r\n  .blog-link {display:none}\r\n  .navigation a {padding:8px}\r\n  .social-links a {padding:25px}\r\n  #navbarCollapse {text-align:center;padding-left:0px;}\r\n} \r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9uYXZiYXIvbmF2YmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsaUZBQWlGO0FBQ2pGLHdDQUF3QztBQUN4QyxhQUFhLGNBQWMsQ0FBQyxVQUFVLENBQUMsVUFBVSxDQUFDLGlDQUFpQztBQUNuRixlQUFlLGFBQWEsRUFBRSxpQkFBaUIsQ0FBQyxnQ0FBZ0MsQ0FBQyxjQUFjO0FBQy9GLHFCQUFxQixvQkFBb0IsQ0FBQyxhQUFhLENBQUMsYUFBYSxDQUFDLG9CQUFvQjtBQUUxRiw4QkFBOEI7QUFDOUIsU0FBUyxlQUFlLENBQUMscUJBQXFCLENBQUMsU0FBUyxDQUFDLDZCQUE2QixFQUFFLEtBQUssQ0FBQyxnQkFBZ0I7QUFFOUcscUNBQXFDO0FBQ3JDLFNBQVMsZUFBZSxDQUFDLFNBQVMsQ0FBQztBQUNuQyxnQkFBZ0IseUJBQXlCLENBQUM7QUFDMUMsNERBQTREO0FBRTVELHVDQUF1QztBQUN2QyxlQUFlLGVBQWU7QUFDOUIsaUJBQWlCLFlBQVksQ0FBQztBQUU5Qiw0Q0FBNEM7QUFDNUMsbUJBQW1CO0FBQ25CO0VBQ0UsYUFBYSxhQUFhO0VBQzFCLFlBQVksWUFBWTtBQUMxQjtBQUNBLHNEQUFzRDtBQUN0RDs7OztJQUlJO0FBQ0osc0RBQXNEO0FBQ3REOzs7OztJQUtJO0FBQ0osc0RBQXNEO0FBQ3REOzs7OztJQUtJO0FBQ0osc0RBQXNEO0FBQ3REO0VBQ0UscUJBQXFCLGFBQWE7RUFDbEMsdUJBQXVCLFlBQVk7QUFDckM7QUFDQSwrQkFBK0I7QUFDL0I7RUFDRSxxQkFBcUIsWUFBWTtFQUNqQyx1QkFBdUIsYUFBYTtFQUNwQyxZQUFZLFlBQVk7RUFDeEIsZUFBZSxXQUFXO0VBQzFCLGlCQUFpQixZQUFZO0VBQzdCLGlCQUFpQixpQkFBaUIsQ0FBQyxnQkFBZ0IsQ0FBQztBQUN0RCIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqIE5BVklHQVRJT04gQkFSICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4vKiBCb3RoIHRvcCBhbmQgYm90dG9tIHBhcnRzIG9mIG5hdmJhciAqL1xyXG4ubmF2aWdhdGlvbiB7cG9zaXRpb246Zml4ZWQ7d2lkdGg6MTAwJTt6LWluZGV4Ojk5O2JvcmRlci1ib3R0b206MXB4IHNvbGlkIGxpZ2h0Z3JleX1cclxuLm5hdmlnYXRpb24gYSB7Y29sb3I6IzcyNzI3MjsgcGFkZGluZzoxMnB4IDE1cHg7Zm9udC1mYW1pbHk6SGVsdmV0aWNhLHNhbnMtc2VyaWY7Zm9udC1zaXplOjEycHR9XHJcbi5uYXZpZ2F0aW9uIGE6aG92ZXIge3RyYW5zaXRpb246MC43cyBlYXNlO2NvbG9yOiMyNzI3Mjc7Y29sb3I6IzI3MjcyNzt0ZXh0LWRlY29yYXRpb246bm9uZX0gXHJcblxyXG4vKiBUaGUgZGFyayB0aGljayB0b3AtYm9yZGVyICovXHJcbiNoZWFkZXIge292ZXJmbG93OmhpZGRlbjtiYWNrZ3JvdW5kLWNvbG9yOiMzMzM7b3BhY2l0eToxO2JvcmRlci1ib3R0b206MXB4IHNvbGlkIGJsYWNrOyB0b3A6MDttYXJnaW4tdG9wOi0xMnB4fVxyXG5cclxuLyogVGhlIGFjdHVhbCBuYXZpZ2F0aW9uIHdpdGggbGlua3MgKi9cclxuI25hdmJhciB7b3ZlcmZsb3c6aGlkZGVuO29wYWNpdHk6MTt9XHJcbi5uYXZiYXItdG9nZ2xlIHtiYWNrZ3JvdW5kLWNvbG9yOiAjMjcyNzI3O31cclxuLyogI25hdmJhckNvbGxhcHNlIHt0ZXh0LWFsaWduOmNlbnRlcjtwYWRkaW5nLWxlZnQ6MjgwcHg7fSAqL1xyXG5cclxuLyogR2l0aHViLCBsaW5rZWRJbiBhbmQgY29udGFjdCBwYWdlcyAqL1xyXG4uc29jaWFsLWxpbmtzIHttYXJnaW4tdG9wOjI1cHh9XHJcbi5zb2NpYWwtbGlua3MgYSB7cGFkZGluZzoyNXB4O31cclxuXHJcbi8qIFNjcmVlbiBzaXplcyAtIGZyb20gYmlnZ2VzdCB0byBzbWFsbGVzdCAqL1xyXG4vKiBCaWdnZXIgc2NyZWVucyAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOjc2N3B4KSB7XHJcbiAgLmhpZGUtbGlua3Mge2Rpc3BsYXk6YmxvY2t9XHJcbiAgLmJsb2ctbGluayB7ZGlzcGxheTpub25lfVxyXG59IFxyXG4vKiBPbmx5IG1lZGl1bSBkZXZpY2VzLCBlZyBpcGFkcyBidXQgbm90IGRlc2t0b3BzICMxICovXHJcbi8qIEBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6MTEwMXB4KSBhbmQgKG1heC13aWR0aDoxNDAwcHgpIHtcclxuICAuc2VwYXJhdG9yLXZlcnRpY2FsIHtkaXNwbGF5OmJsb2NrfVxyXG4gIC5oaWRlLWxpbmtzIHtkaXNwbGF5Om5vbmV9XHJcbiAgLmJsb2ctbGluayB7ZGlzcGxheTpibG9ja31cclxufSAgKi9cclxuLyogT25seSBtZWRpdW0gZGV2aWNlcywgZWcgaXBhZHMgYnV0IG5vdCBkZXNrdG9wcyAjMiAqL1xyXG4vKiBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOjkwMXB4KSBhbmQgKG1heC13aWR0aDoxMTAwcHgpIHtcclxuICAuc2VwYXJhdG9yLXZlcnRpY2FsIHtkaXNwbGF5Om5vbmV9XHJcbiAgLmhpZGUtbGlua3Mge2Rpc3BsYXk6bm9uZX1cclxuICAuYmxvZy1saW5rIHtkaXNwbGF5OmJsb2NrfVxyXG4gICNuYXZiYXJDb2xsYXBzZSB7dGV4dC1hbGlnbjpjZW50ZXI7cGFkZGluZy1sZWZ0OjE1MHB4O31cclxufSAgKi9cclxuLyogT25seSBtZWRpdW0gZGV2aWNlcywgZWcgaXBhZHMgYnV0IG5vdCBkZXNrdG9wcyAjMyAqL1xyXG4vKiBAbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOjc2N3B4KSBhbmQgKG1heC13aWR0aDo5MDBweCkge1xyXG4gIC5zZXBhcmF0b3ItdmVydGljYWwge2Rpc3BsYXk6bm9uZX1cclxuICAuaGlkZS1saW5rcyB7ZGlzcGxheTpub25lfVxyXG4gIC5ibG9nLWxpbmsge2Rpc3BsYXk6YmxvY2t9XHJcbiAgI25hdmJhckNvbGxhcHNlIHt0ZXh0LWFsaWduOmNlbnRlcjtwYWRkaW5nLWxlZnQ6MjBweDt9XHJcbn0gICovXHJcbi8qIEV2ZXJ5dGhpbmcgYWZ0ZXIgc21hbGxlciBzY3JlZW4sIGVnIGlwYWQsIGRlc2t0b3AgKi9cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDo3NjdweCkge1xyXG4gIC5zZXBhcmF0b3ItdmVydGljYWwge2Rpc3BsYXk6YmxvY2t9XHJcbiAgLnNlcGFyYXRvci1ob3Jpem9udGFsIHtkaXNwbGF5Om5vbmV9XHJcbn0gXHJcbi8qIFNtYWxsZXN0IHNjcmVlbiwgZWcsIHBob25lICovXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6NzY3cHgpIHtcclxuICAuc2VwYXJhdG9yLXZlcnRpY2FsIHtkaXNwbGF5Om5vbmV9XHJcbiAgLnNlcGFyYXRvci1ob3Jpem9udGFsIHtkaXNwbGF5OmJsb2NrfVxyXG4gIC5ibG9nLWxpbmsge2Rpc3BsYXk6bm9uZX1cclxuICAubmF2aWdhdGlvbiBhIHtwYWRkaW5nOjhweH1cclxuICAuc29jaWFsLWxpbmtzIGEge3BhZGRpbmc6MjVweH1cclxuICAjbmF2YmFyQ29sbGFwc2Uge3RleHQtYWxpZ246Y2VudGVyO3BhZGRpbmctbGVmdDowcHg7fVxyXG59IFxyXG5cclxuIl19 */");
+/* harmony default export */ __webpack_exports__["default"] = ("/* Navbar */\r\nnav {\r\n  background-image: url('header-original.jpg');\r\n  background-size: cover;background-position: center;height: 20vh;background-attachment: fixed;\r\n}\r\n.hamburger {\r\n  background-color: grey\r\n}\r\n/* Navbar links */\r\nnav a {\r\n  display: inline-block;margin-left:10px;\r\n}\r\nnav a:link,\r\nnav a:visited {\r\n  padding: 8px 8px;color: #fff;transition: border-bottom 0.2s;text-decoration: none;text-transform: uppercase;font-size: 90%;\r\n  border-bottom: 2px solid transparent;-webkit-transition: border-bottom 0.2s;\r\n}\r\nnav a:hover,\r\nnav a:active {\r\n  border-bottom: 2px solid #40bedd;\r\n}\r\n/* Bigger screens */\r\n@media screen and (min-width:767px) {\r\n}\r\n/* Only medium devices, eg ipads but not desktops #1 */\r\n@media screen and (min-width:1101px) and (max-width:1400px) {\r\n}\r\n/* Only medium devices, eg ipads but not desktops #2 */\r\n@media screen and (min-width:901px) and (max-width:1100px) {\r\n}\r\n/* Only medium devices, eg ipads but not desktops #3 */\r\n@media screen and (min-width:767px) and (max-width:900px) {\r\n  nav {padding-top:30px;height: 20vh;}\r\n  #navbarCollapse {background-color:transparent}\r\n  .separator-vertical {display:block}\r\n  .separator-horizontal {display:none}\r\n}\r\n/* Smallest screens, like phones */\r\n@media screen and (max-width:766px) {\r\n  .separator-vertical {display:none}\r\n  .separator-horizontal {display:block}\r\n  .blog-link {display:none}\r\n  nav {height: auto;\r\n    position:fixed;width:100%;z-index:99;padding-bottom:10px}\r\n  nav a {padding:8px;margin-bottom:2px;border-bottom: none;}\r\n  nav a:link, nav a:visited {border-bottom: none;}\r\n  nav a:hover, nav a:active {border-bottom: none; color:lightgrey}\r\n}\r\n\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9uYXZiYXIvbmF2YmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsV0FBVztBQUNYO0VBQ0UsNENBQXFFO0VBQ3JFLHNCQUFzQixDQUFDLDJCQUEyQixDQUFDLFlBQVksQ0FBQyw0QkFBNEI7QUFDOUY7QUFDQTtFQUNFO0FBQ0Y7QUFDQSxpQkFBaUI7QUFDakI7RUFDRSxxQkFBcUIsQ0FBQyxnQkFBZ0I7QUFDeEM7QUFDQTs7RUFFRSxnQkFBZ0IsQ0FBQyxXQUFXLENBQUMsOEJBQThCLENBQUMscUJBQXFCLENBQUMseUJBQXlCLENBQUMsY0FBYztFQUMxSCxvQ0FBb0MsQ0FBQyxzQ0FBc0M7QUFDN0U7QUFDQTs7RUFFRSxnQ0FBZ0M7QUFDbEM7QUFFQSxtQkFBbUI7QUFDbkI7QUFDQTtBQUNBLHNEQUFzRDtBQUN0RDtBQUNBO0FBQ0Esc0RBQXNEO0FBQ3REO0FBQ0E7QUFDQSxzREFBc0Q7QUFDdEQ7RUFDRSxLQUFLLGdCQUFnQixDQUFDLFlBQVksQ0FBQztFQUNuQyxpQkFBaUIsNEJBQTRCO0VBQzdDLHFCQUFxQixhQUFhO0VBQ2xDLHVCQUF1QixZQUFZO0FBQ3JDO0FBQ0Esa0NBQWtDO0FBQ2xDO0VBQ0UscUJBQXFCLFlBQVk7RUFDakMsdUJBQXVCLGFBQWE7RUFDcEMsWUFBWSxZQUFZO0VBQ3hCLEtBQUssWUFBWTtJQUNmLGNBQWMsQ0FBQyxVQUFVLENBQUMsVUFBVSxDQUFDLG1CQUFtQjtFQUMxRCxPQUFPLFdBQVcsQ0FBQyxpQkFBaUIsQ0FBQyxtQkFBbUIsQ0FBQztFQUN6RCwyQkFBMkIsbUJBQW1CLENBQUM7RUFDL0MsMkJBQTJCLG1CQUFtQixFQUFFLGVBQWU7QUFDakUiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIE5hdmJhciAqL1xyXG5uYXYge1xyXG4gIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vLi4vYXNzZXRzL2FydGljbGVzL2hlYWRlci1vcmlnaW5hbC5qcGcnKTtcclxuICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyO2JhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtoZWlnaHQ6IDIwdmg7YmFja2dyb3VuZC1hdHRhY2htZW50OiBmaXhlZDtcclxufVxyXG4uaGFtYnVyZ2VyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiBncmV5XHJcbn1cclxuLyogTmF2YmFyIGxpbmtzICovXHJcbm5hdiBhIHtcclxuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7bWFyZ2luLWxlZnQ6MTBweDtcclxufVxyXG5uYXYgYTpsaW5rLFxyXG5uYXYgYTp2aXNpdGVkIHtcclxuICBwYWRkaW5nOiA4cHggOHB4O2NvbG9yOiAjZmZmO3RyYW5zaXRpb246IGJvcmRlci1ib3R0b20gMC4yczt0ZXh0LWRlY29yYXRpb246IG5vbmU7dGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtmb250LXNpemU6IDkwJTtcclxuICBib3JkZXItYm90dG9tOiAycHggc29saWQgdHJhbnNwYXJlbnQ7LXdlYmtpdC10cmFuc2l0aW9uOiBib3JkZXItYm90dG9tIDAuMnM7XHJcbn1cclxubmF2IGE6aG92ZXIsXHJcbm5hdiBhOmFjdGl2ZSB7XHJcbiAgYm9yZGVyLWJvdHRvbTogMnB4IHNvbGlkICM0MGJlZGQ7XHJcbn1cclxuXHJcbi8qIEJpZ2dlciBzY3JlZW5zICovXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6NzY3cHgpIHtcclxufSBcclxuLyogT25seSBtZWRpdW0gZGV2aWNlcywgZWcgaXBhZHMgYnV0IG5vdCBkZXNrdG9wcyAjMSAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOjExMDFweCkgYW5kIChtYXgtd2lkdGg6MTQwMHB4KSB7XHJcbn0gXHJcbi8qIE9ubHkgbWVkaXVtIGRldmljZXMsIGVnIGlwYWRzIGJ1dCBub3QgZGVza3RvcHMgIzIgKi9cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDo5MDFweCkgYW5kIChtYXgtd2lkdGg6MTEwMHB4KSB7XHJcbn0gXHJcbi8qIE9ubHkgbWVkaXVtIGRldmljZXMsIGVnIGlwYWRzIGJ1dCBub3QgZGVza3RvcHMgIzMgKi9cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDo3NjdweCkgYW5kIChtYXgtd2lkdGg6OTAwcHgpIHtcclxuICBuYXYge3BhZGRpbmctdG9wOjMwcHg7aGVpZ2h0OiAyMHZoO31cclxuICAjbmF2YmFyQ29sbGFwc2Uge2JhY2tncm91bmQtY29sb3I6dHJhbnNwYXJlbnR9XHJcbiAgLnNlcGFyYXRvci12ZXJ0aWNhbCB7ZGlzcGxheTpibG9ja31cclxuICAuc2VwYXJhdG9yLWhvcml6b250YWwge2Rpc3BsYXk6bm9uZX1cclxufSBcclxuLyogU21hbGxlc3Qgc2NyZWVucywgbGlrZSBwaG9uZXMgKi9cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDo3NjZweCkge1xyXG4gIC5zZXBhcmF0b3ItdmVydGljYWwge2Rpc3BsYXk6bm9uZX1cclxuICAuc2VwYXJhdG9yLWhvcml6b250YWwge2Rpc3BsYXk6YmxvY2t9XHJcbiAgLmJsb2ctbGluayB7ZGlzcGxheTpub25lfVxyXG4gIG5hdiB7aGVpZ2h0OiBhdXRvO1xyXG4gICAgcG9zaXRpb246Zml4ZWQ7d2lkdGg6MTAwJTt6LWluZGV4Ojk5O3BhZGRpbmctYm90dG9tOjEwcHh9XHJcbiAgbmF2IGEge3BhZGRpbmc6OHB4O21hcmdpbi1ib3R0b206MnB4O2JvcmRlci1ib3R0b206IG5vbmU7fVxyXG4gIG5hdiBhOmxpbmssIG5hdiBhOnZpc2l0ZWQge2JvcmRlci1ib3R0b206IG5vbmU7fVxyXG4gIG5hdiBhOmhvdmVyLCBuYXYgYTphY3RpdmUge2JvcmRlci1ib3R0b206IG5vbmU7IGNvbG9yOmxpZ2h0Z3JleX1cclxufVxyXG5cclxuIl19 */");
 
 /***/ }),
 
@@ -1277,423 +1710,6 @@ PhotographyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 /***/ }),
 
-/***/ "./src/app/components/projects/project-post/project-post.component.css":
-/*!*****************************************************************************!*\
-  !*** ./src/app/components/projects/project-post/project-post.component.css ***!
-  \*****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdHMvcHJvamVjdC1wb3N0L3Byb2plY3QtcG9zdC5jb21wb25lbnQuY3NzIn0= */");
-
-/***/ }),
-
-/***/ "./src/app/components/projects/project-post/project-post.component.ts":
-/*!****************************************************************************!*\
-  !*** ./src/app/components/projects/project-post/project-post.component.ts ***!
-  \****************************************************************************/
-/*! exports provided: ProjectPostComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectPostComponent", function() { return ProjectPostComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-
-
-
-let ProjectPostComponent = class ProjectPostComponent {
-    constructor(route) {
-        this.route = route;
-    }
-    ngOnInit() {
-        let articleName = this.route.snapshot.paramMap.get('article');
-        this.post = './assets/articles/projects-posts/' + articleName + '.md';
-    }
-};
-ProjectPostComponent.ctorParameters = () => [
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
-];
-ProjectPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-project-post',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./project-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/project-post/project-post.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./project-post.component.css */ "./src/app/components/projects/project-post/project-post.component.css")).default]
-    })
-], ProjectPostComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/projects/projects.component.css":
-/*!************************************************************!*\
-  !*** ./src/app/components/projects/projects.component.css ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJ9 */");
-
-/***/ }),
-
-/***/ "./src/app/components/projects/projects.component.ts":
-/*!***********************************************************!*\
-  !*** ./src/app/components/projects/projects.component.ts ***!
-  \***********************************************************/
-/*! exports provided: ProjectsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
-
-let ProjectsComponent = class ProjectsComponent {
-    constructor() {
-        this.titles = [
-            ["Cyan X"],
-            ["3D Street Racing Game"],
-            ["Ice Capades"],
-        ];
-        this.images = [
-            ["../../assets/articles/projects-images/cyanX/preview.png"],
-            ["../../assets/articles/projects-images/racingGame/gameplay.PNG"],
-            ["../../assets/articles/projects-images/iceCapades/preview.jpg"],
-        ];
-        this.descriptions = [
-            ["A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."],
-            ["This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road..."],
-            ["Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles..."],
-        ];
-        this.links = [
-            ["/projects/post/cyanX"],
-            ["/projects/post/streetRacingGame"],
-            ["/projects/post/iceCapades"],
-        ];
-    }
-    ngOnInit() {
-        this.postArray = [0, 1, 2];
-    }
-};
-ProjectsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-projects',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./projects.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./projects.component.css */ "./src/app/components/projects/projects.component.css")).default]
-    })
-], ProjectsComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/students/students-post/students-post.component.css":
-/*!*******************************************************************************!*\
-  !*** ./src/app/components/students/students-post/students-post.component.css ***!
-  \*******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc3R1ZGVudHMvc3R1ZGVudHMtcG9zdC9zdHVkZW50cy1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
-
-/***/ }),
-
-/***/ "./src/app/components/students/students-post/students-post.component.ts":
-/*!******************************************************************************!*\
-  !*** ./src/app/components/students/students-post/students-post.component.ts ***!
-  \******************************************************************************/
-/*! exports provided: StudentsPostComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentsPostComponent", function() { return StudentsPostComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-
-
-
-let StudentsPostComponent = class StudentsPostComponent {
-    constructor(route) {
-        this.route = route;
-    }
-    ngOnInit() {
-        let articleName = this.route.snapshot.paramMap.get('article');
-        this.post = './assets/articles/students-posts/' + articleName + '.md';
-    }
-};
-StudentsPostComponent.ctorParameters = () => [
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
-];
-StudentsPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-students-post',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./students-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/students/students-post/students-post.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./students-post.component.css */ "./src/app/components/students/students-post/students-post.component.css")).default]
-    })
-], StudentsPostComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/students/students.component.css":
-/*!************************************************************!*\
-  !*** ./src/app/components/students/students.component.css ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc3R1ZGVudHMvc3R1ZGVudHMuY29tcG9uZW50LmNzcyJ9 */");
-
-/***/ }),
-
-/***/ "./src/app/components/students/students.component.ts":
-/*!***********************************************************!*\
-  !*** ./src/app/components/students/students.component.ts ***!
-  \***********************************************************/
-/*! exports provided: StudentsComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StudentsComponent", function() { return StudentsComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
-
-let StudentsComponent = class StudentsComponent {
-    constructor() {
-        this.titles = [
-            ["Adding Photos To Instagram Using A Desktop Computer"],
-            ["Tips on Making The Most Out Of Your First Year At Uni"],
-            ["Decluttering Your Home"],
-            ["How To Organise Your Web Browsing"],
-            ["Organising Your Computer To Increase Productivity"],
-            ["Ways To Be More Organised"]
-        ];
-        this.images = [
-            ["../../assets/articles/students-images/uploadImageToInstagramViaDesktop/header-dark.jpg"],
-            ["../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/header-dark.jpg"],
-            ["../../assets/articles/students-images/declutteringYourHome/header-dark.jpg"],
-            ["../../assets/articles/students-images/howToOrganiseYourWebBrowsing/header-dark.jpg"],
-            ["../../assets/articles/students-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg"],
-            ["../../assets/articles/students-images/waysToBeMoreOrganised/header-dark.jpg"]
-        ];
-        this.dates = [
-            ["11 Aug 2020"],
-            ["8 June 2020"],
-            ["12 May 2020"],
-            ["25 May 2020"],
-            ["16 May 2020"],
-            ["19 May 2020"]
-        ];
-        this.links = [
-            ["/students/post/uploadImageToInstagramViaDesktop"],
-            ["/students/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
-            ["/students/post/declutteringYourHome"],
-            ["/students/post/howToOrganiseYourWebBrowsing"],
-            ["/students/post/organisingYourComputerToIncreaseProductivity"],
-            ["/students/post/waysToBeMoreOrganised"]
-        ];
-        this.tags = [
-            ["Design & Social Media"],
-            ["Uni"],
-            ["Organisation"],
-            ["Organisation"],
-            ["Organisation"],
-            ["Organisation"]
-        ];
-    }
-    ngOnInit() {
-        this.postArray = [0, 1, 2, 3, 4, 5];
-    }
-    getURL(i) {
-        return this.images[i];
-    }
-    searchbar() {
-        var input, filter, ul, li, a, i, txtValue;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL");
-        li = ul.getElementsByTagName("section");
-        for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("div")[0];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-            }
-            else {
-                li[i].style.display = "none";
-            }
-        }
-    }
-};
-StudentsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-students',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./students.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/students/students.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./students.component.css */ "./src/app/components/students/students.component.css")).default]
-    })
-], StudentsComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/webdev/webdev-post/webdev-post.component.css":
-/*!*************************************************************************!*\
-  !*** ./src/app/components/webdev/webdev-post/webdev-post.component.css ***!
-  \*************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvd2ViZGV2L3dlYmRldi1wb3N0L3dlYmRldi1wb3N0LmNvbXBvbmVudC5jc3MifQ== */");
-
-/***/ }),
-
-/***/ "./src/app/components/webdev/webdev-post/webdev-post.component.ts":
-/*!************************************************************************!*\
-  !*** ./src/app/components/webdev/webdev-post/webdev-post.component.ts ***!
-  \************************************************************************/
-/*! exports provided: WebdevPostComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebdevPostComponent", function() { return WebdevPostComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
-
-
-
-let WebdevPostComponent = class WebdevPostComponent {
-    constructor(route) {
-        this.route = route;
-    }
-    ngOnInit() {
-        let articleName = this.route.snapshot.paramMap.get('article');
-        this.post = './assets/articles/web-dev-posts/' + articleName + '.md';
-    }
-};
-WebdevPostComponent.ctorParameters = () => [
-    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }
-];
-WebdevPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-webdev-post',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./webdev-post.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/webdev/webdev-post/webdev-post.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./webdev-post.component.css */ "./src/app/components/webdev/webdev-post/webdev-post.component.css")).default]
-    })
-], WebdevPostComponent);
-
-
-
-/***/ }),
-
-/***/ "./src/app/components/webdev/webdev.component.css":
-/*!********************************************************!*\
-  !*** ./src/app/components/webdev/webdev.component.css ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvd2ViZGV2L3dlYmRldi5jb21wb25lbnQuY3NzIn0= */");
-
-/***/ }),
-
-/***/ "./src/app/components/webdev/webdev.component.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/components/webdev/webdev.component.ts ***!
-  \*******************************************************/
-/*! exports provided: WebdevComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "WebdevComponent", function() { return WebdevComponent; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
-
-
-let WebdevComponent = class WebdevComponent {
-    constructor() {
-        this.titles = [
-            ["Hosting an Angular Application using Netlify"],
-            ["Creating A Simple Angular Web Application"],
-        ];
-        this.images = [
-            ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
-            ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
-        ];
-        this.dates = [
-            ["30 Aug 2020"],
-            ["04 Aug 2020"],
-        ];
-        this.links = [
-            ["/webdev/post/hostingAngularApplicationUsingNetlify"],
-            ["/webdev/post/creatingASimpleAngularWebApplication"],
-        ];
-        this.tags = [
-            ["Angular, Netlify, Hosting"],
-            ["Angular"],
-        ];
-    }
-    ngOnInit() {
-        this.postArray = [0, 1];
-    }
-    getURL(i) {
-        return this.images[i];
-    }
-    searchbar() {
-        var input, filter, ul, li, a, i, txtValue;
-        input = document.getElementById("myInput");
-        filter = input.value.toUpperCase();
-        ul = document.getElementById("myUL");
-        li = ul.getElementsByTagName("section");
-        for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("div")[0];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = "";
-            }
-            else {
-                li[i].style.display = "none";
-            }
-        }
-    }
-};
-WebdevComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-        selector: 'app-webdev',
-        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./webdev.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/webdev/webdev.component.html")).default,
-        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./webdev.component.css */ "./src/app/components/webdev/webdev.component.css")).default]
-    })
-], WebdevComponent);
-
-
-
-/***/ }),
-
 /***/ "./src/environments/environment.ts":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -1769,7 +1785,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_2__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Sharl\Documents\My Documents\Side Projects\Vondreii\Dev\vondreii-site\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\Sharl\Documents\My Documents\Side Projects\Vondreii\Vondreii rev5\vondreii-site\src\main.ts */"./src/main.ts");
 
 
 /***/ })
