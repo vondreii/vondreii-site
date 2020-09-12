@@ -642,9 +642,10 @@ a:hover {text-decoration: none;}
 .card h1 {
   margin: 0;
   padding-top:10px;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   line-height: 1.2em;
 }
+
 
 .card p {
   font-size: 0.75em;
@@ -697,6 +698,33 @@ a:hover {text-decoration: none;}
   background: white;
   width: 200%;
   height: 200%;
+}
+
+
+/* Hide original date on smaller screen  */
+/* Hide small date on bigger screen */
+
+@media screen and (min-width:1201px) {
+  .date {display: block}
+} 
+@media screen and (min-width:901px) and (max-width:1200px) {
+  .card {height:270px}
+  /* .card h1 {font-size: 1.4rem} */
+  .card p {font-size: 14pt}
+  .date { display: none }
+} 
+@media screen and (min-width:767px) and (max-width:900px) {
+  .card {height:260px}
+  /* .card h1 {font-size: 1.4rem} */
+  .card p {font-size: 12pt}
+  .date { display: none }
+} 
+/* Smallest screens, like phones */
+@media screen and (max-width:766px) {
+  .card {height:auto}
+  /* .card h1 {font-size: 1.2rem} */
+  .card p {font-size: 10pt}
+  .date { display: none }
 }
 
 
