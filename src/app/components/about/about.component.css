@@ -1,20 +1,22 @@
 /* Styling for the about component */
 .about-content { 
-	margin-top: 2rem;margin-bottom: 2rem;margin-left: auto;margin-right: auto;
-	position: relative; padding: 30px 25px 40px 25px; 
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
-	font-size: 16px; text-align: center; 
-	background-color:white;color:rgb(85, 85, 85);
+	margin-top:2rem;margin-bottom:2rem;margin-left:auto;margin-right:auto;
+	position:relative;padding:30px 25px 40px 25px; 
+	box-shadow:0 2px 5px 0 rgba(0,0,0,0.15);
+	font-size:16px;text-align:center; 
+	background-color:white;color:rgb(85, 85, 85)
 }
 .about-content h2 {
-	margin-bottom: 1rem
+	margin-bottom:1rem
 }
 .about-content p {
-	padding-bottom: 1rem
+	padding-bottom:1rem
 }
 
 /* Smaller screens (phone) */
 @media screen and (max-width:766px) {
-	.first {margin-top: 6rem;}
+	.first {
+		margin-top:6rem
+	}
 } 
   
