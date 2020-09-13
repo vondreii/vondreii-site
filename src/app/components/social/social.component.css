@@ -1,0 +1,7 @@
+/* Styling for the social component */
+.contact-card {
+    border:none; border-top:1px solid #dddddd; background-color: #303030; padding: 0px
+}
+.space-between-links {
+    padding:0px 10px;
+}

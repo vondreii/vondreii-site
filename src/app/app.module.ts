@@ -32,6 +32,7 @@ import { CodingPostComponent } from './components/articles/coding/coding-post/co
 import { StudentsComponent } from './components/articles/students/students.component';
 import { StudentsPostComponent } from './components/articles/students/students-post/students-post.component';
 import { HeaderComponent } from './components/header/header.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { HeaderComponent } from './components/header/header.component';
     CodingPostComponent,
     StudentsComponent,
     StudentsPostComponent,
-    HeaderComponent
+    HeaderComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
