@@ -7,35 +7,30 @@
   <app-header></app-header>
 </div>
 <section class="bg-color">
-  <div class="search-container">
+  <div class="container search-container">
     <!-- Search input box -->
-    <div class="container">
-      <br><br>
-      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Posts for Students (by title, topic, year..)" title="SearchBar">
-      <br><br>
-      <div id="myUL">
-        <!-- For each post -->
-        <article *ngFor="let i of postArray">
-          <!-- Display it, if it is the correct category -->
-          <section class="card" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}">
-            <div class="padding">
-              <!-- Tags on the top-right corner -->
-              <div class="tags">
-                <div class="tag">{{tags[i]}}</div>
-              </div>
-              <!-- Article information -->
-              <h1>{{titles[i]}}</h1>
-              <div class="date">{{dates[i]}}</div>
-              <p>Something something something…</p>
-              <div class="read-more-project-button-container">
-                <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
-              </div>
+    <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Posts for Students (by title, topic, year..)" title="SearchBar">
+    <!-- List of all posts -->
+    <div id="myUL">
+      <article *ngFor="let i of postArray">
+        <!-- display each article card with it's own background image  -->
+        <section class="card" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}">
+          <div class="padding">
+            <!-- Tags on the top-right corner -->
+            <div class="tags">
+              <div class="tag">{{tags[i]}}</div>
             </div>
-          </section>
-        </article>
-      </div>
+            <!-- Article information -->
+            <h1>{{titles[i]}}</h1>
+            <div class="date">{{dates[i]}}</div>
+            <p>Something something something…</p>
+            <div class="read-more-project-button-container">
+              <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
+            </div>
+          </div>
+        </section>
+        <!-- End of article -->
+      </article>
     </div>
-    <br><br>
   </div>
-  <br><br>
 </section>
