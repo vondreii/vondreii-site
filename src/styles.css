@@ -219,7 +219,7 @@ code {
 .column-3 img {
   margin-top: 8px; vertical-align: middle; width: 100%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .column-3 {flex: 100%; max-width: 100%;}
 }
 /* For items that need to be on 3 columns but is more flexible (can change to 2 columns) */
@@ -374,7 +374,6 @@ a:hover {text-decoration: none;}
 /* ************************************** */
 
 .text-black {color: rgba(0,0,0,0.9)}
-.text-muted {color: rgba(0, 0, 0, 0.3)}
 
 .text-uppercase {text-transform: uppercase;}
 
@@ -758,9 +757,7 @@ a:hover {text-decoration: none;}
 
 
 
-.project-card {
-  margin-bottom: 40px; padding-bottom:50px; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1); border: none;
-}
+
 
 
 @media screen and (max-width:900px) {

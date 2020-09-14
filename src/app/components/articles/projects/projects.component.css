@@ -1,0 +1,19 @@
+.projects {
+    padding-bottom: 50px
+}
+.allCards {
+    padding-top:50px;
+}
+.project-card {
+    margin-bottom: 40px; padding-bottom:50px; box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1); border: none;
+}
+.text-muted {
+    color: rgba(0, 0, 0, 0.3)
+}
+
+/* Smallest screens (phones) */
+@media screen and (max-width:766px) {
+    .allCards {
+        padding-top:100px;
+    }
+}

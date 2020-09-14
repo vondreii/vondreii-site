@@ -6,23 +6,21 @@
 <div class="show-header">
   <app-header></app-header>
 </div>
-<section class="bg-color">
-  <div class="container">
-    <br><br>
-    <div class="card-columns">
-      <!-- Loop of projects -->
-      <div class="project-card" *ngFor="let i of postArray">
-        <img class="card-img-top" src={{images[i]}} alt="img">
-        <div class="card-body">
-          <h5 class="card-title">{{titles[i]}}</h5>
-          <p><small class="text-muted">{{descriptions[i]}}</small></p>
-          <div class="read-more-project-button-container">
-            <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
-          </div>
+<section class="bg-color projects">
+  <div class="container rows allCards">
+    <!-- List all projects -->
+    <div class="project-card column-3" *ngFor="let i of postArray">
+      <!-- Image for each card -->
+      <img class="card-img-top" src={{images[i]}} alt="img">
+      <!-- Card information -->
+      <div class="card-body">
+        <h5>{{titles[i]}}</h5>
+        <p><small class="text-muted">{{descriptions[i]}}</small></p>
+        <div class="read-more-project-button-container">
+          <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
         </div>
       </div>
-      <br><br>
     </div>
+    <!-- End of all projects -->
   </div>
-  <br><br>
 </section>
