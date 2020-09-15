@@ -26,9 +26,9 @@ Decluttering helps us organise the things around us and can also help improve ou
 11. **Light sources**. 1 or 2 lampshades depending on the living room size should be enough.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/declutteringYourHome/lounge.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@sidekix">Sidekix Media </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/declutteringYourHome/lounge.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@sidekix">Sidekix Media </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -55,9 +55,9 @@ Decluttering helps us organise the things around us and can also help improve ou
 27. **Other cooking materials** that are not used (for example, extra chopping boards, graters or mixers).
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/declutteringYourHome/kitchen.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@mikael">Mikael Cho </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/declutteringYourHome/kitchen.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@mikael">Mikael Cho </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -91,9 +91,9 @@ Decluttering helps us organise the things around us and can also help improve ou
 50. **Boxes** that have been kept from previous things you bought.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/declutteringYourHome/old-shoes.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/declutteringYourHome/old-shoes.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 	
@@ -121,9 +121,9 @@ Decluttering helps us organise the things around us and can also help improve ou
 63. Old/unused **car accessories**.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/declutteringYourHome/textbooks.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@anniespratt">Annie Spratt </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/declutteringYourHome/textbooks.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@anniespratt">Annie Spratt </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 	

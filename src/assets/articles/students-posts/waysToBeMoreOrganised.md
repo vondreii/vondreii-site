@@ -41,9 +41,9 @@ If you have a computer, I recommend looking into having some sort of cable manag
 There are lots of other products you could use to organise your cables such as <a href="https://www.ikea.com/au/en/p/uppleva-bracket-for-tv-swivel-light-grey-40330602/">this cable management bracket</a>, which works for your TV.
 	
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/students-images/waysToBeMoreOrganised/clear-desk.jpg" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@lucabockmann">Luca Bockmann </a>on Unsplash</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/students-images/waysToBeMoreOrganised/clear-desk.jpg" alt="image" class="image"/>
+	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@lucabockmann">Luca Bockmann </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -62,9 +62,9 @@ whereas tracking tasks using a phone works better for <a href="https://sora-web-
 If you don't need something that intense, simply having a notepad stuck to the fridge can do the trick. Or, you might find to-do apps and notifications more efficient...
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/students-images/waysToBeMoreOrganised/trello.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Trello Board used while creating Vondreii</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/students-images/waysToBeMoreOrganised/trello.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Trello Board used while creating Vondreii</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -85,9 +85,9 @@ that you cannot afford to miss. At the beginning of each week, have a clear over
 In the case of the job interview, you could separate these into <em>prepare for interview, buy clothes for interview</em>, and <em>plan how to get to interview</em>. That way you don't wake up in the morning and realise you needed to prepare the other small things that count.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/subtasks.PNG" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>An example of breaking down tasks into smaller tasks</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/subtasks.PNG" alt="image" class="image"/>
+  <div class="image-description"><p>An example of breaking down tasks into smaller tasks</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -119,9 +119,9 @@ Wipe the benchtops and dining table. This needs to be made into a habit. If you 
 This will also help you when you get to the tasks you have on your cleaning schedule!
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/dishes.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@andreamaraldg">Andre A. Xavier </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/dishes.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@andreamaraldg">Andre A. Xavier </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -137,9 +137,9 @@ Sort your emails into folders and unsubscribe to things that you do not want to 
 Having a password manager is also very useful and also more secure. You can read [How to Organise Your Web Browsing](/students/post/howToOrganiseYourWebBrowsing) for a more comprehensive list.
 
 <!-- ----------- Image ----------- -->    
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/email-cluttered.PNG" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>A very cluttered inbox</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/email-cluttered.PNG" alt="image" class="image"/>
+  <div class="image-description"><p>A very cluttered inbox</p></div>
 </div>
 <!-- ----------------------------- -->
 	
@@ -148,9 +148,9 @@ Having a password manager is also very useful and also more secure. You can read
 Clean up your computer by deleting duplicate files and files that you no longer need. Try to categorise things in a way where it does <u>not</u> look like this:
 
 <!-- ----------- Image ----------- -->    
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/hierarchy-cluttered.PNG" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Too many unorganised files!</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/hierarchy-cluttered.PNG" alt="image" class="image"/>
+  <div class="image-description"><p>Too many unorganised files!</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -175,9 +175,9 @@ Contact your bank for details on how to set up an online account. Most banks sho
 You also want to make sure you organise other online accounts that involve payments, such as <a href="https://www.paypal.com/">PayPal</a>.
 
 <!-- ----------- Image ----------- -->    
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/paywave.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@ultralinx">Oliur </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/paywave.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@ultralinx">Oliur </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 	
@@ -203,9 +203,9 @@ Implement a rule where you will not buy a desired item for at least a month. If 
 we therefore decide to just buy it, not realising that we could get by without it. This ties perfectly into keeping your house decluttered.
 
 <!-- ----------- Image ----------- -->    
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/clothes.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@beccamchaffie">Becca McHaffie </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/clothes.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@beccamchaffie">Becca McHaffie </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -233,9 +233,9 @@ When you do start cooking, instead of cooking enough for one night, you can doub
 On occassions where you don't feel like cooking or you might be too busy, have some backup meals that are really quick to make. This can include things like noodles, canned foods or things that you can quickly fry or grill.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/cooking.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@kate5oh3">Katie Smith </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/cooking.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@kate5oh3">Katie Smith </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -256,9 +256,9 @@ This can give you more purpose/make you feel more motivated to do other things. 
 This is an example of mine:
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/vision-board.PNG" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>My Vision Board</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/vision-board.PNG" alt="image" class="image"/>
+  <div class="image-description"><p>My Vision Board</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -276,9 +276,9 @@ In essence, making your bed can turn into a snowball effect which can then influ
 
 <br><br>
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/bed.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@awcreativeut">Aw Creative </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/waysToBeMoreOrganised/bed.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@awcreativeut">Aw Creative </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 

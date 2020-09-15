@@ -9,10 +9,10 @@ ___
 ___
 
 <div class="download-container">
-    <div class="button-container">
-        <a href="../../assets/downloads/CyanX.zip" class="button download-button">↓ Download Game Here ↓</a>
+    <div class="download-link">
+        <a href="../../assets/downloads/CyanX.zip" class="button">↓ Download Game Here ↓</a>
     </div>
-    <div class="button-container">
+    <div class="download-link">
         <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
     </div>
 </div>
@@ -28,15 +28,15 @@ The aim of the game is to progress to the end of each location by solving puzzle
 Experience points also allow you to level up and unlock certain abilities.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
+<div class="image-container">
 	<div class="rows"> 
-		<div class="column-3 blog-image-container">
+		<div class="column-3 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/gameplay-1.PNG" alt="image" style="width:100%">
 		</div>  
-		<div class="column-3 blog-image-container">
+		<div class="column-3 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/sandy-area-cropped.png" alt="image" style="width:100%">
 		</div>
-		<div class="column-3 blog-image-container">
+		<div class="column-3 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/gameplay-2.PNG" alt="image" style="width:100%">
 		</div> 
 	</div>
@@ -105,12 +105,12 @@ The concept design for this game included more than three locations. This game c
 <!-- ----------------------------- -->
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
+<div class="image-container">
 	<div class="rows"> 
-		<div class="column-2 blog-image-container">
+		<div class="column-2 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/khandren-map.jpg" alt="image" style="width:100%">
 		</div>
-		<div class="column-2 blog-image-container">
+		<div class="column-2 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/game-on-computer.jpg" alt="image" style="width:100%">
 		</div>  
 	</div>
@@ -138,8 +138,8 @@ In addition to resources, you can also collect:
 </ul>
    
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/cyanX/collectable.png" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/cyanX/collectable.png" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 	
@@ -152,15 +152,15 @@ If you do not have the available resources that are required, then you cannot cr
 Once you have crafted a weapon, you can equip it anytime by navigating back to the Craftbox and selecting 'equip.'
   
 <!-- ----------- Image ----------- --> 
-<div class="blog-image-container">
+<div class="image-container">
     <div class="rows"> 
-		<div class="column-3 blog-image-container">
+		<div class="column-3 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/weapons.png" alt="image" style="width:100%">
 		</div>
-		<div class="column-3 blog-image-container">
+		<div class="column-3 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/craftbox.PNG" alt="image" style="width:100%">
 		</div>
-		<div class="column-3 blog-image-container">
+		<div class="column-3 image-container">
 			<img src="../../assets/articles/projects-images/cyanX/netbotz-states.png" alt="image" style="width:100%">
 		</div>  
     </div>
@@ -179,12 +179,12 @@ They do not stop chasing you until you run far enough, or until you kill them <b
 The more experience points you collect, the more you are able to level up, therefore unlocking new abilities and weapons that you can use to make gameplay easier. There is a maximum of 10 levels in the game. You start at level 1 at the beginning of the game.
 
 <!-- ----------- Image ----------- --> 
-<div class="blog-image-container">
+<div class="image-container">
     <div class="rows"> 
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/level-up.png" alt="image" style="width:100%">
       </div>
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/spike.png" alt="image" style="width:100%">
       </div>  
     </div>
@@ -201,12 +201,12 @@ Level 2 contains a grassy plain with platforms that are grass-themed.
 Level 3 contains platforms that are ice-themed, as the level design is situated in an icy and snowy environment such as a mountain.
 
 <!-- ----------- Image ----------- --> 
-<div class="blog-image-container">
+<div class="image-container">
     <div class="rows"> 
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/platforms-design-1-3.png" alt="image" style="width:100%">
       </div>
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/platforms-design-2.png" alt="image" style="width:100%">
       </div>  
     </div>
@@ -216,17 +216,17 @@ Level 3 contains platforms that are ice-themed, as the level design is situated 
 ### Background Artwork
 
 <!-- ----------- Image ----------- --> 
-<div class="blog-image-container">
+<div class="image-container">
     <div class="rows"> 
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/mountain-background.png" alt="image" style="width:100%">
       </div>
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/sandy-area.png" alt="image" style="width:100%">
       </div>  
     </div>
     <div class="rows"> 
-      <div class="column-2 blog-image-container">
+      <div class="column-2 image-container">
         <img src="../../assets/articles/projects-images/cyanX/green-hills.png" alt="image" style="width:100%">
       </div>  
     </div>
@@ -234,10 +234,10 @@ Level 3 contains platforms that are ice-themed, as the level design is situated 
 <!-- ----------------------------- -->
 
 <div class="download-container">
-    <div class="button-container">
-        <a href="../../assets/downloads/CyanX.zip" class="button download-button">↓ Download Game Here ↓</a>
+    <div class="download-link">
+        <a href="../../assets/downloads/CyanX.zip" class="button">↓ Download Game Here ↓</a>
     </div>
-    <div class="button-container">
+    <div class="download-link">
         <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
     </div>
 </div>

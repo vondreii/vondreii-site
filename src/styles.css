@@ -1,119 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 
+/* 
+  TABLE OF CONTENTS:
+  ----------------------
+  Whole Page
+  Headings
+  Lists/tables
+  Code snippets
+  Searchbar
+  Written content
+  Images
+  Photogrid
+  Buttons
+  List of articles
+  Header or navbar
+  General links
+  ----------------------
+*/
 
-/* ******************************************************************************
-_________________________________________________________________________________
-  PARALLAX EFFECT 
-  .parallax       
-  .photoCred
-_________________________________________________________________________________
-  LOGOS 
-  .logos                             @media (max-width:1100px) - .logos
-  .logos img                         @media (min-width:1101px) - .logos
-  .logos img:not(:first-of-type)
-_________________________________________________________________________________
-  SEARCH BAR
-  .search-container                  @media (max-width:1100px) - .search-container
-  #myInput
-  #myUL
-  #myUL li
-_________________________________________________________________________________
-  HEADINGS
-  .main-heading   | .heading-border | h1-h6
-_________________________________________________________________________________
-  WRITTEN CONTENT
-  .writtenContent | ul | table | td | tr | th
-_________________________________________________________________________________ 
-****************************************************************************** */
-
-/* Bigger screens (desktop) */
-@media screen and (min-width:767px) {
-} 
-/* Medium devices (ipads, small desktop) #1 */
-@media screen and (min-width:1101px) and (max-width:1400px) {
-} 
-/* Medium devices (ipads) #2 */
-@media screen and (min-width:901px) and (max-width:1100px) {
-} 
-/* Medium devices (ipads) #3 */
-@media screen and (min-width:767px) and (max-width:900px) {
-} 
-/* Smallest screens (phones) */
-@media screen and (max-width:766px) {
-}
-
+/* Whole page */
 .bg-color {
-  background-color:whitesmoke;
+  background-color:whitesmoke
+}
+body {
+  margin:0;padding:0;line-height:1.5;text-rendering:optimizeLegibility;font-variant-ligatures:none
+}
+body::before, body::after {
+  content:"";display:table;clear:both
+}
+body * {
+  box-sizing:inherit
+}
+.center {
+  text-align:center
 }
 
-/* ****************************** PARALLAX EFFECT ****************************** */
-.parallax {
-  background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover
-}
-.photoCred {
-  padding:4px 6px;display:inline-block;border-radius:3px;background-color:black;color:white;
-  font-size:12px;font-weight:bold;line-height:1.2;text-decoration:none;
-}
-
-/* ************************************ LOGOS ************************************ */
-.logos {
-  /* background-color:rgb(201, 201, 201); */
-  padding-top:10px; padding-bottom:50px; text-align:center; border-radius:10px;
-}
-.logos img {
-  width:160px;
-  padding:5px 20px;
-}
-/* .logos img:not(:first-of-type) {
-  padding-left:100px;
-} */
-
-/* @media for logos */
-@media screen and (max-width:1100px) {
-  .logos {display: none}
-}
-@media screen and (min-width:1101px) {
-  .logos {display: block}
-}
-
-/* ********************************** SEARCH BAR *********************************** */
-.search-container {
-  text-align:center;padding-top:50px;padding-bottom:50px
-}
-#myInput {
-  background-repeat: no-repeat;width: 100%;text-align:center;font-size: 16px;
-  padding: 12px 20px 12px 40px;margin-bottom:35px;
-}
-#myUL {
-  text-align:center;list-style-type: none;padding:0;margin:0;
-}
-#myUL li {
-  text-align: center;
-}
-
-
-/* @media for search bar */
-@media screen and (max-width:766px) {
-  #myInput {margin-top: 50px;}
-}
-
-/* ************************************ HEADINGS ************************************ */
-.main-heading {
-  font-size:30pt;font-weight:300;letter-spacing:2px;text-align:center;
-  position: absolute;top: 400px;left: 0;width: 100%; 
-  color: grey;
-}
-@media screen and (max-width:767px) {
-  .main-heading {font-size:25pt}
-}
-.heading-border {
-  width: 70%;padding: 20px;border-bottom: 2px solid darkgrey;
-}
-.category-card {
-  background-color:white;box-shadow: 0 4px 8px 0 lightgrey
-}
+/* Headings */
 h1, h2 {
-  font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:10pt;padding:0;
+  font-family:Helvetica,sans-serif;text-align:center;line-height:50px;font-size:10pt;padding:0
 }
 h3 {
   padding-top:10px;font-family:Helvetica,sans-serif;text-align:left;line-height:40px;font-size:18pt
@@ -125,24 +49,10 @@ h5,h6 {
   font-family:Helvetica,sans-serif;text-align:center;margin-top:-20px;color:rgb(134, 134, 134)
 }
 
-
-
-/* ****************************** WRITTEN CONTENT ****************************** */
-.writtenContent {
-  padding:20px 350px;text-align:justify;text-decoration: none;font-size: 18px;color: rgb(85, 85, 85);border:none;
-}
-@media screen and (min-width: 701px) and (max-width: 1100px) {
-  .writtenContent {margin-top:20px;padding:30px 120px}
-}
-@media screen and (max-width: 700px) {
-  .writtenContent {margin-top:40px;padding:30px 30px}
-}
+/* Lists/tables */
 ul, ol {
-  text-align:left;
+  text-align:left
 }
-/* li:first-child {
-  padding-top:5px;
-} */
 table {
   line-height:20px;text-align:left
 } 
@@ -150,628 +60,240 @@ td {
   padding:10px
 }
 tr:nth-child(even) {
-  background-color:whitesmoke;
+  background-color:whitesmoke
 }
 th {
   padding:10px
 }
+
+/* Code snippets */
 code {
-  padding: 1px 5px;
-  background-color: rgb(235, 235, 235);
-  border-radius: 5px;
+  padding:1px 5px;background-color:rgb(235, 235, 235);border-radius:5px
 }
-.writtenContent pre {
-  font-size: 10pt !important;
-  padding: 1px 5px;
-  background-color: rgb(41, 47, 54) !important;
-  border-radius: 5px;
-  margin-bottom: 12px !important;
+pre {
+  font-size:10pt !important;background-color:rgb(41, 47, 54) !important;margin-bottom:12px !important;
+  padding:1px 5px;border-radius:5px
 }
 
-/* ****************************** IMAGES AND GIFS ****************************** */
-.blog-image{
-  width:50%;height:50%
+/* Searchbar */
+.search-container {
+  text-align:center;padding-top:50px;padding-bottom:50px
 }
-.blog-image-full{
-  width:100%;height:100%
+#myInput {
+  background-repeat: no-repeat;width: 100%;text-align:center;font-size: 16px;
+  padding: 12px 20px 12px 40px;margin-bottom:35px
 }
-.blog-image-large{
-  width:70%;height:70%
+#myUL {
+  text-align:center;list-style-type: none;padding:0;margin:0
 }
-.blog-image-container{
+#myUL li {
+  text-align: center
+}
+
+/* Searchbar - Smallest screens (phones) */
+@media screen and (max-width:766px) {
+  #myInput {
+    margin-top: 50px
+  }
+}
+
+/* Written content */
+.writtenContent {
+  padding:20px 350px;text-align:justify;text-decoration: none;font-size:18px;color:rgb(85, 85, 85);border:none
+}
+
+/* Written content - Medium devices (ipads) #2 */
+@media screen and (min-width:767px) and (max-width:1100px) {
+  .writtenContent {
+    margin-top:20px;padding:30px 120px
+  }
+}
+/* Written content - Smallest screens (phones) */
+@media screen and (max-width:766px) {
+  .writtenContent {
+    margin-top:40px;padding:30px 30px
+  }
+}
+
+/* Images */
+.image-container {
   text-align:center;padding-top:5px;padding-bottom:25px
 }
-@media screen and (max-width: 900px){
-  .blog-image, .blog-image-large {width:100%;height:100%}
+.image {
+  width:50%;height:50%
 }
-.content-photo-credit p{
+.image-full {
+  width:100%;height:100%
+}
+.image-description p {
   padding-top:5px;font-size:10pt;text-align:center;color:grey
 }
-#gif-image{
-  width:360px;height:339px
-}
+
+/* Images - Smallest screens (phones) / Medium devices (ipads) */
 @media screen and (max-width: 900px){
-  #gif-image {width:280px;height:280px;border:none}
-}
-.loading-image {
-  background: transparent url('http://thinkfuture.com/wp-content/uploads/2013/10/loading_spinner.gif') center no-repeat;
+  .image {
+    width:100%;height:100%
+  }
 }
 
-/* ******************************* COLUMN LAYOUT ******************************* */
-
-/* For items that need to be on 2 columns */
+/* Photogrid, multiple photo columns */
 .rows {
-  display: flex; flex-wrap: wrap; padding: 0 4px; 
+  display:flex;flex-wrap:wrap;padding:0 4px
 }
 .column-2 { 
-  flex: 50%; max-width: 50%; padding: 0 4px; 
+  flex:50%;max-width:50%;padding:0 4px
 }
 .column-2 img { 
-  margin-top: 8px; vertical-align: middle; width: 100%; 
+  margin-top:8px;vertical-align:middle;width:100% 
 }
-@media screen and (max-width: 900px) {
-  .column-2 {flex: 100%; max-width: 100%;}
-}
-/* For items that need to be on 3 columns */
 .column-3 { 
-  flex: 33%; max-width: 33%; padding: 0 4px; 
+  flex:33%;max-width:33%;padding:0 4px
 }
 .column-3 img {
-  margin-top: 8px; vertical-align: middle; width: 100%;
+  margin-top:8px;vertical-align:middle;width:100%
 }
-@media screen and (max-width: 900px) {
-  .column-3 {flex: 100%; max-width: 100%;}
-}
-/* For items that need to be on 3 columns but is more flexible (can change to 2 columns) */
-.column-3-flex { 
-  flex: 33%; max-width: 33%; padding: 0 4px
-}
-.column-3-flex img { 
-  margin-top: 8px; vertical-align: middle; width: 100%; 
-}
-@media screen and (max-width: 1300px) and (min-width: 851px) {
-  .column-3-flex { flex: 50%; max-width: 50%; }
-}
-@media screen and (max-width: 850px) {
-  .column-3-flex { flex: 100%; max-width: 100%; }
-}
-/* For items that need to be on 4 columns */
 .column-4 { 
-  flex: 25%; max-width: 25%; padding: 0 4px
+  flex:25%;max-width:25%;padding:0 4px
 }
 .column-4 img { 
-  margin-top: 8px; vertical-align: middle; width: 100%; 
-}
-@media screen and (max-width: 1300px) and (min-width: 851px) {
-  .column-4 { flex: 50%; max-width: 50%; }
-}
-@media screen and (max-width: 850px) {
-  .column-4 { flex: 100%; max-width: 100%; }
+  margin-top:8px;vertical-align:middle;width:100% 
 }
 
-/* ****************************** BUTTONS ****************************** */
-.button-container {
+/* Photogrid - small and medium ipads */
+@media screen and (min-width:767px) and (max-width:1100px) {
+  .column-4 { 
+    flex:50%;max-width:50%
+  }
+}
+
+/* Photogrid - Smallest screens (phones) */
+@media screen and (max-width: 766px) {
+  .column-2 {
+    flex:100%;max-width:100%
+  }
+  .column-3 {
+    flex:100%;max-width:100%
+  }
+  .column-4 { 
+    flex:100%;max-width:100%
+  }
+}
+
+/* Buttons */
+.button {
+  text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;background-color:rgb(54,58,64);
+  border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
+  font-family:'Heebo'
+}
+.button:link, .button:visited { 
+  text-decoration:none 
+} 
+.button:hover, .button:active { 
+  background-color:rgb(92, 98, 109);text-decoration:none;color:white
+}
+.read-more-container { 
+  margin-bottom:10px;float:right
+}
+.download-container {
+  padding:20px;text-align:center;background-color:white
+}
+.download-link {
   margin:15px 30px;text-align:center;display:inline-block
 }
-.button {
-  text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;
-  border:none;border-radius:5px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);color:rgb(59, 59, 59)
-}
-@media screen and (max-width: 700px) {
-  .button-container {margin:10px 10px 10px 10px;}
-  .download-container {padding:10px}
-}
 
-/* ****************************** DOWNLOAD BUTTONS ****************************** */
-.download-container h2, .download-container {
-  padding:20px;text-align:center;background-color:white;
-}
-.download-button {
-  background-color:rgb(180, 248, 180)
-}
-.download-button:hover, .download-button:active {
-  background-color:rgb(92, 98, 109);text-decoration:none;color:white;
-}
-.download-button:visited {
-  text-decoration:none
-}
-.repo {
-  background-color:rgb(157, 219, 243)
-}
-.repo:hover, .repo:active {
-  background-color:rgb(92, 98, 109);text-decoration:none;color:white;
-}
-.repo:visited {
-  text-decoration:none
-}
-
-/* ****************************** BUTTONS ****************************** */
-/* .read-more-project-button-container { margin-top: 25px; margin-bottom: 10px; text-align: center}
-
-.button {
-  text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;background-color: rgb(54,58,64);
-  border:none;border-radius:5px;box-shadow:0 4px 8px 0 lightgrey;color:white
-}
-.read-more-button:hover, .read-more-button:active { background-color: rgb(92, 98, 109); text-decoration: none; color: white;}
-.read-more-button:visited { text-decoration: none }  */
-
-.read-more-project-button-container { margin-bottom: 10px;float:right}
-
-.button {
-  text-decoration:none;display:inline-block;padding:10px 25px;outline:none;transition:ease 0.5s;background-color: rgb(54,58,64);
-  border:none;border-radius:5px;color:white;font-size:14px;
-  font-family: 'Heebo';
-}
-.read-more-button:hover, .read-more-button:active { background-color: rgb(92, 98, 109); text-decoration: none; color: white;}
-.read-more-button:visited { text-decoration: none } 
-
-/* ****************************** List of Posts/Projects/etc ****************************** */
-
-body {
-  margin: 0;padding: 0;line-height: 1.5;
-  text-rendering: optimizeLegibility;font-variant-ligatures: none;font-family: 'helvetica', sans-serif;font-size: 5px;
-  box-sizing: border-box;background-color: green;
-}
-body::before, body::after {
-  content: "";display: table;clear: both
-}
-body * {
-  box-sizing: inherit
-}
-body, .text-light-black {
-  color: rgba(0,0,0,0.6)
-}
-
-.item-image{
-  display: block;width: 100%
-}
-.item-content{
-  padding:15px;
-}
-.item-categoryTag {
-  font-size: 0.75rem;font-weight: 500;text-transform: uppercase;letter-spacing: 2px;
-  margin-bottom: 1rem;margin-bottom: 0;
-  color: rgba(0, 0, 0, 0.3);
-}
-.item-heading {
-  font-family: 'helvetica', serif;font-size:23pt;font-weight: normal;line-height: 1.25;
-  color: rgba(0,0,0,0.9);
-  margin-top: 10px;margin-bottom: 1rem;
-}
-.item-description {
-  margin-bottom: 1rem;
-  text-align:center;
-}
-.item-link {
-  text-transform: uppercase;
-  display: inline-block;
-  font-weight: 500;
-  letter-spacing: 2px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-.styled-link {
-  text-decoration: none;
-  outline: none;
-  color: #2196fe;
-  transition: all 0.25s ease-in; 
-}
-.styled-link:hover, .styled-link:focus, .styled-link:active {
-  color: #536dfe;
-}
-.card-text {
-  text-align:center
-}
-
-
-/* ******************************* LINKS ******************************* */
-a {text-decoration: none;}
-a:hover {text-decoration: none;}
-
-
-
-/* ************************************** */
-
-.text-black {color: rgba(0,0,0,0.9)}
-
-.text-uppercase {text-transform: uppercase;}
-
-.ff-serif {
-  font-family: 'helvetica', serif;
-}
-
-.font-weight-normal {
-  font-weight: normal;
-}
-.font-weight-medium {
-  font-weight: 500;
-}
-
- .lts-1px {
-   letter-spacing: 1px;
-}
-.lts-2px {
-  letter-spacing: 2px;
-}
-
-
-.w-full {
-  width: 100%;
-}
-
-.text-center {
-  text-align: center;
-}
-.text-left {
-  text-align: left;
-}
-.text-right {
-  text-align: right;
-}
-
-.d-block {
-  display: block;
-}
-.d-inline-block {
-  display: inline-block;
-}
-
-.p-relative {
-  position: relative;
-}
-.p-absolute {
-  position: absolute
-}
-
-
-
-.bg-white {
-  background-color: #fff;
-}
-
-.center {
-  text-align:center
-}
-
-
-
-.small {
-  font-size: 0.75rem;
-}
-
-
-.shadow-1 {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
-}
-.blue-hover {
-  transition: all 0.25s ease-in;
-  border-bottom: 5px solid transparent;
-}
-.blue-hover:hover {
-  transform: translateY(-5px);
-  border: none;
-  border-bottom: 5px solid #2196fe;
-}
-
-
-
-
-.clearfix::before,
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.float-left {
-  float: left;
-}
-.float-right{
-  float: right;
-}
-
-
-
-
-
-
-/**Margin and padding utilities*/
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-.ml-auto {
-  margin-left: auto;
-}
-.mr-auto {
-  margin-right: auto;
-}
-.mx-0 {
-  margin-left: 0;
-  margin-right: 0;
-}
-.mx-1 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-.mx-2 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-.mx-3 {
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-
-.my-0 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.my-1 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.my-2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-.my-3 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.mt-0 {
-  margin-top: 0;
-}
-.mt-1 {
-  margin-top: 1rem;
-}
-.mt-2 {
-  margin-top: 2rem;
-}
-.mt-3 {
-  margin-top: 3rem;
-}
-
-.mb-0 {
-  margin-bottom: 0;
-}
-.mb-1 {
-  margin-bottom: 1rem;
-}
-.mb-2 {
-  margin-bottom: 2rem;
-}
-.mb-3 {
-  margin-bottom: 3rem;
-}
-
-.ml-0 {
-  margin-left: 0;
-}
-.ml-1 {
-  margin-left: 1rem;
-}
-.ml-2 {
-  margin-left: 2rem;
-}
-.ml-3 {
-  margin-left: 3rem;
-}
-
-
-
-
-.px-0 {
-  padding-left: 0;
-  padding-right: 0;
-}
-.px-1 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.px-2 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.px-3 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-
-.py-0 {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.py-1 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.py-2 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.py-3 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.pt-0 {
-  padding-top: 0;
-}
-.pt-1 {
-  padding-top: 1rem;
-}
-.pt-2 {
-  padding-top: 2rem;
-}
-.pt-3 {
-  padding-top: 3rem;
-}
-
-.pb-0 {
-  padding-bottom: 0;
-}
-.pb-1 {
-  padding-bottom: 1rem;
-}
-.pb-2 {
-  padding-bottom: 2rem;
-}
-.pb-3 {
-  padding-bottom: 3rem;
-}
-
-/* Gotta clean this shit up */
-
-
-.padding {
-    padding: 1em;
-}
-
-.card {
-  margin-bottom: 30px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.3s; border: none;
-  font-family: 'Heebo' !important;
-  height: 250px;
-  width: 100%;
-  font-size: 1.5em;
-  color: white;
-  border-radius: 1em;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 0 0 5em -1em black;
-  transition: all, var(--transition-time);
-  position: relative;
-  overflow: hidden;
-  text-decoration: none;
-}
-
-.card h1 {
-  margin: 0;
-  padding-top:20px;
-  font-size: 1.5rem;
-  line-height: 1.2em;
-}
-
-
-.card p {
-  font-size: 0.75em;
-  margin-top: 0.5em;
-  line-height: 2em;
-  margin-bottom:20px
-}
-
-.card .tags {
-  display: flex;
-}
-
-.card .tags .tag {
-  font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
-  border-radius: 0.3rem;
-  padding: 0 0.5em;
-  margin-right: 0.5em;
-  line-height: 1.5em;
-}
-
-
-
-.card .date {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-size: 0.75em;
-  padding: 1em;
-  line-height: 1em;
-  opacity: .8;
-}
-
-.card:before, .card:after {
-  content: '';
-  transform-origin: top left;
-  border-radius: 50%;
-  position: absolute;
-  left: -50%;
-  top: -50%;
-  z-index: -5;
-}
-
-.card:before {
-  background: #ddd;
-  width: 250%;
-  height: 250%;
-} 
-
-.card:after {
-  background: white;
-  width: 200%;
-  height: 200%;
-}
-
-
-/* Hide original date on smaller screen  */
-/* Hide small date on bigger screen */
-
-@media screen and (min-width:1201px) {
-  .date {display: block}
-} 
-@media screen and (min-width:901px) and (max-width:1200px) {
-  .card {height:270px}
-  /* .card h1 {font-size: 1.4rem} */
-  .card p {font-size: 14pt}
-  .date { display: none }
-} 
-@media screen and (min-width:767px) and (max-width:900px) {
-  .card {height:260px}
-  /* .card h1 {font-size: 1.4rem} */
-  .card p {font-size: 12pt}
-  .date { display: none }
-} 
-/* Smallest screens, like phones */
+/* Buttons - Smallest screens (phones) */
 @media screen and (max-width:766px) {
-  .card {height:auto}
-  /* .card h1 {font-size: 1.2rem} */
-  .card p {font-size: 10pt}
-  .date { display: none }
+  .download-link {
+    margin:10px 10px 10px 10px
+  }
+  .download-container {
+    padding:10px
+  }
 }
 
-
-.info {
-  font-size: 1.2em;
-  display: flex;
-  padding: 1em 3em;
-  height: 3em;
+/* List of articles */
+.card {
+  background-size:cover;background-position:center;box-shadow:0 0 5em -1em black;border-radius:1em;
+  margin-bottom:30px;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);transition:0.3s;border:none;
+  font-family:'Heebo' !important;font-size:1.5em;color:white;text-decoration:none;
+  height:250px;width:100%;position: relative;overflow:hidden;
+  transition:all, var(--transition-time)
+}
+.padding {
+  padding:1em
+}
+.card h1 {
+  margin:0;padding-top:20px;font-size:1.5rem;line-height:1.2em
+}
+.card p {
+  font-size:0.75em;margin-top:0.5em;line-height:2em;margin-bottom:20px
+}
+.tags {
+  display:flex
+}
+.tag {
+  font-size:0.75em;background:rgba(255,255,255,0.5);border-radius:0.3rem;padding:0 0.5em;margin-right:0.5em;line-height:1.5em
+}
+.date {
+  position:absolute;top:0;right:0;font-size:0.75em;padding:1.6em;line-height:1em;opacity:.8
 }
 
-.info img {
-  height: 3em;
-  margin-right: 0.5em;
+/* List of articles - Smallest screens (phones) */
+@media screen and (max-width:766px) {
+  .card {
+    height:auto
+  }
+  .card h1 {
+    font-size:1.2rem
+  }
+  .card p {
+    font-size:10pt;line-height:1.5em
+  }
+  .date { 
+    display:none 
+  }
 }
 
-.info h1 {
-  font-size: 1em;
-  font-weight: normal;
-}
-
-
-
-
-
-
+/* Display the header or navbar */
 @media screen and (max-width:900px) {
-  .show-header {display:none;}
-  .show-navbar {display:block;}
+  .show-header {
+    display:none
+  }
+  .show-navbar {
+    display:block
+  }
 }
 @media screen and (min-width:901px) {
-  .show-header {display:block;}
-  .show-navbar {display:none;}
+  .show-header {
+    display:block
+  }
+  .show-navbar {
+    display:none
+  }
 }
 
+/* General links */
+a, a:hover {
+  text-decoration: none
+}
 
-
-
-
-
-
+/* To Delete Later */
+.parallax {
+  background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover
+}
+.photoCred {
+  padding:4px 6px;display:inline-block;border-radius:3px;background-color:black;color:white;
+  font-size:12px;font-weight:bold;line-height:1.2;text-decoration:none
+}
+.main-heading {
+  font-size:30pt;font-weight:300;letter-spacing:2px;text-align:center;
+  position:absolute;top:400px;left:0;width:100%;color:grey
+}
+@media screen and (max-width:767px) {
+  .main-heading {
+    font-size:25pt
+  }
+}
+.heading-border {
+  width:70%;padding:20px;border-bottom:2px solid darkgrey
+}

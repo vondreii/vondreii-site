@@ -9,8 +9,8 @@ ___
 ___
 
 <div class="download-container">
-    <div class="button-container">
-        <a href="https://github.com/vondreii/Modified-Street-Racing-Game" class="button repo">↓ View GitHub Repository ↓</a>
+    <div class="download-link">
+        <a href="https://github.com/vondreii/Modified-Street-Racing-Game" class="button">↓ View GitHub Repository ↓</a>
     </div>
 </div>
 
@@ -21,8 +21,8 @@ The original game is a 3D street racing game where the player must avoid the obs
 The original game involved racing for as long as you possible without hitting any obstacles, as the speed increased. If you hit any obstacles during the game, the game would end.
 
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/racingGame/street-racing-preview.gif" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/racingGame/street-racing-preview.gif" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -37,8 +37,8 @@ Extra obstacles were added such as roadblocks. You also could not die when hitti
 * Total statistics, including accumulative car crashes and points totals
 
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/racingGame/roadblock.PNG" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/racingGame/roadblock.PNG" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -65,8 +65,8 @@ Move Right	  	| Right keyboard arrow or 'D'
 
 
 <div class="download-container">
-    <div class="button-container">
-        <a href="https://github.com/vondreii/Modified-Street-Racing-Game" class="button repo">↓ View GitHub Repository ↓</a>
+    <div class="download-link">
+        <a href="https://github.com/vondreii/Modified-Street-Racing-Game" class="button">↓ View GitHub Repository ↓</a>
     </div>
 </div>
 

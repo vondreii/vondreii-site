@@ -17,31 +17,31 @@ This is a simple tutorial that will help you quickly set up an online remote rep
 
 If you already have a Github Account, you can skip to step 2. Otherwise, go to [Github](https://github.com/) and navigate to the sign up page to create a new account.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/github-home.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Sign up on Github</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/github-home.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Sign up on Github</p></div>
 </div>
 
 Follow the prompts in order to create your Github account. 
  
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/verifyAccount.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Verify that you are not a robot</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/verifyAccount.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Verify that you are not a robot</p></div>
 </div>
 
 You will also have to verify the email that you use. Github will send an email to the email address used to create the Github account.
 Once verified, you will be taken to another page to complete the sign up process.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/Email-was-verified.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Verified email</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/Email-was-verified.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Verified email</p></div>
 </div>
 
 Once the setup is complete, you will be taken to the main Github dashboard page, which will have nothing in it yet.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/main-github-dashboard.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Github dashboard</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/main-github-dashboard.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Github dashboard</p></div>
 </div>
 
 ### 2. Creating a Github repository
@@ -49,20 +49,20 @@ Once the setup is complete, you will be taken to the main Github dashboard page,
 Now that you already have an account, you can now create a repository to store your code in.
 You can do this by selecting **Start project** on the main page, or **New** on the repository page.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Create a repository</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Create a repository</p></div>
 </div>
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-2.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Create a repository</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-2.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Create a repository</p></div>
 </div>
 
 Name your project and change any other configurations, as shown below.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-settings.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Repository settings</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-settings.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Repository settings</p></div>
 </div>
 
 Then select **Create Repository**. You will be taken to the repository page (it is going to look empty, since there is no code stored here yet).
@@ -78,16 +78,16 @@ That is - have a folder on your own computer that stores your application's code
 
 Click on the **Code** link, and make a note of the link under **Clone with HTTPS**.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/clone.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Cloning the repository</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/clone.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Cloning the repository</p></div>
 </div>
 
 If you get this page instead, just note the link from the **HTTPS** option.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/clone2.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Cloning the repository</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/clone2.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Cloning the repository</p></div>
 </div>
 
 We will now create a folder, locally on your computer where you will store a local version of the repository.
@@ -105,26 +105,26 @@ git clone https://github.com/vondreii/my-angular-app-netlify.git
 
 For example:
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/git-clone-local.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Run the git clone command</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/git-clone-local.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Run the git clone command</p></div>
 </div>
 
 This should automatically create a new folder. This new folder is an exact copy/clone of the repository you just made on Github. 
 In this example, my repository is called `My-Angular-App-Netlify`, so the new folder that was created in my Desktop was also called `My-Angular-App-Netlify`.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/local-folder-created.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>New folder is created</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/local-folder-created.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>New folder is created</p></div>
 </div>
 
 ### 4. Save code in your local copy of the repository
 
 You can save your code locally in this folder. Add any number of files into this folder. For example, I have added a very simple HTML file, `index.html`:
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/Add-file-to-local-repo.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Added a simple HTML file</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/Add-file-to-local-repo.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Added a simple HTML file</p></div>
 </div>
 
 `index.html` has the following code:
@@ -185,16 +185,16 @@ git push
 
 This will push all the local changes you have to the remote repository. Here is an example of all of those commands being run:
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/cmd-commands.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Run commands to store the files on the remote repository</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/cmd-commands.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Run commands to store the files on the remote repository</p></div>
 </div>
 
 Now navigate back to the remote repository on Github, you will now see your new file stored there.
 
-<div class="blog-image-container">
-    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/pushed-code.PNG" alt="image" class="blog-image-full"/>
-	<div class="content-photo-credit"><p>Run commands to store the files on the remote repository</p></div>
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/pushed-code.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Run commands to store the files on the remote repository</p></div>
 </div>
 
 Now you have a local folder where you can make changes to your code or application, and push it to a remote Github repository! 

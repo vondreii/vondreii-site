@@ -9,8 +9,8 @@ ___
 ___
 
 <div class="download-container">
-    <div class="button-container">
-        <a href="../../assets/downloads/IceCapades.zip" class="button download-button">↓ Download Game Here ↓</a>
+    <div class="download-link">
+        <a href="../../assets/downloads/IceCapades.zip" class="button">↓ Download Game Here ↓</a>
     </div>
 </div>
 
@@ -30,8 +30,8 @@ The aim of the game is to make your way to the oil rig by avoiding enemies, coll
 Once at the oil rig, you must destroy it by reaching and turning off the main power switch.
 
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/iceCapades/story-help-1.PNG" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/iceCapades/story-help-1.PNG" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -50,12 +50,12 @@ This is the tutorial level where the game guides you through the basic gameplay.
 * **Interact/collect objects.** Walk into them.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
+<div class="image-container">
 	<div class="rows"> 
-		<div class="column-2 blog-image-container">
+		<div class="column-2 image-container">
 			<img src="../../assets/articles/projects-images/iceCapades/IceCapades-menu-description.PNG" alt="image" style="width:100%">
 		</div>
-		<div class="column-2 blog-image-container">
+		<div class="column-2 image-container">
 			<img src="../../assets/articles/projects-images/iceCapades/IceCapades-menu-controls.PNG" alt="image" style="width:100%">
 		</div>  
 	</div>
@@ -75,24 +75,24 @@ Altogether there are 5 levels.
 Throughout the game you also come across other characters and animals that have been affected by the ice rig and melting ice.
 
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/iceCapades/story-help-2.png" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/iceCapades/story-help-2.png" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
 During the last level, you must navigate to the switch that shuts down the whole oil rig. Turning the switch off sets all the power reactors on fire, apparently.
 
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/iceCapades/end-level.png" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/iceCapades/end-level.png" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
 After level 5 you are greeted by a thankful citizen who thanks you for saving the village from the ice rig that was melting the ice.
 	
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/iceCapades/story-help-1.PNG" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/iceCapades/story-help-1.PNG" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -116,14 +116,14 @@ Here are the things you can walk into which cause the environment to be affected
 * **Keys:** Collecting keys allow you to open certain doors, including doors that lead to the next level.
 	
 <!-- ----------- Image ----------- -->   
-<div class="blog-image-container">
-  <img src="../../assets/articles/projects-images/iceCapades/gates.PNG" alt="image" class="blog-image"/> 
+<div class="image-container">
+  <img src="../../assets/articles/projects-images/iceCapades/gates.PNG" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
 <div class="download-container">
-    <div class="button-container">
-        <a href="../../assets/downloads/IceCapades.zip" class="button download-button">↓ Download Game Here ↓</a>
+    <div class="download-link">
+        <a href="../../assets/downloads/IceCapades.zip" class="button">↓ Download Game Here ↓</a>
     </div>
 </div>
 

@@ -29,9 +29,9 @@ npm install -g @angular/cli
 Navigate to a place in your files directory where you would like to store your project. Make a new folder, for example, `webapp`:
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/folder.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Angular app project folder</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/folder.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Angular app project folder</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -53,9 +53,9 @@ You can change this based on your needs.
 
 Now you have the framework to develop an Angular App. If you open the `test-angular-app` folder (which contains the source code) it should look similar to this:
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/angular-test-source-code.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Source Code</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/angular-test-source-code.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Source Code</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -69,9 +69,9 @@ ng serve --open
 Wait for the program to compile. When it finishes, a web browser should open with your webpage running locally - if the default angular app home page is shown, then you are on the right track:
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/default-app-page.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Default angular opening webpage</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/default-app-page.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Default angular opening webpage</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -94,9 +94,9 @@ ng g c contact
 Three components/folders will be generated: `src/app/about`, `src/app/home` and `src/app/contact`.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/app-structure.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>About, home and contact components newly added</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/app-structure.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>About, home and contact components newly added</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -150,9 +150,9 @@ ng g c shared/navbar
 This will create a navbar component:
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/app-structure2.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>App structure with navbar</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/app-structure2.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>App structure with navbar</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -218,9 +218,9 @@ Now run `ng serve --open` again to see the basic three webpages you have created
 If you have left the default content on the html pages, you will only see a simple message on each page saying that the page works:
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/contact-works.PNG" alt="image" class="blog-image"/>
-	<div class="content-photo-credit"><p>Expected result</p></div>
+<div class="image-container">
+	<img src="../../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/contact-works.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Expected result</p></div>
 </div>
 <!-- ----------------------------- -->
 

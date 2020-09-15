@@ -34,9 +34,9 @@ How are you going to write your notes down? Through writing in notebooks or usin
 Colour coding courses can also help. However, don't overdo it or you may overwhelm yourself further down the track if you see you have too many colourful things to do.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/sticky-notes.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@joszczepanska">Jo Szczepanska </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/sticky-notes.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@joszczepanska">Jo Szczepanska </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -44,8 +44,8 @@ If you are using a computer, make sure you don't have files scattered all over t
 For instance, if you studied 4 courses/subjects, you would have 4 folders. Each folder can have sub folders related to the content learnt in that course.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/files-notes.PNG" alt="image" class="blog-image"/>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/files-notes.PNG" alt="image" class="image"/>
 </div>
 <!-- ----------------------------- -->
 	
@@ -62,9 +62,9 @@ gardening, or helping other students with disabilities. I spent a good year or s
 it exposed me to other interesting life skills and experiences like having a carer's responsibility.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/gardening.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@neonbrand">NeONBRAND </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/gardening.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@neonbrand">NeONBRAND </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 	
@@ -95,9 +95,9 @@ got low to mediocre grades for many items. However, I focused on learning the pa
 So, you should still care about your grades, but don't kill yourself to be perfect. 
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/grades.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@taypaigey">Taylor Wilcox </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/grades.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@taypaigey">Taylor Wilcox </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 	
@@ -116,9 +116,9 @@ However, we did learn the basic concepts of HTML/CSS and JavaScript, how they wo
 So when I started learning about other frameworks in my own time, they were just an addition to the basic concepts I had learnt from uni. 
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/lecture.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@mikael_k">Mikael Kristenson </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/lecture.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@mikael_k">Mikael Kristenson </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -157,9 +157,9 @@ which outlines which types of courses you should take for each semester, and exp
 This is roughly the standard for a lot of degrees but the types of courses you could choose from change depending on what you are doing. For example, if you are also doing a minor, double degree, or a degree that needs certain placement requirements.
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/roadmap.PNG" alt="image" class="blog-image" style="width:90%"/>
-  <div class="content-photo-credit"><p>Roadmap that I used</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/roadmap.PNG" alt="image" class="image" style="width:90%"/>
+  <div class="image-description"><p>Roadmap that I used</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -191,9 +191,9 @@ The first section explains how you need to take your studies seriously. Leaving 
 (it is also likely your group members are going to want to scale the marks to affect your contribution, so you will probably still get a 0).
 
 <!-- ----------- Image ----------- -->
-<div class="blog-image-container">
-  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/groupwork.jpg" alt="image" class="blog-image"/>
-  <div class="content-photo-credit"><p>Photo by <a href="https://unsplash.com/@dylandgillis">Dylan Gillis </a>on Unsplash</p></div>
+<div class="image-container">
+  <img src="../../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/groupwork.jpg" alt="image" class="image"/>
+  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@dylandgillis">Dylan Gillis </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
