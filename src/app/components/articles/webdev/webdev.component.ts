@@ -13,26 +13,33 @@ export class WebdevComponent implements OnInit {
 
   titles: string[][] = [
     // Webdev
+    ["Creating Your Own Blog Using Hugo"],
     ["Hosting an Angular Application using Netlify"],
     ["Creating A Simple Angular Web Application"],
   ];
   images: string[][] = [
     // Webdev
+    ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
   ];
   dates: string[][] = [
     // Webdev
+    ["Coming Soon!"],
+    // ["16 Sept 2020"],
     ["30 Aug 2020"],
     ["04 Aug 2020"],
   ];
   links: string[][] = [
     // Webdev
+    ["#"],
+    // ["/webdev/post/createYourOwnBlogUsingHugo"],
     ["/webdev/post/hostingAngularApplicationUsingNetlify"],
     ["/webdev/post/creatingASimpleAngularWebApplication"],
   ];
   tags: string[][] = [
     // Webdev
+    ["Hugo"],
     ["Angular, Netlify, Hosting"],
     ["Angular"],
   ];
@@ -40,12 +47,13 @@ export class WebdevComponent implements OnInit {
     // Webdev
     ["webdev"],
     ["webdev"],
+    ["webdev"],
   ];
 
   constructor() { }
 
   ngOnInit() {
-    this.postArray = [0,1];
+    this.postArray = [0,1,2];
     this.href = window.location.href;
     this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
   }

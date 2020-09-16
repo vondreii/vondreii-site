@@ -19,12 +19,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/articles/projects/projects.component';
 import { ProjectPostComponent } from './components/articles/projects/project-post/project-post.component';
-import { PhotographyComponent } from './components/photography/photography.component';
-import { PhotographyLocationComponent } from './components/photography/photography-location/photography-location.component';
 import { WebdevComponent } from './components/articles/webdev/webdev.component';
 import { WebdevPostComponent } from './components/articles/webdev/webdev-post/webdev-post.component';
 import { CodingComponent } from './components/articles/coding/coding.component';
@@ -39,12 +36,9 @@ import { SocialComponent } from './components/social/social.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    ContactComponent,
     AboutComponent,
     ProjectsComponent,
     ProjectPostComponent,
-    PhotographyComponent,
-    PhotographyLocationComponent,
     WebdevComponent,
     WebdevPostComponent,
     CodingComponent,
