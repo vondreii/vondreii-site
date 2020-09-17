@@ -236,26 +236,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html":
-  /*!*************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html ***!
-    \*************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsContactContactComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<app-navbar></app-navbar>\r\n<div style=\"background-color:whitesmoke\">\r\n  <!-- Parallax and main heading -->\r\n  <div class=\"parallax\" style=\"height: 350px;background-image: url('../../../assets/contact/header.jpg');\">\r\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 300px; float: right; position:relative\" href=\"https://unsplash.com/@heytowner\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">John Towner</span></a></div>\r\n  </div>\r\n  <div class=\"parallax\" style=\"height: 150px;\">\r\n    <h2 class=\"main-heading\"><span class=\"heading-border\">Contact</span></h2>\r\n  </div>\r\n  <div class=\"form\">\r\n    <p class=\"paragraph-center\"> Just write your name, email and message and I will get back to you as soon as possible. </p>\r\n    <form name=\"contact\" method=\"POST\" data-netlify=\"true\">\r\n        <input name=\"name\" type=\"text\" class=\"feedback-input\" placeholder=\"Name\" />   \r\n        <input name=\"email\" type=\"text\" class=\"feedback-input\" placeholder=\"Email\" />\r\n        <textarea name=\"text\" class=\"feedback-input\" placeholder=\"Comment\"></textarea>\r\n        <input type=\"submit\" value=\"SUBMIT\"/>\r\n    </form>\r\n  </div>\r\n  <br><br>\r\n  <div class=\"contact-card\">\r\n    <br><br>\r\n    <div style=\"text-align:center\">\r\n        <a href=\"https://www.instagram.com/vondreii\"><img src=\"../../assets/social/instagram.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\"><img src=\"../../assets/social/linkedin.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n        <a href=\"https://github.com/vondreii\"><img src=\"../../assets/social/github.png\" alt=\"image\"/></a><span style=\"padding:10px\"></span>\r\n    </div>\r\n    <br><br>\r\n  </div>\r\n</div>";
-    /***/
-  },
-
-  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html":
   /*!***********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html ***!
@@ -316,46 +296,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/photography/photography-location/photography-location.component.html":
-  /*!***************************************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/photography/photography-location/photography-location.component.html ***!
-    \***************************************************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsPhotographyPhotographyLocationPhotographyLocationComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<app-navbar></app-navbar>\r\n\r\n<!-- #region 1st Parallax image-->\r\n<div class=\"parallax\" style=\"height: 350px; background-image: url('../../assets/photography/blue-mountains/blue-mountains-header-cropped2.png');\">\r\n  <div class=\"imageTextCollage\">\r\n    <br><br>\r\n    <h3 class=\"sidebar-bottom-headings\"><b>{{loc}}</b></h3><h3><b>▼</b></h3>\r\n  </div>\r\n</div>\r\n<!-- <ul>\r\n  <li *ngFor=\"let location of collection | async\"  role=\"listitem\">\r\n    <p> {{loc}}</p>\r\n  </li>\r\n</ul> -->\r\n<p></p>\r\n\r\n<div class=\"rows\">\r\n  <div class=\"column-4\">\r\n    <img *ngFor=\"let img of col1\" src=\"{{img}}\" alt=\"\">\r\n  </div>\r\n  <div class=\"column-4\">\r\n    <img *ngFor=\"let img of col2\" src=\"{{img}}\" alt=\"\">\r\n  </div>\r\n  <div class=\"column-4\">\r\n    <img *ngFor=\"let img of col3\" src=\"{{img}}\" alt=\"\">\r\n  </div>\r\n  <div class=\"column-4\">\r\n    <img *ngFor=\"let img of col4\" src=\"{{img}}\" alt=\"\">\r\n  </div>\r\n</div>\r\n<br><br>\r\n\r\n<div class=\"more-like-this\">\r\n  <br><h3 class=\"sidebar-bottom-headings more-like-this-heading\">MORE LIKE THIS</h3>\r\n  <div class=\"spacing\"></div>\r\n  <div class=\"rows\"> \r\n    <div class=\"column-2 blog-image-container\">\r\n      <div class=\"image-container\">\r\n          <a routerLink={{moreLikeThis1RouterLink}}>\r\n          <img src={{moreLikeThis1Background}} alt=\"\" class=\"image\">\r\n          <div class=\"centered\">{{moreLikeThis1Location}}</div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n    <div class=\"column-2 blog-image-container\">\r\n      <div class=\"image-container\">\r\n          <a routerLink={{moreLikeThis2RouterLink}}>\r\n          <img src={{moreLikeThis2Background}} alt=\"\" class=\"image\">\r\n          <div class=\"centered\">{{moreLikeThis2Location}}</div>\r\n        </a>\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br>\r\n</div>\r\n\r\n<!-- <div *ngFor=\"let photos of collectionPhotos | async\">\r\n  {{photos.photos.length}}\r\n\r\n</div> -->";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/photography/photography.component.html":
-  /*!*********************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/photography/photography.component.html ***!
-    \*********************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsPhotographyPhotographyComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<app-navbar></app-navbar>\r\n<div style=\"background-color:whitesmoke\">\r\n  <!-- Parallax and main heading -->\r\n  <div class=\"parallax\" style=\"height: 350px;background-image: url('../../../assets/photography/header.jpg');\">\r\n    <div class=\"imageTextCollage\"><a class=\"photoCred\" style=\"margin-top: 300px; float: right; position:relative\" href=\"https://unsplash.com/@vondreii\" target=\"_blank\" rel=\"noopener noreferrer\" title=\"Download free do whatever you want high-resolution photos from Taylor Smith\"><span style=\"display:inline-block;padding:2px 3px\"><svg xmlns=\"http://www.w3.org/2000/svg\" style=\"height:12px;width:auto;vertical-align:middle;top:-2px;fill:white\" viewBox=\"0 0 32 32\"><title>unsplash-logo</title><path d=\"M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z\"></path></svg></span><span style=\"display:inline-block;padding:2px 3px\">Vondreii</span></a></div>\r\n  </div>\r\n  <div class=\"parallax\" style=\"height: 150px;\">\r\n    <h2 class=\"main-heading\"><span class=\"heading-border\">Photography</span></h2>\r\n  </div>\r\n  <div class=\"container\">\r\n    <div class=\"container\">\r\n      <div class=\"card-columns\">\r\n        <!-- Loop of projects -->\r\n        <div class=\"card\" *ngFor=\"let i of postArray\">\r\n          <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\r\n          <div class=\"card-body\">\r\n            <h5 class=\"card-title\">{{titles[i]}}</h5>\r\n            <p><small class=\"text-muted\">{{descriptions[i]}}</small></p>\r\n            <div class=\"read-more-container\">\r\n              <a routerLink=\"{{links[i]}}\" class=\"button\">Read More >></a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <!-- #endregion -->\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br><br>\r\n</div>";
-    /***/
-  },
-
-  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/social/social.component.html":
   /*!***********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/social/social.component.html ***!
@@ -371,7 +311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Social links for instagram, linkedIn and Github -->\n<div class=\"contact-card\">\n    <br><br>\n    <div class=\"center\">\n        <!-- Instagram -->\n        <a href=\"https://www.instagram.com/vondreii\">\n            <img src=\"../../assets/social/instagram.png\" alt=\"image\"/>\n        </a>\n        <span class=\"space-between-links\"></span>\n        <!-- LinkedIn -->\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\">\n            <img src=\"../../assets/social/linkedin.png\" alt=\"image\"/>\n        </a>\n        <span class=\"space-between-links\"></span>\n        <!-- Github -->\n        <a href=\"https://github.com/vondreii\">\n            <img src=\"../../assets/social/github.png\" alt=\"image\"/>\n        </a>\n        <span class=\"space-between-links\"></span>\n    </div>\n    <br><br>\n</div>";
+    __webpack_exports__["default"] = "<!-- Social links for instagram, linkedIn and Github -->\r\n<div class=\"contact-card\">\r\n    <br><br>\r\n    <div class=\"center\">\r\n        <!-- Instagram -->\r\n        <a href=\"https://www.instagram.com/vondreii\">\r\n            <img src=\"../../assets/social/instagram.png\" alt=\"image\"/>\r\n        </a>\r\n        <span class=\"space-between-links\"></span>\r\n        <!-- LinkedIn -->\r\n        <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\">\r\n            <img src=\"../../assets/social/linkedin.png\" alt=\"image\"/>\r\n        </a>\r\n        <span class=\"space-between-links\"></span>\r\n        <!-- Github -->\r\n        <a href=\"https://github.com/vondreii\">\r\n            <img src=\"../../assets/social/github.png\" alt=\"image\"/>\r\n        </a>\r\n        <span class=\"space-between-links\"></span>\r\n    </div>\r\n    <br><br>\r\n</div>";
     /***/
   },
 
@@ -1025,144 +965,92 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./components/contact/contact.component */
-    "./src/app/components/contact/contact.component.ts");
-    /* harmony import */
-
-
-    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./components/about/about.component */
     "./src/app/components/about/about.component.ts");
     /* harmony import */
 
 
-    var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./components/articles/projects/projects.component */
     "./src/app/components/articles/projects/projects.component.ts");
     /* harmony import */
 
 
-    var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./components/articles/projects/project-post/project-post.component */
     "./src/app/components/articles/projects/project-post/project-post.component.ts");
     /* harmony import */
 
 
-    var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-    /*! ./components/photography/photography.component */
-    "./src/app/components/photography/photography.component.ts");
-    /* harmony import */
-
-
-    var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-    /*! ./components/photography/photography-location/photography-location.component */
-    "./src/app/components/photography/photography-location/photography-location.component.ts");
-    /* harmony import */
-
-
-    var _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./components/articles/webdev/webdev.component */
     "./src/app/components/articles/webdev/webdev.component.ts");
     /* harmony import */
 
 
-    var _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./components/articles/webdev/webdev-post/webdev-post.component */
     "./src/app/components/articles/webdev/webdev-post/webdev-post.component.ts");
     /* harmony import */
 
 
-    var _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    var _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./components/articles/coding/coding.component */
     "./src/app/components/articles/coding/coding.component.ts");
     /* harmony import */
 
 
-    var _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    var _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./components/articles/coding/coding-post/coding-post.component */
     "./src/app/components/articles/coding/coding-post/coding-post.component.ts");
     /* harmony import */
 
 
-    var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./components/articles/students/students.component */
     "./src/app/components/articles/students/students.component.ts");
     /* harmony import */
 
 
-    var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! ./components/articles/students/students-post/students-post.component */
     "./src/app/components/articles/students/students-post/students-post.component.ts");
 
     var routes = [{
       path: '',
-      component: _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__["WebdevComponent"]
-    }, {
-      path: 'contact',
-      component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"]
+      component: _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_7__["WebdevComponent"]
     }, {
       path: 'about',
-      component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_5__["AboutComponent"]
+      component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
     }, // Webdev posts
     {
       path: 'webdev',
-      component: _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_10__["WebdevComponent"]
+      component: _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_7__["WebdevComponent"]
     }, {
       path: 'webdev/post/:article',
-      component: _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_11__["WebdevPostComponent"]
+      component: _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_8__["WebdevPostComponent"]
     }, // Coding posts
     {
       path: 'coding',
-      component: _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_12__["CodingComponent"]
+      component: _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_9__["CodingComponent"]
     }, {
       path: 'coding/post/:article',
-      component: _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_13__["CodingPostComponent"]
+      component: _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_10__["CodingPostComponent"]
     }, // Students posts
     {
       path: 'students',
-      component: _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_14__["StudentsComponent"]
+      component: _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_11__["StudentsComponent"]
     }, {
       path: 'students/post/:article',
-      component: _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_15__["StudentsPostComponent"]
+      component: _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_12__["StudentsPostComponent"]
     }, // Projects
     {
       path: 'projects',
-      component: _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_6__["ProjectsComponent"]
+      component: _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"]
     }, {
       path: 'projects/post/:article',
-      component: _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_7__["ProjectPostComponent"]
-    }, // Photography pages
-    {
-      path: 'photography',
-      component: _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_8__["PhotographyComponent"]
-    }, {
-      path: 'photography/blue-mountains',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/central-coast',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/hobart',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/hunter-valley',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/manila',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/melbourne',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/newcastle',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/rural-philippines',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
-    }, {
-      path: 'photography/sydney',
-      component: _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_9__["PhotographyLocationComponent"]
+      component: _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_6__["ProjectPostComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -1355,85 +1243,67 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
-    /*! ./components/contact/contact.component */
-    "./src/app/components/contact/contact.component.ts");
-    /* harmony import */
-
-
-    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
     /*! ./components/about/about.component */
     "./src/app/components/about/about.component.ts");
     /* harmony import */
 
 
-    var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
     /*! ./components/articles/projects/projects.component */
     "./src/app/components/articles/projects/projects.component.ts");
     /* harmony import */
 
 
-    var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
     /*! ./components/articles/projects/project-post/project-post.component */
     "./src/app/components/articles/projects/project-post/project-post.component.ts");
     /* harmony import */
 
 
-    var _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
-    /*! ./components/photography/photography.component */
-    "./src/app/components/photography/photography.component.ts");
-    /* harmony import */
-
-
-    var _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
-    /*! ./components/photography/photography-location/photography-location.component */
-    "./src/app/components/photography/photography-location/photography-location.component.ts");
-    /* harmony import */
-
-
-    var _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    var _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! ./components/articles/webdev/webdev.component */
     "./src/app/components/articles/webdev/webdev.component.ts");
     /* harmony import */
 
 
-    var _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./components/articles/webdev/webdev-post/webdev-post.component */
     "./src/app/components/articles/webdev/webdev-post/webdev-post.component.ts");
     /* harmony import */
 
 
-    var _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    var _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./components/articles/coding/coding.component */
     "./src/app/components/articles/coding/coding.component.ts");
     /* harmony import */
 
 
-    var _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    var _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
     /*! ./components/articles/coding/coding-post/coding-post.component */
     "./src/app/components/articles/coding/coding-post/coding-post.component.ts");
     /* harmony import */
 
 
-    var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
     /*! ./components/articles/students/students.component */
     "./src/app/components/articles/students/students.component.ts");
     /* harmony import */
 
 
-    var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
     /*! ./components/articles/students/students-post/students-post.component */
     "./src/app/components/articles/students/students-post/students-post.component.ts");
     /* harmony import */
 
 
-    var _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+    var _components_header_header_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./components/header/header.component */
     "./src/app/components/header/header.component.ts");
     /* harmony import */
 
 
-    var _components_social_social_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+    var _components_social_social_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
     /*! ./components/social/social.component */
     "./src/app/components/social/social.component.ts"); // Markdown Files
     // Angular Fire Modules
@@ -1446,7 +1316,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_14__["ContactComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_15__["AboutComponent"], _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_16__["ProjectsComponent"], _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_17__["ProjectPostComponent"], _components_photography_photography_component__WEBPACK_IMPORTED_MODULE_18__["PhotographyComponent"], _components_photography_photography_location_photography_location_component__WEBPACK_IMPORTED_MODULE_19__["PhotographyLocationComponent"], _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_20__["WebdevComponent"], _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_21__["WebdevPostComponent"], _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_22__["CodingComponent"], _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_23__["CodingPostComponent"], _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_24__["StudentsComponent"], _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_25__["StudentsPostComponent"], _components_header_header_component__WEBPACK_IMPORTED_MODULE_26__["HeaderComponent"], _components_social_social_component__WEBPACK_IMPORTED_MODULE_27__["SocialComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"], _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__["ProjectsComponent"], _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__["ProjectPostComponent"], _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_17__["WebdevComponent"], _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_18__["WebdevPostComponent"], _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_19__["CodingComponent"], _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_20__["CodingPostComponent"], _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_21__["StudentsComponent"], _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_22__["StudentsPostComponent"], _components_header_header_component__WEBPACK_IMPORTED_MODULE_23__["HeaderComponent"], _components_social_social_component__WEBPACK_IMPORTED_MODULE_24__["SocialComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_5__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_9__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_6__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_7__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_8__["AngularFireStorageModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"].forRoot({
         loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
         sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_2__["SecurityContext"].NONE
@@ -2273,23 +2143,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, WebdevComponent);
 
         this.titles = [// Webdev
-        ["Hosting an Angular Application using Netlify"], ["Creating A Simple Angular Web Application"]];
+        ["Creating Your Own Blog Using Hugo"], ["Hosting an Angular Application using Netlify"], ["Creating A Simple Angular Web Application"]];
         this.images = [// Webdev
-        ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
+        ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
         this.dates = [// Webdev
+        ["Coming Soon!"], // ["16 Sept 2020"],
         ["30 Aug 2020"], ["04 Aug 2020"]];
         this.links = [// Webdev
+        ["#"], // ["/webdev/post/createYourOwnBlogUsingHugo"],
         ["/webdev/post/hostingAngularApplicationUsingNetlify"], ["/webdev/post/creatingASimpleAngularWebApplication"]];
         this.tags = [// Webdev
-        ["Angular, Netlify, Hosting"], ["Angular"]];
+        ["Hugo"], ["Angular, Netlify, Hosting"], ["Angular"]];
         this.category = [// Webdev
-        ["webdev"], ["webdev"]];
+        ["webdev"], ["webdev"], ["webdev"]];
       }
 
       _createClass(WebdevComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.postArray = [0, 1];
+          this.postArray = [0, 1, 2];
           this.href = window.location.href;
           this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
         }
@@ -2337,101 +2209,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./webdev.component.css */
       "./src/app/components/articles/webdev/webdev.component.css"))["default"]]
     })], WebdevComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/components/contact/contact.component.css":
-  /*!**********************************************************!*\
-    !*** ./src/app/components/contact/contact.component.css ***!
-    \**********************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsContactContactComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "\r\n@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);\n/* ******************************* CONTACT ******************************* */\n/* Contact form design */\nform { max-width:420px; margin:50px auto; padding: 20px }\n.feedback-input:focus { border:2px solid #303030; background: #f3f3f3; }\ntextarea { height: 150px; line-height: 150%; resize:vertical; }\ntextarea:hover, .feedback-input:hover {background-color: #f3f1f3;}\n.form .paragraph-center {text-align: center; font-size: 16pt; padding: 20px }\n/* Contact form inputs */\n.feedback-input {\r\n  color:black; font-family: Helvetica, Arial, sans-serif; font-weight:500; font-size: 18px;\r\n  border-radius: 5px; line-height: 22px; border:2px solid #707070;\r\n  background-color: transparent;\r\n  transition: all 0.3s;\r\n  padding: 13px; margin-bottom: 15px; width:100%; box-sizing: border-box; outline:0;\r\n}\n[type=\"submit\"] {\r\n  font-family: 'Montserrat', Arial, Helvetica, sans-serif;\r\n  width: 100%; background:darkgrey;\r\n  border-radius: 5px; border:0;\r\n  cursor: pointer;\r\n  color:white; font-size:24px; font-weight:700;\r\n  padding-top:10px; padding-bottom:10px; margin-top:-4px;\r\n  transition: all 0.3s;\r\n}\n[type=\"submit\"]:hover { background:#303030; }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBRUEsdUVBQXVFO0FBRnZFLDRFQUE0RTtBQUM1RSx3QkFBd0I7QUFFeEIsT0FBTyxlQUFlLEVBQUUsZ0JBQWdCLEVBQUUsY0FBYztBQUN4RCx3QkFBd0Isd0JBQXdCLEVBQUUsbUJBQW1CLEVBQUU7QUFDdkUsV0FBVyxhQUFhLEVBQUUsaUJBQWlCLEVBQUUsZUFBZSxFQUFFO0FBQzlELHVDQUF1Qyx5QkFBeUIsQ0FBQztBQUNqRSx5QkFBeUIsa0JBQWtCLEVBQUUsZUFBZSxFQUFFLGNBQWM7QUFFNUUsd0JBQXdCO0FBQ3hCO0VBQ0UsV0FBVyxFQUFFLHlDQUF5QyxFQUFFLGVBQWUsRUFBRSxlQUFlO0VBQ3hGLGtCQUFrQixFQUFFLGlCQUFpQixFQUFFLHdCQUF3QjtFQUMvRCw2QkFBNkI7RUFDN0Isb0JBQW9CO0VBQ3BCLGFBQWEsRUFBRSxtQkFBbUIsRUFBRSxVQUFVLEVBQUUsc0JBQXNCLEVBQUUsU0FBUztBQUNuRjtBQUNBO0VBQ0UsdURBQXVEO0VBQ3ZELFdBQVcsRUFBRSxtQkFBbUI7RUFDaEMsa0JBQWtCLEVBQUUsUUFBUTtFQUM1QixlQUFlO0VBQ2YsV0FBVyxFQUFFLGNBQWMsRUFBRSxlQUFlO0VBQzVDLGdCQUFnQixFQUFFLG1CQUFtQixFQUFFLGVBQWU7RUFDdEQsb0JBQW9CO0FBQ3RCO0FBQ0Esd0JBQXdCLGtCQUFrQixFQUFFIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogQ09OVEFDVCAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi8qIENvbnRhY3QgZm9ybSBkZXNpZ24gKi9cclxuQGltcG9ydCB1cmwoaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU1vbnRzZXJyYXQ6NDAwLDcwMCk7XHJcbmZvcm0geyBtYXgtd2lkdGg6NDIwcHg7IG1hcmdpbjo1MHB4IGF1dG87IHBhZGRpbmc6IDIwcHggfVxyXG4uZmVlZGJhY2staW5wdXQ6Zm9jdXMgeyBib3JkZXI6MnB4IHNvbGlkICMzMDMwMzA7IGJhY2tncm91bmQ6ICNmM2YzZjM7IH1cclxudGV4dGFyZWEgeyBoZWlnaHQ6IDE1MHB4OyBsaW5lLWhlaWdodDogMTUwJTsgcmVzaXplOnZlcnRpY2FsOyB9XHJcbnRleHRhcmVhOmhvdmVyLCAuZmVlZGJhY2staW5wdXQ6aG92ZXIge2JhY2tncm91bmQtY29sb3I6ICNmM2YxZjM7fVxyXG4uZm9ybSAucGFyYWdyYXBoLWNlbnRlciB7dGV4dC1hbGlnbjogY2VudGVyOyBmb250LXNpemU6IDE2cHQ7IHBhZGRpbmc6IDIwcHggfVxyXG5cclxuLyogQ29udGFjdCBmb3JtIGlucHV0cyAqL1xyXG4uZmVlZGJhY2staW5wdXQge1xyXG4gIGNvbG9yOmJsYWNrOyBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsgZm9udC13ZWlnaHQ6NTAwOyBmb250LXNpemU6IDE4cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4OyBsaW5lLWhlaWdodDogMjJweDsgYm9yZGVyOjJweCBzb2xpZCAjNzA3MDcwO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gIHRyYW5zaXRpb246IGFsbCAwLjNzO1xyXG4gIHBhZGRpbmc6IDEzcHg7IG1hcmdpbi1ib3R0b206IDE1cHg7IHdpZHRoOjEwMCU7IGJveC1zaXppbmc6IGJvcmRlci1ib3g7IG91dGxpbmU6MDtcclxufVxyXG5bdHlwZT1cInN1Ym1pdFwiXSB7XHJcbiAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0JywgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICB3aWR0aDogMTAwJTsgYmFja2dyb3VuZDpkYXJrZ3JleTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7IGJvcmRlcjowO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBjb2xvcjp3aGl0ZTsgZm9udC1zaXplOjI0cHg7IGZvbnQtd2VpZ2h0OjcwMDtcclxuICBwYWRkaW5nLXRvcDoxMHB4OyBwYWRkaW5nLWJvdHRvbToxMHB4OyBtYXJnaW4tdG9wOi00cHg7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDAuM3M7XHJcbn1cclxuW3R5cGU9XCJzdWJtaXRcIl06aG92ZXIgeyBiYWNrZ3JvdW5kOiMzMDMwMzA7IH0iXX0= */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/contact/contact.component.ts":
-  /*!*********************************************************!*\
-    !*** ./src/app/components/contact/contact.component.ts ***!
-    \*********************************************************/
-
-  /*! exports provided: ContactComponent */
-
-  /***/
-  function srcAppComponentsContactContactComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "ContactComponent", function () {
-      return ContactComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/fire/firestore */
-    "./node_modules/@angular/fire/fesm2015/angular-fire-firestore.js");
-
-    var ContactComponent = /*#__PURE__*/function () {
-      function ContactComponent(db) {
-        _classCallCheck(this, ContactComponent);
-
-        this.db = db;
-      }
-
-      _createClass(ContactComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          this.users = this.db.collection('users').valueChanges({
-            idField: 'id'
-          });
-        }
-      }]);
-
-      return ContactComponent;
-    }();
-
-    ContactComponent.ctorParameters = function () {
-      return [{
-        type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"]
-      }];
-    };
-
-    ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-contact',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./contact.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./contact.component.css */
-      "./src/app/components/contact/contact.component.css"))["default"]]
-    })], ContactComponent);
     /***/
   },
 
@@ -2667,234 +2444,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/photography/photography-location/photography-location.component.css":
-  /*!************************************************************************************************!*\
-    !*** ./src/app/components/photography/photography-location/photography-location.component.css ***!
-    \************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsPhotographyPhotographyLocationPhotographyLocationComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "/* ****************************** COMMON EFFECTS ****************************** */\r\n/* Parallax effect */\r\n.parallax {background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}\r\n.photoCred {background-color:black;color:white;text-decoration:none;padding:4px 6px;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px}\r\nh1 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}\r\nh2, h3 {font-family:Helvetica,sans-serif;text-align:center;line-height:50px}\r\n.spacing {padding-bottom:15px;}\r\n/* ****************************** HEADINGS EFFECTS ****************************** */\r\n.imageTextCollage { padding: 150px 20px; color:white }\r\n.sidebar-bottom-headings {font-family:Helvetica,sans-serif;text-align:center;line-height:50px;letter-spacing:3px}\r\n/* ******************************* COLUMN LAYOUT ******************************* */\r\n.rows { display: flex; flex-wrap: wrap; padding: 0 4px; }\r\n.column-2 { flex: 50%; max-width: 50%; padding: 0 4px; }\r\n.column-2 img { margin-top: 8px; vertical-align: middle; width: 100%; }\r\n@media screen and (max-width: 900px) {.column-2 { flex: 100%; max-width: 100%; }}\r\n.column-4 { flex: 25%; max-width: 25%; padding: 0 4px; }\r\n.column-4 img { margin-top: 8px; vertical-align: middle; width: 100%; }\r\n@media screen and (max-width: 1200px) and (min-width: 681px) {.column-4 { flex: 50%; max-width: 50%; }}\r\n@media screen and (max-width: 680px) {.column-4 { flex: 100%; max-width: 100%; }}\r\n/* ******************************* PHOTOGRAPHY ******************************* */\r\n/* Images for photography list in photography-main */\r\n.photography-list {text-align:center}\r\n.photography-list-image { background-size: cover; background-repeat: no-repeat; background-position: center; width: 90%; display: inline-block; }\r\n.destination-text { color: white; text-align: center; background-color: rgba(0,0,0,0.5); font-size: 40px; padding: 200px 800px;}\r\n/* More like this section */\r\n.more-like-this { background-color:rgb(240, 240, 240); color:grey; font-size:36px }\r\n.more-like-this-heading{ font-size:18pt }\r\n@media screen and (max-width: 900px) {.more-like-this-heading { font-size:16pt }}\r\n.image {\r\n    height: 400px;\r\n}\r\n@media screen and (max-width: 601px) {.image { width: 100%; height: 220px; padding-bottom:10px }}\r\n@media screen and (min-width: 600px) and (max-width: 900px) {.image { width: 100%; height: 400px; padding-bottom:10px }}\r\n@media screen and (min-width: 901px) and (max-width: 1200px) {.image { width: 100%; height: 300px }}\r\n.image-container {\r\n    position: relative;\r\n    text-align: center;\r\n    color: white;\r\n  }\r\n.centered {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n    color: white; text-align: center; font-size: 40px; \r\n  }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9waG90b2dyYXBoeS9waG90b2dyYXBoeS1sb2NhdGlvbi9waG90b2dyYXBoeS1sb2NhdGlvbi5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGlGQUFpRjtBQUNqRixvQkFBb0I7QUFDcEIsV0FBVywyQkFBMkIsQ0FBQywwQkFBMEIsQ0FBQywyQkFBMkIsQ0FBQyxxQkFBcUI7QUFDbkgsWUFBWSxzQkFBc0IsQ0FBQyxXQUFXLENBQUMsb0JBQW9CLENBQUMsZUFBZSxDQUFDLGNBQWMsQ0FBQyxnQkFBZ0IsQ0FBQyxlQUFlLENBQUMsb0JBQW9CLENBQUMsaUJBQWlCO0FBRTFLLElBQUksZ0NBQWdDLENBQUMsaUJBQWlCLENBQUMsZ0JBQWdCO0FBQ3ZFLFFBQVEsZ0NBQWdDLENBQUMsaUJBQWlCLENBQUMsZ0JBQWdCO0FBRzNFLFVBQVUsbUJBQW1CLENBQUM7QUFFOUIsbUZBQW1GO0FBQ25GLG9CQUFvQixtQkFBbUIsRUFBRSxZQUFZO0FBQ3JELDBCQUEwQixnQ0FBZ0MsQ0FBQyxpQkFBaUIsQ0FBQyxnQkFBZ0IsQ0FBQyxrQkFBa0I7QUFFaEgsa0ZBQWtGO0FBQ2xGLFFBQVEsYUFBYSxFQUFFLGVBQWUsRUFBRSxjQUFjLEVBQUU7QUFDeEQsWUFBWSxTQUFTLEVBQUUsY0FBYyxFQUFFLGNBQWMsRUFBRTtBQUN2RCxnQkFBZ0IsZUFBZSxFQUFFLHNCQUFzQixFQUFFLFdBQVcsRUFBRTtBQUN0RSxzQ0FBc0MsWUFBWSxVQUFVLEVBQUUsZUFBZSxFQUFFLENBQUM7QUFDaEYsWUFBWSxTQUFTLEVBQUUsY0FBYyxFQUFFLGNBQWMsRUFBRTtBQUN2RCxnQkFBZ0IsZUFBZSxFQUFFLHNCQUFzQixFQUFFLFdBQVcsRUFBRTtBQUN0RSw4REFBOEQsWUFBWSxTQUFTLEVBQUUsY0FBYyxFQUFFLENBQUM7QUFDdEcsc0NBQXNDLFlBQVksVUFBVSxFQUFFLGVBQWUsRUFBRSxDQUFDO0FBRWhGLGdGQUFnRjtBQUNoRixvREFBb0Q7QUFDcEQsbUJBQW1CLGlCQUFpQjtBQUNwQywwQkFBMEIsc0JBQXNCLEVBQUUsNEJBQTRCLEVBQUUsMkJBQTJCLEVBQUUsVUFBVSxFQUFFLHFCQUFxQixFQUFFO0FBQ2hKLG9CQUFvQixZQUFZLEVBQUUsa0JBQWtCLEVBQUUsaUNBQWlDLEVBQUUsZUFBZSxFQUFFLG9CQUFvQixDQUFDO0FBQy9ILDJCQUEyQjtBQUMzQixrQkFBa0IsbUNBQW1DLEVBQUUsVUFBVSxFQUFFLGVBQWU7QUFFbEYseUJBQXlCLGVBQWU7QUFDeEMsc0NBQXNDLDBCQUEwQixlQUFlLENBQUM7QUFFaEY7SUFDSSxhQUFhO0FBQ2pCO0FBQ0Esc0NBQXNDLFNBQVMsV0FBVyxFQUFFLGFBQWEsRUFBRSxvQkFBb0IsQ0FBQztBQUNoRyw2REFBNkQsU0FBUyxXQUFXLEVBQUUsYUFBYSxFQUFFLG9CQUFvQixDQUFDO0FBQ3ZILDhEQUE4RCxTQUFTLFdBQVcsRUFBRSxjQUFjLENBQUM7QUFFbkc7SUFDSSxrQkFBa0I7SUFDbEIsa0JBQWtCO0lBQ2xCLFlBQVk7RUFDZDtBQUNGO0lBQ0ksa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixTQUFTO0lBQ1QsZ0NBQWdDO0lBQ2hDLFlBQVksRUFBRSxrQkFBa0IsRUFBRSxlQUFlO0VBQ25EIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9waG90b2dyYXBoeS9waG90b2dyYXBoeS1sb2NhdGlvbi9waG90b2dyYXBoeS1sb2NhdGlvbi5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqIENPTU1PTiBFRkZFQ1RTICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4vKiBQYXJhbGxheCBlZmZlY3QgKi9cclxuLnBhcmFsbGF4IHtiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6Zml4ZWQ7YmFja2dyb3VuZC1wb3NpdGlvbjpjZW50ZXI7YmFja2dyb3VuZC1yZXBlYXQ6bm8tcmVwZWF0O2JhY2tncm91bmQtc2l6ZTpjb3Zlcn1cclxuLnBob3RvQ3JlZCB7YmFja2dyb3VuZC1jb2xvcjpibGFjaztjb2xvcjp3aGl0ZTt0ZXh0LWRlY29yYXRpb246bm9uZTtwYWRkaW5nOjRweCA2cHg7Zm9udC1zaXplOjEycHg7Zm9udC13ZWlnaHQ6Ym9sZDtsaW5lLWhlaWdodDoxLjI7ZGlzcGxheTppbmxpbmUtYmxvY2s7Ym9yZGVyLXJhZGl1czozcHh9XHJcblxyXG5oMSB7Zm9udC1mYW1pbHk6SGVsdmV0aWNhLHNhbnMtc2VyaWY7dGV4dC1hbGlnbjpjZW50ZXI7bGluZS1oZWlnaHQ6NTBweH1cclxuaDIsIGgzIHtmb250LWZhbWlseTpIZWx2ZXRpY2Esc2Fucy1zZXJpZjt0ZXh0LWFsaWduOmNlbnRlcjtsaW5lLWhlaWdodDo1MHB4fVxyXG5cclxuXHJcbi5zcGFjaW5nIHtwYWRkaW5nLWJvdHRvbToxNXB4O31cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiBIRUFESU5HUyBFRkZFQ1RTICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4uaW1hZ2VUZXh0Q29sbGFnZSB7IHBhZGRpbmc6IDE1MHB4IDIwcHg7IGNvbG9yOndoaXRlIH1cclxuLnNpZGViYXItYm90dG9tLWhlYWRpbmdzIHtmb250LWZhbWlseTpIZWx2ZXRpY2Esc2Fucy1zZXJpZjt0ZXh0LWFsaWduOmNlbnRlcjtsaW5lLWhlaWdodDo1MHB4O2xldHRlci1zcGFjaW5nOjNweH1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogQ09MVU1OIExBWU9VVCAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqICovXHJcbi5yb3dzIHsgZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBwYWRkaW5nOiAwIDRweDsgfVxyXG4uY29sdW1uLTIgeyBmbGV4OiA1MCU7IG1heC13aWR0aDogNTAlOyBwYWRkaW5nOiAwIDRweDsgfVxyXG4uY29sdW1uLTIgaW1nIHsgbWFyZ2luLXRvcDogOHB4OyB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlOyB3aWR0aDogMTAwJTsgfVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA5MDBweCkgey5jb2x1bW4tMiB7IGZsZXg6IDEwMCU7IG1heC13aWR0aDogMTAwJTsgfX1cclxuLmNvbHVtbi00IHsgZmxleDogMjUlOyBtYXgtd2lkdGg6IDI1JTsgcGFkZGluZzogMCA0cHg7IH1cclxuLmNvbHVtbi00IGltZyB7IG1hcmdpbi10b3A6IDhweDsgdmVydGljYWwtYWxpZ246IG1pZGRsZTsgd2lkdGg6IDEwMCU7IH1cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogMTIwMHB4KSBhbmQgKG1pbi13aWR0aDogNjgxcHgpIHsuY29sdW1uLTQgeyBmbGV4OiA1MCU7IG1heC13aWR0aDogNTAlOyB9fVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2ODBweCkgey5jb2x1bW4tNCB7IGZsZXg6IDEwMCU7IG1heC13aWR0aDogMTAwJTsgfX1cclxuXHJcbi8qICoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiogUEhPVE9HUkFQSFkgKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqL1xyXG4vKiBJbWFnZXMgZm9yIHBob3RvZ3JhcGh5IGxpc3QgaW4gcGhvdG9ncmFwaHktbWFpbiAqL1xyXG4ucGhvdG9ncmFwaHktbGlzdCB7dGV4dC1hbGlnbjpjZW50ZXJ9XHJcbi5waG90b2dyYXBoeS1saXN0LWltYWdlIHsgYmFja2dyb3VuZC1zaXplOiBjb3ZlcjsgYmFja2dyb3VuZC1yZXBlYXQ6IG5vLXJlcGVhdDsgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyOyB3aWR0aDogOTAlOyBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IH1cclxuLmRlc3RpbmF0aW9uLXRleHQgeyBjb2xvcjogd2hpdGU7IHRleHQtYWxpZ246IGNlbnRlcjsgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLDAsMCwwLjUpOyBmb250LXNpemU6IDQwcHg7IHBhZGRpbmc6IDIwMHB4IDgwMHB4O31cclxuLyogTW9yZSBsaWtlIHRoaXMgc2VjdGlvbiAqL1xyXG4ubW9yZS1saWtlLXRoaXMgeyBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyNDAsIDI0MCwgMjQwKTsgY29sb3I6Z3JleTsgZm9udC1zaXplOjM2cHggfVxyXG5cclxuLm1vcmUtbGlrZS10aGlzLWhlYWRpbmd7IGZvbnQtc2l6ZToxOHB0IH1cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogOTAwcHgpIHsubW9yZS1saWtlLXRoaXMtaGVhZGluZyB7IGZvbnQtc2l6ZToxNnB0IH19XHJcblxyXG4uaW1hZ2Uge1xyXG4gICAgaGVpZ2h0OiA0MDBweDtcclxufVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA2MDFweCkgey5pbWFnZSB7IHdpZHRoOiAxMDAlOyBoZWlnaHQ6IDIyMHB4OyBwYWRkaW5nLWJvdHRvbToxMHB4IH19XHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDYwMHB4KSBhbmQgKG1heC13aWR0aDogOTAwcHgpIHsuaW1hZ2UgeyB3aWR0aDogMTAwJTsgaGVpZ2h0OiA0MDBweDsgcGFkZGluZy1ib3R0b206MTBweCB9fVxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWluLXdpZHRoOiA5MDFweCkgYW5kIChtYXgtd2lkdGg6IDEyMDBweCkgey5pbWFnZSB7IHdpZHRoOiAxMDAlOyBoZWlnaHQ6IDMwMHB4IH19XHJcblxyXG4uaW1hZ2UtY29udGFpbmVyIHtcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICB9XHJcbi5jZW50ZXJlZCB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDUwJTtcclxuICAgIGxlZnQ6IDUwJTtcclxuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xyXG4gICAgY29sb3I6IHdoaXRlOyB0ZXh0LWFsaWduOiBjZW50ZXI7IGZvbnQtc2l6ZTogNDBweDsgXHJcbiAgfSJdfQ== */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/photography/photography-location/photography-location.component.ts":
-  /*!***********************************************************************************************!*\
-    !*** ./src/app/components/photography/photography-location/photography-location.component.ts ***!
-    \***********************************************************************************************/
-
-  /*! exports provided: PhotographyLocationComponent */
-
-  /***/
-  function srcAppComponentsPhotographyPhotographyLocationPhotographyLocationComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "PhotographyLocationComponent", function () {
-      return PhotographyLocationComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/fire/firestore */
-    "./node_modules/@angular/fire/fesm2015/angular-fire-firestore.js");
-
-    var PhotographyLocationComponent = /*#__PURE__*/function () {
-      function PhotographyLocationComponent(db) {
-        _classCallCheck(this, PhotographyLocationComponent);
-
-        this.db = db;
-      }
-
-      _createClass(PhotographyLocationComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          var _this = this;
-
-          // Gets the hyperlink in the browser window, eg "vondreii/photography/blue-mountains" and gets the id, eg 'blue-mountains'
-          this.href = window.location.href;
-          this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length); // Reads from the 'photography' collection in the Firebase Database
-
-          this.collectionPhotos = this.db.collection('photography').valueChanges({
-            idField: 'id'
-          });
-          this.collectionPhotos.forEach(function (photography) {
-            // For each location, save the images/info of the matching location
-            photography.forEach(function (location) {
-              if (location.id == _this.hrefId) {
-                // this.allPhotos = location.photos;
-                // this.photosLength = location.photos.length;
-                // console.log("photosLengthFromFirebase: "+location.photos.length);
-                // console.log("photosLengthFromVariable: "+this.photosLength);
-                _this.col1 = location.col1;
-                _this.col2 = location.col2;
-                _this.col3 = location.col3;
-                _this.col4 = location.col4;
-                _this.loc = location.location;
-                _this.moreLikeThis1 = location.moreLikeThis1;
-                _this.moreLikeThis2 = location.moreLikeThis2; // console.log(location.moreLikeThis1);
-                // console.log(location.moreLikeThis2);
-              } // console.log(location.location);
-              // console.log(window.location.href);
-
-            });
-          });
-          console.log("photosLengthFromVariable: " + this.photosLength); // console.log("photosLength: "+this.photosLength);
-          // console.log("avgColumnLength: "+this.avgColumnLength);
-          // Reads from the 'photography-more-like-this' collection in the Firebase Database
-
-          this.collectionMoreLikeThis = this.db.collection("photography-more-like-this").valueChanges({
-            idField: 'id'
-          }); // each location has a display title, background image and router link to its corresponding page 
-
-          this.collectionMoreLikeThis.forEach(function (location) {
-            location.forEach(function (link) {
-              // Saves the 2 more like this links that are associated with the current page
-              if (link.id == _this.moreLikeThis1) {
-                _this.moreLikeThis1Location = link.location;
-                _this.moreLikeThis1Background = link.background;
-                _this.moreLikeThis1RouterLink = link.routerLink;
-              } else if (link.id == _this.moreLikeThis2) {
-                _this.moreLikeThis2Location = link.location;
-                _this.moreLikeThis2Background = link.background;
-                _this.moreLikeThis2RouterLink = link.routerLink;
-              }
-            });
-          });
-        }
-      }]);
-
-      return PhotographyLocationComponent;
-    }();
-
-    PhotographyLocationComponent.ctorParameters = function () {
-      return [{
-        type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"]
-      }];
-    };
-
-    PhotographyLocationComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-photography-location',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./photography-location.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/photography/photography-location/photography-location.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./photography-location.component.css */
-      "./src/app/components/photography/photography-location/photography-location.component.css"))["default"]]
-    })], PhotographyLocationComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/components/photography/photography.component.css":
-  /*!******************************************************************!*\
-    !*** ./src/app/components/photography/photography.component.css ***!
-    \******************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsPhotographyPhotographyComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGhvdG9ncmFwaHkvcGhvdG9ncmFwaHkuY29tcG9uZW50LmNzcyJ9 */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/photography/photography.component.ts":
-  /*!*****************************************************************!*\
-    !*** ./src/app/components/photography/photography.component.ts ***!
-    \*****************************************************************/
-
-  /*! exports provided: PhotographyComponent */
-
-  /***/
-  function srcAppComponentsPhotographyPhotographyComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "PhotographyComponent", function () {
-      return PhotographyComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var PhotographyComponent = /*#__PURE__*/function () {
-      function PhotographyComponent() {
-        _classCallCheck(this, PhotographyComponent);
-
-        this.titles = [["Blue Mountains"], ["Central Coast"], ["Hobart"], ["Hunter Valley"], ["Melbourne"], ["Newcastle"], ["Manila"], ["Rural Philippines"], ["Sydney"]];
-        this.images = [["../../assets/photography/blue-mountains/three-sisters-lookout-cropped.JPG"], ["../../assets/photography/central-coast/long-jetty-cropped.jpg"], ["../../assets/photography/hobart/hobart-street.jpg"], ["../../assets/photography/hunter-valley/waterfall.jpg"], ["../../assets/photography/melbourne/melbourne-street.jpg"], ["../../assets/photography/newcastle/train-tracks-cropped.jpg"], ["../../assets/photography/manila/overpass-1-cropped.JPG"], ["../../assets/photography/rural-philippines/corn-fields-cropped.JPG"], ["../../assets/photography/sydney/sydney-bridge-cropped.jpg"]];
-        this.descriptions = [["A mountainous region found approximately 60km north of Sydney, NSW, Australia."], ["A region filled with beaches that stretches the coast from Sydney up until Newcastle, NSW, Australia."], ["The state capital city of Tasmania, NSW, Australia - which is an island underneath the mainland of Australia."], ["A rural regional area located inland west of Newcastle and the Central Coast, NSW, Australia."], ["The state capital city of Victoria, Australia."], ["A major city approximately 160km north of Sydney, Australia."], ["The capital city of the Philippines."], ["Various towns and rural locations scattered throughout the Philippines."], ["The capital city of NSW, Australia. Home to Australian landmarks like the Sydney Opera House and the Harbour Bridge."]];
-        this.links = [["/photography/blue-mountains"], ["/photography/central-coast"], ["/photography/hobart"], ["/photography/hunter-valley"], ["/photography/melbourne"], ["/photography/newcastle"], ["/photography/manila"], ["/photography/rural-philippines"], ["/photography/sydney"]];
-      }
-
-      _createClass(PhotographyComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          this.postArray = [0, 1, 2, 3, 4, 5, 6, 7, 8];
-        }
-      }]);
-
-      return PhotographyComponent;
-    }();
-
-    PhotographyComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-photography',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./photography.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/photography/photography.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./photography.component.css */
-      "./src/app/components/photography/photography.component.css"))["default"]]
-    })], PhotographyComponent);
-    /***/
-  },
-
-  /***/
   "./src/app/components/social/social.component.css":
   /*!********************************************************!*\
     !*** ./src/app/components/social/social.component.css ***!
@@ -3090,7 +2639,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\Sharl\Documents\My Documents\Side Projects\Vondreii\Dev\vondreii-site\src\main.ts */
+    /*! C:\Users\Sharl\Documents\My Documents\Side Projects\Vondreii\dev\vondreii-site\src\main.ts */
     "./src/main.ts");
     /***/
   }
