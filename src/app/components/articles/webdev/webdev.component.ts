@@ -26,7 +26,6 @@ export class WebdevComponent implements OnInit {
   dates: string[][] = [
     // Webdev
     ["Coming Soon!"],
-    // ["16 Sept 2020"],
     ["30 Aug 2020"],
     ["04 Aug 2020"],
   ];

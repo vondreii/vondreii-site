@@ -1555,17 +1555,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function CodingComponent() {
         _classCallCheck(this, CodingComponent);
 
-        this.titles = [["Setting Up A Github Repository and Creating A Local Copy"]];
-        this.images = [["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]];
-        this.dates = [["22 Aug 2020"]];
-        this.links = [["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]];
-        this.tags = [["Version Control, Github"]];
+        this.titles = [["Creating A Calculator in C#"], ["Setting Up A Github Repository and Creating A Local Copy"]];
+        this.images = [["../../assets/articles/coding-images/creatingACalculatorInCSharp/header-dark.jpg"], ["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]];
+        this.dates = [["Coming Soon!"], ["22 Aug 2020"]];
+        this.links = [["#"], // ["/coding/post/creatingACalculatorInCSharp"],
+        ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]];
+        this.tags = [["C#"], ["Version Control, Github"]];
       }
 
       _createClass(CodingComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.postArray = [0];
+          this.postArray = [0, 1];
         }
       }, {
         key: "getURL",
@@ -2147,8 +2148,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.images = [// Webdev
         ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
         this.dates = [// Webdev
-        ["Coming Soon!"], // ["16 Sept 2020"],
-        ["30 Aug 2020"], ["04 Aug 2020"]];
+        ["Coming Soon!"], ["30 Aug 2020"], ["04 Aug 2020"]];
         this.links = [// Webdev
         ["#"], // ["/webdev/post/createYourOwnBlogUsingHugo"],
         ["/webdev/post/hostingAngularApplicationUsingNetlify"], ["/webdev/post/creatingASimpleAngularWebApplication"]];

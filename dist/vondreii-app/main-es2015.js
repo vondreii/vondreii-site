@@ -803,23 +803,29 @@ __webpack_require__.r(__webpack_exports__);
 let CodingComponent = class CodingComponent {
     constructor() {
         this.titles = [
+            ["Creating A Calculator in C#"],
             ["Setting Up A Github Repository and Creating A Local Copy"]
         ];
         this.images = [
+            ["../../assets/articles/coding-images/creatingACalculatorInCSharp/header-dark.jpg"],
             ["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]
         ];
         this.dates = [
+            ["Coming Soon!"],
             ["22 Aug 2020"]
         ];
         this.links = [
+            ["#"],
+            // ["/coding/post/creatingACalculatorInCSharp"],
             ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
         ];
         this.tags = [
+            ["C#"],
             ["Version Control, Github"]
         ];
     }
     ngOnInit() {
-        this.postArray = [0];
+        this.postArray = [0, 1];
     }
     getURL(i) {
         return this.images[i];
@@ -1230,7 +1236,6 @@ let WebdevComponent = class WebdevComponent {
         this.dates = [
             // Webdev
             ["Coming Soon!"],
-            // ["16 Sept 2020"],
             ["30 Aug 2020"],
             ["04 Aug 2020"],
         ];

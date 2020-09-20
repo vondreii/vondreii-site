@@ -10,25 +10,31 @@ export class CodingComponent implements OnInit {
   postArray: number[];
 
   titles: string[][] = [
+      ["Creating A Calculator in C#"],
       ["Setting Up A Github Repository and Creating A Local Copy"]
   ];
   images: string[][] = [
+      ["../../assets/articles/coding-images/creatingACalculatorInCSharp/header-dark.jpg"],
       ["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]
   ];
   dates: string[][] = [
+      ["Coming Soon!"],
       ["22 Aug 2020"]
   ];
   links: string[][] = [
+      ["#"],
+      // ["/coding/post/creatingACalculatorInCSharp"],
       ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
   ];
   tags: string[][] = [
+    ["C#"],
     ["Version Control, Github"]
   ];
 
   constructor() {}
 
   ngOnInit() {
-    this.postArray = [0];
+    this.postArray = [0,1];
   }
 
   getURL(i) {
