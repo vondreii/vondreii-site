@@ -23,7 +23,7 @@ export class CodingComponent implements OnInit {
   ];
   links: string[][] = [
       ["#"],
-      // ["/coding/post/creatingACalculatorInCSharp"],
+      //["/coding/post/creatingACalculatorInCSharp"],
       ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
   ];
   tags: string[][] = [

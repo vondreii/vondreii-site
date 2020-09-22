@@ -816,7 +816,7 @@ let CodingComponent = class CodingComponent {
         ];
         this.links = [
             ["#"],
-            // ["/coding/post/creatingACalculatorInCSharp"],
+            //["/coding/post/creatingACalculatorInCSharp"],
             ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
         ];
         this.tags = [

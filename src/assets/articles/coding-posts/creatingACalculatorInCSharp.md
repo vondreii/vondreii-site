@@ -7,6 +7,11 @@ ___
 ###### ??? [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
+<div class="center extraPadding">
+    <a href="/coding/post/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+</div>
+
 Blah
 
 Have VS
@@ -252,6 +257,13 @@ Now position the second textbox at the top of the panel:
 </div>
 <!-- ----------------------------- -->
 
+Continue on to the next steps to add the functionality.
+
+<div class="read-more-container">
+    <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Next steps >></a>
+</div>
+
+<br><br>
 
 ### Resources
 * https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
