@@ -257,6 +257,28 @@ Now position the second textbox at the top of the panel:
 </div>
 <!-- ----------------------------- -->
 
+### 5. Adding error warnings
+
+I will also add a single error warning for when the user enters a calculation that is invalid. For example, if they entered **5+4+-x....**, the calculator shouldn't calculate it, it should instead display a message.
+
+Click and drag a label from the toolbox. These are going to be the properties:
+
+* **Name:** err_not_valid
+* **ForeColor:** Red
+* **Text:** Calculation not valid
+* **Visible:** False
+
+The visibility is initially false because we want the error warning to stay invisible and only show when the user has entered a wrong input. The functionality for this wil be discussed in Part 2, so for now we will just add the text label for the warning. 
+
+This is what the final design of the calculator should look like:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/final.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Create a new project</p></div>
+</div>
+<!-- ----------------------------- -->
+
 Continue on to the next steps to add the functionality.
 
 <div class="read-more-container">

@@ -12,14 +12,31 @@ ___
     <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
 </div>
 
-### 5. Adding the functionality
+### 6. Running the program for the first time
+
+Put something here about configuring the size
+
+* Add manifest file and add 
+
+```js
+<application xmlns="urn:schemas-microsoft-com:asm.v3">
+  <windowsSettings>
+    <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
+  </windowsSettings>
+</application>
+
+```
+
+* This is to stop the text from being blurry.
+
+### 7. Adding the functionality to numbers and operators  
 
 We are now going to add the basic functionality of pressing buttons, pressing the equals sign and getting an answer to the calculation. This is what we want it to look like:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/calc_preview.png" class="image">
-    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/calc.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/goal_preview.png" class="image">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/goal.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -28,12 +45,12 @@ Notice that as the user presses numbers on the calculator, the display is update
 
 Everytime the user presses the equals button, the text gets moved to the very top and is shown above the final answer.
 
-Double click on a button to open the source code.
+Double click on a number button to open the source code.
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/sourceCode_preview.png" class="image-full">
-    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/sourceCode.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_num_1_preview.png" class="image-full">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_num_1.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -53,8 +70,8 @@ If you click on the button for number two, the same thing will happen:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/sourceCode2_preview.png" class="image-full">
-    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/sourceCode2.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_num_2_preview.png" class="image-full">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_num_2.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -63,15 +80,12 @@ Click on all the numbers and operators (0-9), (+, -, x, ÷, right and left brack
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/allSourceCodeButtons.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_num_all.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Create a new project</p></div>
 </div>
 <!-- ----------------------------- -->
 
-
-We are going to use and explain these in more detail later.
-
-But first, add the line: 
+Now, add the line: 
 `private string currentCalculation = "";` 
 towards the top of the file, at this location:
 
@@ -96,6 +110,7 @@ The next step is to actually display the calculation back to the user as they ar
 private void AddToCalculation(string numberOrOperator) 
 {
     currentCalculation += numberOrOperator; // This adds the number or operator to the calculation
+
     output_result.Text = currentCalculation; // This displays the updated calculation back onto the screen. 
     
     // Note: 'output_result' needs to be consistent with what you named the textbox on the interface. If you called it something else (for example, 'result', this line would instead be result.Text = currentCalculation) 
@@ -229,7 +244,91 @@ If there are no errors in the code, you should be getting something that looks l
 
 Notice that the **equals** button still does not work, and neither does the **C** or **CE** buttons.
 
-Go back to the interface and double click the **equals** button. It should open the event handler code block for when the it is pressed:
+Also, if you press times or divide, the symbols  **'*'** and **/** will show. Although these are definitely needed in order to do the internal calculation, we don't want these to be displayed. We want to display the more user friendly and familiar **x** and **÷** symbols instead.
+
+Copy the following code above your `AddToCalculation` method:
+
+```js
+private string Format(string answer)
+{
+    return answer.ToString().Replace("*", "x").ToString().Replace("/", "÷");
+}
+```
+
+We will use this everytime we are going to display something to the user. It will automatically format the times and divide symbols and display them properly.
+
+Change the code inside your `AddToCalculation` from this:
+
+```js
+currentCalculation += numberOrOperator;
+output_result.Text = currentCalculation;
+
+```
+
+to this, instead:
+
+```js
+currentCalculation += numberOrOperator;
+output_result.Text = Format(currentCalculation); // We are now going to use the format method to display the familiar times and divide symbols
+
+```
+
+And your calculator should now display those symbols properly.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/divide-times-format.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Create a new project</p></div>
+</div>
+<!-- ----------------------------- -->
+
+### 8. Getting an answer using the equals button  
+
+Go back to the interface and double click the **equals** button. It should open the event handler code block for when it is pressed:
+
+<!-- ----------- Video ----------- -->
+<div class="image-container">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_equals_preview.PNG" class="image-full">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_equals.mp4" type="video/mp4">
+    </video>
+</div>
+<!-- ----------------------------- -->
+
+When the user presses the **equals** button, we want the answer to appear on the display, with the calculation for it displayed above.
+
+Copy the 3 lines below into the `button_equals_Click` method that was just created.
+
+```js
+private void button_equals_Click(object sender, EventArgs e)
+{
+    // Add these 3 lines:
+    output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); // Calculate the answer of the calculation, and display it in the large textbox.
+     
+    output_calculation.Text = Format(currentCalculation); // Move the calculation that is being displayed to show above the answer.
+    
+    currentCalculation = output_result.Text; // Resets the calculation that is being entered. Uses the answer as the new value.
+}
+```
+
+`output_result.Text` refers to the larger bottom textbox, and `output_calculation` refers to the smaller textbox we added above it.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/output_calculation.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Create a new project</p></div>
+</div>
+<!-- ----------------------------- -->
+
+Your code should now look like this:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/equalsCode.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Create a new project</p></div>
+</div>
+<!-- ----------------------------- -->
+
+If you run the program, it should now look like this:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
@@ -239,56 +338,70 @@ Go back to the interface and double click the **equals** button. It should open 
 </div>
 <!-- ----------------------------- -->
 
-When the user presses the **equals** button, we want the answer to appear on the display, and we want the calculation to move to be displayed above the answer.
+### 9. Clearing the display with C and CE
 
-Copy the below code, put it directly after the `AddToCalculation` method we created earlier:
+**C** stands for clear, and means to clear the whole display. Double click on the **C** button to open it in the source code.
+
+Add the 3 lines of code inside the `button_Clear_Click` method:
 
 ```js
-private void button_equals_Click(object sender, EventArgs e)
+private void button_Clear_Click(object sender, EventArgs e)
 {
-    output_result.Text = new DataTable().Compute(currentCalculation, null).ToString(); // Calculate the answer of the calculation, and display it in the large textbox.
+    // Add these 3 lines:
+    output_result.Text = ""; // The large textbox that holds the answer becomes empty
 
-    output_calculation.Text = currentCalculation; // Move the calculation that is being displayed to show above the answer.
+    output_calculation.Text = ""; // The textbox above the answer that displays the ongoing calculation also becomes empty
 
-    currentCalculation = output_result.Text; // Resets the calculation that is being entered. Uses the answer as the new value.
+    currentCalculation = ""; // The calculation itself is reset 
 }
 ```
 
-`output_result.Text` refers to the 
+If anything is being displayed to the user, they will be removed and the calculation that the user is entering will also be reset. After adding the code and running the program, this is what it will look like now:
 
-When the user presses the equals button, 
-
-Your code should now look like this:
-
-<!-- ----------- Image ----------- -->
+<!-- ----------- Video ----------- -->
 <div class="image-container">
-    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/equalsCode2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/clear_preview.png" class="image">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/clear.mp4" type="video/mp4">
+    </video>
 </div>
 <!-- ----------------------------- -->
 
+**CE** stands for clear entry. If pressed, it will delete/undo the most recent buttons pressed. Similar to what you did before with the **C** button, double click the **CE** button to open it in the source code. 
 
+Copy the following code into the `button_ClearEntry_Click` method that was just created.
+
+```js
+private void button_ClearEntry_Click(object sender, EventArgs e)
+{
+    // Add these 3 lines:
+    if (currentCalculation.Length > 0) // If the calculation is not empty
+    { 
+        currentCalculation = currentCalculation.Remove(currentCalculation.Length - 1, 1); // Remove the last number or operator from the calculation
+    }
+    output_result.Text = Format(currentCalculation); // Re-display the calculation onto the screen
+}
+
+```
+
+If successful, your calculator should now look like this if you run the program:
+
+<!-- ----------- Video ----------- -->
+<div class="image-container">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/clear_entry_preview.png" class="image">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/clear_entry.mp4" type="video/mp4">
+    </video>
+</div>
+<!-- ----------------------------- -->
+
+To be contied.
+<br> 
 <!-- yyyyyyyyyyyyyyyyyyyyyyyyyyyyy -->
-* When they press equals, the output_result will update and put the answer. The current calculation will move to the top.
 
-* Add the Clear and Clear entries. 
-
-* Add the IsValid() boolean method.
-
-* Create a label somewhere called err_not_valid which will show whenever the calc is invalid, and will hide when it isn't invalid.
+* Add the IsValid() boolean method. Show err_not_valid which will show whenever the calc is invalid, and will hide when it isn't invalid.
 
 * Add the pressedEqualsTwice to make sure the user can't press equals and erase the last calc.
 
-* Add manifest file and add 
-```xml
-<application xmlns="urn:schemas-microsoft-com:asm.v3">
-  <windowsSettings>
-    <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
-  </windowsSettings>
-</application>
 
-```
-* This is to stop the text from being blurry.
 
 ### Resources
 * https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
