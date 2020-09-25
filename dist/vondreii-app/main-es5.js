@@ -1558,8 +1558,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.titles = [["Creating A Calculator in C#"], ["Setting Up A Github Repository and Creating A Local Copy"]];
         this.images = [["../../assets/articles/coding-images/creatingACalculatorInCSharp/header-dark.jpg"], ["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]];
         this.dates = [["Coming Soon!"], ["22 Aug 2020"]];
-        this.links = [["#"], //["/coding/post/creatingACalculatorInCSharp"],
-        ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]];
+        this.links = [//["#"],
+        ["/coding/post/creatingACalculatorInCSharp"], ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]];
         this.tags = [["C#"], ["Version Control, Github"]];
       }
 

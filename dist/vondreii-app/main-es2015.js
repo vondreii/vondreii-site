@@ -815,8 +815,8 @@ let CodingComponent = class CodingComponent {
             ["22 Aug 2020"]
         ];
         this.links = [
-            ["#"],
-            //["/coding/post/creatingACalculatorInCSharp"],
+            //["#"],
+            ["/coding/post/creatingACalculatorInCSharp"],
             ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
         ];
         this.tags = [

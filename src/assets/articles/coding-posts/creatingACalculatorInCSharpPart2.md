@@ -10,6 +10,7 @@ ___
 <div class="center extraPadding">
     <a href="/coding/post/creatingACalculatorInCSharp" class="button">Part 1</a>
     <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 ### 6. Running the program for the first time
@@ -98,7 +99,8 @@ public partial class Calculator : Form
     {
         InitializeComponent();
     }
-        
+       
+...
 ```
 `currentCalculation` is a variable that is going to store the calculation that the user is entering. 
 For example, if the user entered **3+3**, then the value of `currentCalculation` will be **3+3**. If the user then clicks **+**, then **5**,
@@ -288,7 +290,7 @@ Go back to the interface and double click the **equals** button. It should open 
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_equals_preview.PNG" class="image-full">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/equals_preview.PNG" class="image-full">
     <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_equals.mp4" type="video/mp4">
     </video>
 </div>
@@ -314,7 +316,7 @@ private void button_equals_Click(object sender, EventArgs e)
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/output_calculation.PNG" alt="image" class="image"/>
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/outputs_calc.PNG" alt="image" class="image"/>
 	<div class="image-description"><p>Create a new project</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -393,19 +395,13 @@ If successful, your calculator should now look like this if you run the program:
 </div>
 <!-- ----------------------------- -->
 
-To be contied.
-<br> 
-<!-- yyyyyyyyyyyyyyyyyyyyyyyyyyyyy -->
+You now have the basic functionalities of a calculator. 
 
-* Add the IsValid() boolean method. Show err_not_valid which will show whenever the calc is invalid, and will hide when it isn't invalid.
+Continue on to the next steps to handle invalid inputs and to finalise the calculator.
 
-* Add the pressedEqualsTwice to make sure the user can't press equals and erase the last calc.
-
-
-
-### Resources
-* https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
-* https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/
+<div class="read-more-container">
+    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
+</div>
 
 <br><br>
 

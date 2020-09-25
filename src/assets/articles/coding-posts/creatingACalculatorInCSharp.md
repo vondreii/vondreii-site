@@ -2,21 +2,33 @@
 <div class="writtenContent">
 
 ## Creating A Calculator in C#
-___
 
 ###### ??? [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
+<!-- ----------- Video ----------- -->
+<div class="image-container">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/final_preview.PNG" class="image-full">
+    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/final.mp4" type="video/mp4">
+    </video>
+</div>
+<!-- ----------------------------- -->
+
 <div class="center extraPadding">
     <a href="/coding/post/creatingACalculatorInCSharp" class="button">Part 1</a>
     <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
-Blah
+We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections:
 
-Have VS
+* **Part 1** covers creating the interface for the calculator. We are going to be using Visual Studio's C# Windows Forms to add buttons to the calculator.
+* **Part 2** covers adding in the basic functionality to the calculator (adding, subtracting, all of that calculator stuff).
+* **Part 3** will go through handling any invalid inputs and runtime exceptions. We will also 'finalise' the calculator. 
 
-For this tutorial we are going to be using Visual Studio 2017.
+Before we start:
+* Make sure you have Visual Studio downloaded onto your computer. If you don't have Visual Studio you can get the Community version for free, from [Microsoft's Visual Studio Download page](https://visualstudio.microsoft.com/downloads/). For this tutorial we are going to be using Visual Studio 2017. 
+* You don't have to have a lot (or any) programming knowledge to be able to complete this tutorial. It helps to have some basic knowledge of variables and functions, but I've tried to explain each step as much as possible.
 
 ### 1. Creating a new project 
 
@@ -71,7 +83,7 @@ Visual Studio is a big software and it would be impossible to cover all the func
 At the very center is a **Form.** It isn't really a 'form' where you have to answer any questions given to you... it's really just an interface that can accept user input. 
 If you are new to this concept, you can think of it as a canvas and we can design what textboxes or buttons we want the user to see and use when they open the application.
 
-For example, on this form we are going to have many buttons (like a calculator!) with each button either being a number (1, 2, 3, 4, 5, etc) or an operation (+, -, etc).
+For example, on this form we are going to have many buttons (like a calculator!) with each button either being a number (1, 2, 3, 4, 5, etc) or an operator (+, -, etc).
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
