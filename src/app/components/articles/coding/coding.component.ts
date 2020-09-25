@@ -22,8 +22,8 @@ export class CodingComponent implements OnInit {
       ["22 Aug 2020"]
   ];
   links: string[][] = [
-      //["#"],
-      ["/coding/post/creatingACalculatorInCSharp"],
+      ["#"],
+      //["/coding/post/creatingACalculatorInCSharp"],
       ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
   ];
   tags: string[][] = [
