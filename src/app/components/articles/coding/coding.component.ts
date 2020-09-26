@@ -18,12 +18,11 @@ export class CodingComponent implements OnInit {
       ["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]
   ];
   dates: string[][] = [
-      ["Coming Soon!"],
+      ["26 Sept 2020"],
       ["22 Aug 2020"]
   ];
   links: string[][] = [
-      ["#"],
-      //["/coding/post/creatingACalculatorInCSharp"],
+      ["/coding/post/creatingACalculatorInCSharp"],
       ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
   ];
   tags: string[][] = [

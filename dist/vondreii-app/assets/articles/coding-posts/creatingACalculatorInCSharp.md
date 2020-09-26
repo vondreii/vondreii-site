@@ -3,7 +3,7 @@
 
 ## Creating A Calculator in C#
 
-###### ??? [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
+###### 26 Sept 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
 <!-- ----------- Video ----------- -->
@@ -30,6 +30,13 @@ Before we start:
 * Make sure you have Visual Studio downloaded onto your computer. If you don't have Visual Studio you can get the Community version for free, from [Microsoft's Visual Studio Download page](https://visualstudio.microsoft.com/downloads/). For this tutorial we are going to be using Visual Studio 2017. 
 * You don't have to have a lot (or any) programming knowledge to be able to complete this tutorial. It helps to have some basic knowledge of variables and functions, but I've tried to explain each step as much as possible.
 
+The final source code can also be viewed and downloaded from Github:
+<div class="download-container">
+    <div class="download-link">
+        <a href="https://github.com/vondreii/Calculator-Example" class="button">↓ Final Source Code at completion of Part 3 ↓</a>
+    </div>
+</div>
+
 ### 1. Creating a new project 
 
 Open up Visual Studio. At the top, go to **File > New > Project** to create a new project.
@@ -46,7 +53,7 @@ Now we need to set up the settings for the project.
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/project-settings.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Setting up the project settings</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -65,7 +72,7 @@ When the project loads, it should look similar to this:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/VS-layout.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Visual Studio layout</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -76,7 +83,7 @@ Visual Studio is a big software and it would be impossible to cover all the func
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/VS-layout-form.png" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>The layout with the form</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -88,7 +95,7 @@ For example, on this form we are going to have many buttons (like a calculator!)
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/VS-layout-buttons.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Toolbox items</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -99,7 +106,7 @@ In the toolbox menu, there should be the option to add a **Button**. Click on th
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/add-button.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Click and drag a button to add it</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -110,7 +117,7 @@ Don't double click on the button yet, because if you do it will take you to the 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/button-properties.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Properties for the button</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -131,7 +138,7 @@ Here is my progress so far, with 2 buttons:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/add-more-buttons.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Adding a second button</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -140,7 +147,7 @@ You can now repeat the same process for all buttons 0-9. Once you've done that, 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/all-number-buttons.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Adding the remaining buttons</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -154,14 +161,14 @@ I'm going to be adding a darker grey to the operators. This is an example of the
 * **Size:** 120, 120
 * **Text:** +
 
-The **Name** for each changes based on the operator. For example, button_plus, button_minus, button_divide, button_rightBracket, etc.
+The **Name** for each button will change based on the operator. For example, button_plus, button_minus, button_divide, button_rightBracket, etc.
 
 Here is what it looks like with all of the operators: 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/all-operator-buttons.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Adding all the operators</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -181,7 +188,7 @@ You can also add the same styling to the Clear Entry button.
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/all-clear-buttons.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Adding C and CE buttons</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -192,7 +199,7 @@ You should also right-click **Form1** under the Solutions Explorer and rename th
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/rename-form.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Rename the form</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -206,7 +213,7 @@ Move and resize the panel so it is at the very top, above the buttons. Like this
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/panel.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Add a panel</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -216,18 +223,19 @@ When the calculator is in use, we want it to look something like this:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/goal.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Goal design for the calculator</p></div>
 </div>
 <!-- ----------------------------- -->
 
 At the top of the display, we will show the current calculation that will update as the user enters numbers. The final result will display at the bottom.
+Both of these will be added as textboxes.
 
 Add a Textbox near the panel:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/add-textbox.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Add the first textbox</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -247,7 +255,7 @@ Now click and drag the textbox so it goes ontop of the panel, like this:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/add_result_output.png" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Drag the girst textbox so it is ontop of the panel</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -265,7 +273,7 @@ Now position the second textbox at the top of the panel:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/add_calculation_output.png" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Add a second textbox ontop of the panel</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -287,7 +295,7 @@ This is what the final design of the calculator should look like:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharp/final.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Warning label</p></div>
 </div>
 <!-- ----------------------------- -->
 

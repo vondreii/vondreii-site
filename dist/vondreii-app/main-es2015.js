@@ -811,11 +811,10 @@ let CodingComponent = class CodingComponent {
             ["../../assets/articles/coding-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"]
         ];
         this.dates = [
-            ["Coming Soon!"],
+            ["26 Sept 2020"],
             ["22 Aug 2020"]
         ];
         this.links = [
-            //["#"],
             ["/coding/post/creatingACalculatorInCSharp"],
             ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"]
         ];

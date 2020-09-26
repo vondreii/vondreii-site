@@ -2,9 +2,8 @@
 <div class="writtenContent">
 
 ## Creating A Calculator in C# (Part 2)
-___
 
-###### ??? [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
+###### 26 Sept 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
 <div class="center extraPadding">
@@ -15,20 +14,141 @@ ___
 
 ### 6. Running the program for the first time
 
-Put something here about configuring the size
+To run the code, press the green **Start** button which is at the very top.
 
-* Add manifest file and add 
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/run_code.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Start running the program</p></div>
+</div>
+<!-- ----------------------------- -->
+
+Your calculator program will start running. This is what the user will be seeing when they use your calculator app as well.
+
+This is what it is going to look like at first:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/run_code2.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Calculator at runtime</p></div>
+</div>
+<!-- ----------------------------- -->
+
+As you can see, the size of the screen has not been configured and the text is blurry. Some of the buttons are cut off at the bottom (you might see something slightly different, depending on the size of the screen). So, we will need to change a few things first before the calculator will start to look normal.
+
+To stop the program, either close the calculator itself or press the red stop button at the top.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/stop_program.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Stop the program</p></div>
+</div>
+<!-- ----------------------------- -->
+
+Right-click on the Project (in the Solutions Explorer). Hover over **Add** and select **Add new item**. 
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/add_new_item.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Add new item</p></div>
+</div>
+<!-- ----------------------------- -->
+
+Click in the **General** tab (in the left options side bar), then select **Application Manifest File**.
+
+Once selected, click **Add** at the bottom.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/add_manifest_file.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Add the manifest file</p></div>
+</div>
+<!-- ----------------------------- -->
+
+The manifest file will be added, and it will be called **app.manifest**. 
+
+It should automatically open once you have added it. Otherwise, you can open it by double clicking on it in the Solutions explorer:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/manifest_file.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>The opened manifest file</p></div>
+</div>
+<!-- ----------------------------- -->
+  
+Scroll down to **line 52**. We don't care about anything in the manifest file except for this little block of code:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/dpi_settings.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>DPI settings code commented</p></div>
+</div>
+<!-- ----------------------------- -->
+
+The `<!--` and `-->` symbols around the code mean that the code is commented (in simple terms, it will not be read by the program). You will need to delete these, so the code will look like this instead:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/dpi_settings2.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>DPI settings code uncommented</p></div>
+</div>
+<!-- ----------------------------- -->
+
+This code is going to enable the program to be DPI aware, therefore preventing issues with automatic scaling which can cause the text to be blurry when you run the program. 
+
+Once you are done with that, go back to the calculator interface. Whenever you have multiple files open, you can switch between them via these tabs located above your design/code screen.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/switching_tabs.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Switching tabs</p></div>
+</div>
+<!-- ----------------------------- -->
+
+We now want to configure the positioning and size of the window when we run the program. Move all your buttons at an appropriate spot somewhere on the left of the interface:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_positions.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Position of buttons moved to the left</p></div>
+</div>
+<!-- ----------------------------- -->
+
+Now right-click the form, and select **view code**.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/view_code.PNG" alt="image" class="image"/>
+	<div class="image-description"><p>Right click to view calculator source code</p></div>
+</div>
+<!-- ----------------------------- -->
+
+The source code for the program will automatically open:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/calculator_source_code.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Source code</p></div>
+</div>
+<!-- ----------------------------- -->
+
+In `Calculator()`, we are going to specify our Maximum and Minimum window size. For now, we are going to make it a fixed window size.
 
 ```js
-<application xmlns="urn:schemas-microsoft-com:asm.v3">
-  <windowsSettings>
-    <dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware>
-  </windowsSettings>
-</application>
-
+public partial class Calculator : Form
+{
+    public Calculator()
+    {
+        InitializeComponent();
+        MaximumSize = new Size(790, 1060); // Add this line
+        MinimumSize = new Size(790, 1060); // Add this line
+    }
+}
 ```
 
-* This is to stop the text from being blurry.
+The first value `790` is the width, and the second value `1060` is the height. 
+
+Now, run your program again. At this point, the text should be clearer and the size should be better. You might have to adjust your width and height value depending on the position of your buttons and how big they are.
 
 ### 7. Adding the functionality to numbers and operators  
 
@@ -57,6 +177,7 @@ Double click on a number button to open the source code.
 <!-- ----------------------------- -->
 
 Each button will have their own method block. It looks like this (exactly how you see it in the video):
+
 ```js
 private void button_num1_Click(object sender, EventArgs e)
 {
@@ -82,7 +203,7 @@ Click on all the numbers and operators (0-9), (+, -, x, ÷, right and left brack
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_num_all.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Event handlers for all buttons</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -98,6 +219,8 @@ public partial class Calculator : Form
     public Calculator()
     {
         InitializeComponent();
+        MaximumSize = new Size(790, 1060);
+        MinimumSize = new Size(790, 1060);
     }
        
 ...
@@ -133,7 +256,7 @@ Copy and paste the code block in the same place as shown below:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/AddToCalculation.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Add to calculation</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -248,7 +371,7 @@ Notice that the **equals** button still does not work, and neither does the **C*
 
 Also, if you press times or divide, the symbols  **'*'** and **/** will show. Although these are definitely needed in order to do the internal calculation, we don't want these to be displayed. We want to display the more user friendly and familiar **x** and **÷** symbols instead.
 
-Copy the following code above your `AddToCalculation` method:
+Copy the following code:
 
 ```js
 private string Format(string answer)
@@ -256,6 +379,15 @@ private string Format(string answer)
     return answer.ToString().Replace("*", "x").ToString().Replace("/", "÷");
 }
 ```
+
+You can add it anywhere before or after the `AddToCalculation` function, like this:
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/format.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Format</p></div>
+</div>
+<!-- ----------------------------- -->
 
 We will use this everytime we are going to display something to the user. It will automatically format the times and divide symbols and display them properly.
 
@@ -280,17 +412,16 @@ And your calculator should now display those symbols properly.
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/divide-times-format.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Times and divide properly formatted</p></div>
 </div>
 <!-- ----------------------------- -->
 
 ### 8. Getting an answer using the equals button  
 
 Go back to the interface and double click the **equals** button. It should open the event handler code block for when it is pressed:
-
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/equals_preview.PNG" class="image-full">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_equals_preview.PNG" class="image-full">
     <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/button_equals.mp4" type="video/mp4">
     </video>
 </div>
@@ -317,7 +448,7 @@ private void button_equals_Click(object sender, EventArgs e)
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/outputs_calc.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Display screens/textboxes to show the answer and the calculation</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -326,7 +457,7 @@ Your code should now look like this:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart2/equalsCode.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Equals Code</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -370,7 +501,7 @@ If anything is being displayed to the user, they will be removed and the calcula
 
 **CE** stands for clear entry. If pressed, it will delete/undo the most recent buttons pressed. Similar to what you did before with the **C** button, double click the **CE** button to open it in the source code. 
 
-Copy the following code into the `button_ClearEntry_Click` method that was just created.
+Copy the following 3 lines of code into the `button_ClearEntry_Click` method that was just created.
 
 ```js
 private void button_ClearEntry_Click(object sender, EventArgs e)

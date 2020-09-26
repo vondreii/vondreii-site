@@ -2,9 +2,8 @@
 <div class="writtenContent">
 
 ## Creating A Calculator in C# (Part 3)
-___
 
-###### ??? [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
+###### 26 Sept 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
 <div class="center extraPadding">
@@ -34,7 +33,7 @@ This is a close up view of the error:
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/error_close_up.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Runtime error - SyntaxErrorException</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -50,7 +49,7 @@ Currently, this is what the code looks like for when you press the equals button
 private void button_equals_Click(object sender, EventArgs e)
 {
     output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); // This is the line that crashes (the line that computes the answer)
-    output_calculation.Text = Format(currentCalculation); // Shows the answer to the user
+    output_calculation.Text = Format(currentCalculation); // Displays the calculation above the answer
     currentCalculation = output_result.Text; // Resets the calculation
 }
 ```
@@ -98,7 +97,7 @@ In part 1 we added a label to the front part of our interface, called **err_not_
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/error_message.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Invalid calculation error message</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -167,6 +166,8 @@ public partial class Calculator : Form
     public Calculator()
     {
         InitializeComponent();
+        MaximumSize = new Size(790, 1060);
+        MinimumSize = new Size(790, 1060);
     }
     
 ...
@@ -258,7 +259,7 @@ I found some free icons at [icons-icons.com](https://icon-icons.com/search/icons
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/icon1.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Changing the icon</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -271,7 +272,7 @@ I found some free icons at [icons-icons.com](https://icon-icons.com/search/icons
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/icon2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Changing the icon</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -282,7 +283,7 @@ I found some free icons at [icons-icons.com](https://icon-icons.com/search/icons
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/icon3.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Changing the icon</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -291,7 +292,7 @@ Your C# project folder will automatically have an executable file of your progra
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/build.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Build the solution</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -300,7 +301,7 @@ Now, open the folder that stores your project. If you go to **ProjectName >> bin
 <!-- ----------- Image ----------- -->
 <div class="image-container">
     <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/exe.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Create a new project</p></div>
+	<div class="image-description"><p>Application directory - location of executable file</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -319,6 +320,14 @@ Better yet, you can create a shortcut to your .exe file and store it on the Desk
 <!-- ----------------------------- -->
 
 Now you should hopefully have a functional and efficiently working calculator! Enjoy :)
+
+Don't forget you can also view the final source code for the calculator, exactly as it was explained in this tutorial.
+
+<div class="download-container">
+    <div class="download-link">
+        <a href="https://github.com/vondreii/Calculator-Example" class="button">↓ Final Source Code at completion of Part 3 ↓</a>
+    </div>
+</div>
 
 <br><br>
 
