@@ -123,7 +123,7 @@ Don't double click on the button yet, because if you do it will take you to the 
 
 Every object that you add onto the form will have a set of properties. This will be displayed in the properties window (as shown in the above image). For example, if you have button1 highlighted, you will be able to see all the properties of button1 (it's name, size, height, background colour, and other things). We are going to change some of these settings to the following:
 
-* **Name:** button_num1
+* **Name:** button_num
 * **Back-Color:** Any grey/silver colour
 * **Font:** Microsoft Sans Serif, 12pt
 * **Size:** 120, 120

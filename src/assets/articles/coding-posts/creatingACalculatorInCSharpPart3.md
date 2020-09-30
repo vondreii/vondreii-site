@@ -20,11 +20,10 @@ The final part of the work involves making the program more robust so invalid in
 
 Currently, if the user were to enter something like **18++++.....34**, it will still be calculated, but because it is invalid, the program will stop with a runtime error:
 
-<!-- ----------- Video ----------- -->
+<!-- ----------- Image ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/runtime_error_preview.PNG" class="image-full">
-    <source src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/runtime_error.mp4" type="video/mp4">
-    </video>
+    <img src="../../../assets/articles/coding-images/creatingACalculatorInCSharpPart3/runtime_error.PNG" alt="image" class="image-full"/>
+	<div class="image-description"><p>Runtime error - SyntaxErrorException</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -39,7 +38,9 @@ This is a close up view of the error:
 
 The error is a **SyntaxErrorException**, and happens at this line:
 
-`output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString());`
+```js
+output_result.Text = new DataTable().Compute(formattedCalculation, null).ToString();
+```
 
 This is because the format of the calculation is invalid, and so the `Compute` function that we are using is unable to calculate anything.
 
@@ -48,9 +49,13 @@ Currently, this is what the code looks like for when you press the equals button
 ```js
 private void button_equals_Click(object sender, EventArgs e)
 {
-    output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); // This is the line that crashes (the line that computes the answer)
-    output_calculation.Text = Format(currentCalculation); // Displays the calculation above the answer
-    currentCalculation = output_result.Text; // Resets the calculation
+    string formattedCalculation = currentCalculation.ToString().Replace("x", "*").ToString().Replace("÷", "/"); // replaces text with symbols used in programming
+
+    output_result.Text = new DataTable().Compute(formattedCalculation, null).ToString(); // Calculate the answer of the calculation, and display it in the large textbox.
+
+    output_calculation.Text = currentCalculation; // Move the calculation that is being displayed to show above the answer.
+
+    currentCalculation = output_result.Text; // Resets the calculation that is being entered. Uses the answer as the new value.
 }
 ```
 
@@ -63,7 +68,7 @@ It will look a bit like this:
 ```js
 try
 {
-    // The code that could potentially cases a runtime/error crash goes in here.
+    // The code that could potentially cause a runtime error / crash goes in here.
 }
 catch
 {
@@ -80,11 +85,13 @@ private void button_equals_Click(object sender, EventArgs e)
 {
     try
     {
-        output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); // Compute the answer
-        output_calculation.Text = Format(currentCalculation); // Shows the answer to the user
-        currentCalculation = output_result.Text; // Resets the calculation
+        // current code goes into the try block
+        string formattedCalculation = currentCalculation.ToString().Replace("x", "*").ToString().Replace("÷", "/"); 
+        output_result.Text = new DataTable().Compute(formattedCalculation, null).ToString();
+        output_calculation.Text = currentCalculation; 
+        currentCalculation = output_result.Text; 
     }
-    catch
+    catch (Exception exception)
     {
         // If something goes wrong (i.e. an error happens), add what the program will do in response.
     }
@@ -114,12 +121,13 @@ private void button_equals_Click(object sender, EventArgs e)
 {
     try
     {
-        output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); // Compute the answer
-        output_calculation.Text = Format(currentCalculation); // Shows the answer to the user
-        currentCalculation = output_result.Text; // Resets the calculation
+        string formattedCalculation = currentCalculation.ToString().Replace("x", "*").ToString().Replace("÷", "/"); 
+        output_result.Text = new DataTable().Compute(formattedCalculation, null).ToString();
+        output_calculation.Text = currentCalculation; 
+        currentCalculation = output_result.Text; 
         err_not_valid.Visible = false; // Add this
     }
-    catch
+    catch (Exception exception)
     {
         err_not_valid.Visible = true; // Add this
     }
@@ -182,15 +190,16 @@ private void button_equals_Click(object sender, EventArgs e)
 {
     try
     {
-        output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); 
-        output_calculation.Text = Format(currentCalculation); 
+        string formattedCalculation = currentCalculation.ToString().Replace("x", "*").ToString().Replace("÷", "/"); 
+        output_result.Text = new DataTable().Compute(formattedCalculation, null).ToString();
+        output_calculation.Text = currentCalculation; 
         currentCalculation = output_result.Text; 
-        err_not_valid.Visible = false;
+        err_not_valid.Visible = false; 
         equalsAlreadyPressed = true; // Add this line here
     }
-    catch
+    catch (Exception exception)
     {
-        err_not_valid.Visible = true;
+        err_not_valid.Visible = true; 
     }
 }
 ```
@@ -210,28 +219,29 @@ private void button_equals_Click(object sender, EventArgs e)
     // If equalsAlreadyPressed is true, the rest of this code will not execute anymore:
     try
     {
-        output_result.Text = Format(new DataTable().Compute(currentCalculation, null).ToString()); 
-        output_calculation.Text = Format(currentCalculation); 
+        string formattedCalculation = currentCalculation.ToString().Replace("x", "*").ToString().Replace("÷", "/"); 
+        output_result.Text = new DataTable().Compute(formattedCalculation, null).ToString();
+        output_calculation.Text = currentCalculation; 
         currentCalculation = output_result.Text; 
-        err_not_valid.Visible = false;
+        err_not_valid.Visible = false; 
         equalsAlreadyPressed = true;
     }
-    catch
+    catch (Exception exception)
     {
-        err_not_valid.Visible = true;
+        err_not_valid.Visible = true; 
     }
 }
 ```
 
 Once the user starts pressing other buttons (numbers, operators etc), the equals button is no longer being pressed twice in a row, so we can now set `equalsAlreadyPressed` back to false. 
 
-An appropriate place to do this would be in the `AddToCalculation` function, which is used when the user presses other buttons other than the equals button:
+An appropriate place to do this would be in the `button_num_Click` event function, which is used when the user presses other buttons other than the equals button:
 
 ```js
-private void AddToCalculation(string numberOrOperator)
+private void button_num_Click(object sender, EventArgs e)
 {
-    currentCalculation += numberOrOperator;
-    output_result.Text = Format(currentCalculation);
+    currentCalculation += (sender as Button).Text;
+    output_result.Text = currentCalculation;
     equalsAlreadyPressed = false; // Add this line here
 }
 ```
