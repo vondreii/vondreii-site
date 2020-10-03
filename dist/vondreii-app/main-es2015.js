@@ -1223,31 +1223,38 @@ let WebdevComponent = class WebdevComponent {
         this.titles = [
             // Webdev
             ["Creating Your Own Blog Using Hugo"],
+            ["Hosting An Angular App On Firebase Using A Namecheap Domain"],
             ["Hosting an Angular Application using Netlify"],
             ["Creating A Simple Angular Web Application"],
         ];
         this.images = [
             // Webdev
             ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
+            ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebaseUsingANamecheapDomain/header-dark.jpg"],
             ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
             ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
         ];
         this.dates = [
             // Webdev
             ["Coming Soon!"],
+            ["Coming Soon!"],
+            //["3 Oct 2020"],
             ["30 Aug 2020"],
             ["04 Aug 2020"],
         ];
         this.links = [
             // Webdev
             ["#"],
+            ["#"],
             // ["/webdev/post/createYourOwnBlogUsingHugo"],
+            //["/webdev/post/hostingAnAngularAppOnFirebaseUsingANamecheapDomain"],
             ["/webdev/post/hostingAngularApplicationUsingNetlify"],
             ["/webdev/post/creatingASimpleAngularWebApplication"],
         ];
         this.tags = [
             // Webdev
             ["Hugo"],
+            ["Angular, Netlify, Hosting, Firebase"],
             ["Angular, Netlify, Hosting"],
             ["Angular"],
         ];
@@ -1256,10 +1263,11 @@ let WebdevComponent = class WebdevComponent {
             ["webdev"],
             ["webdev"],
             ["webdev"],
+            ["webdev"],
         ];
     }
     ngOnInit() {
-        this.postArray = [0, 1, 2];
+        this.postArray = [0, 1, 2, 3];
         this.href = window.location.href;
         this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
     }
