@@ -28,7 +28,6 @@ import { CodingComponent } from './components/articles/coding/coding.component';
 import { CodingPostComponent } from './components/articles/coding/coding-post/coding-post.component';
 import { StudentsComponent } from './components/articles/students/students.component';
 import { StudentsPostComponent } from './components/articles/students/students-post/students-post.component';
-import { HeaderComponent } from './components/header/header.component';
 import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
@@ -45,7 +44,6 @@ import { SocialComponent } from './components/social/social.component';
     CodingPostComponent,
     StudentsComponent,
     StudentsPostComponent,
-    HeaderComponent,
     SocialComponent
   ],
   imports: [

@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<div class=\"bg-color\">\r\n  <div class=\"rows\"> \r\n    <!-- Designer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content first\"> \r\n        <h2>Designer</h2>\r\n        <p>I love experimenting with different designs before implementing websites.</p>\r\n        <img src=\"../../assets/about/designer.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n    <!-- Software Developer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content\"> \r\n        <h2>Software Developer</h2>\r\n        <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        <img src=\"../../assets/about/developer.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n    <!-- Photographer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content\"> \r\n        <h2>Photographer</h2>\r\n        <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        <img src=\"../../assets/about/photography.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n    <!-- Traveller -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content\"> \r\n        <h2>Traveller</h2>\r\n        <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        <img src=\"../../assets/about/traveller.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br><br>\r\n</div>\r\n<!-- Social links for instagram, linkedIn and Github -->\r\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"rows\"> \r\n    <!-- Designer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content first\"> \r\n        <h2>Designer</h2>\r\n        <p>I love experimenting with different designs before implementing websites.</p>\r\n        <img src=\"../../assets/about/designer.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n    <!-- Software Developer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content\"> \r\n        <h2>Software Developer</h2>\r\n        <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        <img src=\"../../assets/about/developer.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n    <!-- Photographer -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content\"> \r\n        <h2>Photographer</h2>\r\n        <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        <img src=\"../../assets/about/photography.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n    <!-- Traveller -->\r\n    <div class=\"column-4\">\r\n      <div class=\"about-content\"> \r\n        <h2>Traveller</h2>\r\n        <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        <img src=\"../../assets/about/traveller.jpg\" alt=\"img\">\r\n      </div>\r\n    </div>\r\n  </div>\r\n  <br><br>\r\n</div>\r\n<!-- Social links for instagram, linkedIn and Github -->\r\n<app-social></app-social>";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
     /***/
   },
 
@@ -111,7 +111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search coding posts (by title, language, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div>\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search coding posts (by title, language, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div>\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
     /***/
   },
 
@@ -131,7 +131,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
     /***/
   },
 
@@ -151,7 +151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<section class=\"bg-color projects\">\r\n  <div class=\"container rows allCards\">\r\n    <!-- List all projects -->\r\n    <div class=\"project-card column-3\" *ngFor=\"let i of postArray\">\r\n      <!-- Image for each card -->\r\n      <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\r\n      <!-- Card information -->\r\n      <div class=\"card-body\">\r\n        <h5>{{titles[i]}}</h5>\r\n        <p><small class=\"text-muted\">{{descriptions[i]}}</small></p>\r\n        <div class=\"read-more-container\">\r\n          <a routerLink=\"{{links[i]}}\" class=\"button\">Read More >></a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- End of all projects -->\r\n  </div>\r\n</section>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color projects\">\r\n  <div class=\"container rows allCards\">\r\n    <!-- List all projects -->\r\n    <div class=\"project-card column-3\" *ngFor=\"let i of postArray\">\r\n      <!-- Image for each card -->\r\n      <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\r\n      <!-- Card information -->\r\n      <div class=\"card-body\">\r\n        <h5>{{titles[i]}}</h5>\r\n        <p><small class=\"text-muted\">{{descriptions[i]}}</small></p>\r\n        <div class=\"read-more-container\">\r\n          <a routerLink=\"{{links[i]}}\" class=\"button\">Read More >></a>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!-- End of all projects -->\r\n  </div>\r\n</section>";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
     /***/
   },
 
@@ -191,7 +191,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search posts for students (by title, topic, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div>\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search posts for students (by title, topic, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div>\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
     /***/
   },
 
@@ -211,7 +211,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
     /***/
   },
 
@@ -231,7 +231,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- If the screen is smaller, show the collapsable navbar -->\r\n<div class=\"show-navbar\">\r\n  <app-navbar></app-navbar>\r\n</div>\r\n<!-- If the screen is bigger, show the header -->\r\n<div class=\"show-header\">\r\n  <app-header></app-header>\r\n</div>\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search web dev posts (by title, language, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div class=\"card-info\">\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n    <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->\r\n    <!-- <div class=\"card-columns\" style=\"color:black\">\r\n      <div class=\"card\" *ngFor=\"let i of postArray\">\r\n        <h1>HTML Syntax</h1>\r\n        <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\r\n        <h1>HTML Syntax</h1>\r\n        <div class=\"padding\">\r\n          <div class=\"tags\">\r\n            <div class=\"tag\">{{tags[i]}}</div>\r\n          </div>\r\n          <h1>{{titles[i]}}</h1>\r\n          <div class=\"date\">{{dates[i]}}</div>\r\n          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>\r\n          <div class=\"read-more-project-button-container\">\r\n            <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div> -->\r\n  </div>\r\n</section>\r\n\r\n<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search web dev posts (by title, language, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div class=\"card-info\">\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n    <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->\r\n    <!-- <div class=\"card-columns\" style=\"color:black\">\r\n      <div class=\"card\" *ngFor=\"let i of postArray\">\r\n        <h1>HTML Syntax</h1>\r\n        <img class=\"card-img-top\" src={{images[i]}} alt=\"img\">\r\n        <h1>HTML Syntax</h1>\r\n        <div class=\"padding\">\r\n          <div class=\"tags\">\r\n            <div class=\"tag\">{{tags[i]}}</div>\r\n          </div>\r\n          <h1>{{titles[i]}}</h1>\r\n          <div class=\"date\">{{dates[i]}}</div>\r\n          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>\r\n          <div class=\"read-more-project-button-container\">\r\n            <a routerLink=\"{{links[i]}}\" class=\"button read-more-button second-button\">Read More >></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div> -->\r\n  </div>\r\n</section>\r\n\r\n<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->";
     /***/
   },
 
@@ -256,26 +256,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html":
-  /*!***********************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html ***!
-    \***********************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsHeaderHeaderComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<header>\r\n    <div class=\"maxwidth\">\r\n        <!-- Temporary logo -->\r\n        <!-- <img src=\"../../../assets/logos/angular.png\" alt=\"img\" class=\"logo\"> -->\r\n        <!-- Links -->\r\n        <ul class=\"main-nav\">\r\n            <li><a routerLink=\"/webdev\">Web Development</a></li>\r\n            <li><a routerLink=\"/coding\">Coding</a></li>\r\n            <li><a routerLink=\"/students\">For Students</a></li>\r\n            <li><a routerLink=\"/projects\">Projects</a></li>\r\n            <li><a routerLink=\"/about\">About</a></li>\r\n        </ul>\r\n    </div>\r\n</header>";
-    /***/
-  },
-
-  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbar/navbar.component.html":
   /*!***********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/navbar/navbar.component.html ***!
@@ -291,7 +271,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Bootstrap navbar -->\r\n<nav>\r\n  <div class=\"navbar navbar-expand-md navbar-light\">\r\n    <!-- Vondreii Logo -->\r\n    <a routerLink=\"/webdev\">VONDREII</a>\r\n    <!-- Hamburger button -->\r\n    <button type=\"button\" class=\"navbar-toggler hamburger\" data-toggle=\"collapse\" data-target=\"#navbarCollapse\">\r\n        <span class=\"navbar-toggler-icon hamburger\"></span>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse\" id=\"navbarCollapse\">\r\n        <div class=\"navbar-nav center\">\r\n            <!-- The ' | ' line -->\r\n            <div class=\"separator-vertical\">\r\n              <a href=\"#\" class=\"nav-item nav-link disabled\" style=\"color:grey\">|</a>\r\n            </div>\r\n            <!-- Links -->\r\n            <a routerLink=\"/webdev\">WEB DEV</a>\r\n            <a routerLink=\"/coding\">CODING</a>\r\n            <a routerLink=\"/students\">FOR STUDENTS</a>\r\n            <a routerLink=\"/projects\">PROJECTS</a>\r\n            <a routerLink=\"/about\">ABOUT</a>\r\n        </div>\r\n    </div>\r\n  </div>\r\n</nav>";
+    __webpack_exports__["default"] = "<!-- Bootstrap navbar -->\r\n<nav class=\"navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm\">\r\n  <div class=\"container\">\r\n    <a href=\"#\" class=\"navbar-brand\">\r\n      <!-- Logo Image -->\r\n      <img src=\"https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png\" width=\"45\" alt=\"\" class=\"d-inline-block align-middle mr-2\">\r\n      <!-- Logo Text -->\r\n      <span class=\"text-uppercase font-weight-bold\">Vondreii</span>\r\n    </a>\r\n\r\n    <button type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span class=\"navbar-toggler-icon\"></span></button>\r\n\r\n    <div id=\"navbarSupportedContent\" class=\"collapse navbar-collapse\">\r\n      <ul class=\"navbar-nav ml-auto\">\r\n        <li class=\"nav-item active\"><a href=\"#\" class=\"nav-link\">Posts</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/projects\" class=\"nav-link\">Projects</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/about\" class=\"nav-link\">About</a></li>\r\n        <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">Contact</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n\r\n\r\n";
     /***/
   },
 
@@ -1297,13 +1277,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_header_header_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
-    /*! ./components/header/header.component */
-    "./src/app/components/header/header.component.ts");
-    /* harmony import */
-
-
-    var _components_social_social_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    var _components_social_social_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
     /*! ./components/social/social.component */
     "./src/app/components/social/social.component.ts"); // Markdown Files
     // Angular Fire Modules
@@ -1316,7 +1290,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"], _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__["ProjectsComponent"], _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__["ProjectPostComponent"], _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_17__["WebdevComponent"], _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_18__["WebdevPostComponent"], _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_19__["CodingComponent"], _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_20__["CodingPostComponent"], _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_21__["StudentsComponent"], _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_22__["StudentsPostComponent"], _components_header_header_component__WEBPACK_IMPORTED_MODULE_23__["HeaderComponent"], _components_social_social_component__WEBPACK_IMPORTED_MODULE_24__["SocialComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"], _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__["ProjectsComponent"], _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__["ProjectPostComponent"], _components_articles_webdev_webdev_component__WEBPACK_IMPORTED_MODULE_17__["WebdevComponent"], _components_articles_webdev_webdev_post_webdev_post_component__WEBPACK_IMPORTED_MODULE_18__["WebdevPostComponent"], _components_articles_coding_coding_component__WEBPACK_IMPORTED_MODULE_19__["CodingComponent"], _components_articles_coding_coding_post_coding_post_component__WEBPACK_IMPORTED_MODULE_20__["CodingPostComponent"], _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_21__["StudentsComponent"], _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_22__["StudentsPostComponent"], _components_social_social_component__WEBPACK_IMPORTED_MODULE_23__["SocialComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_5__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_9__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_6__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_7__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_8__["AngularFireStorageModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"].forRoot({
         loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
         sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_2__["SecurityContext"].NONE
@@ -2142,19 +2116,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function WebdevComponent() {
         _classCallCheck(this, WebdevComponent);
 
-        this.titles = [["Creating Your Own Blog Using Hugo"], ["Linking A Namecheap Domain To Firebase"], ["Hosting An Angular App On Firebase"], ["Hosting an Angular Application using Netlify"], ["Creating A Simple Angular Web Application"]];
-        this.images = [["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"], ["../../assets/articles/web-dev-images/linkingANamecheapDomainToFirebase/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebase/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
-        this.dates = [["Coming Soon!"], ["4 Oct 2020"], ["3 Oct 2020"], ["30 Aug 2020"], ["04 Aug 2020"]];
-        this.links = [["#"], // ["/webdev/post/createYourOwnBlogUsingHugo"],
+        this.titles = [//["Creating Your Own Blog Using Hugo"],
+        ["Linking A Namecheap Domain To Firebase"], ["Hosting An Angular App On Firebase"], ["Hosting an Angular Application using Netlify"], ["Creating A Simple Angular Web Application"]];
+        this.images = [//["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
+        ["../../assets/articles/web-dev-images/linkingANamecheapDomainToFirebase/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebase/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
+        this.dates = [//["Coming Soon!"],
+        ["4 Oct 2020"], ["3 Oct 2020"], ["30 Aug 2020"], ["04 Aug 2020"]];
+        this.links = [// ["/webdev/post/createYourOwnBlogUsingHugo"],
         ["/webdev/post/linkingANamecheapDomainToFirebase"], ["/webdev/post/hostingAnAngularAppOnFirebase"], ["/webdev/post/hostingAngularApplicationUsingNetlify"], ["/webdev/post/creatingASimpleAngularWebApplication"]];
-        this.tags = [["Hugo"], ["Hosting • Firebase • Namecheap"], ["Angular • Hosting • Firebase"], ["Angular • Netlify • Hosting"], ["Angular"]];
-        this.category = [["webdev"], ["webdev"], ["webdev"], ["webdev"], ["webdev"]];
+        this.tags = [//["Hugo"],
+        ["Hosting • Firebase • Namecheap"], ["Angular • Hosting • Firebase"], ["Angular • Netlify • Hosting"], ["Angular"]];
+        this.category = [//["webdev"],
+        ["webdev"], ["webdev"], ["webdev"], ["webdev"]];
       }
 
       _createClass(WebdevComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.postArray = [0, 1, 2, 3, 4];
+          this.postArray = [0, 1, 2, 3];
           this.href = window.location.href;
           this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
         }
@@ -2221,7 +2200,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\nfooter {\r\n    background-color:#272727;position:relative;bottom:0;height:250px;padding:50px;margin-top:0px;text-align:center\r\n} \r\n.social-footer {\r\n    margin-top:20px\r\n} \r\n.social-footer a {\r\n    padding:10px 20px;color:white \r\n} \r\n.social-footer a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:#272727 \r\n} \r\n.copy {\r\n    margin-top:30px;font-size:16px;color:whitesmoke \r\n} \r\n.copy p {\r\n    text-align:center\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDO0lBQ0ksd0JBQXdCLENBQUMsaUJBQWlCLENBQUMsUUFBUSxDQUFDLFlBQVksQ0FBQyxZQUFZLENBQUMsY0FBYyxDQUFDO0FBQ2pHO0FBQ0E7SUFDSTtBQUNKO0FBQ0E7SUFDSSxpQkFBaUIsQ0FBQztBQUN0QjtBQUNBO0lBQ0ksMEJBQTBCLENBQUMsa0JBQWtCLENBQUM7QUFDbEQ7QUFDQTtJQUNJLGVBQWUsQ0FBQyxjQUFjLENBQUM7QUFDbkM7QUFDQTtJQUNJO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBmb290ZXIgY29tcG9uZW50ICovIFxyXG5mb290ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjojMjcyNzI3O3Bvc2l0aW9uOnJlbGF0aXZlO2JvdHRvbTowO2hlaWdodDoyNTBweDtwYWRkaW5nOjUwcHg7bWFyZ2luLXRvcDowcHg7dGV4dC1hbGlnbjpjZW50ZXJcclxufVxyXG4uc29jaWFsLWZvb3RlciB7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHhcclxufVxyXG4uc29jaWFsLWZvb3RlciBhIHtcclxuICAgIHBhZGRpbmc6MTBweCAyMHB4O2NvbG9yOndoaXRlIFxyXG59XHJcbi5zb2NpYWwtZm9vdGVyIGE6aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyZXk7Ym9yZGVyLXJhZGl1czoyNXB4O2NvbG9yOiMyNzI3MjcgXHJcbn1cclxuLmNvcHkge1xyXG4gICAgbWFyZ2luLXRvcDozMHB4O2ZvbnQtc2l6ZToxNnB4O2NvbG9yOndoaXRlc21va2UgXHJcbn1cclxuLmNvcHkgcCB7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlclxyXG59Il19 */";
+    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\nfooter {\r\n    background-color:#363a40;position:relative;bottom:0;height:250px;padding:50px;margin-top:0px;text-align:center\r\n} \r\n.social-footer {\r\n    margin-top:20px\r\n} \r\n.social-footer a {\r\n    padding:10px 20px;color:white \r\n} \r\n.social-footer a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:#272727 \r\n} \r\n.copy {\r\n    margin-top:30px;font-size:16px;color:whitesmoke \r\n} \r\n.copy p {\r\n    text-align:center\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDO0lBQ0ksd0JBQXdCLENBQUMsaUJBQWlCLENBQUMsUUFBUSxDQUFDLFlBQVksQ0FBQyxZQUFZLENBQUMsY0FBYyxDQUFDO0FBQ2pHO0FBQ0E7SUFDSTtBQUNKO0FBQ0E7SUFDSSxpQkFBaUIsQ0FBQztBQUN0QjtBQUNBO0lBQ0ksMEJBQTBCLENBQUMsa0JBQWtCLENBQUM7QUFDbEQ7QUFDQTtJQUNJLGVBQWUsQ0FBQyxjQUFjLENBQUM7QUFDbkM7QUFDQTtJQUNJO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBmb290ZXIgY29tcG9uZW50ICovIFxyXG5mb290ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjojMzYzYTQwO3Bvc2l0aW9uOnJlbGF0aXZlO2JvdHRvbTowO2hlaWdodDoyNTBweDtwYWRkaW5nOjUwcHg7bWFyZ2luLXRvcDowcHg7dGV4dC1hbGlnbjpjZW50ZXJcclxufVxyXG4uc29jaWFsLWZvb3RlciB7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHhcclxufVxyXG4uc29jaWFsLWZvb3RlciBhIHtcclxuICAgIHBhZGRpbmc6MTBweCAyMHB4O2NvbG9yOndoaXRlIFxyXG59XHJcbi5zb2NpYWwtZm9vdGVyIGE6aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyZXk7Ym9yZGVyLXJhZGl1czoyNXB4O2NvbG9yOiMyNzI3MjcgXHJcbn1cclxuLmNvcHkge1xyXG4gICAgbWFyZ2luLXRvcDozMHB4O2ZvbnQtc2l6ZToxNnB4O2NvbG9yOndoaXRlc21va2UgXHJcbn1cclxuLmNvcHkgcCB7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlclxyXG59Il19 */";
     /***/
   },
 
@@ -2283,83 +2262,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/header/header.component.css":
-  /*!********************************************************!*\
-    !*** ./src/app/components/header/header.component.css ***!
-    \********************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsHeaderHeaderComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "/* Styling for the header component */\r\nheader {\r\n    /* background-color:#272727; */\r\n    /* background-image:url('../../../assets/articles/header-original.jpg'); */\r\n    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('header.jpg');\r\n    background-size:cover;background-position:center;\r\n    height:20vh;background-attachment:fixed\r\n}\r\n.maxwidth {\r\n    max-width:1250px;margin:0 auto\r\n}\r\n.maxwidth img {\r\n    margin-left:20px\r\n}\r\n.logo {\r\n    height:100px;width:auto;float:left;margin-top:20px\r\n}\r\n.main-nav {\r\n    float:right;list-style:none;margin-top:55px;margin-right:30px\r\n}\r\n.main-nav li {\r\n    display:inline-block;margin-left:40px\r\n}\r\n.main-nav li a:link,\r\n.main-nav li a:visited {\r\n    padding:8px 0;color:#fff;transition:border-bottom 0.2s;\r\n    text-decoration:none;text-transform:uppercase;font-size:90%;\r\n    border-bottom:2px solid transparent;-webkit-transition:border-bottom 0.2s\r\n}\r\n.main-nav li a:hover,\r\n.main-nav li a:active {\r\n    border-bottom:2px solid #40bedd\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9oZWFkZXIvaGVhZGVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDO0lBQ0ksOEJBQThCO0lBQzlCLDBFQUEwRTtJQUMxRSw0RkFBNEc7SUFDNUcscUJBQXFCLENBQUMsMEJBQTBCO0lBQ2hELFdBQVcsQ0FBQztBQUNoQjtBQUNBO0lBQ0ksZ0JBQWdCLENBQUM7QUFDckI7QUFDQTtJQUNJO0FBQ0o7QUFDQTtJQUNJLFlBQVksQ0FBQyxVQUFVLENBQUMsVUFBVSxDQUFDO0FBQ3ZDO0FBQ0E7SUFDSSxXQUFXLENBQUMsZUFBZSxDQUFDLGVBQWUsQ0FBQztBQUNoRDtBQUNBO0lBQ0ksb0JBQW9CLENBQUM7QUFDekI7QUFDQTs7SUFFSSxhQUFhLENBQUMsVUFBVSxDQUFDLDZCQUE2QjtJQUN0RCxvQkFBb0IsQ0FBQyx3QkFBd0IsQ0FBQyxhQUFhO0lBQzNELG1DQUFtQyxDQUFDO0FBQ3hDO0FBQ0E7O0lBRUk7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvaGVhZGVyL2hlYWRlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogU3R5bGluZyBmb3IgdGhlIGhlYWRlciBjb21wb25lbnQgKi9cclxuaGVhZGVyIHtcclxuICAgIC8qIGJhY2tncm91bmQtY29sb3I6IzI3MjcyNzsgKi9cclxuICAgIC8qIGJhY2tncm91bmQtaW1hZ2U6dXJsKCcuLi8uLi8uLi9hc3NldHMvYXJ0aWNsZXMvaGVhZGVyLW9yaWdpbmFsLmpwZycpOyAqL1xyXG4gICAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYmEoMCwgMCwgMCwgMC43KSwgcmdiYSgwLCAwLCAwLCAwLjcpKSwgdXJsKCcuLi8uLi8uLi9hc3NldHMvaGVhZGVyLmpwZycpO1xyXG4gICAgYmFja2dyb3VuZC1zaXplOmNvdmVyO2JhY2tncm91bmQtcG9zaXRpb246Y2VudGVyO1xyXG4gICAgaGVpZ2h0OjIwdmg7YmFja2dyb3VuZC1hdHRhY2htZW50OmZpeGVkXHJcbn1cclxuLm1heHdpZHRoIHtcclxuICAgIG1heC13aWR0aDoxMjUwcHg7bWFyZ2luOjAgYXV0b1xyXG59XHJcbi5tYXh3aWR0aCBpbWcge1xyXG4gICAgbWFyZ2luLWxlZnQ6MjBweFxyXG59XHJcbi5sb2dvIHtcclxuICAgIGhlaWdodDoxMDBweDt3aWR0aDphdXRvO2Zsb2F0OmxlZnQ7bWFyZ2luLXRvcDoyMHB4XHJcbn1cclxuLm1haW4tbmF2IHtcclxuICAgIGZsb2F0OnJpZ2h0O2xpc3Qtc3R5bGU6bm9uZTttYXJnaW4tdG9wOjU1cHg7bWFyZ2luLXJpZ2h0OjMwcHhcclxufVxyXG4ubWFpbi1uYXYgbGkge1xyXG4gICAgZGlzcGxheTppbmxpbmUtYmxvY2s7bWFyZ2luLWxlZnQ6NDBweFxyXG59XHJcbi5tYWluLW5hdiBsaSBhOmxpbmssXHJcbi5tYWluLW5hdiBsaSBhOnZpc2l0ZWQge1xyXG4gICAgcGFkZGluZzo4cHggMDtjb2xvcjojZmZmO3RyYW5zaXRpb246Ym9yZGVyLWJvdHRvbSAwLjJzO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOm5vbmU7dGV4dC10cmFuc2Zvcm06dXBwZXJjYXNlO2ZvbnQtc2l6ZTo5MCU7XHJcbiAgICBib3JkZXItYm90dG9tOjJweCBzb2xpZCB0cmFuc3BhcmVudDstd2Via2l0LXRyYW5zaXRpb246Ym9yZGVyLWJvdHRvbSAwLjJzXHJcbn1cclxuLm1haW4tbmF2IGxpIGE6aG92ZXIsXHJcbi5tYWluLW5hdiBsaSBhOmFjdGl2ZSB7XHJcbiAgICBib3JkZXItYm90dG9tOjJweCBzb2xpZCAjNDBiZWRkXHJcbn0iXX0= */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/header/header.component.ts":
-  /*!*******************************************************!*\
-    !*** ./src/app/components/header/header.component.ts ***!
-    \*******************************************************/
-
-  /*! exports provided: HeaderComponent */
-
-  /***/
-  function srcAppComponentsHeaderHeaderComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "HeaderComponent", function () {
-      return HeaderComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var HeaderComponent = /*#__PURE__*/function () {
-      function HeaderComponent() {
-        _classCallCheck(this, HeaderComponent);
-      }
-
-      _createClass(HeaderComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return HeaderComponent;
-    }();
-
-    HeaderComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-header',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./header.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/header/header.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./header.component.css */
-      "./src/app/components/header/header.component.css"))["default"]]
-    })], HeaderComponent);
-    /***/
-  },
-
-  /***/
   "./src/app/components/navbar/navbar.component.css":
   /*!********************************************************!*\
     !*** ./src/app/components/navbar/navbar.component.css ***!
@@ -2375,7 +2277,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "/* Styling for the navbar component */\r\nnav {\r\n  /* background-image:url('../../../assets/articles/header-original.jpg'); */\r\n  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('header.jpg');\r\n  background-size:cover;background-position:center;height:20vh;background-attachment:fixed\r\n}\r\n.hamburger {\r\n  background-color:grey\r\n}\r\nnav a {\r\n  display:inline-block;margin-left:10px\r\n}\r\nnav a:link,\r\nnav a:visited {\r\n  padding:8px 8px;color:#fff;transition:border-bottom 0.2s;text-decoration:none;text-transform:uppercase;font-size:90%\r\n}\r\nnav a:hover,\r\nnav a:active {\r\n  color: lightgrey\r\n}\r\n/* Medium devices (ipads) #3 */\r\n@media screen and (min-width:767px) and (max-width:900px) {\r\n  nav {\r\n    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('header.jpg');\r\n    padding-top:30px;height:20vh\r\n  }\r\n  #navbarCollapse {\r\n    background-color:transparent\r\n  }\r\n  .separator-vertical {\r\n    display:block\r\n  }\r\n}\r\n/* Smallest screens (phones) */\r\n@media screen and (max-width:766px) {\r\n  nav {\r\n    background:none;background-color:#272727;height:auto;position:fixed;width:100%;z-index:99;padding-bottom:10px\r\n  }\r\n  .separator-vertical {\r\n    display:none\r\n  }\r\n  nav a {\r\n    padding:8px;margin-bottom:2px;border-bottom:none;\r\n  }\r\n  nav a:link, nav a:visited {\r\n    border-bottom:none;\r\n  }\r\n  nav a:hover, nav a:active {\r\n    border-bottom:none;color:lightgrey\r\n  }\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9uYXZiYXIvbmF2YmFyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDO0VBQ0UsMEVBQTBFO0VBQzFFLDRGQUE0RztFQUM1RyxxQkFBcUIsQ0FBQywwQkFBMEIsQ0FBQyxXQUFXLENBQUM7QUFDL0Q7QUFDQTtFQUNFO0FBQ0Y7QUFDQTtFQUNFLG9CQUFvQixDQUFDO0FBQ3ZCO0FBQ0E7O0VBRUUsZUFBZSxDQUFDLFVBQVUsQ0FBQyw2QkFBNkIsQ0FBQyxvQkFBb0IsQ0FBQyx3QkFBd0IsQ0FBQztBQUN6RztBQUNBOztFQUVFO0FBQ0Y7QUFFQSw4QkFBOEI7QUFDOUI7RUFDRTtJQUNFLDRGQUE0RztJQUM1RyxnQkFBZ0IsQ0FBQztFQUNuQjtFQUNBO0lBQ0U7RUFDRjtFQUNBO0lBQ0U7RUFDRjtBQUNGO0FBRUEsOEJBQThCO0FBQzlCO0VBQ0U7SUFDRSxlQUFlLENBQUMsd0JBQXdCLENBQUMsV0FBVyxDQUFDLGNBQWMsQ0FBQyxVQUFVLENBQUMsVUFBVSxDQUFDO0VBQzVGO0VBQ0E7SUFDRTtFQUNGO0VBQ0E7SUFDRSxXQUFXLENBQUMsaUJBQWlCLENBQUMsa0JBQWtCO0VBQ2xEO0VBQ0E7SUFDRSxrQkFBa0I7RUFDcEI7RUFDQTtJQUNFLGtCQUFrQixDQUFDO0VBQ3JCO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBuYXZiYXIgY29tcG9uZW50ICovXHJcbm5hdiB7XHJcbiAgLyogYmFja2dyb3VuZC1pbWFnZTp1cmwoJy4uLy4uLy4uL2Fzc2V0cy9hcnRpY2xlcy9oZWFkZXItb3JpZ2luYWwuanBnJyk7ICovXHJcbiAgYmFja2dyb3VuZC1pbWFnZTogbGluZWFyLWdyYWRpZW50KHJnYmEoMCwgMCwgMCwgMC43KSwgcmdiYSgwLCAwLCAwLCAwLjcpKSwgdXJsKCcuLi8uLi8uLi9hc3NldHMvaGVhZGVyLmpwZycpO1xyXG4gIGJhY2tncm91bmQtc2l6ZTpjb3ZlcjtiYWNrZ3JvdW5kLXBvc2l0aW9uOmNlbnRlcjtoZWlnaHQ6MjB2aDtiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6Zml4ZWRcclxufVxyXG4uaGFtYnVyZ2VyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOmdyZXlcclxufVxyXG5uYXYgYSB7XHJcbiAgZGlzcGxheTppbmxpbmUtYmxvY2s7bWFyZ2luLWxlZnQ6MTBweFxyXG59XHJcbm5hdiBhOmxpbmssXHJcbm5hdiBhOnZpc2l0ZWQge1xyXG4gIHBhZGRpbmc6OHB4IDhweDtjb2xvcjojZmZmO3RyYW5zaXRpb246Ym9yZGVyLWJvdHRvbSAwLjJzO3RleHQtZGVjb3JhdGlvbjpub25lO3RleHQtdHJhbnNmb3JtOnVwcGVyY2FzZTtmb250LXNpemU6OTAlXHJcbn1cclxubmF2IGE6aG92ZXIsXHJcbm5hdiBhOmFjdGl2ZSB7XHJcbiAgY29sb3I6IGxpZ2h0Z3JleVxyXG59XHJcblxyXG4vKiBNZWRpdW0gZGV2aWNlcyAoaXBhZHMpICMzICovXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtaW4td2lkdGg6NzY3cHgpIGFuZCAobWF4LXdpZHRoOjkwMHB4KSB7XHJcbiAgbmF2IHtcclxuICAgIGJhY2tncm91bmQtaW1hZ2U6IGxpbmVhci1ncmFkaWVudChyZ2JhKDAsIDAsIDAsIDAuNyksIHJnYmEoMCwgMCwgMCwgMC43KSksIHVybCgnLi4vLi4vLi4vYXNzZXRzL2hlYWRlci5qcGcnKTtcclxuICAgIHBhZGRpbmctdG9wOjMwcHg7aGVpZ2h0OjIwdmhcclxuICB9XHJcbiAgI25hdmJhckNvbGxhcHNlIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6dHJhbnNwYXJlbnRcclxuICB9XHJcbiAgLnNlcGFyYXRvci12ZXJ0aWNhbCB7XHJcbiAgICBkaXNwbGF5OmJsb2NrXHJcbiAgfVxyXG59IFxyXG5cclxuLyogU21hbGxlc3Qgc2NyZWVucyAocGhvbmVzKSAqL1xyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOjc2NnB4KSB7XHJcbiAgbmF2IHtcclxuICAgIGJhY2tncm91bmQ6bm9uZTtiYWNrZ3JvdW5kLWNvbG9yOiMyNzI3Mjc7aGVpZ2h0OmF1dG87cG9zaXRpb246Zml4ZWQ7d2lkdGg6MTAwJTt6LWluZGV4Ojk5O3BhZGRpbmctYm90dG9tOjEwcHhcclxuICB9XHJcbiAgLnNlcGFyYXRvci12ZXJ0aWNhbCB7XHJcbiAgICBkaXNwbGF5Om5vbmVcclxuICB9XHJcbiAgbmF2IGEge1xyXG4gICAgcGFkZGluZzo4cHg7bWFyZ2luLWJvdHRvbToycHg7Ym9yZGVyLWJvdHRvbTpub25lO1xyXG4gIH1cclxuICBuYXYgYTpsaW5rLCBuYXYgYTp2aXNpdGVkIHtcclxuICAgIGJvcmRlci1ib3R0b206bm9uZTtcclxuICB9XHJcbiAgbmF2IGE6aG92ZXIsIG5hdiBhOmFjdGl2ZSB7XHJcbiAgICBib3JkZXItYm90dG9tOm5vbmU7Y29sb3I6bGlnaHRncmV5XHJcbiAgfVxyXG59Il19 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIn0= */";
     /***/
   },
 
@@ -2452,7 +2354,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "/* Styling for the social component */\r\n.contact-card {\r\n    border:none;border-top:1px solid #dddddd;background-color:#303030;padding:0px\r\n}\r\n.space-between-links {\r\n    padding:0px 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2NpYWwvc29jaWFsLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDO0lBQ0ksV0FBVyxDQUFDLDRCQUE0QixDQUFDLHdCQUF3QixDQUFDO0FBQ3RFO0FBQ0E7SUFDSSxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lhbC9zb2NpYWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBzb2NpYWwgY29tcG9uZW50ICovXHJcbi5jb250YWN0LWNhcmQge1xyXG4gICAgYm9yZGVyOm5vbmU7Ym9yZGVyLXRvcDoxcHggc29saWQgI2RkZGRkZDtiYWNrZ3JvdW5kLWNvbG9yOiMzMDMwMzA7cGFkZGluZzowcHhcclxufVxyXG4uc3BhY2UtYmV0d2Vlbi1saW5rcyB7XHJcbiAgICBwYWRkaW5nOjBweCAxMHB4O1xyXG59Il19 */";
+    __webpack_exports__["default"] = "/* Styling for the social component */\r\n.contact-card {\r\n    border:none;border-top:1px solid #dddddd;background-color:whitesmoke;padding:0px\r\n}\r\n.space-between-links {\r\n    padding:0px 10px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zb2NpYWwvc29jaWFsLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEscUNBQXFDO0FBQ3JDO0lBQ0ksV0FBVyxDQUFDLDRCQUE0QixDQUFDLDJCQUEyQixDQUFDO0FBQ3pFO0FBQ0E7SUFDSSxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3NvY2lhbC9zb2NpYWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBzb2NpYWwgY29tcG9uZW50ICovXHJcbi5jb250YWN0LWNhcmQge1xyXG4gICAgYm9yZGVyOm5vbmU7Ym9yZGVyLXRvcDoxcHggc29saWQgI2RkZGRkZDtiYWNrZ3JvdW5kLWNvbG9yOndoaXRlc21va2U7cGFkZGluZzowcHhcclxufVxyXG4uc3BhY2UtYmV0d2Vlbi1saW5rcyB7XHJcbiAgICBwYWRkaW5nOjBweCAxMHB4O1xyXG59Il19 */";
     /***/
   },
 

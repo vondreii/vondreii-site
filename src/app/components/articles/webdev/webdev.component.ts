@@ -12,28 +12,27 @@ export class WebdevComponent implements OnInit {
   hrefId: string;
 
   titles: string[][] = [
-    ["Creating Your Own Blog Using Hugo"],
+    //["Creating Your Own Blog Using Hugo"],
     ["Linking A Namecheap Domain To Firebase"],
     ["Hosting An Angular App On Firebase"],
     ["Hosting an Angular Application using Netlify"],
     ["Creating A Simple Angular Web Application"],
   ];
   images: string[][] = [
-    ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
+    //["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/linkingANamecheapDomainToFirebase/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebase/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
   ];
   dates: string[][] = [
-    ["Coming Soon!"],
+    //["Coming Soon!"],
     ["4 Oct 2020"],
     ["3 Oct 2020"],
     ["30 Aug 2020"],
     ["04 Aug 2020"],
   ];
   links: string[][] = [
-    ["#"],
     // ["/webdev/post/createYourOwnBlogUsingHugo"],
     ["/webdev/post/linkingANamecheapDomainToFirebase"],
     ["/webdev/post/hostingAnAngularAppOnFirebase"],
@@ -41,14 +40,14 @@ export class WebdevComponent implements OnInit {
     ["/webdev/post/creatingASimpleAngularWebApplication"],
   ];
   tags: string[][] = [
-    ["Hugo"],
+    //["Hugo"],
     ["Hosting • Firebase • Namecheap"],
     ["Angular • Hosting • Firebase"],
     ["Angular • Netlify • Hosting"],
     ["Angular"],
   ];
   category: string[][] = [
-    ["webdev"],
+    //["webdev"],
     ["webdev"],
     ["webdev"],
     ["webdev"],
@@ -58,7 +57,7 @@ export class WebdevComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.postArray = [0,1,2,3,4];
+    this.postArray = [0,1,2,3];
     this.href = window.location.href;
     this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
   }

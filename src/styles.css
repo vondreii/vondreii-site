@@ -111,10 +111,7 @@ button:focus {
     text-align:center;list-style-type: none;padding:0;margin:0;padding-bottom:3rem;margin-top:-1rem;
   }
   .search-container {
-    text-align:center;padding-top:3.5rem
-  }
-  #myInput {
-    margin-top: 50px
+    text-align:center
   }
 }
 
@@ -289,24 +286,6 @@ button:focus {
   }
   .date { 
     display:none 
-  }
-}
-
-/* Display the header or navbar */
-@media screen and (max-width:766px) {
-  .show-header {
-    display:none
-  }
-  .show-navbar {
-    display:block
-  }
-}
-@media screen and (min-width:767px) {
-  .show-header {
-    display:block
-  }
-  .show-navbar {
-    display:none
   }
 }
 
