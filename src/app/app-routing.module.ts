@@ -10,10 +10,16 @@ import { CodingComponent } from './components/articles/coding/coding.component';
 import { CodingPostComponent } from './components/articles/coding/coding-post/coding-post.component';
 import { StudentsComponent } from './components/articles/students/students.component';
 import { StudentsPostComponent } from './components/articles/students/students-post/students-post.component';
+import { PostsComponent } from './components/articles/posts/posts.component';
+import { PostsPostComponent } from './components/articles/posts/posts-post/posts-post.component';
 
 const routes: Routes = [
-  { path: '', component: WebdevComponent },
+  { path: '', component: PostsComponent },
   { path: 'about', component: AboutComponent },
+
+  // All posts
+  { path: 'posts', component: PostsComponent },
+  { path: 'posts/post/:article', component: PostsPostComponent },
 
   // Webdev posts
   { path: 'webdev', component: WebdevComponent },

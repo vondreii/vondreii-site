@@ -1,0 +1,54 @@
+<!-- Navbar -->
+<app-navbar></app-navbar>
+<!-- Content -->
+<section class="bg-color">
+  <div class="container search-container">
+    <!-- Search input box (change this to what are you looking for?) -->
+    <div class="padding">
+      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search posts (by title, language, topic, year..)" title="SearchBar">
+    </div>
+    <!-- List of all posts -->
+    <div id="myUL">
+      <article *ngFor="let i of postArray">
+        <!-- display each article card with it's own background image  -->
+        <section class="cardPreview">
+          <div class="padding">
+            <div class="card-image" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}"></div>
+              <div class="card-info">
+                <a class="date">{{dates[i]}}</a>
+                <a class="tag">{{tags[i]}}</a>
+              </div>
+            <!-- Article information -->
+            <h1>{{titles[i]}}</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.
+              <a routerLink="{{links[i]}}">Read More >></a>
+            </p>
+          </div>
+        </section>
+        <!-- End of article -->
+      </article>
+    </div>
+    <!-- Loop of posts - https://codepen.io/MattRuddick/pen/xaZXgE -->
+    <!-- <div class="card-columns" style="color:black">
+      <div class="card" *ngFor="let i of postArray">
+        <h1>HTML Syntax</h1>
+        <img class="card-img-top" src={{images[i]}} alt="img">
+        <h1>HTML Syntax</h1>
+        <div class="padding">
+          <div class="tags">
+            <div class="tag">{{tags[i]}}</div>
+          </div>
+          <h1>{{titles[i]}}</h1>
+          <div class="date">{{dates[i]}}</div>
+          <p>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+          <div class="read-more-project-button-container">
+            <a routerLink="{{links[i]}}" class="button read-more-button second-button">Read More >></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+</section>
+
+<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->
