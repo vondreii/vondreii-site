@@ -42,9 +42,9 @@ export class WebdevComponent implements OnInit {
   ];
   tags: string[][] = [
     ["Hugo"],
-    ["Hosting, Firebase, Namecheap"],
-    ["Angular, Hosting, Firebase"],
-    ["Angular, Netlify, Hosting"],
+    ["Hosting • Firebase • Namecheap"],
+    ["Angular • Hosting • Firebase"],
+    ["Angular • Netlify • Hosting"],
     ["Angular"],
   ];
   category: string[][] = [

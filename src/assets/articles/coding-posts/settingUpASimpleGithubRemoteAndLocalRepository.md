@@ -129,7 +129,7 @@ You can save your code locally in this folder. Add any number of files into this
 
 `index.html` has the following code:
 
-```Html
+```CSS
 <!DOCTYPE html>
 <html lang="en">
 	<head>

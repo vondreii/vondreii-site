@@ -158,7 +158,7 @@ This will create a navbar component:
 
 Go to `src/app/shared/navbar/navbar.component.html` and replace the existing code with the following:
 
-```html
+```CSS
 <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -207,7 +207,7 @@ export class AppRoutingModule { }
 ```
 
 In `src/app/home/app.component.html` replace the existing code with:
-```Html
+```CSS
 <app-navbar></app-navbar> <!-- add this -->
 <router-outlet></router-outlet> <!-- add this -->
 
