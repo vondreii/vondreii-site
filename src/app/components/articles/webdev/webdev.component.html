@@ -8,8 +8,10 @@
 </div>
 <section class="bg-color">
   <div class="container search-container">
-    <!-- Search input box -->
-    <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search Web Dev posts (by title, language, year..)" title="SearchBar">
+    <!-- Search input box (change this to what are you looking for?) -->
+    <div class="padding">
+      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search web dev posts (by title, language, year..)" title="SearchBar">
+    </div>
     <!-- List of all posts -->
     <div id="myUL">
       <article *ngFor="let i of postArray">

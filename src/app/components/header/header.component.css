@@ -1,8 +1,10 @@
 /* Styling for the header component */
 header {
-    background-image:url('../../../assets/articles/header-original.jpg');
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/articles/header.jpg'); */
-    background-size:cover;background-position:center;height:20vh;background-attachment:fixed
+    /* background-color:#272727; */
+    /* background-image:url('../../../assets/articles/header-original.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/header.jpg');
+    background-size:cover;background-position:center;
+    height:20vh;background-attachment:fixed
 }
 .maxwidth {
     max-width:1250px;margin:0 auto

@@ -1,6 +1,7 @@
 /* Styling for the navbar component */
 nav {
-  background-image:url('../../../assets/articles/header-original.jpg');
+  /* background-image:url('../../../assets/articles/header-original.jpg'); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/header.jpg');
   background-size:cover;background-position:center;height:20vh;background-attachment:fixed
 }
 .hamburger {
@@ -15,12 +16,13 @@ nav a:visited {
 }
 nav a:hover,
 nav a:active {
-  border-bottom:2px solid #40bedd
+  color: lightgrey
 }
 
 /* Medium devices (ipads) #3 */
 @media screen and (min-width:767px) and (max-width:900px) {
   nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../../assets/header.jpg');
     padding-top:30px;height:20vh
   }
   #navbarCollapse {
@@ -34,7 +36,7 @@ nav a:active {
 /* Smallest screens (phones) */
 @media screen and (max-width:766px) {
   nav {
-    height:auto;position:fixed;width:100%;z-index:99;padding-bottom:10px
+    background:none;background-color:#272727;height:auto;position:fixed;width:100%;z-index:99;padding-bottom:10px
   }
   .separator-vertical {
     display:none

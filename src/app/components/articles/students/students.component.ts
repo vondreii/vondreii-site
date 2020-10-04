@@ -42,7 +42,7 @@ export class StudentsComponent implements OnInit {
       ["/students/post/waysToBeMoreOrganised"]
   ];
   tags: string[][] = [
-    ["Design & Social Media"],
+    ["Design • Social Media"],
     ["Uni"],
     ["Organisation"],
     ["Organisation"],

@@ -27,7 +27,7 @@ export class CodingComponent implements OnInit {
   ];
   tags: string[][] = [
     ["C#"],
-    ["Version Control, Github"]
+    ["Version Control • Github"]
   ];
 
   constructor() {}

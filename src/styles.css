@@ -23,6 +23,11 @@
 .bg-color {
   background-color:whitesmoke
 }
+/* .bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/header.jpg');
+  background-size:cover;background-position:center;
+  height:20vh;background-attachment:fixed
+} */
 body {
   margin:0;padding:0;line-height:1.5;text-rendering:optimizeLegibility;font-variant-ligatures:none
 }
@@ -81,14 +86,20 @@ pre {
 
 /* Searchbar */
 .search-container {
-  text-align:center;padding-top:50px;padding-bottom:50px
+  text-align:center;padding-top:2.5rem
 }
 #myInput {
-  background-repeat: no-repeat;width: 100%;text-align:center;font-size: 16px;
-  padding: 12px 20px 12px 40px;margin-bottom:35px
+  background-color:white;width:100%;text-align:center;font-size:16px;
+  padding: 12px 20px 12px 40px;margin-bottom:35px;border-radius:50px;border:0.5px solid grey;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 #myUL {
-  text-align:center;list-style-type: none;padding:0;margin:0
+  text-align:center;list-style-type: none;padding:0;margin:0;padding-bottom:3rem;margin-top:-2rem;
 }
 #myUL li {
   text-align: center
@@ -96,6 +107,12 @@ pre {
 
 /* Searchbar - Smallest screens (phones) */
 @media screen and (max-width:766px) {
+  #myUL {
+    text-align:center;list-style-type: none;padding:0;margin:0;padding-bottom:3rem;margin-top:-1rem;
+  }
+  .search-container {
+    text-align:center;padding-top:3.5rem
+  }
   #myInput {
     margin-top: 50px
   }
@@ -228,7 +245,7 @@ pre {
 }
 .cardPreview p {
   font-size:1em;margin-top:2.5em;line-height:2em;margin-bottom:20px;
-  text-align:left;padding-bottom:2rem;border-bottom: 1.5px solid black
+  text-align:left;padding-bottom:3rem;border-bottom: 1px solid black
 }
 .card-image {
   height:30vh;background-size:cover;background-position:center;box-shadow:0 0 5em -1em black;border-radius:5px;
@@ -276,7 +293,7 @@ pre {
 }
 
 /* Display the header or navbar */
-@media screen and (max-width:900px) {
+@media screen and (max-width:766px) {
   .show-header {
     display:none
   }
@@ -284,7 +301,7 @@ pre {
     display:block
   }
 }
-@media screen and (min-width:901px) {
+@media screen and (min-width:767px) {
   .show-header {
     display:block
   }
