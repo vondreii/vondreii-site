@@ -2142,27 +2142,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function WebdevComponent() {
         _classCallCheck(this, WebdevComponent);
 
-        this.titles = [// Webdev
-        ["Creating Your Own Blog Using Hugo"], ["Hosting An Angular App On Firebase Using A Namecheap Domain"], ["Hosting an Angular Application using Netlify"], ["Creating A Simple Angular Web Application"]];
-        this.images = [// Webdev
-        ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebaseUsingANamecheapDomain/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
-        this.dates = [// Webdev
-        ["Coming Soon!"], ["Coming Soon!"], //["3 Oct 2020"],
-        ["30 Aug 2020"], ["04 Aug 2020"]];
-        this.links = [// Webdev
-        ["#"], ["#"], // ["/webdev/post/createYourOwnBlogUsingHugo"],
-        //["/webdev/post/hostingAnAngularAppOnFirebaseUsingANamecheapDomain"],
-        ["/webdev/post/hostingAngularApplicationUsingNetlify"], ["/webdev/post/creatingASimpleAngularWebApplication"]];
-        this.tags = [// Webdev
-        ["Hugo"], ["Angular, Netlify, Hosting, Firebase"], ["Angular, Netlify, Hosting"], ["Angular"]];
-        this.category = [// Webdev
-        ["webdev"], ["webdev"], ["webdev"], ["webdev"]];
+        this.titles = [["Creating Your Own Blog Using Hugo"], ["Linking A Namecheap Domain To Firebase"], ["Hosting An Angular App On Firebase"], ["Hosting an Angular Application using Netlify"], ["Creating A Simple Angular Web Application"]];
+        this.images = [["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"], ["../../assets/articles/web-dev-images/linkingANamecheapDomainToFirebase/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebase/header-dark.jpg"], ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"]];
+        this.dates = [["Coming Soon!"], ["4 Oct 2020"], ["3 Oct 2020"], ["30 Aug 2020"], ["04 Aug 2020"]];
+        this.links = [["#"], // ["/webdev/post/createYourOwnBlogUsingHugo"],
+        ["/webdev/post/linkingANamecheapDomainToFirebase"], ["/webdev/post/hostingAnAngularAppOnFirebase"], ["/webdev/post/hostingAngularApplicationUsingNetlify"], ["/webdev/post/creatingASimpleAngularWebApplication"]];
+        this.tags = [["Hugo"], ["Hosting, Firebase, Namecheap"], ["Angular, Hosting, Firebase"], ["Angular, Netlify, Hosting"], ["Angular"]];
+        this.category = [["webdev"], ["webdev"], ["webdev"], ["webdev"], ["webdev"]];
       }
 
       _createClass(WebdevComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.postArray = [0, 1, 2, 3];
+          this.postArray = [0, 1, 2, 3, 4];
           this.href = window.location.href;
           this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
         }

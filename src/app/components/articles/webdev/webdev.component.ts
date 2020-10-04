@@ -12,45 +12,43 @@ export class WebdevComponent implements OnInit {
   hrefId: string;
 
   titles: string[][] = [
-    // Webdev
     ["Creating Your Own Blog Using Hugo"],
-    ["Hosting An Angular App On Firebase Using A Namecheap Domain"],
+    ["Linking A Namecheap Domain To Firebase"],
+    ["Hosting An Angular App On Firebase"],
     ["Hosting an Angular Application using Netlify"],
     ["Creating A Simple Angular Web Application"],
   ];
   images: string[][] = [
-    // Webdev
     ["../../assets/articles/web-dev-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
-    ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebaseUsingANamecheapDomain/header-dark.jpg"],
+    ["../../assets/articles/web-dev-images/linkingANamecheapDomainToFirebase/header-dark.jpg"],
+    ["../../assets/articles/web-dev-images/hostingAnAngularAppOnFirebase/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
     ["../../assets/articles/web-dev-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
   ];
   dates: string[][] = [
-    // Webdev
     ["Coming Soon!"],
-    ["Coming Soon!"],
-    //["3 Oct 2020"],
+    ["4 Oct 2020"],
+    ["3 Oct 2020"],
     ["30 Aug 2020"],
     ["04 Aug 2020"],
   ];
   links: string[][] = [
-    // Webdev
-    ["#"],
     ["#"],
     // ["/webdev/post/createYourOwnBlogUsingHugo"],
-    //["/webdev/post/hostingAnAngularAppOnFirebaseUsingANamecheapDomain"],
+    ["/webdev/post/linkingANamecheapDomainToFirebase"],
+    ["/webdev/post/hostingAnAngularAppOnFirebase"],
     ["/webdev/post/hostingAngularApplicationUsingNetlify"],
     ["/webdev/post/creatingASimpleAngularWebApplication"],
   ];
   tags: string[][] = [
-    // Webdev
     ["Hugo"],
-    ["Angular, Netlify, Hosting, Firebase"],
+    ["Hosting, Firebase, Namecheap"],
+    ["Angular, Hosting, Firebase"],
     ["Angular, Netlify, Hosting"],
     ["Angular"],
   ];
   category: string[][] = [
-    // Webdev
+    ["webdev"],
     ["webdev"],
     ["webdev"],
     ["webdev"],
@@ -60,7 +58,7 @@ export class WebdevComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.postArray = [0,1,2,3];
+    this.postArray = [0,1,2,3,4];
     this.href = window.location.href;
     this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
   }
