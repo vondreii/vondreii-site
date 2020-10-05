@@ -7,7 +7,7 @@ ___
 ###### 03 Oct 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
 ___
 
-If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.com. Assuming you already have an Angular project coded up, we will go through step by step how to:
+If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to:
 * Creating a project on Firebase (for your app)
 * Connect your Angular app to the Firebase Project
 * Host your website
