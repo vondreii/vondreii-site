@@ -6,18 +6,23 @@ import { ProjectsComponent } from './components/articles/projects/projects.compo
 import { ProjectPostComponent } from './components/articles/projects/project-post/project-post.component';
 import { PostsComponent } from './components/articles/posts/posts.component';
 import { PostsPostComponent } from './components/articles/posts/posts-post/posts-post.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: PostsComponent },
-  { path: 'about', component: AboutComponent },
-
   // All posts
   { path: 'posts', component: PostsComponent },
+  { path: '', component: PostsComponent },
   { path: 'posts/post/:article', component: PostsPostComponent },
 
   // Projects
   { path: 'projects', component: ProjectsComponent },
   { path: 'projects/post/:article', component: ProjectPostComponent },
+
+  // About
+  { path: 'about', component: AboutComponent },
+  
+  // About
+  { path: 'contact', component: ContactComponent },
 
   // Example of different links to the same page
   // { path: 'photography/blue-mountains', component: PhotographyLocationComponent },

@@ -101,6 +101,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html":
+/*!*************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html ***!
+  \*************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <!-- Form -->\r\n  <br>\r\n  <div class=\"form\">\r\n    <p class=\"paragraph-center\"> This form is currently under construction. </p>\r\n    <!-- <p class=\"paragraph-center\"> Just write your name, email and message and I will get back to you as soon as possible. </p> -->\r\n    <form name=\"contact\" method=\"POST\" data-netlify=\"true\">\r\n        <input name=\"name\" type=\"text\" class=\"feedback-input\" placeholder=\"Name\" />   \r\n        <input name=\"email\" type=\"text\" class=\"feedback-input\" placeholder=\"Email\" />\r\n        <textarea name=\"text\" class=\"feedback-input\" placeholder=\"Comment\"></textarea>\r\n        <input type=\"submit\" value=\"SUBMIT\"/>\r\n    </form>\r\n  </div>\r\n  <br><br>\r\n  \r\n  <!-- Contact links -->\r\n  <app-social></app-social>\r\n</div>");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html":
 /*!***********************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html ***!
@@ -123,7 +136,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Bootstrap navbar -->\r\n<nav class=\"navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm\">\r\n  <div class=\"container\">\r\n    <a href=\"#\" class=\"navbar-brand\">\r\n      <!-- Logo Image -->\r\n      <img src=\"https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png\" width=\"45\" alt=\"\" class=\"d-inline-block align-middle mr-2\">\r\n      <!-- Logo Text -->\r\n      <span class=\"text-uppercase font-weight-bold\">Vondreii</span>\r\n    </a>\r\n\r\n    <button type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span class=\"navbar-toggler-icon\"></span></button>\r\n\r\n    <div id=\"navbarSupportedContent\" class=\"collapse navbar-collapse\">\r\n      <ul class=\"navbar-nav ml-auto\">\r\n        <li class=\"nav-item\"><a routerLink=\"/posts\" class=\"nav-link\">Posts</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/projects\" class=\"nav-link\">Projects</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/about\" class=\"nav-link\">About</a></li>\r\n        <li class=\"nav-item\"><a href=\"#\" class=\"nav-link\">Contact</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n\r\n\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Bootstrap navbar -->\r\n<nav class=\"navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm\">\r\n  <div class=\"container\">\r\n    <a href=\"#\" class=\"navbar-brand\">\r\n      <!-- Logo Image -->\r\n      <img src=\"https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png\" width=\"45\" alt=\"\" class=\"d-inline-block align-middle mr-2\">\r\n      <!-- Logo Text -->\r\n      <span class=\"text-uppercase font-weight-bold\">Vondreii</span>\r\n    </a>\r\n\r\n    <button type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span class=\"navbar-toggler-icon\"></span></button>\r\n\r\n    <div id=\"navbarSupportedContent\" class=\"collapse navbar-collapse\">\r\n      <ul class=\"navbar-nav ml-auto\">\r\n        <li class=\"nav-item\"><a routerLink=\"/posts\" class=\"nav-link\">Posts</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/projects\" class=\"nav-link\">Projects</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/about\" class=\"nav-link\">About</a></li>\r\n        <li class=\"nav-item\"><a href=\"/contact\" class=\"nav-link\">Contact</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n\r\n\r\n\r\n");
 
 /***/ }),
 
@@ -413,6 +426,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/articles/projects/project-post/project-post.component */ "./src/app/components/articles/projects/project-post/project-post.component.ts");
 /* harmony import */ var _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/articles/posts/posts.component */ "./src/app/components/articles/posts/posts.component.ts");
 /* harmony import */ var _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/articles/posts/posts-post/posts-post.component */ "./src/app/components/articles/posts/posts-post/posts-post.component.ts");
+/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
+
 
 
 
@@ -423,14 +438,17 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const routes = [
-    { path: '', component: _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_7__["PostsComponent"] },
-    { path: 'about', component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
     // All posts
     { path: 'posts', component: _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_7__["PostsComponent"] },
+    { path: '', component: _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_7__["PostsComponent"] },
     { path: 'posts/post/:article', component: _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_8__["PostsPostComponent"] },
     // Projects
     { path: 'projects', component: _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"] },
     { path: 'projects/post/:article', component: _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_6__["ProjectPostComponent"] },
+    // About
+    { path: 'about', component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"] },
+    // About
+    { path: 'contact', component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_9__["ContactComponent"] },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
@@ -518,11 +536,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/navbar/navbar.component */ "./src/app/components/navbar/navbar.component.ts");
 /* harmony import */ var _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/footer/footer.component */ "./src/app/components/footer/footer.component.ts");
 /* harmony import */ var _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/about/about.component */ "./src/app/components/about/about.component.ts");
-/* harmony import */ var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/articles/projects/projects.component */ "./src/app/components/articles/projects/projects.component.ts");
-/* harmony import */ var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/articles/projects/project-post/project-post.component */ "./src/app/components/articles/projects/project-post/project-post.component.ts");
-/* harmony import */ var _components_social_social_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/social/social.component */ "./src/app/components/social/social.component.ts");
-/* harmony import */ var _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/articles/posts/posts.component */ "./src/app/components/articles/posts/posts.component.ts");
-/* harmony import */ var _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/articles/posts/posts-post/posts-post.component */ "./src/app/components/articles/posts/posts-post/posts-post.component.ts");
+/* harmony import */ var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/contact/contact.component */ "./src/app/components/contact/contact.component.ts");
+/* harmony import */ var _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/articles/projects/projects.component */ "./src/app/components/articles/projects/projects.component.ts");
+/* harmony import */ var _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/articles/projects/project-post/project-post.component */ "./src/app/components/articles/projects/project-post/project-post.component.ts");
+/* harmony import */ var _components_social_social_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/social/social.component */ "./src/app/components/social/social.component.ts");
+/* harmony import */ var _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/articles/posts/posts.component */ "./src/app/components/articles/posts/posts.component.ts");
+/* harmony import */ var _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/articles/posts/posts-post/posts-post.component */ "./src/app/components/articles/posts/posts-post/posts-post.component.ts");
 
 
 
@@ -547,6 +566,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 let AppModule = class AppModule {
 };
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -556,11 +576,12 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"],
             _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"],
             _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"],
-            _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__["ProjectsComponent"],
-            _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__["ProjectPostComponent"],
-            _components_social_social_component__WEBPACK_IMPORTED_MODULE_17__["SocialComponent"],
-            _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_18__["PostsComponent"],
-            _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_19__["PostsPostComponent"]
+            _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_15__["ContactComponent"],
+            _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_16__["ProjectsComponent"],
+            _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_17__["ProjectPostComponent"],
+            _components_social_social_component__WEBPACK_IMPORTED_MODULE_18__["SocialComponent"],
+            _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_19__["PostsComponent"],
+            _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_20__["PostsPostComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -934,6 +955,58 @@ ProjectsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./projects.component.css */ "./src/app/components/articles/projects/projects.component.css")).default]
     })
 ], ProjectsComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/contact/contact.component.css":
+/*!**********************************************************!*\
+  !*** ./src/app/components/contact/contact.component.css ***!
+  \**********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');\r\n\r\nform { \r\n  max-width:420px; margin:50px auto; padding: 20px;\r\n}\r\n\r\nform p {\r\n  font-family:'Montserrat', sans-serif !important;\r\n}\r\n\r\n.feedback-input:focus { border:2px solid #303030; background: #f3f3f3; }\r\n\r\ntextarea { height: 150px; line-height: 150%; resize:vertical; }\r\n\r\ntextarea:hover, .feedback-input:hover {background-color: #f3f1f3;}\r\n\r\n.form .paragraph-center {text-align: center; font-size: 16pt; padding: 20px }\r\n\r\n/* Contact form inputs */\r\n\r\n.feedback-input {\r\n  color:black; font-family: Helvetica, Arial, sans-serif; font-weight:500; font-size: 18px;\r\n  border-radius: 5px; line-height: 22px; border:2px solid #707070;\r\n  background-color: transparent;\r\n  transition: all 0.3s;\r\n  padding: 13px; margin-bottom: 15px; width:100%; box-sizing: border-box; outline:0;\r\n}\r\n\r\n[type=\"submit\"] {\r\n  font-family: 'Montserrat', Arial, Helvetica, sans-serif;\r\n  width: 100%; background:darkgrey;\r\n  border-radius: 5px; border:0;\r\n  cursor: pointer;\r\n  color:white; font-size:24px; font-weight:700;\r\n  padding-top:10px; padding-bottom:10px; margin-top:-4px;\r\n  transition: all 0.3s;\r\n}\r\n\r\n[type=\"submit\"]:hover { background:#303030; }\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwrRUFBK0U7O0FBRS9FO0VBQ0UsZUFBZSxFQUFFLGdCQUFnQixFQUFFLGFBQWE7QUFDbEQ7O0FBQ0E7RUFDRSwrQ0FBK0M7QUFDakQ7O0FBQ0Esd0JBQXdCLHdCQUF3QixFQUFFLG1CQUFtQixFQUFFOztBQUN2RSxXQUFXLGFBQWEsRUFBRSxpQkFBaUIsRUFBRSxlQUFlLEVBQUU7O0FBQzlELHVDQUF1Qyx5QkFBeUIsQ0FBQzs7QUFDakUseUJBQXlCLGtCQUFrQixFQUFFLGVBQWUsRUFBRSxjQUFjOztBQUU1RSx3QkFBd0I7O0FBQ3hCO0VBQ0UsV0FBVyxFQUFFLHlDQUF5QyxFQUFFLGVBQWUsRUFBRSxlQUFlO0VBQ3hGLGtCQUFrQixFQUFFLGlCQUFpQixFQUFFLHdCQUF3QjtFQUMvRCw2QkFBNkI7RUFDN0Isb0JBQW9CO0VBQ3BCLGFBQWEsRUFBRSxtQkFBbUIsRUFBRSxVQUFVLEVBQUUsc0JBQXNCLEVBQUUsU0FBUztBQUNuRjs7QUFDQTtFQUNFLHVEQUF1RDtFQUN2RCxXQUFXLEVBQUUsbUJBQW1CO0VBQ2hDLGtCQUFrQixFQUFFLFFBQVE7RUFDNUIsZUFBZTtFQUNmLFdBQVcsRUFBRSxjQUFjLEVBQUUsZUFBZTtFQUM1QyxnQkFBZ0IsRUFBRSxtQkFBbUIsRUFBRSxlQUFlO0VBQ3RELG9CQUFvQjtBQUN0Qjs7QUFDQSx3QkFBd0Isa0JBQWtCLEVBQUUiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9TW9udHNlcnJhdCZkaXNwbGF5PXN3YXAnKTtcclxuXHJcbmZvcm0geyBcclxuICBtYXgtd2lkdGg6NDIwcHg7IG1hcmdpbjo1MHB4IGF1dG87IHBhZGRpbmc6IDIwcHg7XHJcbn1cclxuZm9ybSBwIHtcclxuICBmb250LWZhbWlseTonTW9udHNlcnJhdCcsIHNhbnMtc2VyaWYgIWltcG9ydGFudDtcclxufVxyXG4uZmVlZGJhY2staW5wdXQ6Zm9jdXMgeyBib3JkZXI6MnB4IHNvbGlkICMzMDMwMzA7IGJhY2tncm91bmQ6ICNmM2YzZjM7IH1cclxudGV4dGFyZWEgeyBoZWlnaHQ6IDE1MHB4OyBsaW5lLWhlaWdodDogMTUwJTsgcmVzaXplOnZlcnRpY2FsOyB9XHJcbnRleHRhcmVhOmhvdmVyLCAuZmVlZGJhY2staW5wdXQ6aG92ZXIge2JhY2tncm91bmQtY29sb3I6ICNmM2YxZjM7fVxyXG4uZm9ybSAucGFyYWdyYXBoLWNlbnRlciB7dGV4dC1hbGlnbjogY2VudGVyOyBmb250LXNpemU6IDE2cHQ7IHBhZGRpbmc6IDIwcHggfVxyXG5cclxuLyogQ29udGFjdCBmb3JtIGlucHV0cyAqL1xyXG4uZmVlZGJhY2staW5wdXQge1xyXG4gIGNvbG9yOmJsYWNrOyBmb250LWZhbWlseTogSGVsdmV0aWNhLCBBcmlhbCwgc2Fucy1zZXJpZjsgZm9udC13ZWlnaHQ6NTAwOyBmb250LXNpemU6IDE4cHg7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4OyBsaW5lLWhlaWdodDogMjJweDsgYm9yZGVyOjJweCBzb2xpZCAjNzA3MDcwO1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHRyYW5zcGFyZW50O1xyXG4gIHRyYW5zaXRpb246IGFsbCAwLjNzO1xyXG4gIHBhZGRpbmc6IDEzcHg7IG1hcmdpbi1ib3R0b206IDE1cHg7IHdpZHRoOjEwMCU7IGJveC1zaXppbmc6IGJvcmRlci1ib3g7IG91dGxpbmU6MDtcclxufVxyXG5bdHlwZT1cInN1Ym1pdFwiXSB7XHJcbiAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0JywgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjtcclxuICB3aWR0aDogMTAwJTsgYmFja2dyb3VuZDpkYXJrZ3JleTtcclxuICBib3JkZXItcmFkaXVzOiA1cHg7IGJvcmRlcjowO1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxuICBjb2xvcjp3aGl0ZTsgZm9udC1zaXplOjI0cHg7IGZvbnQtd2VpZ2h0OjcwMDtcclxuICBwYWRkaW5nLXRvcDoxMHB4OyBwYWRkaW5nLWJvdHRvbToxMHB4OyBtYXJnaW4tdG9wOi00cHg7XHJcbiAgdHJhbnNpdGlvbjogYWxsIDAuM3M7XHJcbn1cclxuW3R5cGU9XCJzdWJtaXRcIl06aG92ZXIgeyBiYWNrZ3JvdW5kOiMzMDMwMzA7IH0iXX0= */");
+
+/***/ }),
+
+/***/ "./src/app/components/contact/contact.component.ts":
+/*!*********************************************************!*\
+  !*** ./src/app/components/contact/contact.component.ts ***!
+  \*********************************************************/
+/*! exports provided: ContactComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ContactComponent", function() { return ContactComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/firestore */ "./node_modules/@angular/fire/fesm2015/angular-fire-firestore.js");
+
+
+
+let ContactComponent = class ContactComponent {
+    constructor(db) {
+        this.db = db;
+    }
+    ngOnInit() {
+        this.users = this.db.collection('users').valueChanges({ idField: 'id' });
+    }
+};
+ContactComponent.ctorParameters = () => [
+    { type: _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_2__["AngularFirestore"] }
+];
+ContactComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-contact',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./contact.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./contact.component.css */ "./src/app/components/contact/contact.component.css")).default]
+    })
+], ContactComponent);
 
 
 
