@@ -7,9 +7,9 @@
 ___
 
 <div class="center extraPadding">
-    <a href="/coding/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/posts/post/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 ### 10. Handling errors and invalid input

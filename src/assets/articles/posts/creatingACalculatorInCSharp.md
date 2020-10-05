@@ -15,9 +15,9 @@ ___
 <!-- ----------------------------- -->
 
 <div class="center extraPadding">
-    <a href="/coding/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/posts/post/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections:
@@ -302,7 +302,7 @@ This is what the final design of the calculator should look like:
 Continue on to the next steps to add the functionality.
 
 <div class="read-more-container">
-    <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Next steps >></a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart2" class="button">Next steps >></a>
 </div>
 
 <br><br>

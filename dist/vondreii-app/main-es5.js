@@ -156,46 +156,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students-post/students-post.component.html":
-  /*!*******************************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students-post/students-post.component.html ***!
-    \*******************************************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsArticlesStudentsStudentsPostStudentsPostComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students.component.html":
-  /*!************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students.component.html ***!
-    \************************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsArticlesStudentsStudentsComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search posts for students (by title, topic, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n              <div>\r\n                <a class=\"date\">{{dates[i]}}</a>\r\n                <a class=\"tag\">{{tags[i]}}</a>\r\n              </div>\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <p>\r\n              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim semper leo a facilisis. Donec eget felis molestie, fringilla turpis at, cursus neque. Maecenas consectetur, metus condimentum rutrum auctor, metus enim ornare mi, vitae venenatis urna nisl ornare dui. Sed odio turpis, pulvinar ac diam sit amet, porta eleifend risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum consectetur felis eu elit sollicitudin aliquam.\r\n              <a routerLink=\"{{links[i]}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
-    /***/
-  },
-
-  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html":
   /*!***********************************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/footer/footer.component.html ***!
@@ -1163,31 +1123,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
-    /*! ./components/articles/students/students.component */
-    "./src/app/components/articles/students/students.component.ts");
-    /* harmony import */
-
-
-    var _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
-    /*! ./components/articles/students/students-post/students-post.component */
-    "./src/app/components/articles/students/students-post/students-post.component.ts");
-    /* harmony import */
-
-
-    var _components_social_social_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    var _components_social_social_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
     /*! ./components/social/social.component */
     "./src/app/components/social/social.component.ts");
     /* harmony import */
 
 
-    var _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    var _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
     /*! ./components/articles/posts/posts.component */
     "./src/app/components/articles/posts/posts.component.ts");
     /* harmony import */
 
 
-    var _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    var _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
     /*! ./components/articles/posts/posts-post/posts-post.component */
     "./src/app/components/articles/posts/posts-post/posts-post.component.ts"); // Markdown Files
     // Angular Fire Modules
@@ -1200,7 +1148,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"], _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__["ProjectsComponent"], _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__["ProjectPostComponent"], _components_articles_students_students_component__WEBPACK_IMPORTED_MODULE_17__["StudentsComponent"], _components_articles_students_students_post_students_post_component__WEBPACK_IMPORTED_MODULE_18__["StudentsPostComponent"], _components_social_social_component__WEBPACK_IMPORTED_MODULE_19__["SocialComponent"], _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_20__["PostsComponent"], _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_21__["PostsPostComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"], _components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_12__["NavbarComponent"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_13__["FooterComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_14__["AboutComponent"], _components_articles_projects_projects_component__WEBPACK_IMPORTED_MODULE_15__["ProjectsComponent"], _components_articles_projects_project_post_project_post_component__WEBPACK_IMPORTED_MODULE_16__["ProjectPostComponent"], _components_social_social_component__WEBPACK_IMPORTED_MODULE_17__["SocialComponent"], _components_articles_posts_posts_component__WEBPACK_IMPORTED_MODULE_18__["PostsComponent"], _components_articles_posts_posts_post_posts_post_component__WEBPACK_IMPORTED_MODULE_19__["PostsPostComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_11__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_5__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_9__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_6__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_7__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_8__["AngularFireStorageModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClientModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_3__["MarkdownModule"].forRoot({
         loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"],
         sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_2__["SecurityContext"].NONE
@@ -1440,15 +1388,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function PostsComponent() {
         _classCallCheck(this, PostsComponent);
 
-        this.titles = [//["Creating Your Own Blog Using Hugo"],
+        this.titles = [// ["Creating Your Own Blog Using Hugo"],
         ["Linking A Namecheap Domain To Firebase"], ["Hosting An Angular App On Firebase"], ["Creating A Calculator in C#"], ["Hosting an Angular Application using Netlify"], ["Setting Up A Github Repository and Creating A Local Copy"], ["Adding Photos To Instagram Using A Desktop Computer"], ["Creating A Simple Angular Web Application"], ["How To Organise Your Web Browsing"], ["Organising Your Computer To Increase Productivity"]];
-        this.images = [//["../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
+        this.images = [// ["../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
         ["../../assets/articles/post-images/linkingANamecheapDomainToFirebase/header-dark.jpg"], ["../../assets/articles/post-images/hostingAnAngularAppOnFirebase/header-dark.jpg"], ["../../assets/articles/post-images/creatingACalculatorInCSharp/header-dark.jpg"], ["../../assets/articles/post-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"], ["../../assets/articles/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"], ["../../assets/articles/post-images/uploadImageToInstagramViaDesktop/header-dark.jpg"], ["../../assets/articles/post-images/creatingASimpleAngularWebApplication/header-dark.jpg"], ["../../assets/articles/post-images/howToOrganiseYourWebBrowsing/header-dark.jpg"], ["../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg"]];
-        this.dates = [//["Coming Soon!"],
+        this.dates = [// ["Coming Soon!"],
         ["4 Oct 2020"], ["3 Oct 2020"], ["26 Sept 2020"], ["30 Aug 2020"], ["22 Aug 2020"], ["11 Aug 2020"], ["04 Aug 2020"], ["25 May 2020"], ["16 May 2020"]];
         this.links = [// ["/posts/post/createYourOwnBlogUsingHugo"],
         ["/posts/post/linkingANamecheapDomainToFirebase"], ["/posts/post/hostingAnAngularAppOnFirebase"], ["/posts/post/creatingACalculatorInCSharp"], ["/posts/post/hostingAngularApplicationUsingNetlify"], ["/posts/post/settingUpASimpleGithubRemoteAndLocalRepository"], ["/posts/post/uploadImageToInstagramViaDesktop"], ["/posts/post/creatingASimpleAngularWebApplication"], ["/posts/post/howToOrganiseYourWebBrowsing"], ["/posts/post/organisingYourComputerToIncreaseProductivity"]];
-        this.tags = [//["Hugo"],
+        this.tags = [// ["Hugo"],
         ["Hosting • Firebase • Namecheap"], ["Angular • Hosting • Firebase"], ["C#"], ["Angular • Netlify • Hosting"], ["Version Control • Github"], ["Design • Social Media"], ["Angular"], ["Organisation"], ["Organisation"]];
       }
 
@@ -1676,210 +1624,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./projects.component.css */
       "./src/app/components/articles/projects/projects.component.css"))["default"]]
     })], ProjectsComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/components/articles/students/students-post/students-post.component.css":
-  /*!****************************************************************************************!*\
-    !*** ./src/app/components/articles/students/students-post/students-post.component.css ***!
-    \****************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsArticlesStudentsStudentsPostStudentsPostComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvc3R1ZGVudHMvc3R1ZGVudHMtcG9zdC9zdHVkZW50cy1wb3N0LmNvbXBvbmVudC5jc3MifQ== */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/articles/students/students-post/students-post.component.ts":
-  /*!***************************************************************************************!*\
-    !*** ./src/app/components/articles/students/students-post/students-post.component.ts ***!
-    \***************************************************************************************/
-
-  /*! exports provided: StudentsPostComponent */
-
-  /***/
-  function srcAppComponentsArticlesStudentsStudentsPostStudentsPostComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "StudentsPostComponent", function () {
-      return StudentsPostComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-    /* harmony import */
-
-
-    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! @angular/router */
-    "./node_modules/@angular/router/fesm2015/router.js");
-
-    var StudentsPostComponent = /*#__PURE__*/function () {
-      function StudentsPostComponent(route) {
-        _classCallCheck(this, StudentsPostComponent);
-
-        this.route = route;
-      }
-
-      _createClass(StudentsPostComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          var articleName = this.route.snapshot.paramMap.get('article');
-          this.post = './assets/articles/students-posts/' + articleName + '.md';
-        }
-      }]);
-
-      return StudentsPostComponent;
-    }();
-
-    StudentsPostComponent.ctorParameters = function () {
-      return [{
-        type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"]
-      }];
-    };
-
-    StudentsPostComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-students-post',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./students-post.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students-post/students-post.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./students-post.component.css */
-      "./src/app/components/articles/students/students-post/students-post.component.css"))["default"]]
-    })], StudentsPostComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/components/articles/students/students.component.css":
-  /*!*********************************************************************!*\
-    !*** ./src/app/components/articles/students/students.component.css ***!
-    \*********************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsArticlesStudentsStudentsComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvYXJ0aWNsZXMvc3R1ZGVudHMvc3R1ZGVudHMuY29tcG9uZW50LmNzcyJ9 */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/articles/students/students.component.ts":
-  /*!********************************************************************!*\
-    !*** ./src/app/components/articles/students/students.component.ts ***!
-    \********************************************************************/
-
-  /*! exports provided: StudentsComponent */
-
-  /***/
-  function srcAppComponentsArticlesStudentsStudentsComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "StudentsComponent", function () {
-      return StudentsComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var StudentsComponent = /*#__PURE__*/function () {
-      function StudentsComponent() {
-        _classCallCheck(this, StudentsComponent);
-
-        this.titles = [["Tips on Making The Most Out Of Your First Year At Uni"], ["Decluttering Your Home"], ["Ways To Be More Organised"]];
-        this.images = [["../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/header-dark.jpg"], ["../../assets/articles/students-images/declutteringYourHome/header-dark.jpg"], ["../../assets/articles/students-images/waysToBeMoreOrganised/header-dark.jpg"]];
-        this.dates = [["8 June 2020"], ["12 May 2020"], ["19 May 2020"]];
-        this.links = [["/students/post/tipsOnMakingTheMostOutOfYourFirstYearUni"], ["/students/post/declutteringYourHome"], ["/students/post/waysToBeMoreOrganised"]];
-        this.tags = [["Uni"], ["Organisation"], ["Organisation"]];
-      }
-
-      _createClass(StudentsComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {
-          this.postArray = [0, 1, 2, 3, 4, 5];
-        }
-      }, {
-        key: "getURL",
-        value: function getURL(i) {
-          return this.images[i];
-        }
-      }, {
-        key: "searchbar",
-        value: function searchbar() {
-          var input, filter, ul, li, a, i, txtValue;
-          input = document.getElementById("myInput");
-          filter = input.value.toUpperCase();
-          ul = document.getElementById("myUL");
-          li = ul.getElementsByTagName("section");
-
-          for (i = 0; i < li.length; i++) {
-            a = li[i].getElementsByTagName("div")[0];
-            txtValue = a.textContent || a.innerText;
-
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-              li[i].style.display = "";
-            } else {
-              li[i].style.display = "none";
-            }
-          }
-        }
-      }]);
-
-      return StudentsComponent;
-    }();
-
-    StudentsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-students',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./students.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/articles/students/students.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./students.component.css */
-      "./src/app/components/articles/students/students.component.css"))["default"]]
-    })], StudentsComponent);
     /***/
   },
 

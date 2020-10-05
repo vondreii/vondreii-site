@@ -22,8 +22,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/articles/projects/projects.component';
 import { ProjectPostComponent } from './components/articles/projects/project-post/project-post.component';
-import { StudentsComponent } from './components/articles/students/students.component';
-import { StudentsPostComponent } from './components/articles/students/students-post/students-post.component';
 import { SocialComponent } from './components/social/social.component';
 import { PostsComponent } from './components/articles/posts/posts.component';
 import { PostsPostComponent } from './components/articles/posts/posts-post/posts-post.component';
@@ -36,8 +34,6 @@ import { PostsPostComponent } from './components/articles/posts/posts-post/posts
     AboutComponent,
     ProjectsComponent,
     ProjectPostComponent,
-    StudentsComponent,
-    StudentsPostComponent,
     SocialComponent,
     PostsComponent,
     PostsPostComponent

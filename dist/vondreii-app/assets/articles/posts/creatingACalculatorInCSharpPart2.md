@@ -7,9 +7,9 @@
 ___
 
 <div class="center extraPadding">
-    <a href="/coding/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/coding/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/posts/post/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 ### 6. Running the program for the first time
@@ -397,7 +397,7 @@ You now have the basic functionalities of a calculator.
 Continue on to the next steps to handle invalid inputs and to finalise the calculator.
 
 <div class="read-more-container">
-    <a href="/coding/post/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
+    <a href="/posts/post/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
 </div>
 
 <br><br>

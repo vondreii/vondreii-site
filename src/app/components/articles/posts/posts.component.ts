@@ -12,7 +12,7 @@ export class PostsComponent implements OnInit {
   hrefId: string;
 
   titles: string[][] = [
-    //["Creating Your Own Blog Using Hugo"],
+    // ["Creating Your Own Blog Using Hugo"],
     ["Linking A Namecheap Domain To Firebase"],
     ["Hosting An Angular App On Firebase"],
     ["Creating A Calculator in C#"],
@@ -22,9 +22,13 @@ export class PostsComponent implements OnInit {
     ["Creating A Simple Angular Web Application"],
     ["How To Organise Your Web Browsing"],
     ["Organising Your Computer To Increase Productivity"],
+
+    // ["Tips on Making The Most Out Of Your First Year At Uni"],
+    // ["Decluttering Your Home"],
+    // ["Ways To Be More Organised"]
   ];
   images: string[][] = [
-    //["../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
+    // ["../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
     ["../../assets/articles/post-images/linkingANamecheapDomainToFirebase/header-dark.jpg"],
     ["../../assets/articles/post-images/hostingAnAngularAppOnFirebase/header-dark.jpg"],
     ["../../assets/articles/post-images/creatingACalculatorInCSharp/header-dark.jpg"],
@@ -34,9 +38,13 @@ export class PostsComponent implements OnInit {
     ["../../assets/articles/post-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
     ["../../assets/articles/post-images/howToOrganiseYourWebBrowsing/header-dark.jpg"],
     ["../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg"],
+    
+    // ["../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/header-dark.jpg"],
+    // ["../../assets/articles/students-images/declutteringYourHome/header-dark.jpg"],
+    // ["../../assets/articles/students-images/waysToBeMoreOrganised/header-dark.jpg"]
   ];
   dates: string[][] = [
-    //["Coming Soon!"],
+    // ["Coming Soon!"],
     ["4 Oct 2020"],
     ["3 Oct 2020"],
     ["26 Sept 2020"],
@@ -46,6 +54,10 @@ export class PostsComponent implements OnInit {
     ["04 Aug 2020"],
     ["25 May 2020"],
     ["16 May 2020"],
+    
+    // ["8 June 2020"],
+    // ["12 May 2020"],
+    // ["19 May 2020"]
   ];
   links: string[][] = [
     // ["/posts/post/createYourOwnBlogUsingHugo"],
@@ -58,9 +70,13 @@ export class PostsComponent implements OnInit {
     ["/posts/post/creatingASimpleAngularWebApplication"],
     ["/posts/post/howToOrganiseYourWebBrowsing"],
     ["/posts/post/organisingYourComputerToIncreaseProductivity"],
+    
+    // ["/students/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
+    // ["/students/post/declutteringYourHome"],
+    // ["/students/post/waysToBeMoreOrganised"]
   ];
   tags: string[][] = [
-    //["Hugo"],
+    // ["Hugo"],
     ["Hosting • Firebase • Namecheap"],
     ["Angular • Hosting • Firebase"],
     ["C#"],
@@ -70,6 +86,10 @@ export class PostsComponent implements OnInit {
     ["Angular"],
     ["Organisation"],
     ["Organisation"],
+    
+    // ["Uni"],
+    // ["Organisation"],
+    // ["Organisation"]
   ];
 
   constructor() { }
