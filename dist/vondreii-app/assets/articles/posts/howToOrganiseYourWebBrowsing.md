@@ -12,7 +12,7 @@ ___
 <br>
 <div class="image-container">
     <img src="../../../assets/articles/post-images/howToOrganiseYourWebBrowsing/header-dark.jpg" alt="image" class="image-full"/>
-	  <div class="image-description"><p>Credit</p></div>
+  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@shuttergames">Shuttergames</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 

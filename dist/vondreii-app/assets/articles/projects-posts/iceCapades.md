@@ -1,12 +1,14 @@
-<div class="parallax" style="height: 350px; background-image: url('../../assets/articles/projects-images/iceCapades/house-2.png');"></div>
-<br>
 <div class="writtenContent">
+<br>
 
-## Ice Capades
-___
+# Ice Capades
+#### 2D Game • Game • Top-Down • Puzzle
 
-###### 2D Game | Game | Top-Down | Puzzle
-___
+<!-- ----------- Intro ----------- -->
+<div class="image-container">
+    <img src="../../assets/articles/projects-images/iceCapades/header.jpg" alt="image" class="image-full"/>
+</div>
+<!-- ----------------------------- -->
 
 <div class="download-container">
     <div class="download-link">

@@ -12,11 +12,3 @@
 .about-content p {
 	padding-bottom:1rem
 }
-
-/* Smaller screens (phone) */
-@media screen and (max-width:766px) {
-	.first {
-		margin-top:6rem
-	}
-} 
-  

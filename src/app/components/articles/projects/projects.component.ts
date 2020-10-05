@@ -16,9 +16,9 @@ export class ProjectsComponent implements OnInit {
       // ["Offline Calculator And Converter"]
   ];
   images: string[][] = [
-      ["../../assets/articles/projects-images/cyanX/preview.png"],
-      ["../../assets/articles/projects-images/racingGame/gameplay.PNG"],
-      ["../../assets/articles/projects-images/iceCapades/preview.jpg"],
+      ["../../assets/articles/projects-images/cyanX/header.png"],
+      ["../../assets/articles/projects-images/racingGame/header.PNG"],
+      ["../../assets/articles/projects-images/iceCapades/header.jpg"],
       //["../../assets/articles/projects-images/calculatorConverter/preview.jpg"],
   ];
   descriptions: string[][] = [

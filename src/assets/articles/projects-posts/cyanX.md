@@ -1,12 +1,14 @@
-<div class="parallax" style="height: 350px; background-image: url('../../assets/articles/projects-images/cyanX/header.png');"></div>
-<br>
 <div class="writtenContent">
+<br>
 
-## CyanX
-___
+# CyanX
+#### 2D Game • Game • Side Scroller • Puzzle
 
-###### 2D Game | Game | Side Scroller | Puzzle
-___
+<!-- ----------- Intro ----------- -->
+<div class="image-container">
+    <img src="../../assets/articles/projects-images/cyanX/header.png" alt="image" class="image-full"/>
+</div>
+<!-- ----------------------------- -->
 
 <div class="download-container">
     <div class="download-link">

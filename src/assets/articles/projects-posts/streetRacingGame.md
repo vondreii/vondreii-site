@@ -1,12 +1,14 @@
-<div class="parallax" style="height: 350px; background-image: url('../../assets/articles/projects-images/racingGame/gameplay.PNG');"></div>
-<br>
 <div class="writtenContent">
+<br>
 
-## Street Racing Game
-___
+# Street Racing Game
+#### 3D Game • Game • Research • Racing
 
-###### 3D Game | Game | Research | Racing
-___
+<!-- ----------- Intro ----------- -->
+<div class="image-container">
+    <img src="../../assets/articles/projects-images/racingGame/header.PNG" alt="image" class="image-full"/>
+</div>
+<!-- ----------------------------- -->
 
 <div class="download-container">
     <div class="download-link">

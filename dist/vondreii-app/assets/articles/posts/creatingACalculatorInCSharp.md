@@ -11,9 +11,8 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/post-images/creatingACalculatorInCSharpPart3/final_preview.PNG" class="image-full">
-    <source src="../../../assets/articles/post-images/creatingACalculatorInCSharpPart3/final.mp4" type="video/mp4">
-    </video>
+    <img src="../../../assets/articles/post-images/creatingACalculatorInCSharp/header-dark.jpg" alt="image" class="image-full"/>
+  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@amoltyagi2">Amol Tyagi</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -32,6 +31,14 @@ We are going to give you a step-by-step guide on how you can make your very own 
 Before we start:
 * Make sure you have Visual Studio downloaded onto your computer. If you don't have Visual Studio you can get the Community version for free, from [Microsoft's Visual Studio Download page](https://visualstudio.microsoft.com/downloads/). For this tutorial we are going to be using Visual Studio 2017. 
 * You don't have to have a lot (or any) programming knowledge to be able to complete this tutorial. It helps to have some basic knowledge of variables and functions, but I've tried to explain each step as much as possible.
+
+<!-- ----------- Video ----------- -->
+<div class="image-container">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/articles/post-images/creatingACalculatorInCSharpPart3/final_preview.PNG" class="image-full">
+    <source src="../../../assets/articles/post-images/creatingACalculatorInCSharpPart3/final.mp4" type="video/mp4">
+    </video>
+</div>
+<!-- ----------------------------- -->
 
 The final source code can also be viewed and downloaded from Github:
 

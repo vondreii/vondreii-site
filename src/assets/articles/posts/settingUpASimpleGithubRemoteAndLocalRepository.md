@@ -12,7 +12,7 @@ ___
 <br>
 <div class="image-container">
     <img src="../../../assets/articles/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg" alt="image" class="image-full"/>
-	<div class="image-description"><p>Credit</p></div>
+  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@caleb_white">Caleb White</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 

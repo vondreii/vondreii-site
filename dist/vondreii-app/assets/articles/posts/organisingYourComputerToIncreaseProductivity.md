@@ -12,7 +12,9 @@ ___
 <br>
 <div class="image-container">
     <img src="../../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg" alt="image" class="image-full"/>
-	<div class="image-description"><p>Credit</p></div>
+  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@laurenmancke">Lauren Mancke</a> on Unsplash</p></div>
+
+	
 </div>
 <!-- ----------------------------- -->
 
