@@ -1,12 +1,20 @@
-<br>
 <div class="writtenContent">
 
-## Organising Your Computer To Increase Productivity
+#### 16 May 2020
+# Organising Your Computer To Increase Productivity
 ___
 
-###### 16 May 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
-
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg" alt="image" class="image-full"/>
+	<div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 Having a well organised computer can improve your overall workflow and efficiency. Having too many folders and files in different places can make it difficult to find what you are looking for. Here are a few suggestions on how you can better organise your computer, including your files, applications and overall layout.
  

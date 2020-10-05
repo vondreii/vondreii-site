@@ -1,10 +1,16 @@
-<br>
 <div class="writtenContent">
 
-## Creating A Calculator in C# (Part 3)
-
-###### 26 Sept 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
+#### 26 Sept 2020
+# Creating A Calculator in C# (Part 3)
 ___
+
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<!-- ----------------------------- -->
 
 <div class="center extraPadding">
     <a href="/posts/post/creatingACalculatorInCSharp" class="button">Part 1</a>

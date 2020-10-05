@@ -1,12 +1,20 @@
-<br>
 <div class="writtenContent">
 
-## How To Organise Your Web Browsing
+#### 25 May 2020
+# How To Organise Your Web Browsing
 ___
 
-###### 25 May 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
-
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/howToOrganiseYourWebBrowsing/header-dark.jpg" alt="image" class="image-full"/>
+	  <div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 These days, many people spend most of their time surfing the web or conducting important business online. It makes sense to have your accounts, passwords, general online activities and frequently used websites organised in order to make things easier to access. Other online tools can also be utilised to increase productivity by managing social media posts and tracking the time you spend on time wasting websites.
 

@@ -1,11 +1,20 @@
-<br>
 <div class="writtenContent">
 
-## Setting Up A Github Repository and Creating A Local Copy
+#### 22 Aug 2020
+# Setting Up A Github Repository and Creating A Local Copy
 ___
 
-###### 22 Aug 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg" alt="image" class="image-full"/>
+	<div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 GitHub is a free version control platform where you can store your code online in **repositories**. A repository is basically just a folder where you can store your project. 
 When we create a Github repository, we are creating a place online where we can store our code files for a project remotely (a similar analogy is that we use Google Drive or Dropbox to store a backup of our files remotely).

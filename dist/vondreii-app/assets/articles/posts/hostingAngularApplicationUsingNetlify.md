@@ -1,14 +1,20 @@
-<!-- <div class="parallax" style="height: 350px; background-image: url('../../../assets/articles/post-images/hostingAngularApplicationUsingNetlify/header-dark.jpg');">
-  <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com/@domenicoloia" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Igor Miske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Domenico Loia</span></a></div>
-</div> -->
-<br>
 <div class="writtenContent">
 
-## Hosting An Angular Application Using Github And Netlify
+#### 30 Aug 2020
+# Hosting An Angular Application Using Github And Netlify
 ___
 
-###### 30 Aug 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/hostingAngularApplicationUsingNetlify/header-dark.jpg" alt="image" class="image-full"/>
+	<div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up.
 

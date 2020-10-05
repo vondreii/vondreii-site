@@ -1,15 +1,20 @@
-<!-- <div class="parallax" style="height: 350px; background-image: url('../../../assets/articles/post-images/creatingASimpleAngularWebApplication/header.jpg');">
-  <div class="imageTextCollage"><a class="photoCred" style="margin-top: 300px; float: right;" href="https://unsplash.com/@ffstop" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Igor Miske"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Fotis Fotopoulos</span></a></div>
-</div> -->
-<br>
 <div class="writtenContent">
 
-## Creating A Simple Angular Web Application
+#### 04 Aug 2020
+# Creating A Simple Angular Web Application
 ___
 
-###### 04 Aug 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
-
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/creatingASimpleAngularWebApplication/header-dark.jpg" alt="image" class="image-full"/>
+	<div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 This tutorial will go through how you can create a simple angular web app in 3 stages:
 

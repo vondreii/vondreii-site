@@ -1,14 +1,20 @@
-<br>
 <div class="writtenContent">
 
-<body> 
-
-## Adding Photos To Instagram Using A Desktop Computer
+#### 11 Aug 2020
+# Adding Photos To Instagram Using A Desktop Computer
 ___
 
-###### 11 Aug 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
-
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/uploadImageToInstagramViaDesktop/header-dark.jpg" alt="image" class="image-full"/>
+	<div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 Sometimes you need to upload photos to Instagram on a computer, especially if you are using a computer to edit photos or create vector art. It can be really annoying to keep transferring them onto your phone and uploading it from there (and if you can't airdrop it using an IPhone, the quality of these photos can be reduced).
 

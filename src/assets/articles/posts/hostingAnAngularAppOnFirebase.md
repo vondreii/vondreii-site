@@ -1,11 +1,20 @@
-<br>
 <div class="writtenContent">
 
-## Hosting An Angular App On Firebase
+#### 03 Oct 2020
+# Hosting An Angular App On Firebase
 ___
 
-###### 03 Oct 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/hostingAnAngularAppOnFirebase/header-dark.jpg" alt="image" class="image-full"/>
+	  <div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to:
 * Creating a project on Firebase (for your app)

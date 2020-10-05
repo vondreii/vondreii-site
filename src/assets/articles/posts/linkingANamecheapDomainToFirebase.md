@@ -1,11 +1,20 @@
-<br>
 <div class="writtenContent">
 
-## Linking A Namecheap Domain To Firebase
+#### 04 Oct 2020
+# Linking A Namecheap Domain To Firebase
 ___
 
-###### 04 Oct 2020 by [@Vondreii](https://www.instagram.com/vondreii/?hl=en)
-___
+<!-- ----------- Intro ----------- -->
+<div class="avatar-block">
+    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
+</div>
+<br>
+<div class="image-container">
+    <img src="../../../assets/articles/post-images/linkingANamecheapDomainToFirebase/header-dark.jpg" alt="image" class="image-full"/>
+	<div class="image-description"><p>Credit</p></div>
+</div>
+<!-- ----------------------------- -->
 
 Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like **.firebaseapp.com** or **.web.app**). 
 
