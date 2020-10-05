@@ -34,6 +34,7 @@ Before we start:
 * You don't have to have a lot (or any) programming knowledge to be able to complete this tutorial. It helps to have some basic knowledge of variables and functions, but I've tried to explain each step as much as possible.
 
 The final source code can also be viewed and downloaded from Github:
+
 <div class="download-container">
     <div class="download-link">
         <a href="https://github.com/vondreii/Calculator-Example" class="button">↓ Final Source Code at completion of Part 3 ↓</a>

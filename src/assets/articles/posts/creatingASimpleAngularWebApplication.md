@@ -41,22 +41,26 @@ Navigate to a place in your files directory where you would like to store your p
 <!-- ----------------------------- -->
 
 In a command line or terminal, navigate to the location of this folder. For example, if your folder location is `C:\Users\user1\Desktop\webapp`, then you would run:
+
 ```bash
 cd C:\Users\user1\Desktop\webapp
 
 ```
 
 Now run the following command to create a new Angular Application, which will be stored within the `webapp` folder:
+
 ```bash
 ng new test-angular-app --routing=true --style=css
+
 ```
 
 You can change this based on your needs.
 * The `--routing` parameter adds Angular routing (either `true` or `false`)
 * The `--style` parameter allows you to choose which stylesheet format you would like to use (can be `CSS`, `SCSS`, `Sass`, `Less`, or `Stylus`). For this tutorial we are using CSS. 
-	* If you want to use SCSS with MDBootstrap, you can read how to [Create an Angular app with MDBootstrap](https://sorakhan.com/post-001). 
+* If you want to use SCSS with MDBootstrap, you can read how to [Create an Angular app with MDBootstrap](https://sorakhan.com/post-001). 
 
 Now you have the framework to develop an Angular App. If you open the `test-angular-app` folder (which contains the source code) it should look similar to this:
+
 <!-- ----------- Image ----------- -->
 <div class="image-container">
 	<img src="../../../assets/articles/post-images/creatingASimpleAngularWebApplication/angular-test-source-code.PNG" alt="image" class="image"/>
@@ -69,6 +73,7 @@ Navigate to the `test-angular-app` folder in the command line and run the comman
 
 ```Bash
 ng serve --open
+
 ```
 
 Wait for the program to compile. When it finishes, a web browser should open with your webpage running locally - if the default angular app home page is shown, then you are on the right track:
@@ -86,14 +91,20 @@ We will now make three basic pages, the `Home` page, the `About` page and a `Con
 
 To open the source code you can open the whole folder in `Visual Studio Code` if you have it [installed](https://code.visualstudio.com/download). Otherwise you can manually edit the files.
 In the root of the app's directory, run the following commands one after another in the command window: 
+
 ```Bash
 ng g c home
+
 ```
+
 ```Bash
 ng g c about
+
 ```
+
 ```Bash
 ng g c contact
+
 ```
 
 Three components/folders will be generated: `src/app/about`, `src/app/home` and `src/app/contact`.
@@ -109,12 +120,14 @@ Each component has a html, css and typescript file. By default there is a single
 however you can choose to add your own html and css if you wish. As you build the website you can add content and styling using these pages. 
 
 There is also a master CSS styling file located in `src/styles.css`, which applies styling to all the pages. In `src/styles.css`, replace the existing code with:
+
 ```CSS
 p {
     padding: 10px 30px;
     font-size: 14pt;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 ```  
 
 ### Adding the navbar and configuring routes 
@@ -127,12 +140,13 @@ In the root directory of the application, run one of the following commands:
 
 ```js
 npm install bootstrap@3.3.7 // For Bootstrap 3.3.7
+
 ```
+
 ```js
 npm install bootstrap // for Bootstrap 4
-```
- 
 
+```
 
 After that, go to `angular.json`, find the `styles` and `scripts` arrays and make the following modifications:
 
@@ -150,6 +164,7 @@ We can now add a navbar using Bootstrap. First, create a navbar component in a `
 
 ```Bash
 ng g c shared/navbar
+
 ```
 
 This will create a navbar component:
@@ -176,6 +191,7 @@ Go to `src/app/shared/navbar/navbar.component.html` and replace the existing cod
       </ul>
     </div>
 </nav>
+
 ```
 
 This is based on a basic navbar template taken directly from [W3Schools](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp).
@@ -212,6 +228,7 @@ export class AppRoutingModule { }
 ```
 
 In `src/app/home/app.component.html` replace the existing code with:
+
 ```CSS
 <app-navbar></app-navbar> <!-- add this -->
 <router-outlet></router-outlet> <!-- add this -->

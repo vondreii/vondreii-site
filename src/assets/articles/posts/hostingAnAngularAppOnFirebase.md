@@ -117,7 +117,6 @@ This list should correlate with the projects you have listed on your firebase co
 </div>
 <!-- ----------------------------- -->
 
-
 The **blue (current)** directory is the app you are currently in. This is the firebase project we will deploy the application to so we can start hosting it. In this example, it is **khandren-dev**.
 
 If you want to change it and deploy your website on a different firebase app, you can use:
@@ -224,6 +223,7 @@ Now we can finally start hosting it. If you want to first test how the site will
 
 ```bash
 firebase serve
+
 ```
 
 You will then have to open a web browser and view it via http://localhost/xxxx.
@@ -232,6 +232,7 @@ If you are satisfied with the way it looks you can go ahead and run:
 
 ```bash
 firebase deploy
+
 ```
 
 You can now see which web domain your website is hosting on. As you can see, the default free firebase domain will always end in a 
