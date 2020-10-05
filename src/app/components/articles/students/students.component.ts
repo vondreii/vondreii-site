@@ -10,42 +10,27 @@ export class StudentsComponent implements OnInit {
   postArray: number[];
 
   titles: string[][] = [
-      ["Adding Photos To Instagram Using A Desktop Computer"],
       ["Tips on Making The Most Out Of Your First Year At Uni"],
       ["Decluttering Your Home"],
-      ["How To Organise Your Web Browsing"],
-      ["Organising Your Computer To Increase Productivity"],
       ["Ways To Be More Organised"]
   ];
   images: string[][] = [
-      ["../../assets/articles/students-images/uploadImageToInstagramViaDesktop/header-dark.jpg"],
       ["../../assets/articles/students-images/tipsOnMakingTheMostOutOfYourFirstYearUni/header-dark.jpg"],
       ["../../assets/articles/students-images/declutteringYourHome/header-dark.jpg"],
-      ["../../assets/articles/students-images/howToOrganiseYourWebBrowsing/header-dark.jpg"],
-      ["../../assets/articles/students-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg"],
       ["../../assets/articles/students-images/waysToBeMoreOrganised/header-dark.jpg"]
   ];
   dates: string[][] = [
-      ["11 Aug 2020"],
       ["8 June 2020"],
       ["12 May 2020"],
-      ["25 May 2020"],
-      ["16 May 2020"],
       ["19 May 2020"]
   ];
   links: string[][] = [
-      ["/students/post/uploadImageToInstagramViaDesktop"],
       ["/students/post/tipsOnMakingTheMostOutOfYourFirstYearUni"],
       ["/students/post/declutteringYourHome"],
-      ["/students/post/howToOrganiseYourWebBrowsing"],
-      ["/students/post/organisingYourComputerToIncreaseProductivity"],
       ["/students/post/waysToBeMoreOrganised"]
   ];
   tags: string[][] = [
-    ["Design • Social Media"],
     ["Uni"],
-    ["Organisation"],
-    ["Organisation"],
     ["Organisation"],
     ["Organisation"]
   ];

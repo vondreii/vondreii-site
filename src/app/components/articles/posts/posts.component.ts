@@ -18,7 +18,10 @@ export class PostsComponent implements OnInit {
     ["Creating A Calculator in C#"],
     ["Hosting an Angular Application using Netlify"],
     ["Setting Up A Github Repository and Creating A Local Copy"],
+    ["Adding Photos To Instagram Using A Desktop Computer"],
     ["Creating A Simple Angular Web Application"],
+    ["How To Organise Your Web Browsing"],
+    ["Organising Your Computer To Increase Productivity"],
   ];
   images: string[][] = [
     //["../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg"],
@@ -27,7 +30,10 @@ export class PostsComponent implements OnInit {
     ["../../assets/articles/post-images/creatingACalculatorInCSharp/header-dark.jpg"],
     ["../../assets/articles/post-images/hostingAngularApplicationUsingNetlify/header-dark.jpg"],
     ["../../assets/articles/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg"],
+    ["../../assets/articles/post-images/uploadImageToInstagramViaDesktop/header-dark.jpg"],
     ["../../assets/articles/post-images/creatingASimpleAngularWebApplication/header-dark.jpg"],
+    ["../../assets/articles/post-images/howToOrganiseYourWebBrowsing/header-dark.jpg"],
+    ["../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg"],
   ];
   dates: string[][] = [
     //["Coming Soon!"],
@@ -36,16 +42,22 @@ export class PostsComponent implements OnInit {
     ["26 Sept 2020"],
     ["30 Aug 2020"],
     ["22 Aug 2020"],
+    ["11 Aug 2020"],
     ["04 Aug 2020"],
+    ["25 May 2020"],
+    ["16 May 2020"],
   ];
   links: string[][] = [
     // ["/posts/post/createYourOwnBlogUsingHugo"],
     ["/posts/post/linkingANamecheapDomainToFirebase"],
     ["/posts/post/hostingAnAngularAppOnFirebase"],
-    ["/coding/post/creatingACalculatorInCSharp"],
+    ["/posts/post/creatingACalculatorInCSharp"],
     ["/posts/post/hostingAngularApplicationUsingNetlify"],
-    ["/coding/post/settingUpASimpleGithubRemoteAndLocalRepository"],
+    ["/posts/post/settingUpASimpleGithubRemoteAndLocalRepository"],
+    ["/posts/post/uploadImageToInstagramViaDesktop"],
     ["/posts/post/creatingASimpleAngularWebApplication"],
+    ["/posts/post/howToOrganiseYourWebBrowsing"],
+    ["/posts/post/organisingYourComputerToIncreaseProductivity"],
   ];
   tags: string[][] = [
     //["Hugo"],
@@ -54,13 +66,16 @@ export class PostsComponent implements OnInit {
     ["C#"],
     ["Angular • Netlify • Hosting"],
     ["Version Control • Github"],
+    ["Design • Social Media"],
     ["Angular"],
+    ["Organisation"],
+    ["Organisation"],
   ];
 
   constructor() { }
 
   ngOnInit() {
-    this.postArray = [0,1,2,3,4,5];
+    this.postArray = [0,1,2,3,4,5,6,7,8];
     this.href = window.location.href;
     this.hrefId = this.href.substring(this.href.lastIndexOf("/")+1,this.href.length);
   }
