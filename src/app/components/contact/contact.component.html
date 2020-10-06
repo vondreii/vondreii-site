@@ -3,18 +3,26 @@
 <!-- Content -->
 <div class="bg-color">
   <!-- Form -->
-  <br>
-  <div class="form">
-    <p class="paragraph-center"> This form is currently under construction. </p>
-    <!-- <p class="paragraph-center"> Just write your name, email and message and I will get back to you as soon as possible. </p> -->
-    <form name="contact" method="POST" data-netlify="true">
-        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-        <input name="email" type="text" class="feedback-input" placeholder="Email" />
-        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-        <input type="submit" value="SUBMIT"/>
-    </form>
-  </div>
-  <br><br>
+  <form name="contact" method="POST" data-netlify-recaptcha="false" data-netlify="true">
+    <p>
+      <label>Your Name: <input type="text" name="name" /></label>   
+    </p>
+    <p>
+      <label>Your Email: <input type="email" name="email" /></label>
+    </p>
+    <p>
+      <label>Your Role: <select name="role[]" multiple>
+        <option value="leader">Leader</option>
+        <option value="follower">Follower</option>
+      </select></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
   
   <!-- Contact links -->
   <app-social></app-social>
