@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <!-- Form -->\r\n  <form name=\"contact\" method=\"POST\" data-netlify-recaptcha=\"false\" data-netlify=\"true\">\r\n    <p>\r\n      <label>Your Name: <input type=\"text\" name=\"name\" /></label>   \r\n    </p>\r\n    <p>\r\n      <label>Your Email: <input type=\"email\" name=\"email\" /></label>\r\n    </p>\r\n    <p>\r\n      <label>Your Role: <select name=\"role[]\" multiple>\r\n        <option value=\"leader\">Leader</option>\r\n        <option value=\"follower\">Follower</option>\r\n      </select></label>\r\n    </p>\r\n    <p>\r\n      <label>Message: <textarea name=\"message\"></textarea></label>\r\n    </p>\r\n    <p>\r\n      <button type=\"submit\">Send</button>\r\n    </p>\r\n  </form>\r\n  \r\n  <!-- Contact links -->\r\n  <app-social></app-social>\r\n</div>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <!-- Form -->\r\n  <div class=\"writtenContent\">\r\n\r\n    <!-- Some Image of something here -->\r\n    <p>Message me on any of the following platforms:</p>  \r\n  \r\n    <p>LinkedIn Profile</p>\r\n    <p>Instagram</p>\r\n    <p>Github</p>\r\n\r\n    <!-- Remove these brs -->\r\n    <br><br><br><br><br><br><br><br>\r\n  </div>\r\n  <!-- Contact links -->\r\n</div>";
     /***/
   },
 
