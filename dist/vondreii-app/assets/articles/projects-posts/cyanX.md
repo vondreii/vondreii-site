@@ -2,7 +2,7 @@
 <br>
 
 # CyanX
-#### 2D Game • Game • Side Scroller • Puzzle
+#### 2D • Game • Side Scroller • Puzzle
 
 <!-- ----------- Intro ----------- -->
 <div class="image-container">

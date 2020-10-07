@@ -2,7 +2,7 @@
 <br>
 
 # Ice Capades
-#### 2D Game • Game • Top-Down • Puzzle
+#### 2D • Game • Top-Down • Puzzle
 
 <!-- ----------- Intro ----------- -->
 <div class="image-container">

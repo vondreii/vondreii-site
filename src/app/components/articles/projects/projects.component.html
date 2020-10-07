@@ -1,21 +1,35 @@
 <!-- Navbar -->
 <app-navbar></app-navbar>
 <!-- Content -->
-<section class="bg-color projects">
-  <div class="container rows allCards">
-    <!-- List all projects -->
-    <div class="project-card column-3" *ngFor="let i of postArray">
-      <!-- Image for each card -->
-      <img class="card-img-top" src={{images[i]}} alt="img">
-      <!-- Card information -->
-      <div class="card-body">
-        <h5>{{titles[i]}}</h5>
-        <p><small class="text-muted">{{descriptions[i]}}</small></p>
-        <div class="read-more-container">
-          <a routerLink="{{links[i]}}" class="button">Read More >></a>
-        </div>
-      </div>
+<section class="bg-color">
+  <div class="container search-container">
+    <!-- List of all posts -->
+    <div id="myUL">
+      <article *ngFor="let i of postArray">
+        <!-- display each article card with it's own background image  -->
+        <section class="cardPreview">
+          <div class="padding">
+            <!-- Article information -->
+            <h1>{{titles[i]}}</h1>
+            <br>
+            <div class="card-image" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}"></div>
+            <div class="card-info">
+              <a class="tag">{{tags[i]}}</a>
+            </div>
+            <p>
+              {{descriptions[i]}}
+              <br><br>
+              <span class="read-more-container">
+                <a routerLink="{{links[i]}}" class="button">Read More >></a>
+              </span>
+              <br>
+            </p>
+          </div>
+        </section>
+        <!-- End of article -->
+      </article>
     </div>
-    <!-- End of all projects -->
   </div>
 </section>
+
+<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->

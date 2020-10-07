@@ -2,7 +2,7 @@
 <br>
 
 # Street Racing Game
-#### 3D Game • Game • Research • Racing
+#### 3D • Game • Research • Racing
 
 <!-- ----------- Intro ----------- -->
 <div class="image-container">
