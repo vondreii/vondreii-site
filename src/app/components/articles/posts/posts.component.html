@@ -9,20 +9,20 @@
     </div>
     <!-- List of all posts -->
     <div id="myUL">
-      <article *ngFor="let i of postArray">
+      <article *ngFor="let post of posts; index as i; trackBy: trackByFn">
         <!-- display each article card with it's own background image  -->
         <section class="cardPreview">
           <div class="padding">
             <div class="card-image" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}"></div>
               <div class="card-info">
-                <a class="date">{{dates[i]}}</a>
-                <a class="tag">{{tags[i]}}</a>
+                <a class="date">{{post.date}}</a>
+                <a class="tag">{{post.tags}}</a>
               </div>
             <!-- Article information -->
-            <h1>{{titles[i]}}</h1>
+            <h1>{{post.title}}</h1>
             <p>
-              {{descriptions[i]}}
-              <a routerLink="{{links[i]}}">Read More >></a>
+              {{post.description}}
+              <a routerLink="{{post.link}}">Read More >></a>
             </p>
           </div>
         </section>
