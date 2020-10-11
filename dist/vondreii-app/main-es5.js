@@ -151,7 +151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <!-- Test -->\r\n\r\n  <!-- Test -->\r\n  <div class=\"container search-container\">\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let i of postArray\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <!-- Article information -->\r\n            <h1>{{titles[i]}}</h1>\r\n            <br>\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n            <div class=\"card-info\">\r\n              <a class=\"tag\">{{tags[i]}}</a>\r\n            </div>\r\n            <p>\r\n              {{descriptions[i]}}\r\n              <br><br>\r\n              <span class=\"read-more-container\">\r\n                <a routerLink=\"{{links[i]}}\" class=\"button\">Read More >></a>\r\n              </span>\r\n              <br>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- List of all projects -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let project of projects; index as i; trackBy: trackByFn\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <!-- Article information -->\r\n            <h1>{{project.name}}</h1>\r\n            <br>\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n            <div class=\"card-info\">\r\n              <a class=\"tag\">{{project.tags}}</a>\r\n            </div>\r\n            <p>\r\n              {{project.description}}\r\n              <br><br>\r\n              <span class=\"read-more-container\">\r\n                <a routerLink=\"{{project.link}}\" class=\"button\">Read More >></a>\r\n              </span>\r\n              <br>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of project -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>\r\n\r\n<!-- https://codepen.io/Booligoosh/pen/mKPpQp -->";
     /***/
   },
 
@@ -1704,24 +1704,37 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function ProjectsComponent() {
         _classCallCheck(this, ProjectsComponent);
 
-        this.titles = [["Cyan X"], ["3D Street Racing Game"], ["Ice Capades"]];
-        this.images = [["../../assets/articles/projects-images/cyanX/header.png"], ["../../assets/articles/projects-images/racingGame/header.PNG"], ["../../assets/articles/projects-images/iceCapades/header.jpg"]];
-        this.links = [["/projects/post/cyanX"], ["/projects/post/streetRacingGame"], ["/projects/post/iceCapades"]];
-        this.tags = [["2D • Game • Side scroller • Puzzle"], ["3D • Game • Research • Racing"], ["Top-Down"]];
-        this.descriptions = [["A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."], ["This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road..."], ["Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles..."]];
+        this.projects = [{
+          "name": "Cyan X",
+          "imagePath": "../../assets/articles/projects-images/cyanX/header.png",
+          "link": "/projects/post/cyanX",
+          "tags": "2D • Game • Side scroller • Puzzle",
+          "description": "A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."
+        }, {
+          "name": "3D Street Racing Game",
+          "imagePath": "../../assets/articles/projects-images/racingGame/header.PNG",
+          "link": "/projects/post/streetRacingGame",
+          "tags": "3D • Game • Research • Racing",
+          "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road..."
+        }, {
+          "name": "Ice Capades",
+          "imagePath": "../../assets/articles/projects-images/iceCapades/header.jpg",
+          "link": "/projects/post/iceCapades",
+          "tags": "2D • Game • Top-Down • Puzzle",
+          "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles..."
+        }];
       }
 
       _createClass(ProjectsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          this.postArray = [0, 1, 2];
           this.href = window.location.href;
           this.hrefId = this.href.substring(this.href.lastIndexOf("/") + 1, this.href.length);
         }
       }, {
         key: "getURL",
         value: function getURL(i) {
-          return this.images[i];
+          return this.projects[i].imagePath;
         }
       }]);
 

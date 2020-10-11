@@ -6,3 +6,11 @@ export interface Post{
     tags: string;
     description: string;
 }
+
+export interface Project{
+    name: string;
+    imagePath: string;
+    link: string;
+    tags: string;
+    description: string;
+}

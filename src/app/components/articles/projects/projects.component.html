@@ -2,34 +2,31 @@
 <app-navbar></app-navbar>
 <!-- Content -->
 <section class="bg-color">
-  <!-- Test -->
-
-  <!-- Test -->
   <div class="container search-container">
-    <!-- List of all posts -->
+    <!-- List of all projects -->
     <div id="myUL">
-      <article *ngFor="let i of postArray">
+      <article *ngFor="let project of projects; index as i; trackBy: trackByFn">
         <!-- display each article card with it's own background image  -->
         <section class="cardPreview">
           <div class="padding">
             <!-- Article information -->
-            <h1>{{titles[i]}}</h1>
+            <h1>{{project.name}}</h1>
             <br>
             <div class="card-image" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}"></div>
             <div class="card-info">
-              <a class="tag">{{tags[i]}}</a>
+              <a class="tag">{{project.tags}}</a>
             </div>
             <p>
-              {{descriptions[i]}}
+              {{project.description}}
               <br><br>
               <span class="read-more-container">
-                <a routerLink="{{links[i]}}" class="button">Read More >></a>
+                <a routerLink="{{project.link}}" class="button">Read More >></a>
               </span>
               <br>
             </p>
           </div>
         </section>
-        <!-- End of article -->
+        <!-- End of project -->
       </article>
     </div>
   </div>
