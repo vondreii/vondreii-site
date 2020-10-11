@@ -739,14 +739,14 @@ let PostsComponent = class PostsComponent {
             //   "tags": "Hugo", 
             //   "description": "Description Description Description Description Description Description Description Description Description Description Description Description..."
             // },
-            // { 
-            //   "title": "Iterating Over Markdown Files In Angular", 
-            //   "imagePath": "../../assets/articles/post-images/iteratingOverMDFilesInAngular/header-dark.jpg", 
-            //   "date": "Coming Soon", 
-            //   "link": "/posts/post/iteratingOverMDFilesInAngular", 
-            //   "tags": "Angular • Markdown", 
-            //   "description": "Description Description Description Description Description Description Description Description Description Description Description Description..."
-            // },
+            {
+                "title": "Creating a list of posts using Markdown on your Angular Website",
+                "imagePath": "../../assets/articles/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header-dark.jpg",
+                "date": "11 Oct 2020",
+                "link": "/posts/post/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite",
+                "tags": "Angular • Markdown",
+                "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
+            },
             {
                 "title": "Linking A Namecheap Domain To Firebase",
                 "imagePath": "../../assets/articles/post-images/linkingANamecheapDomainToFirebase/header-dark.jpg",
