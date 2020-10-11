@@ -482,6 +482,9 @@ Now open up your application again with `ng serve --open`, you should now see yo
 </div>
 <!-- ----------------------------- -->
 
+You can view the completed source code for this [here](https://github.com/vondreii/Markdown-Files-with-Angular-App).
+Don't forget to run `npm install` if you want to compile and view the web application.
+
 ### Important Takeaways:
 * You will need to install the `ngx-markdown` npm module.
 * Each post is going to be written in it's own markdown file.

@@ -249,6 +249,7 @@ If you have left the default content on the html pages, you will only see a simp
 You now have a very basic foundation of a simple Angular Application. 
 
 You can view the completed source code for this [here](https://github.com/vondreii/Example-Angular-Project-Tutorial).
+Don't forget to run `npm install` if you want to compile and view the web application.
 
 ### Key Points
 * You can add more components using the `ng g c` command (for example, `ng g c login`, or `ng g c our-products`. 
