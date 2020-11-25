@@ -72,7 +72,7 @@ And clicking on each link will navigate to it's own page:
 
 This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/post-003). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/posts/post/createYourOwnBlogUsingHugo).
 
-Here we are assuming that you already have a simple Angular project set up - for example, the one from [Creating A Simple Angular Web Application](/posts/post/creatingASimpleAngularWebApplication). You can download the source code of this working simple Angular App from [here](https://github.com/vondreii/Example-Angular-Project-Tutorial).
+Here we are assuming that you already have a simple Angular project set up - for example, the one from [Creating A Simple Angular Web Application](/posts/post/creatingASimpleAngularWebApplication). You can download the source code of this working simple Angular App from [here](https://github.com/vondreii/Angular-3-Pages).
 
 In this example we're going to work with **Posts**. This could be anything... blog posts, news posts, just any list that would be added to over time.
 
@@ -482,7 +482,7 @@ Now open up your application again with `ng serve --open`, you should now see yo
 </div>
 <!-- ----------------------------- -->
 
-You can view the completed source code for this [here](https://github.com/vondreii/Markdown-Files-with-Angular-App).
+You can view the completed source code for this [here](https://github.com/vondreii/angular-markdown-files).
 Don't forget to run `npm install` if you want to compile and view the web application.
 
 ### Important Takeaways:
