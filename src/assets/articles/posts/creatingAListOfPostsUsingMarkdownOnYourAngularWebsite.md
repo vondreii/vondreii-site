@@ -250,6 +250,8 @@ Here we are creating a post array, and we are storing some details about each po
 
 As you can see, there is a list of posts which has the three entries for the **Chocolate Cheesecake**, **Strawberry Cheesecake** and **Caramel Cheesecake**, separated by curly brackets. If you are adding your own custom posts, feel free to change the details based on what your markdown files are about.
 
+This array is just temporary and just for the purposes of the example. At some point in the future you would want to modify this based on the needs of your website, so it would be better to have them dynamically being stored in a database (for example, Firebase or MongoDB) and it can be displayed dynamically as a list via the backend.
+
 Each post will show the title, description and a  `routerLink`. The `routerLink` is the link/route to the page that will be opened when the user clicks on the link (for example, `/posts/post/ChocolateCheesecakeRecipe` which we will configure later on).
 
 The routerLink is based on the filename of your Markdown file. If you had a markdown file called **MyTripToNewYork.md**, the path to that page will be `/posts/post/MyTripToNewYork`.
@@ -491,7 +493,7 @@ Don't forget to run `npm install` if you want to compile and view the web applic
 * You can create a class for the attributes you will display for each post (title, description, link, etc).
 * Use arrays `(like the post array)` or any kind of data structure to store and manage a list of each post in the backend typescript files.
 * Iterate over the list in the html. 
-* Ideally you wouldn't have all the posts hardcoded into the posts array as shown in this tutorial, especially if you have so many. You would now need to modify this based on the needs for your website, so it would be better to have them dynamically being stored in a database (for example, Firebase or MongoDB).
+* Ideally you wouldn't have all the posts hardcoded into the posts array as shown in this tutorial, especially if you have so many. You can now modify your code to dynamically store the data in a database and print it out through the array (or equivalent).
 
 ### Resources
 
