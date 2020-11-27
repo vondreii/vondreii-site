@@ -731,14 +731,14 @@ __webpack_require__.r(__webpack_exports__);
 let PostsComponent = class PostsComponent {
     constructor() {
         this.posts = [
-            // { 
-            //   "title": "Creating Your Own Blog Using Hugo", 
-            //   "imagePath": "../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg", 
-            //   "date": "Coming Soon", 
-            //   "link": "/posts/post/createYourOwnBlogUsingHugo", 
-            //   "tags": "Hugo", 
-            //   "description": "Description Description Description Description Description Description Description Description Description Description Description Description..."
-            // },
+            {
+                "title": "Creating Your Own Blog Using Hugo",
+                "imagePath": "../../assets/articles/post-images/createYourOwnBlogUsingHugo/header-dark.jpg",
+                "date": "27 Nov 2020",
+                "link": "/posts/post/createYourOwnBlogUsingHugo",
+                "tags": "Hugo",
+                "description": "Hugo is a framework where you can create your own website, completely from scratch without much effort or without knowing too much (or any) of the internal programming. There are also many web hosting platforms that can easily host a Hugo project for free - meaning, the only money you will spend will be for the custom domain name..."
+            },
             {
                 "title": "Creating a list of posts using Markdown on your Angular Website",
                 "imagePath": "../../assets/articles/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header-dark.jpg",
