@@ -1,9 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, SecurityContext } from '@angular/core';
-
-// Markdown Files
-import { MarkdownModule } from 'ngx-markdown';
-import { HttpClientModule, HttpClient } from '@angular/common/http'; 
+import { NgModule } from '@angular/core';
+ 
 
 // Angular Fire Modules
 import { AngularFireModule } from "@angular/fire";
@@ -19,21 +16,17 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { ProjectsComponent } from './components/projects/projects.component';
-import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
-import { PostsComponent } from './components/posts/posts.component';
-import { PostsPostComponent } from './components/posts/posts-post/posts-post.component';
 import { SharedModule } from './components/shared/shared.module';
+import { PostsComponent } from './components/posts/posts.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     ContactComponent,
-    ProjectsComponent,
-    ProjectPostComponent,
     PostsComponent,
-    PostsPostComponent
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -42,8 +35,6 @@ import { SharedModule } from './components/shared/shared.module';
     AngularFireAnalyticsModule,
     AngularFirestoreModule,
     AngularFireStorageModule,
-    HttpClientModule,
-    MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE }),
     SharedModule
   ],
   exports: [],

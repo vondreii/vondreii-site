@@ -22,24 +22,7 @@ Having a well organised computer can improve your overall workflow and efficienc
  
 ### 1. Clear Your Desktop
 
-Your desktop shouldn't be full of files like <i>notes.docx, to_download.docx</i> or <i>project.pdf</i>. Files should be categorised in a meaningful way where they are not flying around in different locations or difficult to find.
-This is what my desktop looks like (2nd photo) as opposed to a messier looking desktop (1st photo): 
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<div class="rows"> 
-		<div class="column-2 image-container">
-			<img src="../../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/desktop-cluttered.PNG" alt="image"/>  
-		</div>
-		<div class="column-2 image-container">
-			<img src="../../../assets/articles/post-images/organisingYourComputerToIncreaseProductivity/desktop-decluttered.PNG" alt="image"/>
-		</div>
-	</div>
-</div>
-<!-- ----------------------------- -->
-
-As you can see, there is nothing on the desktop except for the wallpaper and the recycling bin. Having too many files can subconsciously add to your overall stress levels, 
-especially if there are files you haven't used in a long time or files that you do not know the purpose of. You find yourself asking, *What is this for? Do I still need this? I don't know what to do with it.*
+Your desktop shouldn't be full of files like <i>notes.docx, to_download.docx</i> or <i>project.pdf</i>. Files should be categorised in a meaningful way where they are not flying around in different locations or difficult to find. Having too many files can subconsciously add to your overall stress levels, especially if there are files you haven't used in a long time or files that you do not know the purpose of. You find yourself asking, *What is this for? Do I still need this? I don't know what to do with it.*
 This is where Steps 4, 5 and 7 come in handy, where you delete the files you do not need and archive the files in a subfolder structure that works for you.
 
 Now that the desktop is empty, this is a perfect place to put any temporary folders or projects that you are working on, so you can focus on them more easily:

@@ -1,4 +1,4 @@
-export interface Post{
+export interface Content{
     title: string;
     imagePath: string;
     date: string;

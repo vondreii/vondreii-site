@@ -1,0 +1,33 @@
+<!-- Navbar -->
+<app-navbar></app-navbar>
+<!-- Content -->
+<section class="bg-color">
+  <div class="container search-container">
+    <!-- Search input box (change this to what are you looking for?) -->
+    <div class="padding">
+      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search (by title, language, topic, year..)" title="SearchBar">
+    </div>
+    <!-- List of all posts -->
+    <div id="myUL">
+      <article *ngFor="let contentItem of contentList; index as i; trackBy: trackByFn">
+        <!-- display each article card with it's own background image  -->
+        <section class="cardPreview">
+          <div class="padding">
+            <div class="card-image" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}"></div>
+              <div class="card-info">
+                <a class="date">{{contentItem.date}}</a>
+                <a class="tag">{{contentItem.tags}}</a>
+              </div>
+            <!-- Article information -->
+            <h1>{{contentItem.title}}</h1>
+            <p>
+              {{contentItem.description}}
+              <a routerLink="{{contentItem.link}}">Read More >></a>
+            </p>
+          </div>
+        </section>
+        <!-- End of article -->
+      </article>
+    </div>
+  </div>
+</section>
