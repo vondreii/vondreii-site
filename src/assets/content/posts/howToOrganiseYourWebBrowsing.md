@@ -81,15 +81,6 @@ All you have to do is visit the website you want to save, and click on the star 
 </div>
 <!-- ----------------------------- -->
 
-And here it is in Firefox:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks-3.PNG" alt="image" class="image"/>
-  <div class="image-description"><p>Add to bookmarks option in Firefox</p></div>  
-</div>
-<!-- ----------------------------- -->
-	
 ### 3. Utilize a Password/Account Manager
 
 There are a few account password managers you could use such as:
@@ -107,13 +98,6 @@ You can have secure passwords for all your accounts such as <i>'UDHAKF73FKVE'</i
 <div class="image-container">
   <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/keepass-1.PNG" alt="image" class="image"/>
   <div class="image-description"><p><a href="https://keepass.info/">KeePass</a> password manager login</p></div>
-</div>
-<!-- ----------------------------- -->
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/keepass-2.PNG" alt="image" class="image"/>
-  <div class="image-description"><p>Inside <a href="https://keepass.info/">KeePass</a> password manager</p></div>
 </div>
 <!-- ----------------------------- -->
 
@@ -144,13 +128,6 @@ Examples of this includes:
 
 These can be used to put time limits on certain sites.
 This can help you limit how many minutes or hours you spend a day on sites like Facebook, or other sites that can make time fly without doing anything actually productive.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/rescueTime.PNG" alt="image" class="image"/>
-  <div class="image-description"><p><a href="https://chrome.google.com/webstore/detail/rescuetime-for-chrome-and/bdakmnplckeopfghnlpocafcepegjeap">Rescue Time</a> time manager</p></div>
-</div>
-<!-- ----------------------------- -->
 
 Do you also sometimes find yourself with 30 bookmarks open? 
 <a href="https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh?hl=en">ToDoist for Chrome</a> 

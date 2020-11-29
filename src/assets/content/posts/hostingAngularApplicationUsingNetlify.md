@@ -61,15 +61,6 @@ git clone https://github.com/vondreii/my-angular-app-netlify.git
 
 ```
 
-For example:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/git-clone-local.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Running this command will create a new folder</p></div>
-</div>
-<!-- ----------------------------- -->
-
 This should automatically create a new folder locally on your computer, which will be linked to your online repository.
 In this example, my repository is called `My-Angular-App-Netlify`, so the new folder that was created in my Desktop was also called `My-Angular-App-Netlify`.
 
@@ -103,27 +94,13 @@ If you already have a repository that stores your Angular code, just ensure that
 
 Once you have pushed your code, go to your repository on your Github page. You should be able to see that your repository has now updated with the code to your Angular website.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/angular-code-pushed-to-github.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Angular code in remote repository</p></div>
-</div>
-<!-- ----------------------------- -->
-
 ### 3. Creating a Netlify Account 
 	
 Now that we have a Github repository storing the code online, we can create a Netlify Account. This will be used to host the actual website.
 
 Go to Netlify's [home page](https://www.netlify.com/) and click on Sign up.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/netlify-sign-up.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Netlify</p></div>
-</div>
-<!-- ----------------------------- -->
-
-You will be given a few different options to choose from of where you want to link Netlify to. Since we are going to be using Gihub, select Github and follow the prompts to sign in.
+You will be given a few different options to choose from of where you want to link Netlify to. Since we are going to be using Gihub, select Github.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -132,32 +109,11 @@ You will be given a few different options to choose from of where you want to li
 </div>
 <!-- ----------------------------- -->
 
-Here you will sign in as if you are signing in to Github. Put in your username/email and password for your Github account.
+You will be asked to sign in to your Github account using your username and password. Once You select **Sign in**, you will be asked to Authorize Netlify.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/SignUpToGithubViaNetlify.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Login using GitHub</p></div>
-</div>
-<!-- ----------------------------- -->
-
-Follow the prompts to complete the account setup. When authorizing Netlify, select 'Authorize netlify.'
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/autho.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Authorize Netlify</p></div>
-</div>
-<!-- ----------------------------- -->
+Select **Authorize netlify.**
 
 Now you have your Netlify account setup! You should be able to see your main dashboard and a quick start guide pop-up. You can either read through or exit the quick start guide.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/netlifySignUpComplete.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Completed account setup</p></div>
-</div>
-<!-- ----------------------------- -->
 
 ### 4. Linking a Netlify Project to your Github repository
 
@@ -174,23 +130,9 @@ Select **New Site From Git:**
 </div>
 <!-- ----------------------------- -->
 
-Select **Github**, since we will be linking to our Github repository:
+On the next page, under **Continuous Deployment**, select **Github**.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Select 'Github'</p></div>
-</div>
-<!-- ----------------------------- -->
-
-Grant permission to Netlify:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit3.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Select 'Authorize Netlify'</p></div>
-</div>
-<!-- ----------------------------- -->
+Following that, you will be asked to grant permission to Netlify. Select **Authorize Netlify**.
 
 You will then be asked to install Netlify. Here, you are not installing anything on your local computer. You are 'installing' or connecting your Netlify account to be associated with your Github account.
 You can either choose:
@@ -247,25 +189,16 @@ However, we will change this later via the settings.
 Netlify will automatically attempt to build and host your code. However your site will fail and there will still be errors if you try to deploy at this stage.
 You will need to still complete some extra configurations in order for hosting to work properly. 
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/FailedDeploy.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Failed deploys</p></div>
-</div>
-<!-- ----------------------------- -->
-
 ### 5. Changing any additional configurations to host the site successfully
 
 #### Adding the _redirects file
 
-Go back to your application's directory (the local repository where your code is stored on your computer).
+Go back to your application's directory (`AngularApp > src`).
 
-First you will need to add a _redirects file. Without it, you will get a screen showing an error if you try to navigate or refresh your pages.
-
-<!-- ToDo: Add an image of the error page that happens without _redirects -->
+First you will need to add a _redirects file here (no extension in the filename). Without it, you will get a screen showing an error if you try to navigate or refresh your pages.
 
 If you want, you can download a completed _redirects file from <a href="../../assets/downloads/redirects.zip"> here </a>.
-Unzip the folder and copy the _redirects file into your `AngularApp > src` folder so it looks like this:
+Unzip the folder and copy the _redirects file into your `AngularApp > src` folder.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -293,34 +226,28 @@ ng build
 
 ```
 
-Once the code finishes building, a dist folder will be created as shown in the image below:
+Once the code finishes building, a dist folder will be created in the root of your application. This is the build folder that Netlify will use during hosting.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/distFolderCreated.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>dist folder created</p></div>
-</div>
-<!-- ----------------------------- -->
+Now open the `.gitignore` file. The top part of the file should look like this: 
 
-Now open the `.gitignore` file:
+```bash
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/gitignore.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>.gitignore file</p></div>
-</div>
-<!-- ----------------------------- -->
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
 
-The top part of the file should look like this: 
+# dependencies
+/node_modules
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/gitignore2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>.gitignore code</p></div>
-</div>
-<!-- ----------------------------- -->
+...
 
-Completely delete the line `/dist` (the line highlighted in the image above). 
+```
+
+Completely delete the line `/dist`.
 
 This is because when you push your changes to the remote repository, git will be ignoring your `/dist` folder and will therefore not include it.
 
@@ -364,7 +291,7 @@ Finally, go back to your site's page on Netlify and click on the **Deploy settin
 </div>
 <!-- ----------------------------- -->
 
-Click on **Build and Deploy**, then **Edit Settings:**
+On the left column, select **Build and Deploy**. Then on the right, select **Edit Settings.**
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -407,13 +334,6 @@ Click on **Domain Management** and **options**:
 
 Type in your new domain.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/anotherDomain.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Enter your new domain name</p></div>
-</div>
-<!-- ----------------------------- -->
-
 Because this will be a free domain, Netlify will add a `.netlify.app` extension at the end. If you do not want this you will need to purchase or acquire another domain and add this to Netlify to use instead.
 
 
@@ -423,14 +343,7 @@ Go back to your site's page on Netlify. Netlify should automatically attempt to 
 
 Wait for a while until your site finishes deploying.
 
-Go into the search bar and type your new domain name, for example http://another-domain.netlify.app, and you should now be able to see your website up and running:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/final.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Run your new site</p></div>
-</div>
-<!-- ----------------------------- -->
+Go into the search bar and type your new domain name, for example http://another-domain.netlify.app, and you should now be able to see your website up and running.
  
 ### Key Points
 If you want to make changes to your website, all you have to do is edit your Angular app code in your local repository, and run `git add .`, `git commit -m "type message here"`, and `git push` to save it to your remote Github repository.

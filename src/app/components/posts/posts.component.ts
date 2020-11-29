@@ -11,7 +11,7 @@ export class PostsComponent implements OnInit {
   posts: Content[] = [
     { 
       "title": "Creating Your Own Blog Using Hugo", 
-      "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg", 
       "date": "27 Nov 2020", 
       "link": "/content/post/createYourOwnBlogUsingHugo", 
       "tags": "Hugo", 
@@ -19,7 +19,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Creating a list of posts using Markdown on your Angular Website", 
-      "imagePath": "../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg", 
       "date": "11 Oct 2020", 
       "link": "/content/post/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite", 
       "tags": "Angular • Markdown", 
@@ -27,7 +27,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Linking A Namecheap Domain To Firebase", 
-      "imagePath": "../../assets/content/post-images/linkingANamecheapDomainToFirebase/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg", 
       "date": "4 Oct 2020", 
       "link": "/content/post/linkingANamecheapDomainToFirebase", 
       "tags": "Hosting • Firebase • Namecheap", 
@@ -35,7 +35,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Hosting An Angular App On Firebase", 
-      "imagePath": "../../assets/content/post-images/hostingAnAngularAppOnFirebase/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg", 
       "date": "3 Oct 2020", 
       "link": "/content/post/hostingAnAngularAppOnFirebase", 
       "tags": "Angular • Hosting • Firebase", 
@@ -43,7 +43,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Creating A Calculator in C#", 
-      "imagePath": "../../assets/content/post-images/creatingACalculatorInCSharp/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/calculator/header.jpg", 
       "date": "26 Sept 2020", 
       "link": "/content/post/creatingACalculatorInCSharp", 
       "tags": "C#", 
@@ -51,7 +51,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Hosting an Angular Application using Netlify", 
-      "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg", 
       "date": "30 Aug 2020", 
       "link": "/content/post/hostingAngularApplicationUsingNetlify", 
       "tags": "Angular • Netlify • Hosting", 
@@ -59,7 +59,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Setting Up A Github Repository and Creating A Local Copy", 
-      "imagePath": "../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header.jpg", 
       "date": "22 Aug 2020", 
       "link": "/content/post/settingUpASimpleGithubRemoteAndLocalRepository", 
       "tags": "Version Control • Github", 
@@ -67,7 +67,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Adding Photos To Instagram Using A Desktop Computer", 
-      "imagePath": "../../assets/content/post-images/uploadImageToInstagramViaDesktop/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/uploadImageToInstagramViaDesktop/header.jpg", 
       "date": "11 Aug 2020", 
       "link": "/content/post/uploadImageToInstagramViaDesktop", 
       "tags": "Design • Social Media", 
@@ -75,7 +75,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Creating A Simple Angular Web Application", 
-      "imagePath": "../../assets/content/post-images/creatingASimpleAngularWebApplication/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg", 
       "date": "04 Aug 2020", 
       "link": "/content/post/creatingASimpleAngularWebApplication", 
       "tags": "Angular", 
@@ -83,7 +83,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "How To Organise Your Web Browsing", 
-      "imagePath": "../../assets/content/post-images/howToOrganiseYourWebBrowsing/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg", 
       "date": "25 May 2020", 
       "link": "/content/post/howToOrganiseYourWebBrowsing", 
       "tags": "Organisation", 
@@ -91,7 +91,7 @@ export class PostsComponent implements OnInit {
     },
     { 
       "title": "Organising Your Computer To Increase Productivity", 
-      "imagePath": "../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header-dark.jpg", 
+      "imagePath": "../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg", 
       "date": "16 May 2020", 
       "link": "/content/post/organisingYourComputerToIncreaseProductivity", 
       "tags": "Organisation", 

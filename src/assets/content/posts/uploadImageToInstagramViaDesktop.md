@@ -20,25 +20,11 @@ Sometimes you need to upload photos to Instagram on a computer, especially if yo
 
 First, open a web browser and navigate to your Instagram account. We will be using Google Chrome as an example. 
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/Instagram.PNG" alt="image" class="image-full"/>
-</div>
-<!-- ----------------------------- -->
-
 Right click anywhere on the page and select **Inspect Element**:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
 	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/RightClickInspectElement.PNG" alt="image" class="image-full"/>
-</div>
-<!-- ----------------------------- -->
-
-The browser page should now look like this:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/InspectElementPage.PNG" alt="image" class="image-full"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -50,30 +36,18 @@ In the top bar there is an option to view the screen on a different device. You 
 </div>
 <!-- ----------------------------- -->
 
-The screen size should now change to the shape of a phone:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/ScreenSizeChangeAfterSelectPhone.PNG" alt="image" class="image"/>
-</div>
-<!-- ----------------------------- -->
+The screen size should now change to the shape of a phone (but the upload button will not be visible).
 
 Now go to the top of your web browser bar and hit the refresh button to refresh the webpage. 
 When the page reloads, the Instagram bar should now be visible:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/PhoneView.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/RefreshScreen.PNG" alt="image" class="image"/>
 </div>
 <!-- ----------------------------- -->
 
 If you click on the upload icon (the plus symbol in the very center of the menu bar) you should be able to start the uploading process as if you were using your phone.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/uploadImageToInstagramViaDesktop/RefreshScreen.PNG" alt="image" class="image"/>
-</div>
-<!-- ----------------------------- -->
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">

@@ -13,9 +13,9 @@ ___
 <!-- ----------------------------- -->
 
 <div class="center extraPadding">
-    <a href="/posts/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/posts/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/posts/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/content/post/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/content/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/content/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 ### 6. Running the program for the first time
@@ -24,60 +24,35 @@ To run the code, press the green **Start** button which is at the very top.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/run_code.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/run_code.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Start running the program</p></div>
 </div>
 <!-- ----------------------------- -->
 
 Your calculator program will start running. This is what the user will be seeing when they use your calculator app as well.
 
-This is what it is going to look like at first:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/run_code2.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Calculator at runtime</p></div>
-</div>
-<!-- ----------------------------- -->
-
-As you can see, the size of the screen has not been configured and the text is blurry. Some of the buttons are cut off at the bottom (you might see something slightly different, depending on the size of the screen). So, we will need to change a few things first before the calculator will start to look normal.
+You may notice that the size of the screen is blurry and/or enlarged, or not taking up the correct resolution on the interface. If this is the case, you will need to make your program DPI aware before the calculator will start to look normal.
 
 To stop the program, either close the calculator itself or press the red stop button at the top.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/stop_program.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Stop the program</p></div>
-</div>
-<!-- ----------------------------- -->
 
 Right-click on the Project (in the Solutions Explorer). Hover over **Add** and select **Add new item**. 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/add_new_item.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/add_new_item.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add new item</p></div>
 </div>
 <!-- ----------------------------- -->
 
-Click in the **General** tab (in the left options side bar), then select **Application Manifest File**.
+Another pop-up window will appear. On the left, under **Visual C# Items**, select **General**.
 
-Once selected, click **Add** at the bottom.
+On the right, select **Application Manifest File**. Once this is highlighted, click **Add** at the bottom.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/add_manifest_file.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Add the manifest file</p></div>
-</div>
-<!-- ----------------------------- -->
-
-The manifest file will be added, and it will be called **app.manifest**. 
-
-It should automatically open once you have added it. Otherwise, you can open it by double clicking on it in the Solutions explorer:
+This will add the manifest file, and it will be called **app.manifest**. It should automatically open once you have added it. Otherwise, you can open it by double clicking on it in the Solutions explorer:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/manifest_file.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/manifest_file.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>The opened manifest file</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -86,19 +61,12 @@ Scroll down to **line 52**. We don't care about anything in the manifest file ex
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/dpi_settings.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/dpi_settings2.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>DPI settings code commented</p></div>
 </div>
 <!-- ----------------------------- -->
 
-The `<!--` and `-->` symbols around the code mean that the code is commented (in simple terms, it will not be read by the program). You will need to delete these, so the code will look like this instead:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/dpi_settings2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>DPI settings code uncommented</p></div>
-</div>
-<!-- ----------------------------- -->
+The `<!--` and `-->` symbols around the code mean that the code is commented (in simple terms, it will not be read by the program). You will need to delete these, so the code will look like the code in the above image.
 
 This code is going to enable the program to be DPI aware, therefore preventing issues with automatic scaling which can cause the text to be blurry when you run the program. 
 
@@ -106,25 +74,16 @@ Once you are done with that, go back to the calculator interface. Whenever you h
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/switching_tabs.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/switching_tabs.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Switching tabs</p></div>
 </div>
 <!-- ----------------------------- -->
 
-We now want to configure the positioning and size of the window when we run the program. Move all your buttons at an appropriate spot somewhere on the left of the interface:
+We now want to configure the positioning and size of the window when we run the program. Move all your buttons at an appropriate spot somewhere on the left of the interface. Then, right-click the form, and select **view code**.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/button_positions.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Position of buttons moved to the left</p></div>
-</div>
-<!-- ----------------------------- -->
-
-Now right-click the form, and select **view code**.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/view_code.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/view_code.PNG" alt="image" class="image"/>
 	<div class="image-description"><p>Right click to view calculator source code</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -133,7 +92,7 @@ The source code for the program will automatically open:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/calculator_source_code.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/calculator_source_code.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Source code</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -162,8 +121,8 @@ We are now going to add the basic functionality of pressing buttons, pressing th
 
 <!-- ----------- Video ----------- --> 
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/goal_preview.png" class="image">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/goal.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/goal.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -176,8 +135,8 @@ You can double click on number 1 to open the source code.
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/button_num_preview.PNG" class="image-full">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/button_num.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/button_num.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -198,7 +157,7 @@ In the properties window, click on the lightening bolt symbol. You will see a `C
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/lightening.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/lightening.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Events</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -209,8 +168,8 @@ We only want to copy this to all numbers (0-9), all operators (+, -, x, ÷, (, )
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/link_button_to_event_preview.PNG" class="image-full">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/link_button_to_event.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/link_button_to_event.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -267,8 +226,8 @@ If there are no errors in the code, you should be getting something that looks l
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/updateCalculation_preview.png" class="image">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/updateCalculation.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/updateCalculation.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -319,7 +278,7 @@ The user can now enter a new calculation, building on the answer they just recie
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/outputs_calc.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/outputs_calc.PNG" alt="image" class="image"/>
 	<div class="image-description"><p>Display screens/textboxes to show the answer and the calculation</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -328,7 +287,7 @@ Your code should now look like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/equalsCode.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/equalsCode.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Equals Code</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -337,8 +296,8 @@ If you run the program, it should now look like this:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/equals_preview.PNG" class="image">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/equals.mp4" type="video/mp4">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/equals.mp4" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -361,15 +320,7 @@ private void button_Clear_Click(object sender, EventArgs e)
 }
 ```
 
-If anything is being displayed to the user, they will be removed and the calculation that the user is entering will also be reset. After adding the code and running the program, this is what it will look like now:
-
-<!-- ----------- Video ----------- -->
-<div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/clear_preview.png" class="image">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/clear.mp4" type="video/mp4">
-    </video>
-</div>
-<!-- ----------------------------- -->
+If anything is being displayed to the user, they will be removed and the calculation that the user is entering will also be reset. 
 
 **CE** stands for clear entry. If pressed, it will delete/undo the most recent buttons pressed. Similar to what you did before with the **C** button, double click the **CE** button to open it in the source code. 
 
@@ -388,22 +339,14 @@ private void button_ClearEntry_Click(object sender, EventArgs e)
 
 ```
 
-If successful, your calculator should now look like this if you run the program:
-
-<!-- ----------- Video ----------- -->
-<div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/clear_entry_preview.png" class="image">
-    <source src="../../../assets/content/post-images/creatingACalculatorInCSharpPart2/clear_entry.mp4" type="video/mp4">
-    </video>
-</div>
-<!-- ----------------------------- -->
+If successful, your calculator should now 'backspace' or delete any current inputs.
 
 You now have the basic functionalities of a calculator. 
 
 Continue on to the next steps to handle invalid inputs and to finalise the calculator.
 
 <div class="read-more-container">
-    <a href="/posts/post/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
+    <a href="/content/post/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
 </div>
 
 <br><br>

@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/header-dark.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@courtniebt13">Courtnie Tosana</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -108,14 +108,7 @@ If your login was succesfull, running this command will give you a list of all t
 </div>
 <!-- ----------------------------- -->
 
-This list should correlate with the projects you have listed on your firebase console:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/firebase-console.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Firebase projects as shown in your Firebase console</p></div>
-</div>
-<!-- ----------------------------- -->
+This list should correlate with the projects you have listed on your firebase console.
 
 The **blue (current)** directory is the app you are currently in. This is the firebase project we will deploy the application to so we can start hosting it. In this example, it is **khandren-dev**.
 
@@ -238,12 +231,11 @@ firebase deploy
 You can now see which web domain your website is hosting on. As you can see, the default free firebase domain will always end in a 
 **domainname.firebaseapp.com** or **domainname.web.app**.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/deployed.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Hosting URL where you can access your website</p></div>
-</div>
-<!-- ----------------------------- -->
+```bash
+Project Console: https://console.firebase.google.com/project/khandren-dev/overview
+Hosting URL: https://khandren-dev.web.app
+
+```
 
 Either way, you can now open any web browser and type in your domain name, and you will be able to see your website live and hosted across the web.
 

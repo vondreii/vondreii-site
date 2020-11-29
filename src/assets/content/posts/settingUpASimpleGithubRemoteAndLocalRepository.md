@@ -33,16 +33,8 @@ If you already have a Github Account, you can skip to step 2. Otherwise, go to [
 </div>
 <!-- ----------------------------- -->
 
-Follow the prompts in order to create your Github account. 
- 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/verifyAccount.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Verify that you are not a robot</p></div>
-</div>
-<!-- ----------------------------- -->
+Follow the prompts in order to create your Github account. You will need to verify the email that you use. Github will send an email to the email address used to create the Github account.
 
-You will also have to verify the email that you use. Github will send an email to the email address used to create the Github account.
 Once verified, you will be taken to another page to complete the sign up process.
 
 <!-- ----------- Image ----------- -->
@@ -65,20 +57,6 @@ Once the setup is complete, you will be taken to the main Github dashboard page,
 
 Now that you already have an account, you can now create a repository to store your code in.
 You can do this by selecting **Start project** on the main page, or **New** on the repository page.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a repository</p></div>
-</div>
-<!-- ----------------------------- -->
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create a repository</p></div>
-</div>
-<!-- ----------------------------- -->
 
 Name your project and change any other configurations, as shown below.
 

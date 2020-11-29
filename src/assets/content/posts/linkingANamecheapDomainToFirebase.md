@@ -40,16 +40,7 @@ In the sidebar, click on **Hosting**, then **Add custom domain**.
 </div>
 <!-- ----------------------------- -->
 
-Type in the custom domain you want to add:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_custom_domain2.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Add Custom Domain</p></div>
-</div>
-<!-- ----------------------------- -->
-
-If you want to redirect it to an existing website, you can add it here too:
+Type in the custom domain you want to add. If you want to redirect it to an existing website, tick the **Redirect __ to an existing website**.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">

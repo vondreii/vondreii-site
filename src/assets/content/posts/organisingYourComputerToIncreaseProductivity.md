@@ -56,12 +56,6 @@ If you look at the image below, it is a lot clearer to see the exact processes y
 	
 And yes, there is a small green line underneath the applications that are running. But at a glance, having too many apps pinned can still subtly clutter your vision. If you are in a situation where you are stressed and trying to get things done using multiple applications, you could potentially feel more overwhelmed.
 
-<!-- ----------- Image ----------- -->  
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/taskbar-cluttered-2.PNG" alt="image" class="image" style="width:100%;height:100%"/>
-</div>
-<!-- ----------------------------- -->
-
 To remove items from your taskbar, all you have to do is right-click on an app and select **Unpin From Taskbar.**
 
 ### 3. Clear Your Start Menu
@@ -71,25 +65,12 @@ Feel free to keep any of them there if you use them. However if you know what yo
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<div class="rows"> 
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-cluttered-yellow.jpg" alt="image"/>
-	  </div>
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-decluttered.PNG" alt="image"/>
-	  </div>
-	</div>
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-decluttered.PNG" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 	
 The first image has a start menu full of default apps. Since I never use any of them, I've replaced them with the apps that I use, categorised under **Productivity** and **Media**, shown in the second image.
 To remove an application from the start menu, right click on the application and select **Unpin from start**.
-  
-<!-- ----------- Image ----------- -->  
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-unpin.PNG" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
 	
 You can then add your own applications by using the search bar to find the applications you use often. Right click on the application and select **Pin to start**.
     
@@ -115,38 +96,12 @@ You can create new groups by clicking and dragging the application and hovering 
 </div>
 <!-- ----------------------------- -->
 
-Hover on the space above to name your new group:
-    
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<div class="rows"> 
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-name-group1-yellow.jpg" alt="image"/>
-	  </div>
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-name-group2.png" alt="image"/>
-	  </div>
-	</div>
-</div>
-<!-- ----------------------------- -->
-	
+Hover on the space above to name your new group.
+    	
 ### 4. Clear Your Downloads Folder
 
 Your downloads folder should regularly be cleaned to remove files that have been recently downloaded. If you don't sort your downloads folder, it could end up messy with many accumulated unsorted files which look very similar to the first image below.
 If you regularly sort your downloads folder, it will end up being completely empty most of the time, as seen in the second image.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<div class="rows"> 
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/downloads-cluttered.PNG" alt="image"/>
-	  </div>
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/downloads-decluttered.PNG" alt="image"/>
-	  </div>
-	</div>
-</div>
-<!-- ----------------------------- -->
 
 Everytime you download files, it's good to store them in a folder based on the category they belong in. For example, if you download a few new songs to store on your phone, move these from your downloads folder into a **Music** folder.
 Another thing to note is that files in your downloads folder can get deleted on their own, especially if you have enabled any automatic settings to delete files after a certain number of days. So archive your files as you go to prevent losing any files or data.
@@ -171,17 +126,9 @@ You cannot have an organised computer without having a file structure that categ
 <!-- ----------------------------- -->
 
 In this folder, there are many files stored that are unrelated to each other. There's ps3 themes, a travel itinerary, some receipts (for different things), an old resume, music folders, draft folders and an application (for something, we don't know what). 
-In your root documents folder, start creating higher-level folders. Some common ones include things like **work, study** or **travel**. This is an example of my main folders:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-main-folders.PNG" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
+In your root documents folder, start creating higher-level folders. Some common ones include things like **work, study** or **travel**. 
 
 Each folder has their own sub-folders, that further nest/categorise files. But as you can see, everything related to work goes into the **Work** folder. Everything related to studies goes into the **Uni** folder. 
-The **car** folder has anything related to my car's registeration, insurance, repairs or checkups.
-This hierarchy is going to be different for everyone, depending on your needs and what kind of files you have stored on your computer. My work folder currently looks like this:
   
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
@@ -200,25 +147,11 @@ Regardless of how you decide to group them, each individual job can then store a
 <!-- ----------------------------- -->
 
 For current uni students, you might instead want to split these up further to categorise your courses per semester or year. Since I have finished, I don't really care which semester I completed which module, 
-so I have re-organised my uni folder to see an overview of all the courses I have completed. That way I don't have to spend time remembering when I did a course and where I can find it. This might not work for everyone, so you should find a structure that you will be comfortable with.
+so I have re-organised my uni folder to see an overview of all the courses I have completed. That way I don't have to spend time remembering when I did a course and where I can find it.
 
 ### 6. Name Your Files Appropriately
 
-Files should be named in a way where you know the purpose of the file. For example, consider the following:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/namefiles-cluttered.png" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
-	
-It is difficult to to know what **doc1** is, or what the difference between **final001, final002** or **final001 - Copy** is without opening it. Once you have found a hierarchy folder structure that works for you, name the files informatively after you categorise them into the appropriate folders. This is an example of the files under one of my job applications folders:
-  
-<!-- ----------- Image ----------- -->  
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/namefiles-decluttered.png" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
+Files should be named in a way where you know the purpose of the file. It is difficult to to know what **doc1** is, or what the difference between **final001, final002** or **final001 - Copy** is without opening it. Once you have found a hierarchy folder structure that works for you, name the files informatively after you categorise them into the appropriate folders. 
 
 Also, while you are organising your files, have a look at each of them and see if there are any duplicate or unnecessary files that you can delete. This will not only clean up some disk space but will also help you remove some clutter.
     
@@ -227,44 +160,17 @@ Also, while you are organising your files, have a look at each of them and see i
 Similar to Step 5, you want to create a helpful folder structure. If you want, you can separate music, photos and videos from each other. You can group photos by the month and year you took them, or by events.
 The image below shows an unorganised images folder. Almost all the photos are unrelated, except for a few which can be grouped.
     
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-cluttered.PNG" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
-
-There are multiple train track/industrial photos that are similar. In reality, I took all the train track images at a previous job working on the railways and have separated them into this folder hierarchy: **Work > Transport**. As another example, these are the main folders I have chosen to organise my photos:
-  
-<!-- ----------- Image ----------- -->  
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-example1.PNG" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
-
 If I am able to, I try to collect all photos associated with a particular event (such as an outing) and put them into the **events** folder. Any selfies or general photos of loved ones (that don't happen during an occasion) go into the **friends and family** folder. 
 **Food** has all photos of food, **hobbies** include my drawings or photo editing, and so on.
 As you can see in the images below, each event has it's own folder (these are nested inside the **events** folder), and each person/group also has their own folder (nested inside the **family and friends** folder):
 
-<!-- ----------- Image ----------- -->
+<!-- ----------- Image ----------- -->  
 <div class="image-container">
-	<div class="rows"> 
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-example2.png" alt="image"/>
-	  </div>
-	  <div class="column-2 image-container">
-		<img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-example3.png" alt="image"/>
-	  </div>
-	</div>
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-example2.png" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
-	
-For music, I just group these by playlists that I like to listen to:
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/Music-playlists.png" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
+For music, I just group these by playlists that I like to listen to.
 	
 ### 8. Organise Your Applications And Installs
 
@@ -272,12 +178,6 @@ Install all your applications in one place. You can use the default application 
 If you have a lot of applications on your computer, analyse the ones you use and the ones you don't use. It could be possible that you installed a few applications just to try, and then forgot that they were there.
 Go to **Settings** on Windows 10 and select **Apps**. Scroll through the list of apps you have and if you recognise any that you no longer need, click on the app and select **Uninstall**. 
 Be careful when doing this though because you don't want to accidentally delete something that is essential. There are some apps that don't look familiar but are quite important.
-  
-<!-- ----------- Image ----------- -->  
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/uninstall-apps.PNG" alt="image" class="image"/>  
-</div>
-<!-- ----------------------------- -->
 	
 ### 9. Use A Temporary Folder For Current Projects
 
@@ -299,22 +199,15 @@ This is a better option if the files you are working on takes too much space to 
 Make sure you back up all your files on a regular basis. You never know when a system/hardware failure is going to happen, so you want to always be prepared. Depending on your files, you should have at least one main hard drive or USB ready (that has a good GB space limit). 
 You can backup all your files here, including documents or photos.
 
-<!-- ----------- Image ----------- -->  
-<div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/backup-harddrive.jpg" alt="image" class="image"/>
-  <div class="image-description"><p>Photo by <a href="https://unsplash.com/@jakobowens1">Jakob Owens </a>on Unsplash</p></div>
-</div>
-<!-- ----------------------------- -->
-
-Another USB (or few) can be used for minor things like transferring files to others or storing backups of current important work.
-You can also utilise tools like <a href="https://www.dropbox.com/login">Dropbox</a> or <a href="https://drive.google.com">Google Drive</a>. There are free to use provided you don't exceed their free GB limit.
-
 <!-- ----------- Image ----------- -->
 <div class="image-container">
   <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/backup-usb.jpg" alt="image" class="image"/>
   <div class="image-description"><p>Photo by <a href="https://unsplash.com/@brina_blum">Brina Blum </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
+
+Another USB (or few) can be used for minor things like transferring files to others or storing backups of current important work.
+You can also utilise tools like <a href="https://www.dropbox.com/login">Dropbox</a> or <a href="https://drive.google.com">Google Drive</a>. There are free to use provided you don't exceed their free GB limit.
 
 Schedule some time every week to backup the files that have changed. Otherwise, if it's easier, backup your files everytime you make changes.
 

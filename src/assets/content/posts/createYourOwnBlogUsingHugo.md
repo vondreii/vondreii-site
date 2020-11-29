@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/header-dark.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@lucabravo">Luca Bravo</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -123,7 +123,7 @@ You can browse through the themes listed at https://themes.gohugo.io/.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/hugo-themes.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/hugo-themes.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>Themes to choose from at themes.gohugo.io</p></div>
 </div>
 <!-- ----------------------------- -->

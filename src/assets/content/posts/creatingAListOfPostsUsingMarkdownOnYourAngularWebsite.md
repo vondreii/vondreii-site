@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header-dark.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@bramnaus">Bram Naus</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -61,14 +61,7 @@ Using Angular we will display a preview on the main page which includes the titl
 </div>
 <!-- ----------------------------- -->
 
-And clicking on each link will navigate to it's own page:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/vondreii-post.PNG" alt="image" class="image"/>
-	<div class="image-description"><p>Vondreii post page</p></div>
-</div>
-<!-- ----------------------------- -->
+And clicking on each link will navigate to it's own page.
 
 This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/post-003). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/posts/post/createYourOwnBlogUsingHugo).
 
@@ -143,14 +136,42 @@ Go ahead and populate some of these files with the content you would like to pos
 
 This is an example of my Chocolate Recipe Post:
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/chocolateRecipe.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Chocolate recipe post</p></div>
+```md
+<div class="content">
+
+#### 10 Oct 2020
+
+# Delicious Chocolate Recipe
+___
+
+This is how you make an awesome Chocolate Cheesecake:
+
+## Ingredients
+
+#### For the base:
+* Biscuits 
+* Butter 
+ 
+#### For the cheesecake:
+* Some sort of cream
+* Cream Cheese
+* Something else
+* Chocolate syrup?
+
+## Steps
+* Crush the biscuits
+* Mix biscuits into the butter 
+* Let it set in the fridge for 10 minutes
+* Mix the cream with the strawberry syrup
+* Put it ontop of the base
+* Put it in the fridge for 10 hours
+
 </div>
-<!-- ----------------------------- -->
+```
 
 Please don't quote this recipe.
+
+You can add some very simple styling in your markdown files so they will look consistent with the home page. I've wrapped all the text inside a `<div class="content">`, which we will add to the CSS later.
 
 ### 3. Displaying markdown files on the Home page
 
@@ -331,7 +352,7 @@ Click on the Home tab and it should looks something like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/postListPreview.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.PNG" alt="image" class="image-full"/>
 	<div class="image-description"><p>List of posts on the home page</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -405,20 +426,11 @@ const routes: Routes = [
 
 ```
 
-Now your markdown files should be all set to view. Before running the program and viewing your markdown files, you can add some very simple styling in your markdown files so they will look consistent with the home page. I've wrapped all the text inside a `<div class="content">`, like this:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/contentDiv.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Styling content div</p></div>
-</div>
-<!-- ----------------------------- -->
-
 Now you can run `ng serve --open` again to view your web application. If everything worked, it should now look something like this:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/postListPreview.PNG" class="image-full">
+    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.PNG" class="image-full">
     <source src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/markdownWorks.mp4" type="video/mp4">
     </video>
 </div>
@@ -441,12 +453,33 @@ As you can see I have added two more files, **ChocolateLavaCake.md** and **Churr
 
 I will also add some content into these new posts:
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/chocoLavaCake.PNG" alt="image" class="image-full"/>
-	<div class="image-description"><p>Chocolate Lava Cake post</p></div>
+```md
+<div class="content">
+
+#### 11 Oct 2020
+
+# Chocolate Lava Cake
+___
+
+Yum
+
+## Ingredients
+* Chocolate
+* Lava
+* ...
+
+## Steps
+* Make the cake, but put the chocolate in the middle so when you open the cake it will melt out
+
+Congratulations! Now you have a Chocolate Lava Cake!
+
+### Resources
+
+List of resources
+
 </div>
-<!-- ----------------------------- -->
+
+```
 
 Now that we have the actual posts, we can add them to the list in the `posts` array, with their details.
 
