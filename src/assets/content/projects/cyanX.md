@@ -36,7 +36,7 @@ Experience points also allow you to level up and unlock certain abilities.
 			<img src="../../assets/content/projects-images/cyanX/gameplay-1.PNG" alt="image" style="width:100%">
 		</div>  
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/sandy-area-cropped.png" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/sandy-area.png" alt="image" style="width:100%">
 		</div>
 		<div class="column-3 image-container">
 			<img src="../../assets/content/projects-images/cyanX/gameplay-2.PNG" alt="image" style="width:100%">
@@ -221,15 +221,10 @@ Level 3 contains platforms that are ice-themed, as the level design is situated 
 <div class="image-container">
     <div class="rows"> 
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/mountain-background.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/header.png" alt="image" style="width:100%">
       </div>
       <div class="column-2 image-container">
         <img src="../../assets/content/projects-images/cyanX/sandy-area.png" alt="image" style="width:100%">
-      </div>  
-    </div>
-    <div class="rows"> 
-      <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/green-hills.png" alt="image" style="width:100%">
       </div>  
     </div>
 </div>

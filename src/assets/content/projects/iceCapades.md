@@ -74,6 +74,12 @@ Altogether there are 5 levels.
 * **Level 4 -** The underwater level, where you swim through to get to the oil rig.
 * **Level 5 -** The oil rig.
 
+<!-- ----------- Image ----------- -->   
+<div class="image-container">
+  <img src="../../assets/content/projects-images/iceCapades/4-levels.png" alt="image" class="image"/> 
+</div>
+<!-- ----------------------------- -->
+
 Throughout the game you also come across other characters and animals that have been affected by the ice rig and melting ice.
 
 <!-- ----------- Image ----------- -->   
@@ -82,7 +88,7 @@ Throughout the game you also come across other characters and animals that have 
 </div>
 <!-- ----------------------------- -->
 
-During the last level, you must navigate to the switch that shuts down the whole oil rig. Turning the switch off sets all the power reactors on fire, apparently.
+During the last level, you must navigate to the switch that shuts down the whole oil rig. Turning the switch off sets all the power reactors on fire.
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
@@ -91,12 +97,6 @@ During the last level, you must navigate to the switch that shuts down the whole
 <!-- ----------------------------- -->
 
 After level 5 you are greeted by a thankful citizen who thanks you for saving the village from the ice rig that was melting the ice.
-	
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="../../assets/content/projects-images/iceCapades/story-help-1.PNG" alt="image" class="image"/> 
-</div>
-<!-- ----------------------------- -->
 
 ### Characters
 
@@ -116,12 +116,6 @@ Here are the things you can walk into which cause the environment to be affected
 
 * **Buttons:** Walking into these buttons would trigger certain blocks or stones to move allowing pathways to be cleared.
 * **Keys:** Collecting keys allow you to open certain doors, including doors that lead to the next level.
-	
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="../../assets/content/projects-images/iceCapades/gates.PNG" alt="image" class="image"/> 
-</div>
-<!-- ----------------------------- -->
 
 <div class="download-container">
     <div class="download-link">
