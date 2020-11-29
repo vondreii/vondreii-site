@@ -11,17 +11,17 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header-dark.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@domenicoloia">Domenico Loia</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
 
 For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up.
 
-If you don't have an Angular App, you can follow the steps in this tutorial: [Creating A Simple Angular Web Application](/posts/post/creatingASimpleAngularWebApplication) to make one.
+If you don't have an Angular App, you can follow the steps in this tutorial: [Creating A Simple Angular Web Application](/content/post/creatingASimpleAngularWebApplication) to make one.
 Otherwise, you can download the source code of a working simple Angular App from [here](https://github.com/vondreii/Angular-3-Pages).
 
-If you don't have a Github repository, you can follow the steps in this tutorial: [Setting Up A Github Repository and Creating A Local Copy](/posts/post/settingUpASimpleGithubRemoteAndLocalRepository).
+If you don't have a Github repository, you can follow the steps in this tutorial: [Setting Up A Github Repository and Creating A Local Copy](/content/post/settingUpASimpleGithubRemoteAndLocalRepository).
 
 ### Github with Netlify
 

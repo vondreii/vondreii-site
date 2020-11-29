@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/header-dark.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@kevnbhagat">Kevin Bhagat</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->

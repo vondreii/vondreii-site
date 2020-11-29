@@ -63,9 +63,9 @@ Using Angular we will display a preview on the main page which includes the titl
 
 And clicking on each link will navigate to it's own page.
 
-This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/post-003). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/posts/post/createYourOwnBlogUsingHugo).
+This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/post-003). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/content/post/createYourOwnBlogUsingHugo).
 
-Here we are assuming that you already have a simple Angular project set up - for example, the one from [Creating A Simple Angular Web Application](/posts/post/creatingASimpleAngularWebApplication). You can download the source code of this working simple Angular App from [here](https://github.com/vondreii/Angular-3-Pages).
+Here we are assuming that you already have a simple Angular project set up - for example, the one from [Creating A Simple Angular Web Application](/content/post/creatingASimpleAngularWebApplication). You can download the source code of this working simple Angular App from [here](https://github.com/vondreii/Angular-3-Pages).
 
 In this example we're going to work with **Posts**. This could be anything... blog posts, news posts, just any list that would be added to over time.
 
@@ -175,7 +175,7 @@ You can add some very simple styling in your markdown files so they will look co
 
 ### 3. Displaying markdown files on the Home page
 
-You first need a component where you will display these posts. If you are using the finished example from [Creating A Simple Angular Web Application](/posts/post/creatingASimpleAngularWebApplication), you will already have a `Home` component. Otherwise, you can run:
+You first need a component where you will display these posts. If you are using the finished example from [Creating A Simple Angular Web Application](/content/post/creatingASimpleAngularWebApplication), you will already have a `Home` component. Otherwise, you can run:
 
 ```js
 ng g c home
