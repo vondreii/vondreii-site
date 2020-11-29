@@ -17,26 +17,21 @@ import { environment } from "../environments/environment";
 // App Files
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import { ProjectsComponent } from './components/articles/projects/projects.component';
-import { ProjectPostComponent } from './components/articles/projects/project-post/project-post.component';
-import { SocialComponent } from './components/social/social.component';
-import { PostsComponent } from './components/articles/posts/posts.component';
-import { PostsPostComponent } from './components/articles/posts/posts-post/posts-post.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectPostComponent } from './components/projects/project-post/project-post.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { PostsPostComponent } from './components/posts/posts-post/posts-post.component';
+import { SharedModule } from './components/shared/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    FooterComponent,
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
     ProjectPostComponent,
-    SocialComponent,
     PostsComponent,
     PostsPostComponent
   ],
@@ -48,9 +43,10 @@ import { PostsPostComponent } from './components/articles/posts/posts-post/posts
     AngularFirestoreModule,
     AngularFireStorageModule,
     HttpClientModule,
-    MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE })
+    MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE }),
+    SharedModule
   ],
-  exports: [NavbarComponent],
+  exports: [],
   providers: [],
   bootstrap: [AppComponent]
 })
