@@ -6,7 +6,7 @@ ___
 
 <!-- ----------- Intro ----------- -->
 <div class="avatar-block">
-    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <img src="../../../assets/social/profile.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>

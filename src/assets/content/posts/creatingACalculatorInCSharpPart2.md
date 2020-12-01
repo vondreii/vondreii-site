@@ -6,7 +6,7 @@ ___
 
 <!-- ----------- Intro ----------- -->
 <div class="avatar-block">
-    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <img src="../../../assets/social/profile.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
@@ -121,8 +121,8 @@ We are now going to add the basic functionality of pressing buttons, pressing th
 
 <!-- ----------- Video ----------- --> 
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/goal.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/goal.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -135,8 +135,8 @@ You can double click on number 1 to open the source code.
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/button_num.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/button_num.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -168,8 +168,8 @@ We only want to copy this to all numbers (0-9), all operators (+, -, x, ÷, (, )
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/link_button_to_event.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/link_button_to_event.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -226,8 +226,8 @@ If there are no errors in the code, you should be getting something that looks l
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/updateCalculation.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/updateCalculation.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -296,8 +296,8 @@ If you run the program, it should now look like this:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/equals.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/equals.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->

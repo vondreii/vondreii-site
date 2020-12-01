@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Designer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Designer</h2>\r\n          <p>I love experimenting with different designs, and learning about making websites.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/designer.jpg\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Software Developer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Developer</h2>\r\n          <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/developer.jpg\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Photographer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Photographer</h2>\r\n          <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/photography.jpg\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Traveller -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2>\r\n          <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/traveller.jpg\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div> \r\n  </div>  \r\n  <br><br>\r\n</div>\r\n<!-- Social links for instagram, linkedIn and Github -->\r\n<app-social></app-social>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Designer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Designer</h2>\r\n          <p>I love experimenting with different designs, and learning about making websites.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/designer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Software Developer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Developer</h2>\r\n          <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/developer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Photographer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Photographer</h2>\r\n          <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/photography.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Traveller -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2>\r\n          <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/traveller.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div> \r\n  </div>  \r\n  <br><br>\r\n</div>\r\n<!-- Social links for instagram, linkedIn and Github -->\r\n<app-social></app-social>");
 
 /***/ }),
 
@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <br>\r\n    <!-- Some Image of something here -->\r\n    <p>Message me on any of the following platforms:</p>  \r\n    <div class=\"contact-content\"> \r\n      <h2>LinkedIn</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/social/profile.jpg\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\">LinkedIn Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- LinkedIn Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>Instagram</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/insta.JPEG\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.instagram.com/vondreii\">Vondreii Instagram Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- Github Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>GitHub</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/pineapple.jpg\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://github.com/vondreii\">GitHub Account</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <br><br>\r\n  </div>\r\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <br>\r\n    <!-- Some Image of something here -->\r\n    <p>Message me on any of the following platforms:</p>  \r\n    <div class=\"contact-content\"> \r\n      <h2>LinkedIn</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\">LinkedIn Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- LinkedIn Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>Instagram</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/insta.JPEG\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.instagram.com/vondreii\">Vondreii Instagram Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- Github Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>GitHub</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/pineapple.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://github.com/vondreii\">GitHub Account</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <br><br>\r\n  </div>\r\n</div>");
 
 /***/ }),
 
@@ -754,6 +754,78 @@ let PostsComponent = class PostsComponent {
                 "tags": "Angular • Markdown",
                 "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
             },
+            {
+                "title": "Linking A Namecheap Domain To Firebase",
+                "imagePath": "../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg",
+                "date": "4 Oct 2020",
+                "link": "/posts/linkingANamecheapDomainToFirebase",
+                "tags": "Hosting • Firebase • Namecheap",
+                "description": "Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like .firebaseapp.com or .web.app). If you've already bought a Namecheap domain name, this is how you can link it to your Firebase hosted website...",
+            },
+            {
+                "title": "Hosting An Angular App On Firebase",
+                "imagePath": "../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg",
+                "date": "3 Oct 2020",
+                "link": "/posts/hostingAnAngularAppOnFirebase",
+                "tags": "Angular • Hosting • Firebase",
+                "description": "If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to creating a project on Firebase (for your app), connect your Angular app to the Firebase Project and host your website...",
+            },
+            {
+                "title": "Creating A Calculator in C#",
+                "imagePath": "../../assets/content/post-images/calculator/header.jpg",
+                "date": "26 Sept 2020",
+                "link": "/posts/creatingACalculatorInCSharp",
+                "tags": "C#",
+                "description": "We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections: Part 1 covers creating the interface for the calculator. We are going to be using Visual Studio's C# Windows Forms to add buttons to the calculator. Part 2 covers adding in the basic functionality to the calculator (adding, subtracting, all of that calculator stuff). Part 3 will go through handling any invalid inputs and runtime exceptions. We will also 'finalise' the calculator...",
+            },
+            {
+                "title": "Hosting an Angular Application using Netlify",
+                "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg",
+                "date": "30 Aug 2020",
+                "link": "/posts/hostingAngularApplicationUsingNetlify",
+                "tags": "Angular • Netlify • Hosting",
+                "description": "Netlify is a free hosting platform where you can host your website live using a customisable domain name provided with a .netlify.app extension at the end (you can also link your own custom domain if you'd like). One way Netlify does this is by connecting to an existing repository and hosting your website code stored there. In this tutorial we will go through how to host an Angular web application using Netlify in 4 steps...",
+            },
+            {
+                "title": "Setting Up A Github Repository and Creating A Local Copy",
+                "imagePath": "../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header.jpg",
+                "date": "22 Aug 2020",
+                "link": "/posts/settingUpASimpleGithubRemoteAndLocalRepository",
+                "tags": "Version Control • Github",
+                "description": "GitHub is a free version control platform where you can store your code online in repositories. When we create a Github repository, we are creating a place online where we can store our code files for a project remotely. This is a simple tutorial that will help you quickly set up an online remote repository on Github, which will be linked to a local folder on your computer...",
+            },
+            {
+                "title": "Adding Photos To Instagram Using A Desktop Computer",
+                "imagePath": "../../assets/content/post-images/uploadImageToInstagramViaDesktop/header.jpg",
+                "date": "11 Aug 2020",
+                "link": "/posts/uploadImageToInstagramViaDesktop",
+                "tags": "Design • Social Media",
+                "description": "Sometimes you need to upload photos to Instagram on a computer, especially if you are using a computer to edit photos or create vector art. It can be really annoying to keep transferring them onto your phone and uploading it from there (and if you can't airdrop it using an IPhone, the quality of these photos can be reduced)...",
+            },
+            {
+                "title": "Creating A Simple Angular Web Application",
+                "imagePath": "../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg",
+                "date": "04 Aug 2020",
+                "link": "/posts/creatingASimpleAngularWebApplication",
+                "tags": "Angular",
+                "description": "This tutorial will go through how you can create a simple angular web app in 3 stages: Setting up the environment, adding pages to the app, and adding the navbar and configuring routes...",
+            },
+            {
+                "title": "How To Organise Your Web Browsing",
+                "imagePath": "../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg",
+                "date": "25 May 2020",
+                "link": "/posts/howToOrganiseYourWebBrowsing",
+                "tags": "Organisation",
+                "description": "These days, many people spend most of their time surfing the web or conducting important business online. It makes sense to have your accounts, passwords, general online activities and frequently used websites organised in order to make things easier to access. Other online tools can also be utilised to increase productivity by managing social media posts and tracking the time you spend on time wasting websites...",
+            },
+            {
+                "title": "Organising Your Computer To Increase Productivity",
+                "imagePath": "../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg",
+                "date": "16 May 2020",
+                "link": "/posts/organisingYourComputerToIncreaseProductivity",
+                "tags": "Organisation",
+                "description": "Having a well organised computer can improve your overall workflow and efficiency. Having too many folders and files in different places can make it difficult to find what you are looking for. Here are a few suggestions on how you can better organise your computer, including your files, applications and overall layout...",
+            }
         ];
     }
     ngOnInit() {

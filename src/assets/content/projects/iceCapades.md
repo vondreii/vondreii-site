@@ -6,7 +6,7 @@
 
 <!-- ----------- Intro ----------- -->
 <div class="image-container">
-    <img src="../../assets/content/projects-images/iceCapades/header.jpg" alt="image" class="image-full"/>
+    <img src="../../assets/content/projects-images/iceCapades/header.jpg" loading="lazy" alt="image" class="image-full"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -33,7 +33,7 @@ Once at the oil rig, you must destroy it by reaching and turning off the main po
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/iceCapades/story-help-1.PNG" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/iceCapades/story-help-1.PNG" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -55,10 +55,10 @@ This is the tutorial level where the game guides you through the basic gameplay.
 <div class="image-container">
 	<div class="rows"> 
 		<div class="column-2 image-container">
-			<img src="../../assets/content/projects-images/iceCapades/IceCapades-menu-description.PNG" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/iceCapades/IceCapades-menu-description.PNG" loading="lazy" alt="image" style="width:100%">
 		</div>
 		<div class="column-2 image-container">
-			<img src="../../assets/content/projects-images/iceCapades/IceCapades-menu-controls.PNG" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/iceCapades/IceCapades-menu-controls.PNG" loading="lazy" alt="image" style="width:100%">
 		</div>  
 	</div>
 </div>
@@ -76,7 +76,7 @@ Altogether there are 5 levels.
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/iceCapades/4-levels.png" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/iceCapades/4-levels.png" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -84,7 +84,7 @@ Throughout the game you also come across other characters and animals that have 
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/iceCapades/story-help-2.png" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/iceCapades/story-help-2.png" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -92,7 +92,7 @@ During the last level, you must navigate to the switch that shuts down the whole
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/iceCapades/end-level.png" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/iceCapades/end-level.png" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 

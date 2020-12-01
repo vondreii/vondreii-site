@@ -6,7 +6,7 @@ ___
 
 <!-- ----------- Intro ----------- -->
 <div class="avatar-block">
-    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <img src="../../../assets/social/profile.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
@@ -34,8 +34,8 @@ Before we start:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/final_preview.PNG" class="image-full">
-    <source src="../../../assets/content/post-images/calculator/final.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/final_preview.PNG" class="image-full">
+    <source src="../../../assets/content/post-images/calculator/final.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->

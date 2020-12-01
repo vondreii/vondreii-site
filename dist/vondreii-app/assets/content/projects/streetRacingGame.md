@@ -6,7 +6,7 @@
 
 <!-- ----------- Intro ----------- -->
 <div class="image-container">
-    <img src="../../assets/content/projects-images/racingGame/header.PNG" alt="image" class="image-full"/>
+    <img src="../../assets/content/projects-images/racingGame/header.PNG" loading="lazy" alt="image" class="image-full"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -24,7 +24,7 @@ The original game involved racing for as long as you possible without hitting an
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/racingGame/street-racing-preview.gif" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/racingGame/street-racing-preview.gif" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -40,7 +40,7 @@ Extra obstacles were added such as roadblocks. You also could not die when hitti
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/racingGame/roadblock.PNG" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/racingGame/roadblock.PNG" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 

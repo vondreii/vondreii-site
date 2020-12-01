@@ -6,7 +6,7 @@
 
 <!-- ----------- Intro ----------- -->
 <div class="image-container">
-    <img src="../../assets/content/projects-images/cyanX/header.png" alt="image" class="image-full"/>
+    <img src="../../assets/content/projects-images/cyanX/header.png" loading="lazy" alt="image" class="image-full"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -33,13 +33,13 @@ Experience points also allow you to level up and unlock certain abilities.
 <div class="image-container">
 	<div class="rows"> 
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/gameplay-1.PNG" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/gameplay-1.PNG" loading="lazy" alt="image" style="width:100%">
 		</div>  
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/sandy-area.png" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/sandy-area.png" loading="lazy" alt="image" style="width:100%">
 		</div>
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/gameplay-2.PNG" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/gameplay-2.PNG" loading="lazy" alt="image" style="width:100%">
 		</div> 
 	</div>
 </div>
@@ -110,10 +110,10 @@ The concept design for this game included more than three locations. This game c
 <div class="image-container">
 	<div class="rows"> 
 		<div class="column-2 image-container">
-			<img src="../../assets/content/projects-images/cyanX/khandren-map.jpg" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/khandren-map.jpg" loading="lazy" alt="image" style="width:100%">
 		</div>
 		<div class="column-2 image-container">
-			<img src="../../assets/content/projects-images/cyanX/game-on-computer.jpg" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/game-on-computer.jpg" loading="lazy" alt="image" style="width:100%">
 		</div>  
 	</div>
 </div>
@@ -141,7 +141,7 @@ In addition to resources, you can also collect:
    
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../assets/content/projects-images/cyanX/collectable.png" alt="image" class="image"/> 
+  <img src="../../assets/content/projects-images/cyanX/collectable.png" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
 	
@@ -157,13 +157,13 @@ Once you have crafted a weapon, you can equip it anytime by navigating back to t
 <div class="image-container">
     <div class="rows"> 
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/weapons.png" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/weapons.png" loading="lazy" alt="image" style="width:100%">
 		</div>
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/craftbox.PNG" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/craftbox.PNG" loading="lazy" alt="image" style="width:100%">
 		</div>
 		<div class="column-3 image-container">
-			<img src="../../assets/content/projects-images/cyanX/netbotz-states.png" alt="image" style="width:100%">
+			<img src="../../assets/content/projects-images/cyanX/netbotz-states.png" loading="lazy" alt="image" style="width:100%">
 		</div>  
     </div>
 </div>
@@ -184,10 +184,10 @@ The more experience points you collect, the more you are able to level up, there
 <div class="image-container">
     <div class="rows"> 
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/level-up.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/level-up.png" loading="lazy" alt="image" style="width:100%">
       </div>
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/spike.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/spike.png" loading="lazy" alt="image" style="width:100%">
       </div>  
     </div>
 </div>
@@ -206,10 +206,10 @@ Level 3 contains platforms that are ice-themed, as the level design is situated 
 <div class="image-container">
     <div class="rows"> 
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/platforms-design-1-3.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/platforms-design-1-3.png" loading="lazy" alt="image" style="width:100%">
       </div>
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/platforms-design-2.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/platforms-design-2.png" loading="lazy" alt="image" style="width:100%">
       </div>  
     </div>
 </div>
@@ -221,10 +221,10 @@ Level 3 contains platforms that are ice-themed, as the level design is situated 
 <div class="image-container">
     <div class="rows"> 
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/header.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/header.png" loading="lazy" alt="image" style="width:100%">
       </div>
       <div class="column-2 image-container">
-        <img src="../../assets/content/projects-images/cyanX/sandy-area.png" alt="image" style="width:100%">
+        <img src="../../assets/content/projects-images/cyanX/sandy-area.png" loading="lazy" alt="image" style="width:100%">
       </div>  
     </div>
 </div>

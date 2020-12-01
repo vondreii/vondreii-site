@@ -6,7 +6,7 @@ ___
 
 <!-- ----------- Intro ----------- -->
 <div class="avatar-block">
-    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <img src="../../../assets/social/profile.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
@@ -136,8 +136,8 @@ Run the program again and try adding random inputs like **4xxx÷÷÷÷9**. The p
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/with-error-handling.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/with-error-handling.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -150,8 +150,8 @@ Try pressing the equals button twice. This is what happens:
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/twice_equals.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/twice_equals.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -247,8 +247,8 @@ Try running the program again. When you press the equals button twice, the top p
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
-    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/twice_equals_fixed.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
+    <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/twice_equals_fixed.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
@@ -320,8 +320,8 @@ Better yet, you can create a shortcut to your .exe file and store it on the Desk
 
 <!-- ----------- Video ----------- -->
 <div class="image-container">
-    <video controls="true" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/final_preview.PNG" class="image-full">
-    <source src="../../../assets/content/post-images/calculator/final.mp4" type="video/mp4">
+    <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/final_preview.PNG" class="image-full">
+    <source src="../../../assets/content/post-images/calculator/final.mp4" loading="lazy" type="video/mp4">
     </video>
 </div>
 <!-- ----------------------------- -->
