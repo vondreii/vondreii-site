@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@laurenmancke">Lauren Mancke</a> on Unsplash</p></div>
 
 	
@@ -29,7 +29,7 @@ Now that the desktop is empty, this is a perfect place to put any temporary fold
    
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/desktop-temp-folder-yellow.jpg" alt="image" class="image"/> 
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/desktop-temp-folder-yellow.jpg" loading="lazy" alt="image" class="image"/> 
 </div>
 <!-- ----------------------------- -->
  
@@ -39,7 +39,7 @@ While we are on the desktop, you can also have a look at your taskbar. How many 
    
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/taskbar-cluttered.PNG" alt="image" class="image" style="width:100%;height:100%"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/taskbar-cluttered.PNG" loading="lazy" alt="image" class="image" style="width:100%;height:100%"/>  
 </div>
 <!-- ----------------------------- -->
 	
@@ -50,7 +50,7 @@ If you look at the image below, it is a lot clearer to see the exact processes y
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/taskbar-decluttered.PNG" alt="image" class="image" style="width:100%;height:100%"/> 
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/taskbar-decluttered.PNG" loading="lazy" alt="image" class="image" style="width:100%;height:100%"/> 
 </div>
 <!-- ----------------------------- -->
 	
@@ -65,7 +65,7 @@ Feel free to keep any of them there if you use them. However if you know what yo
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-decluttered.PNG" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-decluttered.PNG" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 	
@@ -76,7 +76,7 @@ You can then add your own applications by using the search bar to find the appli
     
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-pin.PNG" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-pin.PNG" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -84,7 +84,7 @@ You can also achieve the same thing by selecting an application and dragging it 
   
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-drag.png" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-drag.png" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -92,7 +92,7 @@ You can create new groups by clicking and dragging the application and hovering 
   
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-new-group-yellow.jpg" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/start-new-group-yellow.jpg" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -108,7 +108,7 @@ Another thing to note is that files in your downloads folder can get deleted on 
   
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/downloads-install-files.PNG" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/downloads-install-files.PNG" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -121,7 +121,7 @@ You cannot have an organised computer without having a file structure that categ
   
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-cluttered.PNG" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-cluttered.PNG" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -132,7 +132,7 @@ Each folder has their own sub-folders, that further nest/categorise files. But a
   
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-work.PNG" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-work.PNG" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -142,7 +142,7 @@ Regardless of how you decide to group them, each individual job can then store a
    
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-uni.PNG" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/hierarchy-uni.PNG" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -166,7 +166,7 @@ As you can see in the images below, each event has it's own folder (these are ne
 
 <!-- ----------- Image ----------- -->  
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-example2.png" alt="image" class="image"/>  
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/photos-example2.png" loading="lazy" alt="image" class="image"/>  
 </div>
 <!-- ----------------------------- -->
 
@@ -187,7 +187,7 @@ You can also archive the files when you make substantial changes, so you have an
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/desktop-temp-folder-yellow.jpg" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/desktop-temp-folder-yellow.jpg" loading="lazy" alt="image" class="image"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -201,7 +201,7 @@ You can backup all your files here, including documents or photos.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/backup-usb.jpg" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/backup-usb.jpg" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p>Photo by <a href="https://unsplash.com/@brina_blum">Brina Blum </a>on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->

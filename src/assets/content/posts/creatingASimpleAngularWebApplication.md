@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@ffstop">Fotis Fotopoulos</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -35,7 +35,7 @@ Navigate to a place in your files directory where you would like to store your p
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/folder.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/folder.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Angular app project folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -63,7 +63,7 @@ Now you have the framework to develop an Angular App. If you open the `test-angu
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/angular-test-source-code.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/angular-test-source-code.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Source Code</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -80,7 +80,7 @@ Wait for the program to compile. When it finishes, a web browser should open wit
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/default-app-page.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/default-app-page.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Default angular opening webpage</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -111,7 +111,7 @@ Three components/folders will be generated: `src/app/about`, `src/app/home` and 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/app-structure.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/app-structure.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>About, home and contact components newly added</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -171,7 +171,7 @@ This will create a navbar component:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/app-structure2.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/app-structure2.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>App structure with navbar</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -241,7 +241,7 @@ If you have left the default content on the html pages, you will only see a simp
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/contact-works.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/contact-works.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Expected result</p></div>
 </div>
 <!-- ----------------------------- -->

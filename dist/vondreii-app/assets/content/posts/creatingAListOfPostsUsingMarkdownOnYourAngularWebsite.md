@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@bramnaus">Bram Naus</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -56,7 +56,7 @@ Using Angular we will display a preview on the main page which includes the titl
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/vondreii.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/vondreii.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Vondreii home page</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -127,7 +127,7 @@ Go ahead and make a few example posts. Here I have made 3 files, where I plan to
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/markdownFilesAsPosts.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/markdownFilesAsPosts.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Create markdown files</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -352,7 +352,7 @@ Click on the Home tab and it should looks something like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>List of posts on the home page</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -444,7 +444,7 @@ Now to add some more posts, go back to the folder that stores your markdown file
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/addedMoreMarkdownFiles.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/addedMoreMarkdownFiles.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add more markdown files</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -512,7 +512,7 @@ Now open up your application again with `ng serve --open`, you should now see yo
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/allFivePosts.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/allFivePosts.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>All five posts</p></div>
 </div>
 <!-- ----------------------------- -->

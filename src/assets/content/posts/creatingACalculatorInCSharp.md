@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@amoltyagi2">Amol Tyagi</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -56,7 +56,7 @@ Another pop-up window will open. Now we need to set up the settings for the proj
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/project-settings.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/project-settings.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Setting up the project settings</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -75,7 +75,7 @@ When the project loads, it should look similar to this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/VS-layout.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/VS-layout.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Visual Studio layout</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -91,7 +91,7 @@ For example, on this form we are going to have many buttons (like a calculator!)
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/VS-layout-buttons.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/VS-layout-buttons.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Toolbox items</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -102,7 +102,7 @@ In the toolbox menu, there should be the option to add a **Button**. Click on th
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add-button.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add-button.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Click and drag a button to add it</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -113,7 +113,7 @@ Don't double click on the button yet, because if you do it will take you to the 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/button-properties.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/button-properties.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Properties for the button</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -134,7 +134,7 @@ Here is my progress so far, with 2 buttons:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add-more-buttons.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add-more-buttons.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Adding a second button</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -155,7 +155,7 @@ Here is what it looks like with all of the operators:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/all-operator-buttons.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/all-operator-buttons.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Adding all the operators</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -175,7 +175,7 @@ You can also add the same styling to the Clear Entry button.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/all-clear-buttons.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/all-clear-buttons.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Adding C and CE buttons</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -186,7 +186,7 @@ You should also right-click **Form1** under the Solutions Explorer and rename th
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/rename-form.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/rename-form.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Rename the form</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -200,7 +200,7 @@ Move and resize the panel so it is at the very top, above the buttons. Like this
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/panel.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/panel.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a panel</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -210,7 +210,7 @@ When the calculator is in use, we want it to look something like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/goal.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/goal.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Goal design for the calculator</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -222,7 +222,7 @@ Add a Textbox near the panel:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add-textbox.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add-textbox.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add the first textbox</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -242,7 +242,7 @@ Now click and drag the textbox so it goes ontop of the panel, like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add_result_output.png" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add_result_output.png" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Drag the girst textbox so it is ontop of the panel</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -260,7 +260,7 @@ Now position the second textbox at the top of the panel:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add_calculation_output.png" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/add_calculation_output.png" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a second textbox ontop of the panel</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -282,7 +282,7 @@ This is what the final design of the calculator should look like:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/final.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart1/final.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Warning label</p></div>
 </div>
 <!-- ----------------------------- -->

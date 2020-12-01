@@ -28,7 +28,7 @@ Currently, if the user were to enter something like **18++++.....34**, it will s
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/runtime_error.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/runtime_error.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Runtime error - SyntaxErrorException</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -100,7 +100,7 @@ In part 1 we added a label to the front part of our interface, called **err_not_
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/error_message.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/error_message.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Invalid calculation error message</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -265,7 +265,7 @@ I found some free icons at [icons-icons.com](https://icon-icons.com/search/icons
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/icon1.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/icon1.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Changing the icon</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -278,7 +278,7 @@ I found some free icons at [icons-icons.com](https://icon-icons.com/search/icons
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/icon2.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/icon2.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Changing the icon</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -289,7 +289,7 @@ I found some free icons at [icons-icons.com](https://icon-icons.com/search/icons
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/icon3.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/icon3.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Changing the icon</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -298,7 +298,7 @@ Your C# project folder will automatically have an executable file of your progra
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/build.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/build.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Build the solution</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -307,7 +307,7 @@ Now, open the folder that stores your project. If you go to **ProjectName >> bin
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/exe.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/exe.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Application directory - location of executable file</p></div>
 </div>
 <!-- ----------------------------- -->

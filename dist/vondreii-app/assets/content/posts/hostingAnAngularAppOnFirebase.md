@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@courtniebt13">Courtnie Tosana</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -38,7 +38,7 @@ Log into your Firebase account and go to the console, and click on **Add project
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/add-a-project.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/add-a-project.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a new project on Firebase</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -47,7 +47,7 @@ Give a name to your project:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/project-name.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/project-name.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Name your project</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -56,7 +56,7 @@ You can choose to enable analytics, which will allow you to see all kinds of sta
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/analytics.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/analytics.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Enable/disable Google Analytics</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -103,7 +103,7 @@ If your login was succesfull, running this command will give you a list of all t
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/firebase_projects_list.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/firebase_projects_list.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>List of Firebase projects</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -155,7 +155,7 @@ At some point while connecting firebase to your Angular project, a new `firebase
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/firebase_json.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/firebase_json.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Firebase json file</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -196,7 +196,7 @@ To find out what you need to write, open your dist folder:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/dist.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/dist.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>dist folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -205,7 +205,7 @@ Whatever is inside it, you will use after `dist/`. So that's where we got `dist/
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/dist-application.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/dist-application.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>application build folder</p></div>
 </div>
 <!-- ----------------------------- -->

@@ -6,12 +6,12 @@ ___
 
 <!-- ----------- Intro ----------- -->
 <div class="avatar-block">
-    <img src="../../../assets/social/profile.jpg" alt="Avatar" class="avatar avatar-align">
+    <img src="../../../assets/social/profile.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@lucabravo">Luca Bravo</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -40,7 +40,7 @@ Create a folder where you want to store your project.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/new-folder-for-project.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/new-folder-for-project.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Create a folder for your project</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -54,7 +54,7 @@ cd C:\Users\Sharl\Desktop\hugo website
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/cmd-open-hugo-project.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/cmd-open-hugo-project.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>CMD</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -78,7 +78,7 @@ You can check what you are using by going into your `C:\ProgramData` folder and 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/install-hugo.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/install-hugo.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>More options to install hugo: https://gohugo.io/getting-started/installing/</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -112,7 +112,7 @@ This will create a new folder called my-food-blog. If you open the folder, you w
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/my-food-blog-folder-created.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/my-food-blog-folder-created.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Root folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -123,7 +123,7 @@ You can browse through the themes listed at https://themes.gohugo.io/.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/hugo-themes.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/hugo-themes.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Themes to choose from at themes.gohugo.io</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -138,7 +138,7 @@ Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/sugoi-theme.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/sugoi-theme.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Extract the folder into your Hugo project.</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -271,7 +271,7 @@ Now go into `http://localhost:1313/` in one of your browsers. Your website shoul
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/LavaBlogEmpty.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/LavaBlogEmpty.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Hugo site without content</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -294,7 +294,7 @@ Now you have some content!
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/LavaBlogContent.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/createYourOwnBlogUsingHugo/LavaBlogContent.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Hugo site with content</p></div>
 </div>
 <!-- ----------------------------- -->

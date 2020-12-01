@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@kevnbhagat">Kevin Bhagat</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -26,7 +26,7 @@ Go into your Firebase account and go to the console. Select the project that you
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/firebase-console.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/firebase-console.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Firebase console</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -35,7 +35,7 @@ In the sidebar, click on **Hosting**, then **Add custom domain**.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_custom_domain.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_custom_domain.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Hosting dashboard</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -44,7 +44,7 @@ Type in the custom domain you want to add. If you want to redirect it to an exis
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_custom_domain3.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_custom_domain3.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Example of redirecting an address to another one</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -53,7 +53,7 @@ When you select **continue**, the next screen will give you some information tha
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_txt1.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_txt1.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Domain verification details</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -66,7 +66,7 @@ In Namecheap, go to your **dashboard**:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/namecheap-dashboard.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/namecheap-dashboard.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Namecheap dashboard</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -75,7 +75,7 @@ Then go to the **domain list** of your Namecheap account, and click on **manage*
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/domain-list.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/domain-list.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Namecheap domain list</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -84,7 +84,7 @@ Click on **Advanced DNS**:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/advanced-DNS.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/advanced-DNS.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Advanced DNS settings</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -93,7 +93,7 @@ Here, you will see multiple record entries. At the bottom of this list, click on
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_txt2.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_txt2.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a new TXT record</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -106,7 +106,7 @@ Go back to Namecheap and paste it into the **Value** field here:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_txt3.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_txt3.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add details to the new TXT record</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -117,7 +117,7 @@ Select **Add new record** again, this time we will add a CNAME entry, with `www`
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_cName.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/add_cName.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a CNAME record</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -132,7 +132,7 @@ After that you should get this screen, showing a list of **A Records** that you 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/recordA1.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/recordA1.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>IP addresses</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -145,7 +145,7 @@ Add the **A Record**, with the host as `@` and the value as the first IP address
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/recordA2.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/recordA2.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a new A Record using the first IP address</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -154,7 +154,7 @@ Add the second **A Record**, also with the host as `@` and the value as the seco
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/recordA3.PNG" alt="image" class="image-full"/>
+	<img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/recordA3.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add a new A Record using the second IP address</p></div>
 </div>
 <!-- ----------------------------- -->

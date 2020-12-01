@@ -24,7 +24,7 @@ To run the code, press the green **Start** button which is at the very top.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/run_code.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/run_code.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Start running the program</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -39,7 +39,7 @@ Right-click on the Project (in the Solutions Explorer). Hover over **Add** and s
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/add_new_item.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/add_new_item.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Add new item</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -52,7 +52,7 @@ This will add the manifest file, and it will be called **app.manifest**. It shou
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/manifest_file.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/manifest_file.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>The opened manifest file</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -61,7 +61,7 @@ Scroll down to **line 52**. We don't care about anything in the manifest file ex
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/dpi_settings2.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/dpi_settings2.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>DPI settings code commented</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -74,7 +74,7 @@ Once you are done with that, go back to the calculator interface. Whenever you h
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/switching_tabs.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/switching_tabs.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Switching tabs</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -83,7 +83,7 @@ We now want to configure the positioning and size of the window when we run the 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/view_code.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/view_code.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Right click to view calculator source code</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -92,7 +92,7 @@ The source code for the program will automatically open:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/calculator_source_code.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/calculator_source_code.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Source code</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -157,7 +157,7 @@ In the properties window, click on the lightening bolt symbol. You will see a `C
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/lightening.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/lightening.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Events</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -278,7 +278,7 @@ The user can now enter a new calculation, building on the answer they just recie
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/outputs_calc.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/outputs_calc.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Display screens/textboxes to show the answer and the calculation</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -287,7 +287,7 @@ Your code should now look like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/equalsCode.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/equalsCode.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Equals Code</p></div>
 </div>
 <!-- ----------------------------- -->

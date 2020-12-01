@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@domenicoloia">Domenico Loia</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -42,7 +42,7 @@ Click on the **Code** link, and make a note of the link under **Clone with HTTPS
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/clone.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/clone.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Repository settings</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -68,7 +68,7 @@ You want to add the code to your Angular Wepsite into this folder, insuring that
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/root-application.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/root-application.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Running this command will create a new folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -104,7 +104,7 @@ You will be given a few different options to choose from of where you want to li
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/welcome-to-netlify.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/welcome-to-netlify.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Sign up to Netlify using GitHub</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -125,7 +125,7 @@ Select **New Site From Git:**
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Select New site from Git</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -143,7 +143,7 @@ In this case, it does not really matter which option you choose as the end resul
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit4.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit4.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Select repositories you will allow Netlify access to</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -153,7 +153,7 @@ Select the repository where you have stored your Angular code:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit5.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit5.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Select the repository you want to host</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -162,7 +162,7 @@ Now you will be presented with a page asking for some information about the depl
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit6.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/newSiteFromGit6.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Fill in basic details</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -181,7 +181,7 @@ However, we will change this later via the settings.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/netlifyConnected.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/netlifyConnected.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Netlify connected</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -202,7 +202,7 @@ Unzip the folder and copy the _redirects file into your `AngularApp > src` folde
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/redirectsFile.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/redirectsFile.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>_redirects folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -272,7 +272,7 @@ If you go to your remote repository you will see that your `dist/{project-name}`
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/distFolderInRepo.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/distFolderInRepo.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>dist/{project-name} stored remotely on Github</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -286,7 +286,7 @@ Finally, go back to your site's page on Netlify and click on the **Deploy settin
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/deploySettings.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/deploySettings.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>dist/{project-name} stored remotely on Github</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -295,7 +295,7 @@ On the left column, select **Build and Deploy**. Then on the right, select **Edi
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/BuildAndDeploySettings1.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/BuildAndDeploySettings1.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Deploy Settings</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -305,7 +305,7 @@ For example, mine was `dist/test-angular-app`:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/BuildAndDeploySettings2.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/BuildAndDeploySettings2.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Change the Publish Directory</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -318,7 +318,7 @@ If you want to change the domain name to something that is not automaticaly gene
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/deploySettings.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/deploySettings.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Deploy settings</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -327,7 +327,7 @@ Click on **Domain Management** and **options**:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/editDomains.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/editDomains.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Domain Management tab</p></div>
 </div>
 <!-- ----------------------------- -->

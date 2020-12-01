@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@caleb_white">Caleb White</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -28,7 +28,7 @@ If you already have a Github Account, you can skip to step 2. Otherwise, go to [
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/github-home.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/github-home.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Sign up on Github</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -39,7 +39,7 @@ Once verified, you will be taken to another page to complete the sign up process
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/Email-was-verified.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/Email-was-verified.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Verified email</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -48,7 +48,7 @@ Once the setup is complete, you will be taken to the main Github dashboard page,
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/main-github-dashboard.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/main-github-dashboard.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Github dashboard</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -62,7 +62,7 @@ Name your project and change any other configurations, as shown below.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-settings.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/create-repo-settings.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Repository settings</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -82,7 +82,7 @@ Click on the **Code** link, and make a note of the link under **Clone with HTTPS
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/clone.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/clone.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Cloning the repository</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -91,7 +91,7 @@ If you get this page instead, just note the link from the **HTTPS** option.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/clone2.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/clone2.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Cloning the repository</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -115,7 +115,7 @@ For example:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/git-clone-local.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/git-clone-local.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Run the git clone command</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -125,7 +125,7 @@ In this example, my repository is called `My-Angular-App-Netlify`, so the new fo
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/local-folder-created.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/local-folder-created.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>New folder is created</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -136,7 +136,7 @@ You can save your code locally in this folder. Add any number of files into this
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/Add-file-to-local-repo.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/Add-file-to-local-repo.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Added a simple HTML file</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -207,7 +207,7 @@ This will push all the local changes you have to the remote repository. Here is 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/cmd-commands.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/cmd-commands.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Run commands to store the files on the remote repository</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -216,7 +216,7 @@ Now navigate back to the remote repository on Github, you will now see your new 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/pushed-code.PNG" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/pushed-code.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Run commands to store the files on the remote repository</p></div>
 </div>
 <!-- ----------------------------- -->

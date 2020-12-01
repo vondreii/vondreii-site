@@ -11,7 +11,7 @@ ___
 </div>
 <br>
 <div class="image-container">
-    <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg" alt="image" class="image-full"/>
+    <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@shuttergames">Shuttergames</a> on Unsplash</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -24,7 +24,7 @@ Have a look at the cluttered inbox below:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/email-cluttered.PNG" alt="image" class="image"/>
+    <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/email-cluttered.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>A very cluttered inbox</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -34,7 +34,7 @@ Luckily, I've decluttered my inbox not too long ago, so here is what it looks li
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/email-folder2.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/email-folder2.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Much better</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -45,7 +45,7 @@ The gaming folder is nested under the 'Online Accounts' folder. This is what all
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/email-folder1.PNG" alt="image" class="image"/>
+	<img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/email-folder1.PNG" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Root folder structure</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -58,7 +58,7 @@ When you use the web, it can be a lot easier to just click on an icon to open a 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks.jpg" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks.jpg" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p>Use bookmarks to organise your web browsing</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -67,7 +67,7 @@ First, make sure the bookmarks bar is enabled. Depending on the web browser you 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks-4.PNG" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks-4.PNG" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p>Use bookmarks to organise your web browsing</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -76,7 +76,7 @@ All you have to do is visit the website you want to save, and click on the star 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks-2.jpg" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/bookmarks-2.jpg" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p>Add to bookmarks option in Google Chrome</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -96,7 +96,7 @@ You can have secure passwords for all your accounts such as <i>'UDHAKF73FKVE'</i
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/keepass-1.PNG" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/keepass-1.PNG" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p><a href="https://keepass.info/">KeePass</a> password manager login</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -114,7 +114,7 @@ Utilize extensions to help you keep track of how you spend your time on the comp
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/leechblock.PNG" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/leechblock.PNG" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p><a href="https://chrome.google.com/webstore/detail/leechblock-ng/blaaajhemilngeeffpbfkdjjoefldkok">LeechBlock</a> time manager</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -143,7 +143,7 @@ By using a social media post manager, you can also manage all your posts, activi
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/buffer.PNG" alt="image" class="image"/>
+  <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/buffer.PNG" loading="lazy" alt="image" class="image"/>
   <div class="image-description"><p><a href="https://chrome.google.com/webstore/detail/buffer/noojglkidnpfjbincgijbaiedldjfbhh">Buffer</a>, social media/time wasting apps blocker</p></div>
 </div>
 <!-- ----------------------------- -->
