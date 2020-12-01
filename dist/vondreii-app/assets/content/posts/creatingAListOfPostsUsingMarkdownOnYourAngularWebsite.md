@@ -10,10 +10,10 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<div class="image-container">
+<!-- <div class="image-container">
     <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@bramnaus">Bram Naus</a> on Unsplash</p></div>
-</div>
+</div> -->
 <!-- ----------------------------- -->
 
 Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files!
@@ -63,9 +63,9 @@ Using Angular we will display a preview on the main page which includes the titl
 
 And clicking on each link will navigate to it's own page.
 
-This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/post-003). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/content/post/createYourOwnBlogUsingHugo).
+This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/post-003). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/posts/createYourOwnBlogUsingHugo).
 
-Here we are assuming that you already have a simple Angular project set up - for example, the one from [Creating A Simple Angular Web Application](/content/post/creatingASimpleAngularWebApplication). You can download the source code of this working simple Angular App from [here](https://github.com/vondreii/angular-netlify).
+Here we are assuming that you already have a simple Angular project set up - for example, the one from [Creating A Simple Angular Web Application](/posts/creatingASimpleAngularWebApplication). You can download the source code of this working simple Angular App from [here](https://github.com/vondreii/angular-netlify).
 
 In this example we're going to work with **Posts**. This could be anything... blog posts, news posts, just any list that would be added to over time.
 
@@ -175,7 +175,7 @@ You can add some very simple styling in your markdown files so they will look co
 
 ### 3. Displaying markdown files on the Home page
 
-You first need a component where you will display these posts. If you are using the finished example from [Creating A Simple Angular Web Application](/content/post/creatingASimpleAngularWebApplication), you will already have a `Home` component. Otherwise, you can run:
+You first need a component where you will display these posts. If you are using the finished example from [Creating A Simple Angular Web Application](/posts/creatingASimpleAngularWebApplication), you will already have a `Home` component. Otherwise, you can run:
 
 ```js
 ng g c home
@@ -511,10 +511,10 @@ Also, don't forget that the links `/posts/post/ChocolateLavaCake` and `/posts/po
 Now open up your application again with `ng serve --open`, you should now see your two extra posts added to the list. Clicking on these posts should take you to their corresponding pages. 
 
 <!-- ----------- Image ----------- -->
-<!-- <div class="image-container">
+<div class="image-container">
     <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/allFivePosts.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>All five posts</p></div>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 You can view the completed source code for this [here](https://github.com/vondreii/angular-markdown).

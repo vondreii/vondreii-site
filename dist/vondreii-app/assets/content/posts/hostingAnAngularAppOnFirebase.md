@@ -241,7 +241,7 @@ Either way, you can now open any web browser and type in your domain name, and y
 
 If you're happy with the default domain name given, then you are all set with your new hosted website!
 
-Otherwise, if you want to add a custom domain, check out [Linking A Namecheap Domain To Firebase](/content/post/linkingANamecheapDomainToFirebase).
+Otherwise, if you want to add a custom domain, check out [Linking A Namecheap Domain To Firebase](/posts/linkingANamecheapDomainToFirebase).
 
 ### Resources
 * [Firebase - How does it work](https://firebase.google.com/docs/hosting/?authuser=1#how_does_it_work)

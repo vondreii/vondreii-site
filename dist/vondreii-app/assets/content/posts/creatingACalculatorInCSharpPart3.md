@@ -13,9 +13,9 @@ ___
 <!-- ----------------------------- -->
 
 <div class="center extraPadding">
-    <a href="/content/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/content/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/content/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/posts/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/posts/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/posts/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 ### 10. Handling errors and invalid input
@@ -135,11 +135,11 @@ private void button_equals_Click(object sender, EventArgs e)
 Run the program again and try adding random inputs like **4xxx÷÷÷÷9**. The program will no longer throw an error, and will instead display the error message at the bottom of the screen. If you then erase the invalid input and add a proper one, the error message will disappear.
 
 <!-- ----------- Video ----------- -->
-<!-- <div class="image-container">
+<div class="image-container">
     <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/calc-preview.png" class="image">
     <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart3/with-error-handling.mp4" loading="lazy" type="video/mp4">
     </video>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 Notice that if you add **4++5** or **4--5**, these are still considered valid inputs as the `Compute` function can still calculate them and display an answer, so we will not worry about those.

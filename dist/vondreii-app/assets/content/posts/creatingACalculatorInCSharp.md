@@ -10,16 +10,16 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<div class="image-container">
+<!-- <div class="image-container">
     <img src="../../../assets/content/post-images/calculator/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@amoltyagi2">Amol Tyagi</a> on Unsplash</p></div>
-</div>
+</div> -->
 <!-- ----------------------------- -->
 
 <div class="center extraPadding">
-    <a href="/content/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/content/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/content/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/posts/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/posts/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/posts/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections:
@@ -33,11 +33,11 @@ Before we start:
 * You don't have to have a lot (or any) programming knowledge to be able to complete this tutorial. It helps to have some basic knowledge of variables and functions, but I've tried to explain each step as much as possible.
 
 <!-- ----------- Video ----------- -->
-<!-- <div class="image-container">
+<div class="image-container">
     <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/final_preview.PNG" class="image-full">
     <source src="../../../assets/content/post-images/calculator/final.mp4" loading="lazy" type="video/mp4">
     </video>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 The final source code can also be viewed and downloaded from Github:
@@ -290,7 +290,7 @@ This is what the final design of the calculator should look like:
 Continue on to the next steps to add the functionality.
 
 <div class="read-more-container">
-    <a href="/content/post/creatingACalculatorInCSharpPart2" class="button">Next steps >></a>
+    <a href="/posts/creatingACalculatorInCSharpPart2" class="button">Next steps >></a>
 </div>
 
 <br><br>

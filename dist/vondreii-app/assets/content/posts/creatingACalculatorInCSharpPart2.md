@@ -13,9 +13,9 @@ ___
 <!-- ----------------------------- -->
 
 <div class="center extraPadding">
-    <a href="/content/post/creatingACalculatorInCSharp" class="button">Part 1</a>
-    <a href="/content/post/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
-    <a href="/content/post/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
+    <a href="/posts/creatingACalculatorInCSharp" class="button">Part 1</a>
+    <a href="/posts/creatingACalculatorInCSharpPart2" class="button">Part 2</a>
+    <a href="/posts/creatingACalculatorInCSharpPart3" class="button">Part 3</a>
 </div>
 
 ### 6. Running the program for the first time
@@ -167,11 +167,11 @@ Highight the text `button_num_Click` and copy and paste it other buttons in thei
 We only want to copy this to all numbers (0-9), all operators (+, -, x, ÷, (, ) ), and the decimal dot point.
 
 <!-- ----------- Video ----------- -->
-<!-- <div class="image-container">
+<div class="image-container">
     <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
     <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/link_button_to_event.mp4" loading="lazy" type="video/mp4">
     </video>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 Basically, if the user presses any of these buttons, it will execute whatever block of code is inside the `button_num_Click` event. 
@@ -346,7 +346,7 @@ You now have the basic functionalities of a calculator.
 Continue on to the next steps to handle invalid inputs and to finalise the calculator.
 
 <div class="read-more-container">
-    <a href="/content/post/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
+    <a href="/posts/creatingACalculatorInCSharpPart3" class="button">Next steps >></a>
 </div>
 
 <br><br>

@@ -18,10 +18,10 @@ ___
 
 For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up.
 
-If you don't have an Angular App, you can follow the steps in this tutorial: [Creating A Simple Angular Web Application](/content/post/creatingASimpleAngularWebApplication) to make one.
+If you don't have an Angular App, you can follow the steps in this tutorial: [Creating A Simple Angular Web Application](/posts/creatingASimpleAngularWebApplication) to make one.
 Otherwise, you can download the source code of a working simple Angular App from [here](https://github.com/vondreii/angular-netlify).
 
-If you don't have a Github repository, you can follow the steps in this tutorial: [Setting Up A Github Repository and Creating A Local Copy](/content/post/settingUpASimpleGithubRemoteAndLocalRepository).
+If you don't have a Github repository, you can follow the steps in this tutorial: [Setting Up A Github Repository and Creating A Local Copy](/posts/settingUpASimpleGithubRemoteAndLocalRepository).
 
 ### Github with Netlify
 
