@@ -33,11 +33,11 @@ Before we start:
 * You don't have to have a lot (or any) programming knowledge to be able to complete this tutorial. It helps to have some basic knowledge of variables and functions, but I've tried to explain each step as much as possible.
 
 <!-- ----------- Video ----------- -->
-<div class="image-container">
+<!-- <div class="image-container">
     <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/final_preview.PNG" class="image-full">
     <source src="../../../assets/content/post-images/calculator/final.mp4" loading="lazy" type="video/mp4">
     </video>
-</div>
+</div> -->
 <!-- ----------------------------- -->
 
 The final source code can also be viewed and downloaded from Github:

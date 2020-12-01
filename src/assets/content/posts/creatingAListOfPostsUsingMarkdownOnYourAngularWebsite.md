@@ -511,10 +511,10 @@ Also, don't forget that the links `/posts/post/ChocolateLavaCake` and `/posts/po
 Now open up your application again with `ng serve --open`, you should now see your two extra posts added to the list. Clicking on these posts should take you to their corresponding pages. 
 
 <!-- ----------- Image ----------- -->
-<div class="image-container">
+<!-- <div class="image-container">
     <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/allFivePosts.PNG" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>All five posts</p></div>
-</div>
+</div> -->
 <!-- ----------------------------- -->
 
 You can view the completed source code for this [here](https://github.com/vondreii/angular-markdown).

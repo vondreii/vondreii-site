@@ -167,11 +167,11 @@ Highight the text `button_num_Click` and copy and paste it other buttons in thei
 We only want to copy this to all numbers (0-9), all operators (+, -, x, ÷, (, ) ), and the decimal dot point.
 
 <!-- ----------- Video ----------- -->
-<div class="image-container">
+<!-- <div class="image-container">
     <video controls="true" preload="none" allowfullscreen="true" poster="../../../assets/content/post-images/calculator/dev-preview.PNG" class="image-full">
     <source src="../../../assets/content/post-images/calculator/creatingACalculatorInCSharpPart2/link_button_to_event.mp4" loading="lazy" type="video/mp4">
     </video>
-</div>
+</div> -->
 <!-- ----------------------------- -->
 
 Basically, if the user presses any of these buttons, it will execute whatever block of code is inside the `button_num_Click` event. 
