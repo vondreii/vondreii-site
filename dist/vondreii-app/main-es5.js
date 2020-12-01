@@ -1443,27 +1443,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "link": "/posts/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite",
           "tags": "Angular • Markdown",
           "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
-        }, {
-          "title": "Linking A Namecheap Domain To Firebase",
-          "imagePath": "../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg",
-          "date": "4 Oct 2020",
-          "link": "/posts/linkingANamecheapDomainToFirebase",
-          "tags": "Hosting • Firebase • Namecheap",
-          "description": "Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like .firebaseapp.com or .web.app). If you've already bought a Namecheap domain name, this is how you can link it to your Firebase hosted website..."
-        }, {
-          "title": "Hosting An Angular App On Firebase",
-          "imagePath": "../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg",
-          "date": "3 Oct 2020",
-          "link": "/posts/hostingAnAngularAppOnFirebase",
-          "tags": "Angular • Hosting • Firebase",
-          "description": "If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to creating a project on Firebase (for your app), connect your Angular app to the Firebase Project and host your website..."
-        }, {
-          "title": "Creating A Calculator in C#",
-          "imagePath": "../../assets/content/post-images/calculator/header.jpg",
-          "date": "26 Sept 2020",
-          "link": "/posts/creatingACalculatorInCSharp",
-          "tags": "C#",
-          "description": "We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections: Part 1 covers creating the interface for the calculator. We are going to be using Visual Studio's C# Windows Forms to add buttons to the calculator. Part 2 covers adding in the basic functionality to the calculator (adding, subtracting, all of that calculator stuff). Part 3 will go through handling any invalid inputs and runtime exceptions. We will also 'finalise' the calculator..."
         }];
       }
 
