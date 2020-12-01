@@ -248,7 +248,7 @@ If you have left the default content on the html pages, you will only see a simp
 
 You now have a very basic foundation of a simple Angular Application. 
 
-You can view the completed source code for this [here](https://github.com/vondreii/Angular-3-Pages).
+You can view the completed source code for this [here](https://github.com/vondreii/angular-netlify).
 Don't forget to run `npm install` if you want to compile and view the web application.
 
 ### Key Points

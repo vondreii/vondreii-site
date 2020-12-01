@@ -151,7 +151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\n<app-navbar></app-navbar>\n<!-- Display markdown file -->\n<div markdown [src]=\"post\"></div>\n<!-- Contact links -->\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Contact links -->\r\n<app-social></app-social>";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\n<app-navbar></app-navbar>\n<!-- Content -->\n<section class=\"bg-color\">\n  <div class=\"container search-container\">\n    <!-- Search input box (change this to what are you looking for?) -->\n    <div class=\"padding\">\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search (by title, language, topic, year..)\" title=\"SearchBar\">\n    </div>\n    <!-- List of all posts -->\n    <div id=\"myUL\">\n      <article *ngFor=\"let contentItem of contentList; index as i; trackBy: trackByFn\">\n        <!-- display each article card with it's own background image  -->\n        <section class=\"cardPreview\">\n          <div class=\"padding\">\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\n              <div class=\"card-info\">\n                <a class=\"date\">{{contentItem.date}}</a>\n                <a class=\"tag\">{{contentItem.tags}}</a>\n              </div>\n            <!-- Article information -->\n            <h1>{{contentItem.title}}</h1>\n            <p>\n              {{contentItem.description}}\n              <a routerLink=\"{{contentItem.link}}\">Read More >></a>\n            </p>\n          </div>\n        </section>\n        <!-- End of article -->\n      </article>\n    </div>\n  </div>\n</section>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search (by title, language, topic, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let contentItem of contentList; index as i; trackBy: trackByFn\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div>\r\n            <div class=\"card-info\">\r\n              <a class=\"date\">{{contentItem.date}}</a>\r\n              <a class=\"tag\">{{contentItem.tags}}</a>\r\n            </div>\r\n            <!-- Article information -->\r\n            <h1>{{contentItem.title}}</h1>\r\n            <p>\r\n              {{contentItem.description}}\r\n              <a routerLink=\"{{contentItem.link}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
     /***/
   },
 
@@ -894,45 +894,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./components/contact/contact.component */
     "./src/app/components/contact/contact.component.ts");
-    /* harmony import */
 
-
-    var _components_posts_posts_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! ./components/posts/posts.component */
-    "./src/app/components/posts/posts.component.ts");
-    /* harmony import */
-
-
-    var _components_shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
-    /*! ./components/shared/content/content-post/content-post.component */
-    "./src/app/components/shared/content/content-post/content-post.component.ts");
-    /* harmony import */
-
-
-    var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
-    /*! ./components/projects/projects.component */
-    "./src/app/components/projects/projects.component.ts");
-
-    var routes = [// Posts
-    {
+    var routes = [{
       path: '',
-      component: _components_posts_posts_component__WEBPACK_IMPORTED_MODULE_6__["PostsComponent"]
+      loadChildren: function loadChildren() {
+        return Promise.resolve().then(__webpack_require__.bind(null,
+        /*! ./components/posts/posts.module */
+        "./src/app/components/posts/posts.module.ts")).then(function (m) {
+          return m.PostsModule;
+        });
+      }
     }, {
-      path: 'content/post/:article',
-      component: _components_shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_7__["ContentPostComponent"]
-    }, // Projects
-    {
       path: 'projects',
-      component: _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_8__["ProjectsComponent"]
+      loadChildren: function loadChildren() {
+        return Promise.resolve().then(__webpack_require__.bind(null,
+        /*! ./components/projects/projects.module */
+        "./src/app/components/projects/projects.module.ts")).then(function (m) {
+          return m.ProjectsModule;
+        });
+      }
     }, {
-      path: 'content/project/:article',
-      component: _components_shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_7__["ContentPostComponent"]
-    }, // About
-    {
       path: 'about',
       component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
-    }, // Contact
-    {
+    }, {
       path: 'contact',
       component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"]
     }];
@@ -1121,15 +1105,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_posts_posts_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
-    /*! ./components/posts/posts.component */
-    "./src/app/components/posts/posts.component.ts");
+    var _components_projects_projects_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./components/projects/projects.module */
+    "./src/app/components/projects/projects.module.ts");
     /* harmony import */
 
 
-    var _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
-    /*! ./components/projects/projects.component */
-    "./src/app/components/projects/projects.component.ts"); // Angular Fire Modules
+    var _components_posts_posts_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! ./components/posts/posts.module */
+    "./src/app/components/posts/posts.module.ts"); // Angular Fire Modules
     // Environment Files
     // App Files
 
@@ -1139,8 +1123,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"], _components_posts_posts_component__WEBPACK_IMPORTED_MODULE_13__["PostsComponent"], _components_projects_projects_component__WEBPACK_IMPORTED_MODULE_14__["ProjectsComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_4__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_6__["AngularFireStorageModule"], _components_shared_shared_module__WEBPACK_IMPORTED_MODULE_12__["SharedModule"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_4__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_6__["AngularFireStorageModule"], _components_shared_shared_module__WEBPACK_IMPORTED_MODULE_12__["SharedModule"], _components_projects_projects_module__WEBPACK_IMPORTED_MODULE_13__["ProjectsModule"], _components_posts_posts_module__WEBPACK_IMPORTED_MODULE_14__["PostsModule"]],
       exports: [],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
@@ -1321,6 +1305,75 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/components/posts/posts-routing.module.ts":
+  /*!**********************************************************!*\
+    !*** ./src/app/components/posts/posts-routing.module.ts ***!
+    \**********************************************************/
+
+  /*! exports provided: PostsRoutingModule */
+
+  /***/
+  function srcAppComponentsPostsPostsRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PostsRoutingModule", function () {
+      return PostsRoutingModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ../shared/content/content-post/content-post.component */
+    "./src/app/components/shared/content/content-post/content-post.component.ts");
+    /* harmony import */
+
+
+    var _posts_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./posts.component */
+    "./src/app/components/posts/posts.component.ts");
+
+    var routes = [{
+      path: '',
+      component: _posts_component__WEBPACK_IMPORTED_MODULE_4__["PostsComponent"]
+    }, {
+      path: 'posts/:article',
+      component: _shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_3__["ContentPostComponent"]
+    }];
+
+    var PostsRoutingModule = function PostsRoutingModule() {
+      _classCallCheck(this, PostsRoutingModule);
+    };
+
+    PostsRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })], PostsRoutingModule);
+    /***/
+  },
+
+  /***/
   "./src/app/components/posts/posts.component.css":
   /*!******************************************************!*\
     !*** ./src/app/components/posts/posts.component.css ***!
@@ -1380,77 +1433,77 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "title": "Creating Your Own Blog Using Hugo",
           "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg",
           "date": "27 Nov 2020",
-          "link": "/content/post/createYourOwnBlogUsingHugo",
+          "link": "/posts/createYourOwnBlogUsingHugo",
           "tags": "Hugo",
           "description": "Hugo is a framework where you can create your own website, completely from scratch without much effort or without knowing too much (or any) of the internal programming. There are also many web hosting platforms that can easily host a Hugo project for free - meaning, the only money you will spend will be for the custom domain name..."
         }, {
           "title": "Creating a list of posts using Markdown on your Angular Website",
           "imagePath": "../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg",
           "date": "11 Oct 2020",
-          "link": "/content/post/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite",
+          "link": "/posts/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite",
           "tags": "Angular • Markdown",
           "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
         }, {
           "title": "Linking A Namecheap Domain To Firebase",
           "imagePath": "../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg",
           "date": "4 Oct 2020",
-          "link": "/content/post/linkingANamecheapDomainToFirebase",
+          "link": "/posts/linkingANamecheapDomainToFirebase",
           "tags": "Hosting • Firebase • Namecheap",
           "description": "Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like .firebaseapp.com or .web.app). If you've already bought a Namecheap domain name, this is how you can link it to your Firebase hosted website..."
         }, {
           "title": "Hosting An Angular App On Firebase",
           "imagePath": "../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg",
           "date": "3 Oct 2020",
-          "link": "/content/post/hostingAnAngularAppOnFirebase",
+          "link": "/posts/hostingAnAngularAppOnFirebase",
           "tags": "Angular • Hosting • Firebase",
           "description": "If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to creating a project on Firebase (for your app), connect your Angular app to the Firebase Project and host your website..."
         }, {
           "title": "Creating A Calculator in C#",
           "imagePath": "../../assets/content/post-images/calculator/header.jpg",
           "date": "26 Sept 2020",
-          "link": "/content/post/creatingACalculatorInCSharp",
+          "link": "/posts/creatingACalculatorInCSharp",
           "tags": "C#",
           "description": "We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections: Part 1 covers creating the interface for the calculator. We are going to be using Visual Studio's C# Windows Forms to add buttons to the calculator. Part 2 covers adding in the basic functionality to the calculator (adding, subtracting, all of that calculator stuff). Part 3 will go through handling any invalid inputs and runtime exceptions. We will also 'finalise' the calculator..."
         }, {
           "title": "Hosting an Angular Application using Netlify",
           "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg",
           "date": "30 Aug 2020",
-          "link": "/content/post/hostingAngularApplicationUsingNetlify",
+          "link": "/posts/hostingAngularApplicationUsingNetlify",
           "tags": "Angular • Netlify • Hosting",
           "description": "Netlify is a free hosting platform where you can host your website live using a customisable domain name provided with a .netlify.app extension at the end (you can also link your own custom domain if you'd like). One way Netlify does this is by connecting to an existing repository and hosting your website code stored there. In this tutorial we will go through how to host an Angular web application using Netlify in 4 steps..."
         }, {
           "title": "Setting Up A Github Repository and Creating A Local Copy",
           "imagePath": "../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header.jpg",
           "date": "22 Aug 2020",
-          "link": "/content/post/settingUpASimpleGithubRemoteAndLocalRepository",
+          "link": "/posts/settingUpASimpleGithubRemoteAndLocalRepository",
           "tags": "Version Control • Github",
           "description": "GitHub is a free version control platform where you can store your code online in repositories. When we create a Github repository, we are creating a place online where we can store our code files for a project remotely. This is a simple tutorial that will help you quickly set up an online remote repository on Github, which will be linked to a local folder on your computer..."
         }, {
           "title": "Adding Photos To Instagram Using A Desktop Computer",
           "imagePath": "../../assets/content/post-images/uploadImageToInstagramViaDesktop/header.jpg",
           "date": "11 Aug 2020",
-          "link": "/content/post/uploadImageToInstagramViaDesktop",
+          "link": "/posts/uploadImageToInstagramViaDesktop",
           "tags": "Design • Social Media",
           "description": "Sometimes you need to upload photos to Instagram on a computer, especially if you are using a computer to edit photos or create vector art. It can be really annoying to keep transferring them onto your phone and uploading it from there (and if you can't airdrop it using an IPhone, the quality of these photos can be reduced)..."
         }, {
           "title": "Creating A Simple Angular Web Application",
           "imagePath": "../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg",
           "date": "04 Aug 2020",
-          "link": "/content/post/creatingASimpleAngularWebApplication",
+          "link": "/posts/creatingASimpleAngularWebApplication",
           "tags": "Angular",
           "description": "This tutorial will go through how you can create a simple angular web app in 3 stages: Setting up the environment, adding pages to the app, and adding the navbar and configuring routes..."
         }, {
           "title": "How To Organise Your Web Browsing",
           "imagePath": "../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg",
           "date": "25 May 2020",
-          "link": "/content/post/howToOrganiseYourWebBrowsing",
+          "link": "/posts/howToOrganiseYourWebBrowsing",
           "tags": "Organisation",
           "description": "These days, many people spend most of their time surfing the web or conducting important business online. It makes sense to have your accounts, passwords, general online activities and frequently used websites organised in order to make things easier to access. Other online tools can also be utilised to increase productivity by managing social media posts and tracking the time you spend on time wasting websites..."
         }, {
           "title": "Organising Your Computer To Increase Productivity",
           "imagePath": "../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg",
           "date": "16 May 2020",
-          "link": "/content/post/organisingYourComputerToIncreaseProductivity",
+          "link": "/posts/organisingYourComputerToIncreaseProductivity",
           "tags": "Organisation",
           "description": "Having a well organised computer can improve your overall workflow and efficiency. Having too many folders and files in different places can make it difficult to find what you are looking for. Here are a few suggestions on how you can better organise your computer, including your files, applications and overall layout..."
         }];
@@ -1473,6 +1526,143 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./posts.component.css */
       "./src/app/components/posts/posts.component.css"))["default"]]
     })], PostsComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/posts/posts.module.ts":
+  /*!**************************************************!*\
+    !*** ./src/app/components/posts/posts.module.ts ***!
+    \**************************************************/
+
+  /*! exports provided: PostsModule */
+
+  /***/
+  function srcAppComponentsPostsPostsModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PostsModule", function () {
+      return PostsModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _posts_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./posts-routing.module */
+    "./src/app/components/posts/posts-routing.module.ts");
+    /* harmony import */
+
+
+    var _posts_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./posts.component */
+    "./src/app/components/posts/posts.component.ts");
+    /* harmony import */
+
+
+    var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../shared/shared.module */
+    "./src/app/components/shared/shared.module.ts");
+
+    var PostsModule = function PostsModule() {
+      _classCallCheck(this, PostsModule);
+    };
+
+    PostsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      declarations: [_posts_component__WEBPACK_IMPORTED_MODULE_4__["PostsComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _posts_routing_module__WEBPACK_IMPORTED_MODULE_3__["PostsRoutingModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"]]
+    })], PostsModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/projects/projects-routing.module.ts":
+  /*!****************************************************************!*\
+    !*** ./src/app/components/projects/projects-routing.module.ts ***!
+    \****************************************************************/
+
+  /*! exports provided: ProjectsRoutingModule */
+
+  /***/
+  function srcAppComponentsProjectsProjectsRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ProjectsRoutingModule", function () {
+      return ProjectsRoutingModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ../shared/content/content-post/content-post.component */
+    "./src/app/components/shared/content/content-post/content-post.component.ts");
+    /* harmony import */
+
+
+    var _projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./projects.component */
+    "./src/app/components/projects/projects.component.ts");
+
+    var routes = [// Projects
+    {
+      path: '',
+      component: _projects_component__WEBPACK_IMPORTED_MODULE_4__["ProjectsComponent"]
+    }, {
+      path: ':article',
+      component: _shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_3__["ContentPostComponent"]
+    }];
+
+    var ProjectsRoutingModule = function ProjectsRoutingModule() {
+      _classCallCheck(this, ProjectsRoutingModule);
+    };
+
+    ProjectsRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild(routes)],
+      exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+    })], ProjectsRoutingModule);
     /***/
   },
 
@@ -1536,21 +1726,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "title": "3D Street Racing Game",
           "imagePath": "../../assets/content/projects-images/racingGame/header.PNG",
           "date": "2019",
-          "link": "/content/project/streetRacingGame",
+          "link": "streetRacingGame",
           "tags": "3D • Game • Research • Racing",
           "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road..."
         }, {
           "title": "CyanX",
           "imagePath": "../../assets/content/projects-images/cyanX/header.png",
           "date": "2018",
-          "link": "/content/project/cyanX",
+          "link": "cyanX",
           "tags": "2D • Game • Side scroller • Puzzle",
           "description": "A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."
         }, {
           "title": "Ice Capades",
           "imagePath": "../../assets/content/projects-images/iceCapades/header.jpg",
           "date": "2015",
-          "link": "/content/project/iceCapades",
+          "link": "iceCapades",
           "tags": "2D • Game • Top-Down • Puzzle",
           "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles..."
         }];
@@ -1573,6 +1763,73 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       /*! ./projects.component.css */
       "./src/app/components/projects/projects.component.css"))["default"]]
     })], ProjectsComponent);
+    /***/
+  },
+
+  /***/
+  "./src/app/components/projects/projects.module.ts":
+  /*!********************************************************!*\
+    !*** ./src/app/components/projects/projects.module.ts ***!
+    \********************************************************/
+
+  /*! exports provided: ProjectsModule */
+
+  /***/
+  function srcAppComponentsProjectsProjectsModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ProjectsModule", function () {
+      return ProjectsModule;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/common */
+    "./node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _projects_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./projects-routing.module */
+    "./src/app/components/projects/projects-routing.module.ts");
+    /* harmony import */
+
+
+    var _projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./projects.component */
+    "./src/app/components/projects/projects.component.ts");
+    /* harmony import */
+
+
+    var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../shared/shared.module */
+    "./src/app/components/shared/shared.module.ts");
+
+    var ProjectsModule = function ProjectsModule() {
+      _classCallCheck(this, ProjectsModule);
+    };
+
+    ProjectsModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
+      declarations: [_projects_component__WEBPACK_IMPORTED_MODULE_4__["ProjectsComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _projects_routing_module__WEBPACK_IMPORTED_MODULE_3__["ProjectsRoutingModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"]]
+    })], ProjectsModule);
     /***/
   },
 
@@ -2239,7 +2496,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\Sharl\Documents\My Documents\Side Projects\Vondreii\dev\vondreii-site\src\main.ts */
+    /*! C:\Users\Sharl\Documents\My Documents\Side Projects\Git\vondreii-site\src\main.ts */
     "./src/main.ts");
     /***/
   }

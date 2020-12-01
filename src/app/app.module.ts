@@ -18,15 +18,14 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { SharedModule } from './components/shared/shared.module';
 import { PostsComponent } from './components/posts/posts.component';
-import { ProjectsComponent } from './components/projects/projects.component';
+import { ProjectsModule } from './components/projects/projects.module';
+import { PostsModule } from './components/posts/posts.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
-    ContactComponent,
-    PostsComponent,
-    ProjectsComponent
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +34,9 @@ import { ProjectsComponent } from './components/projects/projects.component';
     AngularFireAnalyticsModule,
     AngularFirestoreModule,
     AngularFireStorageModule,
-    SharedModule
+    SharedModule,
+    ProjectsModule,
+    PostsModule
   ],
   exports: [],
   providers: [],
