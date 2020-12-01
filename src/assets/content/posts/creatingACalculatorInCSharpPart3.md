@@ -332,7 +332,7 @@ Don't forget you can also view the final source code for the calculator, exactly
 
 <div class="download-container">
     <div class="download-link">
-        <a href="https://github.com/vondreii/Calculator-Example" class="button">↓ Final Source Code at completion of Part 3 ↓</a>
+        <a href="https://github.com/vondreii/calculator" class="button">↓ Final Source Code at completion of Part 3 ↓</a>
     </div>
 </div>
 
