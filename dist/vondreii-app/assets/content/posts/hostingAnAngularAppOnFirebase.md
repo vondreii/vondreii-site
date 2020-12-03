@@ -10,10 +10,10 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
+<div class="image-container">
     <img src="../../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@courtniebt13">Courtnie Tosana</a> on Unsplash</p></div>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to:

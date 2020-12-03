@@ -10,10 +10,10 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
+<div class="image-container">
     <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@domenicoloia">Domenico Loia</a> on Unsplash</p></div>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up.

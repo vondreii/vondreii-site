@@ -10,10 +10,10 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
+<div class="image-container">
     <img src="../../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@shuttergames">Shuttergames</a> on Unsplash</p></div>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 These days, many people spend most of their time surfing the web or conducting important business online. It makes sense to have your accounts, passwords, general online activities and frequently used websites organised in order to make things easier to access. Other online tools can also be utilised to increase productivity by managing social media posts and tracking the time you spend on time wasting websites.

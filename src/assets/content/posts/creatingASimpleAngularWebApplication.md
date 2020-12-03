@@ -10,10 +10,10 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
+<div class="image-container">
     <img src="../../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg" loading="lazy" alt="image" class="image-full"/>
   	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@ffstop">Fotis Fotopoulos</a> on Unsplash</p></div>
-</div> -->
+</div>
 <!-- ----------------------------- -->
 
 This tutorial will go through how you can create a simple angular web app in 3 stages:
