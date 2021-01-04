@@ -6,21 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  hideComponent = true;
 
-  constructor() { 
-  }
+  constructor() { }
 
   ngOnInit() {
-  }
-
-  waitForLoad() {
-    this.hideComponent = true;
-
-    setTimeout(() => {
-      this.hideComponent = false;
-    }, 2000);
-
-    return "";
   }
 }

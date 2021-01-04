@@ -1,7 +1,17 @@
-/* Styling for the social component */
-.contact-card {
-    border:none;border-top:1px solid #dddddd;background-color:whitesmoke;padding:0px
+/* Styling for the footer component */ 
+.social {
+    background-color:#f1f1f1;border-top:1px solid #dddddd;
+    position:relative;bottom:0;height:180px;padding:25px;margin-top:0px;text-align:center;color:#272727
 }
-.space-between-links {
-    padding:0px 10px;
+.social-links {
+    margin-top:20px
+}
+.social-links a {
+    padding:10px 20px;color:rgb(100, 91, 91) 
+}
+.social-links a:hover {
+    background-color:lightgrey;border-radius:25px;color:#272727 
+}
+.copy {
+    color:rgba(187, 186, 186, 0.952)
 }

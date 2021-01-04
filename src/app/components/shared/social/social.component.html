@@ -1,23 +1,21 @@
-<!-- Social links for instagram, linkedIn and Github -->
-{{ waitForLoad() }}
-<div class="contact-card" [hidden]="hideComponent">
-    <br><br>
-    <div class="center">
-        <!-- Instagram -->
-        <a href="https://www.instagram.com/vondreii">
-            <img src="../../assets/social/instagram.png" alt="image"/>
-        </a>
-        <span class="space-between-links"></span>
-        <!-- LinkedIn -->
-        <a href="https://www.linkedin.com/in/sharlene-von-drehnen">
-            <img src="../../assets/social/linkedin.png" alt="image"/>
-        </a>
-        <span class="space-between-links"></span>
-        <!-- Github -->
-        <a href="https://github.com/vondreii">
-            <img src="../../assets/social/github.png" alt="image"/>
-        </a>
-        <span class="space-between-links"></span>
+<div class="social">
+    <div class="social-links">
+      <!-- Github -->
+      <a data-hint="Github" title="Github" href="https://github.com/vondreii" rel="me">
+        <i class="fa fa-github-alt"></i>
+      </a>
+      <!-- LinkedIn -->
+      <a data-hint="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/in/sharlene-von-drehnen" rel="me">
+        <i class="fa fa-linkedin"></i>
+      </a>
+      <!-- About/Contact -->
+      <a data-hint="Email" title="Email" routerLink="contact">
+        <i class="fa fa-envelope"></i>
+      </a>
     </div>
-    <br><br>
+    <br>
+    <!-- Copyright -->
+    <div class="copy">
+      <p>&copy; 2020 Copyright <strong>SVD</strong> | LAST MODIFIED <strong>04/01/2021</strong></p>
+    </div>
 </div>
