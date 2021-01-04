@@ -155,6 +155,9 @@ button:focus {
 .image {
   width:50%;height:50%
 }
+.image-75 {
+  width:75%;height:75%
+}
 .image-full {
   width:100%;height:100%
 }

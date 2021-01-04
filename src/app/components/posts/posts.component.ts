@@ -10,6 +10,14 @@ export class PostsComponent implements OnInit {
 
   posts: Content[] = [
     { 
+      "title": "Hosting A Hugo App Using Netlify and Github", 
+      "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg", 
+      "date": "4 Jan 2021", 
+      "link": "/posts/hostingAHugoAppUsingNetlifyAndGithub", 
+      "tags": "Hugo • Netlify", 
+      "description": "Netlify is a free hosting platform where you can host your website live for free. One way it can do this is by linking to an existing Github repository and hosting your code stored there. If you have a Hugo App stored on a repository, you can use Netlify to host it. All you have to do is buy your own custom domain name and link it to Netlify..."
+    },
+    { 
       "title": "Creating Your Own Blog Using Hugo", 
       "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg", 
       "date": "27 Nov 2020", 
