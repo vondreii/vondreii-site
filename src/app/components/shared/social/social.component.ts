@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social.component.css']
 })
 export class SocialComponent implements OnInit {
+  hideComponent = true;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  waitForLoad() {
+    this.hideComponent = true;
+
+    setTimeout(() => {
+      this.hideComponent = false;
+    }, 2000);
+
+    return "";
+  }
 }
