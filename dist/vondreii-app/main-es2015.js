@@ -680,6 +680,17 @@ module.exports = JSON.parse("[{\"title\":\"Hosting an Angular Application using 
 
 /***/ }),
 
+/***/ "./src/app/data/info/projects1.json":
+/*!******************************************!*\
+  !*** ./src/app/data/info/projects1.json ***!
+  \******************************************/
+/*! exports provided: 0, 1, 2, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("[{\"title\":\"3D Street Racing Game\",\"imagePath\":\"../../assets/content/projects-images/racingGame/header.PNG\",\"date\":\"2019\",\"link\":\"streetRacingGame\",\"tags\":\"3D • Game • Research • Racing\",\"description\":\"This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road...\"},{\"title\":\"CyanX\",\"imagePath\":\"../../assets/content/projects-images/cyanX/header.png\",\"date\":\"2018\",\"link\":\"cyanX\",\"tags\":\"2D • Game • Side scroller • Puzzle\",\"description\":\"A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals...\"},{\"title\":\"Ice Capades\",\"imagePath\":\"../../assets/content/projects-images/iceCapades/header.jpg\",\"date\":\"2015\",\"link\":\"iceCapades\",\"tags\":\"2D • Game • Top-Down • Puzzle\",\"description\":\"Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles...\"}]");
+
+/***/ }),
+
 /***/ "./src/app/posts/posts-routing.module.ts":
 /*!***********************************************!*\
   !*** ./src/app/posts/posts-routing.module.ts ***!
@@ -898,36 +909,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _data_info_projects1_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../data/info/projects1.json */ "./src/app/data/info/projects1.json");
+var _data_info_projects1_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../data/info/projects1.json */ "./src/app/data/info/projects1.json", 1);
 
+
+// Import projects per page
 
 let ProjectsComponent = class ProjectsComponent {
     constructor() {
-        this.projects = [
-            {
-                "title": "3D Street Racing Game",
-                "imagePath": "../../assets/content/projects-images/racingGame/header.PNG",
-                "date": "2019",
-                "link": "streetRacingGame",
-                "tags": "3D • Game • Research • Racing",
-                "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road..."
-            },
-            {
-                "title": "CyanX",
-                "imagePath": "../../assets/content/projects-images/cyanX/header.png",
-                "date": "2018",
-                "link": "cyanX",
-                "tags": "2D • Game • Side scroller • Puzzle",
-                "description": "A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals..."
-            },
-            {
-                "title": "Ice Capades",
-                "imagePath": "../../assets/content/projects-images/iceCapades/header.jpg",
-                "date": "2015",
-                "link": "iceCapades",
-                "tags": "2D • Game • Top-Down • Puzzle",
-                "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles..."
-            }
-        ];
+        // Imports the data stored in the json file
+        this.projects = _data_info_projects1_json__WEBPACK_IMPORTED_MODULE_2__;
     }
     ngOnInit() {
     }
