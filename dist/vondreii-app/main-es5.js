@@ -2423,7 +2423,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\Sharl\Documents\_MY DOCUMENTS\Side Projects\Vondreii\vondreii-site\src\main.ts */
+    /*! C:\Users\Sharl\Documents\_MY DOCUMENTS\Side Projects\Vondreii\vondreii-site2\src\main.ts */
     "./src/main.ts");
     /***/
   }
