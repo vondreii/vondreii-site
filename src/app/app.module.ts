@@ -14,12 +14,12 @@ import { environment } from "../environments/environment";
 // App Files
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AboutComponent } from './components/about/about.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { SharedModule } from './components/shared/shared.module';
-import { PostsComponent } from './components/posts/posts.component';
-import { ProjectsModule } from './components/projects/projects.module';
-import { PostsModule } from './components/posts/posts.module';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { SharedModule } from './shared/shared.module';
+import { PostsComponent } from './posts/posts.component';
+import { ProjectsModule } from './projects/projects.module';
+import { PostsModule } from './posts/posts.module';
 
 @NgModule({
   declarations: [

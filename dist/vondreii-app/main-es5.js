@@ -1,8 +1,8 @@
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
   /***/
@@ -36,6 +36,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html":
+  /*!**********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html ***!
+    \**********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppAboutAboutComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color pt-3\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Designer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Designer</h2>\r\n          <p>I love experimenting with different designs, and learning about making websites.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/designer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Software Developer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Developer</h2>\r\n          <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/developer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Photographer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Photographer</h2>\r\n          <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/photography.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Traveller -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2>\r\n          <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/traveller.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div> \r\n  </div>  \r\n  <br><br>\r\n</div>";
+    /***/
+  },
+
+  /***/
   "./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html":
   /*!**************************************************************************!*\
     !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/app.component.html ***!
@@ -56,35 +76,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/about/about.component.html":
-  /*!*********************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/about/about.component.html ***!
-    \*********************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/contact/contact.component.html":
+  /*!**************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/contact/contact.component.html ***!
+    \**************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsAboutAboutComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color pt-3\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Designer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Designer</h2>\r\n          <p>I love experimenting with different designs, and learning about making websites.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/designer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Software Developer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Developer</h2>\r\n          <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/developer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Photographer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Photographer</h2>\r\n          <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/photography.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Traveller -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2>\r\n          <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/traveller.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div> \r\n  </div>  \r\n  <br><br>\r\n</div>";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html":
-  /*!*************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html ***!
-    \*************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsContactContactComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppContactContactComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -96,15 +96,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/posts/posts.component.html":
-  /*!*********************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/posts/posts.component.html ***!
-    \*********************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/posts/posts.component.html":
+  /*!**********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/posts/posts.component.html ***!
+    \**********************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsPostsPostsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppPostsPostsComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -116,15 +116,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html":
-  /*!***************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html ***!
-    \***************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/projects/projects.component.html":
+  /*!****************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/projects/projects.component.html ***!
+    \****************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsProjectsProjectsComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppProjectsProjectsComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -136,15 +136,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/content/content-post/content-post.component.html":
-  /*!**************************************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/content/content-post/content-post.component.html ***!
-    \**************************************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/content/content-post/content-post.component.html":
+  /*!***************************************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shared/content/content-post/content-post.component.html ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSharedContentContentPostContentPostComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppSharedContentContentPostContentPostComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -156,15 +156,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/content/content.component.html":
-  /*!********************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/content/content.component.html ***!
-    \********************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/content/content.component.html":
+  /*!*********************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shared/content/content.component.html ***!
+    \*********************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSharedContentContentComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppSharedContentContentComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -176,15 +176,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/footer/footer.component.html":
-  /*!******************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/footer/footer.component.html ***!
-    \******************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/footer/footer.component.html":
+  /*!*******************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shared/footer/footer.component.html ***!
+    \*******************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSharedFooterFooterComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppSharedFooterFooterComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -196,15 +196,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/navbar/navbar.component.html":
-  /*!******************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/navbar/navbar.component.html ***!
-    \******************************************************************************************************/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/navbar/navbar.component.html":
+  /*!*******************************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/shared/navbar/navbar.component.html ***!
+    \*******************************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSharedNavbarNavbarComponentHtml(module, __webpack_exports__, __webpack_require__) {
+  function node_modulesRawLoaderDistCjsJsSrcAppSharedNavbarNavbarComponentHtml(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -820,6 +820,83 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/about/about.component.css":
+  /*!*******************************************!*\
+    !*** ./src/app/about/about.component.css ***!
+    \*******************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppAboutAboutComponentCss(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "/* Styling for the about component */\r\n.about-content { \r\n\tmargin-top:2rem;margin-bottom:0;margin-left:auto;margin-right:auto;position:relative;padding:30px 25px 40px 25px;\r\n\tbox-shadow:0 2px 5px 0 rgba(0,0,0,0.15);border-radius:5px;\r\n\tfont-size:16px;text-align:center; \r\n\tbackground-color:rgb(230, 230, 230);color:rgb(87, 87, 87);\r\n}\r\n.about-content h2 {\r\n\tmargin-bottom:1rem\r\n}\r\n.about-content p {\r\n\tpadding-bottom:1rem;text-align:left\r\n}\r\n.about-image {\r\n\tpadding-bottom:1rem\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxvQ0FBb0M7QUFDcEM7Q0FDQyxlQUFlLENBQUMsZUFBZSxDQUFDLGdCQUFnQixDQUFDLGlCQUFpQixDQUFDLGlCQUFpQixDQUFDLDJCQUEyQjtDQUNoSCx1Q0FBdUMsQ0FBQyxpQkFBaUI7Q0FDekQsY0FBYyxDQUFDLGlCQUFpQjtDQUNoQyxtQ0FBbUMsQ0FBQyxxQkFBcUI7QUFDMUQ7QUFDQTtDQUNDO0FBQ0Q7QUFDQTtDQUNDLG1CQUFtQixDQUFDO0FBQ3JCO0FBQ0E7Q0FDQztBQUNEIiwiZmlsZSI6InNyYy9hcHAvYWJvdXQvYWJvdXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBhYm91dCBjb21wb25lbnQgKi9cclxuLmFib3V0LWNvbnRlbnQgeyBcclxuXHRtYXJnaW4tdG9wOjJyZW07bWFyZ2luLWJvdHRvbTowO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87cG9zaXRpb246cmVsYXRpdmU7cGFkZGluZzozMHB4IDI1cHggNDBweCAyNXB4O1xyXG5cdGJveC1zaGFkb3c6MCAycHggNXB4IDAgcmdiYSgwLDAsMCwwLjE1KTtib3JkZXItcmFkaXVzOjVweDtcclxuXHRmb250LXNpemU6MTZweDt0ZXh0LWFsaWduOmNlbnRlcjsgXHJcblx0YmFja2dyb3VuZC1jb2xvcjpyZ2IoMjMwLCAyMzAsIDIzMCk7Y29sb3I6cmdiKDg3LCA4NywgODcpO1xyXG59XHJcbi5hYm91dC1jb250ZW50IGgyIHtcclxuXHRtYXJnaW4tYm90dG9tOjFyZW1cclxufVxyXG4uYWJvdXQtY29udGVudCBwIHtcclxuXHRwYWRkaW5nLWJvdHRvbToxcmVtO3RleHQtYWxpZ246bGVmdFxyXG59XHJcbi5hYm91dC1pbWFnZSB7XHJcblx0cGFkZGluZy1ib3R0b206MXJlbVxyXG59XHJcbiJdfQ== */";
+    /***/
+  },
+
+  /***/
+  "./src/app/about/about.component.ts":
+  /*!******************************************!*\
+    !*** ./src/app/about/about.component.ts ***!
+    \******************************************/
+
+  /*! exports provided: AboutComponent */
+
+  /***/
+  function srcAppAboutAboutComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AboutComponent", function () {
+      return AboutComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var AboutComponent = /*#__PURE__*/function () {
+      function AboutComponent() {
+        _classCallCheck(this, AboutComponent);
+      }
+
+      _createClass(AboutComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return AboutComponent;
+    }();
+
+    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-about',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./about.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/about/about.component.html"))["default"],
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./about.component.css */
+      "./src/app/about/about.component.css"))["default"]]
+    })], AboutComponent);
+    /***/
+  },
+
+  /***/
   "./src/app/app-routing.module.ts":
   /*!***************************************!*\
     !*** ./src/app/app-routing.module.ts ***!
@@ -865,22 +942,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-    /*! ./components/about/about.component */
-    "./src/app/components/about/about.component.ts");
+    var _about_about_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ./about/about.component */
+    "./src/app/about/about.component.ts");
     /* harmony import */
 
 
-    var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! ./components/contact/contact.component */
-    "./src/app/components/contact/contact.component.ts");
+    var _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./contact/contact.component */
+    "./src/app/contact/contact.component.ts");
 
     var routes = [{
       path: '',
       loadChildren: function loadChildren() {
         return Promise.resolve().then(__webpack_require__.bind(null,
-        /*! ./components/posts/posts.module */
-        "./src/app/components/posts/posts.module.ts")).then(function (m) {
+        /*! ./posts/posts.module */
+        "./src/app/posts/posts.module.ts")).then(function (m) {
           return m.PostsModule;
         });
       }
@@ -888,17 +965,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       path: 'projects',
       loadChildren: function loadChildren() {
         return Promise.resolve().then(__webpack_require__.bind(null,
-        /*! ./components/projects/projects.module */
-        "./src/app/components/projects/projects.module.ts")).then(function (m) {
+        /*! ./projects/projects.module */
+        "./src/app/projects/projects.module.ts")).then(function (m) {
           return m.ProjectsModule;
         });
       }
     }, {
       path: 'about',
-      component: _components_about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
+      component: _about_about_component__WEBPACK_IMPORTED_MODULE_4__["AboutComponent"]
     }, {
       path: 'contact',
-      component: _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"]
+      component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_5__["ContactComponent"]
     }];
 
     var AppRoutingModule = function AppRoutingModule() {
@@ -1067,33 +1144,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _components_about_about_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
-    /*! ./components/about/about.component */
-    "./src/app/components/about/about.component.ts");
+    var _about_about_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./about/about.component */
+    "./src/app/about/about.component.ts");
     /* harmony import */
 
 
-    var _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
-    /*! ./components/contact/contact.component */
-    "./src/app/components/contact/contact.component.ts");
+    var _contact_contact_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ./contact/contact.component */
+    "./src/app/contact/contact.component.ts");
     /* harmony import */
 
 
-    var _components_shared_shared_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
-    /*! ./components/shared/shared.module */
-    "./src/app/components/shared/shared.module.ts");
+    var _shared_shared_module__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ./shared/shared.module */
+    "./src/app/shared/shared.module.ts");
     /* harmony import */
 
 
-    var _components_projects_projects_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
-    /*! ./components/projects/projects.module */
-    "./src/app/components/projects/projects.module.ts");
+    var _projects_projects_module__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./projects/projects.module */
+    "./src/app/projects/projects.module.ts");
     /* harmony import */
 
 
-    var _components_posts_posts_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
-    /*! ./components/posts/posts.module */
-    "./src/app/components/posts/posts.module.ts"); // Angular Fire Modules
+    var _posts_posts_module__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! ./posts/posts.module */
+    "./src/app/posts/posts.module.ts"); // Angular Fire Modules
     // Environment Files
     // App Files
 
@@ -1103,8 +1180,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _components_about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], _components_contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"]],
-      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_4__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_6__["AngularFireStorageModule"], _components_shared_shared_module__WEBPACK_IMPORTED_MODULE_12__["SharedModule"], _components_projects_projects_module__WEBPACK_IMPORTED_MODULE_13__["ProjectsModule"], _components_posts_posts_module__WEBPACK_IMPORTED_MODULE_14__["PostsModule"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"], _about_about_component__WEBPACK_IMPORTED_MODULE_10__["AboutComponent"], _contact_contact_component__WEBPACK_IMPORTED_MODULE_11__["ContactComponent"]],
+      imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_9__["AppRoutingModule"], _angular_fire__WEBPACK_IMPORTED_MODULE_3__["AngularFireModule"].initializeApp(_environments_environment__WEBPACK_IMPORTED_MODULE_7__["environment"].firebaseConfig), _angular_fire_analytics__WEBPACK_IMPORTED_MODULE_4__["AngularFireAnalyticsModule"], _angular_fire_firestore__WEBPACK_IMPORTED_MODULE_5__["AngularFirestoreModule"], _angular_fire_storage__WEBPACK_IMPORTED_MODULE_6__["AngularFireStorageModule"], _shared_shared_module__WEBPACK_IMPORTED_MODULE_12__["SharedModule"], _projects_projects_module__WEBPACK_IMPORTED_MODULE_13__["ProjectsModule"], _posts_posts_module__WEBPACK_IMPORTED_MODULE_14__["PostsModule"]],
       exports: [],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_8__["AppComponent"]]
@@ -1113,112 +1190,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/about/about.component.css":
-  /*!******************************************************!*\
-    !*** ./src/app/components/about/about.component.css ***!
-    \******************************************************/
+  "./src/app/contact/contact.component.css":
+  /*!***********************************************!*\
+    !*** ./src/app/contact/contact.component.css ***!
+    \***********************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsAboutAboutComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppContactContactComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "/* Styling for the about component */\r\n.about-content { \r\n\tmargin-top:2rem;margin-bottom:0;margin-left:auto;margin-right:auto;position:relative;padding:30px 25px 40px 25px;\r\n\tbox-shadow:0 2px 5px 0 rgba(0,0,0,0.15);border-radius:5px;\r\n\tfont-size:16px;text-align:center; \r\n\tbackground-color:rgb(230, 230, 230);color:rgb(87, 87, 87);\r\n}\r\n.about-content h2 {\r\n\tmargin-bottom:1rem\r\n}\r\n.about-content p {\r\n\tpadding-bottom:1rem;text-align:left\r\n}\r\n.about-image {\r\n\tpadding-bottom:1rem\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9hYm91dC9hYm91dC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLG9DQUFvQztBQUNwQztDQUNDLGVBQWUsQ0FBQyxlQUFlLENBQUMsZ0JBQWdCLENBQUMsaUJBQWlCLENBQUMsaUJBQWlCLENBQUMsMkJBQTJCO0NBQ2hILHVDQUF1QyxDQUFDLGlCQUFpQjtDQUN6RCxjQUFjLENBQUMsaUJBQWlCO0NBQ2hDLG1DQUFtQyxDQUFDLHFCQUFxQjtBQUMxRDtBQUNBO0NBQ0M7QUFDRDtBQUNBO0NBQ0MsbUJBQW1CLENBQUM7QUFDckI7QUFDQTtDQUNDO0FBQ0QiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2Fib3V0L2Fib3V0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBTdHlsaW5nIGZvciB0aGUgYWJvdXQgY29tcG9uZW50ICovXHJcbi5hYm91dC1jb250ZW50IHsgXHJcblx0bWFyZ2luLXRvcDoycmVtO21hcmdpbi1ib3R0b206MDttYXJnaW4tbGVmdDphdXRvO21hcmdpbi1yaWdodDphdXRvO3Bvc2l0aW9uOnJlbGF0aXZlO3BhZGRpbmc6MzBweCAyNXB4IDQwcHggMjVweDtcclxuXHRib3gtc2hhZG93OjAgMnB4IDVweCAwIHJnYmEoMCwwLDAsMC4xNSk7Ym9yZGVyLXJhZGl1czo1cHg7XHJcblx0Zm9udC1zaXplOjE2cHg7dGV4dC1hbGlnbjpjZW50ZXI7IFxyXG5cdGJhY2tncm91bmQtY29sb3I6cmdiKDIzMCwgMjMwLCAyMzApO2NvbG9yOnJnYig4NywgODcsIDg3KTtcclxufVxyXG4uYWJvdXQtY29udGVudCBoMiB7XHJcblx0bWFyZ2luLWJvdHRvbToxcmVtXHJcbn1cclxuLmFib3V0LWNvbnRlbnQgcCB7XHJcblx0cGFkZGluZy1ib3R0b206MXJlbTt0ZXh0LWFsaWduOmxlZnRcclxufVxyXG4uYWJvdXQtaW1hZ2Uge1xyXG5cdHBhZGRpbmctYm90dG9tOjFyZW1cclxufVxyXG4iXX0= */";
+    __webpack_exports__["default"] = ".contact-content { \r\n\tmargin-top:2rem;margin-bottom:2rem;margin-left:auto;margin-right:auto;\r\n\tposition:relative;padding:30px 25px 40px 25px; \r\n\tbox-shadow:0 2px 5px 0 rgba(0,0,0,0.15);\r\n\tfont-size:16px;text-align:center; \r\n\tbackground-color:rgb(230, 230, 230);color:rgb(87, 87, 87);\r\n\tborder-radius:5px;\r\n}\r\n.contact-content h2 {\r\n\tmargin-bottom:1rem\r\n}\r\n.contact-content div {\r\n\tpadding-bottom:1rem;text-align:left\r\n}\r\n.contact-content a {\r\n\ttext-decoration:none;color:rgb(90, 90, 90);transition: ease 0.3s;\r\n}\r\n.contact-content a:hover {\r\n\ttext-decoration:none;color:#272727;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Q0FDQyxlQUFlLENBQUMsa0JBQWtCLENBQUMsZ0JBQWdCLENBQUMsaUJBQWlCO0NBQ3JFLGlCQUFpQixDQUFDLDJCQUEyQjtDQUM3Qyx1Q0FBdUM7Q0FDdkMsY0FBYyxDQUFDLGlCQUFpQjtDQUNoQyxtQ0FBbUMsQ0FBQyxxQkFBcUI7Q0FDekQsaUJBQWlCO0FBQ2xCO0FBQ0E7Q0FDQztBQUNEO0FBQ0E7Q0FDQyxtQkFBbUIsQ0FBQztBQUNyQjtBQUNBO0NBQ0Msb0JBQW9CLENBQUMscUJBQXFCLENBQUMscUJBQXFCO0FBQ2pFO0FBQ0E7Q0FDQyxvQkFBb0IsQ0FBQyxhQUFhO0FBQ25DIiwiZmlsZSI6InNyYy9hcHAvY29udGFjdC9jb250YWN0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFjdC1jb250ZW50IHsgXHJcblx0bWFyZ2luLXRvcDoycmVtO21hcmdpbi1ib3R0b206MnJlbTttYXJnaW4tbGVmdDphdXRvO21hcmdpbi1yaWdodDphdXRvO1xyXG5cdHBvc2l0aW9uOnJlbGF0aXZlO3BhZGRpbmc6MzBweCAyNXB4IDQwcHggMjVweDsgXHJcblx0Ym94LXNoYWRvdzowIDJweCA1cHggMCByZ2JhKDAsMCwwLDAuMTUpO1xyXG5cdGZvbnQtc2l6ZToxNnB4O3RleHQtYWxpZ246Y2VudGVyOyBcclxuXHRiYWNrZ3JvdW5kLWNvbG9yOnJnYigyMzAsIDIzMCwgMjMwKTtjb2xvcjpyZ2IoODcsIDg3LCA4Nyk7XHJcblx0Ym9yZGVyLXJhZGl1czo1cHg7XHJcbn1cclxuLmNvbnRhY3QtY29udGVudCBoMiB7XHJcblx0bWFyZ2luLWJvdHRvbToxcmVtXHJcbn1cclxuLmNvbnRhY3QtY29udGVudCBkaXYge1xyXG5cdHBhZGRpbmctYm90dG9tOjFyZW07dGV4dC1hbGlnbjpsZWZ0XHJcbn1cclxuLmNvbnRhY3QtY29udGVudCBhIHtcclxuXHR0ZXh0LWRlY29yYXRpb246bm9uZTtjb2xvcjpyZ2IoOTAsIDkwLCA5MCk7dHJhbnNpdGlvbjogZWFzZSAwLjNzO1xyXG59XHJcbi5jb250YWN0LWNvbnRlbnQgYTpob3ZlciB7XHJcblx0dGV4dC1kZWNvcmF0aW9uOm5vbmU7Y29sb3I6IzI3MjcyNztcclxufSJdfQ== */";
     /***/
   },
 
   /***/
-  "./src/app/components/about/about.component.ts":
-  /*!*****************************************************!*\
-    !*** ./src/app/components/about/about.component.ts ***!
-    \*****************************************************/
-
-  /*! exports provided: AboutComponent */
-
-  /***/
-  function srcAppComponentsAboutAboutComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "AboutComponent", function () {
-      return AboutComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var AboutComponent = /*#__PURE__*/function () {
-      function AboutComponent() {
-        _classCallCheck(this, AboutComponent);
-      }
-
-      _createClass(AboutComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return AboutComponent;
-    }();
-
-    AboutComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-about',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./about.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/about/about.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./about.component.css */
-      "./src/app/components/about/about.component.css"))["default"]]
-    })], AboutComponent);
-    /***/
-  },
-
-  /***/
-  "./src/app/components/contact/contact.component.css":
-  /*!**********************************************************!*\
-    !*** ./src/app/components/contact/contact.component.css ***!
-    \**********************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsContactContactComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = ".contact-content { \r\n\tmargin-top:2rem;margin-bottom:2rem;margin-left:auto;margin-right:auto;\r\n\tposition:relative;padding:30px 25px 40px 25px; \r\n\tbox-shadow:0 2px 5px 0 rgba(0,0,0,0.15);\r\n\tfont-size:16px;text-align:center; \r\n\tbackground-color:rgb(230, 230, 230);color:rgb(87, 87, 87);\r\n\tborder-radius:5px;\r\n}\r\n.contact-content h2 {\r\n\tmargin-bottom:1rem\r\n}\r\n.contact-content div {\r\n\tpadding-bottom:1rem;text-align:left\r\n}\r\n.contact-content a {\r\n\ttext-decoration:none;color:rgb(90, 90, 90);transition: ease 0.3s;\r\n}\r\n.contact-content a:hover {\r\n\ttext-decoration:none;color:#272727;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb250YWN0L2NvbnRhY3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtDQUNDLGVBQWUsQ0FBQyxrQkFBa0IsQ0FBQyxnQkFBZ0IsQ0FBQyxpQkFBaUI7Q0FDckUsaUJBQWlCLENBQUMsMkJBQTJCO0NBQzdDLHVDQUF1QztDQUN2QyxjQUFjLENBQUMsaUJBQWlCO0NBQ2hDLG1DQUFtQyxDQUFDLHFCQUFxQjtDQUN6RCxpQkFBaUI7QUFDbEI7QUFDQTtDQUNDO0FBQ0Q7QUFDQTtDQUNDLG1CQUFtQixDQUFDO0FBQ3JCO0FBQ0E7Q0FDQyxvQkFBb0IsQ0FBQyxxQkFBcUIsQ0FBQyxxQkFBcUI7QUFDakU7QUFDQTtDQUNDLG9CQUFvQixDQUFDLGFBQWE7QUFDbkMiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2NvbnRhY3QvY29udGFjdC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRhY3QtY29udGVudCB7IFxyXG5cdG1hcmdpbi10b3A6MnJlbTttYXJnaW4tYm90dG9tOjJyZW07bWFyZ2luLWxlZnQ6YXV0bzttYXJnaW4tcmlnaHQ6YXV0bztcclxuXHRwb3NpdGlvbjpyZWxhdGl2ZTtwYWRkaW5nOjMwcHggMjVweCA0MHB4IDI1cHg7IFxyXG5cdGJveC1zaGFkb3c6MCAycHggNXB4IDAgcmdiYSgwLDAsMCwwLjE1KTtcclxuXHRmb250LXNpemU6MTZweDt0ZXh0LWFsaWduOmNlbnRlcjsgXHJcblx0YmFja2dyb3VuZC1jb2xvcjpyZ2IoMjMwLCAyMzAsIDIzMCk7Y29sb3I6cmdiKDg3LCA4NywgODcpO1xyXG5cdGJvcmRlci1yYWRpdXM6NXB4O1xyXG59XHJcbi5jb250YWN0LWNvbnRlbnQgaDIge1xyXG5cdG1hcmdpbi1ib3R0b206MXJlbVxyXG59XHJcbi5jb250YWN0LWNvbnRlbnQgZGl2IHtcclxuXHRwYWRkaW5nLWJvdHRvbToxcmVtO3RleHQtYWxpZ246bGVmdFxyXG59XHJcbi5jb250YWN0LWNvbnRlbnQgYSB7XHJcblx0dGV4dC1kZWNvcmF0aW9uOm5vbmU7Y29sb3I6cmdiKDkwLCA5MCwgOTApO3RyYW5zaXRpb246IGVhc2UgMC4zcztcclxufVxyXG4uY29udGFjdC1jb250ZW50IGE6aG92ZXIge1xyXG5cdHRleHQtZGVjb3JhdGlvbjpub25lO2NvbG9yOiMyNzI3Mjc7XHJcbn0iXX0= */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/contact/contact.component.ts":
-  /*!*********************************************************!*\
-    !*** ./src/app/components/contact/contact.component.ts ***!
-    \*********************************************************/
+  "./src/app/contact/contact.component.ts":
+  /*!**********************************************!*\
+    !*** ./src/app/contact/contact.component.ts ***!
+    \**********************************************/
 
   /*! exports provided: ContactComponent */
 
   /***/
-  function srcAppComponentsContactContactComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppContactContactComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1276,24 +1276,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-contact',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./contact.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/contact/contact.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/contact/contact.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./contact.component.css */
-      "./src/app/components/contact/contact.component.css"))["default"]]
+      "./src/app/contact/contact.component.css"))["default"]]
     })], ContactComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/posts/posts-routing.module.ts":
-  /*!**********************************************************!*\
-    !*** ./src/app/components/posts/posts-routing.module.ts ***!
-    \**********************************************************/
+  "./src/app/posts/posts-routing.module.ts":
+  /*!***********************************************!*\
+    !*** ./src/app/posts/posts-routing.module.ts ***!
+    \***********************************************/
 
   /*! exports provided: PostsRoutingModule */
 
   /***/
-  function srcAppComponentsPostsPostsRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppPostsPostsRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1326,13 +1326,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ../shared/content/content-post/content-post.component */
-    "./src/app/components/shared/content/content-post/content-post.component.ts");
+    "./src/app/shared/content/content-post/content-post.component.ts");
     /* harmony import */
 
 
     var _posts_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./posts.component */
-    "./src/app/components/posts/posts.component.ts");
+    "./src/app/posts/posts.component.ts");
 
     var routes = [{
       path: '',
@@ -1354,35 +1354,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/posts/posts.component.css":
-  /*!******************************************************!*\
-    !*** ./src/app/components/posts/posts.component.css ***!
-    \******************************************************/
+  "./src/app/posts/posts.component.css":
+  /*!*******************************************!*\
+    !*** ./src/app/posts/posts.component.css ***!
+    \*******************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsPostsPostsComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppPostsPostsComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\r\n.page-numbers-container {\r\n  text-align: center;\r\n  padding-bottom: 50px;\r\n}\r\n\r\n.page-numbers {\r\n  padding: 10px 20px;\r\n  margin-right: 20px;\r\n  background-color:rgb(235, 235, 235);\r\n  text-decoration: none;\r\n  color: #272727;\r\n  border-radius: 5px;\r\n}\r\n\r\n.page-numbers:hover {\r\n  background-color:rgb(220, 220, 220)\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wb3N0cy9wb3N0cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLG1DQUFtQztFQUNuQyxxQkFBcUI7RUFDckIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3Bvc3RzL3Bvc3RzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLnBhZ2UtbnVtYmVycy1jb250YWluZXIge1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBwYWRkaW5nLWJvdHRvbTogNTBweDtcclxufVxyXG5cclxuLnBhZ2UtbnVtYmVycyB7XHJcbiAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gIG1hcmdpbi1yaWdodDogMjBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyMzUsIDIzNSwgMjM1KTtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgY29sb3I6ICMyNzI3Mjc7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcblxyXG4ucGFnZS1udW1iZXJzOmhvdmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyMjAsIDIyMCwgMjIwKVxyXG59Il19 */";
+    __webpack_exports__["default"] = "\r\n.page-numbers-container {\r\n  text-align: center;\r\n  padding-bottom: 50px;\r\n}\r\n\r\n.page-numbers {\r\n  padding: 10px 20px;\r\n  margin-right: 20px;\r\n  background-color:rgb(235, 235, 235);\r\n  text-decoration: none;\r\n  color: #272727;\r\n  border-radius: 5px;\r\n}\r\n\r\n.page-numbers:hover {\r\n  background-color:rgb(220, 220, 220)\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcG9zdHMvcG9zdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7RUFDRSxrQkFBa0I7RUFDbEIsb0JBQW9CO0FBQ3RCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGtCQUFrQjtFQUNsQixtQ0FBbUM7RUFDbkMscUJBQXFCO0VBQ3JCLGNBQWM7RUFDZCxrQkFBa0I7QUFDcEI7O0FBRUE7RUFDRTtBQUNGIiwiZmlsZSI6InNyYy9hcHAvcG9zdHMvcG9zdHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4ucGFnZS1udW1iZXJzLWNvbnRhaW5lciB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIHBhZGRpbmctYm90dG9tOiA1MHB4O1xyXG59XHJcblxyXG4ucGFnZS1udW1iZXJzIHtcclxuICBwYWRkaW5nOiAxMHB4IDIwcHg7XHJcbiAgbWFyZ2luLXJpZ2h0OiAyMHB4O1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDIzNSwgMjM1LCAyMzUpO1xyXG4gIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICBjb2xvcjogIzI3MjcyNztcclxuICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbn1cclxuXHJcbi5wYWdlLW51bWJlcnM6aG92ZXIge1xyXG4gIGJhY2tncm91bmQtY29sb3I6cmdiKDIyMCwgMjIwLCAyMjApXHJcbn0iXX0= */";
     /***/
   },
 
   /***/
-  "./src/app/components/posts/posts.component.ts":
-  /*!*****************************************************!*\
-    !*** ./src/app/components/posts/posts.component.ts ***!
-    \*****************************************************/
+  "./src/app/posts/posts.component.ts":
+  /*!******************************************!*\
+    !*** ./src/app/posts/posts.component.ts ***!
+    \******************************************/
 
   /*! exports provided: PostsComponent */
 
   /***/
-  function srcAppComponentsPostsPostsComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppPostsPostsComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1529,24 +1529,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-posts',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./posts.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/posts/posts.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/posts/posts.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./posts.component.css */
-      "./src/app/components/posts/posts.component.css"))["default"]]
+      "./src/app/posts/posts.component.css"))["default"]]
     })], PostsComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/posts/posts.module.ts":
-  /*!**************************************************!*\
-    !*** ./src/app/components/posts/posts.module.ts ***!
-    \**************************************************/
+  "./src/app/posts/posts.module.ts":
+  /*!***************************************!*\
+    !*** ./src/app/posts/posts.module.ts ***!
+    \***************************************/
 
   /*! exports provided: PostsModule */
 
   /***/
-  function srcAppComponentsPostsPostsModuleTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppPostsPostsModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1579,19 +1579,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _posts_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./posts-routing.module */
-    "./src/app/components/posts/posts-routing.module.ts");
+    "./src/app/posts/posts-routing.module.ts");
     /* harmony import */
 
 
     var _posts_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./posts.component */
-    "./src/app/components/posts/posts.component.ts");
+    "./src/app/posts/posts.component.ts");
     /* harmony import */
 
 
     var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../shared/shared.module */
-    "./src/app/components/shared/shared.module.ts");
+    "./src/app/shared/shared.module.ts");
 
     var PostsModule = function PostsModule() {
       _classCallCheck(this, PostsModule);
@@ -1605,15 +1605,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/projects/projects-routing.module.ts":
-  /*!****************************************************************!*\
-    !*** ./src/app/components/projects/projects-routing.module.ts ***!
-    \****************************************************************/
+  "./src/app/projects/projects-routing.module.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/projects/projects-routing.module.ts ***!
+    \*****************************************************/
 
   /*! exports provided: ProjectsRoutingModule */
 
   /***/
-  function srcAppComponentsProjectsProjectsRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppProjectsProjectsRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1646,13 +1646,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _shared_content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ../shared/content/content-post/content-post.component */
-    "./src/app/components/shared/content/content-post/content-post.component.ts");
+    "./src/app/shared/content/content-post/content-post.component.ts");
     /* harmony import */
 
 
     var _projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./projects.component */
-    "./src/app/components/projects/projects.component.ts");
+    "./src/app/projects/projects.component.ts");
 
     var routes = [// Projects
     {
@@ -1675,35 +1675,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/projects/projects.component.css":
-  /*!************************************************************!*\
-    !*** ./src/app/components/projects/projects.component.css ***!
-    \************************************************************/
+  "./src/app/projects/projects.component.css":
+  /*!*************************************************!*\
+    !*** ./src/app/projects/projects.component.css ***!
+    \*************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsProjectsProjectsComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppProjectsProjectsComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3RzL3Byb2plY3RzLmNvbXBvbmVudC5jc3MifQ== */";
     /***/
   },
 
   /***/
-  "./src/app/components/projects/projects.component.ts":
-  /*!***********************************************************!*\
-    !*** ./src/app/components/projects/projects.component.ts ***!
-    \***********************************************************/
+  "./src/app/projects/projects.component.ts":
+  /*!************************************************!*\
+    !*** ./src/app/projects/projects.component.ts ***!
+    \************************************************/
 
   /*! exports provided: ProjectsComponent */
 
   /***/
-  function srcAppComponentsProjectsProjectsComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppProjectsProjectsComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1766,24 +1766,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-projects',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./projects.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/projects/projects.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/projects/projects.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./projects.component.css */
-      "./src/app/components/projects/projects.component.css"))["default"]]
+      "./src/app/projects/projects.component.css"))["default"]]
     })], ProjectsComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/projects/projects.module.ts":
-  /*!********************************************************!*\
-    !*** ./src/app/components/projects/projects.module.ts ***!
-    \********************************************************/
+  "./src/app/projects/projects.module.ts":
+  /*!*********************************************!*\
+    !*** ./src/app/projects/projects.module.ts ***!
+    \*********************************************/
 
   /*! exports provided: ProjectsModule */
 
   /***/
-  function srcAppComponentsProjectsProjectsModuleTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppProjectsProjectsModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1816,19 +1816,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _projects_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./projects-routing.module */
-    "./src/app/components/projects/projects-routing.module.ts");
+    "./src/app/projects/projects-routing.module.ts");
     /* harmony import */
 
 
     var _projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./projects.component */
-    "./src/app/components/projects/projects.component.ts");
+    "./src/app/projects/projects.component.ts");
     /* harmony import */
 
 
     var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ../shared/shared.module */
-    "./src/app/components/shared/shared.module.ts");
+    "./src/app/shared/shared.module.ts");
 
     var ProjectsModule = function ProjectsModule() {
       _classCallCheck(this, ProjectsModule);
@@ -1842,35 +1842,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/components/shared/content/content-post/content-post.component.css":
-  /*!***********************************************************************************!*\
-    !*** ./src/app/components/shared/content/content-post/content-post.component.css ***!
-    \***********************************************************************************/
+  "./src/app/shared/content/content-post/content-post.component.css":
+  /*!************************************************************************!*\
+    !*** ./src/app/shared/content/content-post/content-post.component.css ***!
+    \************************************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsSharedContentContentPostContentPostComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedContentContentPostContentPostComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2hhcmVkL2NvbnRlbnQvY29udGVudC1wb3N0L2NvbnRlbnQtcG9zdC5jb21wb25lbnQuY3NzIn0= */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb250ZW50L2NvbnRlbnQtcG9zdC9jb250ZW50LXBvc3QuY29tcG9uZW50LmNzcyJ9 */";
     /***/
   },
 
   /***/
-  "./src/app/components/shared/content/content-post/content-post.component.ts":
-  /*!**********************************************************************************!*\
-    !*** ./src/app/components/shared/content/content-post/content-post.component.ts ***!
-    \**********************************************************************************/
+  "./src/app/shared/content/content-post/content-post.component.ts":
+  /*!***********************************************************************!*\
+    !*** ./src/app/shared/content/content-post/content-post.component.ts ***!
+    \***********************************************************************/
 
   /*! exports provided: ContentPostComponent */
 
   /***/
-  function srcAppComponentsSharedContentContentPostContentPostComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedContentContentPostContentPostComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1935,44 +1935,44 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-content-post',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./content-post.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/content/content-post/content-post.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/content/content-post/content-post.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./content-post.component.css */
-      "./src/app/components/shared/content/content-post/content-post.component.css"))["default"]]
+      "./src/app/shared/content/content-post/content-post.component.css"))["default"]]
     })], ContentPostComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/shared/content/content.component.css":
-  /*!*****************************************************************!*\
-    !*** ./src/app/components/shared/content/content.component.css ***!
-    \*****************************************************************/
+  "./src/app/shared/content/content.component.css":
+  /*!******************************************************!*\
+    !*** ./src/app/shared/content/content.component.css ***!
+    \******************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsSharedContentContentComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedContentContentComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2hhcmVkL2NvbnRlbnQvY29udGVudC5jb21wb25lbnQuY3NzIn0= */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9jb250ZW50L2NvbnRlbnQuY29tcG9uZW50LmNzcyJ9 */";
     /***/
   },
 
   /***/
-  "./src/app/components/shared/content/content.component.ts":
-  /*!****************************************************************!*\
-    !*** ./src/app/components/shared/content/content.component.ts ***!
-    \****************************************************************/
+  "./src/app/shared/content/content.component.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/shared/content/content.component.ts ***!
+    \*****************************************************/
 
   /*! exports provided: ContentComponent */
 
   /***/
-  function srcAppComponentsSharedContentContentComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedContentContentComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -2046,44 +2046,44 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-content',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./content.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/content/content.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/content/content.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./content.component.css */
-      "./src/app/components/shared/content/content.component.css"))["default"]]
+      "./src/app/shared/content/content.component.css"))["default"]]
     })], ContentComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/shared/footer/footer.component.css":
-  /*!***************************************************************!*\
-    !*** ./src/app/components/shared/footer/footer.component.css ***!
-    \***************************************************************/
+  "./src/app/shared/footer/footer.component.css":
+  /*!****************************************************!*\
+    !*** ./src/app/shared/footer/footer.component.css ***!
+    \****************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsSharedFooterFooterComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedFooterFooterComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\nfooter {\r\n    background-color:#f1f1f1;border-top:1px solid #dddddd;position:relative;bottom:0;height:250px;padding:50px;margin-top:0px;text-align:center\r\n} \r\n.social-footer {\r\n    margin-top:20px\r\n} \r\n.social-footer a {\r\n    padding:10px 20px;color:rgb(136, 132, 132)\r\n} \r\n.social-footer a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:rgb(136, 132, 132)\r\n} \r\n.copy {\r\n    margin-top:30px;font-size:16px;color:rgb(136, 132, 132)\r\n} \r\n.copy p {\r\n    text-align:center\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHFDQUFxQztBQUNyQztJQUNJLHdCQUF3QixDQUFDLDRCQUE0QixDQUFDLGlCQUFpQixDQUFDLFFBQVEsQ0FBQyxZQUFZLENBQUMsWUFBWSxDQUFDLGNBQWMsQ0FBQztBQUM5SDtBQUNBO0lBQ0k7QUFDSjtBQUNBO0lBQ0ksaUJBQWlCLENBQUM7QUFDdEI7QUFDQTtJQUNJLDBCQUEwQixDQUFDLGtCQUFrQixDQUFDO0FBQ2xEO0FBQ0E7SUFDSSxlQUFlLENBQUMsY0FBYyxDQUFDO0FBQ25DO0FBQ0E7SUFDSTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogU3R5bGluZyBmb3IgdGhlIGZvb3RlciBjb21wb25lbnQgKi8gXHJcbmZvb3RlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmMWYxZjE7Ym9yZGVyLXRvcDoxcHggc29saWQgI2RkZGRkZDtwb3NpdGlvbjpyZWxhdGl2ZTtib3R0b206MDtoZWlnaHQ6MjUwcHg7cGFkZGluZzo1MHB4O21hcmdpbi10b3A6MHB4O3RleHQtYWxpZ246Y2VudGVyXHJcbn1cclxuLnNvY2lhbC1mb290ZXIge1xyXG4gICAgbWFyZ2luLXRvcDoyMHB4XHJcbn1cclxuLnNvY2lhbC1mb290ZXIgYSB7XHJcbiAgICBwYWRkaW5nOjEwcHggMjBweDtjb2xvcjpyZ2IoMTM2LCAxMzIsIDEzMilcclxufVxyXG4uc29jaWFsLWZvb3RlciBhOmhvdmVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6bGlnaHRncmV5O2JvcmRlci1yYWRpdXM6MjVweDtjb2xvcjpyZ2IoMTM2LCAxMzIsIDEzMilcclxufVxyXG4uY29weSB7XHJcbiAgICBtYXJnaW4tdG9wOjMwcHg7Zm9udC1zaXplOjE2cHg7Y29sb3I6cmdiKDEzNiwgMTMyLCAxMzIpXHJcbn1cclxuLmNvcHkgcCB7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlclxyXG59Il19 */";
+    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\nfooter {\r\n    background-color:#f1f1f1;border-top:1px solid #dddddd;position:relative;bottom:0;height:250px;padding:50px;margin-top:0px;text-align:center\r\n} \r\n.social-footer {\r\n    margin-top:20px\r\n} \r\n.social-footer a {\r\n    padding:10px 20px;color:rgb(136, 132, 132)\r\n} \r\n.social-footer a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:rgb(136, 132, 132)\r\n} \r\n.copy {\r\n    margin-top:30px;font-size:16px;color:rgb(136, 132, 132)\r\n} \r\n.copy p {\r\n    text-align:center\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL2Zvb3Rlci9mb290ZXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxxQ0FBcUM7QUFDckM7SUFDSSx3QkFBd0IsQ0FBQyw0QkFBNEIsQ0FBQyxpQkFBaUIsQ0FBQyxRQUFRLENBQUMsWUFBWSxDQUFDLFlBQVksQ0FBQyxjQUFjLENBQUM7QUFDOUg7QUFDQTtJQUNJO0FBQ0o7QUFDQTtJQUNJLGlCQUFpQixDQUFDO0FBQ3RCO0FBQ0E7SUFDSSwwQkFBMEIsQ0FBQyxrQkFBa0IsQ0FBQztBQUNsRDtBQUNBO0lBQ0ksZUFBZSxDQUFDLGNBQWMsQ0FBQztBQUNuQztBQUNBO0lBQ0k7QUFDSiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9mb290ZXIvZm9vdGVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBTdHlsaW5nIGZvciB0aGUgZm9vdGVyIGNvbXBvbmVudCAqLyBcclxuZm9vdGVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6I2YxZjFmMTtib3JkZXItdG9wOjFweCBzb2xpZCAjZGRkZGRkO3Bvc2l0aW9uOnJlbGF0aXZlO2JvdHRvbTowO2hlaWdodDoyNTBweDtwYWRkaW5nOjUwcHg7bWFyZ2luLXRvcDowcHg7dGV4dC1hbGlnbjpjZW50ZXJcclxufVxyXG4uc29jaWFsLWZvb3RlciB7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHhcclxufVxyXG4uc29jaWFsLWZvb3RlciBhIHtcclxuICAgIHBhZGRpbmc6MTBweCAyMHB4O2NvbG9yOnJnYigxMzYsIDEzMiwgMTMyKVxyXG59XHJcbi5zb2NpYWwtZm9vdGVyIGE6aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyZXk7Ym9yZGVyLXJhZGl1czoyNXB4O2NvbG9yOnJnYigxMzYsIDEzMiwgMTMyKVxyXG59XHJcbi5jb3B5IHtcclxuICAgIG1hcmdpbi10b3A6MzBweDtmb250LXNpemU6MTZweDtjb2xvcjpyZ2IoMTM2LCAxMzIsIDEzMilcclxufVxyXG4uY29weSBwIHtcclxuICAgIHRleHQtYWxpZ246Y2VudGVyXHJcbn0iXX0= */";
     /***/
   },
 
   /***/
-  "./src/app/components/shared/footer/footer.component.ts":
-  /*!**************************************************************!*\
-    !*** ./src/app/components/shared/footer/footer.component.ts ***!
-    \**************************************************************/
+  "./src/app/shared/footer/footer.component.ts":
+  /*!***************************************************!*\
+    !*** ./src/app/shared/footer/footer.component.ts ***!
+    \***************************************************/
 
   /*! exports provided: FooterComponent */
 
   /***/
-  function srcAppComponentsSharedFooterFooterComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedFooterFooterComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -2123,44 +2123,44 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-footer',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./footer.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/footer/footer.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/footer/footer.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./footer.component.css */
-      "./src/app/components/shared/footer/footer.component.css"))["default"]]
+      "./src/app/shared/footer/footer.component.css"))["default"]]
     })], FooterComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/shared/navbar/navbar.component.css":
-  /*!***************************************************************!*\
-    !*** ./src/app/components/shared/navbar/navbar.component.css ***!
-    \***************************************************************/
+  "./src/app/shared/navbar/navbar.component.css":
+  /*!****************************************************!*\
+    !*** ./src/app/shared/navbar/navbar.component.css ***!
+    \****************************************************/
 
   /*! exports provided: default */
 
   /***/
-  function srcAppComponentsSharedNavbarNavbarComponentCss(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedNavbarNavbarComponentCss(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2hhcmVkL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyJ9 */";
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3NoYXJlZC9uYXZiYXIvbmF2YmFyLmNvbXBvbmVudC5jc3MifQ== */";
     /***/
   },
 
   /***/
-  "./src/app/components/shared/navbar/navbar.component.ts":
-  /*!**************************************************************!*\
-    !*** ./src/app/components/shared/navbar/navbar.component.ts ***!
-    \**************************************************************/
+  "./src/app/shared/navbar/navbar.component.ts":
+  /*!***************************************************!*\
+    !*** ./src/app/shared/navbar/navbar.component.ts ***!
+    \***************************************************/
 
   /*! exports provided: NavbarComponent */
 
   /***/
-  function srcAppComponentsSharedNavbarNavbarComponentTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedNavbarNavbarComponentTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -2200,24 +2200,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selector: 'app-navbar',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! raw-loader!./navbar.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/navbar/navbar.component.html"))["default"],
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/shared/navbar/navbar.component.html"))["default"],
       styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
       /*! ./navbar.component.css */
-      "./src/app/components/shared/navbar/navbar.component.css"))["default"]]
+      "./src/app/shared/navbar/navbar.component.css"))["default"]]
     })], NavbarComponent);
     /***/
   },
 
   /***/
-  "./src/app/components/shared/shared.module.ts":
-  /*!****************************************************!*\
-    !*** ./src/app/components/shared/shared.module.ts ***!
-    \****************************************************/
+  "./src/app/shared/shared.module.ts":
+  /*!*****************************************!*\
+    !*** ./src/app/shared/shared.module.ts ***!
+    \*****************************************/
 
   /*! exports provided: SharedModule */
 
   /***/
-  function srcAppComponentsSharedSharedModuleTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppSharedSharedModuleTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -2256,13 +2256,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./navbar/navbar.component */
-    "./src/app/components/shared/navbar/navbar.component.ts");
+    "./src/app/shared/navbar/navbar.component.ts");
     /* harmony import */
 
 
     var _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./footer/footer.component */
-    "./src/app/components/shared/footer/footer.component.ts");
+    "./src/app/shared/footer/footer.component.ts");
     /* harmony import */
 
 
@@ -2280,13 +2280,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _content_content_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./content/content.component */
-    "./src/app/components/shared/content/content.component.ts");
+    "./src/app/shared/content/content.component.ts");
     /* harmony import */
 
 
     var _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./content/content-post/content-post.component */
-    "./src/app/components/shared/content/content-post/content-post.component.ts"); // Markdown Files
+    "./src/app/shared/content/content-post/content-post.component.ts"); // Markdown Files
 
 
     var SharedModule = function SharedModule() {
