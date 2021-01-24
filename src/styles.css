@@ -22,13 +22,8 @@
 
 /* Whole page */
 .bg-color {
-  background-color:whitesmoke
+  background-color: rgb(250,250,250);
 }
-/* .bg-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/header.jpg');
-  background-size:cover;background-position:center;
-  height:20vh;background-attachment:fixed
-} */
 body {
   margin:0;padding:0;line-height:1.5;text-rendering:optimizeLegibility;font-variant-ligatures:none
 }

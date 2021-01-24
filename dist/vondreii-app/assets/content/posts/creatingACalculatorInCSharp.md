@@ -10,10 +10,6 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
-    <img src="../../../assets/content/post-images/calculator/header.jpg" loading="lazy" alt="image" class="image-full"/>
-  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@amoltyagi2">Amol Tyagi</a> on Unsplash</p></div>
-</div> -->
 <!-- ----------------------------- -->
 
 <div class="center extraPadding">

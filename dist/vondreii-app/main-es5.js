@@ -51,7 +51,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<router-outlet></router-outlet>\r\n";
+    __webpack_exports__["default"] = "<router-outlet></router-outlet>\r\n<!-- Footer -->\r\n<app-footer></app-footer>\r\n";
     /***/
   },
 
@@ -71,7 +71,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Designer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Designer</h2>\r\n          <p>I love experimenting with different designs, and learning about making websites.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/designer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Software Developer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Developer</h2>\r\n          <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/developer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Photographer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Photographer</h2>\r\n          <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/photography.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Traveller -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2>\r\n          <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/traveller.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div> \r\n  </div>  \r\n  <br><br>\r\n</div>\r\n<!-- Footer -->\r\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color pt-3\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Designer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Designer</h2>\r\n          <p>I love experimenting with different designs, and learning about making websites.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/designer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Software Developer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Developer</h2>\r\n          <p>I develop games and simple applications that solve problems (Java or C#).</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/developer.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"rows\"> \r\n      <!-- Photographer -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content first\"> \r\n          <h2>Photographer</h2>\r\n          <p>I take photos as a hobby and edit them in lightroom or VSCO.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/photography.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n      <!-- Traveller -->\r\n      <div class=\"column-2\">\r\n        <div class=\"about-content\"> \r\n          <h2>Traveller</h2>\r\n          <p>Anytime I have a break, I always take the opportunity to travel somewhere new.</p>\r\n        </div>\r\n        <div class=\"about-image\"> \r\n          <img src=\"../../assets/about/traveller.jpg\" loading=\"lazy\" alt=\"img\">\r\n        </div>\r\n      </div>\r\n    </div> \r\n  </div>  \r\n  <br><br>\r\n</div>";
     /***/
   },
 
@@ -91,7 +91,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <br>\r\n    <!-- Some Image of something here -->\r\n    <p>Message me on any of the following platforms:</p>  \r\n    <div class=\"contact-content\"> \r\n      <h2>LinkedIn</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\">LinkedIn Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- LinkedIn Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>Instagram</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/insta.JPEG\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.instagram.com/vondreii\">Vondreii Instagram Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- Github Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>GitHub</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/pineapple.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://github.com/vondreii\">GitHub Account</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <br><br>\r\n  </div>\r\n</div>\r\n<!-- Footer -->\r\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<div class=\"bg-color pt-3\">\r\n  <div class=\"writtenContent\">\r\n    <!-- Avatar photo -->\r\n    <div class=\"avatar-block\">\r\n      <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n      <h5 class=\"avatar-text avatar-align\">Vondreii</h5>\r\n    </div>\r\n    <br>\r\n    <!-- Some Image of something here -->\r\n    <p>Message me on any of the following platforms:</p>  \r\n    <div class=\"contact-content\"> \r\n      <h2>LinkedIn</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/social/profile.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.linkedin.com/in/sharlene-von-drehnen\">LinkedIn Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- LinkedIn Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>Instagram</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/insta.JPEG\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://www.instagram.com/vondreii\">Vondreii Instagram Profile</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <!-- Github Link -->\r\n    <div class=\"contact-content\"> \r\n      <h2>GitHub</h2>\r\n      <div class=\"avatar-block\">\r\n        <img src=\"../../../assets/contact/pineapple.jpg\" loading=\"lazy\" alt=\"Avatar\" class=\"avatar avatar-align\">\r\n        <h5 class=\"avatar-text avatar-align\">\r\n          <a href=\"https://github.com/vondreii\">GitHub Account</a>\r\n        </h5>\r\n      </div>\r\n    </div>\r\n    <br><br>\r\n  </div>\r\n</div>";
     /***/
   },
 
@@ -111,7 +111,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-content [contentList]='posts' ></app-content>";
+    __webpack_exports__["default"] = "<app-content [contentList]='currentPosts' [currentPage]='currentPage'></app-content>\r\n\r\n<div class=\"bg-color page-numbers-container\">\r\n  <a (click)=\"changePage(1)\" routerLink=\"/\" class=\"page-numbers\">1</a>\r\n  <a (click)=\"changePage(2)\" routerLink=\"/\" class=\"page-numbers\">2</a>\r\n</div>";
     /***/
   },
 
@@ -151,7 +151,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>\r\n<!-- Footer-light -->\r\n<app-social></app-social>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Display markdown file -->\r\n<div markdown [src]=\"post\"></div>";
     /***/
   },
 
@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color\">\r\n  <div class=\"container search-container\">\r\n    <!-- Search input box (change this to what are you looking for?) -->\r\n    <div class=\"padding\">\r\n      <input type=\"text\" id=\"myInput\" (keyup)=\"searchbar()\" placeholder=\"Search (by title, language, topic, year..)\" title=\"SearchBar\">\r\n    </div>\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let contentItem of contentList; index as i; trackBy: trackByFn\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <!-- <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div> -->\r\n            <div class=\"card-info\">\r\n              <a class=\"date\">{{contentItem.date}}</a>\r\n              <a class=\"tag\">{{contentItem.tags}}</a>\r\n            </div>\r\n            <!-- Article information -->\r\n            <h1>{{contentItem.title}}</h1>\r\n            <p>\r\n              {{contentItem.description}}\r\n              <a routerLink=\"{{contentItem.link}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>\r\n<!-- Footer -->\r\n<app-footer></app-footer>";
+    __webpack_exports__["default"] = "<!-- Navbar -->\r\n<app-navbar></app-navbar>\r\n<!-- Content -->\r\n<section class=\"bg-color pt-3\">\r\n  <div class=\"container search-container\">\r\n    <!-- List of all posts -->\r\n    <div id=\"myUL\">\r\n      <article *ngFor=\"let contentItem of contentList; index as i; trackBy: trackByFn\">\r\n        <!-- display each article card with it's own background image  -->\r\n        <section class=\"cardPreview\">\r\n          <div class=\"padding\">\r\n            <!-- <div class=\"card-image\" [ngStyle]=\"{'background-image': 'url(' + getURL(i) + ')'}\"></div> -->\r\n            <div class=\"card-info\">\r\n              <a class=\"date\">{{contentItem.date}}</a>\r\n              <a class=\"tag\">{{contentItem.tags}}</a>\r\n            </div>\r\n            <!-- Article information -->\r\n            <h1>{{contentItem.title}}</h1>\r\n            <p>\r\n              {{contentItem.description}}\r\n              <a routerLink=\"{{contentItem.link}}\">Read More >></a>\r\n            </p>\r\n          </div>\r\n        </section>\r\n        <!-- End of article -->\r\n      </article>\r\n    </div>\r\n  </div>\r\n</section>";
     /***/
   },
 
@@ -191,7 +191,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<footer>\r\n    <div class=\"social-footer\">\r\n      <!-- Github -->\r\n      <a data-hint=\"Github\" title=\"Github\" href=\"https://github.com/vondreii\" rel=\"me\">\r\n        <i class=\"fa fa-github-alt\"></i>\r\n      </a>\r\n      <!-- LinkedIn -->\r\n      <a data-hint=\"LinkedIn\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/sharlene-von-drehnen\" rel=\"me\">\r\n        <i class=\"fa fa-linkedin\"></i>\r\n      </a>\r\n      <!-- About/Contact -->\r\n      <a data-hint=\"Email\" title=\"Email\" routerLink=\"contact\">\r\n        <i class=\"fa fa-envelope\"></i>\r\n      </a>\r\n    </div>\r\n    <br>\r\n    <!-- Copyright -->\r\n    <div class=\"copy\">\r\n      <p>&copy; 2020 Copyright <strong>SVD</strong> | LAST MODIFIED <strong>04/01/2021</strong></p>\r\n    </div>\r\n</footer>\r\n";
+    __webpack_exports__["default"] = "<footer>\r\n    <div class=\"social-footer\">\r\n      <!-- Github -->\r\n      <a data-hint=\"Github\" title=\"Github\" href=\"https://github.com/vondreii\" rel=\"me\">\r\n        <i class=\"fa fa-github-alt\"></i>\r\n      </a>\r\n      <!-- LinkedIn -->\r\n      <a data-hint=\"LinkedIn\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/sharlene-von-drehnen\" rel=\"me\">\r\n        <i class=\"fa fa-linkedin\"></i>\r\n      </a>\r\n      <!-- About/Contact -->\r\n      <a data-hint=\"Email\" title=\"Email\" routerLink=\"contact\">\r\n        <i class=\"fa fa-envelope\"></i>\r\n      </a>\r\n    </div>\r\n    <br>\r\n    <!-- Copyright -->\r\n    <div class=\"copy\">\r\n      <p>&copy; 2020 Copyright <strong>SVD</strong> | LAST MODIFIED <strong>24/01/2021</strong></p>\r\n    </div>\r\n</footer>\r\n";
     /***/
   },
 
@@ -212,26 +212,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     __webpack_exports__["default"] = "<!-- Bootstrap navbar -->\r\n<nav class=\"navbar navbar-expand-lg py-3 navbar-dark bg-dark shadow-sm\">\r\n  <div class=\"container\">\r\n    <!-- Logo -->\r\n    <a routerLink=\"/\" class=\"navbar-brand\">\r\n      <img src=\"../../../assets/logos/vondreii.svg\" width=\"100\" alt=\"logo\" class=\"logo-padding\">\r\n    </a>\r\n    <!-- Collapsable button -->\r\n    <button type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\"><span class=\"navbar-toggler-icon\"></span></button>\r\n    <!-- Links to pages -->\r\n    <div id=\"navbarSupportedContent\" class=\"collapse navbar-collapse\">\r\n      <ul class=\"navbar-nav ml-auto\">\r\n        <li class=\"nav-item\"><a routerLink=\"/\" class=\"nav-link\">Posts</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/projects\" class=\"nav-link\">Projects</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/about\" class=\"nav-link\">About</a></li>\r\n        <li class=\"nav-item\"><a routerLink=\"/contact\" class=\"nav-link\">Contact</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n";
-    /***/
-  },
-
-  /***/
-  "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/social/social.component.html":
-  /*!******************************************************************************************************!*\
-    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/social/social.component.html ***!
-    \******************************************************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function node_modulesRawLoaderDistCjsJsSrcAppComponentsSharedSocialSocialComponentHtml(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "<div class=\"social\">\r\n    <div class=\"social-links\">\r\n      <!-- Github -->\r\n      <a data-hint=\"Github\" title=\"Github\" href=\"https://github.com/vondreii\" rel=\"me\">\r\n        <i class=\"fa fa-github-alt\"></i>\r\n      </a>\r\n      <!-- LinkedIn -->\r\n      <a data-hint=\"LinkedIn\" title=\"LinkedIn\" href=\"https://www.linkedin.com/in/sharlene-von-drehnen\" rel=\"me\">\r\n        <i class=\"fa fa-linkedin\"></i>\r\n      </a>\r\n      <!-- About/Contact -->\r\n      <a data-hint=\"Email\" title=\"Email\" routerLink=\"contact\">\r\n        <i class=\"fa fa-envelope\"></i>\r\n      </a>\r\n    </div>\r\n    <br>\r\n    <!-- Copyright -->\r\n    <div class=\"copy\">\r\n      <p>&copy; 2020 Copyright <strong>SVD</strong> | LAST MODIFIED <strong>04/01/2021</strong></p>\r\n    </div>\r\n</div>\r\n";
     /***/
   },
 
@@ -1389,7 +1369,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcG9zdHMvcG9zdHMuY29tcG9uZW50LmNzcyJ9 */";
+    __webpack_exports__["default"] = "\r\n.page-numbers-container {\r\n  text-align: center;\r\n  padding-bottom: 50px;\r\n}\r\n\r\n.page-numbers {\r\n  padding: 10px 20px;\r\n  margin-right: 20px;\r\n  background-color:rgb(235, 235, 235);\r\n  text-decoration: none;\r\n  color: #272727;\r\n  border-radius: 5px;\r\n}\r\n\r\n.page-numbers:hover {\r\n  background-color:rgb(220, 220, 220)\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wb3N0cy9wb3N0cy5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtFQUNFLGtCQUFrQjtFQUNsQixvQkFBb0I7QUFDdEI7O0FBRUE7RUFDRSxrQkFBa0I7RUFDbEIsa0JBQWtCO0VBQ2xCLG1DQUFtQztFQUNuQyxxQkFBcUI7RUFDckIsY0FBYztFQUNkLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3Bvc3RzL3Bvc3RzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcclxuLnBhZ2UtbnVtYmVycy1jb250YWluZXIge1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICBwYWRkaW5nLWJvdHRvbTogNTBweDtcclxufVxyXG5cclxuLnBhZ2UtbnVtYmVycyB7XHJcbiAgcGFkZGluZzogMTBweCAyMHB4O1xyXG4gIG1hcmdpbi1yaWdodDogMjBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyMzUsIDIzNSwgMjM1KTtcclxuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgY29sb3I6ICMyNzI3Mjc7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG59XHJcblxyXG4ucGFnZS1udW1iZXJzOmhvdmVyIHtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOnJnYigyMjAsIDIyMCwgMjIwKVxyXG59Il19 */";
     /***/
   },
 
@@ -1429,7 +1409,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       function PostsComponent() {
         _classCallCheck(this, PostsComponent);
 
-        this.posts = [{
+        this.posts1 = [{
           "title": "Hosting A Hugo App Using Netlify and Github",
           "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg",
           "date": "4 Jan 2021",
@@ -1472,7 +1452,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "tags": "C#",
           "description": "We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections: Part 1 covers creating the interface for the calculator. We are going to be using Visual Studio's C# Windows Forms to add buttons to the calculator. Part 2 covers adding in the basic functionality to the calculator (adding, subtracting, all of that calculator stuff). Part 3 will go through handling any invalid inputs and runtime exceptions. We will also 'finalise' the calculator..."
         }, {
-          "title": "Hosting an Angular Application using Netlify",
+          "title": "Hosting an Angular Application using Github and Netlify",
           "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg",
           "date": "30 Aug 2020",
           "link": "/posts/hostingAngularApplicationUsingNetlify",
@@ -1485,7 +1465,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "link": "/posts/settingUpASimpleGithubRemoteAndLocalRepository",
           "tags": "Version Control • Github",
           "description": "GitHub is a free version control platform where you can store your code online in repositories. When we create a Github repository, we are creating a place online where we can store our code files for a project remotely. This is a simple tutorial that will help you quickly set up an online remote repository on Github, which will be linked to a local folder on your computer..."
-        }, {
+        }];
+        this.posts2 = [{
           "title": "Adding Photos To Instagram Using A Desktop Computer",
           "imagePath": "../../assets/content/post-images/uploadImageToInstagramViaDesktop/header.jpg",
           "date": "11 Aug 2020",
@@ -1514,11 +1495,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "tags": "Organisation",
           "description": "Having a well organised computer can improve your overall workflow and efficiency. Having too many folders and files in different places can make it difficult to find what you are looking for. Here are a few suggestions on how you can better organise your computer, including your files, applications and overall layout..."
         }];
+        this.currentPosts = this.posts1;
+        this.currentPage = 1;
       }
 
       _createClass(PostsComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {}
+      }, {
+        key: "changePage",
+        value: function changePage(pageNo) {
+          // This needs to change
+          if (pageNo == 1) {
+            this.currentPosts = this.posts1;
+            this.currentPage = 1;
+          }
+
+          if (pageNo == 2) {
+            this.currentPosts = this.posts2;
+            this.currentPage = 2;
+          }
+
+          console.log("Change Page");
+          console.log(pageNo);
+          window.scrollTo(0, 0);
+        }
       }]);
 
       return PostsComponent;
@@ -1999,6 +2000,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         _classCallCheck(this, ContentComponent);
 
         this.contentList = [];
+        this.currentPage = 1;
       }
 
       _createClass(ContentComponent, [{
@@ -2039,6 +2041,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], ContentComponent.prototype, "contentList", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])()], ContentComponent.prototype, "currentPage", void 0);
     ContentComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
       selector: 'app-content',
       template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
@@ -2067,7 +2070,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\nfooter {\r\n    background-color:#363a40;position:relative;bottom:0;height:250px;padding:50px;margin-top:0px;text-align:center\r\n} \r\n.social-footer {\r\n    margin-top:20px\r\n} \r\n.social-footer a {\r\n    padding:10px 20px;color:white \r\n} \r\n.social-footer a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:#272727 \r\n} \r\n.copy {\r\n    margin-top:30px;font-size:16px;color:whitesmoke \r\n} \r\n.copy p {\r\n    text-align:center\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHFDQUFxQztBQUNyQztJQUNJLHdCQUF3QixDQUFDLGlCQUFpQixDQUFDLFFBQVEsQ0FBQyxZQUFZLENBQUMsWUFBWSxDQUFDLGNBQWMsQ0FBQztBQUNqRztBQUNBO0lBQ0k7QUFDSjtBQUNBO0lBQ0ksaUJBQWlCLENBQUM7QUFDdEI7QUFDQTtJQUNJLDBCQUEwQixDQUFDLGtCQUFrQixDQUFDO0FBQ2xEO0FBQ0E7SUFDSSxlQUFlLENBQUMsY0FBYyxDQUFDO0FBQ25DO0FBQ0E7SUFDSTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogU3R5bGluZyBmb3IgdGhlIGZvb3RlciBjb21wb25lbnQgKi8gXHJcbmZvb3RlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiMzNjNhNDA7cG9zaXRpb246cmVsYXRpdmU7Ym90dG9tOjA7aGVpZ2h0OjI1MHB4O3BhZGRpbmc6NTBweDttYXJnaW4tdG9wOjBweDt0ZXh0LWFsaWduOmNlbnRlclxyXG59XHJcbi5zb2NpYWwtZm9vdGVyIHtcclxuICAgIG1hcmdpbi10b3A6MjBweFxyXG59XHJcbi5zb2NpYWwtZm9vdGVyIGEge1xyXG4gICAgcGFkZGluZzoxMHB4IDIwcHg7Y29sb3I6d2hpdGUgXHJcbn1cclxuLnNvY2lhbC1mb290ZXIgYTpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JleTtib3JkZXItcmFkaXVzOjI1cHg7Y29sb3I6IzI3MjcyNyBcclxufVxyXG4uY29weSB7XHJcbiAgICBtYXJnaW4tdG9wOjMwcHg7Zm9udC1zaXplOjE2cHg7Y29sb3I6d2hpdGVzbW9rZSBcclxufVxyXG4uY29weSBwIHtcclxuICAgIHRleHQtYWxpZ246Y2VudGVyXHJcbn0iXX0= */";
+    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\nfooter {\r\n    background-color:#f1f1f1;border-top:1px solid #dddddd;position:relative;bottom:0;height:250px;padding:50px;margin-top:0px;text-align:center\r\n} \r\n.social-footer {\r\n    margin-top:20px\r\n} \r\n.social-footer a {\r\n    padding:10px 20px;color:rgb(136, 132, 132)\r\n} \r\n.social-footer a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:rgb(136, 132, 132)\r\n} \r\n.copy {\r\n    margin-top:30px;font-size:16px;color:rgb(136, 132, 132)\r\n} \r\n.copy p {\r\n    text-align:center\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHFDQUFxQztBQUNyQztJQUNJLHdCQUF3QixDQUFDLDRCQUE0QixDQUFDLGlCQUFpQixDQUFDLFFBQVEsQ0FBQyxZQUFZLENBQUMsWUFBWSxDQUFDLGNBQWMsQ0FBQztBQUM5SDtBQUNBO0lBQ0k7QUFDSjtBQUNBO0lBQ0ksaUJBQWlCLENBQUM7QUFDdEI7QUFDQTtJQUNJLDBCQUEwQixDQUFDLGtCQUFrQixDQUFDO0FBQ2xEO0FBQ0E7SUFDSSxlQUFlLENBQUMsY0FBYyxDQUFDO0FBQ25DO0FBQ0E7SUFDSTtBQUNKIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvZm9vdGVyL2Zvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogU3R5bGluZyBmb3IgdGhlIGZvb3RlciBjb21wb25lbnQgKi8gXHJcbmZvb3RlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmMWYxZjE7Ym9yZGVyLXRvcDoxcHggc29saWQgI2RkZGRkZDtwb3NpdGlvbjpyZWxhdGl2ZTtib3R0b206MDtoZWlnaHQ6MjUwcHg7cGFkZGluZzo1MHB4O21hcmdpbi10b3A6MHB4O3RleHQtYWxpZ246Y2VudGVyXHJcbn1cclxuLnNvY2lhbC1mb290ZXIge1xyXG4gICAgbWFyZ2luLXRvcDoyMHB4XHJcbn1cclxuLnNvY2lhbC1mb290ZXIgYSB7XHJcbiAgICBwYWRkaW5nOjEwcHggMjBweDtjb2xvcjpyZ2IoMTM2LCAxMzIsIDEzMilcclxufVxyXG4uc29jaWFsLWZvb3RlciBhOmhvdmVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6bGlnaHRncmV5O2JvcmRlci1yYWRpdXM6MjVweDtjb2xvcjpyZ2IoMTM2LCAxMzIsIDEzMilcclxufVxyXG4uY29weSB7XHJcbiAgICBtYXJnaW4tdG9wOjMwcHg7Zm9udC1zaXplOjE2cHg7Y29sb3I6cmdiKDEzNiwgMTMyLCAxMzIpXHJcbn1cclxuLmNvcHkgcCB7XHJcbiAgICB0ZXh0LWFsaWduOmNlbnRlclxyXG59Il19 */";
     /***/
   },
 
@@ -2263,31 +2266,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _social_social_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
-    /*! ./social/social.component */
-    "./src/app/components/shared/social/social.component.ts");
-    /* harmony import */
-
-
-    var ngx_markdown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var ngx_markdown__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ngx-markdown */
     "./node_modules/ngx-markdown/fesm2015/ngx-markdown.js");
     /* harmony import */
 
 
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! @angular/common/http */
     "./node_modules/@angular/common/fesm2015/http.js");
     /* harmony import */
 
 
-    var _content_content_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _content_content_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./content/content.component */
     "./src/app/components/shared/content/content.component.ts");
     /* harmony import */
 
 
-    var _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./content/content-post/content-post.component */
     "./src/app/components/shared/content/content-post/content-post.component.ts"); // Markdown Files
 
@@ -2297,90 +2294,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     };
 
     SharedModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
-      declarations: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"], _social_social_component__WEBPACK_IMPORTED_MODULE_6__["SocialComponent"], _content_content_component__WEBPACK_IMPORTED_MODULE_9__["ContentComponent"], _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_10__["ContentPostComponent"]],
-      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClientModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_7__["MarkdownModule"].forRoot({
-        loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_8__["HttpClient"],
+      declarations: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"], _content_content_component__WEBPACK_IMPORTED_MODULE_8__["ContentComponent"], _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_9__["ContentPostComponent"]],
+      imports: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["CommonModule"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClientModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_6__["MarkdownModule"].forRoot({
+        loader: _angular_common_http__WEBPACK_IMPORTED_MODULE_7__["HttpClient"],
         sanitize: _angular_core__WEBPACK_IMPORTED_MODULE_1__["SecurityContext"].NONE
       })],
-      exports: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"], _social_social_component__WEBPACK_IMPORTED_MODULE_6__["SocialComponent"], _content_content_component__WEBPACK_IMPORTED_MODULE_9__["ContentComponent"], _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_10__["ContentPostComponent"]]
+      exports: [_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_4__["NavbarComponent"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_5__["FooterComponent"], _content_content_component__WEBPACK_IMPORTED_MODULE_8__["ContentComponent"], _content_content_post_content_post_component__WEBPACK_IMPORTED_MODULE_9__["ContentPostComponent"]]
     })], SharedModule);
-    /***/
-  },
-
-  /***/
-  "./src/app/components/shared/social/social.component.css":
-  /*!***************************************************************!*\
-    !*** ./src/app/components/shared/social/social.component.css ***!
-    \***************************************************************/
-
-  /*! exports provided: default */
-
-  /***/
-  function srcAppComponentsSharedSocialSocialComponentCss(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony default export */
-
-
-    __webpack_exports__["default"] = "/* Styling for the footer component */ \r\n.social {\r\n    background-color:#f1f1f1;border-top:1px solid #dddddd;\r\n    position:relative;bottom:0;height:180px;padding:25px;margin-top:0px;text-align:center;color:#272727\r\n} \r\n.social-links {\r\n    margin-top:20px\r\n} \r\n.social-links a {\r\n    padding:10px 20px;color:rgb(100, 91, 91) \r\n} \r\n.social-links a:hover {\r\n    background-color:lightgrey;border-radius:25px;color:#272727 \r\n} \r\n.copy {\r\n    color:rgba(187, 186, 186, 0.952)\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9zaGFyZWQvc29jaWFsL3NvY2lhbC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLHFDQUFxQztBQUNyQztJQUNJLHdCQUF3QixDQUFDLDRCQUE0QjtJQUNyRCxpQkFBaUIsQ0FBQyxRQUFRLENBQUMsWUFBWSxDQUFDLFlBQVksQ0FBQyxjQUFjLENBQUMsaUJBQWlCLENBQUM7QUFDMUY7QUFDQTtJQUNJO0FBQ0o7QUFDQTtJQUNJLGlCQUFpQixDQUFDO0FBQ3RCO0FBQ0E7SUFDSSwwQkFBMEIsQ0FBQyxrQkFBa0IsQ0FBQztBQUNsRDtBQUNBO0lBQ0k7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvc2hhcmVkL3NvY2lhbC9zb2NpYWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFN0eWxpbmcgZm9yIHRoZSBmb290ZXIgY29tcG9uZW50ICovIFxyXG4uc29jaWFsIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6I2YxZjFmMTtib3JkZXItdG9wOjFweCBzb2xpZCAjZGRkZGRkO1xyXG4gICAgcG9zaXRpb246cmVsYXRpdmU7Ym90dG9tOjA7aGVpZ2h0OjE4MHB4O3BhZGRpbmc6MjVweDttYXJnaW4tdG9wOjBweDt0ZXh0LWFsaWduOmNlbnRlcjtjb2xvcjojMjcyNzI3XHJcbn1cclxuLnNvY2lhbC1saW5rcyB7XHJcbiAgICBtYXJnaW4tdG9wOjIwcHhcclxufVxyXG4uc29jaWFsLWxpbmtzIGEge1xyXG4gICAgcGFkZGluZzoxMHB4IDIwcHg7Y29sb3I6cmdiKDEwMCwgOTEsIDkxKSBcclxufVxyXG4uc29jaWFsLWxpbmtzIGE6aG92ZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyZXk7Ym9yZGVyLXJhZGl1czoyNXB4O2NvbG9yOiMyNzI3MjcgXHJcbn1cclxuLmNvcHkge1xyXG4gICAgY29sb3I6cmdiYSgxODcsIDE4NiwgMTg2LCAwLjk1MilcclxufSJdfQ== */";
-    /***/
-  },
-
-  /***/
-  "./src/app/components/shared/social/social.component.ts":
-  /*!**************************************************************!*\
-    !*** ./src/app/components/shared/social/social.component.ts ***!
-    \**************************************************************/
-
-  /*! exports provided: SocialComponent */
-
-  /***/
-  function srcAppComponentsSharedSocialSocialComponentTs(module, __webpack_exports__, __webpack_require__) {
-    "use strict";
-
-    __webpack_require__.r(__webpack_exports__);
-    /* harmony export (binding) */
-
-
-    __webpack_require__.d(__webpack_exports__, "SocialComponent", function () {
-      return SocialComponent;
-    });
-    /* harmony import */
-
-
-    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-    /*! tslib */
-    "./node_modules/tslib/tslib.es6.js");
-    /* harmony import */
-
-
-    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/core */
-    "./node_modules/@angular/core/fesm2015/core.js");
-
-    var SocialComponent = /*#__PURE__*/function () {
-      function SocialComponent() {
-        _classCallCheck(this, SocialComponent);
-      }
-
-      _createClass(SocialComponent, [{
-        key: "ngOnInit",
-        value: function ngOnInit() {}
-      }]);
-
-      return SocialComponent;
-    }();
-
-    SocialComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
-      selector: 'app-social',
-      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! raw-loader!./social.component.html */
-      "./node_modules/raw-loader/dist/cjs.js!./src/app/components/shared/social/social.component.html"))["default"],
-      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
-      /*! ./social.component.css */
-      "./src/app/components/shared/social/social.component.css"))["default"]]
-    })], SocialComponent);
     /***/
   },
 

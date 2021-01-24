@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
-import { SocialComponent } from './social/social.component';
 
 // Markdown Files
 import { MarkdownModule } from 'ngx-markdown';
@@ -14,8 +13,7 @@ import { ContentPostComponent } from './content/content-post/content-post.compon
 @NgModule({
   declarations: [
     NavbarComponent, 
-    FooterComponent, 
-    SocialComponent,
+    FooterComponent,
     ContentComponent,
     ContentPostComponent
   ],
@@ -28,7 +26,6 @@ import { ContentPostComponent } from './content/content-post/content-post.compon
   exports: [
     NavbarComponent,
     FooterComponent,
-    SocialComponent,
     ContentComponent,
     ContentPostComponent
   ]

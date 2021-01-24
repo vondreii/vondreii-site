@@ -10,10 +10,6 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
-    <img src="../../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg" loading="lazy" alt="image" class="image-full"/>
-  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@laurenmancke">Lauren Mancke</a> on Unsplash</p></div>
-</div> -->
 <!-- ----------------------------- -->
 
 Having a well organised computer can improve your overall workflow and efficiency. Having too many folders and files in different places can make it difficult to find what you are looking for. Here are a few suggestions on how you can better organise your computer, including your files, applications and overall layout.

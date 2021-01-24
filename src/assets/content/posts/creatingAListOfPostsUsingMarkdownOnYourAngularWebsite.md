@@ -10,10 +10,6 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
-    <img src="../../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg" loading="lazy" alt="image" class="image-full"/>
-  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@bramnaus">Bram Naus</a> on Unsplash</p></div>
-</div> -->
 <!-- ----------------------------- -->
 
 Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files!

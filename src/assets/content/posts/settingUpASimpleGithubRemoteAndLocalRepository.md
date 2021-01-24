@@ -10,10 +10,6 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
-    <img src="../../../assets/content/post-images/settingUpASimpleGithubRemoteAndLocalRepository/header.jpg" loading="lazy" alt="image" class="image-full"/>
-  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@caleb_white">Caleb White</a> on Unsplash</p></div>
-</div> -->
 <!-- ----------------------------- -->
 
 GitHub is a free version control platform where you can store your code online in **repositories**. A repository is basically just a folder where you can store your project. 

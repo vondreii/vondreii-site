@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ContentComponent implements OnInit {
 
   @Input() contentList: any[] = [];
+  @Input() currentPage: number = 1;
   
   href: string;
   hrefId: string;

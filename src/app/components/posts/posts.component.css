@@ -1,0 +1,18 @@
+
+.page-numbers-container {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.page-numbers {
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color:rgb(235, 235, 235);
+  text-decoration: none;
+  color: #272727;
+  border-radius: 5px;
+}
+
+.page-numbers:hover {
+  background-color:rgb(220, 220, 220)
+}

@@ -1,12 +1,8 @@
 <!-- Navbar -->
 <app-navbar></app-navbar>
 <!-- Content -->
-<section class="bg-color">
+<section class="bg-color pt-3">
   <div class="container search-container">
-    <!-- Search input box (change this to what are you looking for?) -->
-    <div class="padding">
-      <input type="text" id="myInput" (keyup)="searchbar()" placeholder="Search (by title, language, topic, year..)" title="SearchBar">
-    </div>
     <!-- List of all posts -->
     <div id="myUL">
       <article *ngFor="let contentItem of contentList; index as i; trackBy: trackByFn">
@@ -31,5 +27,3 @@
     </div>
   </div>
 </section>
-<!-- Footer -->
-<app-footer></app-footer>

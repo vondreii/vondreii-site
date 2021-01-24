@@ -10,10 +10,6 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
-    <img src="../../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg" loading="lazy" alt="image" class="image-full"/>
-  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@domenicoloia">Domenico Loia</a> on Unsplash</p></div>
-</div> -->
 <!-- ----------------------------- -->
 
 For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up.
@@ -170,7 +166,7 @@ Now you will be presented with a page asking for some information about the depl
 Keep the **Owner** and **Branch to deploy** fields at the default value (unless you specifically need to change them).
 For Basic the Build Setting fields:
 
-**Build command:** Type in `ng build`. Sometimes `ng build --prod` may work for some people instead (this can be changed later if needed).
+**Build command:** Type in `ng build`. If you are going to be deploying to production, use `ng build --prod`. (This can be changed later if needed).
 
 **Publish directory:** Leave this blank for now, we will fill it in later when we have the information.
 
@@ -214,6 +210,22 @@ Add the following code into the file:
 
 ```Bash
 /*    /index.html    200
+
+```
+
+Then in your `angular.json` file, under `projects/project-name/architect/build/options/assets`, add the following code:
+```Bash
+{
+    "assets": [
+        "src/favicon.ico",
+        "src/assets",
+        {                       // add this line
+        "glob": "_redirects",   // add this line
+        "input": "src",         // add this line
+        "output": "/"           // add this line
+        }                       // add this line
+    ]
+}
 
 ```
 

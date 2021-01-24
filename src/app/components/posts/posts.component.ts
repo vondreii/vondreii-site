@@ -8,7 +8,7 @@ import { Content } from 'src/app/Models/models';
 })
 export class PostsComponent implements OnInit {
 
-  posts: Content[] = [
+  posts1: Content[] = [
     { 
       "title": "Hosting A Hugo App Using Netlify and Github", 
       "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg", 
@@ -58,7 +58,7 @@ export class PostsComponent implements OnInit {
       "description": "We are going to give you a step-by-step guide on how you can make your very own calculator application (complete with an executable file for the program!) This tutorial is separated into 3 sections: Part 1 covers creating the interface for the calculator. We are going to be using Visual Studio's C# Windows Forms to add buttons to the calculator. Part 2 covers adding in the basic functionality to the calculator (adding, subtracting, all of that calculator stuff). Part 3 will go through handling any invalid inputs and runtime exceptions. We will also 'finalise' the calculator...", 
     },
     { 
-      "title": "Hosting an Angular Application using Netlify", 
+      "title": "Hosting an Angular Application using Github and Netlify", 
       "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingNetlify/header.jpg", 
       "date": "30 Aug 2020", 
       "link": "/posts/hostingAngularApplicationUsingNetlify", 
@@ -72,7 +72,10 @@ export class PostsComponent implements OnInit {
       "link": "/posts/settingUpASimpleGithubRemoteAndLocalRepository", 
       "tags": "Version Control • Github", 
       "description": "GitHub is a free version control platform where you can store your code online in repositories. When we create a Github repository, we are creating a place online where we can store our code files for a project remotely. This is a simple tutorial that will help you quickly set up an online remote repository on Github, which will be linked to a local folder on your computer...", 
-    },
+    }
+  ];
+
+  posts2: Content[] = [
     { 
       "title": "Adding Photos To Instagram Using A Desktop Computer", 
       "imagePath": "../../assets/content/post-images/uploadImageToInstagramViaDesktop/header.jpg", 
@@ -106,10 +109,28 @@ export class PostsComponent implements OnInit {
       "description": "Having a well organised computer can improve your overall workflow and efficiency. Having too many folders and files in different places can make it difficult to find what you are looking for. Here are a few suggestions on how you can better organise your computer, including your files, applications and overall layout...", 
     }
   ];
+  
+  currentPosts: Content[] = this.posts1;
+  currentPage: number = 1;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  changePage(pageNo: number) {
+    // This needs to change
+    if(pageNo==1) {
+      this.currentPosts = this.posts1;
+      this.currentPage = 1;
+    }
+    if(pageNo==2) {
+      this.currentPosts = this.posts2;
+      this.currentPage = 2;
+    }
+    console.log("Change Page");
+    console.log(pageNo);
+
+    window.scrollTo(0, 0)
+  }
 }

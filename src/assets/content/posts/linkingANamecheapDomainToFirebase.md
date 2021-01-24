@@ -10,10 +10,6 @@ ___
     <h5 class="avatar-text avatar-align"> by Vondreii</h5>
 </div>
 <br>
-<!-- <div class="image-container">
-    <img src="../../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg" loading="lazy" alt="image" class="image-full"/>
-  	<div class="image-description"><p>Photo by <a href="https://unsplash.com/@kevnbhagat">Kevin Bhagat</a> on Unsplash</p></div>
-</div> -->
 <!-- ----------------------------- -->
 
 Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like **.firebaseapp.com** or **.web.app**). 
