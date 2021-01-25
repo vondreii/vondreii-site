@@ -1,7 +1,6 @@
 [
   { 
       "title": "Hosting an Angular Application using Github and Netlify", 
-      "imagePath": "../../assets/content/post-images/hostingAngularApplicationUsingGithubAndNetlify/header.jpg", 
       "date": "30 Aug 2020", 
       "link": "/posts/hostingAngularApplicationUsingGithubAndNetlify", 
       "tags": "Angular • Netlify • Hosting", 
@@ -9,7 +8,6 @@
   },
   { 
       "title": "Setting Up A Github Repository and Creating A Local Copy", 
-      "imagePath": "../../assets/content/post-images/settingUpAGithubRepositoryAndCreatingALocalCopy/header.jpg", 
       "date": "22 Aug 2020", 
       "link": "/posts/settingUpAGithubRepositoryAndCreatingALocalCopy", 
       "tags": "Version Control • Github", 
@@ -17,7 +15,6 @@
   },
   { 
       "title": "Upload An Image To Instagram Using A Desktop Computer", 
-      "imagePath": "../../assets/content/post-images/uploadAnImageToInstagramUsingADesktopComputer/header.jpg", 
       "date": "11 Aug 2020", 
       "link": "/posts/uploadAnImageToInstagramUsingADesktopComputer", 
       "tags": "Design • Social Media", 
@@ -25,7 +22,6 @@
   },
   { 
       "title": "Creating A Simple Angular Web Application", 
-      "imagePath": "../../assets/content/post-images/creatingASimpleAngularWebApplication/header.jpg", 
       "date": "04 Aug 2020", 
       "link": "/posts/creatingASimpleAngularWebApplication", 
       "tags": "Angular", 
@@ -33,7 +29,6 @@
   },
   { 
       "title": "How To Organise Your Web Browsing", 
-      "imagePath": "../../assets/content/post-images/howToOrganiseYourWebBrowsing/header.jpg", 
       "date": "25 May 2020", 
       "link": "/posts/howToOrganiseYourWebBrowsing", 
       "tags": "Organisation", 
@@ -41,7 +36,6 @@
   },
   { 
       "title": "Organising Your Computer To Increase Productivity", 
-      "imagePath": "../../assets/content/post-images/organisingYourComputerToIncreaseProductivity/header.jpg", 
       "date": "16 May 2020", 
       "link": "/posts/organisingYourComputerToIncreaseProductivity", 
       "tags": "Organisation", 

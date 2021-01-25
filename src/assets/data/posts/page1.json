@@ -1,7 +1,13 @@
 [
     { 
+        "title": "Building A Second Brain With Notion: Storing Everything You Know In One Place", 
+        "date": "4 Jan 2021", 
+        "link": "/posts/buildingASecondBrainWithNotion", 
+        "tags": "Organisation", 
+        "description": "Description..."
+    },
+    { 
         "title": "Hosting A Hugo App Using Netlify and Github", 
-        "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg", 
         "date": "4 Jan 2021", 
         "link": "/posts/hostingAHugoAppUsingNetlifyAndGithub", 
         "tags": "Hugo • Netlify", 
@@ -9,7 +15,6 @@
     },
     { 
         "title": "Creating Your Own Blog Using Hugo", 
-        "imagePath": "../../assets/content/post-images/createYourOwnBlogUsingHugo/header.jpg", 
         "date": "27 Nov 2020", 
         "link": "/posts/createYourOwnBlogUsingHugo", 
         "tags": "Hugo", 
@@ -17,31 +22,27 @@
     },
     { 
         "title": "Creating a list of posts using Markdown on your Angular Website", 
-        "imagePath": "../../assets/content/post-images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/header.jpg", 
         "date": "11 Oct 2020", 
         "link": "/posts/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite", 
         "tags": "Angular • Markdown", 
         "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
     },
     { 
-        "title": "Linking A Namecheap Domain To Firebase", 
-        "imagePath": "../../assets/content/post-images/linkingANamecheapDomainToFirebase/header.jpg", 
+        "title": "Linking A Namecheap Domain To Firebase",  
         "date": "4 Oct 2020", 
         "link": "/posts/linkingANamecheapDomainToFirebase", 
         "tags": "Hosting • Firebase • Namecheap", 
         "description": "Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like .firebaseapp.com or .web.app). If you've already bought a Namecheap domain name, this is how you can link it to your Firebase hosted website..."
     },
     { 
-        "title": "Hosting An Angular App On Firebase", 
-        "imagePath": "../../assets/content/post-images/hostingAnAngularAppOnFirebase/header.jpg", 
+        "title": "Hosting An Angular App On Firebase",
         "date": "3 Oct 2020", 
         "link": "/posts/hostingAnAngularAppOnFirebase", 
         "tags": "Angular • Hosting • Firebase", 
         "description": "If you already have an Angular Project set up, you might want to host it on a domain like http://www.mywebsite.web.app. Assuming you already have an Angular project coded up, we will go through step by step how to creating a project on Firebase (for your app), connect your Angular app to the Firebase Project and host your website..."
     },
     { 
-        "title": "Creating A Calculator in C#", 
-        "imagePath": "../../assets/content/post-images/calculator/header.jpg", 
+        "title": "Creating A Calculator in C#",
         "date": "26 Sept 2020", 
         "link": "/posts/creatingACalculatorInCSharp", 
         "tags": "C#", 

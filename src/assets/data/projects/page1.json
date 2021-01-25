@@ -1,7 +1,6 @@
 [
   {
       "title": "3D Street Racing Game", 
-      "imagePath": "../../assets/content/projects-images/racingGame/header.PNG", 
       "date": "2019", 
       "link": "streetRacingGame", 
       "tags": "3D • Game • Research • Racing", 
@@ -9,7 +8,6 @@
   },
   { 
       "title": "CyanX", 
-      "imagePath": "../../assets/content/projects-images/cyanX/header.png", 
       "date": "2018", 
       "link": "cyanX", 
       "tags": "2D • Game • Side scroller • Puzzle", 
@@ -17,7 +15,6 @@
   },
   { 
       "title": "Ice Capades", 
-      "imagePath": "../../assets/content/projects-images/iceCapades/header.jpg", 
       "date": "2015", 
       "link": "iceCapades", 
       "tags": "2D • Game • Top-Down • Puzzle", 
