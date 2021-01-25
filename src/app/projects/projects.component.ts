@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Content } from 'src/app/models/models';
 // Import projects per page
-import projects1 from '../data/info/projects1.json';
+import page1 from '../../assets/data/projects/page1.json';
 
 @Component({
   selector: 'app-projects',
@@ -11,7 +11,7 @@ import projects1 from '../data/info/projects1.json';
 export class ProjectsComponent implements OnInit {
 
   // Imports the data stored in the json file
-  projects: Content[] = projects1;
+  projects: Content[] = page1;
 
   constructor() { }
 

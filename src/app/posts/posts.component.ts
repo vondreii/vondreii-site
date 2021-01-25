@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Content } from 'src/app/models/models';
 // Import posts per page
-import posts1 from '../data/info/posts1.json';
-import posts2 from '../data/info/posts2.json';
+import page1 from '../../assets/data/posts/page1.json';
+import page2 from '../../assets/data/posts/page2.json';
 
 @Component({
   selector: 'app-posts',
@@ -12,8 +12,8 @@ import posts2 from '../data/info/posts2.json';
 export class PostsComponent implements OnInit {
 
   // Posts already sorted into their different pages
-  posts1: Content[] = posts1;
-  posts2: Content[] = posts2;
+  posts1: Content[] = page1;
+  posts2: Content[] = page2;
 
   // Variables to keep track of current data to be displayed
   currentPosts: Content[] = this.posts1;
@@ -36,7 +36,7 @@ export class PostsComponent implements OnInit {
       default: { 
          break; 
       } 
-   } 
+    } 
     window.scrollTo(0, 0)
   }
 }

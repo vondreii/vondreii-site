@@ -20,12 +20,12 @@ export class ContentPostComponent implements OnInit {
     if(this.href.includes('post'))
     {
       let articleName = this.route.snapshot.paramMap.get('article');
-      this.post = './assets/content/posts/' +  articleName + '.md';
+      this.post = './assets/data/posts/articles/' +  articleName + '.md';
     }
     else if(this.href.includes('project'))
     {
       let articleName = this.route.snapshot.paramMap.get('article');
-      this.post = './assets/content/projects/' +  articleName + '.md';
+      this.post = './assets/data/projects/articles/' +  articleName + '.md';
     }
   }
 
