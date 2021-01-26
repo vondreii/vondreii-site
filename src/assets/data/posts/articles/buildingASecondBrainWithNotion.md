@@ -1,6 +1,6 @@
 <div class="writtenContent">
 
-#### ? Feb 2020
+#### ? Feb 2021
 # Building A Second Brain using Notion: Storing Everything You Know In One Place
 ___
 
@@ -33,7 +33,7 @@ That's when my [husband](https://sorakhan.com) introduced me to the concept of t
 
 A Second Brain is simply just a single place where you store the things you know and learn. Whatever you store depends entirely on you and is based on what things add value to your life.
 
-Before, I was mostly relying on my brain. If I did need to write things down, I would store information in many different places (like my notes app on my phone, notepad files on my computer, or my daily planner, just to name a few). However, the processes of remembering where to find something takes mental load. The idea of having a single place where you know you can go to takes a lot of the mental load away. 
+Before, I was mostly relying on my brain to remember everything I knew or any new information I had learnt. If I did need to write things down, I would store information in many different places (like my notes app on my phone, notepad files on my computer, or my daily planner, just to name a few). However, the process of remembering where to find something takes mental load. The idea of having a single place where you know you can go to takes a lot of the mental load away. 
 
 There are lots of platforms you can use. [Evernote](https://evernote.com/) is one for example. I am using [Notion](https://www.notion.so). It doesn't matter what you use. It could be as simple as having very well organised note taking files. However it is the way you use it, and the way you present the information which is important. You want to make it as easy as possible to find the information you want (almost like a mini database!)
 
@@ -65,7 +65,7 @@ Since documentary-watching was a very close hobby of mine, I thought I'd backtra
 
 It took me a very long time to backtrack and re-compile the list. At the time of writing, I ended up with 93 (but most of those were only from the last 2 years alone). What was interesting was that I had completely forgotten about some of these, but when I was actively backtracking, I immediately started remembering them again. It was amazing to me how much information I had learned, only to forget shortly after.
 
-Now, when I look at this list, I am able to see a clear and complete picture of the things I have learnt over the years and this brings value into my life. It definitely makes a massive difference being able to visualise what you've been doing all these years. 
+Now, when I look at this list, I am able to see a clear and complete picture of the things I have learnt over the years and this brings value into my life. It definitely makes a massive difference being able to visualise what I've been doing all these years. 
 
 I share this with the hubby since he likes reading my summaries :) 
 
@@ -82,7 +82,31 @@ Now, whenever I read or watch something new, I just add it to the list.
 
 #### Household
 
-Write something
+This is something that I share with Hubby. 
+
+We usually try to be open and always communicate about what we can do to help each other, so anything we share goes into this page.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/household.PNG" loading="lazy" alt="image" class="image-full"/>
+	<div class="image-description"><p>Household</p></div>
+</div>
+<!-- ----------------------------- -->
+
+For example:
+ - **Recipes:** We sometimes forget the exact measurements of ingredients, so instead of re-finding links to Tasty articles, we just collate everything in here.
+ - **Shopping:** This is like our inventory of items. We list here the weekly essentials we need to get. We also do meal planning so we will buy ingredients based on what we plan to cook that week. 
+ - **Cleaning:** This includes things in the house that need to be cleaned, and we take turns or allocate who does what.
+ - **Wedding:** This is an example of an event that we plan together.
+ - **Dual finances:** We list any financial goals we have together as a couple, and we keep track of them together.
+ - **Shared Projects:** Anything that we both work on together, we will add it in here.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/recipes.PNG" loading="lazy" alt="image" class="image-75"/>
+	<div class="image-description"><p>Example of Recipes</p></div>
+</div>
+<!-- ----------------------------- -->
 
 #### Life Goals, Events, etc
 
@@ -97,6 +121,8 @@ Another thing I like to keep track of is my life in general. I never use to do t
 
 I'm not that into journaling, though I do see the benefits of it. What works better for me though is to just store the major events that happened throughout my life. This ranges from parties, holidays, good times at uni/work, family time, self development milestones, to darker moments from earlier years. 
 
+When I write things I am grateful for, I also include it in here.
+
 #### Planning
 
 I also have a **Planning** tab where I write down notes for any upcoming events. For example, during Christmas, I will use it to keep track of the gifts I need to get people.
@@ -110,27 +136,68 @@ I also have a **Planning** tab where I write down notes for any upcoming events.
 
 ### Health
 
-Under the 'Health' tab..
+Under the 'Health' tab, I list my usual exercises I do during my weekly home routines. All I have to do is grab my laptop, IPad or phone, open to this page, and follow my routine.  
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/fitness.PNG" loading="lazy" alt="image" class="image-full"/>
+	<div class="image-description"><p>Fitness</p></div>
+</div>
+<!-- ----------------------------- -->
 
 ### Finances
 
-Write something
+Here I track all my accounts. I include yearly financial goals so I keep ontop of my savings. I have notes and lists of how much I want to allocate to my savings account, how much I want to invest, or how much I put away to pay back any debt.   
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/finances.PNG" loading="lazy" alt="image" class="image-full"/>
+	<div class="image-description"><p>Finances</p></div>
+</div>
+<!-- ----------------------------- -->
+
+I include notes about my target portfolio and any goals regarding how much I would like invested in which stocks/ETFs by the end of the year. 
 
 ### Work
 
-Write something
+Under the 'Work' tab, I include a copy of my resume. I also have a reflection about what I learnt at each workplace, and what I liked and didn't like, so I can continuously keep learning about myself. 
+
+One of the main things I use it for is to keep track of my job applications whenever I actively apply. Instead of sending thousands of resumes left and right, I try to focus on a few places that I feel I would be a good fit for based on the job description, work culture (and sometimes, reviews), and keep track of my progress with them.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/jobApplications.PNG" loading="lazy" alt="image" class="image-full"/>
+	<div class="image-description"><p>Job Applications</p></div>
+</div>
+<!-- ----------------------------- -->
 
 ### Side Projects
 
-Write something
+Here I put a list of my side projects. In each of these pages I include to-dos, deadlines, notes or ideas. That way I can keep track of my progress for each project I am working on. This ties in with the **Work** tab a little bit, because some of these can be listed as experience on the resume :)
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/sideProjects.PNG" loading="lazy" alt="image" class="image-full"/>
+	<div class="image-description"><p>Side Projects</p></div>
+</div>
+<!-- ----------------------------- -->
 
 ### Education
 
-Write something
+My last (but not least important) tab includes anything regarding formal education. I have a list of any degree/s or courses taken, with some brief notes and summaries about what was learnt in each of them (just so I have an overview of it all as a whole). This is also where I add in formal online courses or bootcamps that I participate in.
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+	<img src="./assets/data/posts/images/buildingASecondBrainWithNotion/onlineCourses.PNG" loading="lazy" alt="image" class="image-full"/>
+	<div class="image-description"><p>Online Courses</p></div>
+</div>
+<!-- ----------------------------- -->
+
+For example, I am currently trying to improve my Angular skills and learn it the 'formal' way, so I have been studying a course outside normal working hours and writing any notes I have about it in here.
 
 ### Conclusion
 
-Notion is just an example of any tool you could use to store what you know. These are just a few examples of how I have been using it, and I hope it has been helpful for you. Thank you for reading! :)    
+Notion is just an example of any tool you could use to store what you know and to better organise aspects of your life in a central place. These are just a few examples of how I have been using it, and I hope it has been helpful for you. Thank you for reading! :)    
 
 ### Resources
 * https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/
