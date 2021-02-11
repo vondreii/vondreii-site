@@ -1,6 +1,6 @@
 <div class="writtenContent">
 
-#### ? Feb 2021
+#### 12 Feb 2021
 # Building A Second Brain using Notion: Storing Everything You Know In One Place
 ___
 
@@ -35,7 +35,7 @@ A Second Brain is simply just a single place where you store the things you know
 
 Before, I was mostly relying on my brain to remember everything I knew or any new information I had learnt. If I did need to write things down, I would store information in many different places (like my notes app on my phone, notepad files on my computer, or my daily planner, just to name a few). However, the process of remembering where to find something takes mental load. The idea of having a single place where you know you can go to takes a lot of the mental load away. 
 
-There are lots of platforms you can use. [Evernote](https://evernote.com/) is one for example. I am using [Notion](https://www.notion.so). It doesn't matter what you use. It could be as simple as having very well organised note taking files. However it is the way you use it, and the way you present the information which is important. You want to make it as easy as possible to find the information you want (almost like a mini database!)
+There are lots of platforms you can use. [Evernote](https://evernote.com/) is one for example. I am using [Notion](https://www.notion.so). It doesn't matter what you use. It could be as simple as having very well organised note taking files. However, it is the way you use it, and the way you present the information which is important. You want to make it as easy as possible to find the information you want (almost like a mini database!)
 
 ### How I Use Notion
 

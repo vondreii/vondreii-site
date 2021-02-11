@@ -22,7 +22,10 @@
 
 /* Whole page */
 .bg-color {
+  /* light mode */
   background-color: rgb(250,250,250);
+  /* dark mode */
+  /* background-color: #363a40;  */
 }
 body {
   margin:0;padding:0;line-height:1.5;text-rendering:optimizeLegibility;font-variant-ligatures:none
@@ -113,6 +116,8 @@ button:focus {
 
 /* Written content */
 .writtenContent {
+  /* dark mode */
+  /* background-color: #363a40;  */
   padding:20px 350px;text-align:justify;text-decoration:none;font-size:17px;color:rgb(85, 85, 85);border:none;font-family:'Montserrat', sans-serif;line-height:1.7rem;
 }
 
