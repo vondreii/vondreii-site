@@ -334,7 +334,7 @@ Click on the Home tab and it should looks something like this:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.PNG" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>List of posts on the home page</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -416,7 +416,7 @@ Now to add some more posts, go back to the folder that stores your markdown file
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/addedMoreMarkdownFiles.PNG" loading="lazy" alt="image" class="image-75"/>
+    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/addedMoreMarkdownFiles.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Add more markdown files</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -484,7 +484,7 @@ Now open up your application again with `ng serve --open`, you should now see yo
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/allFivePosts.PNG" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/allFivePosts.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>All five posts</p></div>
 </div>
 <!-- ----------------------------- -->

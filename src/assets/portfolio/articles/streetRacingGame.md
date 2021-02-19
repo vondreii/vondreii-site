@@ -17,7 +17,7 @@ Extra obstacles were added such as roadblocks.
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/racingGame/header.PNG" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/racingGame/header.jpg" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 

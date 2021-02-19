@@ -23,7 +23,7 @@ Once at the oil rig, you must destroy it by reaching and turning off the main po
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/4-levels.png" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/iceCapades/header.jpg" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -54,12 +54,6 @@ Altogether there are 5 levels.
 Throughout the game you also come across other characters and animals that have been affected by the ice rig and melting ice.
 
 During the last level, you must navigate to the switch that shuts down the whole oil rig. Turning the switch off sets all the power reactors on fire.
-
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/end-level.png" loading="lazy" alt="image" class="image-75"/> 
-</div>
-<!-- ----------------------------- -->
 
 After level 5 you are greeted by a thankful citizen who thanks you for saving the village from the ice rig that was melting the ice.
 

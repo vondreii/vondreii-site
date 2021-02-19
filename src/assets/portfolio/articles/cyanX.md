@@ -118,7 +118,7 @@ Once you have crafted a weapon, you can equip it anytime by navigating back to t
   
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-  <img src="./assets/portfolio/images/cyanX/craftbox.PNG" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/cyanX/craftbox.jpg" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 

@@ -8,8 +8,6 @@ body {
   font-family: "Lato", sans-serif;
 }
 * {
-  // background-color: #383c44;
-  // color: lightgrey;
   font-family:'Montserrat';color: #383c44;
   background-color:whitesmoke;
 }
@@ -19,8 +17,6 @@ body {
 .extraPadding {
   padding-bottom:30px
 }
-
-/* Headings */
 h1, h2 {
   font-family:'Montserrat', sans-serif;text-align:left;line-height:50px;font-size:10pt;padding:0
 }
@@ -33,8 +29,6 @@ h4 {
 h5,h6 {
   font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:rgb(134, 134, 134)
 }
-
-/* Lists/tables */
 ul, ol {
   text-align:left
 }
@@ -50,8 +44,6 @@ tr:nth-child(even) {
 th {
   padding:10px
 }
-
-/* Code snippets */
 code {
   padding: 1px 5px;background-color:rgb(236, 236, 236);border-radius:5px;
 }
@@ -60,8 +52,6 @@ pre, pre code {
   padding:10px;border-radius:5px;color:#ffffff !important;
 }
 
-
-// ---------------------------------------------------- // NEED TO SORT
 
 
 // sidebar
@@ -80,7 +70,6 @@ pre, pre code {
 }
 .openbtn {
   font-size: 20px;cursor: pointer;padding: 10px 15px;border: none;
-  // color: #d6d6d6;
   color: #383c44
 }
 .openbtn:hover {

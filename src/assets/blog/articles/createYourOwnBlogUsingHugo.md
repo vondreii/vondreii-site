@@ -80,7 +80,7 @@ This will create a new folder called my-food-blog. If you open the folder, you w
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/my-food-blog-folder-created.PNG" loading="lazy" alt="image" class="image"/>
+	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/my-food-blog-folder-created.jpg" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Root folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -91,7 +91,7 @@ You can browse through the themes listed at https://themes.gohugo.io/.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/hugo-themes.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/hugo-themes.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Themes to choose from at themes.gohugo.io</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -106,7 +106,7 @@ Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/sugoi-theme.PNG" loading="lazy" alt="image" class="image"/>
+	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/sugoi-theme.jpg" loading="lazy" alt="image" class="image"/>
 	<div class="image-description"><p>Extract the folder into your Hugo project.</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -255,7 +255,7 @@ Now you have some content!
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/LavaBlogContent.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/LavaBlogContent.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Hugo site with content</p></div>
 </div>
 <!-- ----------------------------- -->
