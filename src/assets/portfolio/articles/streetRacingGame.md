@@ -4,17 +4,7 @@
 # 3D Street Racing Game
 #### 3D • Game • Research • Racing
 
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="./assets/portfolio/images/racingGame/street-racing-preview.gif" loading="lazy" alt="image" class="image"/> 
-</div>
-<!-- ----------------------------- -->
-
-<div class="download-container">
-    <div class="download-link">
-        <a href="https://github.com/vondreii/Modified-Street-Racing-Game" class="button">↓ View GitHub Repository ↓</a>
-    </div>
-</div>
+<hr>
 
 ### About the Game
 
@@ -23,7 +13,15 @@ The original game is a 3D street racing game where the player must avoid the obs
 The original game involved racing for as long as you possible without hitting any obstacles, as the speed increased. If you hit any obstacles during the game, the game would end.
 
 The modified version includes several changes in the game mechanics. Instead of the speed increasing, the speed was set at a static 60km/h. 
-Extra obstacles were added such as roadblocks. You also could not die when hitting obstacles. The new game could also record all game statistics. This included things like:
+Extra obstacles were added such as roadblocks. 
+
+<!-- ----------- Image ----------- -->   
+<div class="image-container">
+  <img src="./assets/portfolio/images/racingGame/header.PNG" loading="lazy" alt="image" class="image-75"/> 
+</div>
+<!-- ----------------------------- -->
+
+You also could not die when hitting obstacles. The new game could also record all game statistics. This included things like:
 
 * The current coordinates of the player for every frame
 * The number of points added when passing cars
@@ -34,7 +32,7 @@ Extra obstacles were added such as roadblocks. You also could not die when hitti
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/racingGame/roadblock.PNG" loading="lazy" alt="image" class="image"/> 
+  <img src="./assets/portfolio/images/racingGame/roadblock.PNG" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 

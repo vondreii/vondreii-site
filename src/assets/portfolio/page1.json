@@ -13,7 +13,7 @@
       "link": "/portfolio/cyanX", 
       "tags": "2D • Game • Side scroller • Puzzle", 
       "description": "A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals...",
-      "image": "./assets/portfolio/images/cyanX/header.png"
+      "image": "./assets/portfolio/images/cyanX/craftbox.PNG"
   },
   { 
       "title": "Ice Capades", 
@@ -21,6 +21,6 @@
       "link": "/portfolio/iceCapades", 
       "tags": "2D • Game • Top-Down • Puzzle", 
       "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles...",
-      "image": "./assets/portfolio/images/iceCapades/header.jpg"
+      "image": "./assets/portfolio/images/iceCapades/header.png"
   }
 ]

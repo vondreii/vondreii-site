@@ -116,23 +116,6 @@ pre, pre code {
   }
 }
 
-/* Markdown content */
-// .writtenContent {
-//   text-align:justify;text-decoration:none;font-size:17px;
-//   color:rgb(85, 85, 85);border:none;line-height:1.7rem;padding-bottom: 100px;
-// }
-// @media screen and (min-width:767px) and (max-width:1100px) {
-//   .writtenContent {
-//     padding:30px 120px;line-height:1.8rem;
-//   }
-// }
-// Written content - Smallest screens (phones) */
-// @media screen and (max-width:766px) {
-//   .writtenContent {
-//     padding:5px 5px;line-height:1.9rem;
-//   }
-// }
-
 
 /* Images */
 .image-container {
@@ -142,7 +125,7 @@ pre, pre code {
   width:50%;height:50%
 }
 .image-75 {
-  width:75%;height:75%
+  width:75%;
 }
 .image-full {
   width:100%;height:100%
@@ -152,6 +135,9 @@ pre, pre code {
 }
 @media screen and (max-width: 900px){
   .image {
+    width:100%;height:100%
+  }
+  .image-75 {
     width:100%;height:100%
   }
 }

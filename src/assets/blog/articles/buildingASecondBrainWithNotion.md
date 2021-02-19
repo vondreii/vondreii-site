@@ -1,16 +1,6 @@
-<div class="writtenContent">
-
 #### 12 Feb 2021
 # Building A Second Brain using Notion: Storing Everything You Know In One Place
-___
-
-<!-- ----------- Intro ----------- -->
-<div class="avatar-block">
-    <img src="./assets/images/avatar.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
-    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
-</div>
-<br>
-<!-- ----------------------------- -->
+<hr>
 
 I always try to learn new things but sometimes I feel like a lot of the information doesn't stick. For example, one of my favourite things to do is to watch documentaries. I would watch about 1-3 a week, and they would be on all kinds of different topics: aircrafts, animals, true crime, disasters and more. At some point I realised that there were some I remembered, others I had completely forgotten, and others which I only remembered partially. So even though I had been learning a lot of new information, I had never really 'retained' it.
 
@@ -22,7 +12,7 @@ After 20-30 years, it is very easy to start forgetting the details. You'd be for
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/forgettingCurve.jpg" loading="lazy" alt="image" class="image"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/forgettingCurve.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>The forgetting Curve</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -58,7 +48,7 @@ Since documentary-watching was a very close hobby of mine, I thought I'd backtra
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/docos.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/docos.PNG" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>List of Docos</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -69,14 +59,7 @@ Now, when I look at this list, I am able to see a clear and complete picture of 
 
 I share this with the hubby since he likes reading my summaries :) 
 
-In the **Self Development** tab I also have a list of articles and books I have read, and what I have learnt from them.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/readingMaterial.PNG" loading="lazy" alt="image" class="image-full"/>
-	<div class="image-description"><p>List of Reading Material</p></div>
-</div>
-<!-- ----------------------------- -->
+In the **Self Development** tab I also have a list of articles and books I have read, and what I have learnt from them. 
 
 Now, whenever I read or watch something new, I just add it to the list.
 
@@ -85,13 +68,6 @@ Now, whenever I read or watch something new, I just add it to the list.
 This is something that I share with Hubby. 
 
 We usually try to be open and always communicate about what we can do to help each other, so anything we share goes into this page.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/household.PNG" loading="lazy" alt="image" class="image-full"/>
-	<div class="image-description"><p>Household</p></div>
-</div>
-<!-- ----------------------------- -->
 
 For example:
  - **Recipes:** We sometimes forget the exact measurements of ingredients, so instead of re-finding links to Tasty articles, we just collate everything in here.
@@ -110,14 +86,7 @@ For example:
 
 #### Life Goals, Events, etc
 
-Another thing I like to keep track of is my life in general. I never use to do this. But doing it now helps me with my overall mindset in general.  
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/lifeEvents.PNG" loading="lazy" alt="image" class="image-full"/>
-	<div class="image-description"><p>Life Events</p></div>
-</div>
-<!-- ----------------------------- -->
+Another thing I like to keep track of is my life in general. I never use to do this. But doing it now helps me with my overall mindset in general.
 
 I'm not that into journaling, though I do see the benefits of it. What works better for me though is to just store the major events that happened throughout my life. This ranges from parties, holidays, good times at uni/work, family time, self development milestones, to darker moments from earlier years. 
 
@@ -129,7 +98,7 @@ I also have a **Planning** tab where I write down notes for any upcoming events.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/gifts.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/gifts.PNG" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Christmas Planning</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -140,7 +109,7 @@ Under the 'Health' tab, I list my usual exercises I do during my weekly home rou
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/fitness.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/fitness.PNG" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Fitness</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -151,7 +120,7 @@ Here I track all my accounts. I include yearly financial goals so I keep ontop o
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/finances.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/finances.PNG" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Finances</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -164,20 +133,13 @@ Under the 'Work' tab, I include a copy of my resume. I also have a reflection ab
 
 One of the main things I use it for is to keep track of my job applications whenever I actively apply. Instead of sending thousands of resumes left and right, I try to focus on a few places that I feel I would be a good fit for based on the job description, work culture (and sometimes, reviews), and keep track of my progress with them.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/jobApplications.PNG" loading="lazy" alt="image" class="image-full"/>
-	<div class="image-description"><p>Job Applications</p></div>
-</div>
-<!-- ----------------------------- -->
-
 #### Side Projects
 
 Here I put a list of my side projects. In each of these pages I include to-dos, deadlines, notes or ideas. That way I can keep track of my progress for each project I am working on. This ties in with the **Work** tab a little bit, because some of these can be listed as experience on the resume :)
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/sideProjects.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/sideProjects.PNG" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Side Projects</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -188,7 +150,7 @@ My last (but not least important) tab includes anything regarding formal educati
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/onlineCourses.PNG" loading="lazy" alt="image" class="image-full"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/onlineCourses.PNG" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Online Courses</p></div>
 </div>
 <!-- ----------------------------- -->

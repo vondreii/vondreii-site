@@ -1,16 +1,6 @@
-<div class="writtenContent">
-
 #### 27 Nov 2020
 # Creating Your Own Blog Using Hugo
-___
-
-<!-- ----------- Intro ----------- -->
-<div class="avatar-block">
-    <img src="./assets/images/avatar.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
-    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
-</div>
-<br>
-<!-- ----------------------------- -->
+<hr>
 
 For this tutorial we will create our own blog site from scratch using a framework called Hugo. 
 
@@ -34,13 +24,6 @@ We will go through everything from:
 
 Create a folder where you want to store your project.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/new-folder-for-project.PNG" loading="lazy" alt="image" class="image"/>
-	<div class="image-description"><p>Create a folder for your project</p></div>
-</div>
-<!-- ----------------------------- -->
-
 Go into the command prompt and navigate to the folder you have created. Run `cd <path to your project folder>`. For example, I created my folder `hugo website` in the Desktop, so I would run:
 
 ```bash
@@ -48,15 +31,9 @@ cd C:\Users\Sharl\Desktop\hugo website
 
 ```
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/cmd-open-hugo-project.PNG" loading="lazy" alt="image" class="image"/>
-	<div class="image-description"><p>CMD</p></div>
-</div>
-<!-- ----------------------------- -->
-
 Now, we will install hugo and create a new project from scratch. In the command prompt, we will run a few commands that will install hugo and create the base of the website.
 
+#### Windows
 For windows, if you use chocolatey for package management, run:
 
 ```bash
@@ -72,13 +49,7 @@ scoop install hugo
 
 You can check what you are using by going into your `C:\ProgramData` folder and seeing if you either have chocolatey or scoop.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/install-hugo.PNG" loading="lazy" alt="image" class="image"/>
-	<div class="image-description"><p>More options to install hugo: https://gohugo.io/getting-started/installing/</p></div>
-</div>
-<!-- ----------------------------- -->
-
+#### MAC
 To install hugo using a MAC:
 
 ```bash
@@ -86,6 +57,7 @@ brew install hugo
 
 ```
 
+#### Linux
 To install hugo using Linux:
 
 ```bash
@@ -263,16 +235,9 @@ hugo serve
 
 ```
 
-Now go into `http://localhost:1313/` in one of your browsers. Your website should look like this:
+Now go into `http://localhost:1313/` in one of your browsers. 
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/LavaBlogEmpty.PNG" loading="lazy" alt="image" class="image-full"/>
-	<div class="image-description"><p>Hugo site without content</p></div>
-</div>
-<!-- ----------------------------- -->
-
-As you can see, there are no posts! We will need to add in some content. Each post is going to be written in a separate markdown file.
+Your website should look like it has the general theme applied. However, the website will be empty! There are no posts, so we will need to add in some content. Each post is going to be written in a separate markdown file.
 For example, if you wanted to write something on Chocolate Lava Cakes, you would have a file called `ChocolateLavaCake.md` where you would write your text.
 
 The hugo-sugoi theme comes with some examples. Navigate to `my-food-blog\themes\hugo-sugoi\exampleSite`. There you will see a folder called `content`.

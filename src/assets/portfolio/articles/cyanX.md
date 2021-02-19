@@ -4,25 +4,7 @@
 # CyanX
 #### 2D • Game • Side Scroller • Puzzle
 
-<!-- ----------- Image ----------- -->
-<div class="row">
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/gameplay-1.PNG" loading="lazy" alt="image" class="image-full">
-    </div>
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/gameplay-2.PNG" loading="lazy" alt="image" class="image-full">
-    </div>
-</div>
-<!-- ----------------------------- -->
-
-<div class="download-container">
-    <div class="download-link">
-        <a href="./assets/portfolio/downloads/CyanX.zip" class="button">↓ Download Game Here ↓</a>
-    </div>
-    <div class="download-link">
-        <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
-    </div>
-</div>
+<hr>
 
 ### About the Game
 
@@ -34,6 +16,11 @@ The game consists of different three locations. At each location, you must solve
 The aim of the game is to progress to the end of each location by solving puzzles to rescue trapped animals. You can also collect items which you can use to craft weapons (which can get more and more powerful the more you level up). 
 Experience points also allow you to level up and unlock certain abilities.
 
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+  <img src="./assets/portfolio/images/cyanX/header.jpg" loading="lazy" alt="image" class="image-75">
+</div>
+<!-- ----------------------------- -->
 
 ### Controls
 	
@@ -96,18 +83,6 @@ The concept design for this game included more than three locations. This game c
 </table>
 <!-- ----------------------------- -->
 
-<!-- ----------- Image ----------- -->
-<div class="row">
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/khandren-map.jpg" loading="lazy" alt="image" class="image-full">
-    </div>
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/game-on-computer.jpg" loading="lazy" alt="image" class="image-full">
-    </div>
-</div>
-<!-- ----------------------------- -->
-
-	
 ### Collectables
 
 To be able to craft weapons, you have to collect certain resources, which are scattered throughout each location. Some resources can craft more powerful weapons than others. Wood is the least powerful, and Ruby is the most powerful.
@@ -129,7 +104,7 @@ In addition to resources, you can also collect:
    
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/cyanX/collectable.png" loading="lazy" alt="image" class="image"/> 
+  <img src="./assets/portfolio/images/cyanX/collectable.png" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -142,13 +117,8 @@ If you do not have the available resources that are required, then you cannot cr
 Once you have crafted a weapon, you can equip it anytime by navigating back to the Craftbox and selecting 'equip.'
   
 <!-- ----------- Image ----------- --> 
-<div class="row">
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/weapons.png" loading="lazy" alt="image" class="image-full">
-    </div>
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/craftbox.PNG" loading="lazy" alt="image" class="image-full">
-    </div>
+<div class="image-container">
+  <img src="./assets/portfolio/images/cyanX/craftbox.PNG" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -164,44 +134,12 @@ The more experience points you collect, the more you are able to level up, there
 
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-	<img src="./assets/portfolio/images/cyanX/level-up.png" loading="lazy" alt="image" class="image">
+	<img src="./assets/portfolio/images/cyanX/level-up.png" loading="lazy" alt="image" class="image-75">
 </div>
 <!-- ----------------------------- -->
 
 Abilities you can unlock include earning more experience points for each animal rescued, strengthened health, 
 being able to craft more powerful weapons, being invincible to spikes and becoming an XP magnet (this is when experience points float towards you when you get within a reasonable range to them).
-
-### Assets Artwork
-
-Level 1 contains platforms that are sand-themed, as the level design is situated in a desert. 
-Level 2 contains a grassy plain with platforms that are grass-themed. 
-Level 3 contains platforms that are ice-themed, as the level design is situated in an icy and snowy environment such as a mountain.
-
-<!-- ----------- Image ----------- --> 
-<div class="row">
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/platforms-design-1-3.png" loading="lazy" alt="image" class="image-full">
-    </div>
-    <div class="col-xs-12 col-md mb-4">
-			<img src="./assets/portfolio/images/cyanX/platforms-design-2.png" loading="lazy" alt="image" class="image-full">
-    </div>
-</div>
-<!-- ----------------------------- -->
-
-### Background Artwork
-
-<!-- ----------- Image ----------- --> 
-<div class="image-container">
-    <div class="row"> 
-      <div class="col-xs-12 col-md mb-4 image-container">
-        <img src="./assets/portfolio/images/cyanX/header.png" loading="lazy" alt="image" style="width:100%">
-      </div>
-      <div class="col-xs-12 col-md mb-4 image-container">
-        <img src="./assets/portfolio/images/cyanX/sandy-area.png" loading="lazy" alt="image" style="width:100%">
-      </div>  
-    </div>
-</div>
-<!-- ----------------------------- -->
 
 <div class="download-container">
     <div class="download-link">

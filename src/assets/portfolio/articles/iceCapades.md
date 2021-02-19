@@ -4,17 +4,7 @@
 # Ice Capades
 #### 2D • Game • Top-Down • Puzzle
 
-<!-- ----------- Intro ----------- -->
-<div class="image-container">
-    <img src="./assets/portfolio/images/iceCapades/header.jpg" loading="lazy" alt="image" class="image-full"/>
-</div>
-<!-- ----------------------------- -->
-
-<div class="download-container">
-    <div class="download-link">
-        <a href="./assets/portfolio/downloads/IceCapades.zip" class="button">↓ Download Game Here ↓</a>
-    </div>
-</div>
+<hr>
 
 ### About the Game
 
@@ -33,7 +23,7 @@ Once at the oil rig, you must destroy it by reaching and turning off the main po
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/story-help-1.PNG" loading="lazy" alt="image" class="image"/> 
+  <img src="./assets/portfolio/images/iceCapades/4-levels.png" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -51,12 +41,6 @@ This is the tutorial level where the game guides you through the basic gameplay.
 * **Walk.** Left, right, up or down arrow keys.
 * **Interact/collect objects.** Walk into them.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/IceCapades-menu-description.PNG" loading="lazy" alt="image" class="image"/>
-</div>
-<!-- ----------------------------- -->
-
 ### Levels
 
 Altogether there are 5 levels.
@@ -69,17 +53,11 @@ Altogether there are 5 levels.
 
 Throughout the game you also come across other characters and animals that have been affected by the ice rig and melting ice.
 
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/4-levels.png" loading="lazy" alt="image" class="image"/> 
-</div>
-<!-- ----------------------------- -->
-
 During the last level, you must navigate to the switch that shuts down the whole oil rig. Turning the switch off sets all the power reactors on fire.
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/end-level.png" loading="lazy" alt="image" class="image"/> 
+  <img src="./assets/portfolio/images/iceCapades/end-level.png" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 

@@ -2,15 +2,7 @@
 
 #### 11 Oct 2020
 # Creating a list of posts using Markdown on your Angular Website
-___
-
-<!-- ----------- Intro ----------- -->
-<div class="avatar-block">
-    <img src="./assets/images/avatar.jpg" loading="lazy" alt="Avatar" class="avatar avatar-align">
-    <h5 class="avatar-text avatar-align"> by Vondreii</h5>
-</div>
-<br>
-<!-- ----------------------------- -->
+<hr>
 
 Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files!
 
@@ -48,16 +40,7 @@ There are a few places where you can read some of the syntax used for markdown:
 
 The idea is that each post is written in their own markdown file. All these markdown files will be stored in a folder. We will then display each post using the Angular Framework, which makes up the structure of our web application.
 
-Using Angular we will display a preview on the main page which includes the title and description of the post, and a link to the actual page. For example, this is the Vondreii homepage:
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/vondreii.PNG" loading="lazy" alt="image" class="image"/>
-	<div class="image-description"><p>Vondreii home page</p></div>
-</div>
-<!-- ----------------------------- -->
-
-And clicking on each link will navigate to it's own page.
+Using Angular we will display a preview on the main page which includes the title and description of the post, and a link to the actual page - clicking on each link will navigate the post.
 
 This tutorial expands on the one from [Add and View Markdown Files in your Angular App](https://sorakhan.com/blog/post/markdown-in-angular-app). An alterative framework to this kind of post/blog-structure is also to use Hugo, which you can read about [here](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/) and [here](/blog/createYourOwnBlogUsingHugo).
 
@@ -119,14 +102,17 @@ import { HttpClientModule, HttpClient } from '@angular/common/http'; // add this
 We are going to store them in the assets folder. Navigate to `src\assets`, and create a new folder. You can call it `posts`.
 So, the path to the folder where we will be storing your posts is `src\assets\posts`.
 
-Go ahead and make a few example posts. Here I have made 3 files, where I plan to write separate posts about 3 different cheesecake recipes:
+You will need to make 3 markdown files in `src\assets\posts`. Create:
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-    <img src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/markdownFilesAsPosts.PNG" loading="lazy" alt="image" class="image-full"/>
-	<div class="image-description"><p>Create markdown files</p></div>
-</div>
-<!-- ----------------------------- -->
+```bash
+  CaramelCheesecakeRecipe.md
+```
+```bash
+  ChocolateCheesecakeRecipe.md
+```
+```bash
+  StrawberryCheesecakeRecipe.md
+```
 
 Go ahead and populate some of these files with the content you would like to post. You can just add something small for now. After all, we want to make sure the actual functionality works first.
 
@@ -422,17 +408,7 @@ const routes: Routes = [
 
 ```
 
-Now you can run `ng serve --open` again to view your web application. If everything worked, it should now look something like this:
-
-<!-- ----------- Video ----------- -->
-<div class="image-container">
-    <video controls="true" preload="none" allowfullscreen="true" poster="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/threePosts.PNG" class="image-full">
-    <source src="./assets/blog/images/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite/markdownWorks.mp4" loading="lazy" type="video/mp4">
-    </video>
-</div>
-<!-- ----------------------------- -->
-
-As you can see, all your three pages are displayed on the home page, all linking to their corresponding post.
+Now you can run `ng serve --open` again to view your web application. If everything worked, you should now be able to click on the **Read More >>** links, and have them navigate to their corresponding markdown pages.
 
 ### 5. Adding more posts
 
