@@ -1,44 +1,37 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
- 
+import { NgModule, SecurityContext  } from '@angular/core';
 
-// Angular Fire Modules
-import { AngularFireModule } from "@angular/fire";
-import { AngularFireAnalyticsModule } from "@angular/fire/analytics";
-import { AngularFirestoreModule } from "@angular/fire/firestore";
-import { AngularFireStorageModule } from "@angular/fire/storage";
-
-// Environment Files
-import { environment } from "../environments/environment"; 
-
-// App Files
-import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { AboutComponent } from './about/about.component';
+import { AppComponent } from './app.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
-import { SharedModule } from './shared/shared.module';
-import { PostsComponent } from './posts/posts.component';
-import { ProjectsModule } from './projects/projects.module';
-import { PostsModule } from './posts/posts.module';
+
+// Imports for Markdown
+import { MarkdownModule } from 'ngx-markdown';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { BlogPostComponent } from './blog/blog-post/blog-post.component';
+import { BlogListComponent } from './blog/blog-list/blog-list.component';
+import { PageManagerComponent } from './page-manager/page-manager.component';
+import { PortfolioListComponent } from './portfolio/portfolio-list/portfolio-list.component';
+import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    ContactComponent
+    AboutMeComponent,
+    ContactComponent,
+    BlogPostComponent,
+    BlogListComponent,
+    PageManagerComponent,
+    PortfolioListComponent,
+    PortfolioItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
-    AngularFireAnalyticsModule,
-    AngularFirestoreModule,
-    AngularFireStorageModule,
-    SharedModule,
-    ProjectsModule,
-    PostsModule
+    HttpClientModule,
+    MarkdownModule.forRoot({ loader: HttpClient, sanitize: SecurityContext.NONE })
   ],
-  exports: [],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -3,9 +3,13 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vondreii-app": {
+    "vondreii": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,30 +17,26 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/vondreii-app",
+            "outputPath": "dist/vondreii",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": false,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/_redirects"
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/font-awesome/css/font-awesome.css",
-              "./node_modules/prismjs/themes/prism-okaidia.css"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.css", 
+              "./node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js", 
               "./node_modules/popper.js/dist/umd/popper.js",
               "./node_modules/bootstrap/dist/js/bootstrap.js",
-              "./node_modules/prismjs/prism.js",
-              "./node_modules/prismjs/components/prism-csharp.min.js",
-              "./node_modules/prismjs/components/prism-css.min.js"
+              "node_modules/marked/lib/marked.js"
             ]
           },
           "configurations": {
@@ -50,9 +50,7 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
-              "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
@@ -74,18 +72,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "vondreii-app:build"
+            "browserTarget": "vondreii:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "vondreii-app:build:production"
+              "browserTarget": "vondreii:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "vondreii-app:build"
+            "browserTarget": "vondreii:build"
           }
         },
         "test": {
@@ -97,22 +95,18 @@
             "karmaConfig": "karma.conf.js",
             "assets": [
               "src/favicon.ico",
-              "src/assets",
-              "src/_redirects"
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "./node_modules/bootstrap/dist/css/bootstrap.css",
-              "./node_modules/font-awesome/css/font-awesome.css",
-              "./node_modules/prismjs/themes/prism-okaidia.css"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.css", 
+              "./node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js", 
               "./node_modules/popper.js/dist/umd/popper.js",
               "./node_modules/bootstrap/dist/js/bootstrap.js",
-              "./node_modules/prismjs/prism.js",
-              "./node_modules/prismjs/components/prism-csharp.min.js",
-              "./node_modules/prismjs/components/prism-css.min.js"
+              "node_modules/marked/lib/marked.js"
             ]
           }
         },
@@ -133,15 +127,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "vondreii-app:serve"
+            "devServerTarget": "vondreii:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "vondreii-app:serve:production"
+              "devServerTarget": "vondreii:serve:production"
             }
           }
         }
       }
-    }},
-  "defaultProject": "vondreii-app"
+    }
+  },
+  "defaultProject": "vondreii"
 }

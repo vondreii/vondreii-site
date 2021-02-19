@@ -1,3 +1,18 @@
-<router-outlet></router-outlet>
-<!-- Footer -->
-<app-footer></app-footer>
+<!-- Sidebar menu -->
+<div id="mySidebar" class="sidebar">
+  <a (click)="closeNavOnCLick()" routerLink="portfolio">Portfolio</a>
+  <a (click)="closeNavOnCLick()" routerLink="blog">Blog</a>
+  <a (click)="closeNavOnCLick()" routerLink="about-me">About</a>
+  <a (click)="closeNavOnCLick()" routerLink="contact">Contact</a>
+</div>
+<!-- Main right part of page next to sidebar -->
+<div id="main">
+  <!-- Small navbar for sidebar expand and some social media -->
+  <nav class="navbar sticky-top bg-grey">
+    <button class="openbtn" (click)="openCloseNav()">☰</button>
+  </nav>
+  <!-- Render the content in this section -->
+  <div class="container">
+      <router-outlet></router-outlet>
+  </div>
+</div>
