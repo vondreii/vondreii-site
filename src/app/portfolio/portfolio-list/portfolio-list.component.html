@@ -1,25 +1,11 @@
-<div class="container pt-3">
+<!-- Rows of projects -->
+<div class="container">
   <div class="row" *ngFor="let row of sortedRowsWithItems">
+    <!-- Each project item -->
     <div class="col-xs-12 col-md mb-4" *ngFor="let item of row">
-      <!-- <h4>{{item.title}}</h4> -->
       <a routerLink="{{item.link}}">
         <img src="{{item.image}}" class="image-full portfolio-image" />
       </a>
     </div>
-    <!-- <div class="col-xs-12 col-md mb-4">
-      <img src="./assets/portfolio/images/racingGame/header.PNG" class="image-full portfolio-image"/>
-    </div>
-    <div class="col-xs-12 col-md mb-4">
-      <img src="./assets/portfolio/images/racingGame/header.PNG" class="image-full portfolio-image"/>
-    </div> -->
   </div>
 </div>
-
-<!-- *ngFor="let row of sortedRowsWithItems" -->
-
-<!-- <div class="col-xs-12 col-md mb-4" *ngFor="let item of row">
-  <a routerLink="{{item.link}}">
-    <img src="{{item.image}}" class="image-full portfolio-image" />
-  </a> -->
-  <!-- <h2>{{item.title}}</h2> -->
-<!-- </div> -->

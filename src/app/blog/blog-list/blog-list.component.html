@@ -1,27 +1,17 @@
-<!-- List of articles on the blog page -->
-<section class="bg-color pt-3">
-  <div class="container search-container">
-    <!-- List of all posts -->
-    <div id="myUL">
-      <article *ngFor="let post of contentList; index as i">
-        <!-- display each article card with it's own background image  -->
-        <section class="cardPreview">
-          <div class="padding">
-            <!-- <div class="card-image" [ngStyle]="{'background-image': 'url(' + getURL(i) + ')'}"></div> -->
-            <div class="card-info">
-              <a class="date">{{post.date}}</a>
-              <a class="tag">{{post.tags}}</a>
-            </div>
-            <!-- Article information -->
-            <h1>{{post.title}}</h1>
-            <p>
-              {{post.description}}
-              <a routerLink="{{post.link}}">Read More >></a>
-            </p>
-          </div>
-        </section>
-        <!-- End of article -->
-      </article>
+<section class="pt-3">
+  <!-- For each post -->
+  <article class="card" *ngFor="let post of contentList; index as i">
+    <!-- Individual post details  -->
+    <div class="padding">
+      <!-- Article information -->
+      <a class="sub right">{{post.date}}</a>
+      <a class="sub left">{{post.tags}}</a>
+      <h1 class="heading">{{post.title}}</h1>
+      <p class="description">
+        {{post.description}}
+        <a routerLink="{{post.link}}">Read More >></a>
+      </p>
     </div>
-  </div>
+    <!-- End of article -->
+  </article>
 </section>

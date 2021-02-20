@@ -1,62 +1,43 @@
-
-/* List of articles */
-.cardPreview {
-  font-family:'Montserrat', sans-serif
-}
 .padding {
   padding:1em 10em 1em 10em
 }
-.cardPreview h1 {
-  margin:0;padding-top:3rem;font-size:2rem;line-height:1.2em;
-  text-align:left;font-family:'Montserrat', sans-serif
+.card {
+  font-family:'Montserrat', sans-serif;
+  border: none;
+  margin-bottom:10px;
 }
-.cardPreview p {
-  font-size:1em;margin-top:2.5em;line-height:2em;margin-bottom:20px;
-  text-align:left;padding-bottom:3rem;border-bottom: 1px solid black
+.heading {
+  padding-top:3rem;
+  font-size:2rem;
+  line-height:1.2em;
+  text-align:left;
+  font-family:'Montserrat', sans-serif
 }
-.card-image {
-  height:30vh;background-size:cover;background-position:center;box-shadow:0 0 5em -1em black;border-radius:5px;
-  margin-bottom:30px;box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2);transition:0.3s;border:none
-}
-.card-info {
-  padding-bottom:0.5rem
-}
-.tag {
-  float:left;text-align:left;font-size:1.5em;color:#727272 !important;
+.sub {
+  font-size:1.5em;
+  color:#727272 !important;
   text-decoration:none;
 }
-.date {
-  float:right;font-size:1.5em;color:#727272 !important;
-  text-decoration:none;
+.left {
+  float:left;
 }
-
-/* List of articles - Smallest screens (phones) */
-@media screen and (min-width:767px) and (max-width:1400px) {
-  .padding {
-    padding:2rem
-  }
-}@media screen and (min-width:767px) and (max-width:1100px) {
-  .padding {
-    padding:1rem
-  }
+.right {
+  float:right;
 }
-@media screen and (max-width:766px) {
-  .cardPreview {
-    height:auto
-  }
+.description {
+  font-size:1em;
+  margin-top:2.5em;
+  line-height:2em;
+  margin-bottom:20px;
+  text-align:justify;
+  padding-bottom:3rem;
+  border-bottom: 1px solid black
+}
+@media screen and (max-width:1000px) {
   .padding {
     padding:0.5rem
   }
-  .card-info {
-    padding-bottom:2rem
-  }
-  .cardPreview tag {
-    font-size:1.5rem
-  }
-  .cardPreview p {
-    font-size:12pt;line-height:1.8rem;padding-bottom:3em
-  }
-  .date { 
-    display:none 
+  .right { 
+    display:none; 
   }
 }

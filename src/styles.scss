@@ -14,6 +14,8 @@ body {
 .center {
   text-align:center
 }
+/* Main content div */
+
 .extraPadding {
   padding-bottom:30px
 }
@@ -53,7 +55,6 @@ pre, pre code {
 }
 
 
-
 // sidebar
 #mySidebar {
   width: 250px;
@@ -89,10 +90,6 @@ pre, pre code {
   .sidebar a {font-size: 18px;}
 }
 
-/* Main content div */
-.container {
-  text-align: center
-}
 .content {
   padding: 0px 180px; 
   text-align:justify;text-decoration:none;font-size:17px;
