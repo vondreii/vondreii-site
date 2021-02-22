@@ -1,11 +1,19 @@
 [
-  {
-      "title": "3D Racing Game", 
+  { 
+    "title": "DocoSummaries", 
+    "date": "2021", 
+    "link": "/portfolio/docosummaries", 
+    "tags": "Angular • Firebase", 
+    "description": "Docosummaries is a place where you can learn about new documentaries...",
+    "image": "./assets/portfolio/images/docosummaries/header.jpg"
+  },
+  { 
+      "title": "Calculator", 
       "date": "2019", 
-      "link": "/portfolio/streetRacingGame", 
-      "tags": "3D • Game • Research • Racing", 
-      "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road...",
-      "image": "./assets/portfolio/images/racingGame/header.jpg"
+      "link": "/portfolio/calculator", 
+      "tags": "C# • Tools", 
+      "description": "This is a simple calculator app that was made to replicate modern calculator apps that can be seen on smartphones...",
+      "image": "./assets/portfolio/images/calculator/header.PNG"
   },
   { 
       "title": "CyanX", 
@@ -22,5 +30,13 @@
       "tags": "2D • Game • Top-Down • Puzzle", 
       "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles...",
       "image": "./assets/portfolio/images/iceCapades/header.jpg"
+  },
+  {
+    "title": "3D Racing Game", 
+    "date": "2019", 
+    "link": "/portfolio/streetRacingGame", 
+    "tags": "3D • Game • Research • Racing", 
+    "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road...",
+    "image": "./assets/portfolio/images/racingGame/header.jpg"
   }
 ]
