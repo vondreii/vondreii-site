@@ -19,6 +19,13 @@
         "link": "/blog/creatingAListOfPostsUsingMarkdownOnYourAngularWebsite", 
         "tags": "Angular • Markdown", 
         "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
+    },
+    { 
+        "title": "Hosting An Angular Application Using Github And Netlify", 
+        "date": "30 Aug 2020", 
+        "link": "/blog/hostingAngularApplicationUsingGithubAndNetlify", 
+        "tags": "Angular • Github • Netlify", 
+        "description": "Hugo is a framework where you can create your own website, completely from scratch without much effort or without knowing too much (or any) of the internal programming. There are also many web hosting platforms that can easily host a Hugo project for free - meaning, the only money you will spend will be for the custom domain name..."
     }
 ]
 
