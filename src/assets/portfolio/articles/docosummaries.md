@@ -31,7 +31,7 @@ The website uses:
 
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-	<img src="./assets/portfolio/images/docosummaries/website.jpg" loading="lazy" alt="image" class="image-75">
+	<img src="./assets/portfolio/images/docosummaries/1.jpg" loading="lazy" alt="image" class="image-75">
 </div>
 <!-- ----------------------------- -->
 

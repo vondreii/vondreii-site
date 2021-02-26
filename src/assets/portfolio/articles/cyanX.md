@@ -104,7 +104,7 @@ In addition to resources, you can also collect:
    
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/cyanX/collectable.png" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/cyanX/1.png" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -118,7 +118,7 @@ Once you have crafted a weapon, you can equip it anytime by navigating back to t
   
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-  <img src="./assets/portfolio/images/cyanX/craftbox.jpg" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/cyanX/2.jpg" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 
@@ -134,7 +134,7 @@ The more experience points you collect, the more you are able to level up, there
 
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-	<img src="./assets/portfolio/images/cyanX/level-up.png" loading="lazy" alt="image" class="image-75">
+	<img src="./assets/portfolio/images/cyanX/3.png" loading="lazy" alt="image" class="image-75">
 </div>
 <!-- ----------------------------- -->
 

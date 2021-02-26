@@ -32,7 +32,7 @@ You also could not die when hitting obstacles. The new game could also record al
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/racingGame/roadblock.PNG" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/racingGame/1.PNG" loading="lazy" alt="image" class="image-75"/> 
 </div>
 <!-- ----------------------------- -->
 

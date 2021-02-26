@@ -10,7 +10,7 @@ Right click anywhere on the page and select **Inspect Element**:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/RightClickInspectElement.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/1.jpg" loading="lazy" alt="image" class="image-75"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -18,7 +18,7 @@ In the top bar there is an option to view the screen on a different device. You 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/SelectAPhone.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/2.jpg" loading="lazy" alt="image" class="image-75"/>
 </div>
 <!-- ----------------------------- -->
 
@@ -29,7 +29,7 @@ When the page reloads, the Instagram bar should now be visible:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/RefreshScreen.jpg" loading="lazy" alt="image-75" class="image"/>
+	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/3.jpg" loading="lazy" alt="image-75" class="image"/>
 </div>
 <!-- ----------------------------- -->
 

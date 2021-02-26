@@ -12,7 +12,7 @@ This is a simple calculator app that was made to replicate modern calculator app
 
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
-	<img src="./assets/portfolio/images/calculator/desktop.jpg" loading="lazy" alt="image" class="image-75">
+	<img src="./assets/portfolio/images/calculator/1.jpg" loading="lazy" alt="image" class="image-75">
 </div>
 <!-- ----------------------------- -->
 
