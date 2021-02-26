@@ -112,7 +112,7 @@ In this case, it does not really matter which option you choose as the end resul
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/newSiteFromGit4.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/1.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Select repositories you will allow Netlify access to</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -122,7 +122,7 @@ Select the repository where you have stored your Angular code:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/newSiteFromGit5.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/2.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Select the repository you want to host</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -131,7 +131,7 @@ Now you will be presented with a page asking for some information about the depl
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/newSiteFromGit6.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/3.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Fill in basic details</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -243,7 +243,7 @@ If you go to your remote repository you will see that your `dist/{project-name}`
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/distFolderInRepo.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/4.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>dist/{project-name} stored remotely on Github</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -257,7 +257,7 @@ Finally, go back to your site's page on Netlify and click on the **Deploy settin
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/deploySettings.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/5.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>dist/{project-name} stored remotely on Github</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -269,7 +269,7 @@ For example, mine was `dist/test-angular-app`:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/BuildAndDeploySettings2.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/6.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Change the Publish Directory</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -282,7 +282,7 @@ If you want to change the domain name to something that is not automaticaly gene
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/deploySettings.jpg" loading="lazy" alt="image" class="image-full"/>
+    <img src="./assets/blog/images/hostingAngularApplicationUsingNetlify/5.jpg" loading="lazy" alt="image" class="image-full"/>
 	<div class="image-description"><p>Deploy settings</p></div>
 </div>
 <!-- ----------------------------- -->

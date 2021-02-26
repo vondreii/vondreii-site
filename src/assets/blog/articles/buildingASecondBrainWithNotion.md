@@ -12,7 +12,7 @@ After 20-30 years, it is very easy to start forgetting the details. You'd be for
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/forgettingCurve.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/1.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>The forgetting Curve</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -48,7 +48,7 @@ Since documentary-watching was a very close hobby of mine, I thought I'd backtra
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/docos.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/2.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>List of Docos</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -79,7 +79,7 @@ For example:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/recipes.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/3.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Example of Recipes</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -98,7 +98,7 @@ I also have a **Planning** tab where I write down notes for any upcoming events.
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/gifts.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/4.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Christmas Planning</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -109,7 +109,7 @@ Under the 'Health' tab, I list my usual exercises I do during my weekly home rou
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/fitness.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/5.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Fitness</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -120,7 +120,7 @@ Here I track all my accounts. I include yearly financial goals so I keep ontop o
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/finances.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/6.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Finances</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -139,7 +139,7 @@ Here I put a list of my side projects. In each of these pages I include to-dos, 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/sideProjects.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/7.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Side Projects</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -150,7 +150,7 @@ My last (but not least important) tab includes anything regarding formal educati
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/onlineCourses.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/8.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Online Courses</p></div>
 </div>
 <!-- ----------------------------- -->
