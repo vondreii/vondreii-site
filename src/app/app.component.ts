@@ -7,12 +7,13 @@ import { HostListener } from "@angular/core";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'vondreii';
   
+  // variables
+  title = 'vondreii';
   screenWidth: any;
-
   navOpen: boolean = true;
 
+  // On app load, determine if the navbar should be open/closed
   constructor() { 
     console.log(this.getScreenSize());
     if (this.screenWidth < 1000) {
@@ -22,14 +23,14 @@ export class AppComponent {
       this.navOpen = false;
     }
   }
-
+  // Listens to window resize event
   @HostListener('window:resize', ['$event'])
     getScreenSize(event?) {
       this.screenWidth = window.innerWidth;
       console.log(this.screenWidth);
       console.log(this.navOpen)
     }
-
+  // Button to open/close the navbar
   openCloseNav() {
     if (this.navOpen) {
       document.getElementById("mySidebar").style.width = "250px";
@@ -41,8 +42,8 @@ export class AppComponent {
     }
     this.navOpen = !this.navOpen;
   }
-
-  closeNavOnCLick() {
+  // For small screens, automatically close navbar if page selected
+  closeNavOnClick() {
     if (this.screenWidth < 1000) {
       document.getElementById("mySidebar").style.width = "0";
       document.getElementById("main").style.marginLeft= "0";

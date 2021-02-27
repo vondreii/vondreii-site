@@ -19,7 +19,6 @@ export class PageManagerComponent implements OnInit {
   // Posts already sorted into their different pages
   posts1: Content[] = blogpage1;
   posts2: Content[] = blogpage2;
-
   portfolio1: Content[] = portfoliopage1;
 
   // Variables to keep track of current data to be displayed
@@ -39,22 +38,6 @@ export class PageManagerComponent implements OnInit {
   }
 
   changePageBlog(pageNo: number) {
-    // Switches to view appropriate content depending on page
-    switch(pageNo) { 
-      case 1: { 
-        this.itemsToDisplay = this.posts1; this.currentPage = 1; break; 
-      } 
-      case 2: { 
-        this.itemsToDisplay = this.posts2; this.currentPage = 2; break; 
-      } 
-      default: { 
-         break; 
-      } 
-    } 
-    window.scrollTo(0, 0)
-  }
-
-  changePagePortfolio(pageNo: number) {
     // Switches to view appropriate content depending on page
     switch(pageNo) { 
       case 1: { 

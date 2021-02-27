@@ -39,12 +39,14 @@
 }
 
 
+.center {
+  text-align: center;
+}
+
 
 
 /* -- -- -- -- -- -- -- -- -- -- Unsorted -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-.center {
-  text-align:center
-}
+
 /* Main content div */
 
 .extraPadding {
@@ -86,41 +88,6 @@ pre, pre code {
   // background-color:rgb(41, 47, 54) !important;color:#ffffff !important;
 }
 
-
-// sidebar
-#mySidebar {
-  width: 250px;
-}
-.sidebar {
-  height: 100%;width: 0;position: fixed;z-index: 1;top: 0;left: 0;
-  text-align: center;background-color: #30333a;overflow-x: hidden;transition: 0.5s;padding-top: 60px;
-}
-.sidebar a {
-  line-height: 80px;text-decoration: none;font-size: 25px;color: #818181;display: block;transition: 0.3s;
-}
-.sidebar a:hover {
-  color: rgb(233, 233, 233);text-decoration: none;
-}
-.openbtn {
-  font-size: 20px;cursor: pointer;padding: 10px 15px;border: none;
-  color: #383c44
-}
-.openbtn:hover {
-  background-color: rgb(219, 219, 219);border-radius: 25px;transition: 0.3s
-}
-#main {
-  transition: margin-left .5s;margin-left: 250px;
-}
-@media only screen and (max-width: 1000px) {
-  #mySidebar {
-    width: 0px;
-  }
-  #main {
-    margin-left: 0px;
-  }
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
-}
 
 
 

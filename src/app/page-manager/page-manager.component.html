@@ -1,32 +1,26 @@
-<!-- Buttons for each page number -->
+<!-- If Blog -->
 <div class="container" *ngIf="blog; else something">
   <br>
-  <div class="bg-color page-numbers-container">
-    <a (click)="changePageBlog(1)" routerLink="/blog" class="page-numbers">1</a>
-    <a (click)="changePageBlog(2)" routerLink="/blog" class="page-numbers">2</a>
+  <!-- Page Numbers -->
+  <div class="center">
+    <a (click)="changePageBlog(1)" routerLink="/blog" class="page-no">1</a>
+    <a (click)="changePageBlog(2)" routerLink="/blog" class="page-no">2</a>
   </div>
-  
-  <!-- List of items, limited to the page number it is on -->
+  <!-- List of blog items -->
   <app-blog-list [contentList]='itemsToDisplay' [currentPage]='currentPage'></app-blog-list>
-  
-  <!-- Buttons for each page number -->
-  <div class="bg-color page-numbers-container">
-    <a (click)="changePageBlog(1)" routerLink="/blog" class="page-numbers">1</a>
-    <a (click)="changePageBlog(2)" routerLink="/blog" class="page-numbers">2</a>
+  <!-- Page Numbers -->
+  <div class="center">
+    <a (click)="changePageBlog(1)" routerLink="/blog" class="page-no">1</a>
+    <a (click)="changePageBlog(2)" routerLink="/blog" class="page-no">2</a>
   </div>
-  
-  <div class="paddingBottom"></div>
 </div>
-<!-- For portfolio -->
+<!-- If portfolio -->
 <ng-template #something>
   <h2 class="heading">Portfolio</h2>
   <br>
+  <!-- List of portfolio items -->
   <app-portfolio-list [contentList]='itemsToDisplay' [currentPage]='currentPage'></app-portfolio-list>
-
-  <!-- <br>
-  <div class="bg-color page-numbers-container">
-    <a (click)="changePage(1)" routerLink="/portfolio" class="page-numbers">1</a>
-    <a (click)="changePage(2)" routerLink="/portfolio" class="page-numbers">2</a>
-  </div> -->
-  <div class="paddingBottom"></div>
 </ng-template>
+<!-- Extra spaces -->
+<div class="pb-5"></div>
+<div class="pb-5"></div>
