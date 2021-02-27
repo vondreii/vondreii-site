@@ -96,20 +96,13 @@ When I write things I am grateful for, I also include it in here.
 
 I also have a **Planning** tab where I write down notes for any upcoming events. For example, during Christmas, I will use it to keep track of the gifts I need to get people.
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/4.jpg" loading="lazy" alt="image" class="image-75"/>
-	<div class="image-description"><p>Christmas Planning</p></div>
-</div>
-<!-- ----------------------------- -->
-
 #### Health
 
 Under the 'Health' tab, I list my usual exercises I do during my weekly home routines. All I have to do is grab my laptop, IPad or phone, open to this page, and follow my routine.  
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/5.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/4.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Fitness</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -120,7 +113,7 @@ Here I track all my accounts. I include yearly financial goals so I keep ontop o
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/6.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/5.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Finances</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -139,7 +132,7 @@ Here I put a list of my side projects. In each of these pages I include to-dos, 
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/7.jpg" loading="lazy" alt="image" class="image-75"/>
+	<img src="./assets/blog/images/buildingASecondBrainWithNotion/6.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Side Projects</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -147,13 +140,6 @@ Here I put a list of my side projects. In each of these pages I include to-dos, 
 #### Education
 
 My last (but not least important) tab includes anything regarding formal education. I have a list of any degree/s or courses taken, with some brief notes and summaries about what was learnt in each of them (just so I have an overview of it all as a whole). This is also where I add in formal online courses or bootcamps that I participate in.
-
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-	<img src="./assets/blog/images/buildingASecondBrainWithNotion/8.jpg" loading="lazy" alt="image" class="image-75"/>
-	<div class="image-description"><p>Online Courses</p></div>
-</div>
-<!-- ----------------------------- -->
 
 For example, I am currently trying to improve my Angular skills and learn it the 'formal' way, so I have been studying a course outside normal working hours and writing any notes I have about it in here.
 
