@@ -1,6 +1,3 @@
-<div class="writtenContent">
-<br>
-
 # 3D Street Racing Game
 #### 3D • Game • Research • Racing
 
@@ -58,10 +55,8 @@ Move Left 	  	| Left Keyboard arrow or 'A'
 Move Right	  	| Right keyboard arrow or 'D'
 
 
-<div class="download-container">
-    <div class="download-link">
+<div class="p-5 center">
+    <div class="download">
         <a href="https://github.com/vondreii/Modified-Street-Racing-Game" class="button">↓ View GitHub Repository ↓</a>
     </div>
-</div>
-
 </div>

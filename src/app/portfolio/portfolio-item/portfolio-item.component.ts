@@ -13,6 +13,7 @@ export class PortfolioItemComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) { }
 
+  // Opens the content for that individual page (located in ./assets/portfolio/articles/articleName)
   ngOnInit(): void {
     let articleName = this.route.snapshot.paramMap.get('project'); 
     this.href = window.location.href; 

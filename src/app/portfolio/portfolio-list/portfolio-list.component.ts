@@ -8,35 +8,32 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PortfolioListComponent implements OnInit {
 
+  // The list of articles displayed on this page
   @Input() contentList: any[] = [];
-  @Input() currentPage: number = 1;
 
   numRows: number = 0;
   sortedRowsWithItems: Array<Array<Content>> = [];
 
   constructor() { }
 
+  // number of items per row and array of items. result = [['a','b'], ['c','d'], ['e']]
   ngOnInit(): void {
     this.numRows = Math.ceil(this.contentList.length/3);
-
-    // number of items per row and array of items
     this.sortedRowsWithItems = this.createRows();
-    // result: [['a','b'], ['c','d'], ['e']]
-    console.log(this.sortedRowsWithItems); 
   }
 
+  // Determines the number of rows, splits it into 3 projects per row (sub-array)  
   createRows() {
     var perChunk = 3 
     var inputArray = this.contentList;
-
+    // compile data structure
     var result = inputArray.reduce((resultArray, item, index) => { 
+      // index of sub-array (chunk)
       const chunkIndex = Math.floor(index/perChunk)
-
       // start a new chunk
       if(!resultArray[chunkIndex]) {
         resultArray[chunkIndex] = [] 
       }
-      // Push the chunk section into the main array
       resultArray[chunkIndex].push(item)
 
       return resultArray

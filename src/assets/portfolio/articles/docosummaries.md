@@ -1,6 +1,3 @@
-<div class="writtenContent">
-<br>
-
 # Docosummaries
 #### Angular • Firebase
 
@@ -35,8 +32,8 @@ The website uses:
 </div>
 <!-- ----------------------------- -->
 
-<div class="download-container">
-    <div class="download-link">
+<div class="p-5 center">
+    <div class="download">
         <a href="https://github.com/vondreii/docusummaries" class="button repo">↓ View GitHub Repository ↓</a>
     </div>
 </div>

@@ -1,6 +1,3 @@
-<div class="writtenContent">
-<br>
-
 # CyanX
 #### 2D • Game • Side Scroller • Puzzle
 
@@ -141,13 +138,11 @@ The more experience points you collect, the more you are able to level up, there
 Abilities you can unlock include earning more experience points for each animal rescued, strengthened health, 
 being able to craft more powerful weapons, being invincible to spikes and becoming an XP magnet (this is when experience points float towards you when you get within a reasonable range to them).
 
-<div class="download-container">
-    <div class="download-link">
+<div class="p-5 center">
+    <div class="download">
         <a href="./assets/portfolio/downloads/CyanX.zip" class="button">↓ Download Game Here ↓</a>
     </div>
-    <div class="download-link">
+    <div class="download">
         <a href="https://github.com/vondreii/CyanX" class="button repo">↓ View GitHub Repository ↓</a>
     </div>
-</div>
-
 </div>

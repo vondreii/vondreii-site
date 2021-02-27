@@ -13,6 +13,7 @@ export class BlogPostComponent implements OnInit {
 
   constructor(private route: ActivatedRoute) { }
 
+  // Opens the content for that individual page (located in ./assets/blog/articles/articleName)
   ngOnInit(): void {
     let articleName = this.route.snapshot.paramMap.get('article'); 
     this.href = window.location.href; 

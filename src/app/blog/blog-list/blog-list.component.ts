@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BlogListComponent implements OnInit {
 
+  // The list of articles displayed on this page
   @Input() contentList: any[] = [];
   @Input() currentPage: number = 1;
 

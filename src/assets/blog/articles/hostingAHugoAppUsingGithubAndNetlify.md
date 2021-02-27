@@ -1,5 +1,3 @@
-<div class="writtenContent">
-
 #### 4 Jan 2021
 # Hosting a Hugo App Using Github and Netlify
 ___

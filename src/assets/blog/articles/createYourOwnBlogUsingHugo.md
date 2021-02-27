@@ -80,7 +80,7 @@ This will create a new folder called my-food-blog. If you open the folder, you w
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/1.jpg" loading="lazy" alt="image" class="image"/>
+	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/1.jpg" loading="lazy" alt="image" class="image-75"/>
 	<div class="image-description"><p>Root folder</p></div>
 </div>
 <!-- ----------------------------- -->
@@ -106,7 +106,7 @@ Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/3.jpg" loading="lazy" alt="image" class="image"/>
+	<img src="./assets/blog/images/createYourOwnBlogUsingHugo/3.jpg" loading="lazy" alt="image" class="image-50"/>
 	<div class="image-description"><p>Extract the folder into your Hugo project.</p></div>
 </div>
 <!-- ----------------------------- -->

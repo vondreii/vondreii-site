@@ -1,37 +1,23 @@
+.card {
+  font-family:'Montserrat', sans-serif;border:none;margin-bottom:10px
+}
 .padding {
   padding:1em 10em 1em 10em
 }
-.card {
-  font-family:'Montserrat', sans-serif;
-  border: none;
-  margin-bottom:10px;
-}
-.heading {
-  padding-top:3rem;
-  font-size:2rem;
-  line-height:1.2em;
-  text-align:left;
-  font-family:'Montserrat', sans-serif
-}
 .sub {
-  font-size:1.5em;
-  color:#727272 !important;
-  text-decoration:none;
+  font-size:1.5em;color:#727272 !important;text-decoration:none
 }
 .left {
-  float:left;
+  float:left
 }
 .right {
-  float:right;
+  float:right
+}
+.heading {
+  padding-top:3rem;font-size:2rem;line-height:1.2em;text-align:left;font-family:'Montserrat', sans-serif
 }
 .description {
-  font-size:1em;
-  margin-top:2.5em;
-  line-height:2em;
-  margin-bottom:20px;
-  text-align:justify;
-  padding-bottom:3rem;
-  border-bottom: 1px solid black
+  font-size:1em;margin-top:2.5em;line-height:2em;margin-bottom:20px;text-align:justify;padding-bottom:3rem;border-bottom: 1px solid black
 }
 @media screen and (max-width:1000px) {
   .padding {

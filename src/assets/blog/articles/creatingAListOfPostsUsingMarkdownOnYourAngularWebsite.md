@@ -1,5 +1,3 @@
-<div class="writtenContent">
-
 #### 11 Oct 2020
 # Creating a list of posts using Markdown on your Angular Website
 <hr>
@@ -505,7 +503,3 @@ Don't forget to run `npm install` if you want to compile and view the web applic
 * [Add and View Markdown Files in your Angular App](https://sorakhan.com/blog/post/markdown-in-angular-app)
 * [npm ngx-markdown](https://www.npmjs.com/package/ngx-markdown)
 * [Add a blog to your Angular website using markdown files](https://medium.com/@david.dalbusco/add-a-blog-to-your-angular-website-using-markdown-files-31cdb0627bdd)
-
-<br><br>
-
-</div>

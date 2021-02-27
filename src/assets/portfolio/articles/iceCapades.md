@@ -1,6 +1,3 @@
-<div class="writtenContent">
-<br>
-
 # Ice Capades
 #### 2D • Game • Top-Down • Puzzle
 
@@ -76,10 +73,8 @@ Here are the things you can walk into which cause the environment to be affected
 * **Buttons:** Walking into these buttons would trigger certain blocks or stones to move allowing pathways to be cleared.
 * **Keys:** Collecting keys allow you to open certain doors, including doors that lead to the next level.
 
-<div class="download-container">
-    <div class="download-link">
+<div class="p-5 center">
+    <div class="download">
         <a href="./assets/portfolio/downloads/IceCapades.zip" class="button">↓ Download Game Here ↓</a>
     </div>
-</div>
-
 </div>

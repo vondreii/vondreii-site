@@ -1,57 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-/* All Styling */
-
-/* Whole page */
+// Overall page
 * {
-  font-family:'Montserrat';color: #383c44;
-  background-color:whitesmoke;
+  font-family:'Montserrat';color:#383c44;background-color:whitesmoke
 }
-
-.heading {
-	margin-top: 10px;
-	text-align:center
+.center {
+  text-align:center;
 }
 .content {
-  padding: 0px 180px; 
-  text-align:justify;text-decoration:none;font-size:17px;
-  color:rgb(85, 85, 85);border:none;line-height:1.7rem;margin-bottom: 100px;
+  padding:0px 180px;text-align:justify;text-decoration:none;font-size:17px;color:rgb(85, 85, 85);border:none;line-height:1.7rem;margin-bottom:100px
 }
-/* Smallest screens (phones) */
+// Smallest screens (phones)
 @media screen and (max-width:1000px) {
   .content {
-    padding: 0px 20px;line-height:1.9rem;
+    padding:0px 20px;line-height:1.9rem
   }
 }
-
-.button {
-  text-decoration:none;padding:10px 25px;
-  border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
-  font-family:'Heebo';
-  display:inline-block;outline:none;transition:ease 0.5s;background-color:rgb(54,58,64);
-}
-.button:link, .button:visited { 
-  text-decoration:none 
-} 
-.button:hover, .button:active { 
-  background-color:rgb(92, 98, 109);text-decoration:none;color:white;padding:10px 25px;
-}
-
-
-.center {
-  text-align: center;
-}
-
-
-
-/* -- -- -- -- -- -- -- -- -- -- Unsorted -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
-
-/* Main content div */
-
-.extraPadding {
-  padding-bottom:30px
-}
+// Headings
 h1, h2 {
   font-family:'Montserrat', sans-serif;text-align:left;line-height:50px;font-size:10pt;padding:0
 }
@@ -59,11 +24,12 @@ h3 {
   padding-top:10px;font-family:'Montserrat', sans-serif;text-align:left;line-height:40px;font-size:18pt
 }
 h4 {
-  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:rgb(100, 100, 100);line-height:30px;
+  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:rgb(100, 100, 100);line-height:30px
 }
-h5,h6 {
+h5, h6 {
   font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:rgb(134, 134, 134)
 }
+// Content items
 ul, ol {
   text-align:left
 }
@@ -79,88 +45,67 @@ tr:nth-child(even) {
 th {
   padding:10px
 }
+// Code
 code {
-  padding: 1px 5px;background-color:rgb(236, 236, 236);border-radius:5px;
+  padding:1px 5px;background-color:rgb(236, 236, 236);border-radius:5px
 }
 pre, pre code {
-  font-size:10pt !important;margin-bottom:12px !important;
-  padding:10px;border-radius:5px;background-color:rgb(236, 236, 236) !important;color:#e83e8c !important;
+  font-size:10pt !important;margin-bottom:12px !important;padding:10px;border-radius:5px;
+  background-color:rgb(236, 236, 236) !important;color:#e83e8c !important
   // background-color:rgb(41, 47, 54) !important;color:#ffffff !important;
 }
-
-
-
-
-
-/* Images */
+// Overall buttons
+.button {
+  text-decoration:none;padding:10px 25px;border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
+  font-family:'Montserrat';display:inline-block;outline:none;transition:ease 0.5s;background-color:rgb(54,58,64)
+}
+.button:link, .button:visited { 
+  text-decoration:none 
+} 
+.button:hover, .button:active { 
+  background-color:rgb(92, 98, 109);text-decoration:none;color:white;padding:10px 25px
+}
+// Specific buttons
+.download {
+  margin:15px 30px;display:inline-block
+}
+.back {
+  margin:15px 30px;text-align:center;display:inline-block
+}
+// Images
 .image-container {
   text-align:center;padding-top:5px;padding-bottom:25px
-}
-.image {
-  width:50%;height:50%
-}
-.image-75 {
-  width:75%;
-}
-.image-full {
-  width:100%;height:100%
 }
 .image-description p {
   padding-top:5px;font-size:10pt;text-align:center;color:grey
 }
+// Image sizes
+.image-50 {
+  width:50%;height:50%
+}
+.image-75 {
+  width:75%
+}
+.image-full {
+  width:100%;height:100%
+}
 @media screen and (max-width: 900px){
-  .image {
+  .image-50 {
     width:100%;height:100%
   }
   .image-75 {
     width:100%;height:100%
   }
 }
-
-/* Avatar */
-.avatar-text {
-  padding-left:10px;
-}
+// Avatars
 .avatar-align {
   display:inline-block
 }
 .avatar {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  vertical-align:middle;width:50px;height:50px;border-radius:50%;margin-right:10px
 }
-
-
-/* Buttons */
-
-.read-more-container { 
-  margin-bottom:10px;float:right
-}
-.download-container {
-  padding:20px;text-align:center;
-}
-.download-link {
-  margin:15px 30px;text-align:center;display:inline-block
-}
-.back-container {
-  text-align:left;
-}
-
-/* Buttons - Smallest screens (phones) */
-@media screen and (max-width:766px) {
-  .download-link {
-    margin:10px 10px 10px 10px
-  }
-  .download-container {
-    padding:10px;padding-bottom:20px
-  }
-}
-
-/* General links */
+// Links
 a, a:hover {
   text-decoration: none;
   padding:0px 0px
 }
-
-

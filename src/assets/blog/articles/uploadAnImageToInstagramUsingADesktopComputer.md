@@ -29,7 +29,7 @@ When the page reloads, the Instagram bar should now be visible:
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
-	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/3.jpg" loading="lazy" alt="image-75" class="image"/>
+	<img src="./assets/blog/images/uploadImageToInstagramViaDesktop/3.jpg" loading="lazy" alt="image-75" class="image-50"/>
 </div>
 <!-- ----------------------------- -->
 

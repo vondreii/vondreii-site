@@ -1,5 +1,3 @@
-<div class="writtenContent">
-
 #### 30 Aug 2020
 # Hosting An Angular Application Using Github And Netlify
 ___
@@ -307,7 +305,3 @@ Everytime you `git push`, Netlify will automatically trigger an attempt to re-de
 
 * [First Steps Using Netlify & Angular](https://www.netlify.com/blog/2019/09/23/first-steps-using-netlify-angular/)
 * [Deploying an Angular App to Netlify](https://scotch.io/tutorials/deploying-an-angular-app-to-netlify)
-
-<br><br>
-
-</div>
