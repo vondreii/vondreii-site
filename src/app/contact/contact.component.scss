@@ -1,23 +1,19 @@
-.contact-content { 
-	margin-top:2rem;margin-bottom:2rem;margin-left:auto;margin-right:auto;
-	position:relative;padding:30px 25px 40px 25px; 
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.15);
-	font-size:16px;text-align:center; 
-	background-color:rgb(230, 230, 230);color:rgb(87, 87, 87);
-	border-radius:5px;
+.box { 
+	margin:2rem auto 2rem auto;padding:30px 25px;box-shadow:0 2px 5px 0 rgba(0,0,0,0.15);font-size:16px;
+	background-color:rgb(230, 230, 230);color:rgb(87, 87, 87);border-radius:5px;
 }
-.contact-content h2 {
+.box h2 {
 	margin-bottom:1rem; background-color:rgb(230, 230, 230);
 }
-.contact-content h5 {
+.box h5 {
   background-color:rgb(230, 230, 230);
 }
-.contact-content div {
+.box div {
 	padding-bottom:1rem;text-align:left; background-color:rgb(230, 230, 230);
 }
-.contact-content a {
+.box a {
 	text-decoration:none;color:rgb(90, 90, 90);transition: ease 0.3s;background-color:rgb(230, 230, 230);
 }
-.contact-content a:hover {
+.box a:hover {
 	text-decoration:none;color:#919191;
 }

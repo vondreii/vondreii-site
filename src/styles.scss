@@ -4,21 +4,49 @@
 /* All Styling */
 
 /* Whole page */
-body {
-  font-family: "Lato", sans-serif;
-}
 * {
   font-family:'Montserrat';color: #383c44;
   background-color:whitesmoke;
 }
-.center {
-  text-align:center
-}
-/* Main content div */
+
 .heading {
 	margin-top: 10px;
 	text-align:center
 }
+.content {
+  padding: 0px 180px; 
+  text-align:justify;text-decoration:none;font-size:17px;
+  color:rgb(85, 85, 85);border:none;line-height:1.7rem;margin-bottom: 100px;
+}
+/* Smallest screens (phones) */
+@media screen and (max-width:1000px) {
+  .content {
+    padding: 0px 20px;line-height:1.9rem;
+  }
+}
+
+.button {
+  text-decoration:none;padding:10px 25px;
+  border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
+  font-family:'Heebo';
+  display:inline-block;outline:none;transition:ease 0.5s;background-color:rgb(54,58,64);
+}
+.button:link, .button:visited { 
+  text-decoration:none 
+} 
+.button:hover, .button:active { 
+  background-color:rgb(92, 98, 109);text-decoration:none;color:white;padding:10px 25px;
+}
+
+
+
+
+/* -- -- -- -- -- -- -- -- -- -- Unsorted -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
+.center {
+  text-align:center
+}
+/* Main content div */
+
 .extraPadding {
   padding-bottom:30px
 }
@@ -94,17 +122,7 @@ pre, pre code {
   .sidebar a {font-size: 18px;}
 }
 
-.content {
-  padding: 0px 180px; 
-  text-align:justify;text-decoration:none;font-size:17px;
-  color:rgb(85, 85, 85);border:none;line-height:1.7rem;margin-bottom: 100px;
-}
-// Written content - Smallest screens (phones) */
-@media screen and (max-width:1000px) {
-  .content {
-    padding: 0px 20px;line-height:1.9rem;
-  }
-}
+
 
 
 /* Images */
@@ -148,18 +166,7 @@ pre, pre code {
 
 
 /* Buttons */
-.button {
-  text-decoration:none;padding:10px 25px;
-  border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
-  font-family:'Heebo';
-  display:inline-block;outline:none;transition:ease 0.5s;background-color:rgb(54,58,64);
-}
-.button:link, .button:visited { 
-  text-decoration:none 
-} 
-.button:hover, .button:active { 
-  background-color:rgb(92, 98, 109);text-decoration:none;color:white;padding:10px 25px;
-}
+
 .read-more-container { 
   margin-bottom:10px;float:right
 }
