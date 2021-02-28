@@ -7,7 +7,7 @@
         "description": "A Second Brain is simply just a single place where you store the things you know and learn. Whatever you store depends entirely on you and is based on what things add value to your life. Before, I was mostly relying on my brain to remember everything I knew or any new information I had learnt. If I did need to write things down, I would store information in many different places..."
     },
     { 
-        "title": "Hosting A Hugo App Using Netlify and Github", 
+        "title": "Hosting A Hugo Application Using Github and Netlify", 
         "date": "4 Jan 2021", 
         "link": "/blog/hostingAHugoAppUsingGithubAndNetlify", 
         "tags": "Hugo • Netlify", 
@@ -28,11 +28,11 @@
         "description": "Let's say you want to write your own personal posts (for something like a blog, for example), and compile them as a list of posts on your homepage. If you want to do this yourself without using existing platforms, a good way is to use Markdown files! The basic idea is that each post or page with content will have their own file..."
     },
     { 
-        "title": "Hosting An Angular Application Using Github And Netlify", 
-        "date": "30 Aug 2020", 
-        "link": "/blog/hostingAngularApplicationUsingGithubAndNetlify", 
-        "tags": "Angular • Github • Netlify", 
-        "description": "Hugo is a framework where you can create your own website, completely from scratch without much effort or without knowing too much (or any) of the internal programming. There are also many web hosting platforms that can easily host a Hugo project for free - meaning, the only money you will spend will be for the custom domain name..."
+        "title": "Linking A Namecheap Domain To Firebase",  
+        "date": "4 Oct 2020", 
+        "link": "/blog/linkingANamecheapDomainToFirebase", 
+        "tags": "Hosting • Firebase • Namecheap", 
+        "description": "Assuming you already have a website hosted on Firebase, you might not be satisfied with the default free domain name (which ends in something like .firebaseapp.com or .web.app). If you've already bought a Namecheap domain name, this is how you can link it to your Firebase hosted website..."
     }
 ]
 

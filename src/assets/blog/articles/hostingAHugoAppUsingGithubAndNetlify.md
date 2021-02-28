@@ -1,5 +1,5 @@
 #### 4 Jan 2021
-# Hosting a Hugo App Using Github and Netlify
+# Hosting a Hugo Application Using Github and Netlify
 ___
 
 <!-- ----------- Intro ----------- -->
