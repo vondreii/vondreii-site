@@ -25,7 +25,6 @@ The website uses:
 * NodeJS
 * Future plans include using APIs to get existing documentaries from established websites but for now the focus is on lesser known documentaries that float around the internet.
 
-
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
 	<img src="./assets/portfolio/images/docosummaries/1.jpg" loading="lazy" alt="image" class="image-75">
@@ -35,5 +34,8 @@ The website uses:
 <div class="p-5 center">
     <div class="download">
         <a href="https://github.com/vondreii/docusummaries" class="button repo">↓ View GitHub Repository ↓</a>
+    </div>
+    <div class="download">
+        <a href="https://docosummaries.com" class="button repo">↓ Visit Doco Summaries ↓</a>
     </div>
 </div>
