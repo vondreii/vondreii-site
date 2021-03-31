@@ -2,18 +2,18 @@
 
 // Overall page
 * {
-  font-family:'Montserrat';color:#D3D5D9;background-color:#1d2329
+  font-family:'Montserrat';color:#D3D5D9;background-color:#222831
 }
 .center {
   text-align:center;
 }
 .content {
-  padding:0px 180px;text-align:justify;text-decoration:none;font-size:17px;color:#D3D5D9;border:none;line-height:1.7rem;margin-bottom:100px
+  padding:0px 180px;text-align:left;text-decoration:none;font-size:17px;color:#D3D5D9;border:none;line-height:2rem;margin-bottom:100px
 }
 // Smallest screens (phones)
 @media screen and (max-width:1000px) {
   .content {
-    padding:0px 20px;line-height:1.9rem
+    padding:0px 40px;line-height:1.9rem
   }
 }
 // Headings
@@ -24,10 +24,10 @@ h3 {
   padding-top:10px;font-family:'Montserrat', sans-serif;text-align:left;line-height:40px;font-size:18pt
 }
 h4 {
-  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:#A8ABB3;line-height:30px
+  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:#D3D5D9;line-height:30px
 }
 h5, h6 {
-  font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:#A8ABB3
+  font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:#D3D5D9
 }
 // Content items
 ul, ol {
@@ -47,18 +47,17 @@ th {
 }
 // Code
 code {
-  // color: #e83e8c
-  padding:1px 5px;background-color:#252729;border-radius:5px
+  color: rgb(255, 151, 103) !important;
+  padding:1px 5px;border-radius:5px;background-color:#2e3741
 }
 pre, pre code {
   font-size:10pt !important;margin-bottom:12px !important;padding:10px;border-radius:5px;
-  background-color:#252729 !important;color:#D3D5D9 !important
-  // background-color:rgb(41, 47, 54) !important;color:#ffffff !important;
+  background-color:#2e3741 !important;color:#D3D5D9 !important
 }
 // Overall buttons
 .button {
   text-decoration:none;padding:10px 25px;border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
-  font-family:'Montserrat';display:inline-block;outline:none;transition:ease 0.5s;background-color:#252729
+  font-family:'Montserrat';display:inline-block;outline:none;transition:ease 0.5s;background-color:#2e3741
 }
 .button:link, .button:visited { 
   text-decoration:none 

@@ -4,79 +4,151 @@
 
 For this tutorial we will create our own blog site from scratch using a framework called Hugo. 
 
+<div class="pb-3"></div>
+
 Online platforms such as Squarespace, Wix or Wordpress are very convenient to use to customise and create your own website. Though, they can get expensive when it comes to hosting, registeration and adding premium features.
   
+<div class="pb-3"></div>
+
 Hugo is a framework where you can create your own website, completely from scratch without much effort or without knowing too much (or any) of the internal programming.
 There are also many web hosting platforms that can easily host a Hugo project for free - meaning, the only money you will spend will be for the custom domain name!
 
+<div class="pb-3"></div>
+
 You can choose from lots of amazing free themes. Each blog post is written as a `.md` file, also known as `markdown`. Markdown can just be written as plain English with a few added symbols to symbolise where the headings are, which words are bold, or any other special formatting that may be needed.
+
+<div class="pb-3"></div>
 
 We will primarily be using Windows, however there are equivalent ways of doing some of the steps on a MAC. Most of the steps should be the same.
 
+<div class="pb-3"></div>
+
 We will go through everything from:
+
+<div class="pb-3"></div>
 
 * Installing Hugo
 * Using a theme
 * Personalising the website
 * Adding content
 
-### Installing Hugo
+<div class="pb-3"></div>
+
+### **Installing Hugo**
+
+<div class="pb-3"></div>
 
 Create a folder where you want to store your project.
 
+<div class="pb-3"></div>
+
 Go into the command prompt and navigate to the folder you have created. Run `cd <path to your project folder>`. For example, I created my folder `hugo website` in the Desktop, so I would run:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 cd C:\Users\Sharl\Desktop\hugo website
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 Now, we will install hugo and create a new project from scratch. In the command prompt, we will run a few commands that will install hugo and create the base of the website.
 
-#### Windows
+<div class="pb-3"></div>
+
+#### **Windows**
 For windows, if you use chocolatey for package management, run:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 choco install hugo -confirm
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
+
 
 otherwise if you use Scoop for package management, run:
+
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 scoop install hugo
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 You can check what you are using by going into your `C:\ProgramData` folder and seeing if you either have chocolatey or scoop.
 
-#### MAC
+<div class="pb-3"></div>
+
+#### **MAC**
+
+<div class="pb-3"></div>
+
 To install hugo using a MAC:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 brew install hugo
 
 ```
+<!-- ----------------------------- -->
 
-#### Linux
+<div class="pb-3"></div>
+
+#### **Linux**
+
+<div class="pb-3"></div>
+
 To install hugo using Linux:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 brew install hugo
 
 ```
+<!-- ----------------------------- -->
 
-### Creating a new project
+<div class="pb-3"></div>
+
+### **Creating a new project**
+
+<div class="pb-3"></div>
 
 Now that we have hugo installed, we can start our project.
 
+<div class="pb-3"></div>
+
 In the command prompt, run `hugo new site <name of blog here>`. For this example, we will make a blog about food, which will be called 'My Food Blog':
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 hugo new site my-food-blog
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 This will create a new folder called my-food-blog. If you open the folder, you will see that the 'skeleton' or 'base' folders have automatically been created, which should look something like this:
+
+<div class="pb-3"></div>
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -85,9 +157,15 @@ This will create a new folder called my-food-blog. If you open the folder, you w
 </div>
 <!-- ----------------------------- -->
 
-### Using a Theme
+<div class="pb-3"></div>
 
-You can browse through the themes listed at https://themes.gohugo.io/.
+### **Using a Theme**
+
+<div class="pb-3"></div>
+
+You can browse through the themes listed at <a class="cyanLink" href="https://themes.gohugo.io/">https://themes.gohugo.io/</a> 
+
+<div class="pb-3"></div>
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -96,13 +174,23 @@ You can browse through the themes listed at https://themes.gohugo.io/.
 </div>
 <!-- ----------------------------- -->
 
-When I was first using hugo, I followed the [Free Code Camp Hugo Tutorial](https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/), and they recommend using the Ghostwriter theme if you are starting out. We will instead pick a different design.
+<div class="pb-3"></div>
 
-We will be using the Hugo-sugoi theme for now. You can read about it [here](https://themes.gohugo.io/hugo-sugoi/) and check out the demo [here](https://themes.gohugo.io/theme/hugo-sugoi/).
+When I was first using hugo, I followed the <a class="cyanLink" href="https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/">Free Code Camp Hugo Tutorial</a>, and they recommend using the Ghostwriter theme if you are starting out. We will instead pick a different design.
 
-Download the source code from [Github](https://github.com/aanupam23/hugo-sugoi) (Click on the Green **Code** button, then **Download ZIP**).
+<div class="pb-3"></div>
+
+We will be using the Hugo-sugoi theme for now. You can read about it <a class="cyanLink" href="https://themes.gohugo.io/hugo-sugoi/">here</a>, and check out the demo <a class="cyanLink" href="https://themes.gohugo.io/theme/hugo-sugoi/">here</a>.
+
+<div class="pb-3"></div>
+
+Download the source code from <a class="cyanLink" href="https://github.com/aanupam23/hugo-sugoi">Github</a> (Click on the Green **Code** button, then **Download ZIP**).
+
+<div class="pb-3"></div>
 
 Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes` folder. Don't forget to make sure that the folder has been extracted correctly. For example, make sure the theme's code is nested under `my-food-blog\themes\hugo-sugoi-master` and not `my-food-blog\themes\hugo-sugoi-master\hugo-sugoi-master`.
+
+<div class="pb-3"></div>
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -111,15 +199,25 @@ Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes
 </div>
 <!-- ----------------------------- -->
 
+<div class="pb-3"></div>
 
 Now rename the folder from `hugo-sugoi-master` to `hugo-sugoi`.
 
-### Personalise your site
+<div class="pb-3"></div>
+
+### **Personalise your site**
+
+<div class="pb-3"></div>
 
 We will just make a few modifications before running the code.
 
+<div class="pb-3"></div>
+
 Open `my-food-blog\config.toml` and overwrite the code to this (substituting your details):
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```toml
 baseURL = "/"
 languageCode = "en-us"
@@ -135,15 +233,27 @@ theme = "hugo-sugoi"
   email = "XXX@example.com"
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 If you want to exclude some of the social media, you can just delete the lines that you do not need.
 
+<div class="pb-3"></div>
+
 The HTML files are split up into **partials**. These partials only contain the HTML code for that particular section. For example, the `header.html` will only contain the HTML code for what is in the header of your website.
+
+<div class="pb-3"></div>
 
 Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\header.html`.
 
+<div class="pb-3"></div>
+
 Change:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```js
 <label for="drop" class="toggle"><i class="fas fa-bars u-pull-right" aria-hidden="true"></i> 
 	<span><i class="fas fa-fire" aria-hidden="true"></i> 
@@ -152,9 +262,15 @@ Change:
 </label> 
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 Also, change:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```js
 <li><a href="{{ .Site.BaseURL }}">
 	<span><i class="fas fa-fire" aria-hidden="true"></i>
@@ -163,11 +279,19 @@ Also, change:
 </a></li>
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 This next part is completely optional, you can complete it if you want to add some basic social media links.
 
+<div class="pb-3"></div>
+
 Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\hero.html`. To add some social media links at the top, you can make the following modifications:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```js
 <div class="section hero">
 	<div class="container">
@@ -187,13 +311,23 @@ Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\hero.html`. To add some
 </div>
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 They will use the links that you specified in the previous `my-food-blog\config.toml` file.
 
-If you want to add more social media links at the bottom, you can download this [zip file](./assets/blog/downloads/images.zip) and copy the contents into `my-food-blog\static\images`.  
+<div class="pb-3"></div>
+
+If you want to add more social media links at the bottom, you can download this <a class="cyanLink" href="./assets/blog/downloads/images.zip">zip file</a> and copy the contents into `my-food-blog\static\images`.  
+
+<div class="pb-3"></div>
 
 Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\footer.html` and copy and paste the social media links you want:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```js
 <footer>
 	// ------------------------------------ Add social media links
@@ -225,33 +359,60 @@ Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\footer.html` and copy a
 </footer>
 
 ```
+<!-- ----------------------------- -->
 
-### Add some content
+<div class="pb-3"></div>
+
+### **Add some content**
+
+<div class="pb-3"></div>
 
 Try running your site. Navigate to the root directory (`my-food-blog`) of any terminal or command line, and run:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 hugo serve
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 Now go into `http://localhost:1313/` in one of your browsers. 
+
+<div class="pb-3"></div>
 
 Your website should look like it has the general theme applied. However, the website will be empty! There are no posts, so we will need to add in some content. Each post is going to be written in a separate markdown file.
 For example, if you wanted to write something on Chocolate Lava Cakes, you would have a file called `ChocolateLavaCake.md` where you would write your text.
 
+<div class="pb-3"></div>
+
 The hugo-sugoi theme comes with some examples. Navigate to `my-food-blog\themes\hugo-sugoi\exampleSite`. There you will see a folder called `content`.
+
+<div class="pb-3"></div>
 
 Copy this `content` folder and paste it into the `my-food-blog` folder, where the root of the project is (overwrite the existing one). 
 
+<div class="pb-3"></div>
+
 Run the program again:
 
+<div class="pb-3"></div>
+
+<!-- ----------- Code ----------- -->
 ```bash
 hugo serve
 
 ```
+<!-- ----------------------------- -->
+
+<div class="pb-3"></div>
 
 Now you have some content!
+
+<div class="pb-3"></div>
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -260,48 +421,85 @@ Now you have some content!
 </div>
 <!-- ----------------------------- -->
 
+<div class="pb-3"></div>
+
 Go into `my-food-blog\content\post` and observe the 4 markdown files that represent the 4 posts:
+
+<div class="pb-3"></div>
+
 -  air-nation-list-style.md
 -  code-blocks.md
 -  prince-zuko.md
 -  water-nation-pride-and-peace.md
 
+<div class="pb-3"></div>
+
 You can open any one of them to see the format of how you need to write your posts in Markdown.
+
+<div class="pb-3"></div>
 
 In a Markdown file, you can just write the content as plain English - like you would on Microsoft Word - except you can use symbols to signify headings or special styling in your text. For example:
 
+<div class="pb-3"></div>
+
 `# Something` is a main heading, like this:  
+
+<div class="pb-3"></div>
 
 # Something 
 
-<br>
+<div class="pb-3"></div>
 
 `## Something` is a next level sub heading, like this:  
 
+<div class="pb-3"></div>
+
 ## Something 
 
-<br>
+<div class="pb-3"></div>
 
 `### Something` is an even lower sub level heading, like this: 
 
+<div class="pb-3"></div>
+
 ### Something
 
-<br>
+<div class="pb-3"></div>
 
 `**Something**` Will make something bold, like this: **Something** 
 
+<div class="pb-3"></div>
+
 `*Something*` Will make something italicized, like this: *Something* 
 
-`[Something](https://www.google.com)` is a link: [Something](https://www.google.com)
+<div class="pb-3"></div>
+
+`[Something](https://www.google.com)` is a link: <a class="cyanLink" href="https://www.google.com">Something</a>
+
+<div class="pb-3"></div>
 
 There are a few places where you can read some of the syntax used for markdown:
-* https://www.markdownguide.org/basic-syntax/
-* https://www.markdownguide.org/cheat-sheet/
+
+<div class="pb-3"></div>
+
+* <a class="cyanLink" href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a>
+* <a class="cyanLink" href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a>
+
+<div class="pb-3"></div>
 
 Now everytime you want to start a new post, all you have to do is write it in a new `Markdown` file, inside the `content/post` folder! 
 
-You can view the final source code on [GitHub](https://github.com/vondreii/hugo-framework).
+<div class="pb-3"></div>
 
-### Resources
-* https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/
-* https://gohugo.io/getting-started/installing/
+You can view the final source code on <a class="cyanLink" href="https://github.com/vondreii/hugo-framework">Github</a>.
+
+<div class="pb-3"></div>
+
+### **Resources**
+
+<div class="pb-3"></div>
+
+* <a class="cyanLink" href="https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/">https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/</a>
+* <a class="cyanLink" href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a>
+
+<div class="pb-3"></div>
