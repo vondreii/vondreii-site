@@ -2,13 +2,13 @@
 
 // Overall page
 * {
-  font-family:'Montserrat';color:#383c44;background-color:whitesmoke
+  font-family:'Montserrat';color:#D3D5D9;background-color:#1d2329
 }
 .center {
   text-align:center;
 }
 .content {
-  padding:0px 180px;text-align:justify;text-decoration:none;font-size:17px;color:rgb(85, 85, 85);border:none;line-height:1.7rem;margin-bottom:100px
+  padding:0px 180px;text-align:justify;text-decoration:none;font-size:17px;color:#D3D5D9;border:none;line-height:1.7rem;margin-bottom:100px
 }
 // Smallest screens (phones)
 @media screen and (max-width:1000px) {
@@ -24,10 +24,10 @@ h3 {
   padding-top:10px;font-family:'Montserrat', sans-serif;text-align:left;line-height:40px;font-size:18pt
 }
 h4 {
-  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:rgb(100, 100, 100);line-height:30px
+  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:#A8ABB3;line-height:30px
 }
 h5, h6 {
-  font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:rgb(134, 134, 134)
+  font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:#A8ABB3
 }
 // Content items
 ul, ol {
@@ -40,30 +40,31 @@ td {
   padding:10px
 }
 tr:nth-child(even) {
-  background-color:whitesmoke
+  background-color:#D3D5D9
 }
 th {
   padding:10px
 }
 // Code
 code {
-  padding:1px 5px;background-color:rgb(236, 236, 236);border-radius:5px
+  // color: #e83e8c
+  padding:1px 5px;background-color:#252729;border-radius:5px
 }
 pre, pre code {
   font-size:10pt !important;margin-bottom:12px !important;padding:10px;border-radius:5px;
-  background-color:rgb(236, 236, 236) !important;color:#e83e8c !important
+  background-color:#252729 !important;color:#D3D5D9 !important
   // background-color:rgb(41, 47, 54) !important;color:#ffffff !important;
 }
 // Overall buttons
 .button {
   text-decoration:none;padding:10px 25px;border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
-  font-family:'Montserrat';display:inline-block;outline:none;transition:ease 0.5s;background-color:rgb(54,58,64)
+  font-family:'Montserrat';display:inline-block;outline:none;transition:ease 0.5s;background-color:#252729
 }
 .button:link, .button:visited { 
   text-decoration:none 
 } 
 .button:hover, .button:active { 
-  background-color:rgb(92, 98, 109);text-decoration:none;color:white;padding:10px 25px
+  background-color:#0cdbb2bd;text-decoration:none;color:#FFFFFF;padding:10px 25px
 }
 // Specific buttons
 .download {
@@ -77,7 +78,7 @@ pre, pre code {
   text-align:center;padding-top:5px;padding-bottom:25px
 }
 .image-description p {
-  padding-top:5px;font-size:10pt;text-align:center;color:grey
+  padding-top:5px;font-size:10pt;text-align:center;color:#A8ABB3
 }
 // Image sizes
 .image-50 {
@@ -105,7 +106,13 @@ pre, pre code {
   vertical-align:middle;width:50px;height:50px;border-radius:50%;margin-right:10px
 }
 // Links
+.cyanLink {
+  color: #0CDBB3
+}
+.cyanLink:hover {
+  color: #3cf1cd
+}
 a, a:hover {
   text-decoration: none;
-  padding:0px 0px
+  padding:0px 0px;
 }

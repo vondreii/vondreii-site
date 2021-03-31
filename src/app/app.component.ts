@@ -27,14 +27,13 @@ export class AppComponent {
   @HostListener('window:resize', ['$event'])
     getScreenSize(event?) {
       this.screenWidth = window.innerWidth;
-      console.log(this.screenWidth);
-      console.log(this.navOpen)
     }
   // Button to open/close the navbar
   openCloseNav() {
     if (this.navOpen) {
       document.getElementById("mySidebar").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "250px";
+      document.getElementById("main").style.marginLeft = "230px";
+      document.getElementById("main").style.marginBottom = "0px";
     }
     else {
       document.getElementById("mySidebar").style.width = "0";

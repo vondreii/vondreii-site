@@ -17,7 +17,7 @@ After 20-30 years, it is very easy to start forgetting the details. You'd be for
 </div>
 <!-- ----------------------------- -->
 
-That's when my [husband](https://sorakhan.com) introduced me to the concept of the **Second Brain** through [this video](https://www.youtube.com/watch?v=OP3dA2GcAh8).
+That's when my <a class="cyanLink" href="https://sorakhan.com">husband</a> introduced me to the concept of the **Second Brain** through <a class="cyanLink" href="https://www.youtube.com/watch?v=OP3dA2GcAh8">this video</a>.
 
 ### Having A Second Brain
 

@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row" *ngFor="let row of sortedRowsWithItems">
     <!-- Each project item -->
-    <div class="col-xs-12 col-md mb-4" *ngFor="let item of row">
+    <div class="col-xs-2 col-md mb-4" *ngFor="let item of row">
       <a routerLink="{{item.link}}">
         <img src="{{item.image}}" class="image-full portfolio-image" />
       </a>
