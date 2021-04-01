@@ -31,9 +31,18 @@ export class AppComponent {
   // Button to open/close the navbar
   openCloseNav() {
     if (this.navOpen) {
-      document.getElementById("mySidebar").style.width = "250px";
-      document.getElementById("main").style.marginLeft = "230px";
-      document.getElementById("main").style.marginBottom = "0px";
+      if(this.screenWidth < 1000)
+      {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.marginTop = "50px";
+        document.getElementById("main").style.marginLeft = "0px";
+        document.getElementById("main").style.marginBottom = "0px";
+      }
+      else {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "230px";
+        document.getElementById("main").style.marginBottom = "0px";
+      }
     }
     else {
       document.getElementById("mySidebar").style.width = "0";
