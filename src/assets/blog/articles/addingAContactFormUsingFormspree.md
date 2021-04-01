@@ -48,7 +48,7 @@ Create a **new project**. The project can be the same name or a similar name to 
 
 <div class="pb-3"></div>
 
-Click on **Create Form**. Here, enter the name of the form and the email address you want the submitted forms to be sent to:
+After that, click on **Create Form**. Here, enter the name of the form and the email address you want the submitted forms to be sent to:
 
 <div class="pb-3"></div>
 
