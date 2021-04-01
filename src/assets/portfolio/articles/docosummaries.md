@@ -1,29 +1,47 @@
 # Docosummaries
 #### Angular • Firebase
-
 <hr>
 
-### About
+### **About**
 
-Docosummaries is a place where you can:
-* Learn about new documentaries
-* Read blurbs and plot summaries of documentaries
-* Find links where you could watch the documentaries online
+<div class="pb-3"></div>
 
-### Background/Context
+Docosummaries is a place where you can learn about new documentaries, read plot summaries of documentaries, and find links where you could watch the documentaries for free online.
+  
+<div class="pb-3"></div>
 
-I am a massive documentary fan and have compiled a list of hundreds of documentaries I have personally watched throughout the years. Some of these documentaries are not very well known and a Google Search doesn't bring up much information. I have also categorised these documentaries using a convenient tagging system and have recorded links and more information about them. Along with this info I also write summaries about each of them. I was doing this long before thinking of DocoSummaries and it was just for 'hobby' purposes.
+* <a class="cyanLink" href="https://github.com/vondreii/docusummaries">View GitHub Repository</a>
+* <a class="cyanLink" href="https://docosummaries.com">Visit Doco Summaries</a>
+  
+<div class="pb-3"></div>
+
+### **Background/Context**
+
+<div class="pb-3"></div>
+
+I am a massive documentary fan and have compiled a list of hundreds of documentaries I have personally watched throughout the years. Some of these documentaries are not very well known and a Google Search doesn't bring up much information. 
+
+<div class="pb-3"></div>
+
+I have also categorised these documentaries using a convenient tagging system and have recorded links and more information about them. Along with this info I also write summaries about each of them. I was doing this long before thinking of DocoSummaries and it was just for 'hobby' purposes.
+
+<div class="pb-3"></div>
 
 I decided to start making this website as a 'niche' area for people who are interested in documentaries. 
 
-### Tech Stack
+<div class="pb-3"></div>
 
-The website uses:
+### **Tech Stack**
+
+<div class="pb-3"></div>
+
 * Angular Typescript (including ngx-markdown library)
 * Markdown
 * Firebase Cloud Firestore
 * NodeJS
 * Future plans include using APIs to get existing documentaries from established websites but for now the focus is on lesser known documentaries that float around the internet.
+
+<div class="pb-3"></div>
 
 <!-- ----------- Image ----------- --> 
 <div class="image-container">
@@ -31,11 +49,15 @@ The website uses:
 </div>
 <!-- ----------------------------- -->
 
-<div class="p-5 center">
-    <div class="download">
-        <a href="https://github.com/vondreii/docusummaries" class="button repo">↓ View GitHub Repository ↓</a>
-    </div>
-    <div class="download">
-        <a href="https://docosummaries.com" class="button repo">↓ Visit Doco Summaries ↓</a>
-    </div>
-</div>
+<div class="pb-3"></div>
+
+### **What I Learnt/Improved**
+
+<div class="pb-3"></div>
+
+* How to link an Angular website to a Firebase Database 
+* Utilising services and Firebase queries to access and retrieve data
+* Creating a basic search bar that can search for documentaries based on title, decription, category or keyword
+* Database Design 
+
+<div class="pb-3"></div>
