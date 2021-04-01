@@ -188,7 +188,11 @@ Download the source code from <a class="cyanLink" href="https://github.com/aanup
 
 <div class="pb-3"></div>
 
-Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes` folder. Don't forget to make sure that the folder has been extracted correctly. For example, make sure the theme's code is nested under `my-food-blog\themes\hugo-sugoi-master` and not `my-food-blog\themes\hugo-sugoi-master\hugo-sugoi-master`.
+Extract the zip, and copy the `hugo-sugoi-master` into your `my-food-blog\themes` folder. 
+
+<div class="pb-3"></div>
+
+Don't forget to make sure that the folder has been extracted correctly. For example, make sure the theme's code is nested under `my-food-blog\themes\hugo-sugoi-master` and not `my-food-blog\themes\hugo-sugoi-master\hugo-sugoi-master`.
 
 <div class="pb-3"></div>
 
@@ -218,7 +222,7 @@ Open `my-food-blog\config.toml` and overwrite the code to this (substituting you
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```toml
+```js
 baseURL = "/"
 languageCode = "en-us"
 title = "Your website's name"
@@ -254,7 +258,7 @@ Change:
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```js
+```HTML
 <label for="drop" class="toggle"><i class="fas fa-bars u-pull-right" aria-hidden="true"></i> 
 	<span><i class="fas fa-fire" aria-hidden="true"></i> 
 		Sugoi // Change Sugoi to your website's name (or, 'Home')
@@ -271,7 +275,7 @@ Also, change:
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```js
+```HTML
 <li><a href="{{ .Site.BaseURL }}">
 	<span><i class="fas fa-fire" aria-hidden="true"></i>
 		Sugoi // Change Sugoi to your website's name (or, 'Home')
@@ -292,7 +296,7 @@ Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\hero.html`. To add some
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```js
+```HTML
 <div class="section hero">
 	<div class="container">
 		<h3 class="section-heading">{{ .Site.Params.herotitle}}</h3>
@@ -328,7 +332,7 @@ Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\footer.html` and copy a
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```js
+```HTML
 <footer>
 	// ------------------------------------ Add social media links
 	<!-- Facebook -->
@@ -438,43 +442,7 @@ You can open any one of them to see the format of how you need to write your pos
 
 <div class="pb-3"></div>
 
-In a Markdown file, you can just write the content as plain English - like you would on Microsoft Word - except you can use symbols to signify headings or special styling in your text. For example:
-
-<div class="pb-3"></div>
-
-`# Something` is a main heading, like this:  
-
-<div class="pb-3"></div>
-
-# Something 
-
-<div class="pb-3"></div>
-
-`## Something` is a next level sub heading, like this:  
-
-<div class="pb-3"></div>
-
-## Something 
-
-<div class="pb-3"></div>
-
-`### Something` is an even lower sub level heading, like this: 
-
-<div class="pb-3"></div>
-
-### Something
-
-<div class="pb-3"></div>
-
-`**Something**` Will make something bold, like this: **Something** 
-
-<div class="pb-3"></div>
-
-`*Something*` Will make something italicized, like this: *Something* 
-
-<div class="pb-3"></div>
-
-`[Something](https://www.google.com)` is a link: <a class="cyanLink" href="https://www.google.com">Something</a>
+In a Markdown file, you can just write the content as plain English - like you would on Microsoft Word - except you can use symbols to signify headings or special styling in your text. <a class="cyanLink" href="/blog/markdown" target="_blank">Here are some examples</a>.
 
 <div class="pb-3"></div>
 

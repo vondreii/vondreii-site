@@ -274,7 +274,7 @@ Then in your `angular.json` file, under `projects/project-name/architect/build/o
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```Bash
+```js
 {
     "assets": [
         "src/favicon.ico",

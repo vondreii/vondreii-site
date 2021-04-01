@@ -6,45 +6,10 @@ Let's say you want to write your own personal posts (for something like a blog, 
 
 <div class="pb-3"></div>
 
-The basic idea is that each post or page with content will have their own file (a markdown file... ending in the extension `.md`). A Markdown file is where you can just write the content as plain English - like you would on Microsoft Word - except you can use symbols to signify headings or special styling in your text. For example:
+The basic idea is that each post or page with content will have their own file (a markdown file... ending in the extension `.md`). A Markdown file is where you can just write the content as plain English - like you would on Microsoft Word - except you can use symbols to signify headings or special styling in your text. <a class="cyanLink" href="/blog/markdown" target="_blank">Here are some examples</a>.
 
 <div class="pb-3"></div>
 
-`# Something` is a main heading, like this:  
-
-<div class="pb-3"></div>
-
-# Something 
-
-<div class="pb-3"></div>
-
-`## Something` is a next level sub heading, like this:  
-
-<div class="pb-3"></div>
-
-## Something 
-
-<div class="pb-3"></div>
-
-`### Something` is an even lower sub level heading, like this: 
-
-<div class="pb-3"></div>
-
-### Something
-
-<div class="pb-3"></div>
-
-`**Something**` Will make something bold, like this: **Something** 
-
-<div class="pb-3"></div>
-
-`*Something*` Will make something italicized, like this: *Something* 
-
-<div class="pb-3"></div>
-
-`[Something](https://www.google.com)` is a link: <a class="cyanLink" href="https://www.google.com">Something</a>
-
-<div class="pb-3"></div>
 
 There are a few places where you can read some of the syntax used for markdown:
 
@@ -184,7 +149,7 @@ This is an example of my Chocolate Recipe Post:
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```md
+```HTML
 <div class="content">
 
 #### 10 Oct 2020
@@ -254,7 +219,7 @@ Now, we could hard-code the html to display each of these posts like this:
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```css
+```HTML
 <div class="content">
     <div class="post">
         <h3>Chocolate Cheesecake Recipe:</h3>
@@ -385,7 +350,7 @@ Now go into `home.component.html` and add this code:
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```css
+```HTML
 <div class="content">
     <div class="post" *ngFor="let post of posts; index as i">
         <h3>{{post.title}}</h3>
@@ -625,7 +590,7 @@ I will also add some content into these new posts:
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```md
+```HTML
 <div class="content">
 
 #### 11 Oct 2020

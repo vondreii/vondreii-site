@@ -45,14 +45,21 @@ tr:nth-child(even) {
 th {
   padding:10px
 }
-// Code
+// In-line code text
 code {
-  color: rgb(255, 151, 103) !important;
-  padding:1px 5px;border-radius:5px;background-color:#2e3741
+  // color: rgb(255, 151, 103) !important;
+  color: #cec46a !important;
+  padding:3px 5px;border-radius:10px;background-color:#2e3741
 }
 pre, pre code {
   font-size:10pt !important;margin-bottom:12px !important;padding:10px;border-radius:5px;
-  background-color:#2e3741 !important;color:#D3D5D9 !important
+  background-color:#2e3741 !important;color:#D3D5D9 !important;line-height:1.5rem !important
+}
+pre code .token {
+  background-color: #2e3741 !important
+}
+pre code .comment {
+  background-color: #2e3741 !important
 }
 // Overall buttons
 .button {
@@ -106,10 +113,10 @@ pre, pre code {
 }
 // Links
 .cyanLink {
-  color: #0CDBB3
+  border-bottom: solid 1px #0CDBB3;color:#D3D5D9;font-weight: bold;
 }
 .cyanLink:hover {
-  color: #3cf1cd
+  text-decoration: none;color: #0ea587;border-bottom: solid 1px #D3D5D9
 }
 a, a:hover {
   text-decoration: none;

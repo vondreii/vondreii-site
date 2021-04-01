@@ -66,7 +66,7 @@ Once you've added this, Formspree will generate some code for you to copy and pa
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```
+```HTML
 <form action="Your link here" method="POST" >
 
 ```
@@ -92,7 +92,7 @@ If you also want to use bootstrap for your form, here is a code snippet that als
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```bash
+```HTML
 <!-- Use formspree -->
 <form action="Your link here" method="POST" >
   <div class="form-group">

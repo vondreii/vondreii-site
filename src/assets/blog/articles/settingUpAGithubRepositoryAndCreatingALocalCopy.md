@@ -151,7 +151,7 @@ As an example, I have added a very simple HTML file, `index.html`, which contain
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
-```CSS
+```HTML
 <!DOCTYPE html>
 <html lang="en">
 	<head>
