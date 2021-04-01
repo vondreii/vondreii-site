@@ -1,5 +1,12 @@
 [
     { 
+        "title": "Adding a Contact Form Using Formspree", 
+        "date": "1 Apr 2021", 
+        "link": "/blog/addingAContactFormUsingFormspree", 
+        "tags": "HTML • CSS • Forms", 
+        "description": "If you want a contact form on your website, you will need to figure out a system where inputs from the form are automatically sent to your email address. Formspree is a fast way to integrate forms into your website. It's extremely easy to use and handles all the logic for you. All you have to do is link the target email address you want the form's inputs to be sent to, and Formspree will do the rest..."
+    },
+    { 
         "title": "Building A Second Brain With Notion: Storing Everything You Know In One Place", 
         "date": "12 Feb 2021", 
         "link": "/blog/buildingASecondBrainWithNotion", 
