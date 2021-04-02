@@ -229,7 +229,7 @@ If you choose to add your custom domain name, you will then have to verify it an
 
 <div class="pb-3"></div>
 
-* <a class="cyanLink" href="https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/">https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/</a>.
-* <a class="cyanLink" href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a>.
+* <a class="cyanLink" href="https://www.freecodecamp.org/news/your-first-hugo-blog-a-practical-guide/">How to Create Your First Hugo Blog: a Practical Guide</a>.
+* <a class="cyanLink" href="https://gohugo.io/getting-started/installing/">Installing Hugo</a>.
 
 <div class="pb-3"></div>

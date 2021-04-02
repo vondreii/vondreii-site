@@ -19,7 +19,7 @@ The original game involved racing for as long as you possible without hitting an
 
 <div class="pb-3"></div>
 
-### **Background/Context**
+### **Background / Context**
 
 <div class="pb-3"></div>
 
@@ -44,7 +44,7 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 </div>
 <!-- ----------------------------- -->
 
-### **What I Learnt/Improved**
+### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
 

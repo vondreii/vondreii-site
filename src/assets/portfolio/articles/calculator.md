@@ -15,7 +15,7 @@ This is a simple calculator app that was made to replicate modern calculator app
   
 <div class="pb-3"></div>
 
-### **Background/Context**
+### **Background / Context**
 
 <div class="pb-3"></div>
 
@@ -40,7 +40,7 @@ This was made in my spare time while I was studying at the University of Newcast
 
 <div class="pb-3"></div>
 
-### **What I Learnt/Improved**
+### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
 

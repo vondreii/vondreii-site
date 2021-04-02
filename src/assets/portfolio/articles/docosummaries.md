@@ -1,4 +1,4 @@
-# Docosummaries
+# Doco Summaries
 #### Angular • Firebase
 <hr>
 
@@ -15,7 +15,7 @@ Docosummaries is a place where you can learn about new documentaries, read plot 
   
 <div class="pb-3"></div>
 
-### **Background/Context**
+### **Background / Context**
 
 <div class="pb-3"></div>
 
@@ -51,7 +51,7 @@ I decided to start making this website as a 'niche' area for people who are inte
 
 <div class="pb-3"></div>
 
-### **What I Learnt/Improved**
+### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
 

@@ -288,7 +288,7 @@ Everytime you make changes and you want to store it in the remote repository, yo
 
 <div class="pb-3"></div>
 
-* <a class="cyanLink" href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners</a>
-* <a class="cyanLink" href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/">https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/</a>
+* <a class="cyanLink" href="https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners">Git and Github Tutorial For Beginners</a>
+* <a class="cyanLink" href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/">The Beginners Guide to Git and Github</a>
 
 <div class="pb-3"></div>

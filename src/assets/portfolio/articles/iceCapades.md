@@ -16,7 +16,7 @@ interact with objects, solve puzzles and avoid enemies in order to make your way
 
 <div class="pb-3"></div>
 
-### **Background/Context**
+### **Background / Context**
 
 <div class="pb-3"></div>
 
@@ -41,7 +41,7 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-### **What I Learnt/Improved**
+### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
 

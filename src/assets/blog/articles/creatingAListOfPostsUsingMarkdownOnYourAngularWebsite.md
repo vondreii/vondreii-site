@@ -15,8 +15,8 @@ There are a few places where you can read some of the syntax used for markdown:
 
 <div class="pb-3"></div>
 
-* <a class="cyanLink" href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a>
-* <a class="cyanLink" href="https://www.markdownguide.org/cheat-sheet/">https://www.markdownguide.org/cheat-sheet/</a>
+* <a class="cyanLink" href="https://www.markdownguide.org/basic-syntax/">Markdown Basic Syntax</a>
+* <a class="cyanLink" href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheat Sheet</a>
 
 <div class="pb-3"></div>
 

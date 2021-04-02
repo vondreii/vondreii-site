@@ -16,7 +16,7 @@ The game consists of different three locations. At each location, you must solve
   
 <div class="pb-3"></div>
 
-### **Background/Context**
+### **Background / Context**
 
 <div class="pb-3"></div>
 
@@ -40,7 +40,7 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-### **What I Learnt/Improved**
+### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
 
