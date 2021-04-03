@@ -8,9 +8,7 @@ The website lists some of the major projects I have worked on. It also contains 
 
 <br>
 
-<div  style="text-align:center">
-  <img src="src/assets/images/vondreii.jpg" width="50%"/>
-</div>
+![alt text](src/assets/images/vondreii.jpg)
 
 <br>
 
