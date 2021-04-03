@@ -1,27 +1,27 @@
 # Vondreii
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+## About 
 
-## Development server
+This is the code for my personal website, https://vondreii.com.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The website lists some of the major projects I have worked on. It also contains a blog of technologies I have been learning and writing about.
 
-## Code scaffolding
+<br>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<div  style="text-align:center">
+  <img src="src/assets/images/vondreii.jpg" width="50%"/>
+</div>
 
-## Build
+<br>
+
+## Running the Code Locally
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contact Me
 
-## Running end-to-end tests
+You can fill the form on the contact page at https://vondreii.com/contact.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
