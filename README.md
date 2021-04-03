@@ -14,7 +14,8 @@ The website lists some of the major projects I have worked on. It also contains 
 
 ## To Build
 
-* Run `ng build` to build the project. The build artifacts will be stored in the dist/ directory. Use `ng build --prod` for a production build.
+* Run `ng build` to build the project. The build artifacts will be stored in the dist/ directory. 
+* Use `ng build --prod` for a production build.
 
 ## Contact
 
