@@ -1,7 +1,5 @@
 # Vondreii
 
-<div style="background-color: black; padding: 50px">
-
 ## About 
 
 This is the code for my personal website, https://vondreii.com.
@@ -25,5 +23,3 @@ You can fill the form on the contact page at https://vondreii.com/contact.
 <br>
 
 ![alt text](src/assets/images/vondreii.jpg)
-
-</div>
