@@ -2,7 +2,7 @@
 # Hosting An Angular Application Using Github And Netlify
 ___
 
-For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up. If you don't have an Angular App, you can download the source code of a working simple Angular App from <a class="cyanLink" href="https://github.com/vondreii/angular-netlify">here</a>.
+For this tutorial, you will need a working Angular App ready to host, and a Github Account already set up. If you don't have an Angular App, you can download some template source code of a working simple Angular App from <a class="cyanLink" href="https://github.com/vondreii/project-template">here</a>.
 
 <div class="pb-3"></div>
 
@@ -51,13 +51,13 @@ cd Desktop
 
 <div class="pb-3"></div>
 
-Then, run the command: `git clone <<put-the-link-here>>`. For example, my link was `https://github.com/vondreii/my-angular-app-netlify.git`, so I would write:
+Then, run the command: `git clone <<put-the-link-here>>`. For example, my link was `https://github.com/vondreii/project-template.git`, so I would write:
 
 <div class="pb-3"></div>
 
 <!-- ----------- Code ----------- -->
 ```Bash
-git clone https://github.com/vondreii/my-angular-app-netlify.git
+git clone https://github.com/vondreii/project-template.git
 
 ```
 <!-- ----------------------------- -->
