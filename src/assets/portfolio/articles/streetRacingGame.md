@@ -13,6 +13,12 @@ This is a modified version of the street racing game sourced from <a class="cyan
 The original game is a 3D street racing game where the player must avoid the obstacles on the road. The player scores points when avoiding these obstacles. 
 The original game involved racing for as long as you possible without hitting any obstacles, as the speed increased. If you hit any obstacles during the game, the game would end.
 
+<!-- ----------- Image ----------- -->   
+<div class="image-container">
+  <img src="./assets/portfolio/images/racingGame/1.PNG" loading="lazy" alt="image" class="image-75"/> 
+</div>
+<!-- ----------------------------- -->
+
 <div class="pb-3"></div>
 
 * <a class="cyanLink" href="https://github.com/vondreii/Modified-Street-Racing-Game">View GitHub Repository</a>
@@ -37,12 +43,6 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 * Unity C#
 
 <div class="pb-3"></div>
-
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="./assets/portfolio/images/racingGame/header.jpg" loading="lazy" alt="image" class="image-75"/> 
-</div>
-<!-- ----------------------------- -->
 
 ### **What I Learnt / Improved**
 
@@ -88,7 +88,7 @@ The game could also record all game statistics. This included things like:
 
 <!-- ----------- Image ----------- -->   
 <div class="image-container">
-  <img src="./assets/portfolio/images/racingGame/1.PNG" loading="lazy" alt="image" class="image-75"/> 
+  <img src="./assets/portfolio/images/racingGame/2.PNG" loading="lazy" alt="image" class="image-50"/> 
 </div>
 <!-- ----------------------------- -->
 

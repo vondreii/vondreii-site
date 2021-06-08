@@ -8,6 +8,12 @@
 
 This is a simple calculator app that was made to replicate modern calculator apps that can be seen on smartphones.
   
+<!-- ----------- Image ----------- --> 
+<div class="image-container">
+	<img src="./assets/portfolio/images/calculator/1.jpg" loading="lazy" alt="image" class="image-75">
+</div>
+<!-- ----------------------------- -->
+
 <div class="pb-3"></div>
 
 * <a class="cyanLink" href="https://github.com/vondreii/calculator">View GitHub Repository</a>
@@ -29,14 +35,6 @@ This was made in my spare time while I was studying at the University of Newcast
 
 * Visual Studio Windows Form Application
 * C#
-
-<div class="pb-3"></div>
-
-<!-- ----------- Image ----------- --> 
-<div class="image-container">
-	<img src="./assets/portfolio/images/calculator/1.jpg" loading="lazy" alt="image" class="image-75">
-</div>
-<!-- ----------------------------- -->
 
 <div class="pb-3"></div>
 

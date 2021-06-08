@@ -24,7 +24,7 @@ export class PortfolioListComponent implements OnInit {
 
   // Determines the number of rows, splits it into 3 projects per row (sub-array)  
   createRows() {
-    var perChunk = 3 
+    var perChunk = 3
     var inputArray = this.contentList;
     // compile data structure
     var result = inputArray.reduce((resultArray, item, index) => { 

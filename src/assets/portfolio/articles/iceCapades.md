@@ -9,6 +9,12 @@
 Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, 
 interact with objects, solve puzzles and avoid enemies in order to make your way to the oil rig that is causing the ice in your village to melt.
 
+<!-- ----------- Image ----------- -->   
+<div class="image-container">
+  <img src="./assets/portfolio/images/iceCapades/1.PNG" loading="lazy" alt="image" class="image-75"/> 
+</div>
+<!-- ----------------------------- -->
+
 <div class="pb-3"></div>
 
 * <a class="cyanLink" href="https://github.com/vondreii/ice-capades">View GitHub Repository</a>
@@ -33,14 +39,6 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-<!-- ----------- Image ----------- -->   
-<div class="image-container">
-  <img src="./assets/portfolio/images/iceCapades/header.jpg" loading="lazy" alt="image" class="image-75"/> 
-</div>
-<!-- ----------------------------- -->
-
-<div class="pb-3"></div>
-
 ### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
@@ -48,6 +46,12 @@ This was made for an Info Tech course while studying at the University of Newcas
 * Object-oriented concepts
 * Game design
 * Handling game events
+
+<!-- ----------- Image ----------- -->   
+<div class="image-container">
+  <img src="./assets/portfolio/images/iceCapades/header.PNG" loading="lazy" alt="image" class="image-50"/> 
+</div>
+<!-- ----------------------------- -->
 
 <div class="pb-3"></div>
 

@@ -6,9 +6,15 @@
 
 <div class="pb-3"></div>
 
-CyanX is a 2D platformer game based in the distant future in a world known as Khandren. Flying robot enemies (also known as 'Nezbots') have captured animals and it is up to you to rescue them. 
-The game consists of different three locations. At each location, you must solve puzzles, level up, craft weapons and defeat the Nezbots in order to reach and rescue the animals.
+CyanX is a 2D platformer game based in the distant future in a world known as Khandren. Flying robot enemies (also known as 'Nezbots') have captured animals and the player must solve puzzles, level up, craft weapons and defeat the Nezbots in order to reach and rescue the animals. 
   
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+  <img src="./assets/portfolio/images/cyanX/map.png" loading="lazy" alt="image" class="image-75">
+</div>
+<!-- ----------------------------- -->
+
+
 <div class="pb-3"></div>
 
 * <a class="cyanLink" href="https://github.com/vondreii/CyanX">View GitHub Repository</a>
@@ -32,14 +38,6 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-<!-- ----------- Image ----------- -->
-<div class="image-container">
-  <img src="./assets/portfolio/images/cyanX/header.jpg" loading="lazy" alt="image" class="image-75">
-</div>
-<!-- ----------------------------- -->
-
-<div class="pb-3"></div>
-
 ### **What I Learnt / Improved**
 
 <div class="pb-3"></div>
@@ -48,6 +46,12 @@ This was made for a Games Production course while studying at the University of 
 * Game development (including the updates and the 'looping' environment of games development) 
 * Consistency across the design of a game
 * Points, skills, and inventory management (especially when levelling up and crafting weapons using resources collected)
+
+<!-- ----------- Image ----------- -->
+<div class="image-container">
+  <img src="./assets/portfolio/images/cyanX/4.jpg" loading="lazy" alt="image" class="image-75">
+</div>
+<!-- ----------------------------- -->
 
 <div class="pb-3"></div>
 
