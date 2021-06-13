@@ -1,4 +1,4 @@
-#### 04 Oct 2020
+##### 04 Oct 2020
 # Linking A Namecheap Domain To Firebase
 ___
 
@@ -10,7 +10,7 @@ If you've already bought a Namecheap domain name, this is how you can link it to
 
 <div class="pb-3"></div>
 
-### **Linking a custom domain using Namecheap**
+## **Linking a custom domain using Namecheap**
 
 <div class="pb-3"></div>
 

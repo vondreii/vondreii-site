@@ -1,4 +1,4 @@
-#### 27 Nov 2020
+##### 27 Nov 2020
 # Creating Your Own Blog Using Hugo
 <hr>
 
@@ -34,7 +34,7 @@ We will go through everything from:
 
 <div class="pb-3"></div>
 
-### **Installing Hugo**
+## **Installing Hugo**
 
 <div class="pb-3"></div>
 
@@ -59,7 +59,7 @@ Now, we will install hugo and create a new project from scratch. In the command 
 
 <div class="pb-3"></div>
 
-#### **Windows**
+##### **Windows**
 For windows, if you use chocolatey for package management, run:
 
 <div class="pb-3"></div>
@@ -91,7 +91,7 @@ You can check what you are using by going into your `C:\ProgramData` folder and 
 
 <div class="pb-3"></div>
 
-#### **MAC**
+##### **MAC**
 
 <div class="pb-3"></div>
 
@@ -108,7 +108,7 @@ brew install hugo
 
 <div class="pb-3"></div>
 
-#### **Linux**
+##### **Linux**
 
 <div class="pb-3"></div>
 
@@ -125,7 +125,7 @@ brew install hugo
 
 <div class="pb-3"></div>
 
-### **Creating a new project**
+## **Creating a new project**
 
 <div class="pb-3"></div>
 
@@ -159,7 +159,7 @@ This will create a new folder called my-food-blog. If you open the folder, you w
 
 <div class="pb-3"></div>
 
-### **Using a Theme**
+## **Using a Theme**
 
 <div class="pb-3"></div>
 
@@ -209,7 +209,7 @@ Now rename the folder from `hugo-sugoi-master` to `hugo-sugoi`.
 
 <div class="pb-3"></div>
 
-### **Personalise your site**
+## **Personalise your site**
 
 <div class="pb-3"></div>
 
@@ -367,7 +367,7 @@ Go into `my-food-blog\themes\hugo-sugoi\layouts\partials\footer.html` and copy a
 
 <div class="pb-3"></div>
 
-### **Add some content**
+## **Add some content**
 
 <div class="pb-3"></div>
 
@@ -463,7 +463,7 @@ You can view the final source code on <a class="cyanLink" href="https://github.c
 
 <div class="pb-3"></div>
 
-### **Resources**
+## **Resources**
 
 <div class="pb-3"></div>
 

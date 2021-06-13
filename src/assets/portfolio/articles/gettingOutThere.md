@@ -1,8 +1,13 @@
+<!--- ----------------- -->
 # Getting Out There
-#### Podcast • Hugo • Github • Netlify
-<hr>
+<br>
 
-### **About**
+##### Podcast • Hugo • Github • Netlify
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 

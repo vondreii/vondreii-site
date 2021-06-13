@@ -1,8 +1,13 @@
+<!--- ----------------- -->
 # Ice Capades
-#### 2D • Game • Top-Down • Puzzle
-<hr>
+<br>
 
-### **About**
+##### 2D • Game • Top-Down • Puzzle
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 
@@ -22,7 +27,7 @@ interact with objects, solve puzzles and avoid enemies in order to make your way
 
 <div class="pb-3"></div>
 
-### **Background / Context**
+## **Background**
 
 <div class="pb-3"></div>
 
@@ -30,7 +35,7 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-### **Tech Stack**
+## **Tech Stack**
 
 <div class="pb-3"></div>
 
@@ -39,7 +44,7 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-### **What I Learnt / Improved**
+## **What I Learnt or Improved**
 
 <div class="pb-3"></div>
 
@@ -55,7 +60,7 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-### **Game Mechanics**
+## **Game Mechanics**
 
 <div class="pb-3"></div>
 

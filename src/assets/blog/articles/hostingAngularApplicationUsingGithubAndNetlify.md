@@ -1,4 +1,4 @@
-#### 30 Aug 2020
+##### 30 Aug 2020
 # Hosting An Angular Application Using Github And Netlify
 ___
 
@@ -6,7 +6,7 @@ For this tutorial, you will need a working Angular App ready to host, and a Gith
 
 <div class="pb-3"></div>
 
-### **Github with Netlify**
+## **Github with Netlify**
 
 <div class="pb-3"></div>
 
@@ -26,7 +26,7 @@ In this tutorial we will go through how to host an Angular web application using
 
 <div class="pb-3"></div>
 
-### **1. Adding your Angular code to your repository**
+## **1. Adding your Angular code to your repository**
 
 <div class="pb-3"></div>
 
@@ -104,7 +104,7 @@ Once you have pushed your code, go to your repository on your Github page. You s
 
 <div class="pb-3"></div>
 
-### **2. Creating a Netlify Account**
+## **2. Creating a Netlify Account**
 	
 <div class="pb-3"></div>
 
@@ -132,7 +132,7 @@ Now you have your Netlify account setup! You should be able to see your main das
 
 <div class="pb-3"></div>
 
-### **3. Linking a Netlify Project to your Github repository**
+## **3. Linking a Netlify Project to your Github repository**
 
 <div class="pb-3"></div>
 
@@ -230,11 +230,11 @@ You will need to still complete some extra configurations in order for hosting t
 
 <div class="pb-3"></div>
 
-### **4. Changing any additional configurations to host the site successfully**
+## **4. Changing any additional configurations to host the site successfully**
 
 <div class="pb-3"></div>
 
-#### **Adding the _redirects file**
+##### **Adding the _redirects file**
 
 <div class="pb-3"></div>
 
@@ -292,7 +292,7 @@ Then in your `angular.json` file, under `projects/project-name/architect/build/o
 
 <div class="pb-3"></div>
 
-#### **Build/Compile your project**
+##### **Build/Compile your project**
 
 <div class="pb-3"></div>
 
@@ -387,7 +387,7 @@ Here, you can see that mine is `dist/test-angular-app`.
 
 <div class="pb-3"></div>
 
-#### Configure your Build settings
+##### Configure your Build settings
 
 <div class="pb-3"></div>
 
@@ -426,7 +426,7 @@ Press save.
 
 <div class="pb-3"></div>
 
-#### **Change your domain name**
+##### **Change your domain name**
 
 <div class="pb-3"></div>
 
@@ -455,7 +455,7 @@ Because this will be a free domain, Netlify will add a `.netlify.app` extension 
 
 <div class="pb-3"></div>
 
-#### **Run, Test and Deploy your website**
+##### **Run, Test and Deploy your website**
 
 <div class="pb-3"></div>
 
@@ -471,7 +471,7 @@ Go into the search bar and type your new domain name, for example <a class="cyan
  
 <div class="pb-3"></div>
 
-### **Key Points**
+## **Key Points**
 
 <div class="pb-3"></div>
 
@@ -483,7 +483,7 @@ Everytime you `git push`, Netlify will automatically trigger an attempt to re-de
 
 <div class="pb-3"></div>
 
-### **Resources**
+## **Resources**
 
 <div class="pb-3"></div>
 

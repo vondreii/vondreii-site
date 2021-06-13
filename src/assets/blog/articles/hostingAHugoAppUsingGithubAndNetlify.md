@@ -1,8 +1,8 @@
-#### 4 Jan 2021
+##### 4 Jan 2021
 # Hosting a Hugo Application Using Github and Netlify
 ___
 
-### **Prerequisites**
+## **Prerequisites**
 
 <div class="pb-3"></div>
 
@@ -20,7 +20,7 @@ If you don't have a Hugo App, you can download the source code of a working simp
 
 <div class="pb-3"></div>
 
-### **Hugo Framework hosted using Netlify**
+## **Hugo Framework hosted using Netlify**
 
 <div class="pb-3"></div>
 
@@ -28,7 +28,7 @@ Netlify is a free hosting platform where you can host your website live for free
 
 <div class="pb-3"></div>
 
-### **1. Creating a Netlify Account**
+## **1. Creating a Netlify Account**
 
 <div class="pb-3"></div>
 
@@ -61,7 +61,7 @@ Now you have your Netlify account setup! You should be able to see your main das
 
 <div class="pb-3"></div>
 
-### **2. Linking a Netlify Project to your Github repository**
+## **2. Linking a Netlify Project to your Github repository**
 
 <div class="pb-3"></div>
 
@@ -187,7 +187,7 @@ Netlify will automatically attempt to build the code. In a few minutes, the code
 
 <div class="pb-3"></div>
 
-### **Change your Domain Name**
+## **Change your Domain Name**
 
 <div class="pb-3"></div>
 
@@ -225,7 +225,7 @@ If you choose to add your custom domain name, you will then have to verify it an
 
 <div class="pb-3"></div>
 
-### **Resources**
+## **Resources**
 
 <div class="pb-3"></div>
 

@@ -62,13 +62,5 @@
       "tags": "C# • Tools", 
       "description": "This is a simple calculator app that was made to replicate modern calculator apps that can be seen on smartphones...",
       "image": "./assets/portfolio/images/calculator/header.PNG"
-  },
-  { 
-      "title": "", 
-      "date": "", 
-      "link": "", 
-      "tags": "", 
-      "description": "",
-      "image": "./assets/portfolio/images/empty.PNG"
   }
 ]

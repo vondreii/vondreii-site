@@ -1,8 +1,13 @@
+<!--- ----------------- -->
 # Hugo Website Tutorial
-#### Hugo • Github • Netlify • Markdown
-<hr>
+<br>
 
-### **About**
+##### Hugo • Github • Netlify • Markdown
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 
@@ -23,7 +28,7 @@ The tutorial goes through how to create a very simple website using Hugo (a Stat
   
 <div class="pb-3"></div>
 
-### **Background / Context**
+## **Background**
 
 <div class="pb-3"></div>
 
@@ -35,7 +40,7 @@ A Hugo website can be created locally on someone's computer. They can push the c
 
 <div class="pb-3"></div>
 
-### **Tech Stack**
+## **Tech Stack**
 
 <div class="pb-3"></div>
 
@@ -46,7 +51,7 @@ A Hugo website can be created locally on someone's computer. They can push the c
 
 <div class="pb-3"></div>
 
-### **What I Learnt / Improved**
+## **What I Learnt or Improved**
 
 <div class="pb-3"></div>
 

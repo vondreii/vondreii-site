@@ -1,8 +1,13 @@
-# CyanX
-#### 2D • Game • Side Scroller • Puzzle
-<hr>
+<!--- ----------------- -->
+# CyanX  
+<br>
 
-### **About**
+##### 2D • Game • Side Scroller • Puzzle
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 
@@ -22,7 +27,7 @@ CyanX is a 2D platformer game based in the distant future in a world known as Kh
   
 <div class="pb-3"></div>
 
-### **Background / Context**
+## **Background**
 
 <div class="pb-3"></div>
 
@@ -30,7 +35,7 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-### **Tech Stack**
+## **Tech Stack**
 
 <div class="pb-3"></div>
 
@@ -38,7 +43,7 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-### **What I Learnt / Improved**
+## **What I Learnt or Improved**
 
 <div class="pb-3"></div>
 
@@ -55,7 +60,7 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-### **Game Mechanics**
+## **Game Mechanics**
 
 <div class="pb-3"></div>
 

@@ -9,9 +9,10 @@ import { BlogPostComponent } from './blog/blog-post/blog-post.component';
 import { PageManagerComponent } from './page-manager/page-manager.component';
 import { PortfolioListComponent } from './portfolio/portfolio-list/portfolio-list.component';
 import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-item.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: PageManagerComponent },
+  { path: '', component: HomeComponent },
   // Portfolio and Blog lists
   { path: 'portfolio', component: PageManagerComponent },
   { path: 'blog', component: PageManagerComponent },

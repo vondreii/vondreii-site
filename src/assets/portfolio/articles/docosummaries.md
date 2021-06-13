@@ -1,8 +1,13 @@
-# Doco Summaries
-#### Angular • Firebase
-<hr>
+<!--- ----------------- -->
+# Doco Summaries 
+<br>
 
-### **About**
+##### Angular • Firebase
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 
@@ -21,7 +26,7 @@ Docosummaries is a place where you can learn about new documentaries, read plot 
   
 <div class="pb-3"></div>
 
-### **Background / Context**
+## **Background**
 
 <div class="pb-3"></div>
 
@@ -37,7 +42,7 @@ At the moment this is only a proof-of-concept and the real designs have not been
 
 <div class="pb-3"></div>
 
-### **Tech Stack**
+## **Tech Stack**
 
 <div class="pb-3"></div>
 
@@ -49,7 +54,7 @@ At the moment this is only a proof-of-concept and the real designs have not been
 
 <div class="pb-3"></div>
 
-### **What I Learnt / Improved**
+## **What I Learnt or Improved**
 
 <div class="pb-3"></div>
 

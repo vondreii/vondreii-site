@@ -1,4 +1,4 @@
-#### 01 Apr 2021
+##### 01 Apr 2021
 # Adding a Contact Form Using Formspree
 <hr>
 
@@ -19,7 +19,7 @@ If you want a contact form on your website, you will need to figure out a system
 
 <div class="pb-3"></div>
 
-### **Register your email with Formspree**
+## **Register your email with Formspree**
 
 <div class="pb-3"></div>
 
@@ -27,7 +27,7 @@ All you need to do is sign up (or sign in) and verify your email in order to lin
 
 <div class="pb-3"></div>
 
-### **Create your form**
+## **Create your form**
 
 <div class="pb-3"></div>
 

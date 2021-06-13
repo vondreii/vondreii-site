@@ -1,4 +1,4 @@
-#### 12 Feb 2021
+##### 12 Feb 2021
 # Building A Second Brain using Notion: Storing Everything You Know In One Place
 <hr>
 
@@ -29,7 +29,7 @@ That's when my <a class="cyanLink" href="https://sorakhan.com">husband</a> intro
 
 <div class="pb-3"></div>
 
-### **Having A Second Brain**
+## **Having A Second Brain**
 
 <div class="pb-3"></div>
 
@@ -45,7 +45,7 @@ There are lots of platforms you can use. <a class="cyanLink" href="https://evern
 
 <div class="pb-3"></div>
 
-### **How I Use Notion**
+## **How I Use Notion**
 
 <div class="pb-3"></div>
 
@@ -65,7 +65,7 @@ I have split up my Notion account into separate 'main' pages, each focusing on a
 
 <div class="pb-3"></div>
 
-### **Self Development**
+## **Self Development**
 
 <div class="pb-3"></div>
 
@@ -106,7 +106,7 @@ Now, whenever I read or watch something new, I just add it to the list.
 
 <div class="pb-3"></div>
 
-### **Household**
+## **Household**
 
 <div class="pb-3"></div>
 
@@ -140,7 +140,7 @@ For example:
 
 <div class="pb-3"></div>
 
-### **Life Goals, Events, etc**
+## **Life Goals, Events, etc**
 
 <div class="pb-3"></div>
 
@@ -156,7 +156,7 @@ When I write things I am grateful for, I also include it in here.
 
 <div class="pb-3"></div>
 
-### **Planning**
+## **Planning**
 
 <div class="pb-3"></div>
 
@@ -164,7 +164,7 @@ I also have a **Planning** tab where I write down notes for any upcoming events.
 
 <div class="pb-3"></div>
 
-### **Health**
+## **Health**
 
 <div class="pb-3"></div>
 
@@ -181,7 +181,7 @@ Under the 'Health' tab, I list my usual exercises I do during my weekly home rou
 
 <div class="pb-3"></div>
 
-### **Finances**
+## **Finances**
 
 <div class="pb-3"></div>
 
@@ -202,7 +202,7 @@ I include notes about my target portfolio and any goals regarding how much I wou
 
 <div class="pb-3"></div>
 
-### **Work**
+## **Work**
 
 <div class="pb-3"></div>
 
@@ -214,7 +214,7 @@ One of the main things I use it for is to keep track of my job applications when
 
 <div class="pb-3"></div>
 
-### **Side Projects**
+## **Side Projects**
 
 <div class="pb-3"></div>
 
@@ -231,7 +231,7 @@ Here I put a list of my side projects. In each of these pages I include to-dos, 
 
 <div class="pb-3"></div>
 
-### **Education**
+## **Education**
 
 <div class="pb-3"></div>
 
@@ -243,7 +243,7 @@ For example, I am currently trying to improve my Angular skills and learn it the
 
 <div class="pb-3"></div>
 
-### **Conclusion**
+## **Conclusion**
 
 <div class="pb-3"></div>
 

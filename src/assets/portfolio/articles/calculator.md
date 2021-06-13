@@ -1,8 +1,13 @@
-# Calculator
-#### C# • Tools
-<hr>
+<!--- ----------------- -->
+# Calculator  
+<br>
 
-### **About**
+##### C# • Tools
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 
@@ -21,7 +26,7 @@ This is a simple calculator app that was made to replicate modern calculator app
   
 <div class="pb-3"></div>
 
-### **Background / Context**
+## **Background**
 
 <div class="pb-3"></div>
 
@@ -29,7 +34,7 @@ This was made in my spare time while I was studying at the University of Newcast
 
 <div class="pb-3"></div>
 
-### **Tech Stack**
+## **Tech Stack**
 
 <div class="pb-3"></div>
 
@@ -38,7 +43,7 @@ This was made in my spare time while I was studying at the University of Newcast
 
 <div class="pb-3"></div>
 
-### **What I Learnt / Improved**
+## **What I Learnt or Improved**
 
 <div class="pb-3"></div>
 

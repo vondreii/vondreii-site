@@ -14,6 +14,9 @@ import { BlogListComponent } from './blog/blog-list/blog-list.component';
 import { PageManagerComponent } from './page-manager/page-manager.component';
 import { PortfolioListComponent } from './portfolio/portfolio-list/portfolio-list.component';
 import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-item.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-ite
     BlogListComponent,
     PageManagerComponent,
     PortfolioListComponent,
-    PortfolioItemComponent
+    PortfolioItemComponent,
+    FooterComponent,
+    HomeComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -15,14 +15,6 @@
 
 <div class="pb-3"></div>
 
-`### Something` is an even lower sub level heading, like this: 
-
-<div class="pb-3"></div>
-
-### Something
-
-<div class="pb-3"></div>
-
 `**Something**` Will make something bold, like this: **Something** 
 
 <div class="pb-3"></div>

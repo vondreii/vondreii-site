@@ -1,8 +1,13 @@
+<!--- ----------------- -->
 # 3D Street Racing Game
-#### 3D • Game • Research • Racing
-<hr>
+<br>
 
-### **About**
+##### 3D • Game • Research • Racing
+<hr>
+<br>
+<!--- ----------------- -->
+
+## **About**
 
 <div class="pb-3"></div>
 
@@ -25,7 +30,7 @@ The original game involved racing for as long as you possible without hitting an
 
 <div class="pb-3"></div>
 
-### **Background / Context**
+## **Background / Context**
 
 <div class="pb-3"></div>
 
@@ -36,7 +41,7 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 
 <div class="pb-3"></div>
 
-### **Tech Stack**
+## **Tech Stack**
 
 <div class="pb-3"></div>
 
@@ -44,7 +49,7 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 
 <div class="pb-3"></div>
 
-### **What I Learnt / Improved**
+## **What I Learnt / Improved**
 
 <div class="pb-3"></div>
 
@@ -54,7 +59,7 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 
 <div class="pb-3"></div>
 
-### **Game Mechanics**
+## **Game Mechanics**
 
 <div class="pb-3"></div>
 

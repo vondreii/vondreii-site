@@ -1,4 +1,4 @@
-#### 22 Aug 2020
+##### 22 Aug 2020
 # Setting Up A Github Repository and Creating A Local Copy
 ___
 
@@ -12,7 +12,7 @@ This is a simple tutorial that will help you quickly set up an online remote rep
 
 <div class="pb-3"></div>
 
-### **1. Creating a GitHub Account**
+## **1. Creating a GitHub Account**
 
 <div class="pb-3"></div>
 
@@ -37,7 +37,7 @@ Once the setup is complete, you will be taken to the main Github dashboard page,
 
 <div class="pb-3"></div>
 
-### **2. Creating a Github repository**
+## **2. Creating a Github repository**
 
 <div class="pb-3"></div>
 
@@ -67,7 +67,7 @@ We have now successfully set up the remote repository!
 
 <div class="pb-3"></div>
 
-### **3. Cloning the repository to create a local copy**
+## **3. Cloning the repository to create a local copy**
 
 <div class="pb-3"></div>
 
@@ -138,7 +138,7 @@ In this example, my repository is called `My-Angular-App-Netlify`, so the new fo
 
 <div class="pb-3"></div>
 
-### **4. Save code in your local copy of the repository**
+## **4. Save code in your local copy of the repository**
 
 <div class="pb-3"></div>
 
@@ -172,7 +172,7 @@ As an example, I have added a very simple HTML file, `index.html`, which contain
 
 <div class="pb-3"></div>
 
-### **5. Push these local changes to the remote repository**
+## **5. Push these local changes to the remote repository**
 
 <div class="pb-3"></div>
 
@@ -284,7 +284,7 @@ Everytime you make changes and you want to store it in the remote repository, yo
 	 
 <div class="pb-3"></div>
 
-### **Resources**
+## **Resources**
 
 <div class="pb-3"></div>
 

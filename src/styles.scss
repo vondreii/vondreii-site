@@ -1,66 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-// Overall page
+/* You can add global styles to this file, and also import other style files */
 * {
-  font-family:'Montserrat';color:#D3D5D9;background-color:#222831
+  font-family:'Montserrat', sans-serif;
 }
-.center {
-  text-align:center;
+
+// .content {
+//   padding:0px 180px;text-align:left;text-decoration:none;font-size:17px;color:#D3D5D9;border:none;line-height:2rem;margin-bottom:100px
+// }
+.content, .extra-padding {
+  padding: 50px 15%;
 }
-.content {
-  padding:0px 180px;text-align:left;text-decoration:none;font-size:17px;color:#D3D5D9;border:none;line-height:2rem;margin-bottom:100px
-}
-// Smallest screens (phones)
-@media screen and (max-width:1000px) {
-  .content {
-    padding:0px 40px;line-height:1.9rem
+@media screen and (max-width: 1000px) {
+  .content, .extra-padding {
+    padding: 5%
   }
 }
-// Headings
-h1, h2 {
-  font-family:'Montserrat', sans-serif;text-align:left;line-height:50px;font-size:10pt;padding:0
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif
 }
+
+p {
+  line-height: 1.6rem;
+}
+
 h3 {
-  padding-top:10px;font-family:'Montserrat', sans-serif;text-align:left;line-height:40px;font-size:18pt
+  font-size: small;
+  letter-spacing: 10px;
+  padding-bottom:10px;
 }
+@media screen and (max-width: 1000px) {
+  h3 {
+    letter-spacing: 5px;
+  }
+}
+
 h4 {
-  padding-top:15px;padding-bottom:15px;font-family:'Montserrat', sans-serif;;font-size:14pt;color:#D3D5D9;line-height:30px
+  letter-spacing: 5px;
+  padding-bottom:50px;
 }
-h5, h6 {
-  font-family:'Montserrat', sans-serif;;text-align:left;margin-top:-20px;color:#D3D5D9
+
+.bg-black {
+  background-color: #121518;
 }
-// Content items
-ul, ol {
-  text-align:left
+
+.bg-grey {
+  background-color: #f8f9fa;
 }
-table {
-  line-height:20px;text-align:left
+
+.text-black {
+  color: #272b2e;
+}
+
+.text-grey {
+  color: rgb(138, 138, 138);
+}
+
+// Contact Form
+.box { 
+	margin:2rem auto 2rem auto;padding:30px 25px 60px 25px;box-shadow:0 2px 5px 0 rgba(0,0,0,0.15);font-size:16px;background-color:#2e3741;color:#D3D5D9;border-radius:5px
+}
+.box h2 {
+	margin-bottom:1rem;background-color:#2e3741
+}
+.box h5 {
+  background-color:#252729
+}
+.box div {
+	background-color:#2e3741
+}
+.box a {
+	text-decoration:none;color:#D3D5D9;transition: ease 0.3s;background-color:#2e3741
+}
+.box a:hover {
+	text-decoration:none;color:#0CDBB3
+}
+.form {
+	
 } 
-td {
-  padding:10px
-}
-tr:nth-child(even) {
-  background-color:#D3D5D9
-}
-th {
-  padding:10px
-}
-// In-line code text
-code {
-  // color: rgb(255, 151, 103) !important;
-  color: #cec46a !important;
-  padding:3px 5px;border-radius:10px;background-color:#2e3741
-}
-pre, pre code {
-  font-size:10pt !important;margin-bottom:12px !important;padding:10px;border-radius:5px;
-  background-color:#2e3741 !important;color:#D3D5D9 !important;line-height:1.5rem !important
-}
-pre code .token {
-  background-color: #2e3741 !important
-}
-pre code .comment {
-  background-color: #2e3741 !important
-}
 // Overall buttons
 .button {
   text-decoration:none;padding:10px 25px;border:none;border-radius:5px;color:white;font-size:14px;box-shadow:0 4px 8px 0 rgb(0, 0, 0);
@@ -113,12 +129,12 @@ pre code .comment {
 }
 // Links
 .cyanLink {
-  border-bottom: solid 1px #0CDBB3;color:#D3D5D9;font-weight: bold;
+  color: #0CDBB3;font-weight: bold;
 }
-.cyanLink:hover {
-  text-decoration: none;color: #0ea587;border-bottom: solid 1px #D3D5D9
-}
-a, a:hover {
-  text-decoration: none;
-  padding:0px 0px;
-}
+// .cyanLink:hover {
+//   text-decoration: none;color: #0ea587;border-bottom: solid 1px #D3D5D9
+// }
+// a, a:hover {
+//   text-decoration: none;
+//   padding:0px 0px;
+// }

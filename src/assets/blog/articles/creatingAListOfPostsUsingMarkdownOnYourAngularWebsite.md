@@ -1,4 +1,4 @@
-#### 11 Oct 2020
+##### 11 Oct 2020
 # Creating a list of posts using Markdown on your Angular Website
 <hr>
 
@@ -20,7 +20,7 @@ There are a few places where you can read some of the syntax used for markdown:
 
 <div class="pb-3"></div>
 
-### **Markdown with Angular**
+## **Markdown with Angular**
 
 <div class="pb-3"></div>
 
@@ -40,7 +40,7 @@ In this example we're going to work with **Posts**. This could be anything... bl
 
 <div class="pb-3"></div>
 
-### **1. Installing Markdown npm**
+## **1. Installing Markdown npm**
 
 <div class="pb-3"></div>
 
@@ -113,7 +113,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http'; // add this
 
 <div class="pb-3"></div>
 
-### **2. Creating each post as a Markdown file**
+## **2. Creating each post as a Markdown file**
 
 <div class="pb-3"></div>
 
@@ -193,7 +193,7 @@ You can add some very simple styling in your markdown files so they will look co
 
 <div class="pb-3"></div>
 
-### **3. Displaying markdown files on the Home page**
+## **3. Displaying markdown files on the Home page**
 
 <div class="pb-3"></div>
 
@@ -457,7 +457,7 @@ If you try to click on a link, you will notice that they are not functional. Now
 
 <div class="pb-3"></div>
 
-### **4. Opening each post as a separate page**
+## **4. Opening each post as a separate page**
 
 <div class="pb-3"></div>
 
@@ -564,7 +564,7 @@ Now you can run `ng serve --open` again to view your web application. If everyth
 
 <div class="pb-3"></div>
 
-### **5. Adding more posts**
+## **5. Adding more posts**
 
 <div class="pb-3"></div>
 
@@ -677,7 +677,7 @@ You can view the completed source code for this <a class="cyanLink" href="https:
 
 <div class="pb-3"></div>
 
-### **Important Takeaways**
+## **Important Takeaways**
 
 <div class="pb-3"></div>
 
@@ -690,7 +690,7 @@ You can view the completed source code for this <a class="cyanLink" href="https:
 
 <div class="pb-3"></div>
 
-### **Resources**
+## **Resources**
 
 <div class="pb-3"></div>
 

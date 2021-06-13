@@ -1,0 +1,51 @@
+a {
+  transition: .3s;
+}
+
+.footer {
+  position: relative;
+  padding-top: 45px;
+  background: #121518;
+}
+
+.footer .footer-about,
+.footer .footer-contact,
+.footer .footer-links,
+.footer .footer-project {
+  position: relative;
+  margin-bottom: 45px;
+  color: #999999;
+}
+
+.footer .footer-about h3,
+.footer .footer-contact h3,
+.footer .footer-links h3,
+.footer .footer-project h3 {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer .footer-links a {
+  display: block;
+  margin-bottom: 6px;
+  padding-left: 15px;
+  color: #999999;
+}
+
+.footer .footer-links a:last-child {
+  margin: 0;
+}
+
+.footer .footer-links a:hover {
+  color: #0085ff;
+}
+
+.footer .footer-links a::before {
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  left: 0;
+}
