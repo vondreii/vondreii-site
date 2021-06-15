@@ -4,7 +4,7 @@
     "date": "2021", 
     "link": "/portfolio/gettingOutThere", 
     "tags": "Podcast • Hugo • Github • Netlify", 
-    "description": "",
+    "description": "This is a podcast I started with my partner in 2021, where we talk about experiences in work, life, and as students. It's about learning, growing and becoming better versions of ourselves...",
     "image": "./assets/portfolio/images/gettingOutThere/header.png"
   },
   {
@@ -12,7 +12,7 @@
     "date": "2021", 
     "link": "/portfolio/hugoBlogTutorial", 
     "tags": "Hugo • Github • Netlify • Markdown", 
-    "description": "",
+    "description": "This is a tutorial my partner and I created on how to create a website using Hugo and host it using Netlify. We presented this at the Blast Furnace Meetup and at the Newcastle Coders group.",
     "image": "./assets/portfolio/images/hugoBlogTutorial/header.png"
   },
   { 
@@ -20,7 +20,7 @@
       "date": "2018", 
       "link": "/portfolio/cyanX", 
       "tags": "2D • Game • Side scroller • Puzzle", 
-      "description": "A 2D platformer game set in the distant future. Solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals...",
+      "description": "A 2D platformer side-scroller game set in the distant future. The player must solve puzzles, level up, craft weapons and defeat enemies in order to rescue captured animals. There are 3 levels...",
       "image": "./assets/portfolio/images/cyanX/header.png"
   },
   { 
@@ -28,7 +28,7 @@
       "date": "2015", 
       "link": "/portfolio/iceCapades", 
       "tags": "2D • Game • Top-Down • Puzzle", 
-      "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, interact with objects, solve puzzles...",
+      "description": "Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change. You must pass through multiple levels, interact with objects, solve puzzles...",
       "image": "./assets/portfolio/images/iceCapades/header.PNG"
   },
   {
@@ -44,7 +44,7 @@
     "date": "2021", 
     "link": "/portfolio/docosummaries", 
     "tags": "Angular • Firebase", 
-    "description": "Docosummaries is a place where you can learn about new documentaries...",
+    "description": "Docosummaries is a place where you can learn about new documentaries, read plot summaries of documentaries, and find links where you could watch the documentaries for free online...",
     "image": "./assets/portfolio/images/docosummaries/header.jpg"
   },
   {
@@ -60,7 +60,7 @@
       "date": "2019", 
       "link": "/portfolio/calculator", 
       "tags": "C# • Tools", 
-      "description": "This is a simple calculator app that was made to replicate modern calculator apps that can be seen on smartphones...",
+      "description": "This is a simple calculator app that was made to replicate modern calculator apps that can be seen on smartphones. This is a Visual Studio Windows Form Application that runs on the desktop...",
       "image": "./assets/portfolio/images/calculator/header.PNG"
   }
 ]
