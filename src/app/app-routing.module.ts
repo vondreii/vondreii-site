@@ -12,7 +12,8 @@ import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-ite
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  // { path: '', component: HomeComponent },
+  { path: '', component: PageManagerComponent },
   // Portfolio and Blog lists
   { path: 'portfolio', component: PageManagerComponent },
   { path: 'blog', component: PageManagerComponent },
