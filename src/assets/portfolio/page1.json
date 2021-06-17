@@ -52,7 +52,7 @@
     "date": "2021", 
     "link": "/portfolio/excelAutomation", 
     "tags": "Python • Excel", 
-    "description": "",
+    "description": "These are a collection of Python automation scripts to help me with the data analysis for my research project, including cleaning the data and doing maths calculations...",
     "image": "./assets/portfolio/images/excelAutomation/header.png"
   },
   { 
