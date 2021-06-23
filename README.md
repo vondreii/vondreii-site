@@ -23,4 +23,4 @@ You can fill the form on the contact page at https://vondreii.com/contact.
 
 <br>
 
-![alt text](src/assets/images/vondreii.jpg)
+![alt text](src/assets/images/vondreii6.png)
