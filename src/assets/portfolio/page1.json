@@ -36,7 +36,7 @@
     "date": "2019", 
     "link": "/portfolio/streetRacingGame", 
     "tags": "3D • Game • Research • Racing", 
-    "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. The original game is a 3D street racing game where the player must avoid the obstacles on the road...",
+    "description": "This is a modified version of the street racing game sourced from this Microsoft's Github repository. This is a 3D street racing game where the player must avoid obstacles on the road...",
     "image": "./assets/portfolio/images/racingGame/header.jpg"
   },
   { 
@@ -44,7 +44,7 @@
     "date": "2021", 
     "link": "/portfolio/docosummaries", 
     "tags": "Angular • Firebase", 
-    "description": "Docosummaries is a place where you can learn about new documentaries, read plot summaries of documentaries, and find links where you could watch the documentaries for free online...",
+    "description": "Docosummaries is a place where you can learn about new documentaries, read their plot summaries, and find links where you could watch the documentaries for free online...",
     "image": "./assets/portfolio/images/docosummaries/header.jpg"
   },
   {
