@@ -5,6 +5,7 @@
 ##### Angular • Firebase
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -99,3 +100,6 @@ The newer design was designed by <a href=" https://www.sorakhan.com/">Sora Khan<
 * Database Design 
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

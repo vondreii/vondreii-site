@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 04 Oct 2020
 # Linking A Namecheap Domain To Firebase
 ___
@@ -189,3 +192,6 @@ Switch back to firebase, and press **finish**.
 Now you should be all set! You may still have to wait up to 24 hours for your website to start showing when you try to access it using your new bought domain name.
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

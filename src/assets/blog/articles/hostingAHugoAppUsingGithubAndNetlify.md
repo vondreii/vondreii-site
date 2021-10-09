@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 4 Jan 2021
 # Hosting a Hugo Application Using Github and Netlify
 ___
@@ -233,3 +236,6 @@ If you choose to add your custom domain name, you will then have to verify it an
 * <a class="cyanLink" href="https://gohugo.io/getting-started/installing/">Installing Hugo</a>.
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

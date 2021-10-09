@@ -5,6 +5,7 @@
 ##### Hugo • Github • Netlify • Markdown
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -60,3 +61,6 @@ A Hugo website can be created locally on someone's computer. They can push the c
 * Documenting
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

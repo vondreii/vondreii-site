@@ -5,6 +5,7 @@
 ##### 3D • Game • Research • Racing
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -118,3 +119,6 @@ GPU: Graphics card with DX10 (shader model 4.0) capabilities.
 3. Navigate to the Unity Folder. Select the play button at the top of the window.
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

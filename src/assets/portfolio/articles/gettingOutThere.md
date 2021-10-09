@@ -5,6 +5,7 @@
 ##### Podcast • Hugo • Github • Netlify
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -55,3 +56,6 @@ Both <a class="cyanLink" href="https://www.sorakhan.com/">Sora Khan</a> and I st
 * Audio editing and attention to details regarding random small sounds in the recording
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 12 Feb 2021
 # Building A Second Brain using Notion: Storing Everything You Know In One Place
 <hr>
@@ -250,3 +253,6 @@ For example, I am currently trying to improve my Angular skills and learn it the
 Notion is just an example of any tool you could use to store what you know and to better organise aspects of your life in a central place. These are just a few examples of how I have been using it, and I hope it has been helpful for you. Thank you for reading! :)    
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

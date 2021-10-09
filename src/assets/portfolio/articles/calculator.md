@@ -5,6 +5,7 @@
 ##### C# • Tools
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -52,3 +53,6 @@ This was made in my spare time while I was studying at the University of Newcast
 * The process of creating a desktop application
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

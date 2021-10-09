@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 22 Aug 2020
 # Setting Up A Github Repository and Creating A Local Copy
 ___
@@ -292,3 +295,6 @@ Everytime you make changes and you want to store it in the remote repository, yo
 * <a class="cyanLink" href="https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/">The Beginners Guide to Git and Github</a>
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

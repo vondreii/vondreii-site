@@ -5,6 +5,7 @@
 ##### 2D • Game • Side Scroller • Puzzle
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -188,3 +189,6 @@ Abilities you can unlock include earning more experience points for each animal 
 being able to craft more powerful weapons, being invincible to spikes and becoming an XP magnet (this is when experience points float towards you when you get within a reasonable range to them).
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

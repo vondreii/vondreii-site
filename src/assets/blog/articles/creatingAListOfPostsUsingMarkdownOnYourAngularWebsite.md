@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 11 Oct 2020
 # Creating a list of posts using Markdown on your Angular Website
 <hr>
@@ -699,3 +702,6 @@ You can view the completed source code for this <a class="cyanLink" href="https:
 * <a class="cyanLink" href="https://medium.com/@david.dalbusco/add-a-blog-to-your-angular-website-using-markdown-files-31cdb0627bdd">Add a blog to your Angular website using markdown files</a>
   
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

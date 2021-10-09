@@ -11,7 +11,12 @@ export class PortfolioItemComponent implements OnInit {
   post: string;
   href: string;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+  }
 
   // Opens the content for that individual page (located in ./assets/portfolio/articles/articleName)
   ngOnInit(): void {

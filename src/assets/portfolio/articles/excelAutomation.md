@@ -5,6 +5,7 @@
 ##### Python • Excel
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -71,3 +72,6 @@ The template was created so it was easier to create more automated scripts in th
 * I initially didn't do it because there was so much analysis, so when my parter created the initial script it inspired me to never go back to doing it manually again! So another thing I learnt is that if you can automate something within reasonable time contraints, do it.
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

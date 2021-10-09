@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 01 Apr 2021
 # Adding a Contact Form Using Formspree
 <hr>
@@ -128,3 +131,6 @@ Your form should now look similar to this:
 You can modify the form as you wish. Test it by sending a message through the form... which should now show in your email's inbox! You should also test replying back to the sender of the message by replying back to the email. 
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

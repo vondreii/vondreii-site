@@ -5,6 +5,7 @@
 ##### Clone • React • Firebase
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -54,3 +55,6 @@ I wanted to learn some of the basics of React. The tutorial explained some of th
 * A lot of new CSS tricks
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

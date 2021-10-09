@@ -1,5 +1,6 @@
 import { Content } from '@angular/compiler/src/render3/r3_ast';
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio-list',
@@ -14,7 +15,12 @@ export class PortfolioListComponent implements OnInit {
   numRows: number = 0;
   sortedRowsWithItems: Array<Array<Content>> = [];
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) {
+    this.route.params.subscribe(params => {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    });
+  }
 
   // number of items per row and array of items. result = [['a','b'], ['c','d'], ['e']]
   ngOnInit(): void {

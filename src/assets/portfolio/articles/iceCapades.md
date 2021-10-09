@@ -5,6 +5,7 @@
 ##### 2D • Game • Top-Down • Puzzle
 <hr>
 <br>
+<div class="article">
 <!--- ----------------- -->
 
 ## **About**
@@ -156,3 +157,6 @@ Here are the things you can walk into which cause the environment to be affected
 * **Keys:** Collecting keys allow you to open certain doors, including doors that lead to the next level.
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

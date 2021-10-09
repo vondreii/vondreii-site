@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 11 Aug 2020
 # Upload An Image To Instagram Using A Desktop Computer
 <hr>
@@ -58,3 +61,6 @@ If you click on the upload icon (the plus symbol in the very center of the menu 
 Now you should finally be able to upload photos to your Instagram account on your computer!
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>

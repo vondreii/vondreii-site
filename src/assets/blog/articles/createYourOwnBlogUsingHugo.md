@@ -1,3 +1,6 @@
+<div class="article">
+<!--- ----------------- -->
+
 ##### 27 Nov 2020
 # Creating Your Own Blog Using Hugo
 <hr>
@@ -471,3 +474,6 @@ You can view the final source code on <a class="cyanLink" href="https://github.c
 * <a class="cyanLink" href="https://gohugo.io/getting-started/installing/">Installing Hugo</a>
 
 <div class="pb-3"></div>
+
+<!--- ----------------- -->
+</div>
