@@ -1,11 +1,11 @@
 [
   {
-    "title": "Getting Out There", 
+    "title": "Netflix Clone", 
     "date": "2021", 
-    "link": "/portfolio/gettingOutThere", 
-    "tags": "Podcast • Hugo • Github • Netlify", 
-    "description": "This is a podcast I started with my partner in 2021, where we talk about experiences in work, life, and as students. It's about learning, growing and becoming better versions of ourselves...",
-    "image": "./assets/portfolio/images/gettingOutThere/header.png"
+    "link": "/portfolio/netflixClone", 
+    "tags": "Clone • React • Firebase", 
+    "description": "Following this tutorial from Youtube, I was able to build a clone of Netflix that pulls a list of movies using The Movie Database API, and display them in the style of the Netflix Home Page...",
+    "image": "./assets/portfolio/images/netflixClone/header.jpg"
   },
   {
     "title": "Hugo Tutorial Website", 
@@ -14,6 +14,14 @@
     "tags": "Hugo • Github • Netlify • Markdown", 
     "description": "This is a tutorial my partner and I created on how to create a website using Hugo and host it using Netlify. We presented this at the Blast Furnace Meetup and at the Newcastle Coders group...",
     "image": "./assets/portfolio/images/hugoBlogTutorial/header.png"
+  },
+  {
+    "title": "Getting Out There", 
+    "date": "2021", 
+    "link": "/portfolio/gettingOutThere", 
+    "tags": "Podcast • Hugo • Github • Netlify", 
+    "description": "This is a podcast I started with my partner in 2021, where we talk about experiences in work, life, and as students. It's about learning, growing and becoming better versions of ourselves...",
+    "image": "./assets/portfolio/images/gettingOutThere/header.png"
   },
   { 
       "title": "CyanX", 
