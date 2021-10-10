@@ -1,7 +1,31 @@
 .page-no {
-  padding:10px 20px;margin-right:20px;
-  background-color:lightgrey;text-decoration:none;color:#FFFFFF;border-radius:5px
+  padding: 10px 20px;
+  margin-right: 20px;
+  background-color: lightgrey;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
 }
 .page-no:hover {
-  background-color:#0cdbb2bd
+  background-color: #0cdbb2bd;
+}
+@media screen and (max-width: 1000px) {
+  .mobile-intro {
+    display: block;
+  }
+  .mobile-desktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .mobile-intro {
+    display: none;
+  }
+  .mobile-desktop {
+    display: block;
+  }
+}
+.mobile-intro h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }

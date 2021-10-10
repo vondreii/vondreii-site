@@ -17,7 +17,18 @@
 <!-- If portfolio -->
 <ng-template #something>
   <div class="content bg-grey">
-    <h3 class="mt-5 text-center">Projects</h3>
+    <!-- <div class="image-container">
+      <img class="image-full" src="../../assets/images/intro.PNG" alt="img"/>
+    </div> -->
+    <div class="mobile-intro">
+      <h1 class="mt-5 mb-5 text-black text-center">Hi there 👋 </h1>
+      <h1 class="mt-5 text-black text-center">I'm Vondreii and I work as a developer from Newcastle, Australia :)</h1>
+      <h3 class="mt-5 text-grey text-center">Projects</h3>
+      <h3 class="mb-2 text-grey text-center">ᐯ</h3>
+    </div>
+    <div class="mobile-desktop">
+      <h3 class="mt-5 text-grey text-center">Projects</h3>
+    </div>
     <br>
     <!-- List of portfolio items -->
     <app-portfolio-list [contentList]='itemsToDisplay' [currentPage]='currentPage'></app-portfolio-list>
