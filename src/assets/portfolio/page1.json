@@ -48,7 +48,7 @@
     "image": "./assets/portfolio/images/racingGame/header.jpg"
   },
   { 
-    "title": "DocoSummaries", 
+    "title": "Doco Summaries", 
     "date": "2021", 
     "link": "/portfolio/docosummaries", 
     "tags": "Angular • Firebase", 

@@ -1,14 +1,18 @@
 <!-- Rows of projects -->
 <div class="container">
-  <div class="row pb-5" *ngFor="let row of sortedRowsWithItems">
+  <div class="row" *ngFor="let row of sortedRowsWithItems">
     <!-- Each project item -->
     <div class="column" *ngFor="let item of row">
-        <div class="card bg-white">
+        <div class="card bg-white mb-5">
           <img src="{{item.image}}" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">{{item.title}}</h5>
-            <p class="card-text">{{item.description}}</p>
+            <div class="demo-1">
+              <h5>{{item.title}}</h5>
+              <p>{{item.description}}</p>
+            </div>
+            <div class="p-3"></div>
             <a href="{{item.link}}" class="button">Read More</a>
+            <div class="p-2"></div>
           </div>
         </div>
     </div>
