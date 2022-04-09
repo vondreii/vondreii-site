@@ -69,7 +69,7 @@ In the older design:
   
 <div class="pb-3"></div>
 
-The newer design was designed by <a href=" https://www.sorakhan.com/">Sora Khan</a>. He gave me the new designs using Adobe XD, and I changed the website to implement the new design. Now, it has:
+The newer design was designed by <a href=" https://www.sorakhan.com/" class="cyanLink">Sora Khan</a>. He gave me the new designs using Adobe XD, and I changed the website to implement the new design. Now, it has:
 * A more dynamic way of searching for documentaries. There is a sidebar that works dynamically and fetches the documentaries the user selects in real time.
 * An infinite scroll functionlity for the list that is returned.
 * Youtube embeds when you click 'Read More.'
