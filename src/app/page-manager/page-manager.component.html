@@ -1,18 +1,22 @@
 <!-- If Blog -->
-<div class="content bg-grey" *ngIf="blog; else something">
-  <br>
+<div *ngIf="blog; else something">
   <!-- Page Numbers -->
-  <div class="text-center mb-4">
+  <!-- <div class="text-center mb-4">
     <a (click)="changePageBlog(1)" routerLink="/blog" class="page-no">1</a>
     <a (click)="changePageBlog(2)" routerLink="/blog" class="page-no">2</a>
-  </div>
+  </div> -->
   <!-- List of blog items -->
-  <app-blog-list [contentList]='itemsToDisplay' [currentPage]='currentPage'></app-blog-list>
+  <div class="content bg-grey">
+    <div class="mobile-desktop">
+      <h3 class="mt-5 text-grey text-center">Blog</h3>
+    </div>
+    <app-blog-list [contentList]='itemsToDisplay' [currentPage]='currentPage'></app-blog-list>
+  </div>
   <!-- Page Numbers -->
-  <div class="text-center mb-5">
+  <!-- <div class="text-center mb-5">
     <a (click)="changePageBlog(1)" routerLink="/blog" class="page-no">1</a>
     <a (click)="changePageBlog(2)" routerLink="/blog" class="page-no">2</a>
-  </div>
+  </div> -->
 </div>
 <!-- If portfolio -->
 <ng-template #something>

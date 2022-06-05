@@ -10,6 +10,7 @@ import { PageManagerComponent } from './page-manager/page-manager.component';
 import { PortfolioListComponent } from './portfolio/portfolio-list/portfolio-list.component';
 import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-item.component';
 import { HomeComponent } from './home/home.component';
+import { BlogListComponent } from './blog/blog-list/blog-list.component';
 
 const routes: Routes = [
   // { path: '', component: HomeComponent },
