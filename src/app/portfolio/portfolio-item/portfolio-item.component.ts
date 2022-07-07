@@ -11,6 +11,7 @@ export class PortfolioItemComponent implements OnInit {
   post: string;
   href: string;
 
+  // Automatically scroll to the top of the page when page is refreshed
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
       document.body.scrollTop = 0;

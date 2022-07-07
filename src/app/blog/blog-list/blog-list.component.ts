@@ -12,6 +12,7 @@ export class BlogListComponent implements OnInit {
   @Input() contentList: any[] = [];
   @Input() currentPage: number = 1;
 
+  // Automatically scroll to the top of the page when page is refreshed
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
       document.body.scrollTop = 0;

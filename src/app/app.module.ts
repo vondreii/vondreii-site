@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
 
-// Imports for Markdown
 import { MarkdownModule } from 'ngx-markdown';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { BlogPostComponent } from './blog/blog-post/blog-post.component';
@@ -15,7 +14,6 @@ import { PageManagerComponent } from './page-manager/page-manager.component';
 import { PortfolioListComponent } from './portfolio/portfolio-list/portfolio-list.component';
 import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-item.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
@@ -29,7 +27,6 @@ import { NavbarComponent } from './navbar/navbar.component';
     PortfolioListComponent,
     PortfolioItemComponent,
     FooterComponent,
-    HomeComponent,
     NavbarComponent
   ],
   imports: [

@@ -15,6 +15,7 @@ export class PortfolioListComponent implements OnInit {
   numRows: number = 0;
   sortedRowsWithItems: Array<Array<Content>> = [];
 
+  // Automatically scroll to the top of the page when page is refreshed
   constructor(private route: ActivatedRoute) {
     this.route.params.subscribe(params => {
       document.body.scrollTop = 0;

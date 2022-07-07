@@ -23,11 +23,13 @@ export class AppComponent {
       this.navOpen = false;
     }
   }
+
   // Listens to window resize event
   @HostListener('window:resize', ['$event'])
     getScreenSize(event?) {
       this.screenWidth = window.innerWidth;
     }
+
   // Button to open/close the navbar
   openCloseNav() {
     if (this.navOpen) {
@@ -50,6 +52,7 @@ export class AppComponent {
     }
     this.navOpen = !this.navOpen;
   }
+  
   // For small screens, automatically close navbar if page selected
   closeNavOnClick() {
     if (this.screenWidth < 1000) {

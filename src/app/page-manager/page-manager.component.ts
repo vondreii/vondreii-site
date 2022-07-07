@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Content } from 'src/app/models/models';
 // Import posts per page
 import blogpage1 from '../../assets/blog/page1.json';
-import blogpage2 from '../../assets/blog/page2.json';
 // Import projects per page
 import portfoliopage1 from '../../assets/portfolio/page1.json';
 
@@ -13,12 +12,14 @@ import portfoliopage1 from '../../assets/portfolio/page1.json';
 })
 export class PageManagerComponent implements OnInit {
 
+  // This component is meant to be expanded on later, and it's purpose is to in the future manage multiple pages.
+  // Eg, "Next", or "1", "2", etc. Still WIP.
+
   // For finding window href link
   blog: boolean;
 
   // Posts already sorted into their different pages
   posts1: Content[] = blogpage1;
-  posts2: Content[] = blogpage2;
   portfolio1: Content[] = portfoliopage1;
 
   // Variables to keep track of current data to be displayed
@@ -42,10 +43,7 @@ export class PageManagerComponent implements OnInit {
     switch(pageNo) { 
       case 1: { 
         this.itemsToDisplay = this.posts1; this.currentPage = 1; break; 
-      } 
-      case 2: { 
-        this.itemsToDisplay = this.posts2; this.currentPage = 2; break; 
-      } 
+      }
       default: { 
          break; 
       } 

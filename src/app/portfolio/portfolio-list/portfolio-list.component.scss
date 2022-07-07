@@ -13,14 +13,6 @@ body {
   padding: 0 10px;
 }
 
-// @media screen and (max-width: 1500px) {
-//   .column {
-//     float: left;
-//     width: 50%;
-//     padding: 0 10px;
-//   }
-// }
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -49,9 +41,38 @@ body {
   }
 }
 
+.mobile-intro {
+  display:none;
+}
+
 .demo-1 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
+}
+
+@media screen and (max-width: 1000px) {
+  .mobile-intro {
+    display: block;
+  }
+
+  .mobile-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .mobile-intro {
+    display: none;
+  }
+
+  .mobile-desktop {
+    display: block;
+  }
+}
+
+.mobile-intro h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
