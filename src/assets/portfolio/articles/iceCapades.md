@@ -1,16 +1,11 @@
 <!--- ----------------- -->
-# Ice Capades
+# Top Down 2D Game
 <br>
 
 ##### 2D • Game • Top-Down • Puzzle
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 Ice Capades is a Pokemon-style inspired game that aims to teach players about the affects of climate change on the environment. You must pass through multiple levels, 
 interact with objects, solve puzzles and avoid enemies in order to make your way to the oil rig that is causing the ice in your village to melt.
@@ -28,7 +23,7 @@ interact with objects, solve puzzles and avoid enemies in order to make your way
 
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -36,7 +31,7 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
@@ -45,7 +40,7 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-## **What I Learnt or Improved**
+##### What I Learnt or Improved
 
 <div class="pb-3"></div>
 
@@ -61,11 +56,11 @@ This was made for an Info Tech course while studying at the University of Newcas
 
 <div class="pb-3"></div>
 
-## **Game Mechanics**
+##### Game Mechanics
 
 <div class="pb-3"></div>
 
-##### **Plot**
+##### Plot
 
 <div class="pb-3"></div>
 
@@ -74,7 +69,7 @@ built nearby and its operations have been slowly melting the ice due to the heat
 
 <div class="pb-3"></div>
 
-##### **Tutorial**
+##### Tutorial
 
 <div class="pb-3"></div>
 
@@ -89,7 +84,7 @@ This is the tutorial level where the game guides you through the basic gameplay.
 
 <div class="pb-3"></div>
 
-##### **Controls**
+##### Controls
 
 <div class="pb-3"></div>
 
@@ -98,7 +93,7 @@ This is the tutorial level where the game guides you through the basic gameplay.
 
 <div class="pb-3"></div>
 
-##### **Levels**
+##### Levels
 
 <div class="pb-3"></div>
 
@@ -126,7 +121,7 @@ After level 5 you are greeted by a thankful citizen who thanks you for saving th
 
 <div class="pb-3"></div>
 
-##### **Characters**
+##### Characters
 
 <div class="pb-3"></div>
 
@@ -134,7 +129,7 @@ The main character is the penguin (the player). There are different types of ene
 
 <div class="pb-3"></div>
 
-##### **Collectables**
+##### Collectables
 
 <div class="pb-3"></div>
 
@@ -145,7 +140,7 @@ The main character is the penguin (the player). There are different types of ene
 
 <div class="pb-3"></div>
 
-##### **Interactables**
+##### Interactables
 
 <div class="pb-3"></div>
 
@@ -155,8 +150,6 @@ Here are the things you can walk into which cause the environment to be affected
 
 * **Buttons:** Walking into these buttons would trigger certain blocks or stones to move allowing pathways to be cleared.
 * **Keys:** Collecting keys allow you to open certain doors, including doors that lead to the next level.
-
-<div class="pb-3"></div>
 
 <!--- ----------------- -->
 </div>

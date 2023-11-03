@@ -4,13 +4,8 @@
 
 ##### Clone • React • Firebase
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 Following <a class="cyanLink" href="https://www.youtube.com/watch?v=XtMThy8QKqU">this</a> tutorial from Youtube, I was able to build a clone of Netflix that pulls a list of movies using The Movie Database API, and display them in the style of the Netflix Home Page. 
 The tutorial was just over 3 hours long, but I spent a few afternoons splitting up the content so I could learn the content better. 
@@ -29,7 +24,7 @@ The Netflix Clone is hosted live using Firebase. You can visit it <a class="cyan
   
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -37,24 +32,12 @@ I wanted to learn some of the basics of React. The tutorial explained some of th
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
 * React
 * Firebase (for Hosting)
-
-<div class="pb-3"></div>
-
-## **What I Learnt or Improved**
-
-<div class="pb-3"></div>
-
-* Basic React skills
-* How to host a website using Firebase
-* A lot of new CSS tricks
-
-<div class="pb-3"></div>
 
 <!--- ----------------- -->
 </div>

@@ -4,13 +4,8 @@
 
 ##### 2D • Game • Side Scroller • Puzzle
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 CyanX is a 2D platformer game based in the distant future in a world known as Khandren. Flying robot enemies (also known as 'Nezbots') have captured animals and the player must solve puzzles, level up, craft weapons and defeat the Nezbots in order to reach and rescue the animals. 
   
@@ -28,7 +23,7 @@ CyanX is a 2D platformer game based in the distant future in a world known as Kh
   
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -36,22 +31,11 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
 * Unity C#
-
-<div class="pb-3"></div>
-
-## **What I Learnt or Improved**
-
-<div class="pb-3"></div>
-
-* C# Skills
-* Game development (including the updates and the 'looping' environment of games development) 
-* Consistency across the design of a game
-* Points, skills, and inventory management (especially when levelling up and crafting weapons using resources collected)
 
 <!-- ----------- Image ----------- -->
 <div class="image-container">
@@ -61,11 +45,7 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-## **Game Mechanics**
-
-<div class="pb-3"></div>
-
-##### **Controls**
+##### Controls
 	
 <div class="pb-3"></div>
 
@@ -77,7 +57,7 @@ This was made for a Games Production course while studying at the University of 
 
 <div class="pb-3"></div>
 
-##### **Main Menu**
+##### Main Menu
 
 <div class="pb-3"></div>
 
@@ -85,7 +65,7 @@ The main menu allows you to open the Craftbox, where you can craft weapons based
 
 <div class="pb-3"></div>
 
-##### **Locations**
+##### Locations
 
 <div class="pb-3"></div>
 
@@ -99,7 +79,7 @@ The concept design for this game included more than three locations. This game c
 
 <div class="pb-3"></div>
 
-##### **Collectables**
+##### Collectables
 
 <div class="pb-3"></div>
 
@@ -134,7 +114,7 @@ In addition to resources, you can also collect:
 
 <div class="pb-3"></div>
 
-##### **Crafting Weapons**
+##### Crafting Weapons
 
 <div class="pb-3"></div>
 
@@ -159,7 +139,7 @@ Once you have crafted a weapon, you can equip it anytime by navigating back to t
 
 <div class="pb-3"></div>
 
-##### **Enemies**
+##### Enemies
 
 <div class="pb-3"></div>
 
@@ -169,7 +149,7 @@ They do not stop chasing you until you run far enough, or until you kill them <b
 
 <div class="pb-3"></div>
 
-##### **Levelling Up**
+##### Levelling Up
 
 <div class="pb-3"></div>
 
@@ -187,8 +167,6 @@ The more experience points you collect, the more you are able to level up, there
 
 Abilities you can unlock include earning more experience points for each animal rescued, strengthened health, 
 being able to craft more powerful weapons, being invincible to spikes and becoming an XP magnet (this is when experience points float towards you when you get within a reasonable range to them).
-
-<div class="pb-3"></div>
 
 <!--- ----------------- -->
 </div>

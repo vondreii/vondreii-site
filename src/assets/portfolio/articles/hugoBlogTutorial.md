@@ -4,13 +4,8 @@
 
 ##### Hugo • Github • Netlify • Markdown
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 This tutorial was made for the <a class="cyanLink" href="https://blastfurnace.com.au/home">Blast Furnace</a> and <a class="cyanLink" href="https://www.meetup.com/en-AU/Newcastle-Coders-Group/">Newcastle Coder's Group</a> events in Newcastle, Australia. 
 
@@ -29,7 +24,7 @@ The tutorial goes through how to create a very simple website using Hugo (a Stat
   
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -41,7 +36,7 @@ A Hugo website can be created locally on someone's computer. They can push the c
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
@@ -50,17 +45,8 @@ A Hugo website can be created locally on someone's computer. They can push the c
 * Git Bash
 * Netlify
 
-<div class="pb-3"></div>
-
-## **What I Learnt or Improved**
-
-<div class="pb-3"></div>
-
-* Hugo skills
-* Hosting a website using Netlify
-* Documenting
-
-<div class="pb-3"></div>
+<hr>
+Made by Sharlene Von Drehnen
 
 <!--- ----------------- -->
 </div>

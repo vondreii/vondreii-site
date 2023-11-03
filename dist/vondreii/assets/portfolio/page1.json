@@ -32,7 +32,7 @@
     "image": "./assets/portfolio/images/cyanX/header.png"
   },
   { 
-    "title": "Ice Capades", 
+    "title": "Top Down 2D Game", 
     "date": "2015", 
     "link": "/portfolio/iceCapades", 
     "tags": "2D • Game • Top-Down • Puzzle", 
@@ -40,7 +40,7 @@
     "image": "./assets/portfolio/images/iceCapades/header.PNG"
   },
   {
-    "title": "3D Racing Game", 
+    "title": "UoN Cognitive Load Research", 
     "date": "2019", 
     "link": "/portfolio/streetRacingGame", 
     "tags": "3D • Game • Research • Racing", 

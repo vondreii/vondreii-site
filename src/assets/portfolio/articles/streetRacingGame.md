@@ -1,20 +1,13 @@
 <!--- ----------------- -->
-# 3D Street Racing Game
+# UoN Cognitive Load Research
 <br>
 
 ##### 3D • Game • Research • Racing
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
 
-## **About**
-
-<div class="pb-3"></div>
-
 This is a modified version of the street racing game sourced from <a class="cyanLink" href="https://github.com/Microsoft/Imagine_street-racing">this Microsoft's Github repository</a>.
-
-<div class="pb-3"></div>
 
 The original game is a 3D street racing game where the player must avoid the obstacles on the road. The player scores points when avoiding these obstacles. 
 The original game involved racing for as long as you possible without hitting any obstacles, as the speed increased. If you hit any obstacles during the game, the game would end.
@@ -31,7 +24,7 @@ The original game involved racing for as long as you possible without hitting an
 
 <div class="pb-3"></div>
 
-## **Background / Context**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -42,7 +35,7 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
@@ -50,21 +43,7 @@ Extra obstacles were added such as roadblocks. The game was also changed to auto
 
 <div class="pb-3"></div>
 
-## **What I Learnt / Improved**
-
-<div class="pb-3"></div>
-
-* C# and Game Development skills
-* Real time data collection from a game (reading data such as points & hits, and storing them dynamically into csv files) 
-* Using Unity to display slideshows and an interface. Since the game was research related, slides and explanations needed to be displayed before the game actually started.
-
-<div class="pb-3"></div>
-
-## **Game Mechanics**
-
-<div class="pb-3"></div>
-
-##### **Controls**
+##### Controls
 
 <div class="pb-3"></div>
 
@@ -75,13 +54,12 @@ You also could not die when hitting obstacles. The game simply records the numbe
 
 <div class="pb-3"></div>
 
-##### **Data Collection**
+##### Data Collection
 
 <div class="pb-3"></div>
 
 The game could also record all game statistics. This included things like:
 
-<div class="pb-3"></div>
 
 * The current coordinates of the player for every frame
 * The number of points added when passing cars
@@ -101,24 +79,22 @@ The game could also record all game statistics. This included things like:
 <div class="pb-3"></div>
 
 
-##### **Running the Game**
+##### Running the Game
 
 <div class="pb-3"></div>
 
 To run the game using unity, please ensure you have installed Unity on your PC (2017
 versions or higher).\
-\
 System Requirements for Unity:\
 OS : Windows 7 SP1+, 8, 10, 64-bit versions only; Mac OS X 10.11+.\
 GPU: Graphics card with DX10 (shader model 4.0) capabilities.
-
-<div class="pb-3"></div>
 
 1. Run Unity
 2. Select ‘Open’
 3. Navigate to the Unity Folder. Select the play button at the top of the window.
 
-<div class="pb-3"></div>
+<hr>
+Made by Sharlene Von Drehnen
 
 <!--- ----------------- -->
 </div>

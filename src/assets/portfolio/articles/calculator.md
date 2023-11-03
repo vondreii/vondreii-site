@@ -4,13 +4,8 @@
 
 ##### C# • Tools
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 This is a simple calculator app that was made to replicate modern calculator apps that can be seen on smartphones.
   
@@ -27,7 +22,7 @@ This is a simple calculator app that was made to replicate modern calculator app
   
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -35,24 +30,12 @@ This was made in my spare time while I was studying at the University of Newcast
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
 * Visual Studio Windows Form Application
 * C#
-
-<div class="pb-3"></div>
-
-## **What I Learnt or Improved**
-
-<div class="pb-3"></div>
-
-* C# Skills
-* Dealing with edge cases and exceptions, like the user inputting something like "5XXXXX7"
-* The process of creating a desktop application
-
-<div class="pb-3"></div>
 
 <!--- ----------------- -->
 </div>

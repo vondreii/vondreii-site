@@ -4,13 +4,8 @@
 
 ##### Python • Excel
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 This is a collection of Python automation scripts to help me with the data analysis for my research project on 
 <a class="cyanLink" href="/portfolio/streetRacingGame">Cognitive Load</a>.
@@ -28,7 +23,7 @@ This is a collection of Python automation scripts to help me with the data analy
   
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 Each participant was required to play two versions of a game. For each version, they needed to play the game three times. In total, one participant had 6 excel files. In total there were 40 participants. 40*6 = 240 excel files. This is a very time consuming process so <a class="cyanLink" href="https://www.sorakhan.com/">my partner</a> suggested to automate this process.
 
@@ -56,22 +51,11 @@ The template was created so it was easier to create more automated scripts in th
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
 * Python Script
-
-<div class="pb-3"></div>
-
-## **What I Learnt or Improved**
-
-<div class="pb-3"></div>
-
-* I never scripted in Python before to read excel files. 
-* I initially didn't do it because there was so much analysis, so when my parter created the initial script it inspired me to never go back to doing it manually again! So another thing I learnt is that if you can automate something within reasonable time contraints, do it.
-
-<div class="pb-3"></div>
 
 <!--- ----------------- -->
 </div>

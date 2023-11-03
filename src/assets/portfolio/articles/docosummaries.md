@@ -4,13 +4,8 @@
 
 ##### Angular • Firebase
 <hr>
-<br>
 <div class="article">
 <!--- ----------------- -->
-
-## **About**
-
-<div class="pb-3"></div>
 
 Docosummaries is a place where you can learn about new documentaries, read plot summaries of documentaries, and find links where you could watch the documentaries for free online.
 
@@ -27,7 +22,7 @@ Docosummaries is a place where you can learn about new documentaries, read plot 
   
 <div class="pb-3"></div>
 
-## **Background**
+##### Background
 
 <div class="pb-3"></div>
 
@@ -39,7 +34,7 @@ I have compiled my own list of documentaries in one place where I tag them based
 
 <div class="pb-3"></div>
 
-## **Design**
+##### Design
 
 <div class="pb-3"></div>
 
@@ -78,7 +73,7 @@ The newer design was designed by <a href=" https://www.sorakhan.com/" class="cya
 
 <div class="pb-3"></div>
 
-## **Tech Stack**
+##### Tech Stack
 
 <div class="pb-3"></div>
 
@@ -87,19 +82,6 @@ The newer design was designed by <a href=" https://www.sorakhan.com/" class="cya
 * Firebase Cloud Firestore
 * NodeJS
 * Future plans include using APIs to get existing documentaries from established websites but for now the focus is on lesser known documentaries that float around the internet.
-
-<div class="pb-3"></div>
-
-## **What I Learnt or Improved**
-
-<div class="pb-3"></div>
-
-* How to link an Angular website to a Firebase Database 
-* Utilising services and Firebase queries to access and retrieve data
-* Creating a basic search bar that can search for documentaries based on title, decription, category or keyword
-* Database Design 
-
-<div class="pb-3"></div>
 
 <!--- ----------------- -->
 </div>
