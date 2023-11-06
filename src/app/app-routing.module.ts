@@ -3,25 +3,32 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 // Imports for Components
-import { AboutMeComponent } from './about-me/about-me.component';
 import { ContactComponent } from './contact/contact.component';
-import { BlogPostComponent } from './blog/blog-post/blog-post.component';
-import { PageManagerComponent } from './page-manager/page-manager.component';
-import { PortfolioListComponent } from './portfolio/portfolio-list/portfolio-list.component';
-import { PortfolioItemComponent } from './portfolio/portfolio-item/portfolio-item.component';
-import { BlogListComponent } from './blog/blog-list/blog-list.component';
+import { HomeComponent } from './home/home.component';
+
+import { ProjectCalculatorComponent } from './projects/project-calculator/project-calculator.component';
+import { ProjectCyanxComponent } from './projects/project-cyanx/project-cyanx.component';
+import { ProjectDocosummariesComponent } from './projects/project-docosummaries/project-docosummaries.component';
+import { ProjectExcelAutomationComponent } from './projects/project-excel-automation/project-excel-automation.component';
+import { ProjectHugoTutorialComponent } from './projects/project-hugo-tutorial/project-hugo-tutorial.component';
+import { ProjectNetflixCloneComponent } from './projects/project-netflix-clone/project-netflix-clone.component';
+import { ProjectTopDownGameComponent } from './projects/project-top-down-game/project-top-down-game.component';
+import { ProjectUonCognitiveLoadComponent } from './projects/project-uon-cognitive-load/project-uon-cognitive-load.component';
+import { ProjectWindowsFileManagerComponent } from './projects/project-windows-file-manager/project-windows-file-manager.component';
 
 const routes: Routes = [
-  { path: '', component: PageManagerComponent },
-  // Portfolio and Blog lists
-  { path: 'portfolio', component: PageManagerComponent },
-  { path: 'blog', component: PageManagerComponent },
-  // Individual pages
-  { path: 'portfolio/:project', component: PortfolioItemComponent },
-  { path: 'blog/:article', component: BlogPostComponent },
-  // About and contact
-  { path: 'about-me', component: AboutMeComponent },
+  { path: '', component: HomeComponent },
   { path: 'contact', component: ContactComponent },
+  
+  { path: 'projects/calculator', component: ProjectCalculatorComponent },
+  { path: 'projects/cyanx', component: ProjectCyanxComponent },
+  { path: 'projects/docosummaries', component: ProjectDocosummariesComponent },
+  { path: 'projects/excel-automation', component: ProjectExcelAutomationComponent },
+  { path: 'projects/hugo-tutorial', component: ProjectHugoTutorialComponent },
+  { path: 'projects/netflix-clone', component: ProjectNetflixCloneComponent },
+  { path: 'projects/top-down-game', component: ProjectTopDownGameComponent },
+  { path: 'projects/uon-cognitive-load', component: ProjectUonCognitiveLoadComponent },
+  { path: 'projects/windows-file-manager', component: ProjectWindowsFileManagerComponent },
   
 ]
 

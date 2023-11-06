@@ -1,0 +1,22 @@
+<div class="">
+  <h3 class="mt-5 text-grey text-center">Projects</h3>
+  <br>
+</div>
+<div class="container">
+  <div class="row" *ngFor="let row of contentList">
+    <div class="column" *ngFor="let item of row">
+      <div class="card bg-white mb-5">
+        <img src="{{item.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div class="demo-1">
+            <h5>{{item.title}}</h5>
+            <p>{{item.description}}</p>
+          </div>
+          <div class="p-3"></div>
+          <a href="{{item.link}}" class="button">Read More</a>
+          <div class="p-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
