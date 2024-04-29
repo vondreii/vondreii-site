@@ -2,7 +2,7 @@
 
 ## About 
 
-This is the code for my personal website, https://vondreii.com.
+This is the code for my personal website, https://vondreii.netlify.app/
 
 The website lists some of the major projects I have worked on. It also contains a blog of technologies I have been learning and writing about.
 
@@ -19,7 +19,7 @@ The website lists some of the major projects I have worked on. It also contains 
 
 ## Contact
 
-You can fill the form on the contact page at https://vondreii.com/contact.
+You can fill the form on the contact page at https://vondreii.netlify.app/contact.
 
 <br>
 
